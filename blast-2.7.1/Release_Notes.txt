@@ -1,0 +1,158 @@
+BLAST 2.7.1 RELEASE NOTES
+=========================
+
+This version fixes a couple of bugs exposed at the Competition on
+Software Verification at TACAS'12.  We advise you to use 2.7.1 instead
+of 2.7.
+
+Analysis:
+- Fix bug that all undefined local variables, such as
+  int __VERIFIER_nondet_int() { int val; return val; },
+  were treated as equal in all calls of a function.
+
+Infrastructure improvements:
+- Binary builds are now compatible with RHEL 5.
+
+
+BLAST 2.7 RELEASE NOTES
+=======================
+
+This version release was submitted to the Competition on Software
+Verification at TACAS'12.  See -sv-comp option.
+
+Analysis speedup:
+- Fast and sound algorithm for alias analysis for pointers to
+  structures without dereference depth limit enforced.  Does not
+  terminate on some programs with arbitrary-depth lists.
+- Add some normalization for better caching of postcondition requests.
+- Improved performance of lattice states merge.
+
+New features:
+- Re-animated function pointer support (-fp), which, however, doesn't
+  distpatch correctly two or more functions aliased by the pointer.
+- Updated 64- and 32-bit versions of CSIsat allow you to analyze
+  programs with as large numbers as your architecture supports.
+
+Infrastructure improvements:
+- Separated supported and unsupported options.  Most recently added
+  options has ben made default.
+- Regression test suite may work in "competition" mode.
+
+Bug fixes:
+- Formulae caching in O(logN) useful blocks algorithm fixed (less
+  FOCIinterface.SAT exceptions).
+
+
+BLAST 2.6 RELEASE NOTES
+=======================
+
+Analysis speedup:
+- Speedup ranges from 8 times on small-sized programs to 30 times on
+	medium-sized programs
+- Logarithmic algorithm for useful-blocks (significantly speedup of
+	trace analysis)
+- Improved integration with SMT solvers
+	- efficient string concatenation
+	- caching of converted formulae
+	- optimization of CVC3 options for BLAST use cases
+- Formulae normalization has been moved to solvers since solvers do it
+	faster (option -skipnorm)
+- Alias analysis speedup
+	- must-aliases are handled separately and faster than may-aliases
+		(option -nomusts)
+	- removed unnecessary debug prints from alias iteration (even a check
+		for debug flag impacts performance significantly in hot places)
+- BLAST-specific tuning of OCaml virtual machine options (script
+	"ocamltune")
+
+Important bug fixes:
+- Fixed unsound analysis when lattices are used (options -stop-sep and
+	-merge) (Time of analysis has been increased by a factor of 1.5, but
+	the inherent imprecision in lattices no longer makes BLAST miss bugs)
+- bool-to-int casting in function calls fixed
+
+Frontend:
+- C frontend (CIL) uplift, fixes and workarounds (see -ignoredupfn and
+	-nosserr options)
+- Some errors have been made warnings
+
+New features:
+- constrain stack depth to be analyzed; see options -fdepth,
+	-important-attrs, and -inline-attrs
+- treat constant pointers as must aliases (see option -const)
+
+Infrastructure improvements:
+- Regression test suite improved
+- Got rid of non-free software (Simplify solver was replaced by CVC3,
+	ditched unused Vampyre, FOCI, and CLPprover)
+
+
+BLAST 2.5 RELEASE NOTES
+=======================
+
+New features added in release 2.5:
+
+We have integrated the new interpolation procedure CSIsat, version 1.2.
+CSIsat is now the default interpolator in BLAST.  FOCI and CLPprover can
+still be used by explicitly choosing it on the command line.  CSIsat is
+integrated using the modular mechanism that we used in BLAST 2.4 for
+FOCI.
+
+BLAST is now released under the Apache 2.0 license.
+
+
+This distribution of BLAST includes the following third party
+components:
+- Interpolation procedure CSIsat, version 1.2 (NEW),
+- Interpolation procedure FOCI,
+- Interpolation procedure CLP-Prover,
+- Theorem prover Simplify (version 1.5.4, 4 October 2001)
+- BDD-package CUDD
+- Compiler frontend CIL
+
+
+BLAST 2.4 RELEASE NOTES
+=======================
+
+- Interpolation procedure separated from the model-checking engine.
+	Blast 2.4 includes a new interface for interpolation procedures that
+	makes it easier to integrate alternative programs.  Currently, two
+	external executables for interpolation are integrated: FOCI and
+	CLP-Prover.
+
+- Theorem-prover interface based on the SMT-LIB expression language.
+	Blast 2.4 still uses Simplify as default theorem prover.  But by
+	editing the configure file 'smt_solver' and using option '-smt', any
+	solver that supports the SMT-LIB standard can be plugged-in as
+	external executable. http://combination.cs.uiowa.edu/smtlib/ See also
+	smt_lib/server/README.
+
+
+Integration concept for external solvers (FOCI, SMT-Solvers):
+
+For each solver that is integrated as external program, there is a
+server process that does the following:
+1. Start solver program as separate process.
+2. Wait for query from BLAST and give it to the solver process.
+3. Get the result from the solver and give it back to BLAST.
+4. Go to step 1 after the solver process is terminated.
+
+FOCI: The performance loss due to the restarts of executables is kept
+minimal by the server process -- it not even doubles the run times.  (In
+the current version, FOCI needs to be killed in step 4 if an error
+occurred.)
+
+CLP-Prover: This tool is based on constraint solving, and therefore,
+when a lot of disjunctions occur, it shows exponential blow-up.
+(CLP-Prover can be repeatedly queried and does not need to be terminated
+in step 4.)
+
+SMT-Solvers: Compared to Simplify, the SMT solvers that we have tried
+suffered a lot from getting identical parts of a formula again and
+again, whereas Simplify supports a 'context stack' on which we can keep
+parts of formulas that would otherwise occur in many queries.  There is
+potential for optimization, since we do not use the power that the
+SMT-solvers provide, e.g., encoding array and pointer operations on a
+higher level supported by the SMT-solvers.  We successfully tried Yices,
+CVC3, and z3.  http://combination.cs.uiowa.edu/smtlib/
+

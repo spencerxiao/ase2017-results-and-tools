@@ -1,0 +1,37 @@
+[32mAnnotated program after forward analysis[m
+var x : int, y : int;
+begin
+  /* [31m(L2 C5) [|y=0 mod 1; x=0 mod 1|][m */
+  x = 0; /* [31m(L3 C8) [|x=0; y=0 mod 1; x=0|][m */
+  y = 0; /* [31m(L4 C8) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+  while brandom do
+    /* [31m(L5 C20) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+    if brandom then
+       /* [31m(L6 C21) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+       x = x +_i,? 1; /* [31m(L7 C18)
+                         [|100x-y-100>=0; y=0 mod 1; x=0 mod 1|][m */
+       y = y +_i,? 100; /* [31m(L8 C20)
+                           [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+    else
+      /* [31m(L9 C8) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+      if brandom then
+        /* [31m(L10 C23) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+        if x >= 4 then
+          /* [31m(L11 C24) [|x-4>=0; 100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+          x = x +_i,? 1; /* [31m(L12 C22)
+                            [|x-5>=0; 100x-y-100>=0; y=0 mod 1; x=0 mod 1|][m */
+          y = y +_i,? 1; /* [31m(L13 C22)
+                            [|x-5>=0; 100x-y-99>=0; y=0 mod 1; x=0 mod 1|][m */
+        endif; /* [31m(L14 C14) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+        if x < 0 then
+          /* [31m(L16 C23) [|-x-1>=0; 100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+          y = y -_i,? 1; /* [31m(L17 C22)
+                            [|-x-1>=0; 100x-y-1>=0; y=0 mod 1; x=0 mod 1|][m */
+        endif; /* [31m(L18 C14) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+      endif; /* [31m(L19 C12) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+    endif; /* [31m(L20 C10) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+  done; /* [31m(L21 C7) [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+  assume x < 4 or y > 2; /* [31m(L22 C26)
+                            [|100x-y>=0; y=0 mod 1; x=0 mod 1|][m */
+end
+

@@ -1,0 +1,715 @@
+"disjunction.ml" 21 687 691 "disjunction.ml" 21 687 706
+type(
+  'a t Manager.t -> 'a t Abstract1.t -> Lincons1.earray
+)
+ident(
+  def to_lincons1_set "disjunction.ml" 28 903 903 "disjunction.ml" 1 0 -1
+)
+"disjunction.ml" 21 687 707 "disjunction.ml" 21 687 710
+type(
+  'a t Manager.t
+)
+ident(
+  def man "disjunction.ml" 21 687 711 "disjunction.ml" 26 870 901
+)
+"disjunction.ml" 21 687 711 "disjunction.ml" 21 687 715
+type(
+  'a t Abstract1.t
+)
+ident(
+  def abs1 "disjunction.ml" 22 718 720 "disjunction.ml" 26 870 901
+)
+"disjunction.ml" 22 718 724 "disjunction.ml" 22 718 727
+type(
+  Environment.t
+)
+ident(
+  def env "disjunction.ml" 23 752 754 "disjunction.ml" 26 870 901
+)
+"disjunction.ml" 22 718 730 "disjunction.ml" 22 718 734
+type(
+  'a t Abstract1.t
+)
+ident(
+  int_ref abs1 "disjunction.ml" 21 687 711 "disjunction.ml" 21 687 715
+)
+"disjunction.ml" 22 718 730 "disjunction.ml" 22 718 748
+type(
+  Environment.t
+)
+"disjunction.ml" 23 752 758 "disjunction.ml" 23 752 762
+type(
+  'a t Abstract0.t
+)
+ident(
+  def abs0 "disjunction.ml" 24 793 795 "disjunction.ml" 26 870 901
+)
+"disjunction.ml" 23 752 765 "disjunction.ml" 23 752 769
+type(
+  'a t Abstract1.t
+)
+ident(
+  int_ref abs1 "disjunction.ml" 21 687 711 "disjunction.ml" 21 687 715
+)
+"disjunction.ml" 23 752 765 "disjunction.ml" 23 752 789
+type(
+  'a t Abstract0.t
+)
+"disjunction.ml" 24 793 799 "disjunction.ml" 24 793 803
+type(
+  Lincons0.t array
+)
+ident(
+  def tab0 "disjunction.ml" 25 834 836 "disjunction.ml" 26 870 901
+)
+"disjunction.ml" 24 793 806 "disjunction.ml" 24 793 821
+type(
+  'a t Manager.t -> 'a t Abstract0.t -> Lincons0.t array
+)
+ident(
+  int_ref to_lincons0_set "disjunction.ml" 17 547 547 "disjunction.ml" 18 629 684
+)
+"disjunction.ml" 24 793 822 "disjunction.ml" 24 793 825
+type(
+  'a t Manager.t
+)
+ident(
+  int_ref man "disjunction.ml" 21 687 707 "disjunction.ml" 21 687 710
+)
+"disjunction.ml" 24 793 826 "disjunction.ml" 24 793 830
+type(
+  'a t Abstract0.t
+)
+ident(
+  int_ref abs0 "disjunction.ml" 23 752 758 "disjunction.ml" 23 752 762
+)
+"disjunction.ml" 24 793 806 "disjunction.ml" 24 793 830
+type(
+  Lincons0.t array
+)
+"disjunction.ml" 25 834 864 "disjunction.ml" 25 834 868
+type(
+  Lincons0.t array
+)
+ident(
+  int_ref tab0 "disjunction.ml" 24 793 799 "disjunction.ml" 24 793 803
+)
+"disjunction.ml" 26 870 895 "disjunction.ml" 26 870 898
+type(
+  Environment.t
+)
+ident(
+  int_ref env "disjunction.ml" 22 718 724 "disjunction.ml" 22 718 727
+)
+"disjunction.ml" 25 834 836 "disjunction.ml" 26 870 901
+type(
+  Lincons1.earray
+)
+"disjunction.ml" 24 793 795 "disjunction.ml" 26 870 901
+type(
+  Lincons1.earray
+)
+"disjunction.ml" 23 752 754 "disjunction.ml" 26 870 901
+type(
+  Lincons1.earray
+)
+"disjunction.ml" 22 718 720 "disjunction.ml" 26 870 901
+type(
+  Lincons1.earray
+)
+"disjunction.ml" 31 1042 1046 "disjunction.ml" 31 1042 1055
+type(
+  'a t Manager.t -> 'a t Abstract0.t -> 'a Abstract0.t array
+)
+ident(
+  def decompose "disjunction.ml" 32 1090 1090 "disjunction.ml" 1 0 -1
+)
+"disjunction.ml" 31 1042 1056 "disjunction.ml" 31 1042 1059
+type(
+  'a t Manager.t
+)
+ident(
+  def man "disjunction.ml" 31 1042 1060 "disjunction.ml" 31 1042 1089
+)
+"disjunction.ml" 31 1042 1060 "disjunction.ml" 31 1042 1063
+type(
+  'a t Abstract0.t
+)
+ident(
+  def abs "disjunction.ml" 31 1042 1066 "disjunction.ml" 31 1042 1089
+)
+"disjunction.ml" 31 1042 1066 "disjunction.ml" 31 1042 1069
+type(
+  'a Abstract0.t array * int -> 'a Abstract0.t array
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"disjunction.ml" 31 1042 1070 "disjunction.ml" 31 1042 1080
+type(
+  'a t Manager.t -> 'a t Abstract0.t -> 'a Abstract0.t array * int
+)
+ident(
+  int_ref _decompose "disjunction.ml" 28 903 903 "disjunction.ml" 29 990 1040
+)
+"disjunction.ml" 31 1042 1081 "disjunction.ml" 31 1042 1084
+type(
+  'a t Manager.t
+)
+ident(
+  int_ref man "disjunction.ml" 31 1042 1056 "disjunction.ml" 31 1042 1059
+)
+"disjunction.ml" 31 1042 1085 "disjunction.ml" 31 1042 1088
+type(
+  'a t Abstract0.t
+)
+ident(
+  int_ref abs "disjunction.ml" 31 1042 1060 "disjunction.ml" 31 1042 1063
+)
+"disjunction.ml" 31 1042 1069 "disjunction.ml" 31 1042 1089
+type(
+  'a Abstract0.t array * int
+)
+"disjunction.ml" 31 1042 1066 "disjunction.ml" 31 1042 1089
+type(
+  'a Abstract0.t array
+)
+"disjunction.ml" 36 1218 1222 "disjunction.ml" 36 1218 1244
+type(
+  'a Manager.t -> bool
+)
+ident(
+  def manager_is_disjunction "disjunction.ml" 39 1348 1348 "disjunction.ml" 1 0 -1
+)
+"disjunction.ml" 36 1218 1245 "disjunction.ml" 36 1218 1248
+type(
+  'a Manager.t
+)
+ident(
+  def man "disjunction.ml" 37 1251 1253 "disjunction.ml" 38 1290 1347
+)
+"disjunction.ml" 37 1251 1257 "disjunction.ml" 37 1251 1260
+type(
+  string
+)
+ident(
+  def str "disjunction.ml" 38 1290 1292 "disjunction.ml" 38 1290 1347
+)
+"disjunction.ml" 37 1251 1263 "disjunction.ml" 37 1251 1282
+type(
+  'a Manager.t -> string
+)
+ident(
+  ext_ref Manager.get_library
+)
+"disjunction.ml" 37 1251 1283 "disjunction.ml" 37 1251 1286
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "disjunction.ml" 36 1218 1245 "disjunction.ml" 36 1218 1248
+)
+"disjunction.ml" 37 1251 1263 "disjunction.ml" 37 1251 1286
+type(
+  string
+)
+"disjunction.ml" 38 1290 1293 "disjunction.ml" 38 1290 1307
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"disjunction.ml" 38 1290 1309 "disjunction.ml" 38 1290 1319
+type(
+  string -> int -> int -> String.t
+)
+ident(
+  ext_ref String.sub
+)
+"disjunction.ml" 38 1290 1320 "disjunction.ml" 38 1290 1323
+type(
+  string
+)
+ident(
+  int_ref str "disjunction.ml" 37 1251 1257 "disjunction.ml" 37 1251 1260
+)
+"disjunction.ml" 38 1290 1324 "disjunction.ml" 38 1290 1325
+type(
+  int
+)
+"disjunction.ml" 38 1290 1326 "disjunction.ml" 38 1290 1328
+type(
+  int
+)
+"disjunction.ml" 38 1290 1308 "disjunction.ml" 38 1290 1329
+call(
+  stack
+)
+type(
+  String.t
+)
+"disjunction.ml" 38 1290 1330 "disjunction.ml" 38 1290 1343
+type(
+  String.t
+)
+"disjunction.ml" 38 1290 1292 "disjunction.ml" 38 1290 1344
+call(
+  stack
+)
+type(
+  int
+)
+"disjunction.ml" 38 1290 1344 "disjunction.ml" 38 1290 1346
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"disjunction.ml" 38 1290 1346 "disjunction.ml" 38 1290 1347
+type(
+  int
+)
+"disjunction.ml" 38 1290 1292 "disjunction.ml" 38 1290 1347
+type(
+  bool
+)
+"disjunction.ml" 37 1251 1253 "disjunction.ml" 38 1290 1347
+type(
+  bool
+)
+"disjunction.ml" 39 1348 1352 "disjunction.ml" 39 1348 1374
+type(
+  'a t Manager.t -> 'b Manager.t
+)
+ident(
+  def manager_of_disjunction "disjunction.ml" 40 1427 1427 "disjunction.ml" 1 0 -1
+)
+"disjunction.ml" 39 1348 1376 "disjunction.ml" 39 1348 1379
+type(
+  'a t Manager.t
+)
+ident(
+  def man "disjunction.ml" 39 1348 1396 "disjunction.ml" 39 1348 1426
+)
+"disjunction.ml" 39 1348 1413 "disjunction.ml" 39 1348 1422
+type(
+  'a t Manager.t -> 'b Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"disjunction.ml" 39 1348 1423 "disjunction.ml" 39 1348 1426
+type(
+  'a t Manager.t
+)
+ident(
+  int_ref man "disjunction.ml" 39 1348 1376 "disjunction.ml" 39 1348 1379
+)
+"disjunction.ml" 39 1348 1413 "disjunction.ml" 39 1348 1426
+type(
+  'b Manager.t
+)
+type(
+  'b Manager.t
+)
+"disjunction.ml" 40 1427 1431 "disjunction.ml" 40 1427 1453
+type(
+  'a Manager.t -> 'b t Manager.t
+)
+ident(
+  def manager_to_disjunction "disjunction.ml" 45 1655 1655 "disjunction.ml" 1 0 -1
+)
+"disjunction.ml" 40 1427 1455 "disjunction.ml" 40 1427 1458
+type(
+  'a Manager.t
+)
+ident(
+  def man "disjunction.ml" 40 1427 1473 "disjunction.ml" 44 1554 1654
+)
+"disjunction.ml" 41 1492 1497 "disjunction.ml" 41 1492 1519
+type(
+  'a Manager.t -> bool
+)
+ident(
+  int_ref manager_is_disjunction "disjunction.ml" 36 1218 1222 "disjunction.ml" 36 1218 1244
+)
+"disjunction.ml" 41 1492 1520 "disjunction.ml" 41 1492 1523
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "disjunction.ml" 40 1427 1455 "disjunction.ml" 40 1427 1458
+)
+"disjunction.ml" 41 1492 1497 "disjunction.ml" 41 1492 1523
+call(
+  stack
+)
+type(
+  bool
+)
+"disjunction.ml" 42 1529 1533 "disjunction.ml" 42 1529 1542
+type(
+  'a Manager.t -> 'b t Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"disjunction.ml" 42 1529 1543 "disjunction.ml" 42 1529 1546
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "disjunction.ml" 40 1427 1455 "disjunction.ml" 40 1427 1458
+)
+"disjunction.ml" 42 1529 1533 "disjunction.ml" 42 1529 1546
+type(
+  'b t Manager.t
+)
+"disjunction.ml" 44 1554 1558 "disjunction.ml" 44 1554 1566
+type(
+  string -> 'b t Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"disjunction.ml" 44 1554 1567 "disjunction.ml" 44 1554 1654
+type(
+  string
+)
+"disjunction.ml" 44 1554 1558 "disjunction.ml" 44 1554 1654
+call(
+  tail
+)
+type(
+  'b t Manager.t
+)
+"disjunction.ml" 41 1492 1494 "disjunction.ml" 44 1554 1654
+type(
+  'b t Manager.t
+)
+type(
+  'b t Manager.t
+)
+"disjunction.ml" 46 1681 1687 "disjunction.ml" 46 1681 1701
+type(
+  'a Abstract0.t -> bool
+)
+ident(
+  def is_disjunction "disjunction.ml" 48 1759 1761 "disjunction.ml" 54 2053 2056
+)
+"disjunction.ml" 46 1681 1702 "disjunction.ml" 46 1681 1705
+type(
+  'a Abstract0.t
+)
+ident(
+  def abs "disjunction.ml" 47 1708 1712 "disjunction.ml" 47 1708 1758
+)
+"disjunction.ml" 47 1708 1712 "disjunction.ml" 47 1708 1734
+type(
+  'a Manager.t -> bool
+)
+ident(
+  int_ref manager_is_disjunction "disjunction.ml" 36 1218 1222 "disjunction.ml" 36 1218 1244
+)
+"disjunction.ml" 47 1708 1736 "disjunction.ml" 47 1708 1753
+type(
+  'a Abstract0.t -> 'a Manager.t
+)
+ident(
+  ext_ref Abstract0.manager
+)
+"disjunction.ml" 47 1708 1754 "disjunction.ml" 47 1708 1757
+type(
+  'a Abstract0.t
+)
+ident(
+  int_ref abs "disjunction.ml" 46 1681 1702 "disjunction.ml" 46 1681 1705
+)
+"disjunction.ml" 47 1708 1735 "disjunction.ml" 47 1708 1758
+type(
+  'a Manager.t
+)
+"disjunction.ml" 47 1708 1712 "disjunction.ml" 47 1708 1758
+call(
+  tail
+)
+type(
+  bool
+)
+"disjunction.ml" 48 1759 1765 "disjunction.ml" 48 1759 1779
+type(
+  'a0 t Abstract0.t -> 'b Abstract0.t
+)
+ident(
+  def of_disjunction "disjunction.ml" 49 1837 1839 "disjunction.ml" 54 2053 2056
+)
+"disjunction.ml" 48 1759 1781 "disjunction.ml" 48 1759 1784
+type(
+  'a0 t Abstract0.t
+)
+ident(
+  def abs "disjunction.ml" 48 1759 1804 "disjunction.ml" 48 1759 1836
+)
+"disjunction.ml" 48 1759 1823 "disjunction.ml" 48 1759 1832
+type(
+  'a0 t Abstract0.t -> 'b Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"disjunction.ml" 48 1759 1833 "disjunction.ml" 48 1759 1836
+type(
+  'a0 t Abstract0.t
+)
+ident(
+  int_ref abs "disjunction.ml" 48 1759 1781 "disjunction.ml" 48 1759 1784
+)
+"disjunction.ml" 48 1759 1823 "disjunction.ml" 48 1759 1836
+type(
+  'b Abstract0.t
+)
+type(
+  'b Abstract0.t
+)
+"disjunction.ml" 49 1837 1843 "disjunction.ml" 49 1837 1857
+type(
+  'a1 Abstract0.t -> 'b0 t Abstract0.t
+)
+ident(
+  def to_disjunction "disjunction.ml" 53 1954 2052 "disjunction.ml" 54 2053 2056
+)
+"disjunction.ml" 49 1837 1859 "disjunction.ml" 49 1837 1862
+type(
+  'a1 Abstract0.t
+)
+ident(
+  def abs "disjunction.ml" 49 1837 1879 "disjunction.ml" 53 1954 2052
+)
+"disjunction.ml" 50 1900 1905 "disjunction.ml" 50 1900 1919
+type(
+  'a1 Abstract0.t -> bool
+)
+ident(
+  int_ref is_disjunction "disjunction.ml" 46 1681 1687 "disjunction.ml" 46 1681 1701
+)
+"disjunction.ml" 50 1900 1920 "disjunction.ml" 50 1900 1923
+type(
+  'a1 Abstract0.t
+)
+ident(
+  int_ref abs "disjunction.ml" 49 1837 1859 "disjunction.ml" 49 1837 1862
+)
+"disjunction.ml" 50 1900 1905 "disjunction.ml" 50 1900 1923
+call(
+  stack
+)
+type(
+  bool
+)
+"disjunction.ml" 51 1929 1933 "disjunction.ml" 51 1929 1942
+type(
+  'a1 Abstract0.t -> 'b0 t Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"disjunction.ml" 51 1929 1943 "disjunction.ml" 51 1929 1946
+type(
+  'a1 Abstract0.t
+)
+ident(
+  int_ref abs "disjunction.ml" 49 1837 1859 "disjunction.ml" 49 1837 1862
+)
+"disjunction.ml" 51 1929 1933 "disjunction.ml" 51 1929 1946
+type(
+  'b0 t Abstract0.t
+)
+"disjunction.ml" 53 1954 1958 "disjunction.ml" 53 1954 1966
+type(
+  string -> 'b0 t Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"disjunction.ml" 53 1954 1967 "disjunction.ml" 53 1954 2052
+type(
+  string
+)
+"disjunction.ml" 53 1954 1958 "disjunction.ml" 53 1954 2052
+call(
+  tail
+)
+type(
+  'b0 t Abstract0.t
+)
+"disjunction.ml" 50 1900 1902 "disjunction.ml" 53 1954 2052
+type(
+  'b0 t Abstract0.t
+)
+type(
+  'b0 t Abstract0.t
+)
+"disjunction.ml" 56 2083 2089 "disjunction.ml" 56 2083 2103
+type(
+  'a Abstract1.t -> bool
+)
+ident(
+  def is_disjunction "disjunction.ml" 58 2161 2163 "disjunction.ml" 64 2455 2458
+)
+"disjunction.ml" 56 2083 2104 "disjunction.ml" 56 2083 2107
+type(
+  'a Abstract1.t
+)
+ident(
+  def abs "disjunction.ml" 57 2110 2114 "disjunction.ml" 57 2110 2160
+)
+"disjunction.ml" 57 2110 2114 "disjunction.ml" 57 2110 2136
+type(
+  'a Manager.t -> bool
+)
+ident(
+  int_ref manager_is_disjunction "disjunction.ml" 36 1218 1222 "disjunction.ml" 36 1218 1244
+)
+"disjunction.ml" 57 2110 2138 "disjunction.ml" 57 2110 2155
+type(
+  'a Abstract1.t -> 'a Manager.t
+)
+ident(
+  ext_ref Abstract1.manager
+)
+"disjunction.ml" 57 2110 2156 "disjunction.ml" 57 2110 2159
+type(
+  'a Abstract1.t
+)
+ident(
+  int_ref abs "disjunction.ml" 56 2083 2104 "disjunction.ml" 56 2083 2107
+)
+"disjunction.ml" 57 2110 2137 "disjunction.ml" 57 2110 2160
+call(
+  stack
+)
+type(
+  'a Manager.t
+)
+"disjunction.ml" 57 2110 2114 "disjunction.ml" 57 2110 2160
+call(
+  tail
+)
+type(
+  bool
+)
+"disjunction.ml" 58 2161 2167 "disjunction.ml" 58 2161 2181
+type(
+  'a0 t Abstract1.t -> 'b Abstract1.t
+)
+ident(
+  def of_disjunction "disjunction.ml" 59 2239 2241 "disjunction.ml" 64 2455 2458
+)
+"disjunction.ml" 58 2161 2183 "disjunction.ml" 58 2161 2186
+type(
+  'a0 t Abstract1.t
+)
+ident(
+  def abs "disjunction.ml" 58 2161 2206 "disjunction.ml" 58 2161 2238
+)
+"disjunction.ml" 58 2161 2225 "disjunction.ml" 58 2161 2234
+type(
+  'a0 t Abstract1.t -> 'b Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"disjunction.ml" 58 2161 2235 "disjunction.ml" 58 2161 2238
+type(
+  'a0 t Abstract1.t
+)
+ident(
+  int_ref abs "disjunction.ml" 58 2161 2183 "disjunction.ml" 58 2161 2186
+)
+"disjunction.ml" 58 2161 2225 "disjunction.ml" 58 2161 2238
+type(
+  'b Abstract1.t
+)
+type(
+  'b Abstract1.t
+)
+"disjunction.ml" 59 2239 2245 "disjunction.ml" 59 2239 2259
+type(
+  'a1 Abstract1.t -> 'b0 t Abstract1.t
+)
+ident(
+  def to_disjunction "disjunction.ml" 63 2356 2454 "disjunction.ml" 64 2455 2458
+)
+"disjunction.ml" 59 2239 2261 "disjunction.ml" 59 2239 2264
+type(
+  'a1 Abstract1.t
+)
+ident(
+  def abs "disjunction.ml" 59 2239 2281 "disjunction.ml" 63 2356 2454
+)
+"disjunction.ml" 60 2302 2307 "disjunction.ml" 60 2302 2321
+type(
+  'a1 Abstract1.t -> bool
+)
+ident(
+  int_ref is_disjunction "disjunction.ml" 56 2083 2089 "disjunction.ml" 56 2083 2103
+)
+"disjunction.ml" 60 2302 2322 "disjunction.ml" 60 2302 2325
+type(
+  'a1 Abstract1.t
+)
+ident(
+  int_ref abs "disjunction.ml" 59 2239 2261 "disjunction.ml" 59 2239 2264
+)
+"disjunction.ml" 60 2302 2307 "disjunction.ml" 60 2302 2325
+call(
+  stack
+)
+type(
+  bool
+)
+"disjunction.ml" 61 2331 2335 "disjunction.ml" 61 2331 2344
+type(
+  'a1 Abstract1.t -> 'b0 t Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"disjunction.ml" 61 2331 2345 "disjunction.ml" 61 2331 2348
+type(
+  'a1 Abstract1.t
+)
+ident(
+  int_ref abs "disjunction.ml" 59 2239 2261 "disjunction.ml" 59 2239 2264
+)
+"disjunction.ml" 61 2331 2335 "disjunction.ml" 61 2331 2348
+type(
+  'b0 t Abstract1.t
+)
+"disjunction.ml" 63 2356 2360 "disjunction.ml" 63 2356 2368
+type(
+  string -> 'b0 t Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"disjunction.ml" 63 2356 2369 "disjunction.ml" 63 2356 2454
+type(
+  string
+)
+"disjunction.ml" 63 2356 2360 "disjunction.ml" 63 2356 2454
+call(
+  tail
+)
+type(
+  'b0 t Abstract1.t
+)
+"disjunction.ml" 60 2302 2304 "disjunction.ml" 63 2356 2454
+type(
+  'b0 t Abstract1.t
+)
+type(
+  'b0 t Abstract1.t
+)

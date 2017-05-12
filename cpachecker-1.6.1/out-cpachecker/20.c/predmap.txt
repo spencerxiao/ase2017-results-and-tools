@@ -1,0 +1,37 @@
+(declare-fun |main::k| () Int)
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::m| () Int)
+(declare-fun |main::n| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::j| () Int)
+
+main:
+(assert (= (+ |main::x| |main::y|) |main::k|))
+(assert (<= 0 |main::m|))
+(assert (< |main::m| |main::n|))
+
+__VERIFIER_assume N3:
+(assert (= |__VERIFIER_assume::i| 0))
+(assert (= (+ |main::y| |main::x| (- |main::k|)) 0))
+
+main N13:
+(assert (= (+ |main::y| |main::x| (- |main::k|)) 0))
+(assert (= (+ |main::x| |main::y|) |main::k|))
+(assert (<= 0 |main::m|))
+(assert (< |main::m| |main::n|))
+(assert (= |main::m| 0))
+(assert (= |main::j| |main::m|))
+(assert (<= |main::j| (+ |main::m| 1)))
+(assert (= |main::j| 0))
+(assert (<= 0 (+ |main::j| (- 1))))
+(assert (<= 0 (+ |main::j| (- 2))))
+(assert (<= 0 (+ |main::m| (- 1))))
+(assert (<= 0 (+ |main::m| (- 2))))
+
+main N51:
+(assert false)
+(assert (= (+ |main::x| |main::y|) |main::k|))
+(assert (<= 0 |main::m|))
+(assert (< |main::m| |main::n|))
+

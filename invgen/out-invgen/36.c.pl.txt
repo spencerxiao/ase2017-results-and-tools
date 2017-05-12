@@ -1,0 +1,18 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/36.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([16,14]): pc(main-13-20) pc(main-20-20) {i>=j___0,z'=z,y'=y,x'=x,w'=w,tmp'=tmp,k'=k,j___0'=j___0,j'=j,i'=i,flag'=flag,d'=d,c'=c,b'=b,a'=a}
+[i>=j___0] [z'=z,y'=y,x'=x,w'=w,tmp'=tmp,k'=k,j___0'=j___0,j'=j,i'=i,flag'=flag,d'=d,c'=c,b'=b,a'=a]
+path([18,17,15,14]): pc(main-13-20) pc(main-13-20) {i+1=<j___0,z'=z,y'=y,x'=x,w'=w,tmp'=tmp,k'=k+1,j___0'=j___0,j'=j,i'=i+1,flag'=flag,d'=d,c'=c,b'=b,a'=a}
+[i+1=<j___0] [z'=z,y'=y,x'=x,w'=w,tmp'=tmp,k'=k+1,j___0'=j___0,j'=j,i'=i+1,flag'=flag,d'=d,c'=c,b'=b,a'=a]
+path([10,8]): pc(main-1-15) pc(main-12-15) {z'=z,y'=y,x'=x,w'=w,tmp'=tmp,k'=k,j___0'=j___0,j'=j,i'=i,flag'=flag,d'=d,c'=c,b'=b,a'=a}
+[] [z'=z,y'=y,x'=x,w'=w,tmp'=tmp,k'=k,j___0'=j___0,j'=j,i'=i,flag'=flag,d'=d,c'=c,b'=b,a'=a]
+path([13,12,11,9,8]): pc(main-1-15) pc(main-13-20) {z'=z,y'=y,x'=x,w'=w,tmp'=tmp,k'=0,j___0'=w,j'=j,i'=z,flag'=flag,d'=d,c'=c,b'=b,a'=a}
+[] [z'=z,y'=y,x'=x,w'=w,tmp'=tmp,k'=0,j___0'=w,j'=j,i'=z,flag'=flag,d'=d,c'=c,b'=b,a'=a]
+path([7,6,5,4,3,2,1]): pc(main-0-13) pc(main-1-15) {z'=0,y'=0,x'=0,w'=0,tmp'=tmp,k'=k,j___0'=j___0,j'=0,i'=i,flag'=flag,d'=d,c'=c,b'=0,a'=0}
+[] [z'=0,y'=0,x'=0,w'=0,tmp'=tmp,k'=k,j___0'=j___0,j'=0,i'=i,flag'=flag,d'=d,c'=c,b'=0,a'=0]
+
+#Printing Strengthening ==
+#=========================

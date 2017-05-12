@@ -1,0 +1,81 @@
+MODULE main
+	int w;
+	int z;
+	int x;
+	int y;
+
+	int turn;
+	int finish;
+
+	assume(w == 1);
+	assume(z == 0);
+	assume(x == 0);
+	assume(y == 0);
+
+	assume(turn == 0);
+	assume(finish == 0);
+
+	while(*){
+		if(turn == 0){
+			if(*){
+				turn = 1;
+			}
+			else{
+				turn = 2;
+			}
+		}
+		else{
+			skip;
+		}
+
+		if(turn == 1){
+			if(w % 2 == 1){
+				x = x + 1;
+			}
+			else{
+				skip;
+			}
+
+			if(z % 2 == 0){
+				y = y + 1;
+			}
+			else{
+				skip;
+			}
+			
+			if(*){
+				turn = 1;
+			}
+			else{
+				turn = 2;
+			}
+		}
+		else{
+			skip;
+		}
+
+		if(turn == 2){
+			z = x + y;
+			w = z + 1;
+
+			if(*){
+				turn = 2;
+			}
+			else{
+				turn = 0;
+			}
+		}
+		else{
+			skip;
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && x != y;

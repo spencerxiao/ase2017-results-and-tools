@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((flag <= 0) | (a = b))
+find an inductive invaraint  based on concrete reachables
+invariant size: 16
+interp: (not (and (not (<= flag 0)) (and (<= 4 turn) (and (not (= turn 0)) (not (= turn 3))))))
+The assertion is satisfied!
+forward [0] times
+backward [0] times, backtracks [0] times

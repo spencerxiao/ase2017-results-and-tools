@@ -1,0 +1,41 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::z| () Int)
+(declare-fun |main::k| () Int)
+
+main:
+(assert (= |main::x| |main::y|))
+(assert (= |main::y| |main::z|))
+
+main N7:
+(assert (<= |main::k| 0))
+(assert (<= 0 |main::k|))
+(assert (<= |main::y| |main::x|))
+(assert (<= |main::x| |main::y|))
+(assert (<= (+ (- |main::x|) |main::y|) 0))
+(assert (<= (+ (- |main::x|) |main::y| 1) 0))
+(assert (= |main::x| |main::y|))
+(assert (= |main::y| |main::z|))
+(assert (<= (+ |main::y| |main::z| |main::x|) 0))
+(assert (<= 0 (+ |main::y| |main::z| |main::x|)))
+(assert (<= |main::k| 3))
+(assert (<= 0 (+ |main::k| (- 3))))
+(assert (<= 0 (+ |main::z| |main::x| |main::y| (- 3))))
+(assert (<= (+ |main::z| |main::x| |main::y|) 3))
+(assert (<= 0 (+ |main::k| (- 6))))
+(assert (<= |main::k| 6))
+(assert (<= (* 3 (div (+ |main::y| (+ |main::x| (+ |main::z| (- 1)))) 3)) (+ |main::z| |main::x| |main::y| (- 3))))
+(assert (<= 0 (+ |main::k| (- 5))))
+(assert (<= 0 (+ |main::y| |main::z| |main::x| (- 6))))
+(assert (<= (* 3 (div (+ |main::x| (+ |main::z| (+ |main::y| (- 4)))) 3)) (+ |main::y| |main::z| |main::x| (- 6))))
+(assert (<= 0 (+ |main::k| (- 9))))
+(assert (<= 0 (+ |main::k| (- 8))))
+(assert (<= (* 3 (div (+ |main::k| (- 7)) 3)) (+ |main::k| (- 9))))
+(assert (<= (+ (- |main::y|) |main::x|) 0))
+(assert (<= (+ (- |main::y|) |main::x| 1) 0))
+
+main N31:
+(assert false)
+(assert (= |main::x| |main::y|))
+(assert (= |main::y| |main::z|))
+

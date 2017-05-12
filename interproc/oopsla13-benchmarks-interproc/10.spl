@@ -1,0 +1,29 @@
+var x:int, y:int, z:int, w:int;
+begin
+  x = 0;
+  y = 0;
+  z = 0;
+  w = 0;
+
+  while (brandom) do
+    if (not w == 0) then 
+      x = x +_i 1;
+      if ( w == 0) then
+        w = 1;
+      else
+        w = 0;
+      endif;
+    endif;
+
+    if ( z == 0) then 
+      y = y +_i 1;
+      if ( z== 0) then
+        z = 1;
+      else
+        z = 0;
+      endif;
+    endif;
+  done;
+
+  assume (x == y);
+end

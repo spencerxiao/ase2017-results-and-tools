@@ -1,0 +1,35 @@
+(declare-fun |main::m| () Int)
+(declare-fun |main::a| () Int)
+(declare-fun |main::j| () Int)
+
+main:
+(assert (<= |main::a| |main::m|))
+(assert (>= |main::a| (* (- 1) |main::m|)))
+
+main N10:
+(assert (<= 0 (+ |main::m| |main::a| (- 1))))
+(assert (<= 0 (+ |main::m| |main::a| (- 2))))
+(assert (<= 0 (+ |main::m| |main::a|)))
+(assert (<= |main::a| |main::m|))
+(assert (>= |main::a| (* (- 1) |main::m|)))
+(assert (<= |main::a| (+ |main::m| (- 1))))
+(assert (<= |main::a| (+ |main::m| (- 2))))
+(assert (<= 0 (+ |main::m| (- 1))))
+(assert (<= 0 (+ |main::j| |main::a| (- 1))))
+(assert (<= 0 |main::a|))
+(assert (<= 0 (+ |main::a| 1)))
+(assert (<= 0 (+ |main::a| (- 1))))
+(assert (<= 0 (+ |main::a| (- 2))))
+(assert (<= (+ |main::a| 2) 0))
+(assert (<= |main::a| 0))
+(assert (<= |main::a| (+ |main::j| (- 1))))
+(assert (<= |main::a| (- 1)))
+(assert (<= |main::a| 1))
+(assert (<= (+ |main::a| (- 1)) 0))
+(assert (<= |main::a| (- 2)))
+
+main N32:
+(assert false)
+(assert (<= |main::a| |main::m|))
+(assert (>= |main::a| (* (- 1) |main::m|)))
+

@@ -1,0 +1,24 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::i| () Int)
+(declare-fun |main::x| () Int)
+
+main:
+(assert (= |main::y| 0))
+
+main N5:
+(assert (= |main::y| |main::j|))
+(assert (= |main::x| |main::i|))
+(assert (= |main::y| 0))
+(assert (distinct |main::j| |main::i|))
+(assert (= |main::y| |main::x|))
+(assert (= (+ |main::y| (- |main::x|)) 0))
+(assert (<= |main::x| |main::y|))
+(assert (<= (- |main::y|) 0))
+(assert (<= |main::y| |main::x|))
+(assert (<= (+ (- |main::y|) 1) 0))
+
+main N18:
+(assert false)
+(assert (= |main::y| 0))
+

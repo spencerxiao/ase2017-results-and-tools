@@ -1,0 +1,2310 @@
+"texpr1.ml" 52 901 909 "texpr1.ml" 52 901 923
+type(
+  Environment.t -> expr -> Texpr0.expr
+)
+ident(
+  def expr0_of_expr1 "texpr1.ml" 52 901 901 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 52 901 924 "texpr1.ml" 52 901 927
+type(
+  Environment.t
+)
+ident(
+  def env "texpr1.ml" 52 901 928 "texpr1.ml" 68 1198 1199
+)
+"texpr1.ml" 52 901 928 "texpr1.ml" 52 901 932
+type(
+  expr
+)
+ident(
+  def expr "texpr1.ml" 53 935 935 "texpr1.ml" 68 1198 1199
+)
+"texpr1.ml" 53 935 941 "texpr1.ml" 53 935 945
+type(
+  expr
+)
+ident(
+  int_ref expr "texpr1.ml" 52 901 928 "texpr1.ml" 52 901 932
+)
+"texpr1.ml" 54 951 957 "texpr1.ml" 54 951 958
+type(
+  Coeff.t
+)
+ident(
+  def x "texpr1.ml" 54 951 962 "texpr1.ml" 54 951 974
+)
+"texpr1.ml" 54 951 953 "texpr1.ml" 54 951 958
+type(
+  expr
+)
+"texpr1.ml" 54 951 973 "texpr1.ml" 54 951 974
+type(
+  Coeff.t
+)
+ident(
+  int_ref x "texpr1.ml" 54 951 957 "texpr1.ml" 54 951 958
+)
+"texpr1.ml" 54 951 962 "texpr1.ml" 54 951 974
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 55 975 981 "texpr1.ml" 55 975 984
+type(
+  Var.t
+)
+ident(
+  def var "texpr1.ml" 55 975 988 "texpr1.ml" 55 975 1031
+)
+"texpr1.ml" 55 975 977 "texpr1.ml" 55 975 984
+type(
+  expr
+)
+"texpr1.ml" 55 975 1000 "texpr1.ml" 55 975 1022
+type(
+  Environment.t -> Var.t -> Dim.t
+)
+ident(
+  ext_ref Environment.dim_of_var
+)
+"texpr1.ml" 55 975 1023 "texpr1.ml" 55 975 1026
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 52 901 924 "texpr1.ml" 52 901 927
+)
+"texpr1.ml" 55 975 1027 "texpr1.ml" 55 975 1030
+type(
+  Var.t
+)
+ident(
+  int_ref var "texpr1.ml" 55 975 981 "texpr1.ml" 55 975 984
+)
+"texpr1.ml" 55 975 999 "texpr1.ml" 55 975 1031
+type(
+  Dim.t
+)
+"texpr1.ml" 55 975 988 "texpr1.ml" 55 975 1031
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 56 1032 1039 "texpr1.ml" 56 1032 1041
+type(
+  unop
+)
+ident(
+  def op "texpr1.ml" 57 1053 1053 "texpr1.ml" 61 1098 1099
+)
+"texpr1.ml" 56 1032 1042 "texpr1.ml" 56 1032 1043
+type(
+  expr
+)
+ident(
+  def e "texpr1.ml" 57 1053 1053 "texpr1.ml" 61 1098 1099
+)
+"texpr1.ml" 56 1032 1044 "texpr1.ml" 56 1032 1045
+type(
+  typ
+)
+ident(
+  def t "texpr1.ml" 57 1053 1053 "texpr1.ml" 61 1098 1099
+)
+"texpr1.ml" 56 1032 1046 "texpr1.ml" 56 1032 1047
+type(
+  round
+)
+ident(
+  def r "texpr1.ml" 57 1053 1053 "texpr1.ml" 61 1098 1099
+)
+"texpr1.ml" 56 1032 1034 "texpr1.ml" 56 1032 1048
+type(
+  expr
+)
+"texpr1.ml" 58 1066 1066 "texpr1.ml" 58 1066 1068
+type(
+  unop
+)
+ident(
+  int_ref op "texpr1.ml" 56 1032 1039 "texpr1.ml" 56 1032 1041
+)
+"texpr1.ml" 59 1070 1071 "texpr1.ml" 59 1070 1085
+type(
+  Environment.t -> expr -> Texpr0.expr
+)
+ident(
+  int_ref expr0_of_expr1 "texpr1.ml" 52 901 909 "texpr1.ml" 52 901 923
+)
+"texpr1.ml" 59 1070 1086 "texpr1.ml" 59 1070 1089
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 52 901 924 "texpr1.ml" 52 901 927
+)
+"texpr1.ml" 59 1070 1090 "texpr1.ml" 59 1070 1091
+type(
+  expr
+)
+ident(
+  int_ref e "texpr1.ml" 56 1032 1042 "texpr1.ml" 56 1032 1043
+)
+"texpr1.ml" 59 1070 1070 "texpr1.ml" 59 1070 1092
+call(
+  stack
+)
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 60 1094 1094 "texpr1.ml" 60 1094 1095
+type(
+  typ
+)
+ident(
+  int_ref t "texpr1.ml" 56 1032 1044 "texpr1.ml" 56 1032 1045
+)
+"texpr1.ml" 60 1094 1096 "texpr1.ml" 60 1094 1097
+type(
+  round
+)
+ident(
+  int_ref r "texpr1.ml" 56 1032 1046 "texpr1.ml" 56 1032 1047
+)
+"texpr1.ml" 57 1053 1053 "texpr1.ml" 61 1098 1099
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 62 1100 1108 "texpr1.ml" 62 1100 1110
+type(
+  binop
+)
+ident(
+  def op "texpr1.ml" 63 1126 1126 "texpr1.ml" 68 1198 1199
+)
+"texpr1.ml" 62 1100 1111 "texpr1.ml" 62 1100 1113
+type(
+  expr
+)
+ident(
+  def e1 "texpr1.ml" 63 1126 1126 "texpr1.ml" 68 1198 1199
+)
+"texpr1.ml" 62 1100 1114 "texpr1.ml" 62 1100 1116
+type(
+  expr
+)
+ident(
+  def e2 "texpr1.ml" 63 1126 1126 "texpr1.ml" 68 1198 1199
+)
+"texpr1.ml" 62 1100 1117 "texpr1.ml" 62 1100 1118
+type(
+  typ
+)
+ident(
+  def t "texpr1.ml" 63 1126 1126 "texpr1.ml" 68 1198 1199
+)
+"texpr1.ml" 62 1100 1119 "texpr1.ml" 62 1100 1120
+type(
+  round
+)
+ident(
+  def r "texpr1.ml" 63 1126 1126 "texpr1.ml" 68 1198 1199
+)
+"texpr1.ml" 62 1100 1102 "texpr1.ml" 62 1100 1121
+type(
+  expr
+)
+"texpr1.ml" 64 1140 1140 "texpr1.ml" 64 1140 1142
+type(
+  binop
+)
+ident(
+  int_ref op "texpr1.ml" 62 1100 1108 "texpr1.ml" 62 1100 1110
+)
+"texpr1.ml" 65 1144 1145 "texpr1.ml" 65 1144 1159
+type(
+  Environment.t -> expr -> Texpr0.expr
+)
+ident(
+  int_ref expr0_of_expr1 "texpr1.ml" 52 901 909 "texpr1.ml" 52 901 923
+)
+"texpr1.ml" 65 1144 1160 "texpr1.ml" 65 1144 1163
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 52 901 924 "texpr1.ml" 52 901 927
+)
+"texpr1.ml" 65 1144 1164 "texpr1.ml" 65 1144 1166
+type(
+  expr
+)
+ident(
+  int_ref e1 "texpr1.ml" 62 1100 1111 "texpr1.ml" 62 1100 1113
+)
+"texpr1.ml" 65 1144 1144 "texpr1.ml" 65 1144 1167
+call(
+  stack
+)
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 66 1169 1170 "texpr1.ml" 66 1169 1184
+type(
+  Environment.t -> expr -> Texpr0.expr
+)
+ident(
+  int_ref expr0_of_expr1 "texpr1.ml" 52 901 909 "texpr1.ml" 52 901 923
+)
+"texpr1.ml" 66 1169 1185 "texpr1.ml" 66 1169 1188
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 52 901 924 "texpr1.ml" 52 901 927
+)
+"texpr1.ml" 66 1169 1189 "texpr1.ml" 66 1169 1191
+type(
+  expr
+)
+ident(
+  int_ref e2 "texpr1.ml" 62 1100 1114 "texpr1.ml" 62 1100 1116
+)
+"texpr1.ml" 66 1169 1169 "texpr1.ml" 66 1169 1192
+call(
+  stack
+)
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 67 1194 1194 "texpr1.ml" 67 1194 1195
+type(
+  typ
+)
+ident(
+  int_ref t "texpr1.ml" 62 1100 1117 "texpr1.ml" 62 1100 1118
+)
+"texpr1.ml" 67 1194 1196 "texpr1.ml" 67 1194 1197
+type(
+  round
+)
+ident(
+  int_ref r "texpr1.ml" 62 1100 1119 "texpr1.ml" 62 1100 1120
+)
+"texpr1.ml" 63 1126 1126 "texpr1.ml" 68 1198 1199
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 53 935 935 "texpr1.ml" 68 1198 1199
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 69 1200 1204 "texpr1.ml" 69 1200 1218
+type(
+  Environment.t -> expr -> Texpr0.t
+)
+ident(
+  def texpr0_of_expr "texpr1.ml" 71 1271 1271 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 69 1200 1219 "texpr1.ml" 69 1200 1222
+type(
+  Environment.t
+)
+ident(
+  def env "texpr1.ml" 69 1200 1223 "texpr1.ml" 70 1230 1270
+)
+"texpr1.ml" 69 1200 1223 "texpr1.ml" 69 1200 1227
+type(
+  expr
+)
+ident(
+  def expr "texpr1.ml" 70 1230 1230 "texpr1.ml" 70 1230 1270
+)
+"texpr1.ml" 70 1230 1230 "texpr1.ml" 70 1230 1244
+type(
+  Texpr0.expr -> Texpr0.t
+)
+ident(
+  ext_ref Texpr0.of_expr
+)
+"texpr1.ml" 70 1230 1246 "texpr1.ml" 70 1230 1260
+type(
+  Environment.t -> expr -> Texpr0.expr
+)
+ident(
+  int_ref expr0_of_expr1 "texpr1.ml" 52 901 909 "texpr1.ml" 52 901 923
+)
+"texpr1.ml" 70 1230 1261 "texpr1.ml" 70 1230 1264
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 69 1200 1219 "texpr1.ml" 69 1200 1222
+)
+"texpr1.ml" 70 1230 1265 "texpr1.ml" 70 1230 1269
+type(
+  expr
+)
+ident(
+  int_ref expr "texpr1.ml" 69 1200 1223 "texpr1.ml" 69 1200 1227
+)
+"texpr1.ml" 70 1230 1245 "texpr1.ml" 70 1230 1270
+call(
+  stack
+)
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 70 1230 1230 "texpr1.ml" 70 1230 1270
+type(
+  Texpr0.t
+)
+"texpr1.ml" 71 1271 1275 "texpr1.ml" 71 1271 1282
+type(
+  Environment.t -> expr -> t
+)
+ident(
+  def of_expr "texpr1.ml" 77 1345 1345 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 71 1271 1283 "texpr1.ml" 71 1271 1286
+type(
+  Environment.t
+)
+ident(
+  def env "texpr1.ml" 71 1271 1287 "texpr1.ml" 74 1341 1342
+)
+"texpr1.ml" 71 1271 1287 "texpr1.ml" 71 1271 1291
+type(
+  expr
+)
+ident(
+  def expr "texpr1.ml" 71 1271 1294 "texpr1.ml" 74 1341 1342
+)
+"texpr1.ml" 72 1296 1305 "texpr1.ml" 72 1296 1319
+type(
+  Environment.t -> expr -> Texpr0.t
+)
+ident(
+  int_ref texpr0_of_expr "texpr1.ml" 69 1200 1204 "texpr1.ml" 69 1200 1218
+)
+"texpr1.ml" 72 1296 1320 "texpr1.ml" 72 1296 1323
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 71 1271 1283 "texpr1.ml" 71 1271 1286
+)
+"texpr1.ml" 72 1296 1324 "texpr1.ml" 72 1296 1328
+type(
+  expr
+)
+ident(
+  int_ref expr "texpr1.ml" 71 1271 1287 "texpr1.ml" 71 1271 1291
+)
+"texpr1.ml" 72 1296 1305 "texpr1.ml" 72 1296 1328
+call(
+  stack
+)
+type(
+  Texpr0.t
+)
+"texpr1.ml" 73 1330 1336 "texpr1.ml" 73 1330 1339
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 71 1271 1283 "texpr1.ml" 71 1271 1286
+)
+"texpr1.ml" 71 1271 1294 "texpr1.ml" 74 1341 1342
+type(
+  t
+)
+"texpr1.ml" 77 1345 1349 "texpr1.ml" 77 1345 1353
+type(
+  t -> t
+)
+ident(
+  def copy "texpr1.ml" 78 1405 1405 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 77 1345 1354 "texpr1.ml" 77 1345 1355
+type(
+  t
+)
+ident(
+  def e "texpr1.ml" 77 1345 1358 "texpr1.ml" 77 1345 1404
+)
+"texpr1.ml" 77 1345 1369 "texpr1.ml" 77 1345 1380
+type(
+  Texpr0.t -> Texpr0.t
+)
+ident(
+  ext_ref Texpr0.copy
+)
+"texpr1.ml" 77 1345 1381 "texpr1.ml" 77 1345 1382
+type(
+  t
+)
+ident(
+  int_ref e "texpr1.ml" 77 1345 1354 "texpr1.ml" 77 1345 1355
+)
+"texpr1.ml" 77 1345 1381 "texpr1.ml" 77 1345 1389
+type(
+  Texpr0.t
+)
+"texpr1.ml" 77 1345 1369 "texpr1.ml" 77 1345 1389
+type(
+  Texpr0.t
+)
+"texpr1.ml" 77 1345 1397 "texpr1.ml" 77 1345 1398
+type(
+  t
+)
+ident(
+  int_ref e "texpr1.ml" 77 1345 1354 "texpr1.ml" 77 1345 1355
+)
+"texpr1.ml" 77 1345 1397 "texpr1.ml" 77 1345 1402
+type(
+  Environment.t
+)
+"texpr1.ml" 77 1345 1358 "texpr1.ml" 77 1345 1404
+type(
+  t
+)
+"texpr1.ml" 78 1405 1409 "texpr1.ml" 78 1405 1419
+type(
+  Linexpr1.t -> t
+)
+ident(
+  def of_linexpr "texpr1.ml" 80 1498 1498 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 78 1405 1420 "texpr1.ml" 78 1405 1421
+type(
+  Linexpr1.t
+)
+ident(
+  def e "texpr1.ml" 78 1405 1424 "texpr1.ml" 78 1405 1496
+)
+"texpr1.ml" 78 1405 1435 "texpr1.ml" 78 1405 1452
+type(
+  Linexpr0.t -> Texpr0.t
+)
+ident(
+  ext_ref Texpr0.of_linexpr
+)
+"texpr1.ml" 78 1405 1453 "texpr1.ml" 78 1405 1454
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref e "texpr1.ml" 78 1405 1420 "texpr1.ml" 78 1405 1421
+)
+"texpr1.ml" 78 1405 1453 "texpr1.ml" 78 1405 1472
+type(
+  Linexpr0.t
+)
+"texpr1.ml" 78 1405 1435 "texpr1.ml" 78 1405 1472
+type(
+  Texpr0.t
+)
+"texpr1.ml" 78 1405 1480 "texpr1.ml" 78 1405 1481
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref e "texpr1.ml" 78 1405 1420 "texpr1.ml" 78 1405 1421
+)
+"texpr1.ml" 78 1405 1480 "texpr1.ml" 78 1405 1494
+type(
+  Environment.t
+)
+"texpr1.ml" 78 1405 1424 "texpr1.ml" 78 1405 1496
+type(
+  t
+)
+"texpr1.ml" 80 1498 1506 "texpr1.ml" 80 1498 1520
+type(
+  Environment.t -> Texpr0.expr -> expr
+)
+ident(
+  def expr1_of_expr0 "texpr1.ml" 80 1498 1498 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 80 1498 1521 "texpr1.ml" 80 1498 1524
+type(
+  Environment.t
+)
+ident(
+  def env "texpr1.ml" 80 1498 1525 "texpr1.ml" 96 1795 1796
+)
+"texpr1.ml" 80 1498 1525 "texpr1.ml" 80 1498 1529
+type(
+  Texpr0.expr
+)
+ident(
+  def expr "texpr1.ml" 81 1532 1532 "texpr1.ml" 96 1795 1796
+)
+"texpr1.ml" 81 1532 1538 "texpr1.ml" 81 1532 1542
+type(
+  Texpr0.expr
+)
+ident(
+  int_ref expr "texpr1.ml" 80 1498 1525 "texpr1.ml" 80 1498 1529
+)
+"texpr1.ml" 82 1548 1561 "texpr1.ml" 82 1548 1562
+type(
+  Coeff.t
+)
+ident(
+  def x "texpr1.ml" 82 1548 1566 "texpr1.ml" 82 1548 1571
+)
+"texpr1.ml" 82 1548 1550 "texpr1.ml" 82 1548 1562
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 82 1548 1570 "texpr1.ml" 82 1548 1571
+type(
+  Coeff.t
+)
+ident(
+  int_ref x "texpr1.ml" 82 1548 1561 "texpr1.ml" 82 1548 1562
+)
+"texpr1.ml" 82 1548 1566 "texpr1.ml" 82 1548 1571
+type(
+  expr
+)
+"texpr1.ml" 83 1572 1585 "texpr1.ml" 83 1572 1588
+type(
+  Dim.t
+)
+ident(
+  def dim "texpr1.ml" 83 1572 1592 "texpr1.ml" 83 1572 1628
+)
+"texpr1.ml" 83 1572 1574 "texpr1.ml" 83 1572 1588
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 83 1572 1597 "texpr1.ml" 83 1572 1619
+type(
+  Environment.t -> Dim.t -> Var.t
+)
+ident(
+  ext_ref Environment.var_of_dim
+)
+"texpr1.ml" 83 1572 1620 "texpr1.ml" 83 1572 1623
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 80 1498 1521 "texpr1.ml" 80 1498 1524
+)
+"texpr1.ml" 83 1572 1624 "texpr1.ml" 83 1572 1627
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "texpr1.ml" 83 1572 1585 "texpr1.ml" 83 1572 1588
+)
+"texpr1.ml" 83 1572 1596 "texpr1.ml" 83 1572 1628
+type(
+  Var.t
+)
+"texpr1.ml" 83 1572 1592 "texpr1.ml" 83 1572 1628
+type(
+  expr
+)
+"texpr1.ml" 84 1629 1643 "texpr1.ml" 84 1629 1645
+type(
+  Texpr0.unop
+)
+ident(
+  def op "texpr1.ml" 85 1657 1657 "texpr1.ml" 89 1695 1696
+)
+"texpr1.ml" 84 1629 1646 "texpr1.ml" 84 1629 1647
+type(
+  Texpr0.expr
+)
+ident(
+  def e "texpr1.ml" 85 1657 1657 "texpr1.ml" 89 1695 1696
+)
+"texpr1.ml" 84 1629 1648 "texpr1.ml" 84 1629 1649
+type(
+  Texpr0.typ
+)
+ident(
+  def t "texpr1.ml" 85 1657 1657 "texpr1.ml" 89 1695 1696
+)
+"texpr1.ml" 84 1629 1650 "texpr1.ml" 84 1629 1651
+type(
+  Texpr0.round
+)
+ident(
+  def r "texpr1.ml" 85 1657 1657 "texpr1.ml" 89 1695 1696
+)
+"texpr1.ml" 84 1629 1631 "texpr1.ml" 84 1629 1652
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 86 1663 1663 "texpr1.ml" 86 1663 1665
+type(
+  unop
+)
+ident(
+  int_ref op "texpr1.ml" 84 1629 1643 "texpr1.ml" 84 1629 1645
+)
+"texpr1.ml" 87 1667 1668 "texpr1.ml" 87 1667 1682
+type(
+  Environment.t -> Texpr0.expr -> expr
+)
+ident(
+  int_ref expr1_of_expr0 "texpr1.ml" 80 1498 1506 "texpr1.ml" 80 1498 1520
+)
+"texpr1.ml" 87 1667 1683 "texpr1.ml" 87 1667 1686
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 80 1498 1521 "texpr1.ml" 80 1498 1524
+)
+"texpr1.ml" 87 1667 1687 "texpr1.ml" 87 1667 1688
+type(
+  Texpr0.expr
+)
+ident(
+  int_ref e "texpr1.ml" 84 1629 1646 "texpr1.ml" 84 1629 1647
+)
+"texpr1.ml" 87 1667 1667 "texpr1.ml" 87 1667 1689
+call(
+  stack
+)
+type(
+  expr
+)
+"texpr1.ml" 88 1691 1691 "texpr1.ml" 88 1691 1692
+type(
+  typ
+)
+ident(
+  int_ref t "texpr1.ml" 84 1629 1648 "texpr1.ml" 84 1629 1649
+)
+"texpr1.ml" 88 1691 1693 "texpr1.ml" 88 1691 1694
+type(
+  round
+)
+ident(
+  int_ref r "texpr1.ml" 84 1629 1650 "texpr1.ml" 84 1629 1651
+)
+"texpr1.ml" 85 1657 1657 "texpr1.ml" 89 1695 1696
+type(
+  expr
+)
+"texpr1.ml" 90 1697 1712 "texpr1.ml" 90 1697 1714
+type(
+  Texpr0.binop
+)
+ident(
+  def op "texpr1.ml" 91 1730 1730 "texpr1.ml" 96 1795 1796
+)
+"texpr1.ml" 90 1697 1715 "texpr1.ml" 90 1697 1717
+type(
+  Texpr0.expr
+)
+ident(
+  def e1 "texpr1.ml" 91 1730 1730 "texpr1.ml" 96 1795 1796
+)
+"texpr1.ml" 90 1697 1718 "texpr1.ml" 90 1697 1720
+type(
+  Texpr0.expr
+)
+ident(
+  def e2 "texpr1.ml" 91 1730 1730 "texpr1.ml" 96 1795 1796
+)
+"texpr1.ml" 90 1697 1721 "texpr1.ml" 90 1697 1722
+type(
+  Texpr0.typ
+)
+ident(
+  def t "texpr1.ml" 91 1730 1730 "texpr1.ml" 96 1795 1796
+)
+"texpr1.ml" 90 1697 1723 "texpr1.ml" 90 1697 1724
+type(
+  Texpr0.round
+)
+ident(
+  def r "texpr1.ml" 91 1730 1730 "texpr1.ml" 96 1795 1796
+)
+"texpr1.ml" 90 1697 1699 "texpr1.ml" 90 1697 1725
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 92 1737 1737 "texpr1.ml" 92 1737 1739
+type(
+  binop
+)
+ident(
+  int_ref op "texpr1.ml" 90 1697 1712 "texpr1.ml" 90 1697 1714
+)
+"texpr1.ml" 93 1741 1742 "texpr1.ml" 93 1741 1756
+type(
+  Environment.t -> Texpr0.expr -> expr
+)
+ident(
+  int_ref expr1_of_expr0 "texpr1.ml" 80 1498 1506 "texpr1.ml" 80 1498 1520
+)
+"texpr1.ml" 93 1741 1757 "texpr1.ml" 93 1741 1760
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 80 1498 1521 "texpr1.ml" 80 1498 1524
+)
+"texpr1.ml" 93 1741 1761 "texpr1.ml" 93 1741 1763
+type(
+  Texpr0.expr
+)
+ident(
+  int_ref e1 "texpr1.ml" 90 1697 1715 "texpr1.ml" 90 1697 1717
+)
+"texpr1.ml" 93 1741 1741 "texpr1.ml" 93 1741 1764
+call(
+  stack
+)
+type(
+  expr
+)
+"texpr1.ml" 94 1766 1767 "texpr1.ml" 94 1766 1781
+type(
+  Environment.t -> Texpr0.expr -> expr
+)
+ident(
+  int_ref expr1_of_expr0 "texpr1.ml" 80 1498 1506 "texpr1.ml" 80 1498 1520
+)
+"texpr1.ml" 94 1766 1782 "texpr1.ml" 94 1766 1785
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 80 1498 1521 "texpr1.ml" 80 1498 1524
+)
+"texpr1.ml" 94 1766 1786 "texpr1.ml" 94 1766 1788
+type(
+  Texpr0.expr
+)
+ident(
+  int_ref e2 "texpr1.ml" 90 1697 1718 "texpr1.ml" 90 1697 1720
+)
+"texpr1.ml" 94 1766 1766 "texpr1.ml" 94 1766 1789
+call(
+  stack
+)
+type(
+  expr
+)
+"texpr1.ml" 95 1791 1791 "texpr1.ml" 95 1791 1792
+type(
+  typ
+)
+ident(
+  int_ref t "texpr1.ml" 90 1697 1721 "texpr1.ml" 90 1697 1722
+)
+"texpr1.ml" 95 1791 1793 "texpr1.ml" 95 1791 1794
+type(
+  round
+)
+ident(
+  int_ref r "texpr1.ml" 90 1697 1723 "texpr1.ml" 90 1697 1724
+)
+"texpr1.ml" 91 1730 1730 "texpr1.ml" 96 1795 1796
+type(
+  expr
+)
+"texpr1.ml" 81 1532 1532 "texpr1.ml" 96 1795 1796
+type(
+  expr
+)
+"texpr1.ml" 97 1797 1801 "texpr1.ml" 97 1797 1808
+type(
+  t -> expr
+)
+ident(
+  def to_expr "texpr1.ml" 101 1895 1895 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 97 1797 1809 "texpr1.ml" 97 1797 1815
+type(
+  t
+)
+ident(
+  def texpr1 "texpr1.ml" 98 1818 1818 "texpr1.ml" 99 1862 1893
+)
+"texpr1.ml" 98 1818 1822 "texpr1.ml" 98 1818 1827
+type(
+  Texpr0.expr
+)
+ident(
+  def expr0 "texpr1.ml" 99 1862 1862 "texpr1.ml" 99 1862 1893
+)
+"texpr1.ml" 98 1818 1830 "texpr1.ml" 98 1818 1844
+type(
+  Texpr0.t -> Texpr0.expr
+)
+ident(
+  ext_ref Texpr0.to_expr
+)
+"texpr1.ml" 98 1818 1845 "texpr1.ml" 98 1818 1851
+type(
+  t
+)
+ident(
+  int_ref texpr1 "texpr1.ml" 97 1797 1809 "texpr1.ml" 97 1797 1815
+)
+"texpr1.ml" 98 1818 1845 "texpr1.ml" 98 1818 1858
+type(
+  Texpr0.t
+)
+"texpr1.ml" 98 1818 1830 "texpr1.ml" 98 1818 1858
+type(
+  Texpr0.expr
+)
+"texpr1.ml" 99 1862 1862 "texpr1.ml" 99 1862 1876
+type(
+  Environment.t -> Texpr0.expr -> expr
+)
+ident(
+  int_ref expr1_of_expr0 "texpr1.ml" 80 1498 1506 "texpr1.ml" 80 1498 1520
+)
+"texpr1.ml" 99 1862 1877 "texpr1.ml" 99 1862 1883
+type(
+  t
+)
+ident(
+  int_ref texpr1 "texpr1.ml" 97 1797 1809 "texpr1.ml" 97 1797 1815
+)
+"texpr1.ml" 99 1862 1877 "texpr1.ml" 99 1862 1887
+type(
+  Environment.t
+)
+"texpr1.ml" 99 1862 1888 "texpr1.ml" 99 1862 1893
+type(
+  Texpr0.expr
+)
+ident(
+  int_ref expr0 "texpr1.ml" 98 1818 1822 "texpr1.ml" 98 1818 1827
+)
+"texpr1.ml" 99 1862 1862 "texpr1.ml" 99 1862 1893
+call(
+  tail
+)
+type(
+  expr
+)
+"texpr1.ml" 98 1818 1818 "texpr1.ml" 99 1862 1893
+type(
+  expr
+)
+"texpr1.ml" 104 1975 1979 "texpr1.ml" 104 1975 1982
+type(
+  Environment.t -> Var.t -> t
+)
+ident(
+  def var "texpr1.ml" 105 2057 2057 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 104 1975 1983 "texpr1.ml" 104 1975 1986
+type(
+  Environment.t
+)
+ident(
+  def env "texpr1.ml" 104 1975 1987 "texpr1.ml" 104 1975 2056
+)
+"texpr1.ml" 104 1975 1987 "texpr1.ml" 104 1975 1988
+type(
+  Var.t
+)
+ident(
+  def v "texpr1.ml" 104 1975 1991 "texpr1.ml" 104 1975 2056
+)
+"texpr1.ml" 104 1975 2002 "texpr1.ml" 104 1975 2012
+type(
+  Dim.t -> Texpr0.t
+)
+ident(
+  ext_ref Texpr0.dim
+)
+"texpr1.ml" 104 1975 2014 "texpr1.ml" 104 1975 2036
+type(
+  Environment.t -> Var.t -> Dim.t
+)
+ident(
+  ext_ref Environment.dim_of_var
+)
+"texpr1.ml" 104 1975 2037 "texpr1.ml" 104 1975 2040
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 104 1975 1983 "texpr1.ml" 104 1975 1986
+)
+"texpr1.ml" 104 1975 2041 "texpr1.ml" 104 1975 2042
+type(
+  Var.t
+)
+ident(
+  int_ref v "texpr1.ml" 104 1975 1987 "texpr1.ml" 104 1975 1988
+)
+"texpr1.ml" 104 1975 2013 "texpr1.ml" 104 1975 2043
+type(
+  Dim.t
+)
+"texpr1.ml" 104 1975 2002 "texpr1.ml" 104 1975 2043
+type(
+  Texpr0.t
+)
+"texpr1.ml" 104 1975 2051 "texpr1.ml" 104 1975 2054
+type(
+  Environment.t
+)
+ident(
+  int_ref env "texpr1.ml" 104 1975 1983 "texpr1.ml" 104 1975 1986
+)
+"texpr1.ml" 104 1975 1991 "texpr1.ml" 104 1975 2056
+type(
+  t
+)
+"texpr1.ml" 114 2292 2296 "texpr1.ml" 114 2292 2311
+type(
+  t -> bool
+)
+ident(
+  def is_interval_cst "texpr1.ml" 115 2349 2349 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 114 2292 2312 "texpr1.ml" 114 2292 2313
+type(
+  t
+)
+ident(
+  def x "texpr1.ml" 114 2292 2316 "texpr1.ml" 114 2292 2347
+)
+"texpr1.ml" 114 2292 2316 "texpr1.ml" 114 2292 2338
+type(
+  Texpr0.t -> bool
+)
+ident(
+  ext_ref Texpr0.is_interval_cst
+)
+"texpr1.ml" 114 2292 2339 "texpr1.ml" 114 2292 2340
+type(
+  t
+)
+ident(
+  int_ref x "texpr1.ml" 114 2292 2312 "texpr1.ml" 114 2292 2313
+)
+"texpr1.ml" 114 2292 2339 "texpr1.ml" 114 2292 2347
+type(
+  Texpr0.t
+)
+"texpr1.ml" 114 2292 2316 "texpr1.ml" 114 2292 2347
+type(
+  bool
+)
+"texpr1.ml" 115 2349 2353 "texpr1.ml" 115 2349 2371
+type(
+  t -> bool
+)
+ident(
+  def is_interval_linear "texpr1.ml" 116 2412 2412 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 115 2349 2372 "texpr1.ml" 115 2349 2373
+type(
+  t
+)
+ident(
+  def x "texpr1.ml" 115 2349 2376 "texpr1.ml" 115 2349 2410
+)
+"texpr1.ml" 115 2349 2376 "texpr1.ml" 115 2349 2401
+type(
+  Texpr0.t -> bool
+)
+ident(
+  ext_ref Texpr0.is_interval_linear
+)
+"texpr1.ml" 115 2349 2402 "texpr1.ml" 115 2349 2403
+type(
+  t
+)
+ident(
+  int_ref x "texpr1.ml" 115 2349 2372 "texpr1.ml" 115 2349 2373
+)
+"texpr1.ml" 115 2349 2402 "texpr1.ml" 115 2349 2410
+type(
+  Texpr0.t
+)
+"texpr1.ml" 115 2349 2376 "texpr1.ml" 115 2349 2410
+type(
+  bool
+)
+"texpr1.ml" 116 2412 2416 "texpr1.ml" 116 2412 2438
+type(
+  t -> bool
+)
+ident(
+  def is_interval_polynomial "texpr1.ml" 117 2483 2483 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 116 2412 2439 "texpr1.ml" 116 2412 2440
+type(
+  t
+)
+ident(
+  def x "texpr1.ml" 116 2412 2443 "texpr1.ml" 116 2412 2481
+)
+"texpr1.ml" 116 2412 2443 "texpr1.ml" 116 2412 2472
+type(
+  Texpr0.t -> bool
+)
+ident(
+  ext_ref Texpr0.is_interval_polynomial
+)
+"texpr1.ml" 116 2412 2473 "texpr1.ml" 116 2412 2474
+type(
+  t
+)
+ident(
+  int_ref x "texpr1.ml" 116 2412 2439 "texpr1.ml" 116 2412 2440
+)
+"texpr1.ml" 116 2412 2473 "texpr1.ml" 116 2412 2481
+type(
+  Texpr0.t
+)
+"texpr1.ml" 116 2412 2443 "texpr1.ml" 116 2412 2481
+type(
+  bool
+)
+"texpr1.ml" 117 2483 2487 "texpr1.ml" 117 2483 2507
+type(
+  t -> bool
+)
+ident(
+  def is_interval_polyfrac "texpr1.ml" 118 2550 2550 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 117 2483 2508 "texpr1.ml" 117 2483 2509
+type(
+  t
+)
+ident(
+  def x "texpr1.ml" 117 2483 2512 "texpr1.ml" 117 2483 2548
+)
+"texpr1.ml" 117 2483 2512 "texpr1.ml" 117 2483 2539
+type(
+  Texpr0.t -> bool
+)
+ident(
+  ext_ref Texpr0.is_interval_polyfrac
+)
+"texpr1.ml" 117 2483 2540 "texpr1.ml" 117 2483 2541
+type(
+  t
+)
+ident(
+  int_ref x "texpr1.ml" 117 2483 2508 "texpr1.ml" 117 2483 2509
+)
+"texpr1.ml" 117 2483 2540 "texpr1.ml" 117 2483 2548
+type(
+  Texpr0.t
+)
+"texpr1.ml" 117 2483 2512 "texpr1.ml" 117 2483 2548
+type(
+  bool
+)
+"texpr1.ml" 118 2550 2554 "texpr1.ml" 118 2550 2563
+type(
+  t -> bool
+)
+ident(
+  def is_scalar "texpr1.ml" 121 2597 2597 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 118 2550 2564 "texpr1.ml" 118 2550 2565
+type(
+  t
+)
+ident(
+  def x "texpr1.ml" 118 2550 2568 "texpr1.ml" 118 2550 2593
+)
+"texpr1.ml" 118 2550 2568 "texpr1.ml" 118 2550 2584
+type(
+  Texpr0.t -> bool
+)
+ident(
+  ext_ref Texpr0.is_scalar
+)
+"texpr1.ml" 118 2550 2585 "texpr1.ml" 118 2550 2586
+type(
+  t
+)
+ident(
+  int_ref x "texpr1.ml" 118 2550 2564 "texpr1.ml" 118 2550 2565
+)
+"texpr1.ml" 118 2550 2585 "texpr1.ml" 118 2550 2593
+type(
+  Texpr0.t
+)
+"texpr1.ml" 118 2550 2568 "texpr1.ml" 118 2550 2593
+type(
+  bool
+)
+"texpr1.ml" 130 2842 2846 "texpr1.ml" 130 2842 2856
+type(
+  t -> Texpr0.t
+)
+ident(
+  def get_texpr0 "texpr1.ml" 131 2876 2876 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 130 2842 2857 "texpr1.ml" 130 2842 2861
+type(
+  t
+)
+ident(
+  def expr "texpr1.ml" 130 2842 2864 "texpr1.ml" 130 2842 2875
+)
+"texpr1.ml" 130 2842 2864 "texpr1.ml" 130 2842 2868
+type(
+  t
+)
+ident(
+  int_ref expr "texpr1.ml" 130 2842 2857 "texpr1.ml" 130 2842 2861
+)
+"texpr1.ml" 130 2842 2864 "texpr1.ml" 130 2842 2875
+type(
+  Texpr0.t
+)
+"texpr1.ml" 131 2876 2880 "texpr1.ml" 131 2876 2887
+type(
+  t -> Environment.t
+)
+ident(
+  def get_env "texpr1.ml" 134 2906 2906 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 131 2876 2888 "texpr1.ml" 131 2876 2892
+type(
+  t
+)
+ident(
+  def expr "texpr1.ml" 131 2876 2895 "texpr1.ml" 131 2876 2903
+)
+"texpr1.ml" 131 2876 2895 "texpr1.ml" 131 2876 2899
+type(
+  t
+)
+ident(
+  int_ref expr "texpr1.ml" 131 2876 2888 "texpr1.ml" 131 2876 2892
+)
+"texpr1.ml" 131 2876 2895 "texpr1.ml" 131 2876 2903
+type(
+  Environment.t
+)
+"texpr1.ml" 137 2928 2932 "texpr1.ml" 137 2928 2946
+type(
+  Texpr0.unop -> string
+)
+ident(
+  def string_of_unop "texpr1.ml" 138 2971 2971 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 137 2928 2949 "texpr1.ml" 137 2928 2970
+type(
+  Texpr0.unop -> string
+)
+ident(
+  ext_ref Texpr0.string_of_unop
+)
+"texpr1.ml" 138 2971 2975 "texpr1.ml" 138 2971 2990
+type(
+  Texpr0.binop -> string
+)
+ident(
+  def string_of_binop "texpr1.ml" 139 3016 3016 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 138 2971 2993 "texpr1.ml" 138 2971 3015
+type(
+  Texpr0.binop -> string
+)
+ident(
+  ext_ref Texpr0.string_of_binop
+)
+"texpr1.ml" 139 3016 3020 "texpr1.ml" 139 3016 3033
+type(
+  Texpr0.typ -> string
+)
+ident(
+  def string_of_typ "texpr1.ml" 140 3057 3057 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 139 3016 3036 "texpr1.ml" 139 3016 3056
+type(
+  Texpr0.typ -> string
+)
+ident(
+  ext_ref Texpr0.string_of_typ
+)
+"texpr1.ml" 140 3057 3061 "texpr1.ml" 140 3057 3076
+type(
+  Texpr0.round -> string
+)
+ident(
+  def string_of_round "texpr1.ml" 141 3102 3102 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 140 3057 3079 "texpr1.ml" 140 3057 3101
+type(
+  Texpr0.round -> string
+)
+ident(
+  ext_ref Texpr0.string_of_round
+)
+"texpr1.ml" 141 3102 3106 "texpr1.ml" 141 3102 3116
+type(
+  Format.formatter -> Texpr0.unop -> unit
+)
+ident(
+  def print_unop "texpr1.ml" 142 3137 3137 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 141 3102 3119 "texpr1.ml" 141 3102 3136
+type(
+  Format.formatter -> Texpr0.unop -> unit
+)
+ident(
+  ext_ref Texpr0.print_unop
+)
+"texpr1.ml" 142 3137 3141 "texpr1.ml" 142 3137 3152
+type(
+  Format.formatter -> Texpr0.binop -> unit
+)
+ident(
+  def print_binop "texpr1.ml" 143 3174 3174 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 142 3137 3155 "texpr1.ml" 142 3137 3173
+type(
+  Format.formatter -> Texpr0.binop -> unit
+)
+ident(
+  ext_ref Texpr0.print_binop
+)
+"texpr1.ml" 143 3174 3178 "texpr1.ml" 143 3174 3187
+type(
+  Format.formatter -> Texpr0.typ -> unit
+)
+ident(
+  def print_typ "texpr1.ml" 144 3207 3207 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 143 3174 3190 "texpr1.ml" 143 3174 3206
+type(
+  Format.formatter -> Texpr0.typ -> unit
+)
+ident(
+  ext_ref Texpr0.print_typ
+)
+"texpr1.ml" 144 3207 3211 "texpr1.ml" 144 3207 3222
+type(
+  Format.formatter -> Texpr0.round -> unit
+)
+ident(
+  def print_round "texpr1.ml" 145 3244 3244 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 144 3207 3225 "texpr1.ml" 144 3207 3243
+type(
+  Format.formatter -> Texpr0.round -> unit
+)
+ident(
+  ext_ref Texpr0.print_round
+)
+"texpr1.ml" 145 3244 3252 "texpr1.ml" 145 3244 3262
+type(
+  Format.formatter -> expr -> unit
+)
+ident(
+  def print_expr "texpr1.ml" 145 3244 3244 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 145 3244 3263 "texpr1.ml" 145 3244 3266
+type(
+  Format.formatter
+)
+ident(
+  def fmt "texpr1.ml" 145 3244 3267 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 145 3244 3267 "texpr1.ml" 145 3244 3271
+type(
+  expr
+)
+ident(
+  def expr "texpr1.ml" 146 3274 3274 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 146 3274 3278 "texpr1.ml" 146 3274 3296
+type(
+  expr -> int
+)
+ident(
+  def precedence_of_expr "texpr1.ml" 152 3446 3446 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 147 3308 3314 "texpr1.ml" 147 3308 3315
+type(
+  Coeff.t
+)
+"texpr1.ml" 147 3308 3310 "texpr1.ml" 147 3308 3315
+type(
+  expr
+)
+"texpr1.ml" 148 3316 3322 "texpr1.ml" 148 3316 3323
+type(
+  Var.t
+)
+"texpr1.ml" 148 3316 3318 "texpr1.ml" 148 3316 3323
+type(
+  expr
+)
+"texpr1.ml" 147 3308 3310 "texpr1.ml" 148 3316 3323
+type(
+  expr
+)
+"texpr1.ml" 148 3316 3327 "texpr1.ml" 148 3316 3328
+type(
+  int
+)
+"texpr1.ml" 149 3329 3336 "texpr1.ml" 149 3329 3338
+type(
+  unop
+)
+ident(
+  def op "texpr1.ml" 149 3329 3349 "texpr1.ml" 149 3329 3383
+)
+"texpr1.ml" 149 3329 3339 "texpr1.ml" 149 3329 3340
+type(
+  expr
+)
+"texpr1.ml" 149 3329 3341 "texpr1.ml" 149 3329 3342
+type(
+  typ
+)
+"texpr1.ml" 149 3329 3343 "texpr1.ml" 149 3329 3344
+type(
+  round
+)
+"texpr1.ml" 149 3329 3331 "texpr1.ml" 149 3329 3345
+type(
+  expr
+)
+"texpr1.ml" 149 3329 3349 "texpr1.ml" 149 3329 3380
+type(
+  unop -> int
+)
+ident(
+  ext_ref Texpr0.print_precedence_of_unop
+)
+"texpr1.ml" 149 3329 3381 "texpr1.ml" 149 3329 3383
+type(
+  unop
+)
+ident(
+  int_ref op "texpr1.ml" 149 3329 3336 "texpr1.ml" 149 3329 3338
+)
+"texpr1.ml" 149 3329 3349 "texpr1.ml" 149 3329 3383
+call(
+  tail
+)
+type(
+  int
+)
+"texpr1.ml" 150 3384 3392 "texpr1.ml" 150 3384 3394
+type(
+  binop
+)
+ident(
+  def op "texpr1.ml" 150 3384 3407 "texpr1.ml" 150 3384 3442
+)
+"texpr1.ml" 150 3384 3395 "texpr1.ml" 150 3384 3396
+type(
+  expr
+)
+"texpr1.ml" 150 3384 3397 "texpr1.ml" 150 3384 3398
+type(
+  expr
+)
+"texpr1.ml" 150 3384 3399 "texpr1.ml" 150 3384 3400
+type(
+  typ
+)
+"texpr1.ml" 150 3384 3401 "texpr1.ml" 150 3384 3402
+type(
+  round
+)
+"texpr1.ml" 150 3384 3386 "texpr1.ml" 150 3384 3403
+type(
+  expr
+)
+"texpr1.ml" 150 3384 3407 "texpr1.ml" 150 3384 3439
+type(
+  binop -> int
+)
+ident(
+  ext_ref Texpr0.print_precedence_of_binop
+)
+"texpr1.ml" 150 3384 3440 "texpr1.ml" 150 3384 3442
+type(
+  binop
+)
+ident(
+  int_ref op "texpr1.ml" 150 3384 3392 "texpr1.ml" 150 3384 3394
+)
+"texpr1.ml" 150 3384 3407 "texpr1.ml" 150 3384 3442
+call(
+  tail
+)
+type(
+  int
+)
+"texpr1.ml" 146 3274 3299 "texpr1.ml" 150 3384 3442
+type(
+  expr -> int
+)
+"texpr1.ml" 152 3446 3452 "texpr1.ml" 152 3446 3456
+type(
+  expr
+)
+ident(
+  int_ref expr "texpr1.ml" 145 3244 3267 "texpr1.ml" 145 3244 3271
+)
+"texpr1.ml" 153 3462 3468 "texpr1.ml" 153 3462 3469
+type(
+  Coeff.t
+)
+ident(
+  def x "texpr1.ml" 153 3462 3473 "texpr1.ml" 153 3462 3490
+)
+"texpr1.ml" 153 3462 3464 "texpr1.ml" 153 3462 3469
+type(
+  expr
+)
+"texpr1.ml" 153 3462 3473 "texpr1.ml" 153 3462 3484
+type(
+  Format.formatter -> Coeff.t -> unit
+)
+ident(
+  ext_ref Coeff.print
+)
+"texpr1.ml" 153 3462 3485 "texpr1.ml" 153 3462 3488
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "texpr1.ml" 145 3244 3263 "texpr1.ml" 145 3244 3266
+)
+"texpr1.ml" 153 3462 3489 "texpr1.ml" 153 3462 3490
+type(
+  Coeff.t
+)
+ident(
+  int_ref x "texpr1.ml" 153 3462 3468 "texpr1.ml" 153 3462 3469
+)
+"texpr1.ml" 153 3462 3473 "texpr1.ml" 153 3462 3490
+call(
+  tail
+)
+type(
+  unit
+)
+"texpr1.ml" 154 3491 3497 "texpr1.ml" 154 3491 3498
+type(
+  Var.t
+)
+ident(
+  def x "texpr1.ml" 154 3491 3502 "texpr1.ml" 154 3491 3546
+)
+"texpr1.ml" 154 3491 3493 "texpr1.ml" 154 3491 3498
+type(
+  expr
+)
+"texpr1.ml" 154 3491 3502 "texpr1.ml" 154 3491 3524
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"texpr1.ml" 154 3491 3525 "texpr1.ml" 154 3491 3528
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "texpr1.ml" 145 3244 3263 "texpr1.ml" 145 3244 3266
+)
+"texpr1.ml" 154 3491 3530 "texpr1.ml" 154 3491 3543
+type(
+  Var.t -> string
+)
+ident(
+  ext_ref Var.to_string
+)
+"texpr1.ml" 154 3491 3544 "texpr1.ml" 154 3491 3545
+type(
+  Var.t
+)
+ident(
+  int_ref x "texpr1.ml" 154 3491 3497 "texpr1.ml" 154 3491 3498
+)
+"texpr1.ml" 154 3491 3529 "texpr1.ml" 154 3491 3546
+type(
+  string
+)
+"texpr1.ml" 154 3491 3502 "texpr1.ml" 154 3491 3546
+call(
+  tail
+)
+type(
+  unit
+)
+"texpr1.ml" 155 3547 3554 "texpr1.ml" 155 3547 3556
+type(
+  unop
+)
+ident(
+  def op "texpr1.ml" 156 3573 3573 "texpr1.ml" 163 3792 3817
+)
+"texpr1.ml" 155 3547 3557 "texpr1.ml" 155 3547 3558
+type(
+  expr
+)
+ident(
+  def e "texpr1.ml" 156 3573 3573 "texpr1.ml" 163 3792 3817
+)
+"texpr1.ml" 155 3547 3559 "texpr1.ml" 155 3547 3562
+type(
+  typ
+)
+ident(
+  def typ "texpr1.ml" 156 3573 3573 "texpr1.ml" 163 3792 3817
+)
+"texpr1.ml" 155 3547 3563 "texpr1.ml" 155 3547 3568
+type(
+  round
+)
+ident(
+  def round "texpr1.ml" 156 3573 3573 "texpr1.ml" 163 3792 3817
+)
+"texpr1.ml" 155 3547 3549 "texpr1.ml" 155 3547 3569
+type(
+  expr
+)
+"texpr1.ml" 156 3573 3577 "texpr1.ml" 156 3573 3581
+type(
+  int
+)
+ident(
+  def prec "texpr1.ml" 157 3622 3622 "texpr1.ml" 163 3792 3817
+)
+"texpr1.ml" 156 3573 3584 "texpr1.ml" 156 3573 3615
+type(
+  unop -> int
+)
+ident(
+  ext_ref Texpr0.print_precedence_of_unop
+)
+"texpr1.ml" 156 3573 3616 "texpr1.ml" 156 3573 3618
+type(
+  unop
+)
+ident(
+  int_ref op "texpr1.ml" 155 3547 3554 "texpr1.ml" 155 3547 3556
+)
+"texpr1.ml" 156 3573 3584 "texpr1.ml" 156 3573 3618
+call(
+  stack
+)
+type(
+  int
+)
+"texpr1.ml" 157 3622 3626 "texpr1.ml" 157 3622 3631
+type(
+  int
+)
+ident(
+  def prec1 "texpr1.ml" 158 3658 3658 "texpr1.ml" 163 3792 3817
+)
+"texpr1.ml" 157 3622 3634 "texpr1.ml" 157 3622 3652
+type(
+  expr -> int
+)
+ident(
+  int_ref precedence_of_expr "texpr1.ml" 146 3274 3278 "texpr1.ml" 146 3274 3296
+)
+"texpr1.ml" 157 3622 3653 "texpr1.ml" 157 3622 3654
+type(
+  expr
+)
+ident(
+  int_ref e "texpr1.ml" 155 3547 3557 "texpr1.ml" 155 3547 3558
+)
+"texpr1.ml" 157 3622 3634 "texpr1.ml" 157 3622 3654
+call(
+  stack
+)
+type(
+  int
+)
+"texpr1.ml" 158 3658 3662 "texpr1.ml" 158 3658 3665
+type(
+  bool
+)
+ident(
+  def par "texpr1.ml" 159 3683 3683 "texpr1.ml" 163 3792 3817
+)
+"texpr1.ml" 158 3658 3668 "texpr1.ml" 158 3658 3673
+type(
+  int
+)
+ident(
+  int_ref prec1 "texpr1.ml" 157 3622 3626 "texpr1.ml" 157 3622 3631
+)
+"texpr1.ml" 158 3658 3673 "texpr1.ml" 158 3658 3675
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"texpr1.ml" 158 3658 3675 "texpr1.ml" 158 3658 3679
+type(
+  int
+)
+ident(
+  int_ref prec "texpr1.ml" 156 3573 3577 "texpr1.ml" 156 3573 3581
+)
+"texpr1.ml" 158 3658 3668 "texpr1.ml" 158 3658 3679
+type(
+  bool
+)
+"texpr1.ml" 159 3683 3683 "texpr1.ml" 159 3683 3697
+type(
+  Format.formatter ->
+  (string ->
+   string -> (Format.formatter -> expr -> unit) -> expr -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  string -> (Format.formatter -> expr -> unit) -> expr -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"texpr1.ml" 159 3683 3698 "texpr1.ml" 159 3683 3701
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "texpr1.ml" 145 3244 3263 "texpr1.ml" 145 3244 3266
+)
+"texpr1.ml" 159 3683 3702 "texpr1.ml" 159 3683 3712
+type(
+  (string ->
+   string -> (Format.formatter -> expr -> unit) -> expr -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"texpr1.ml" 160 3713 3714 "texpr1.ml" 160 3713 3738
+type(
+  unop -> typ -> round -> string
+)
+ident(
+  ext_ref Texpr0.print_sprint_unop
+)
+"texpr1.ml" 160 3713 3739 "texpr1.ml" 160 3713 3741
+type(
+  unop
+)
+ident(
+  int_ref op "texpr1.ml" 155 3547 3554 "texpr1.ml" 155 3547 3556
+)
+"texpr1.ml" 160 3713 3742 "texpr1.ml" 160 3713 3745
+type(
+  typ
+)
+ident(
+  int_ref typ "texpr1.ml" 155 3547 3559 "texpr1.ml" 155 3547 3562
+)
+"texpr1.ml" 160 3713 3746 "texpr1.ml" 160 3713 3751
+type(
+  round
+)
+ident(
+  int_ref round "texpr1.ml" 155 3547 3563 "texpr1.ml" 155 3547 3568
+)
+"texpr1.ml" 160 3713 3713 "texpr1.ml" 160 3713 3752
+call(
+  stack
+)
+type(
+  string
+)
+"texpr1.ml" 161 3753 3757 "texpr1.ml" 161 3753 3760
+type(
+  bool
+)
+ident(
+  int_ref par "texpr1.ml" 158 3658 3662 "texpr1.ml" 158 3658 3665
+)
+"texpr1.ml" 161 3753 3766 "texpr1.ml" 161 3753 3769
+type(
+  string
+)
+"texpr1.ml" 161 3753 3775 "texpr1.ml" 161 3753 3777
+type(
+  string
+)
+"texpr1.ml" 161 3753 3753 "texpr1.ml" 161 3753 3778
+type(
+  string
+)
+"texpr1.ml" 162 3779 3779 "texpr1.ml" 162 3779 3789
+type(
+  Format.formatter -> expr -> unit
+)
+ident(
+  int_ref print_expr "texpr1.ml" 145 3244 3252 "texpr1.ml" 145 3244 3262
+)
+"texpr1.ml" 162 3779 3790 "texpr1.ml" 162 3779 3791
+type(
+  expr
+)
+ident(
+  int_ref e "texpr1.ml" 155 3547 3557 "texpr1.ml" 155 3547 3558
+)
+"texpr1.ml" 163 3792 3796 "texpr1.ml" 163 3792 3799
+type(
+  bool
+)
+ident(
+  int_ref par "texpr1.ml" 158 3658 3662 "texpr1.ml" 158 3658 3665
+)
+"texpr1.ml" 163 3792 3805 "texpr1.ml" 163 3792 3808
+type(
+  string
+)
+"texpr1.ml" 163 3792 3814 "texpr1.ml" 163 3792 3816
+type(
+  string
+)
+"texpr1.ml" 163 3792 3792 "texpr1.ml" 163 3792 3817
+type(
+  string
+)
+"texpr1.ml" 159 3683 3683 "texpr1.ml" 163 3792 3817
+call(
+  tail
+)
+type(
+  unit
+)
+"texpr1.ml" 158 3658 3658 "texpr1.ml" 163 3792 3817
+type(
+  unit
+)
+"texpr1.ml" 157 3622 3622 "texpr1.ml" 163 3792 3817
+type(
+  unit
+)
+"texpr1.ml" 156 3573 3573 "texpr1.ml" 163 3792 3817
+type(
+  unit
+)
+"texpr1.ml" 164 3818 3826 "texpr1.ml" 164 3818 3828
+type(
+  binop
+)
+ident(
+  def op "texpr1.ml" 165 3849 3849 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 164 3818 3829 "texpr1.ml" 164 3818 3831
+type(
+  expr
+)
+ident(
+  def e1 "texpr1.ml" 165 3849 3849 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 164 3818 3832 "texpr1.ml" 164 3818 3834
+type(
+  expr
+)
+ident(
+  def e2 "texpr1.ml" 165 3849 3849 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 164 3818 3835 "texpr1.ml" 164 3818 3838
+type(
+  typ
+)
+ident(
+  def typ "texpr1.ml" 165 3849 3849 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 164 3818 3839 "texpr1.ml" 164 3818 3844
+type(
+  round
+)
+ident(
+  def round "texpr1.ml" 165 3849 3849 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 164 3818 3820 "texpr1.ml" 164 3818 3845
+type(
+  expr
+)
+"texpr1.ml" 165 3849 3853 "texpr1.ml" 165 3849 3857
+type(
+  int
+)
+ident(
+  def prec "texpr1.ml" 166 3899 3899 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 165 3849 3860 "texpr1.ml" 165 3849 3892
+type(
+  binop -> int
+)
+ident(
+  ext_ref Texpr0.print_precedence_of_binop
+)
+"texpr1.ml" 165 3849 3893 "texpr1.ml" 165 3849 3895
+type(
+  binop
+)
+ident(
+  int_ref op "texpr1.ml" 164 3818 3826 "texpr1.ml" 164 3818 3828
+)
+"texpr1.ml" 165 3849 3860 "texpr1.ml" 165 3849 3895
+call(
+  stack
+)
+type(
+  int
+)
+"texpr1.ml" 166 3899 3903 "texpr1.ml" 166 3899 3908
+type(
+  int
+)
+ident(
+  def prec1 "texpr1.ml" 167 3936 3936 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 166 3899 3911 "texpr1.ml" 166 3899 3929
+type(
+  expr -> int
+)
+ident(
+  int_ref precedence_of_expr "texpr1.ml" 146 3274 3278 "texpr1.ml" 146 3274 3296
+)
+"texpr1.ml" 166 3899 3930 "texpr1.ml" 166 3899 3932
+type(
+  expr
+)
+ident(
+  int_ref e1 "texpr1.ml" 164 3818 3829 "texpr1.ml" 164 3818 3831
+)
+"texpr1.ml" 166 3899 3911 "texpr1.ml" 166 3899 3932
+call(
+  stack
+)
+type(
+  int
+)
+"texpr1.ml" 167 3936 3940 "texpr1.ml" 167 3936 3945
+type(
+  int
+)
+ident(
+  def prec2 "texpr1.ml" 168 3973 3973 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 167 3936 3948 "texpr1.ml" 167 3936 3966
+type(
+  expr -> int
+)
+ident(
+  int_ref precedence_of_expr "texpr1.ml" 146 3274 3278 "texpr1.ml" 146 3274 3296
+)
+"texpr1.ml" 167 3936 3967 "texpr1.ml" 167 3936 3969
+type(
+  expr
+)
+ident(
+  int_ref e2 "texpr1.ml" 164 3818 3832 "texpr1.ml" 164 3818 3834
+)
+"texpr1.ml" 167 3936 3948 "texpr1.ml" 167 3936 3969
+call(
+  stack
+)
+type(
+  int
+)
+"texpr1.ml" 168 3973 3977 "texpr1.ml" 168 3973 3981
+type(
+  bool
+)
+ident(
+  def par1 "texpr1.ml" 169 3998 3998 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 168 3973 3984 "texpr1.ml" 168 3973 3989
+type(
+  int
+)
+ident(
+  int_ref prec1 "texpr1.ml" 166 3899 3903 "texpr1.ml" 166 3899 3908
+)
+"texpr1.ml" 168 3973 3989 "texpr1.ml" 168 3973 3990
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"texpr1.ml" 168 3973 3990 "texpr1.ml" 168 3973 3994
+type(
+  int
+)
+ident(
+  int_ref prec "texpr1.ml" 165 3849 3853 "texpr1.ml" 165 3849 3857
+)
+"texpr1.ml" 168 3973 3984 "texpr1.ml" 168 3973 3994
+type(
+  bool
+)
+"texpr1.ml" 169 3998 4002 "texpr1.ml" 169 3998 4006
+type(
+  bool
+)
+ident(
+  def par2 "texpr1.ml" 170 4024 4024 "texpr1.ml" 177 4212 4238
+)
+"texpr1.ml" 169 3998 4009 "texpr1.ml" 169 3998 4014
+type(
+  int
+)
+ident(
+  int_ref prec2 "texpr1.ml" 167 3936 3940 "texpr1.ml" 167 3936 3945
+)
+"texpr1.ml" 169 3998 4014 "texpr1.ml" 169 3998 4016
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"texpr1.ml" 169 3998 4016 "texpr1.ml" 169 3998 4020
+type(
+  int
+)
+ident(
+  int_ref prec "texpr1.ml" 165 3849 3853 "texpr1.ml" 165 3849 3857
+)
+"texpr1.ml" 169 3998 4009 "texpr1.ml" 169 3998 4020
+type(
+  bool
+)
+"texpr1.ml" 170 4024 4024 "texpr1.ml" 170 4024 4038
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> expr -> unit) ->
+   expr ->
+   string ->
+   string ->
+   string -> (Format.formatter -> expr -> unit) -> expr -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> expr -> unit) ->
+  expr ->
+  string ->
+  string ->
+  string -> (Format.formatter -> expr -> unit) -> expr -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"texpr1.ml" 170 4024 4039 "texpr1.ml" 170 4024 4042
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "texpr1.ml" 145 3244 3263 "texpr1.ml" 145 3244 3266
+)
+"texpr1.ml" 170 4024 4043 "texpr1.ml" 170 4024 4061
+type(
+  (string ->
+   (Format.formatter -> expr -> unit) ->
+   expr ->
+   string ->
+   string ->
+   string -> (Format.formatter -> expr -> unit) -> expr -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"texpr1.ml" 171 4062 4066 "texpr1.ml" 171 4062 4070
+type(
+  bool
+)
+ident(
+  int_ref par1 "texpr1.ml" 168 3973 3977 "texpr1.ml" 168 3973 3981
+)
+"texpr1.ml" 171 4062 4076 "texpr1.ml" 171 4062 4079
+type(
+  string
+)
+"texpr1.ml" 171 4062 4085 "texpr1.ml" 171 4062 4087
+type(
+  string
+)
+"texpr1.ml" 171 4062 4062 "texpr1.ml" 171 4062 4088
+type(
+  string
+)
+"texpr1.ml" 172 4089 4089 "texpr1.ml" 172 4089 4099
+type(
+  Format.formatter -> expr -> unit
+)
+ident(
+  int_ref print_expr "texpr1.ml" 145 3244 3252 "texpr1.ml" 145 3244 3262
+)
+"texpr1.ml" 172 4089 4100 "texpr1.ml" 172 4089 4102
+type(
+  expr
+)
+ident(
+  int_ref e1 "texpr1.ml" 164 3818 3829 "texpr1.ml" 164 3818 3831
+)
+"texpr1.ml" 173 4103 4107 "texpr1.ml" 173 4103 4111
+type(
+  bool
+)
+ident(
+  int_ref par1 "texpr1.ml" 168 3973 3977 "texpr1.ml" 168 3973 3981
+)
+"texpr1.ml" 173 4103 4117 "texpr1.ml" 173 4103 4120
+type(
+  string
+)
+"texpr1.ml" 173 4103 4126 "texpr1.ml" 173 4103 4128
+type(
+  string
+)
+"texpr1.ml" 173 4103 4103 "texpr1.ml" 173 4103 4129
+type(
+  string
+)
+"texpr1.ml" 174 4130 4131 "texpr1.ml" 174 4130 4156
+type(
+  binop -> typ -> round -> string
+)
+ident(
+  ext_ref Texpr0.print_sprint_binop
+)
+"texpr1.ml" 174 4130 4157 "texpr1.ml" 174 4130 4159
+type(
+  binop
+)
+ident(
+  int_ref op "texpr1.ml" 164 3818 3826 "texpr1.ml" 164 3818 3828
+)
+"texpr1.ml" 174 4130 4160 "texpr1.ml" 174 4130 4163
+type(
+  typ
+)
+ident(
+  int_ref typ "texpr1.ml" 164 3818 3835 "texpr1.ml" 164 3818 3838
+)
+"texpr1.ml" 174 4130 4164 "texpr1.ml" 174 4130 4169
+type(
+  round
+)
+ident(
+  int_ref round "texpr1.ml" 164 3818 3839 "texpr1.ml" 164 3818 3844
+)
+"texpr1.ml" 174 4130 4130 "texpr1.ml" 174 4130 4170
+call(
+  stack
+)
+type(
+  string
+)
+"texpr1.ml" 175 4171 4175 "texpr1.ml" 175 4171 4179
+type(
+  bool
+)
+ident(
+  int_ref par2 "texpr1.ml" 169 3998 4002 "texpr1.ml" 169 3998 4006
+)
+"texpr1.ml" 175 4171 4185 "texpr1.ml" 175 4171 4188
+type(
+  string
+)
+"texpr1.ml" 175 4171 4194 "texpr1.ml" 175 4171 4196
+type(
+  string
+)
+"texpr1.ml" 175 4171 4171 "texpr1.ml" 175 4171 4197
+type(
+  string
+)
+"texpr1.ml" 176 4198 4198 "texpr1.ml" 176 4198 4208
+type(
+  Format.formatter -> expr -> unit
+)
+ident(
+  int_ref print_expr "texpr1.ml" 145 3244 3252 "texpr1.ml" 145 3244 3262
+)
+"texpr1.ml" 176 4198 4209 "texpr1.ml" 176 4198 4211
+type(
+  expr
+)
+ident(
+  int_ref e2 "texpr1.ml" 164 3818 3832 "texpr1.ml" 164 3818 3834
+)
+"texpr1.ml" 177 4212 4216 "texpr1.ml" 177 4212 4220
+type(
+  bool
+)
+ident(
+  int_ref par2 "texpr1.ml" 169 3998 4002 "texpr1.ml" 169 3998 4006
+)
+"texpr1.ml" 177 4212 4226 "texpr1.ml" 177 4212 4229
+type(
+  string
+)
+"texpr1.ml" 177 4212 4235 "texpr1.ml" 177 4212 4237
+type(
+  string
+)
+"texpr1.ml" 177 4212 4212 "texpr1.ml" 177 4212 4238
+type(
+  string
+)
+"texpr1.ml" 170 4024 4024 "texpr1.ml" 177 4212 4238
+call(
+  stack
+)
+type(
+  unit
+)
+"texpr1.ml" 169 3998 3998 "texpr1.ml" 177 4212 4238
+type(
+  unit
+)
+"texpr1.ml" 168 3973 3973 "texpr1.ml" 177 4212 4238
+type(
+  unit
+)
+"texpr1.ml" 167 3936 3936 "texpr1.ml" 177 4212 4238
+type(
+  unit
+)
+"texpr1.ml" 166 3899 3899 "texpr1.ml" 177 4212 4238
+type(
+  unit
+)
+"texpr1.ml" 165 3849 3849 "texpr1.ml" 177 4212 4238
+type(
+  unit
+)
+"texpr1.ml" 152 3446 3446 "texpr1.ml" 177 4212 4238
+type(
+  unit
+)
+"texpr1.ml" 146 3274 3274 "texpr1.ml" 177 4212 4238
+type(
+  unit
+)
+"texpr1.ml" 179 4240 4244 "texpr1.ml" 179 4240 4249
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "texpr1.ml" 182 4339 4354 "texpr1.ml" 1 0 -1
+)
+"texpr1.ml" 179 4240 4250 "texpr1.ml" 179 4240 4253
+type(
+  Format.formatter
+)
+ident(
+  def fmt "texpr1.ml" 179 4240 4254 "texpr1.ml" 182 4339 4354
+)
+"texpr1.ml" 179 4240 4254 "texpr1.ml" 179 4240 4258
+type(
+  t
+)
+ident(
+  def expr "texpr1.ml" 180 4261 4261 "texpr1.ml" 182 4339 4354
+)
+"texpr1.ml" 180 4261 4261 "texpr1.ml" 180 4261 4273
+type(
+  (Dim.t -> string) -> Format.formatter -> Texpr0.t -> unit
+)
+ident(
+  ext_ref Texpr0.print
+)
+"texpr1.ml" 181 4274 4279 "texpr1.ml" 181 4274 4282
+type(
+  Dim.t
+)
+ident(
+  def dim "texpr1.ml" 181 4274 4286 "texpr1.ml" 181 4274 4337
+)
+"texpr1.ml" 181 4274 4286 "texpr1.ml" 181 4274 4299
+type(
+  Var.t -> string
+)
+ident(
+  ext_ref Var.to_string
+)
+"texpr1.ml" 181 4274 4301 "texpr1.ml" 181 4274 4323
+type(
+  Environment.t -> Dim.t -> Var.t
+)
+ident(
+  ext_ref Environment.var_of_dim
+)
+"texpr1.ml" 181 4274 4324 "texpr1.ml" 181 4274 4328
+type(
+  t
+)
+ident(
+  int_ref expr "texpr1.ml" 179 4240 4254 "texpr1.ml" 179 4240 4258
+)
+"texpr1.ml" 181 4274 4324 "texpr1.ml" 181 4274 4332
+type(
+  Environment.t
+)
+"texpr1.ml" 181 4274 4333 "texpr1.ml" 181 4274 4336
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "texpr1.ml" 181 4274 4279 "texpr1.ml" 181 4274 4282
+)
+"texpr1.ml" 181 4274 4300 "texpr1.ml" 181 4274 4337
+type(
+  Var.t
+)
+"texpr1.ml" 181 4274 4286 "texpr1.ml" 181 4274 4337
+type(
+  string
+)
+"texpr1.ml" 181 4274 4274 "texpr1.ml" 181 4274 4338
+type(
+  Dim.t -> string
+)
+"texpr1.ml" 182 4339 4339 "texpr1.ml" 182 4339 4342
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "texpr1.ml" 179 4240 4250 "texpr1.ml" 179 4240 4253
+)
+"texpr1.ml" 182 4339 4343 "texpr1.ml" 182 4339 4347
+type(
+  t
+)
+ident(
+  int_ref expr "texpr1.ml" 179 4240 4254 "texpr1.ml" 179 4240 4258
+)
+"texpr1.ml" 182 4339 4343 "texpr1.ml" 182 4339 4354
+type(
+  Texpr0.t
+)
+"texpr1.ml" 180 4261 4261 "texpr1.ml" 182 4339 4354
+call(
+  tail
+)
+type(
+  unit
+)

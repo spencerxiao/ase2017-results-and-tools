@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((k = 0) | (j = ((2 * k) + 2)))
+find an inductive invaraint  based on abstractions
+invariant size: 25
+interp: (let ((.def_16 (= k 0))) (let ((.def_25 (= t 0))) (not (and (not (and .def_16 .def_25)) (not (and (and (not (<= 3 (+ j (* (- 2) k)))) (not (<= (+ j (* (- 2) k)) 1))) (not (and .def_25 (not .def_16)))))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

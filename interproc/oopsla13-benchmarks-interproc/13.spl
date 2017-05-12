@@ -1,0 +1,18 @@
+var flag:int, j:int, k:int;
+begin
+  flag = random;
+  j = 2;
+  k = 0;
+  while (brandom) do 
+    if (not flag == 0) then
+      j = j +_i 4;
+    else
+      j = j +_i 2;
+      k = k +_i 1;
+    endif;
+  done;
+
+  if (not k == 0) then 
+    assume (j == 2 *_i k + 2);
+  endif;
+end

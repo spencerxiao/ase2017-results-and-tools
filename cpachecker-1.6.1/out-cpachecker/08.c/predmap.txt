@@ -1,0 +1,24 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+
+main:
+(assert (> |main::y| 2))
+
+main N5:
+(assert (<= |main::x| 0))
+(assert (> |main::y| 2))
+(assert (<= |main::x| (- 1)))
+(assert (<= |main::x| 1))
+(assert (<= |main::x| 2))
+(assert (<= |main::x| 3))
+(assert (<= 0 |main::x|))
+(assert (<= 0 |main::y|))
+(assert (<= 0 (+ |main::y| (- 100))))
+(assert (<= 0 (+ |main::y| (- 200))))
+(assert (<= 0 (+ |main::y| (- 300))))
+(assert (<= 0 (+ |main::y| (- 400))))
+
+main N39:
+(assert false)
+(assert (> |main::y| 2))
+

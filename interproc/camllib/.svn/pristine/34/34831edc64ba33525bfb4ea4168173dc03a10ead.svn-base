@@ -1,0 +1,14 @@
+# -*- mode: makefile -*-
+
+
+# ocamlc compilation flags
+OCAMLFLAGS = -g
+
+OCAMLFLAGS_BYTE = -annot
+OCAMLFLAGS_NATIVE = -inline 10 #-unsafe -noassert
+
+OCAMLBUILD=ocamlbuild $(OCAMLFLAGS:%=-cflag %) -ocamlc "ocamlfind ocamlc $(OCAMLFLAGS_BYTE)" -ocamlopt "ocamlfind ocamlopt $(OCAMLFLAGS_NATIVE)"
+
+LATEX=latex
+DVIPDF=dvipdf
+MAKEINDEX=makeindex

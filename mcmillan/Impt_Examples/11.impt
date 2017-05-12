@@ -1,0 +1,28 @@
+MODULE main
+	int i;
+	int j;
+	int x;
+
+	int finish;
+
+	assume(j == 0);
+	assume(x > 0);
+	assume(i == 0);
+
+	assume(finish == 0);
+
+	while(i < x){
+		j = j + 2;
+    		
+		i = i + 1;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && j != 2*x;

@@ -1,0 +1,41 @@
+var x:int, y:int, z:int, w:int, i:int, j:int, c:int, d:int, flag:int;
+begin
+	x = 0;
+	y = 0;
+	i = 0;
+	j = 0;
+	c = 0;
+	d = 1;
+	while(brandom) do
+		x = x +_i 1;
+		y = y +_i 1;
+		i = i +_i x;
+		j = j +_i y;
+		if (not (flag == 0)) then
+			j = j +_i 1;
+		endif;
+	done;
+	if (j >= i) then
+		x = y;
+	else
+		x = y +_i 1;
+	endif;
+
+	w = 1;
+	z = 0;
+	while(brandom) do
+		while(brandom) do
+			if (w %_i,n 2 == 1) then
+				x = x +_i 1;
+			endif;
+
+			if (z %_i,n 2 == 0) then
+				y = y +_i 1;
+			endif;
+
+			z = x +_i y;
+			w = z +_i 1;
+		done;
+	done;
+	assume(x == y);
+end

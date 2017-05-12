@@ -1,0 +1,15 @@
+IntBool
+
+[main::__CPAchecker_TMP_0, main::i]
+
+IntEq
+
+[]
+
+IntAdd
+
+[main::y, main::x, main::__retval__, main::t]
+
+ALL
+
+[main::__CPAchecker_TMP_0, main::i, main::y, main::x, main::__retval__, main::t]

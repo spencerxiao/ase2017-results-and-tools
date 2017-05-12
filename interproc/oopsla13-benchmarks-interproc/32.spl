@@ -1,0 +1,25 @@
+var i:int, j:int, k:int, b:int, n:int;
+begin
+  k = 100;
+  n = 0;
+  j = random;
+  i = j;
+  b = random;
+
+  while (n < 2 *_i k) do
+    if(not b == 0) then
+      i = i +_i 1;
+    else
+      j = j +_i 1;
+    endif;
+
+    if (b == 0) then
+      b = 1;
+    else 
+      b = 0;
+    endif;
+    n = n +_i 1;
+  done;
+
+  assume (i == j);
+end

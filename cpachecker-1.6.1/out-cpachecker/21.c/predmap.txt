@@ -1,0 +1,33 @@
+(declare-fun |main::n| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::c1| () Int)
+(declare-fun |main::c2| () Int)
+(declare-fun |main::i| () Int)
+
+main:
+(assert (> |main::k| |main::n|))
+
+__VERIFIER_assume N3:
+(assert (= |__VERIFIER_assume::i| 0))
+(assert (<= 0 (+ |main::n| (- 1))))
+(assert (= |__VERIFIER_assume::i| 1))
+(assert (<= 0 (+ |main::c1| (- 4000))))
+(assert (<= 0 (+ |main::c2| (- 2000))))
+(assert (distinct 1 0))
+
+main N22:
+(assert (<= 0 (+ |main::n| (- 1))))
+(assert (= |main::i| 0))
+(assert (> |main::k| |main::n|))
+(assert (distinct 1 0))
+(assert (<= 0 (+ |main::c1| (- 4000))))
+(assert (<= 0 (+ |main::c2| (- 2000))))
+(assert (= (+ |main::i| (- |main::k|)) 0))
+(assert (<= |main::i| (+ |main::k| (- 3999))))
+(assert (<= |main::i| (+ |main::k| (- 1999))))
+
+main N42:
+(assert false)
+(assert (> |main::k| |main::n|))
+

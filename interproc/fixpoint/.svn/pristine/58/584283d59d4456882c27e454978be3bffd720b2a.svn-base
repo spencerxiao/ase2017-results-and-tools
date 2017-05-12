@@ -1,0 +1,336 @@
+\documentclass[twoside,10pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{ae}
+\usepackage{fullpage}
+\usepackage{pstricks,pst-node}
+\newrgbcolor{lightblue}{0.92 0.96 1}
+\newrgbcolor{lightgreen}{0.92 1 0.86}
+\newrgbcolor{lightred}{1 0.9 0.8}
+\newrgbcolor{darkgreen}{0 0.3 0}
+\newcommand{\tuple}[1]{\langle #1 \rangle}
+
+\usepackage{url}
+\usepackage{ocamldoc}
+\usepackage{makeidx}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.9pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{2.8ex}
+\setlength{\footskip}{5ex}
+\renewcommand{\chaptermark}[1]{ %
+  \markboth{\MakeUppercase{\chaptername}\ \thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+
+\usepackage[ps2pdf]{hyperref}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5ex}
+
+\makeindex
+
+\title{Fixpoint 2.3.2}
+\author{Bertrand Jeannet}
+\begin{document}
+\maketitle
+
+\vspace*{0.9\textheight}
+
+The FIXPOINT library is distributed under LGPL license.
+
+Copyright (C) Bertrand Jeannet 2004-2009
+
+\newpage
+
+\tableofcontents
+
+% **********************************************************************
+\chapter{Overview}
+% **********************************************************************
+
+% ======================================================================
+\section{Organization}
+% ======================================================================
+
+The fixpoint solver library is composed of the following modules:
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item \texttt{Fixpoint}: this is the only module to look at for a
+  normal user;
+\item \texttt{Example}: example of use of the library;
+\medskip
+
+\item \texttt{FixpointThreshold}: utility module for threshold
+  inference, see \cite{};
+
+\item \texttt{FixpointType}: defines the various types and
+  associated printing functions (including for the DOT output);
+\item \texttt{FixpointStd}: implements the Kleene-Bourdoncle
+  iteration technique \cite{bourdoncle93} (combined with
+  working-set algorithm) for solving equations described
+  explicitly by an hypergraph, and offers base functions for the
+  more sophisticated techniques;
+\item \texttt{FixpointGuided}: implements the Gopan-Reps guided
+  iteration technique \cite{GopanReps07} for equations described
+  explicitly by an hypergraph;
+\item \texttt{FixpointDyn}: exploits an implicit description
+  (under the form if a successor function) of the equation graph,
+  which is then explored dynamically by alternating propagation
+  phase (to detect newly non-empty variables) and
+  upto-convergence-iteration phase.
+\end{itemize}
+
+We also include in this documentation the modules from the
+\texttt{camllib} used by \texttt{fixpoint}.
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item \texttt{SHGraph}: hypergraphs (used to describe equation systems);
+\item \texttt{Ilist}: imbricated lists (used for strongly connected sub-components);
+\item \texttt{Sette}: generalizes the \texttt{Set} module of the
+  OCaml standard library;
+\item \texttt{Hashhe}: generalizes the \texttt{Hashtbl} module of the
+  OCaml standard library;
+\item \texttt{Print}: provides printing functions for list,
+  arrays, \ldots using the \texttt{Format} module;
+\item \texttt{Time}: for measuring times
+\end{itemize}
+
+% ======================================================================
+\section{Overview}
+% ======================================================================
+
+\subsection{Equation system described explicitly by an hypergraph}
+
+\newcommand{\vtx}[1]{\pscirclebox[linecolor=green,fillstyle=solid,fillcolor=lightgreen]{#1}}
+\newcommand{\edg}[1]{\psframebox[linecolor=blue,fillstyle=solid,fillcolor=lightblue]{#1}}
+
+\begin{figure}[t]
+
+  \parbox{0.47\textwidth}{
+  \vspace*{2.5ex}%
+  \begin{center}\
+    \psset{mnode=oval,emnode=p,linewidth=0.01pt}
+    \psset{linestyle=solid,fillcolor=lightgreen,linecolor=green,fillstyle=solid}
+    \begin{psmatrix}[rowsep=5ex,colsep=8em]
+      ~$c_0$~ \\
+      & ~$c_2$~ \\[3.3ex]
+      ~$c_1$~ & ~$c_3$~ \\[3.3ex]
+      & ~$c_4$~ \\
+      ~$c_5$~
+    \end{psmatrix}
+    \psset{arrows=->,linestyle=solid,arrowsize=2pt 3,arrowinset=0.05}
+    \psset{linewidth=0.8pt,fillstyle=none,linecolor=black}
+    \ncline{1,1}{3,1}\nbput{$\tuple{(n = 0)?}$}
+    \ncline{3,1}{5,1}\nbput{$\tuple{r := 1}$}
+    \ncarc{1,1}{2,2}\aput{:U}{$\tuple{(n > 0)?}$}
+    \ncline{2,2}{3,2}\naput{$\tuple{x := n \!-\! 1}$}
+    \psset{arrows=<-}
+    \ncarc[ncurv=1]{4,2}{5,1}\aput{:D}{$\tuple{\mathtt{ret}\, r := \mathtt{fact}(x)}$}
+    \nccurve[angleA=-45,angleB=180]{1,1}{3,2}
+    \aput{:U}{$\tuple{\mathtt{call}\, r := \mathtt{fact}(x)}$}
+    \ncarc[ncurv=1]{5,1}{4,2}\aput{:U}{$\tuple{r := r \!*\! n}$}
+    \psset{arrows=->}
+    \psset{linewidth=0.4pt,linestyle=dashed,linecolor=blue}
+    \ncline{3,2}{4,2}\naput{\blue$\tuple{r := \mathtt{fact}(x)}$}
+  \end{center}
+  \begin{center}
+    \caption{Control-Flow-Graph of the Factorial program}
+    \label{fig:cfg}
+  \end{center}
+  }
+  \hfill
+  \parbox{0.47\textwidth}{
+  \begin{center}
+    \hspace*{-2em}
+    \psset{linestyle=solid,fillstyle=solid}
+    \begin{psmatrix}[mnode=r,rowsep=2ex,colsep=3em]
+      & \vtx{$0$} \\
+      && \edg{$2$} \\
+      \edg{$1$} & \edg{$5$} & \vtx{$2$} \\
+      &&  \edg{$3$} \\
+      \vtx{$1$} && \vtx{$3$} \\
+      && \edg{$4$} \\
+      \edg{$6$} && \vtx{$4$} \\
+      && \edg{$7$} \\
+      & \vtx{$5$}
+    \end{psmatrix}
+    \nput{180}{3,1}{$\tuple{(n = 0)?}$}
+    \nput{180}{7,1}{$\tuple{r := 1}$}
+    \nput{0}{2,3}{$\tuple{(n > 0)?}$}
+    \nput{0}{4,3}{$\tuple{x := n \!-\! 1}$}
+    \nput{0}{6,3}{$\tuple{\mathtt{ret}\, r := \mathtt{fact}(x)}$}
+    \nput*{-90}{3,2}{$\tuple{\mathtt{call}\, r := \mathtt{fact}(x)}$}
+    \nput{0}{8,3}{$\tuple{r := r \!*\! n}$}
+   %
+    \psset{arrows=->,linestyle=solid,arrowsize=2pt 3,arrowinset=0.05}
+    \psset{linewidth=0.8pt,fillstyle=none,linecolor=black}
+    \ncline[arrows=-]{1,2}{3,1}
+    \ncline{3,1}{5,1}
+    \ncline[arrows=-]{5,1}{7,1}
+    \ncline{7,1}{9,2}
+    %
+    \ncline[arrows=-]{1,2}{2,3}
+    \ncline{2,3}{3,3}
+    \ncline[arrows=-]{3,3}{4,3}
+    \ncline{4,3}{5,3}
+    \nccurve[angleA=150,angleB=-90,arrows=-]{5,3}{3,2}
+    \ncline{3,2}{1,2}
+    \ncline[arrows=-]{5,3}{6,3}
+    \nccurve[angleA=80,angleB=135,arrows=-]{9,2}{6,3}
+    \ncline{6,3}{7,3}
+    \ncline[arrows=-]{7,3}{8,3}
+    \ncline{8,3}{9,2}
+  \end{center}
+  \begin{center}
+    \caption{Hypergraph representing the equation system of Eqn~(\ref{eqn:eqs})}
+    \label{fig:hypergraph}
+  \end{center}
+
+  }
+\end{figure}
+
+A equation system of the form 
+\begin{equation}
+  \label{eqn:eqs}
+  \left\{
+  \begin{array}{rcl}
+  X_0 &=& X_0^i \sqcup F_0(X_3) \\
+  X_1 &=& F_1(X_0) \\
+  X_2 &=& F_2(X_1) \\
+  X_3 &=& F_3(X_2) \\
+  X_4 &=& F_4(X_3,X_5) \\
+  X_5 &=& F_5(X_1) \sqcup F_6(X_4)
+  \end{array}
+  \right.
+\end{equation}
+as generated for instance by the relational interprocedural
+analysis of the factorial program depicted on Fig.~\ref{fig:cfg}
+will be represented by an hypergraph, depicted on
+Fig.~\ref{fig:hypergraph}, the vertices of which denotes
+variables, and the hyperedges functions. Hyperedges are needed for
+functions taking multiple arguments, such as the ``combine''
+function $F_4$ which models procedure return by combining the
+value at the call-site ($X_3$) and the value at the return-site
+($X_5$).
+
+The library use the module \texttt{SHGraph} and the type
+\texttt{('vertex, 'hedge, 'a,'b,'c) SHGraph.t} to represent such
+hypergraphs. This provided datatype distinguishes vertex and
+hyperedge identifiers from the information associated to them.
+
+\subsection{Equation system described implicitly by a successor function}
+
+Alternatively, the equation system~(\ref{eqn:eqs}) can be
+described by the following function:
+\begin{equation}
+  \psset{framesep=0.15ex}
+  \begin{array}{rcl}
+    \vtx{0} &\longmapsto& 
+    \begin{array}[t]{rrcll}
+      \Bigl\{ & \edg{1} &\mapsto& \left(\left[\vtx{0}\right],~~\vtx{1}\right) \\
+         & \edg{2} &\mapsto& \left(\left[\vtx{0}\right],~~\vtx{2}\right) & \Bigr\}
+    \end{array} \\
+    \vtx{1} &\longmapsto& 
+    \begin{array}{rrcll}
+      \Bigl\{ & \edg{5} &\mapsto& \left(\left[\vtx{1}\right],~~\vtx{5}\right) & \Bigr\}
+    \end{array} \\
+    \vtx{2} &\longmapsto& 
+    \begin{array}{rrcll}
+      \Bigl\{ & \edg{3} &\mapsto& \left(\left[\vtx{2}\right],~~\vtx{3}\right) & \Bigr\}
+    \end{array} \\
+    \vtx{3} &\longmapsto& 
+    \begin{array}{rrcll}
+      \Bigl\{ & \edg{4} &\mapsto& \left(\left[\vtx{3};\vtx{5}\right],~~\vtx{4}\right) & \Bigr\}
+    \end{array} \\
+    \vtx{4} &\longmapsto& 
+    \begin{array}{rrcll}
+      \Bigl\{ & \edg{6} &\mapsto& \left(\left[\vtx{4}\right],~~\vtx{5}\right) & \Bigr\}
+    \end{array} \\
+    \vtx{5} &\longmapsto& 
+    \begin{array}{rrcll}
+      \Bigl\{ & \edg{4} &\mapsto& \left(\left[\vtx{3};\vtx{5}\right],~~\vtx{4}\right) & \Bigr\}
+    \end{array}
+  \end{array}
+\end{equation}
+This function associates to each vertex $v$ a map associating to
+each successor hyperedge $h$ a pair composed of (i) the array of
+predecessor vertex of $h$ (including $v$), and (ii) the successor
+vertex of $h$.
+
+The library use the type \texttt{('vertex,'hedge) Fixpoint.equation} to describe
+such a function.
+
+\subsection{Interpreting an equation system}
+
+\texttt{Fixpoint} is parameterized by an object of type [('vertex,
+'hedge, 'abstract, 'arc) Fixpoint.manager], which defines the type
+of vertex and hyperedge identifiers, the type of abstract values
+attached to vertices (which is the value of the variable), and the
+type of values attached to hyperedges (optional, maybe
+\texttt{unit}). The manager defines the needed functions on
+abstract values, the function that computes the effect of an
+hyperedge, and a set of options and debugging functions.
+
+\subsection{Iteration strategies}
+
+Fixpoint solving iterations are parametrized by an object of type
+\texttt{('vertex,'hedge) Fixpoint.strategy}. We refer to
+\cite{bourdoncle93} for complete explanations, and to the
+documentation of module \texttt{Fixpoint}. In short, a strategy
+is an imbricated list like $[1; [[2;3]; 4]; [5]; 6]$, which
+means, during the iterative solving:
+\begin{enumerate}\setlength{\itemsep}{0pt}
+\item update vertex 1;
+\item update 2 and 3, and loop until stabilization;
+\item update 4, and come back to 2. until stabilization;
+\item update 5 and loop until stabilization;
+\item update 6 and ends the analysis.
+\end{enumerate}
+\cite{bourdoncle93} represents such an iteration strategy by the
+regular expression $(1~ ((2~3)^*~ 4)^*~ (5^*)~ 6)$. Alternatively, one
+could use a flatter iteration strategy like $(1~ (2~ 3~ 4)^*~ (5^*)~ 6)$.
+
+Standard users (as myself) is advised to use the function
+\texttt{Fixpoint.make\_strategy} to generate correct strategies
+from an hypergraph.
+
+% ======================================================================
+\section{Example}
+% ======================================================================
+
+I suggest to look at the example file \texttt{example.ml}
+and to play a bit with it.
+
+\begin{thebibliography}{Bou93}
+
+\bibitem[Bou93]{bourdoncle93}
+F.~Bourdoncle.
+\newblock Efficient chaotic iteration strategies with widenings.
+\newblock In {\em International Conference on Formal Methods in Programming and
+  their Applications}, volume 735 of {\em LNCS}, 1993.
+
+\bibitem[GR07]{GopanReps07}
+Denis Gopan and Thomas~W. Reps.
+\newblock Guided static analysis.
+\newblock In {\em Static Analysis Symposium, SAS'07}, volume 4634 of {\em
+  LNCS}, August 2007.
+
+\end{thebibliography}
+
+%\bibliographystyle{alpha}
+%\bibliography{bib}
+
+% **********************************************************************
+% **********************************************************************
+
+\input{fixpoint_ocamldoc.tex}
+
+\appendix
+\printindex
+
+\end{document}

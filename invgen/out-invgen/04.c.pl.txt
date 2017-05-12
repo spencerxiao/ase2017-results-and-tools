@@ -1,0 +1,22 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/04.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([10,9,7,11,4,2]): pc(main-1-12) pc(main-ret-0) {x>=0,y>=1+0,y'=y,x'=x}
+[x>=0,y>=1+0] [y'=y,x'=x]
+path([8,7,11,4,2]): pc(main-1-12) pc(main-err-0) {x>=0,y=<0,y'=y,x'=x}
+[x>=0,y=<0] [y'=y,x'=x]
+path([6,5,3,2]): pc(main-1-12) pc(main-1-12) {x+1=<0,y'=y+1,x'=x+y}
+[x+1=<0] [y'=y+1,x'=x+y]
+path([1]): pc(main-0-11) pc(main-1-12) {y'=y,x'= -50}
+[] [y'=y,x'= -50]
+
+#Printing Strengthening ==
+#pc(main-1-12): []
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([8,7,11,4,2])..# failed. 
+#=======================================
+#Invariant computation failed.

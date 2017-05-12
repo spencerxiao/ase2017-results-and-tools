@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (i = j)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 81
+interp: (let ((.def_20 (= i j))) (let ((.def_25 (= b 1))) (let ((.def_32 (* (- 1) n))) (let ((.def_817 (<= (to_real (- 1)) (to_real (+ n (* 2 (to_int (* (/ 1 2) (to_real (+ .def_32 (- 1))))))))))) (let ((.def_2304 (not (<= (to_real 0) (to_real (+ n (* 2 (to_int (* (/ 1 2) (to_real .def_32)))))))))) (let ((.def_4037 (<= (to_real (- 3)) (to_real (+ n (* 2 (to_int (* (/ 1 2) (to_real (+ .def_32 (- 3))))))))))) (not (or (and (not .def_20) (and (<= (+ (* 2 k) .def_32) 0) (<= k (to_int (* (/ 1 2) (to_real (* 1 n))))))) (and (and (not (and (not .def_25) (and (= (+ i (* (- 1) j)) 1) .def_2304))) (not (and .def_25 (and (= (+ i (* (- 1) j)) (- 1)) .def_2304)))) (not (and .def_20 (or (and (and (not (<= (+ i (* (- 1) j)) (- 1))) (not (and .def_4037 (<= (to_real (+ n (* (- 2) (to_int (* (/ 1 2) (to_real (+ (* 1 n) 3))))))) (to_real (- 3)))))) (not (and (<= (+ (* 2 k) .def_32) 1) .def_817))) (and .def_25 (and (not .def_817) (not .def_4037)))))))))))))))
+The assertion is satisfied!
+forward [6] times, backtrack [3] times
+backward [6] times, backtrack [3] times

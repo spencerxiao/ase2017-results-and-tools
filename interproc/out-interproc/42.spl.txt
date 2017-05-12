@@ -1,0 +1,87 @@
+[32mAnnotated program after forward analysis[m
+var x : int, y : int, a : int, flag : int;
+begin
+  /* [31m(L2 C5) [|y=0 mod 1; x=0 mod 1; flag=0 mod 1; a=0 mod 1|][m */
+  x = 1; /* [31m(L3 C8)
+            [|x-1=0; y=0 mod 1; x-1=0; flag=0 mod 1; a=0 mod 1|][m */
+  y = 1; /* [31m(L4 C8)
+            [|y-1=0; x-1=0; y-1=0; x-1=0; flag=0 mod 1; a=0 mod 1|][m */
+  flag = [-inf; inf]; /* [31m(L5 C16)
+                         [|y-1=0; x-1=0; y-1=0; x-1=0; flag=0 mod 1;
+                           a=0 mod 1|][m */
+  if not flag == 0 then
+     /* [31m(L6 C25)
+        [|y-1=0; x-1=0; y-1=0; x-1=0; flag=0 mod 1; a=0 mod 1|][m */
+     a = 0; /* [31m(L7 C10)
+               [|y-1=0; x-1=0; a=0; y-1=0; x-1=0; flag=0 mod 1; a=0|][m */
+  else
+    /* [31m(L8 C6)
+       [|y-1=0; x-1=0; flag=0; y-1=0; x-1=0; flag=0; a=0 mod 1|][m */
+    a = 1; /* [31m(L9 C10)
+              [|y-1=0; x-1=0; flag=0; a-1=0; y-1=0; x-1=0; flag=0; a-1=0|][m */
+  endif; /* [31m(L10 C8)
+            [|-a+x+y-1>=0; y-1>=0; x-1>=0; a-x-y+2>=0; x+y=0 mod 2;
+              2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+  while brandom do
+    /* [31m(L12 C20)
+       [|-a+x+y-1>=0; y-1>=0; x-1>=0; a-x-y+2>=0; x+y=0 mod 2; 2x=0 mod 2;
+         2flag=0 mod 2; 2a=0 mod 2|][m */
+    if not flag == 0 then
+       /* [31m(L13 C27)
+          [|-a+x+y-1>=0; y-1>=0; x-1>=0; a-x-y+2>=0; x+y=0 mod 2; 2x=0 mod 2;
+            2flag=0 mod 2; 2a=0 mod 2|][m */
+       a = x +_i,? y; /* [31m(L14 C18)
+                         [|-a+x+y=0; x-1>=0; a-x-1>=0; -a+x+y=0; 2x=0 mod 2;
+                           2flag=0 mod 2; a=0 mod 2|][m */
+       x = x +_i,? 1; /* [31m(L15 C18)
+                         [|-a+x+y-1=0; x-2>=0; a-x>=0; -a+x+y-1=0;
+                           2x=0 mod 2; 2flag=0 mod 2; a=0 mod 2|][m */
+    else
+      /* [31m(L16 C8)
+         [|flag=0; -a+x+y-1>=0; y-1>=0; x-1>=0; a-x-y+2>=0; x+y=0 mod 2;
+           2x=0 mod 2; flag=0; 2a=0 mod 2|][m */
+      a = x +_i,? y +_i,? 1; /* [31m(L17 C24)
+                                [|-a+x+y+1=0; flag=0; x-1>=0; a-x-2>=0;
+                                  -a+x+y+1=0; 2x=0 mod 2; flag=0; a+1=0 mod 2|][m */
+      y = y +_i,? 1; /* [31m(L18 C18)
+                        [|-a+x+y=0; flag=0; x-1>=0; a-x-2>=0; -a+x+y=0;
+                          2x=0 mod 2; flag=0; a+1=0 mod 2|][m */
+    endif; /* [31m(L19 C10)
+              [|-a+x+y>=0; -a+x+2y-2>=0; a-x-y+1>=0; a-y-1>=0; x+y+1=0 mod 2;
+                2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+    if a %_i,? 2 == 1 then
+       /* [31m(L21 C26)
+          [|-a+x+y>=0; -a+x+2y-2>=0; a-x-y+1>=0; a-y-1>=0; x+y+1=0 mod 2;
+            2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+       y = y +_i,? 1; /* [31m(L22 C18)
+                         [|-a+x+y-1>=0; -a+x+2y-4>=0; a-x-y+2>=0; a-y>=0;
+                           x+y=0 mod 2; 2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+    else
+      /* [31m(L23 C8)
+         [|-a+x+y>=0; -a+x+2y-2>=0; a-x-y+1>=0; a-y-1>=0; x+y+1=0 mod 2;
+           2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+      x = x +_i,? 1; /* [31m(L24 C18)
+                        [|-a+x+y-1>=0; -a+x+2y-3>=0; a-x-y+2>=0; a-y-1>=0;
+                          x+y=0 mod 2; 2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+    endif; /* [31m(L25 C10)
+              [|-a+x+y-1>=0; -a+x+2y-3>=0; x+y-4>=0; a-x-y+2>=0; a-y>=0;
+                x+y=0 mod 2; 2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+  done; /* [31m(L26 C7)
+           [|-a+x+y-1>=0; y-1>=0; x-1>=0; a-x-y+2>=0; x+y=0 mod 2;
+             2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+  if not flag == 0 then
+    /* [31m(L28 C25)
+       [|-a+x+y-1>=0; y-1>=0; x-1>=0; a-x-y+2>=0; x+y=0 mod 2; 2x=0 mod 2;
+         2flag=0 mod 2; 2a=0 mod 2|][m */
+    a = a +_i,? 1; /* [31m(L29 C16)
+                      [|-a+x+y>=0; y-1>=0; x-1>=0; a-x-y+1>=0; x+y=0 mod 2;
+                        2x=0 mod 2; 2flag=0 mod 2; 2a=0 mod 2|][m */
+  endif; /* [31m(L30 C8)
+            [|-a+x+y>=0; y-1>=0; x-1>=0; a-x-y+2>=0; x+y=0 mod 2; 2x=0 mod 2;
+              2flag=0 mod 2; 2a=0 mod 2|][m */
+  assume a %_i,? 2 == 1; /* [31m(L31 C24)
+                            [|-a+x+y>=0; y-1>=0; x-1>=0; a-x-y+2>=0;
+                              x+y=0 mod 2; 2x=0 mod 2; 2flag=0 mod 2;
+                              2a=0 mod 2|][m */
+end
+

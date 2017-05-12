@@ -1,0 +1,65 @@
+digraph ARG {
+node [style="filled" shape="box" color="white"]
+subgraph cluster_0 {
+label="Refinement 0"
+1 [label="1 @ N32\nmain\n" id="1"]
+4 [fillcolor="cornflowerblue" label="4 @ N7\nmain\nAbstractionState: ABS1: true\n" id="4"]
+19 [fillcolor="green" label="19 @ N7\nmain\nAbstractionState: ABS2: true\n" id="19"]
+23 [fillcolor="red" label="23 @ N30\nmain\nAbstractionState: ABS3: true\n AutomatonState: ErrorLabelAutomaton: _predefinedState_ERROR\n" id="23"]
+20 [fillcolor="orange" label="20 @ N28\nmain\n" id="20"]
+1 -> 4 []
+19 -> 4 [style="dashed" weight="0" label="covered by"]
+4 -> 20 []
+4 -> 23 []
+4 -> 19 []
+}
+0 -> 1
+subgraph cluster_1 {
+label="Refinement 1"
+27 [fillcolor="cornflowerblue" label="27 @ N7\nmain\nAbstractionState: ABS4\n" id="27"]
+58 [fillcolor="orange" label="58 @ N28\nmain\n" id="58"]
+42 [fillcolor="cornflowerblue" label="42 @ N7\nmain\nAbstractionState: ABS5: true\n" id="42"]
+57 [fillcolor="green" label="57 @ N7\nmain\nAbstractionState: ABS6: true\n" id="57"]
+64 [fillcolor="red" label="64 @ N30\nmain\nAbstractionState: ABS8\n AutomatonState: ErrorLabelAutomaton: _predefinedState_ERROR\n" id="64"]
+60 [fillcolor="orange" label="60 @ N28\nmain\n" id="60"]
+27 -> 42 []
+27 -> 58 []
+57 -> 42 [style="dashed" weight="0" label="covered by"]
+42 -> 60 []
+42 -> 64 []
+42 -> 57 []
+}
+0 -> 27
+subgraph cluster_2 {
+label="Refinement 2"
+66 [fillcolor="cornflowerblue" label="66 @ N7\nmain\nAbstractionState: ABS9\n" id="66"]
+112 [fillcolor="orange" label="112 @ N28\nmain\n" id="112"]
+81 [fillcolor="cornflowerblue" label="81 @ N7\nmain\nAbstractionState: ABS10\n" id="81"]
+114 [fillcolor="orange" label="114 @ N28\nmain\n" id="114"]
+96 [fillcolor="cornflowerblue" label="96 @ N7\nmain\nAbstractionState: ABS11\n" id="96"]
+116 [fillcolor="orange" label="116 @ N28\nmain\n" id="116"]
+121 [fillcolor="red" label="121 @ N30\nmain\nAbstractionState: ABS15\n AutomatonState: ErrorLabelAutomaton: _predefinedState_ERROR\n" id="121"]
+111 [fillcolor="green" label="111 @ N7\nmain\nAbstractionState: ABS12\n" id="111"]
+66 -> 81 []
+66 -> 112 []
+81 -> 96 []
+81 -> 114 []
+111 -> 96 [style="dashed" weight="0" label="covered by"]
+96 -> 111 []
+96 -> 121 []
+96 -> 116 []
+}
+0 -> 66
+0 [fillcolor="cornflowerblue" label="0 @ N1\nmain entry\nAbstractionState: ABS0: true\n" id="0"]
+123 [fillcolor="cornflowerblue" label="123 @ N7\nmain\nAbstractionState: ABS16\n" id="123"]
+160 [label="160 @ N0\nmain exit\n" id="160"]
+138 [fillcolor="cornflowerblue" label="138 @ N7\nmain\nAbstractionState: ABS17\n" id="138"]
+161 [label="161 @ N0\nmain exit\n" id="161"]
+153 [fillcolor="green" label="153 @ N7\nmain\nAbstractionState: ABS18\n" id="153"]
+0 -> 123 []
+123 -> 138 []
+123 -> 160 []
+153 -> 138 [style="dashed" weight="0" label="covered by"]
+138 -> 153 []
+138 -> 161 []
+}

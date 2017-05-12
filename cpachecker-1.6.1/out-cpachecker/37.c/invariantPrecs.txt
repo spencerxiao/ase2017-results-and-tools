@@ -1,0 +1,10 @@
+(declare-fun |main::n| () Int)
+(declare-fun |main::m| () Int)
+(declare-fun |main::x| () Int)
+
+main N5:
+(assert (let ((.cse0 (<= 0 |main::m|)) (.cse1 (<= |main::x| 0)) (.cse2 (<= 0 |main::x|)) (.cse3 (<= |main::m| |main::x|)) (.cse4 (<= |main::x| |main::m|)) (.cse5 (<= |main::m| (+ |main::n| (- 1))))) (ite (< |main::m| |main::n|) (and .cse0 (ite .cse1 (and .cse2 .cse3 .cse4 .cse5) (and .cse2 .cse3 (not .cse4) .cse5))) (and .cse0 .cse1 .cse2 .cse3 .cse4 (not .cse5)))))
+
+main N19:
+(assert false)
+

@@ -1,0 +1,316 @@
+"tcons0.ml" 21 404 408 "tcons0.ml" 21 404 421
+type(
+  Lincons0.typ -> string
+)
+ident(
+  def string_of_typ "tcons0.ml" 23 448 448 "tcons0.ml" 1 0 -1
+)
+"tcons0.ml" 21 404 424 "tcons0.ml" 21 404 446
+type(
+  Lincons0.typ -> string
+)
+ident(
+  ext_ref Lincons0.string_of_typ
+)
+"tcons0.ml" 23 448 452 "tcons0.ml" 23 448 457
+type(
+  (Dim.t -> string) -> Format.formatter -> t -> unit
+)
+ident(
+  def print "tcons0.ml" 31 667 667 "tcons0.ml" 1 0 -1
+)
+"tcons0.ml" 23 448 458 "tcons0.ml" 23 448 463
+type(
+  Dim.t -> string
+)
+ident(
+  def assoc "tcons0.ml" 23 448 464 "tcons0.ml" 30 664 666
+)
+"tcons0.ml" 23 448 464 "tcons0.ml" 23 448 467
+type(
+  Format.formatter
+)
+ident(
+  def fmt "tcons0.ml" 23 448 468 "tcons0.ml" 30 664 666
+)
+"tcons0.ml" 23 448 468 "tcons0.ml" 23 448 472
+type(
+  t
+)
+ident(
+  def cons "tcons0.ml" 24 476 476 "tcons0.ml" 30 664 666
+)
+"tcons0.ml" 24 476 476 "tcons0.ml" 24 476 488
+type(
+  (Dim.t -> string) -> Format.formatter -> Texpr0.t -> unit
+)
+ident(
+  ext_ref Texpr0.print
+)
+"tcons0.ml" 24 476 489 "tcons0.ml" 24 476 494
+type(
+  Dim.t -> string
+)
+ident(
+  int_ref assoc "tcons0.ml" 23 448 458 "tcons0.ml" 23 448 463
+)
+"tcons0.ml" 24 476 495 "tcons0.ml" 24 476 498
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "tcons0.ml" 23 448 464 "tcons0.ml" 23 448 467
+)
+"tcons0.ml" 24 476 499 "tcons0.ml" 24 476 503
+type(
+  t
+)
+ident(
+  int_ref cons "tcons0.ml" 23 448 468 "tcons0.ml" 23 448 472
+)
+"tcons0.ml" 24 476 499 "tcons0.ml" 24 476 510
+type(
+  Texpr0.t
+)
+"tcons0.ml" 24 476 476 "tcons0.ml" 24 476 510
+call(
+  stack
+)
+type(
+  unit
+)
+"tcons0.ml" 25 512 512 "tcons0.ml" 25 512 526
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"tcons0.ml" 25 512 527 "tcons0.ml" 25 512 530
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "tcons0.ml" 23 448 464 "tcons0.ml" 23 448 467
+)
+"tcons0.ml" 25 512 531 "tcons0.ml" 25 512 538
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"tcons0.ml" 25 512 540 "tcons0.ml" 25 512 553
+type(
+  Lincons0.typ -> string
+)
+ident(
+  int_ref string_of_typ "tcons0.ml" 21 404 408 "tcons0.ml" 21 404 421
+)
+"tcons0.ml" 25 512 554 "tcons0.ml" 25 512 558
+type(
+  t
+)
+ident(
+  int_ref cons "tcons0.ml" 23 448 468 "tcons0.ml" 23 448 472
+)
+"tcons0.ml" 25 512 554 "tcons0.ml" 25 512 562
+type(
+  Lincons0.typ
+)
+"tcons0.ml" 25 512 539 "tcons0.ml" 25 512 563
+call(
+  stack
+)
+type(
+  string
+)
+"tcons0.ml" 25 512 512 "tcons0.ml" 25 512 563
+call(
+  stack
+)
+type(
+  unit
+)
+"tcons0.ml" 26 565 577 "tcons0.ml" 26 565 581
+type(
+  t
+)
+ident(
+  int_ref cons "tcons0.ml" 23 448 468 "tcons0.ml" 23 448 472
+)
+"tcons0.ml" 26 565 577 "tcons0.ml" 26 565 585
+type(
+  Lincons0.typ
+)
+"tcons0.ml" 27 591 599 "tcons0.ml" 27 591 600
+type(
+  Scalar.t
+)
+ident(
+  def x "tcons0.ml" 27 591 604 "tcons0.ml" 27 591 648
+)
+"tcons0.ml" 27 591 593 "tcons0.ml" 27 591 600
+type(
+  typ
+)
+"tcons0.ml" 27 591 604 "tcons0.ml" 27 591 618
+type(
+  Format.formatter ->
+  ((Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"tcons0.ml" 27 591 619 "tcons0.ml" 27 591 622
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "tcons0.ml" 23 448 464 "tcons0.ml" 23 448 467
+)
+"tcons0.ml" 27 591 623 "tcons0.ml" 27 591 632
+type(
+  ((Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"tcons0.ml" 27 591 633 "tcons0.ml" 27 591 645
+type(
+  Format.formatter -> Scalar.t -> unit
+)
+ident(
+  ext_ref Scalar.print
+)
+"tcons0.ml" 27 591 646 "tcons0.ml" 27 591 647
+type(
+  Scalar.t
+)
+ident(
+  int_ref x "tcons0.ml" 27 591 599 "tcons0.ml" 27 591 600
+)
+"tcons0.ml" 27 591 604 "tcons0.ml" 27 591 648
+call(
+  stack
+)
+type(
+  unit
+)
+"tcons0.ml" 28 649 651 "tcons0.ml" 28 649 652
+type(
+  typ
+)
+"tcons0.ml" 28 649 656 "tcons0.ml" 28 649 658
+type(
+  unit
+)
+"tcons0.ml" 26 565 565 "tcons0.ml" 29 659 662
+type(
+  unit
+)
+"tcons0.ml" 30 664 664 "tcons0.ml" 30 664 666
+type(
+  unit
+)
+"tcons0.ml" 26 565 565 "tcons0.ml" 30 664 666
+type(
+  unit
+)
+"tcons0.ml" 25 512 512 "tcons0.ml" 30 664 666
+type(
+  unit
+)
+"tcons0.ml" 24 476 476 "tcons0.ml" 30 664 666
+type(
+  unit
+)
+"tcons0.ml" 31 667 671 "tcons0.ml" 31 667 675
+type(
+  Texpr0.t -> Lincons0.typ -> t
+)
+ident(
+  def make "tcons0.ml" 34 717 717 "tcons0.ml" 1 0 -1
+)
+"tcons0.ml" 31 667 676 "tcons0.ml" 31 667 680
+type(
+  Texpr0.t
+)
+ident(
+  def expr "tcons0.ml" 31 667 681 "tcons0.ml" 33 715 716
+)
+"tcons0.ml" 31 667 681 "tcons0.ml" 31 667 684
+type(
+  Lincons0.typ
+)
+ident(
+  def typ "tcons0.ml" 31 667 687 "tcons0.ml" 33 715 716
+)
+"tcons0.ml" 32 689 698 "tcons0.ml" 32 689 702
+type(
+  Texpr0.t
+)
+ident(
+  int_ref expr "tcons0.ml" 31 667 676 "tcons0.ml" 31 667 680
+)
+"tcons0.ml" 32 689 710 "tcons0.ml" 32 689 713
+type(
+  Lincons0.typ
+)
+ident(
+  int_ref typ "tcons0.ml" 31 667 681 "tcons0.ml" 31 667 684
+)
+"tcons0.ml" 31 667 687 "tcons0.ml" 33 715 716
+type(
+  t
+)
+"tcons0.ml" 34 717 721 "tcons0.ml" 34 717 725
+type(
+  t -> t
+)
+ident(
+  def copy "tcons0.ml" 36 784 785 "tcons0.ml" 1 0 -1
+)
+"tcons0.ml" 34 717 726 "tcons0.ml" 34 717 730
+type(
+  t
+)
+ident(
+  def cons "tcons0.ml" 34 717 733 "tcons0.ml" 36 784 785
+)
+"tcons0.ml" 35 735 744 "tcons0.ml" 35 735 755
+type(
+  Texpr0.t -> Texpr0.t
+)
+ident(
+  ext_ref Texpr0.copy
+)
+"tcons0.ml" 35 735 756 "tcons0.ml" 35 735 760
+type(
+  t
+)
+ident(
+  int_ref cons "tcons0.ml" 34 717 726 "tcons0.ml" 34 717 730
+)
+"tcons0.ml" 35 735 756 "tcons0.ml" 35 735 767
+type(
+  Texpr0.t
+)
+"tcons0.ml" 35 735 744 "tcons0.ml" 35 735 767
+type(
+  Texpr0.t
+)
+"tcons0.ml" 35 735 775 "tcons0.ml" 35 735 779
+type(
+  t
+)
+ident(
+  int_ref cons "tcons0.ml" 34 717 726 "tcons0.ml" 34 717 730
+)
+"tcons0.ml" 35 735 775 "tcons0.ml" 35 735 783
+type(
+  Lincons0.typ
+)
+"tcons0.ml" 34 717 733 "tcons0.ml" 36 784 785
+type(
+  t
+)

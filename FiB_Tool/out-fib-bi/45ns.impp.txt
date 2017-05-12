@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (x = y)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 13
+interp: (not (and (not (= x y)) (and (not (= turn 0)) (<= 6 turn))))
+The assertion is satisfied!
+forward [0] times, backtrack [0] times
+backward [0] times, backtrack [0] times

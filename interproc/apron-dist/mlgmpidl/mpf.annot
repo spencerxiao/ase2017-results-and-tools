@@ -1,0 +1,824 @@
+"mpf.ml" 68 2041 2045 "mpf.ml" 68 2041 2052
+type(
+  t -> string -> base:int -> unit
+)
+ident(
+  def set_str "mpf.ml" 69 2083 2083 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 68 2041 2053 "mpf.ml" 68 2041 2054
+type(
+  t
+)
+ident(
+  def a "mpf.ml" 68 2041 2055 "mpf.ml" 68 2041 2082
+)
+"mpf.ml" 68 2041 2055 "mpf.ml" 68 2041 2056
+type(
+  string
+)
+ident(
+  def b "mpf.ml" 68 2041 2057 "mpf.ml" 68 2041 2082
+)
+"mpf.ml" 68 2041 2058 "mpf.ml" 68 2041 2062
+type(
+  int
+)
+ident(
+  def base "mpf.ml" 68 2041 2065 "mpf.ml" 68 2041 2082
+)
+"mpf.ml" 68 2041 2065 "mpf.ml" 68 2041 2073
+type(
+  t -> string -> int -> unit
+)
+ident(
+  int_ref _set_str "mpf.ml" 65 1963 1963 "mpf.ml" 66 2010 2039
+)
+"mpf.ml" 68 2041 2074 "mpf.ml" 68 2041 2075
+type(
+  t
+)
+ident(
+  int_ref a "mpf.ml" 68 2041 2053 "mpf.ml" 68 2041 2054
+)
+"mpf.ml" 68 2041 2076 "mpf.ml" 68 2041 2077
+type(
+  string
+)
+ident(
+  int_ref b "mpf.ml" 68 2041 2055 "mpf.ml" 68 2041 2056
+)
+"mpf.ml" 68 2041 2078 "mpf.ml" 68 2041 2082
+type(
+  int
+)
+ident(
+  int_ref base "mpf.ml" 68 2041 2058 "mpf.ml" 68 2041 2062
+)
+"mpf.ml" 68 2041 2065 "mpf.ml" 68 2041 2082
+type(
+  unit
+)
+"mpf.ml" 88 2625 2629 "mpf.ml" 88 2625 2641
+type(
+  string -> base:int -> 'a tt
+)
+ident(
+  def init_set_str "mpf.ml" 90 2674 2674 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 88 2625 2642 "mpf.ml" 88 2625 2643
+type(
+  string
+)
+ident(
+  def a "mpf.ml" 88 2625 2644 "mpf.ml" 88 2625 2672
+)
+"mpf.ml" 88 2625 2645 "mpf.ml" 88 2625 2649
+type(
+  int
+)
+ident(
+  def base "mpf.ml" 88 2625 2652 "mpf.ml" 88 2625 2672
+)
+"mpf.ml" 88 2625 2652 "mpf.ml" 88 2625 2665
+type(
+  string -> int -> 'a tt
+)
+ident(
+  int_ref _init_set_str "mpf.ml" 85 2541 2541 "mpf.ml" 86 2589 2623
+)
+"mpf.ml" 88 2625 2666 "mpf.ml" 88 2625 2667
+type(
+  string
+)
+ident(
+  int_ref a "mpf.ml" 88 2625 2642 "mpf.ml" 88 2625 2643
+)
+"mpf.ml" 88 2625 2668 "mpf.ml" 88 2625 2672
+type(
+  int
+)
+ident(
+  int_ref base "mpf.ml" 88 2625 2645 "mpf.ml" 88 2625 2649
+)
+"mpf.ml" 88 2625 2652 "mpf.ml" 88 2625 2672
+type(
+  'a tt
+)
+"mpf.ml" 114 3287 3291 "mpf.ml" 114 3287 3298
+type(
+  base:int -> digits:int -> 'a tt -> string * int
+)
+ident(
+  def get_str "mpf.ml" 116 3341 3341 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 114 3287 3300 "mpf.ml" 114 3287 3304
+type(
+  int
+)
+ident(
+  def base "mpf.ml" 114 3287 3305 "mpf.ml" 114 3287 3339
+)
+"mpf.ml" 114 3287 3306 "mpf.ml" 114 3287 3312
+type(
+  int
+)
+ident(
+  def digits "mpf.ml" 114 3287 3313 "mpf.ml" 114 3287 3339
+)
+"mpf.ml" 114 3287 3313 "mpf.ml" 114 3287 3314
+type(
+  'a tt
+)
+ident(
+  def a "mpf.ml" 114 3287 3317 "mpf.ml" 114 3287 3339
+)
+"mpf.ml" 114 3287 3317 "mpf.ml" 114 3287 3325
+type(
+  int -> int -> 'a tt -> string * int
+)
+ident(
+  int_ref _get_str "mpf.ml" 111 3200 3200 "mpf.ml" 112 3256 3285
+)
+"mpf.ml" 114 3287 3326 "mpf.ml" 114 3287 3330
+type(
+  int
+)
+ident(
+  int_ref base "mpf.ml" 114 3287 3300 "mpf.ml" 114 3287 3304
+)
+"mpf.ml" 114 3287 3331 "mpf.ml" 114 3287 3337
+type(
+  int
+)
+ident(
+  int_ref digits "mpf.ml" 114 3287 3306 "mpf.ml" 114 3287 3312
+)
+"mpf.ml" 114 3287 3338 "mpf.ml" 114 3287 3339
+type(
+  'a tt
+)
+ident(
+  int_ref a "mpf.ml" 114 3287 3313 "mpf.ml" 114 3287 3314
+)
+"mpf.ml" 114 3287 3317 "mpf.ml" 114 3287 3339
+type(
+  string * int
+)
+"mpf.ml" 186 5041 5045 "mpf.ml" 186 5041 5050
+type(
+  'a tt -> 'b tt -> bits:int -> bool
+)
+ident(
+  def equal "mpf.ml" 187 5079 5079 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 186 5041 5051 "mpf.ml" 186 5041 5052
+type(
+  'a tt
+)
+ident(
+  def a "mpf.ml" 186 5041 5053 "mpf.ml" 186 5041 5078
+)
+"mpf.ml" 186 5041 5053 "mpf.ml" 186 5041 5054
+type(
+  'b tt
+)
+ident(
+  def b "mpf.ml" 186 5041 5055 "mpf.ml" 186 5041 5078
+)
+"mpf.ml" 186 5041 5056 "mpf.ml" 186 5041 5060
+type(
+  int
+)
+ident(
+  def bits "mpf.ml" 186 5041 5063 "mpf.ml" 186 5041 5078
+)
+"mpf.ml" 186 5041 5063 "mpf.ml" 186 5041 5069
+type(
+  'a tt -> 'b tt -> int -> bool
+)
+ident(
+  int_ref _equal "mpf.ml" 183 4964 4964 "mpf.ml" 184 5012 5039
+)
+"mpf.ml" 186 5041 5070 "mpf.ml" 186 5041 5071
+type(
+  'a tt
+)
+ident(
+  int_ref a "mpf.ml" 186 5041 5051 "mpf.ml" 186 5041 5052
+)
+"mpf.ml" 186 5041 5072 "mpf.ml" 186 5041 5073
+type(
+  'b tt
+)
+ident(
+  int_ref b "mpf.ml" 186 5041 5053 "mpf.ml" 186 5041 5054
+)
+"mpf.ml" 186 5041 5074 "mpf.ml" 186 5041 5078
+type(
+  int
+)
+ident(
+  int_ref bits "mpf.ml" 186 5041 5056 "mpf.ml" 186 5041 5060
+)
+"mpf.ml" 186 5041 5063 "mpf.ml" 186 5041 5078
+type(
+  bool
+)
+"mpf.ml" 236 6233 6237 "mpf.ml" 236 6233 6246
+type(
+  'a tt -> string
+)
+ident(
+  def to_string "mpf.ml" 242 6354 6354 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 236 6233 6247 "mpf.ml" 236 6233 6248
+type(
+  'a tt
+)
+ident(
+  def x "mpf.ml" 237 6252 6252 "mpf.ml" 240 6318 6351
+)
+"mpf.ml" 237 6252 6257 "mpf.ml" 237 6252 6258
+type(
+  string
+)
+ident(
+  def s "mpf.ml" 238 6297 6297 "mpf.ml" 240 6318 6351
+)
+"mpf.ml" 237 6252 6259 "mpf.ml" 237 6252 6260
+type(
+  int
+)
+ident(
+  def e "mpf.ml" 238 6297 6297 "mpf.ml" 240 6318 6351
+)
+"mpf.ml" 237 6252 6256 "mpf.ml" 237 6252 6261
+type(
+  string * int
+)
+"mpf.ml" 237 6252 6264 "mpf.ml" 237 6252 6271
+type(
+  base:int -> digits:int -> 'a tt -> string * int
+)
+ident(
+  int_ref get_str "mpf.ml" 114 3287 3291 "mpf.ml" 114 3287 3298
+)
+"mpf.ml" 237 6252 6278 "mpf.ml" 237 6252 6280
+type(
+  int
+)
+"mpf.ml" 237 6252 6289 "mpf.ml" 237 6252 6290
+type(
+  int
+)
+"mpf.ml" 237 6252 6291 "mpf.ml" 237 6252 6292
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpf.ml" 236 6233 6247 "mpf.ml" 236 6233 6248
+)
+"mpf.ml" 237 6252 6264 "mpf.ml" 237 6252 6292
+call(
+  stack
+)
+type(
+  string * int
+)
+"mpf.ml" 238 6297 6300 "mpf.ml" 238 6297 6301
+type(
+  string
+)
+ident(
+  int_ref s "mpf.ml" 237 6252 6257 "mpf.ml" 237 6252 6258
+)
+"mpf.ml" 238 6297 6301 "mpf.ml" 238 6297 6302
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"mpf.ml" 238 6297 6302 "mpf.ml" 238 6297 6304
+type(
+  string
+)
+"mpf.ml" 238 6297 6300 "mpf.ml" 238 6297 6304
+type(
+  bool
+)
+"mpf.ml" 239 6306 6311 "mpf.ml" 239 6306 6316
+type(
+  string
+)
+"mpf.ml" 240 6318 6323 "mpf.ml" 240 6318 6337
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"mpf.ml" 240 6318 6338 "mpf.ml" 240 6318 6347
+type(
+  (string -> int -> string, unit, string) format
+)
+"mpf.ml" 240 6318 6348 "mpf.ml" 240 6318 6349
+type(
+  string
+)
+ident(
+  int_ref s "mpf.ml" 237 6252 6257 "mpf.ml" 237 6252 6258
+)
+"mpf.ml" 240 6318 6350 "mpf.ml" 240 6318 6351
+type(
+  int
+)
+ident(
+  int_ref e "mpf.ml" 237 6252 6259 "mpf.ml" 237 6252 6260
+)
+"mpf.ml" 240 6318 6323 "mpf.ml" 240 6318 6351
+call(
+  tail
+)
+type(
+  string
+)
+"mpf.ml" 238 6297 6297 "mpf.ml" 240 6318 6351
+type(
+  string
+)
+"mpf.ml" 237 6252 6252 "mpf.ml" 240 6318 6351
+type(
+  string
+)
+"mpf.ml" 242 6354 6358 "mpf.ml" 242 6354 6366
+type(
+  'a tt -> float
+)
+ident(
+  def to_float "mpf.ml" 243 6375 6375 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 242 6354 6369 "mpf.ml" 242 6354 6374
+type(
+  'a tt -> float
+)
+ident(
+  int_ref get_d "mpf.ml" 93 2800 2800 "mpf.ml" 94 2832 2858
+)
+"mpf.ml" 243 6375 6379 "mpf.ml" 243 6375 6388
+type(
+  string -> 'a tt
+)
+ident(
+  def of_string "mpf.ml" 244 6415 6415 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 243 6375 6389 "mpf.ml" 243 6375 6392
+type(
+  string
+)
+ident(
+  def str "mpf.ml" 243 6375 6395 "mpf.ml" 243 6375 6414
+)
+"mpf.ml" 243 6375 6395 "mpf.ml" 243 6375 6407
+type(
+  string -> base:int -> 'a tt
+)
+ident(
+  int_ref init_set_str "mpf.ml" 88 2625 2629 "mpf.ml" 88 2625 2641
+)
+"mpf.ml" 243 6375 6408 "mpf.ml" 243 6375 6411
+type(
+  string
+)
+ident(
+  int_ref str "mpf.ml" 243 6375 6389 "mpf.ml" 243 6375 6392
+)
+"mpf.ml" 243 6375 6412 "mpf.ml" 243 6375 6414
+type(
+  int
+)
+"mpf.ml" 243 6375 6395 "mpf.ml" 243 6375 6414
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpf.ml" 244 6415 6419 "mpf.ml" 244 6415 6427
+type(
+  float -> 'a tt
+)
+ident(
+  def of_float "mpf.ml" 245 6441 6441 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 244 6415 6430 "mpf.ml" 244 6415 6440
+type(
+  float -> 'a tt
+)
+ident(
+  int_ref init_set_d "mpf.ml" 82 2471 2471 "mpf.ml" 83 2508 2539
+)
+"mpf.ml" 245 6441 6445 "mpf.ml" 245 6441 6451
+type(
+  int -> 'a tt
+)
+ident(
+  def of_int "mpf.ml" 246 6470 6470 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 245 6441 6452 "mpf.ml" 245 6441 6453
+type(
+  int
+)
+ident(
+  def a "mpf.ml" 245 6441 6456 "mpf.ml" 245 6441 6469
+)
+"mpf.ml" 245 6441 6456 "mpf.ml" 245 6441 6467
+type(
+  int -> 'a tt
+)
+ident(
+  int_ref init_set_si "mpf.ml" 79 2401 2401 "mpf.ml" 80 2437 2469
+)
+"mpf.ml" 245 6441 6468 "mpf.ml" 245 6441 6469
+type(
+  int
+)
+ident(
+  int_ref a "mpf.ml" 245 6441 6452 "mpf.ml" 245 6441 6453
+)
+"mpf.ml" 245 6441 6456 "mpf.ml" 245 6441 6469
+type(
+  'a tt
+)
+"mpf.ml" 246 6470 6475 "mpf.ml" 246 6470 6479
+type(
+  m tt -> 'a tt
+)
+ident(
+  def _gen "mpf.ml" 247 6509 6509 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 246 6470 6499 "mpf.ml" 246 6470 6508
+type(
+  m tt -> 'a tt
+)
+ident(
+  ext_ref Obj.magic
+)
+"mpf.ml" 247 6509 6513 "mpf.ml" 247 6509 6519
+type(
+  'a Mpz.tt -> 'b tt
+)
+ident(
+  def of_mpz "mpf.ml" 248 6566 6566 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 247 6509 6520 "mpf.ml" 247 6509 6521
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpf.ml" 247 6509 6524 "mpf.ml" 247 6509 6565
+)
+"mpf.ml" 247 6509 6528 "mpf.ml" 247 6509 6531
+type(
+  m tt
+)
+ident(
+  def res "mpf.ml" 247 6509 6544 "mpf.ml" 247 6509 6565
+)
+"mpf.ml" 247 6509 6534 "mpf.ml" 247 6509 6538
+type(
+  unit -> m tt
+)
+ident(
+  int_ref init "mpf.ml" 31 1190 1190 "mpf.ml" 32 1220 1245
+)
+"mpf.ml" 247 6509 6538 "mpf.ml" 247 6509 6540
+type(
+  unit
+)
+"mpf.ml" 247 6509 6534 "mpf.ml" 247 6509 6540
+type(
+  m tt
+)
+"mpf.ml" 247 6509 6544 "mpf.ml" 247 6509 6549
+type(
+  t -> 'a Mpz.tt -> unit
+)
+ident(
+  int_ref set_z "mpf.ml" 59 1827 1827 "mpf.ml" 60 1867 1893
+)
+"mpf.ml" 247 6509 6550 "mpf.ml" 247 6509 6553
+type(
+  t
+)
+ident(
+  int_ref res "mpf.ml" 247 6509 6528 "mpf.ml" 247 6509 6531
+)
+"mpf.ml" 247 6509 6554 "mpf.ml" 247 6509 6555
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpf.ml" 247 6509 6520 "mpf.ml" 247 6509 6521
+)
+"mpf.ml" 247 6509 6544 "mpf.ml" 247 6509 6555
+type(
+  unit
+)
+"mpf.ml" 247 6509 6557 "mpf.ml" 247 6509 6561
+type(
+  m tt -> 'b tt
+)
+ident(
+  int_ref _gen "mpf.ml" 246 6470 6475 "mpf.ml" 246 6470 6479
+)
+"mpf.ml" 247 6509 6562 "mpf.ml" 247 6509 6565
+type(
+  m tt
+)
+ident(
+  int_ref res "mpf.ml" 247 6509 6528 "mpf.ml" 247 6509 6531
+)
+"mpf.ml" 247 6509 6557 "mpf.ml" 247 6509 6565
+call(
+  tail
+)
+type(
+  'b tt
+)
+"mpf.ml" 247 6509 6544 "mpf.ml" 247 6509 6565
+type(
+  'b tt
+)
+"mpf.ml" 247 6509 6524 "mpf.ml" 247 6509 6565
+type(
+  'b tt
+)
+"mpf.ml" 248 6566 6570 "mpf.ml" 248 6566 6576
+type(
+  'a Mpq.tt -> 'b tt
+)
+ident(
+  def of_mpq "mpf.ml" 249 6623 6623 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 248 6566 6577 "mpf.ml" 248 6566 6578
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpf.ml" 248 6566 6581 "mpf.ml" 248 6566 6622
+)
+"mpf.ml" 248 6566 6585 "mpf.ml" 248 6566 6588
+type(
+  m tt
+)
+ident(
+  def res "mpf.ml" 248 6566 6601 "mpf.ml" 248 6566 6622
+)
+"mpf.ml" 248 6566 6591 "mpf.ml" 248 6566 6595
+type(
+  unit -> m tt
+)
+ident(
+  int_ref init "mpf.ml" 31 1190 1190 "mpf.ml" 32 1220 1245
+)
+"mpf.ml" 248 6566 6595 "mpf.ml" 248 6566 6597
+type(
+  unit
+)
+"mpf.ml" 248 6566 6591 "mpf.ml" 248 6566 6597
+type(
+  m tt
+)
+"mpf.ml" 248 6566 6601 "mpf.ml" 248 6566 6606
+type(
+  t -> 'a Mpq.tt -> unit
+)
+ident(
+  int_ref set_q "mpf.ml" 62 1895 1895 "mpf.ml" 63 1935 1961
+)
+"mpf.ml" 248 6566 6607 "mpf.ml" 248 6566 6610
+type(
+  t
+)
+ident(
+  int_ref res "mpf.ml" 248 6566 6585 "mpf.ml" 248 6566 6588
+)
+"mpf.ml" 248 6566 6611 "mpf.ml" 248 6566 6612
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpf.ml" 248 6566 6577 "mpf.ml" 248 6566 6578
+)
+"mpf.ml" 248 6566 6601 "mpf.ml" 248 6566 6612
+type(
+  unit
+)
+"mpf.ml" 248 6566 6614 "mpf.ml" 248 6566 6618
+type(
+  m tt -> 'b tt
+)
+ident(
+  int_ref _gen "mpf.ml" 246 6470 6475 "mpf.ml" 246 6470 6479
+)
+"mpf.ml" 248 6566 6619 "mpf.ml" 248 6566 6622
+type(
+  m tt
+)
+ident(
+  int_ref res "mpf.ml" 248 6566 6585 "mpf.ml" 248 6566 6588
+)
+"mpf.ml" 248 6566 6614 "mpf.ml" 248 6566 6622
+call(
+  tail
+)
+type(
+  'b tt
+)
+"mpf.ml" 248 6566 6601 "mpf.ml" 248 6566 6622
+type(
+  'b tt
+)
+"mpf.ml" 248 6566 6581 "mpf.ml" 248 6566 6622
+type(
+  'b tt
+)
+"mpf.ml" 249 6623 6627 "mpf.ml" 249 6623 6637
+type(
+  'a tt -> bool
+)
+ident(
+  def is_integer "mpf.ml" 251 6651 6651 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 249 6623 6640 "mpf.ml" 249 6623 6649
+type(
+  'a tt -> bool
+)
+ident(
+  int_ref integer_p "mpf.ml" 209 5625 5625 "mpf.ml" 210 5660 5690
+)
+"mpf.ml" 253 6679 6683 "mpf.ml" 253 6679 6688
+type(
+  Format.formatter -> 'a tt -> unit
+)
+ident(
+  def print "mpf.ml" 257 6791 6828 "mpf.ml" 1 0 -1
+)
+"mpf.ml" 253 6679 6689 "mpf.ml" 253 6679 6692
+type(
+  Format.formatter
+)
+ident(
+  def fmt "mpf.ml" 253 6679 6693 "mpf.ml" 257 6791 6828
+)
+"mpf.ml" 253 6679 6693 "mpf.ml" 253 6679 6694
+type(
+  'a tt
+)
+ident(
+  def x "mpf.ml" 254 6698 6698 "mpf.ml" 257 6791 6828
+)
+"mpf.ml" 254 6698 6703 "mpf.ml" 254 6698 6704
+type(
+  string
+)
+ident(
+  def s "mpf.ml" 255 6743 6743 "mpf.ml" 257 6791 6828
+)
+"mpf.ml" 254 6698 6705 "mpf.ml" 254 6698 6706
+type(
+  int
+)
+ident(
+  def e "mpf.ml" 255 6743 6743 "mpf.ml" 257 6791 6828
+)
+"mpf.ml" 254 6698 6702 "mpf.ml" 254 6698 6707
+type(
+  string * int
+)
+"mpf.ml" 254 6698 6710 "mpf.ml" 254 6698 6717
+type(
+  base:int -> digits:int -> 'a tt -> string * int
+)
+ident(
+  int_ref get_str "mpf.ml" 114 3287 3291 "mpf.ml" 114 3287 3298
+)
+"mpf.ml" 254 6698 6724 "mpf.ml" 254 6698 6726
+type(
+  int
+)
+"mpf.ml" 254 6698 6735 "mpf.ml" 254 6698 6736
+type(
+  int
+)
+"mpf.ml" 254 6698 6737 "mpf.ml" 254 6698 6738
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpf.ml" 253 6679 6693 "mpf.ml" 253 6679 6694
+)
+"mpf.ml" 254 6698 6710 "mpf.ml" 254 6698 6738
+call(
+  stack
+)
+type(
+  string * int
+)
+"mpf.ml" 255 6743 6746 "mpf.ml" 255 6743 6747
+type(
+  string
+)
+ident(
+  int_ref s "mpf.ml" 254 6698 6703 "mpf.ml" 254 6698 6704
+)
+"mpf.ml" 255 6743 6747 "mpf.ml" 255 6743 6748
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"mpf.ml" 255 6743 6748 "mpf.ml" 255 6743 6750
+type(
+  string
+)
+"mpf.ml" 255 6743 6746 "mpf.ml" 255 6743 6750
+type(
+  bool
+)
+"mpf.ml" 256 6752 6757 "mpf.ml" 256 6752 6779
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"mpf.ml" 256 6752 6780 "mpf.ml" 256 6752 6783
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "mpf.ml" 253 6679 6689 "mpf.ml" 253 6679 6692
+)
+"mpf.ml" 256 6752 6784 "mpf.ml" 256 6752 6789
+type(
+  string
+)
+"mpf.ml" 256 6752 6757 "mpf.ml" 256 6752 6789
+call(
+  tail
+)
+type(
+  unit
+)
+"mpf.ml" 257 6791 6796 "mpf.ml" 257 6791 6810
+type(
+  Format.formatter ->
+  (string -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"mpf.ml" 257 6791 6811 "mpf.ml" 257 6791 6814
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "mpf.ml" 253 6679 6689 "mpf.ml" 253 6679 6692
+)
+"mpf.ml" 257 6791 6815 "mpf.ml" 257 6791 6824
+type(
+  (string -> int -> unit, Format.formatter, unit) format
+)
+"mpf.ml" 257 6791 6825 "mpf.ml" 257 6791 6826
+type(
+  string
+)
+ident(
+  int_ref s "mpf.ml" 254 6698 6703 "mpf.ml" 254 6698 6704
+)
+"mpf.ml" 257 6791 6827 "mpf.ml" 257 6791 6828
+type(
+  int
+)
+ident(
+  int_ref e "mpf.ml" 254 6698 6705 "mpf.ml" 254 6698 6706
+)
+"mpf.ml" 257 6791 6796 "mpf.ml" 257 6791 6828
+call(
+  tail
+)
+type(
+  unit
+)
+"mpf.ml" 255 6743 6743 "mpf.ml" 257 6791 6828
+type(
+  unit
+)
+"mpf.ml" 254 6698 6698 "mpf.ml" 257 6791 6828
+type(
+  unit
+)

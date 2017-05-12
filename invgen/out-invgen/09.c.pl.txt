@@ -1,0 +1,53 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/09.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([34,33,35,32,30,29,28,27,25]): pc(main-22-35) pc(main-ret-0) {k>=0,j+1>=n,t'=t,pvlen'=pvlen,n'=n,k'=k-1,j'=j+1,i'=i-1}
+[k>=0,j+1>=n] [t'=t,pvlen'=pvlen,n'=n,k'=k-1,j'=j+1,i'=i-1]
+path([31,30,29,28,27,25]): pc(main-22-35) pc(main-22-35) {k>=0,j+1+1=<n,t'=t,pvlen'=pvlen,n'=n,k'=k-1,j'=j+1,i'=i-1}
+[k>=0,j+1+1=<n] [t'=t,pvlen'=pvlen,n'=n,k'=k-1,j'=j+1,i'=i-1]
+path([26,25]): pc(main-22-35) pc(main-err-0) {k+1=<0,t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=i}
+[k+1=<0] [t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=i]
+path([24,23,22,36,21,19]): pc(main-11-31) pc(main-22-35) {t'=t,pvlen'=pvlen,n'=i,k'=k,j'=0,i'=i}
+[] [t'=t,pvlen'=pvlen,n'=i,k'=k,j'=0,i'=i]
+path([20,19]): pc(main-11-31) pc(main-11-31) {t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=i}
+[] [t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=i]
+path([18,37,14,12]): pc(main-10-26) pc(main-11-31) {t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=i}
+[] [t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=i]
+path([17,16,15,13,12]): pc(main-10-26) pc(main-10-26) {t'=i,pvlen'=pvlen,n'=n,k'=k+1,j'=j,i'=i+1}
+[] [t'=i,pvlen'=pvlen,n'=n,k'=k+1,j'=j,i'=i+1]
+path([11,10,7,38,5,3]): pc(main-1-17) pc(main-10-26) {i=<pvlen,t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=0}
+[i=<pvlen] [t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=0]
+path([11,9,8,7,38,5,3]): pc(main-1-17) pc(main-10-26) {i>=1+pvlen,t'=t,pvlen'=i,n'=n,k'=k,j'=j,i'=0}
+[i>=1+pvlen] [t'=t,pvlen'=i,n'=n,k'=k,j'=j,i'=0]
+path([6,4,3]): pc(main-1-17) pc(main-1-17) {t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=i+1}
+[] [t'=t,pvlen'=pvlen,n'=n,k'=k,j'=j,i'=i+1]
+path([2,1]): pc(main-0-14) pc(main-1-17) {t'=t,pvlen'=pvlen,n'=n,k'=0,j'=j,i'=0}
+[] [t'=t,pvlen'=pvlen,n'=n,k'=0,j'=j,i'=0]
+
+#Printing Strengthening ==
+#pc(main-22-35): [pvlen>=0,i>=0,k=i,j>=0,n=j+i]
+#pc(main-11-31): [k=i,i>=0,pvlen>=0]
+#pc(main-10-26): [k=i,i>=0,pvlen>=0]
+#pc(main-1-17): [k=0,i>=0]
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([26,25])..# cleared. 
+#solving for path to error: path([26,25])..# cleared. 
+#=========================
+#contributed facts:
+#pc(main-22-35): []
+#pc(main-11-31): []
+#pc(main-10-26): []
+#pc(main-1-17): []
+#=========================
+#unproven: path([34,33,35,32,30,29,28,27,25])
+#=========================
+#Invariant:
+#pc(main-22-35): [i>=0,k=i,n=j+i]
+#pc(main-11-31): [k=i,i>=0]
+#pc(main-10-26): [k=i,i>=0]
+#pc(main-1-17): [k=0]
+#Total Solving time: 60 ms

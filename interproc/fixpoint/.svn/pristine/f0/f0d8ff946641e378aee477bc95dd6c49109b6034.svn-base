@@ -1,0 +1,111 @@
+#---------------------------------------
+# Directories
+#---------------------------------------
+
+SRCDIR = $(shell pwd)
+#
+# Installation directory prefix
+#
+PREFIX = 
+# You need cudd mlcuddidl
+# CUDD_INSTALL = 
+# MLCUDDIDL_INSTALL = 
+
+#---------------------------------------
+# CAML part
+#---------------------------------------
+
+MLC = ocamlc.opt 
+MLOPT = ocamlopt.opt
+MLDEP = ocamldep
+
+MLINC = #-I $(CAMLLIB_INSTALL)/lib
+MLFLAGS = -g
+MLOPTFLAGS = -inline 20
+
+MLMODULES = print time sette hashhe ilist sHGraph mkFixpoint 
+MLSRC = $(MLMODULES:%=%.mli) $(MLMODULES:%=%.ml) 
+
+INT = $(MLMODULES:%=%.cmi)
+OBJ = $(MLMODULES:%=%.cmo)
+OBJx = $(MLMODULES:%=%.cmx)
+
+MLLIB_TOINSTALL = $(INT) $(MLMODULES:%=%.mli) analyzer.cma
+MLLIB_TOINSTALLx = $(OBJSx) analyzer.cmxa analyzer.a
+
+#---------------------------------------
+# Rules
+#---------------------------------------
+
+# Global rules
+all: $(INT) analyzer.cma
+opt: $(OBJx) analyzer.cmxa
+
+install:
+	cp -f $(MLLIB_TOINSTALL) $(MLLIB_TOINSTALLx) $(PREFIX)/lib
+
+distclean: clean
+	(cd $(CLIBDIR); /bin/rm -f $(MLLIB_TOINSTALL) $(MLLIB_TOINSTALLx))
+
+clean:
+	/bin/rm -f *.[aoc] *.cm[ioxa] $(MLSRC_aux) 
+	rm -f *.idx *.ilg *.ind *.out *.log *.aux *.bbl *.blg *.toc *.dvi *.ps ocamldoc.tex ocamldoc.sty Makefile.depend
+
+# CAML rules
+analyzer.cma: $(OBJ)
+	$(MLC) $(MLFLAGS) -a -o $@ $^
+analyzer.cmxa: $(OBJx)
+	$(MLOPT) $(MLOPTFLAGS) -a -o $@ $^
+example: example.cmo analyzer.cma
+	$(MLC) $(MLINC) $(MLFLAGS) -o $@ $^
+
+# TEX rules
+
+dvi: analyzer.dvi
+
+.PHONY: analyzer.dvi analyzer.pdf html
+
+analyzer.pdf:
+	dvipdf analyzer.dvi
+
+analyzer.dvi: $(INT) $(MLMODULES:%=%.mli) 
+	ocamldoc.opt -latextitle 1,chapter -latextitle 2,section -latextitle 3,subsection -latextitle 4,subsubsection -latextitle 5,paragraph -noheader -notrailer -latex -o ocamldoc.tex $(MLINC) $(MLMODULES:%=%.mli) 
+	latex analyzer
+	makeindex analyzer
+	latex analyzer
+	latex analyzer
+
+html: $(MLMODULES:%=%.mli)
+	mkdir -p html
+	ocamldoc.opt $(OCAMLINC) -html -d html -colorize-code $^
+
+#--------------------------------------------------------------
+# IMPLICIT RULES AND DEPENDENCIES
+#--------------------------------------------------------------
+
+.SUFFIXES: .ml .mli .cmi .cmo .cmx .dvi .tex .ps
+
+#-----------------------------------
+# CAML
+#-----------------------------------
+
+%.cmi: %.mli
+	$(MLC) $(MLFLAGS) $(MLINC) -c $<
+
+%.cmo: %.ml %.cmi
+	$(MLC) $(MLFLAGS) $(MLINC) -c $<
+
+%.cmx: %.ml %.cmi
+	$(MLOPT) $(MLOPTFLAGS) $(MLINC) -c $<
+
+%.ps: %.dvi
+	/usr/bin/dvips $^ -o
+
+%.pdf: %.ps
+	ps2pdf $^
+
+Makefile.depend: $(MLSRC)
+	$(MLDEP) $(MLINC) $^ >Makefile.depend
+
+
+include Makefile.depend

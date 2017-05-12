@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (x <= 1)
+find an inductive invaraint based on concrete reachables
+invariant size: 20
+interp: (let ((.def_24 (<= x 1))) (let ((.def_50 (<= x 0))) (let ((.def_873 (<= (to_real 0) (to_real (+ w (* 2 (to_int (* (/ 1 2) (to_real (* (- 1) w)))))))))) (or (and (or .def_24 .def_50) (or .def_50 .def_873)) (and .def_24 .def_873)))))
+The assertion is satisfied!
+forward [2] times, backtracks [1] times
+backward [1] times

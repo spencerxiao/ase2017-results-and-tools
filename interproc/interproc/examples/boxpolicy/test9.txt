@@ -1,0 +1,15 @@
+var i:int,j:int,k:int;
+begin
+  i=1;
+  k=0;
+  while k<1000 do
+    while i<100 do
+      j=100;
+      while j>1 do
+        j=j-i;
+      done;
+      i=i+1;
+    done;
+    k=k-j;
+  done;
+end

@@ -1,0 +1,20 @@
+(declare-fun |main::n| () Int)
+(declare-fun |main::z| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::i| () Int)
+
+main:
+(assert (> |main::z| (* 2 |main::n|)))
+
+__VERIFIER_assume N3:
+(assert (<= 0 |main::n|))
+(assert (= |__VERIFIER_assume::i| 0))
+
+main N18:
+(assert (<= |main::i| |main::n|))
+(assert (> |main::z| (* 2 |main::n|)))
+
+main N28:
+(assert false)
+(assert (> |main::z| (* 2 |main::n|)))
+

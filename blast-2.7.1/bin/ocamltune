@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+# Print processor-specific settings for running OCaml on this machine with the given memory limit specified
+# On failure, prints empty string.
+# Doesn't print newline.
+
+# Usage: ocamltune
+
+use strict;
+
+# Determine wordsize
+my $uname = `uname -i`; chomp $uname;
+my $arch = ($uname =~ /64/)? 64 : 32;
+my $wordsize = int($arch / 8);
+
+$wordsize ||= 32;	#Just in case...
+
+# Set minor heap size to half of CPU cache
+my $cache_size = `cat /proc/cpuinfo | grep 'cache size' | head -n 1`; chomp $cache_size;
+$cache_size =~ s/cache size\s*:\s*([0-9]+).*KB/$1/;
+$cache_size *= 1024;
+my $minheap_sz = int ($cache_size / 2 / $wordsize);
+
+# NOTE: we do not actually set max mem here, but the code will be kept for further reference
+# Set initial heap to 10% of maximal memory
+# We used to set it to half of it, but it turns out that it's too much.  The whole heap is consumed quite fast, and there's not memory left for solvers and other programs (just 50% of max is left at best).  So we just decrease it, and note that with a greater heap increment (nearly 100 megabytes) it's not a drastic decrease.
+
+my $max_mem = undef;
+#my $max_mem = $ARGV[0] ? ($ARGV[0] * 1024) : undef;	# In kilobytes
+
+my $init_heap_sz = undef;
+if ($max_mem) {
+	$init_heap_sz = int ($max_mem / 10 / $wordsize);
+}
+
+# Set heap increment to 15M
+my $heap_incr = "15M";
+
+my @params = ();
+push @params, "h=$init_heap_sz" if $init_heap_sz;
+push @params, "i=$heap_incr";
+push @params, "s=$minheap_sz";
+# Set garbage collector's efficiency to 55% (we need time more than memory, actually)
+push @params, "o=55";
+
+$ENV{'OCAMLRUNPARAM'} = join(",",@params);
+
+exec @ARGV;
+

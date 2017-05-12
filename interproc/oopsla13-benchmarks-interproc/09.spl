@@ -1,0 +1,38 @@
+var i:int, j:int, t:int, pvlen:int, k:int, n:int;
+begin
+	k = 0;
+	i = 0;
+	while(brandom) do
+		i = i +_i 1;
+	done;
+
+	if (i > pvlen) then
+		pvlen = i;
+	endif;
+
+	i = 0;
+
+	while (brandom) do
+		t = i;
+		i = i +_i 1;
+		k = k +_i 1;
+	done;
+
+	while(brandom) do
+		skip;
+	done;
+
+	j = 0;
+	n = i;
+	while(true) do
+		assume (k >= 0);
+		k = k -_i 1;
+		i = i -_i 1;
+		j = j +_i 1;
+		if (j < n) then 
+			skip;
+		else
+			halt;
+		endif;
+	done;
+end

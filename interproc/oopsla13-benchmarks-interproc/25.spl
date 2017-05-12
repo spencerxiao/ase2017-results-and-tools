@@ -1,0 +1,25 @@
+var x:int, y:int, i:int, j:int;
+begin
+	x = 0;
+	y = 0;
+	i = 0;
+	j = 0;
+
+	while (brandom) do 
+		while (brandom) do
+			if ( x == y) then 
+				i = i +_i 1;
+			else
+				j = j +_i 1;
+			endif;
+		done;
+
+		if (i >= j) then 
+			x = x +_i 1;
+			y = y +_i 1;
+		else
+			y = y +_i 1;
+		endif;
+	done;
+	assume(i >= j);
+end

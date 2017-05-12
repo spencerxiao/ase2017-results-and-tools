@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((k = 0) | (j = ((2 * k) + 2)))
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 33
+interp: (let ((.def_16 (= k 0))) (let ((.def_25 (= t 0))) (let ((.def_26 (not .def_25))) (let ((.def_123 (<= 3 (+ j (* (- 2) k))))) (let ((.def_127 (<= (+ j (* (- 2) k)) 1))) (let ((.def_128 (or .def_123 .def_127))) (let ((.def_129 (not .def_16))) (not (or (and .def_128 .def_129) (and (or (and .def_25 .def_129) (and .def_16 (and .def_128 (not (and .def_16 (not (and .def_26 .def_128))))))) (not (and .def_26 (and (not .def_123) (not .def_127))))))))))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

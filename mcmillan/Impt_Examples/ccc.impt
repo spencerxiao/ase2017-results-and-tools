@@ -1,0 +1,34 @@
+MODULE main
+	int lock;
+	int new;
+	int old;
+
+	int finish;
+
+	assume(lock == 0);
+	assume(new == old + 1);
+
+	assume(finish == 0);
+
+	while(new != old){
+		lock = 1;
+		old = new;
+
+		if(*){
+			lock = 0;
+			new = new + 1;
+		}
+		else{
+			skip;
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && lock == 0;

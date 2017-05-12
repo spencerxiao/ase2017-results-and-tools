@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((k = 0) | (j = ((2 * k) + 2)))
+find an inductive invaraint based on concrete reachables
+invariant size: 27
+interp: (let ((.def_16 (= k 0))) (let ((.def_25 (= t 0))) (let ((.def_295 (not (and .def_16 .def_25)))) (not (and .def_295 (and (not (and (not .def_25) (and (<= (+ j (* (- 2) k)) 2) (<= 2 (+ j (* (- 2) k)))))) (not (and .def_16 (and (and (<= j 2) (<= 2 j)) .def_295)))))))))
+The assertion is satisfied!
+forward [2] times, backtracks [1] times
+backward [1] times

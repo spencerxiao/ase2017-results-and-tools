@@ -1,0 +1,35 @@
+(declare-fun |main::k| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::m| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::n| () Int)
+
+0 (9) @8:
+(assert true)
+
+57 () @13:
+(assert (and (= (+ |main::x| |main::y|) |main::k|) (<= 0 |main::m|) (< |main::m| |main::n|) (= (+ |main::y| |main::x| (- |main::k|)) 0) (let ((.cse7 (- 1)) (.cse8 (- 2))) (let ((.cse0 (= |main::j| |main::m|)) (.cse1 (<= |main::j| (+ |main::m| 1))) (.cse6 (<= 0 (+ |main::m| .cse8))) (.cse2 (not (= |main::j| 0))) (.cse3 (<= 0 (+ |main::j| .cse7))) (.cse4 (<= 0 (+ |main::j| .cse8))) (.cse5 (<= 0 (+ |main::m| .cse7)))) (ite (= |main::m| 0) (and (not .cse0) (not .cse1) .cse2 .cse3 .cse4 (not .cse5) (not .cse6)) (ite .cse0 (and .cse1 .cse2 .cse3 .cse4 .cse5 .cse6) (ite .cse1 (and .cse2 .cse3 .cse4 .cse5 .cse6) (and .cse2 .cse3 .cse4 .cse5))))))))
+
+45 (49) @13:
+(assert (and (= (+ |main::x| |main::y|) |main::k|) (<= 0 |main::m|) (< |main::m| |main::n|) (= (+ |main::y| |main::x| (- |main::k|)) 0) (let ((.cse7 (- 2)) (.cse8 (- 1))) (let ((.cse0 (not (= |main::j| |main::m|))) (.cse1 (<= |main::j| (+ |main::m| 1))) (.cse2 (not (= |main::j| 0))) (.cse3 (<= 0 (+ |main::j| .cse8))) (.cse4 (<= 0 (+ |main::j| .cse7))) (.cse5 (<= 0 (+ |main::m| .cse8))) (.cse6 (not (<= 0 (+ |main::m| .cse7))))) (ite (= |main::m| 0) (and .cse0 (not .cse1) .cse2 .cse3 .cse4 (not .cse5) .cse6) (and .cse0 .cse1 .cse2 .cse3 .cse4 .cse5 .cse6))))))
+
+49 (53) @13:
+(assert (and (= (+ |main::x| |main::y|) |main::k|) (<= 0 |main::m|) (< |main::m| |main::n|) (= (+ |main::y| |main::x| (- |main::k|)) 0) (let ((.cse9 (- 2))) (let ((.cse7 (<= 0 (+ |main::m| .cse9))) (.cse8 (- 1))) (let ((.cse0 (not (= |main::j| |main::m|))) (.cse1 (<= |main::j| (+ |main::m| 1))) (.cse2 (not (= |main::j| 0))) (.cse3 (<= 0 (+ |main::j| .cse8))) (.cse4 (<= 0 (+ |main::j| .cse9))) (.cse5 (<= 0 (+ |main::m| .cse8))) (.cse6 (not .cse7))) (ite (= |main::m| 0) (and .cse0 (not .cse1) .cse2 .cse3 .cse4 (not .cse5) .cse6) (and .cse0 (ite .cse1 (and .cse2 .cse3 .cse4 .cse5 .cse7) (and .cse2 .cse3 .cse4 .cse5 .cse6)))))))))
+
+53 (57) @13:
+(assert (and (= (+ |main::x| |main::y|) |main::k|) (<= 0 |main::m|) (< |main::m| |main::n|) (= (+ |main::y| |main::x| (- |main::k|)) 0) (let ((.cse7 (- 1)) (.cse8 (- 2))) (let ((.cse0 (= |main::j| |main::m|)) (.cse1 (<= |main::j| (+ |main::m| 1))) (.cse6 (<= 0 (+ |main::m| .cse8))) (.cse2 (not (= |main::j| 0))) (.cse3 (<= 0 (+ |main::j| .cse7))) (.cse4 (<= 0 (+ |main::j| .cse8))) (.cse5 (<= 0 (+ |main::m| .cse7)))) (ite (= |main::m| 0) (and (not .cse0) (not .cse1) .cse2 .cse3 .cse4 (not .cse5) (not .cse6)) (ite .cse0 (and .cse1 .cse2 .cse3 .cse4 .cse5 .cse6) (ite .cse1 (and .cse2 .cse3 .cse4 .cse5 .cse6) (and .cse2 .cse3 .cse4 .cse5))))))))
+
+37 (41) @13:
+(assert (let ((.cse0 (- 1)) (.cse1 (- 2))) (and (= (+ |main::x| |main::y|) |main::k|) (<= 0 |main::m|) (= (+ |main::y| |main::x| (- |main::k|)) 0) (= |main::m| 0) (= |main::j| |main::m|) (<= |main::j| (+ |main::m| 1)) (= |main::j| 0) (not (<= 0 (+ |main::j| .cse0))) (not (<= 0 (+ |main::j| .cse1))) (not (<= 0 (+ |main::m| .cse0))) (not (<= 0 (+ |main::m| .cse1))))))
+
+41 (45) @13:
+(assert (let ((.cse0 (- 1)) (.cse1 (- 2))) (and (= (+ |main::x| |main::y|) |main::k|) (<= 0 |main::m|) (< |main::m| |main::n|) (= (+ |main::y| |main::x| (- |main::k|)) 0) (= |main::m| 0) (not (= |main::j| |main::m|)) (<= |main::j| (+ |main::m| 1)) (not (= |main::j| 0)) (<= 0 (+ |main::j| .cse0)) (not (<= 0 (+ |main::j| .cse1))) (not (<= 0 (+ |main::m| .cse0))) (not (<= 0 (+ |main::m| .cse1))))))
+
+9 (37,10) @3:
+(assert (let ((.cse0 (= (+ |main::y| |main::x| (- |main::k|)) 0))) (ite (= |__VERIFIER_assume::i| 0) (not .cse0) .cse0)))
+
+10 () @3:
+(assert (and (= |__VERIFIER_assume::i| 0) (not (= (+ |main::y| |main::x| (- |main::k|)) 0))))
+

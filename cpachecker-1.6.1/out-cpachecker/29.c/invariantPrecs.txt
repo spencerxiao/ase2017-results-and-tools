@@ -1,0 +1,14 @@
+(declare-fun |main::d| () Int)
+(declare-fun |main::b| () Int)
+(declare-fun |main::c| () Int)
+(declare-fun |main::a| () Int)
+
+main N9:
+(assert (= (+ |main::a| |main::c|) (+ |main::b| |main::d|)))
+
+main N28:
+(assert (= (+ |main::a| |main::c|) (+ |main::b| |main::d|)))
+
+main N41:
+(assert false)
+

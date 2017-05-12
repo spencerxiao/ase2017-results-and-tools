@@ -1,0 +1,727 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{hyperlatex}
+\usepackage{amssymb,stmaryrd,xspace}
+%\usepackage{frames}
+\htmlcss{style.css}
+\htmltitle{Interproc analyzer for recursive programs with numerical variables}
+\htmlpanel{1}
+\setcounter{htmlautomenu}{2}
+\setcounter{htmldepth}{3}
+
+\W\usepackage{sequential}
+\W\usepackage{mypanels}
+\htmlpanelfield{Contents}{hlxcontents}
+
+
+\T\boldmath
+\T\usepackage{fullpage}
+%\T\setlength{\parskip}{0ex}
+%\T\setlength{\parindent}{1em}
+
+\newcommand{\sem}[1]{\llbracket #1 \rrbracket}
+
+\usepackage{color}
+\definecolor{prog}{rgb}{0,0.4,0.1}
+\definecolor{progkeyword}{rgb}{0.8,0,0}
+\definecolor{token}{rgb}{0,0,1}
+\definecolor{emph}{rgb}{0,0.1,0.6}
+\definecolor{example}{rgb}{.8,0,1}
+\newcommand{\pkw}[1]{\textcolor{progkeyword}{#1}}
+\newcommand{\pco}[1]{\textcolor{black}{-- #1}}
+\W\renewcommand{\emph}[1]{\textcolor{emph}{#1}}
+\newcommand{\sx}[1]{\textcolor{prog}{\texttt{<}#1\texttt{>}}}
+\newcommand{\kw}[1]{\textcolor{progkeyword}{\textbf{#1}}}
+\newcommand{\tk}[1]{\textcolor{token}{\texttt{#1}}}
+\newcommand{\sor}{\texttt{~|~}}
+
+\newenvironment{syntax}
+{
+\T\medskip
+\begin{tabular}{rcll}
+}
+{
+\end{tabular}
+\T\par\medskip
+}
+\newenvironment{prog}
+{\begin{example}\color{prog}}
+{\end{example}\par}
+
+\newcommand{\ocaml}{\xlink{OCaml}{http://www.caml.org}\xspace}
+\newcommand{\nbac}{\xlink{NBac}{../nbac/index.html}\xspace}
+\newcommand{\gmp}{\xlink{GMP}{http://www.swox.com/gmp/}\xspace}
+\newcommand{\mpfr}{\xlink{MPFR}{http://www.mpfr.org/}\xspace}
+\newcommand{\camlidl}{\xlink{CamlIDL}{http://caml.inria.fr/camlidl/}\xspace}
+\newcommand{\subversion}{\xlink{subversion}{http://subversion.tigris.org/}\xspace}
+\newcommand{\ppl}{\xlink{Parma Polyhedra Library}{http://www.cs.unipr.it/ppl/}\xspace}
+\newcommand{\apron}{\xlink{APRON}{http://apron.cri.ensmp.fr/library/}\xspace}
+
+\title{Interproc analyzer for recursive programs with numerical variables}
+\date{}
+\author{Bertrand Jeannet}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+% **********************************************************************
+\section{Invoking Interproc }
+% **********************************************************************
+
+The executable (\texttt{interproc} or \texttt{interproc.opt} is
+invoked as follows:
+\begin{example}
+  interproc <options> <inputfile>
+\end{example}
+The input file should be a valid \link{``Simple''}{sec:simple} program.
+The options are:
+\begin{description}
+\item [\texttt{-debug <int>}] debug level, from 0 (lowest) to 4
+  (highest). Default is 0.
+\item [\texttt{-domain
+    \{box|octagon|polka|polkastrict|polkaeq|ppl|pplstrict|pplgrid|polkagrid\}}]
+  abstract domain to use (default: polka). All domains supported
+  by the \xlink{Apron}{http://apron.cri.ensmp.fr/library/}
+  library can be specified:
+  \begin{quote}
+    \begin{tabular}{l|l}
+      box & intervals \\
+      octagon & octagons \\
+      polka,ppl & topologically closed convex polyhedra \\
+      polkastrict,pplstrict & possibly non-closed convex polyhedra \\
+      polkaeq & linear equalities \\
+      pplgrid & linear congruences \\
+      polkagrid & reduced product of linear congruences and Polka convex polyhedra
+    \end{tabular}
+  \end{quote}
+\item [\texttt{-depth <int>}] depth of recursive iterations
+  (default 2, may only be more). See
+  \xlink{Fixpoint}{http://pop-art.inrialpes.fr/people/bjeannet/bjeannet-forge/fixpoint/}
+  library documentation.
+\item [\texttt{-guided <bool>}] if true, guided analysis of Gopand
+  and Reps (default: false). See
+  \xlink{Analyzer}{http://pop-art.inrialpes.fr/people/bjeannet/analyzer/}
+\item [\texttt{-widening <bool><int><int><int>}] specifies usage
+  of widening first heuristics, delay and frequency of widening,
+  and nb. of descending steps (default: false 1 1 2). See
+  \xlink{Fixpoint}{http://pop-art.inrialpes.fr/people/bjeannet/bjeannet-forge/fixpoint/}
+\item [\texttt{-analysis <('f'|'b')+>}] sequence of forward and backward analyses to perform (default "f")
+\end{description}
+
+% **********************************************************************
+\section{The ``Simple'' language}\label{sec:simple}
+% **********************************************************************
+
+Prorgram Sample:
+{
+\begin{prog}\footnotesize
+/* Procedure definition */
+proc MC(n:int) returns (r:int)
+var t1:int, t2:int;
+begin
+  if (n>100) then
+     r = n-10;
+  else
+     t1 = n+11;
+     t2 = MC(t1);
+     r = MC(t2);
+  endif;
+end
+/* Main procedure */
+var a:int, b:int;
+begin
+  b = MC(a);
+end
+\end{prog}
+}
+
+% ======================================================================
+\xname{manual_syntax}
+\subsection{Syntax and informal semantics}
+% ======================================================================
+
+% ----------------------------------------------------------------------
+\subsubsection{Program.}\T~
+% ----------------------------------------------------------------------
+
+\begin{syntax}
+  \sx{program} & ::= & \sx{procedure\_def}$^*$ & definition of procedures\\
+  && [\pkw{var} \sx{vars\_decl} \tk{;}] & local variables of the main procedure\\
+  && \pkw{begin} \sx{statement}$^+$ \pkw{end} ~~~ & body of the main procedure
+\end{syntax}
+
+\begin{syntax}
+\sx{procedure\_def} & ::= & \pkw{proc} id \tk{(} \sx{vars\_decl} \tk{)} \pkw{returns} \tk{(} \sx{vars\_decl} \tk{)} & signature, with names of \\
+  &&& input and output formal parameters \\
+  && [\pkw{var} \sx{vars\_decl} \tk{;}] & (other) local variables \\
+  &&\pkw{begin} \sx{statement}$^+$ \pkw{end} & body
+\end{syntax}
+A procedure definition first declares a list of formal input
+parameters, then a list of formal output parameters (which are
+local variables that defines the tuple of returned values), then a
+list of local variables, and then a body. A procedure ends with
+its last statement.
+
+\begin{syntax}
+  \sx{vars\_decl} & ::= & $\epsilon$ \sor id \tk{:} \sx{type} (\tk{,} id \tk{:} \sx{type})$^*$ \\
+\sx{type} & ::= & \pkw{int} \sor \pkw{real} \\
+\end{syntax}
+Variables are either of integer type, or of real type. Real
+variables can behave as floating-point variables by modifying the
+exact semantics of arithmetic operations (see below).
+
+% ----------------------------------------------------------------------
+\subsubsection{Instructions.}\T~
+% ----------------------------------------------------------------------
+
+\begin{syntax}
+  \sx{statement} &::=& \pkw{skip} \tk{;} \\
+  &\sor& \pkw{halt} \tk{;} \\
+  &\sor& \pkw{fail} \tk{;} \\
+  &\sor& \pkw{assume} \sx{bexpr} \tk{;} \\
+  &\sor& id \tk{=} \pkw{random} \tk{;} \\
+  &\sor& id \tk{=} \sx{nexpr} \tk{;} \\
+  &\sor& id \tk{=} id \tk{(} \sx{var\_list} \tk{)} \tk{;} \\
+  &\sor& \tk{(} \sx{var\_list} \tk{)} \tk{=} id \tk{(} \sx{var\_list} \tk{)} \tk{;} \\
+  &\sor& \pkw{if} \sx{bexpr} \pkw{then} \sx{statement}$^+$ [\pkw{else} \sx{statement}$^+$ ] \pkw{endif} \tk{;} \\
+  &\sor& \pkw{while} \sx{bexpr} \pkw{do} \sx{statement}$^+$ \pkw{done} \tk{;} \\
+  \sx{var\_list} &::=& $\epsilon$ \sor id (\tk{,} id)$^*$
+\end{syntax}
+
+The \texttt{skip} operation does nothing.  The \texttt{halt}
+operation halts the program execution. The \texttt{fail} has
+exactly the same operational semantics, but, in addition,
+indicates a final control point for backward analysis (see below).
+
+The \texttt{assume expr} instruction is equivalent to \texttt{if
+  expr then skip; else halt;} . It may be used to abstract
+non-deterministic assignements. For instance, the
+non-deterministic assignement of a value between 0 and 2 to a
+variable \texttt{x} can be written as
+\begin{prog}
+  x = random;
+  assume x>=0 and x<=2;
+\end{prog}
+
+A call to a procedure with a single return value can be written
+either as \texttt{x = P(...)} or \texttt{(x)=P(...)}. A call to a
+procedure with multiple return values is written as \texttt{(x,y)
+  = P(a,b)}. Input parameters are passed by value. Formal input
+parameters in a procedure are assumed immutable.
+
+Conditional and iteration constructions have the usual semantics.
+
+% ----------------------------------------------------------------------
+\subsubsection{Expressions.}\T~
+% ----------------------------------------------------------------------
+
+\paragraph{Boolean expressions.}\T~
+
+\begin{syntax}
+  \sx{bexpr} &::=& \pkw{true} \sor \pkw{false} \sor \pkw{brandom} \\
+  &\sor& \sx{constraint} \\
+  &\sor& \pkw{not} \sx{bexpr} \sor \sx{bexpr} \pkw{or} \sx{bexpr} \sor \sx{bexpr} \pkw{and} \sx{bexpr} \\
+  &\sor& \tk{(} \sx{bexpr} \tk{)} \\
+  \sx{constraint} &::=& \sx{nexpr} (\tk{==} \texttt{|} \tk{>=} \texttt{|} \tk{>} \texttt{|} \tk{<=} \texttt{|} \tk{<}) \sx{nexpr}
+\end{syntax}
+
+Atoms of Boolean expressions are Boolean constants, the unknown
+value denoted by \pkw{brandom}, and constraints over numerical
+variables.
+
+\paragraph{Numerical expressions.}\T~
+
+\begin{syntax}
+  \sx{nexpr} &::=& \sx{coeff} \sor \tk{random} \\
+  &\sor& id \\
+  &\sor& \sx{unop} \sx{nexpr} \sor \sx{nexpr} \sx{binop} \sx{nexpr} \\
+  &\sor& \tk{(} \sx{nexpr} \tk{)} \\
+  \sx{binop} &::=& (\tk{+}\texttt{|}\tk{-}\texttt{|}\tk{*}\texttt{|}\tk{/}\texttt{|}\tk{\%})[\tk{\_}(\tk{i}\texttt{|}\tk{f}\texttt{|}\tk{d}\texttt{|}\tk{l}\texttt{|}\tk{q})[\tk{,}(\tk{n}\texttt{|}\tk{0}\texttt{|}\tk{+oo}\texttt{|}\tk{-oo}\texttt{|}\tk{?})]] \\
+  \sx{unop} &::=& \tk{-} \\
+  &\sor& (\pkw{cast}\texttt{|}\pkw{sqrt})[\tk{\_}(\tk{i}\texttt{|}\tk{f}\texttt{|}\tk{d}\texttt{|}\tk{l}\texttt{|}\tk{q})[\tk{,}(\tk{n}\texttt{|}\tk{0}\texttt{|}\tk{+oo}\texttt{|}\tk{-oo}\texttt{|}\tk{?})]] \\
+  \sx{coeff} &::=& \sx{float} \sor \sx{rational} \\
+  \sx{float} &::=& C/OCaml floating-point number syntax \\
+  \sx{rational} &::=& \sx{integer} \sor \sx{integer}\tk{/}\sx{integer}
+\end{syntax}
+The syntax of numerical expressions is the same as the one used in
+the APRON interactive toplevel (in \ocaml language).
+
+The priorities between (Boolean and arithmetic) operators is
+$\{$ \tk{*},\tk{/} $\}$
+\textcolor{prog}{$>$} $\{$ \tk{+},\tk{-} $\}$
+\textcolor{prog}{$>$} $\{$ \tk{<}, \tk{<=}, \tk{=}, \tk{>=},\tk{>} $\}$
+\textcolor{prog}{$>$} $\{$ \kw{not} $\}$
+\textcolor{prog}{$>$} $\{$ \kw{and} $\}$
+\textcolor{prog}{$>$} $\{$ \kw{or} $\}$
+
+By default, numerical expressions are evaluated using exact
+arithmetic on real numbers (even if some involved variables are
+integer), and when assigned to a variable, filtered by the
+variable domain (when it is integers). For instance, the
+assignement
+\begin{prog}
+  x = 3/4;
+\end{prog}
+\noindent is equivalent to the \texttt{halt} instruction if
+\texttt{x} is declared as integer, because the rational 3/4 is not
+an integer value. The problem here is that the instruction is not
+well-typed (even if this is not checked). If one want to emulate
+the semantics of the integer division operation, with rounding to
+zero, one should write
+\begin{prog}
+  x = 3 /_i,0 4;
+\end{prog}
+
+Indeed, most arithmetic operators have optional qualifiers that
+allows to modify their semantics. The first qualifier indicates a
+numerical type, the second one the rounding mode.
+\begin{itemize}
+\item By default, operations have an exact arithmetic semantics in
+  the real numbers (even if involved variables are of integer).
+
+  The type qualifiers modify this default semantics.
+  Their meaning is as follows:
+  \begin{quote}
+    \begin{tabular}{ll}
+      i & integer semantics \\
+      f & IEEE754 32 bits floating-point semantics \\
+      d & IEEE754 64 bits floating-point semantics \\
+      l & IEEE754 80 bits extended floating-point semantics \\
+      q & IEEE754 128 bits floating-point semantics \\
+    \end{tabular}
+  \end{quote}
+
+\item By default, the rounding mode is ``any'' (this applies only
+  in non-real semantics), which allows to emulate all the
+  following rounding modes:
+  \begin{quote}
+    \begin{tabular}{ll}
+      n & nearest \\
+      0 & towards zero \\
+      +oo & towards infinity \\
+      -oo & towards minus infinity \\
+      ? & emulates any rounding mode
+    \end{tabular}
+  \end{quote}
+\end{itemize}
+
+\paragraph{Examples of numerical expressions.}\T~
+
+We illustrate the syntax and (approximated) semantics of numerival
+expressions with the following program, annotated by Interproc
+using the command
+\begin{example}
+  interproc.opt -domain polka -colorize false examples/numerical.spl
+\end{example}
+
+{
+\begin{prog}\footnotesize
+proc integer () returns () var a : int, b : int, c : int;
+begin
+  /* (L5 C5) top */
+  a = 5; /* (L6 C8) \textcolor{red}{[|a-5=0|]} */
+  b = 2; /* (L7 C8) \textcolor{red}{[|b-2=0; a-5=0|]} */
+  if brandom then
+     /* (L8 C17) \textcolor{red}{[|b-2=0; a-5=0|]} */
+     c = a / b; /* (L9 C14) \textcolor{red}{bottom} */
+  else
+    /* (L10 C6) \textcolor{red}{[|b-2=0; a-5=0|]} */
+    c = a /_i,? b; /* (L11 C16) \textcolor{red}{[|b-2=0; a-5=0; -c+3>=0; c-2>=0|]} */
+    c = a /_i,0 b; /* (L12 C18) \textcolor{red}{[|c-2=0; b-2=0; a-5=0|]} */
+    c = a /_i,-oo b; /* (L13 C20) \textcolor{red}{[|c-2=0; b-2=0; a-5=0|]} */
+    c = a /_i,+oo b; /* (L14 C20) \textcolor{red}{[|c-3=0; b-2=0; a-5=0|]} */
+    c = a /_i,n b; /* (L15 C18) \textcolor{red}{[|b-2=0; a-5=0; -c+3>=0; c-2>=0|]} */
+    c = a \%_i,? b; /* (L16 C16) \textcolor{red}{[|c-1=0; b-2=0; a-5=0|]} */
+  endif; /* (L17 C8) \textcolor{red}{[|c-1=0; b-2=0; a-5=0|]} */
+end
+
+proc exact () returns (z : real) var x : real, y : real;
+begin
+  /* (L22 C5) \textcolor{red}{top} */
+  x = 5; /* (L23 C8) \textcolor{red}{[|x-5=0|]} */
+  y = 2; /* (L24 C8) \textcolor{red}{[|y-2=0; x-5=0|]} */
+  z = x / y; /* (L25 C10) \textcolor{red}{[|2z-5=0; y-2=0; x-5=0|]} */
+  y = 0.1; /* (L26 C10)
+	      \textcolor{red}{[|2z-5=0; 36028797018963968y-3602879701896397=0; x-5=0|]} */
+  z = x + y; /* (L27 C10)
+		\textcolor{red}{[|36028797018963968z-183746864796716237=0;
+		  36028797018963968y-3602879701896397=0; x-5=0|]} */
+  z = z - y; /* (L28 C10)
+		\textcolor{red}{[|z-5=0; 36028797018963968y-3602879701896397=0; x-5=0|]} */
+end
+
+proc floating () returns (z : real) var x : real, y : real;
+begin
+  /* (L33 C5) \textcolor{red}{top} */
+  x = 5; /* (L34 C8) \textcolor{red}{[|x-5=0|]} */
+  y = 2; /* (L35 C8) \textcolor{red}{[|y-2=0; x-5=0|]} */
+  z = x /_f,? y; /* (L36 C13)
+		    \textcolor{red}{[|y-2=0; x-5=0;
+		      -713623846352979940529142984724747568191373312z
+		      +1784059828558929176909397126420998565333565441>=0;
+		      713623846352979940529142984724747568191373312z
+		      -1784059403205970525736317797202739275623301119>=0|]} */
+  y = 0.1; /* (L37 C10)
+	      \textcolor{red}{[|36028797018963968y-3602879701896397=0; x-5=0;
+		-713623846352979940529142984724747568191373312z
+		+1784059828558929176909397126420998565333565441>=0;
+		713623846352979940529142984724747568191373312z
+		-1784059403205970525736317797202739275623301119>=0|]} */
+  z = x +_f,? y; /* (L38 C14)
+		    \textcolor{red}{[|36028797018963968y-3602879701896397=0; x-5=0;
+		      -713623846352979940529142984724747568191373312z
+		      +3639482050260215524856578735848702239922192385>=0;
+		      713623846352979940529142984724747568191373312z
+		      -3639481182540179876463495959770156714984210431>=0|]} */
+  z = z -_f,? y; /* (L39 C14)
+		    \textcolor{red}{[|36028797018963968y-3602879701896397=0; x-5=0;
+		      -5986310706507378352962293074805895248510699696029696z
+		      +29931560882862943060522688904967984086376852368654337>=0;
+		      5986310706507378352962293074805895248510699696029696z
+		      -29931546182211708189135890236173744477275669529624577>=0|]} */
+end
+
+var z : real
+begin
+  /* (L43 C5) \textcolor{red}{top} */
+  () = integer(); /* (L44 C17) \textcolor{red}{top} */
+  z = exact(); /* (L45 C14) \textcolor{red}{[z-5=0|]} */
+  z = floating(); /* (L46 C17)
+		     \textcolor{red}{[|-5986310706507378352962293074805895248510699696029696z
+		       +29931560882862943060522688904967984086376852368654337>=0;
+		       5986310706507378352962293074805895248510699696029696z
+		       -29931546182211708189135890236173744477275669529624577>=0|]} */
+end
+\end{prog}
+}
+
+% ======================================================================
+\subsection{Formal semantics}
+% ======================================================================
+
+We give here the standard operational semantics of the ``Simple''
+language.
+
+% ----------------------------------------------------------------------
+\subsubsection{Semantics domains.}
+% ----------------------------------------------------------------------
+
+They are summarized by the following table:
+\htmlonly{\begin{quote}}
+\begin{image}{semdom}
+  \textcolor{black}{
+    \begin{tabular}{ll}
+      $k\in K$ & program's control points \\
+      $\epsilon \in \mathrm{Env} ~=~ \mathrm{Var}\rightarrow \mathbb{R}$ &
+      environments \\
+      $(k,\epsilon)\in K\times\mathrm{Env}$ &
+      activation records \\
+      $s\in S=(K\times \mathrm{Env})^+$ &
+      program states, which are non-empty stack of activation records
+    \end{tabular}
+}
+  \end{image}
+\htmlonly{\end{quote}}
+
+An environment is defined by a function assigning a value to a set
+of variables $\mathrm{Var}$ visible in the current scope.
+
+A program state is a non-empty stack of activation records. A
+stack is viewed as a word where the last letter corresponds to the
+top of the stack.
+
+% ----------------------------------------------------------------------
+\subsubsection{Semantics of expressions.}
+% ----------------------------------------------------------------------
+
+The semantics of a numerical expression \texttt{nexpr}
+is a function
+\htmlonly{\begin{quote}}\begin{image}{nexpr}
+  $$
+  \sem{\texttt{nexpr}}^n : \mathrm{Env} \rightarrow \wp(\mathbb{R})
+  $$
+ \end{image}\htmlonly{\end{quote}}
+We refer to \cite{mine04} for the precise definition of this semantic
+function.
+
+The semantics of a Boolean expression \texttt{bexpr}
+is a function %
+\htmlonly{\begin{quote}}\begin{image}{bexpr0}
+  $$
+  \sem{\texttt{bexpr}}^b : \mathrm{Env} \rightarrow \wp(\mathbb{B})
+  $$
+ \end{image}\htmlonly{\end{quote}}
+which is defined inductively as follows:
+\htmlonly{\begin{quote}}\begin{image}{bexpr1}
+  $$
+  \begin{array}{c@{~=~}l}
+    \sem{\texttt{true}}^b & \lambda \epsilon~.~\{ true \} \\
+    \sem{\texttt{false}}^b & \lambda \epsilon~.~\{ false \} \\
+    \sem{\texttt{brandom}}^b & \lambda \epsilon~.~\{ true,false \} \\
+    \sem{\texttt{not~} e}^b & \lambda \epsilon~.~\{ \neg b ~|~ b \in \sem{e}^b(\epsilon) \} \\
+    \sem{e_1 \texttt{~and~} e_2}^b & \lambda \epsilon~.~\{ b_1\wedge b_2 ~|~ b_1 \in \sem{e_1}^b(\epsilon) \wedge b_2 \in \sem{e_2}^b(\epsilon)\} \\
+    \sem{e_1 \texttt{~or~} e_2}^b & \lambda \epsilon~.~\{ b_1\vee b_2 ~|~ b_1 \in \sem{e_1}^b(\epsilon) \wedge b_2 \in \sem{e_2}^b(\epsilon)\} \\
+    \sem{e_1 \texttt{~op~} e_2}^b & \sem{(e_1 - e_2) \texttt{~op~} 0}^b \\
+    \sem{e=0}^b & \lambda \epsilon ~.~ (0 \in \sem{e}^n(\epsilon)) \\
+    \sem{e\geq 0}^b & \lambda \epsilon ~.~ (\sem{e}^n(\epsilon)\cap [0,\infty[ \neq \emptyset) \\
+    \sem{e\leq 0}^b & \lambda \epsilon ~.~ (\sem{e}^n(\epsilon)\cap ]-\infty,0] \neq \emptyset) \\
+    \sem{e> 0}^b & \lambda \epsilon ~.~ (\sem{e}^n(\epsilon)\cap ]0,\infty] \neq \emptyset) \\
+    \sem{e< 0}^b & \lambda \epsilon ~.~ (\sem{e}^n(\epsilon)\cap ]-\infty,0[ \neq \emptyset)
+  \end{array}
+  $$
+ \end{image}\htmlonly{\end{quote}}
+The semantics of a Boolean expression can be extended as a predicate on environments as follows:
+\htmlonly{\begin{quote}}\begin{image}{bexpr2}
+  $$
+    \sem{\texttt{bexpr}}^b ~:
+    \begin{array}[t]{ccl}
+      \mathrm{Env} &\rightarrow& \mathbb{B} \\
+      \epsilon &\mapsto& (true ~\in~ \sem{\texttt{bexpr}}^b)
+    \end{array}
+  $$
+ \end{image}\htmlonly{\end{quote}}
+
+% ----------------------------------------------------------------------
+\subsubsection{Semantics of programs}
+% ----------------------------------------------------------------------
+
+We define the semantics of a program as a discrete dynamical
+system $(S,S_0,\rightarrow)$ where $S$ is the state-space of the
+program (see above), $S_0$ is the set of initial states, and
+$\rightarrow$ is the transition relation between states.
+
+If $k_0$ denotes the starting point of the main procedure, then $S_0$ is defined as
+\htmlonly{\begin{quote}}\begin{image}{S0}
+  $$
+    S_0=\{k_0\} \times \mathrm{Env}
+  $$
+ \end{image}\htmlonly{\end{quote}}
+This reflects the hypothesis that variables are uninitialized
+(read: they may contain arbitrary values) at start.
+
+The transition relation is defined as follows:
+
+\W\htmlonly{\begin{quote}}
+\begin{image}{trans}
+  $$
+  \begin{array}{c}
+    (k) \texttt{~skip~} (k') \\ \hline
+    \omega\cdot (k,\epsilon) \rightarrow \omega\cdot (k',\epsilon)
+  \end{array}
+  \qquad
+  \begin{array}{c}
+    (k) \texttt{~assume~} bexpr ~ (k') \quad true\in\sem{bexpr}^b(\epsilon) \\ \hline
+    \omega\cdot (k,\epsilon) \rightarrow \omega\cdot (k',\epsilon)
+  \end{array}
+  $$
+  $$
+  \begin{array}{c}
+    (k) \texttt{~x=random~} (k') \quad \forall y\in\mathrm{Var}\setminus\{x\}:\epsilon'(y)=\epsilon(y) \\ \hline
+    \omega\cdot (k,\epsilon) \rightarrow \omega\cdot (k',\epsilon')
+  \end{array}
+  $$
+  $$
+  \begin{array}{c}
+    (k) \texttt{~x=nexpr~} (k') \quad v\in\sem{nexpr}^n(\epsilon)  \\ \hline
+    \omega\cdot (k,\epsilon) \rightarrow \omega\cdot (k',\epsilon[x\mapsto v])
+  \end{array}
+  $$
+  $$
+  \begin{array}{c}
+    (k) \texttt{~if bexpr then~} (k_1)\ldots(k'_1) \texttt{~else~} (k_2)\ldots (k'_2) \texttt{~;~} (k')\\ \hline
+    (k,\epsilon) \rightarrow (k_1,\epsilon) \texttt{~if~} true\in\sem{bexpr}^b(\epsilon) \\
+    (k,\epsilon) \rightarrow (k_2,\epsilon) \texttt{~if~} false\in\sem{bexpr}^b(\epsilon) \\
+    (k'_1,\epsilon) \rightarrow (k',\epsilon) \\
+    (k'_2,\epsilon) \rightarrow (k',\epsilon)
+  \end{array}
+  $$
+  $$
+  \begin{array}{c}
+    (k) \texttt{~while bexpr do~} (k_1)\ldots(k'_1) \texttt{~done~} (k_2)\\ \hline
+    (k,\epsilon) \rightarrow (k_1,\epsilon) \texttt{~if~} true\in\sem{bexpr}^b(\epsilon) \\
+    (k,\epsilon) \rightarrow (k_2,\epsilon) \texttt{~if~} false\in\sem{bexpr}^b(\epsilon) \\
+    (k'_1,\epsilon) \rightarrow (k,\epsilon)
+  \end{array}
+  $$
+  $$
+  \begin{array}{c}
+    (k) \texttt{~(y0,...,yN)=f(x0,...xM)~} (k') \\
+    \epsilon_\mathrm{start}(\vec{pin}) = \epsilon(\vec{x}) \\
+    \epsilon' = \epsilon[\vec{y} \mapsto \epsilon_\mathrm{exit}(\vec{pout}) \\ \hline
+    \omega\cdot (k,\epsilon) \rightarrow \omega\cdot (k',\epsilon) \cdot (k^f_\mathrm{start},\epsilon_\mathrm{start}) \\
+     \omega\cdot (k',\epsilon) \cdot (k^f_\mathrm{exit},\epsilon_\mathrm{exit})
+     \rightarrow
+     \omega\cdot (k',\epsilon')
+  \end{array}
+  $$
+\end{image}
+\W\end{quote} %
+
+% **********************************************************************
+\section{What Interproc does for you}
+% **********************************************************************
+
+Interproc takes as input a ``Simple'' program, annotates it with
+control points, perform forward and/or backward analysis, and
+print the annotated programs with invariants associated with each
+control point, like this:
+{
+\begin{prog}\footnotesize
+Annotated program after forward analysis:
+var x : int, y : int, z : int
+begin
+  /* (L5 C5) \textcolor{red}{top} */
+  assume z >= 10 and z <= 20; /* (L6 C25) \textcolor{red}{[|-z+20>=0; z-10>=0|]} */
+  x = 0; /* (L7 C8) \textcolor{red}{[|x=0; -z+20>=0; z-10>=0|]} */
+  y = 0; /* (L7 C13) \textcolor{red}{[|-3x+y=0; -x+z+1>=0; -z+20>=0; z-10>=0; x>=0|]} */
+  while x <= z do
+    /* (L8 C17) \textcolor{red}{[|-3x+y=0; -x+z>=0; -z+20>=0; z-10>=0; x>=0|]} */
+    x = x + 1; /* (L9 C12)
+		  \textcolor{red}{[|-3x+y+3=0; -x+z+1>=0; -z+20>=0; z-10>=0; x-1>=0|]} */
+    y = y + 3; /* (L10 C12) \textcolor{red}{[|-3x+y=0; -x+z+1>=0; -z+20>=0; z-10>=0; x-1>=0|]} */
+  done; /* (L11 C7) \textcolor{red}{[|-3x+y=0; -x+z+1=0; -x+21>=0; x-11>=0|]} */
+  if y >= 42 then
+    /* (L12 C15) \textcolor{red}{[|-3x+y=0; -x+z+1=0; -x+21>=0; x-14>=0|]} */
+    fail; /* (L13 C9) \textcolor{red}{bottom} */
+  endif; /* (L14 C8) \textcolor{red}{[|-3x+y=0; -x+z+1=0; -3x+41>=0; x-11>=0|]} */
+end
+\end{prog}
+}
+
+% ----------------------------------------------------------------------
+\subsubsection*{Invariants}
+% ----------------------------------------------------------------------
+
+An \emph{invariant} $I$ is a set of environments:
+\htmlonly{\begin{quote}}\begin{image}{inv1}
+  $$
+I\in\wp(\mathrm{Env})
+  $$
+\end{image}\htmlonly{\end{quote}}
+The result of the analyses performed by Interproc is the
+projection $p(X)$ of sets of stacks on their top elements. The result of this projection is a function that maps control point to invariants:
+\htmlonly{\begin{quote}}\begin{image}{inv2}
+  $$
+p~ :
+\begin{array}[t]{ccl}
+\wp((K\times\mathrm{Env})^+) &\longrightarrow& (K\rightarrow \wp(\mathrm{Env}) \\
+X &\longmapsto& \lambda k~.~ \{ \epsilon ~|~ \omega\cdot (k,\epsilon)\in X \}
+\end{array}
+  $$
+ \end{image}\htmlonly{\end{quote}}
+
+Intuitively, the invariant on numerical variables associated with
+each program point, as returned by Interproc, indicates the
+possible values for these variables at each program point, for any
+stack tail.
+
+% ----------------------------------------------------------------------
+\subsubsection*{Single forward/reachability analysis}
+% ----------------------------------------------------------------------
+
+A forward analysis compute the set of reachable states of the program, which is defined as:
+\htmlonly{\begin{quote}}\begin{image}{reach0}
+  $$
+Reach = \{ s\in S ~|~ s_0\in S_0 \wedge s_0\rightarrow^* s \}
+  $$
+\end{image}\htmlonly{\end{quote}}
+Interproc returns an overapproximation of $p(Reach)$.
+
+% ----------------------------------------------------------------------
+\subsubsection*{Single backward/coreachability analysis}
+% ----------------------------------------------------------------------
+
+A backward analysis computes the set of states from which one
+can reach a \texttt{fail} instruction.
+
+The set of states coreachable from a \texttt{fail} instruction is
+defined as:
+\htmlonly{\begin{quote}}\begin{image}{coreach0}
+$$
+Coreach = \{ s\in S ~|~ s\rightarrow^* s_f \wedge s_f\in F \}
+$$
+with the set of final states
+$$
+F = \{ \omega\cdot (k,\epsilon) ~|~ k\in K_\mathrm{fail} \wedge \epsilon\in\mathrm{Env} \}
+$$
+where $K_\mathrm{fail}$ is the set of control points just
+preceding \texttt{fail} instructions.
+\end{image}\htmlonly{\end{quote}}
+Interproc returns an overapproximation of $p(Coreach)$.
+
+% ----------------------------------------------------------------------
+\subsubsection*{Combined forward/backward analyses}
+% ----------------------------------------------------------------------
+
+Interproc allows to combine forward and backward analysis any
+number of time.
+
+If $X$ denotes the invariant computed by Interproc at the
+previous step, at the current step:
+\begin{itemize}
+\item a forward analysis will consider the set of
+  initial states
+  \htmlonly{\begin{quote}}\begin{image}{reach1}
+    $$
+    S_0 \cap p^{-1}(X)
+    $$
+   \end{image}\htmlonly{\end{quote}}
+\item a backward analysis will consider the set of
+  final states
+  \htmlonly{\begin{quote}}\begin{image}{coreach1}
+    $$
+    F \cap p^{-1}(X)
+    $$
+   \end{image}\htmlonly{\end{quote}}
+\end{itemize}
+
+For instance, after executing the command
+\begin{example}
+  interproc -analysis fb essai.spl
+\end{example}
+on the previous program, we get
+{
+\begin{prog}\footnotesize
+Annotated program after forward analysis
+var x : int, y : int, z : int
+begin
+  /* (L5 C5) \textcolor{red}{top} */
+  assume z >= 10 and z <= 20; /* (L6 C25) \textcolor{red}{[|-z+20>=0; z-10>=0|]} */
+  x = 0; /* (L7 C8) \textcolor{red}{[|x=0; -z+20>=0; z-10>=0|]} */
+  y = 0; /* (L7 C13) \textcolor{red}{[|-3x+y=0; -x+z+1>=0; -z+20>=0; z-10>=0; x>=0|]} */
+  while x <= z do
+    /* (L8 C17) \textcolor{red}{[|-3x+y=0; -x+z>=0; -z+20>=0; z-10>=0; x>=0|]} */
+    x = x + 1; /* (L9 C12)
+		  \textcolor{red}{[|-3x+y+3=0; -x+z+1>=0; -z+20>=0; z-10>=0; x-1>=0|]} */
+    y = y + 3; /* (L10 C12) \textcolor{red}{[|-3x+y=0; -x+z+1>=0; -z+20>=0; z-10>=0; x-1>=0|]} */
+  done; /* (L11 C7) \textcolor{red}{[|-3x+y=0; -x+z+1=0; -x+21>=0; x-11>=0|]} */
+  if y >= 42 then
+    /* (L12 C15) \textcolor{red}{[|-3x+y=0; -x+z+1=0; -x+21>=0; x-14>=0|]} */
+    fail; /* (L13 C9) \textcolor{red}{bottom} */
+  endif; /* (L14 C8) \textcolor{red}{[|-3x+y=0; -x+z+1=0; -3x+41>=0; x-11>=0|]} */
+end
+
+Annotated program after backward analysis
+var x : int, y : int, z : int
+begin
+  /* (L5 C5) \textcolor{red}{[|-z+20>=0; z-13>=0|]} */
+  assume z >= 10 and z <= 20; /* (L6 C25) \textcolor{red}{[|-z+20>=0; z-13>=0|]} */
+  x = 0; /* (L7 C8) \textcolor{red}{[|x=0; -z+20>=0; z-13>=0|]} */
+  y = 0; /* (L7 C13) \textcolor{red}{[|-3x+y=0; -x+z+1>=0; -z+20>=0; z-13>=0; x>=0|]} */
+  while x <= z do
+    /* (L8 C17) \textcolor{red}{[|-3x+y=0; -x+z>=0; -z+20>=0; z-13>=0; x>=0|]} */
+    x = x + 1; /* (L9 C12)
+		  \textcolor{red}{[|-3x+y+3=0; -x+z+1>=0; -z+20>=0; z-13>=0; x-1>=0|]} */
+    y = y + 3; /* (L10 C12) \textcolor{red}{[|-3x+y=0; -x+z+1>=0; -z+20>=0; z-13>=0; x-1>=0|]} */
+  done; /* (L11 C7) \textcolor{red}{[|-3x+y=0; -x+z+1=0; -x+21>=0; x-14>=0|]} */
+  if y >= 42 then
+    /* (L12 C15) \textcolor{red}{[|-3x+y=0; -x+z+1=0; -x+21>=0; x-14>=0|]} */
+    fail; /* (L13 C9) \textcolor{red}{bottom} */
+  endif; /* (L14 C8) \textcolor{red}{bottom} */
+end
+\end{prog}
+}
+\bibliographystyle{plain}
+\bibliography{manual}
+
+\end{document}

@@ -1,0 +1,23 @@
+var x:int, y:int;
+begin
+  x = 0;
+  y = 0;
+  while (brandom) do
+    if (brandom) then 
+      x = x +_i 1;
+      y = y +_i 100;
+    else
+      if (brandom) then
+        if (x >= 4) then
+          x = x +_i 1;
+          y = y +_i 1;
+        endif;
+
+        if (x < 0) then 
+          y = y -_i 1;
+        endif;
+      endif;
+    endif;
+  done;
+  assume (x < 4 or y > 2);
+end

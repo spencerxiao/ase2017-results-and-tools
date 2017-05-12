@@ -1,0 +1,15 @@
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+
+7 (9) @12:
+(assert (or (> |main::y| 0) (<= |main::x| (- 50))))
+
+9 () @12:
+(assert (or (> |main::y| 0) (<= |main::x| (- 50))))
+
+5 (7) @12:
+(assert (<= |main::x| (- 50)))
+
+0 (5) @8:
+(assert true)
+

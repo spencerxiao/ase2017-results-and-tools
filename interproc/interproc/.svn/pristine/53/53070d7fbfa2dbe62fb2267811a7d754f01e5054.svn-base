@@ -1,0 +1,34 @@
+@PhdThesis{mine04,
+  author =	 {A. Min\'e},
+  title =	 {Domaines num\'eriques abstraits faiblement relationnels (Weakly
+                  relational numerical abstract domains)},
+  school =	 {\'Ecole Normale Sup\'erieure de Paris},
+  year =	 {2004},
+  url =		 {http://www.di.ens.fr/~mine/these/these-color.pdf},
+  note =         {\xlink{PDF}{http://www.di.ens.fr/\~{}mine/these/these-color.pdf}}
+}
+
+@INPROCEEDINGS{amast04,
+  author = 	 {B. Jeannet and W. Serwe},
+  title = 	 {Abstracting Call-Stacks for Interprocedural Verification of Imperative Programs},
+  BOOKTITLE =	 {Int.\ Conf.\ on Algebraic Methodology and Software Technology, AMAST'04},
+  year = 	 {2004},
+  month = 	 jul,
+  volume =       3116,
+  series =       {LNCS},
+  abstract =     {We propose a new approach to interprocedural
+                  analysis/verification, consisting in deriving an
+                  interprocedural analysis method by abstract interpretation of
+                  the standard operational semantics of programs.  The
+                  advantages of this approach are twofold. From a
+                  methodological point of view, it provides a direct connection
+                  between the concrete semantics of the program and the
+                  effective analysis, which facilitates implementation and
+                  correction proofs.  This method also integrates two main,
+                  distinct methods for interprocedural analysis, namely the
+                  call-string and the functional approaches introduced by
+                  Sharir and Pnueli. This enables strictly more precise
+                  analyses and additional flexibility in the tradeoff between
+                  efficiency and precision of the analysis.}
+}
+

@@ -1,0 +1,12 @@
+var i:int, c:int;
+begin
+  i = 0;
+  c = 0;
+
+  while (i < 1000) do
+    c = c +_i i;
+    i = i +_i 1;
+  done;
+
+  assume (c >= 0);
+end

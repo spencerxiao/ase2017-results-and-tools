@@ -1,0 +1,19 @@
+var m:int, n:int, x:int, y:int;
+begin
+  m = random;
+  n = random;
+  assume (n >= 0);
+  assume (m >= 0);
+  assume (m < n);
+  x = 0;
+  y = m;
+
+  while (x < n) do
+    x = x +_i 1;
+    if (x > m) then
+      y = y +_i 1;
+    endif;
+  done;
+
+  assume (y == n);
+end

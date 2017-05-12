@@ -1,0 +1,1756 @@
+"equation.ml" 21 598 602 "equation.ml" 21 598 615
+type(
+  Spl_syn.point -> Spl_syn.point -> int
+)
+ident(
+  def compare_point "equation.ml" 24 689 689 "equation.ml" 1 0 -1
+)
+"equation.ml" 21 598 617 "equation.ml" 21 598 618
+type(
+  Spl_syn.point
+)
+ident(
+  def a "equation.ml" 21 598 634 "equation.ml" 22 654 687
+)
+"equation.ml" 21 598 635 "equation.ml" 21 598 636
+type(
+  Spl_syn.point
+)
+ident(
+  def b "equation.ml" 22 654 656 "equation.ml" 22 654 687
+)
+"equation.ml" 22 654 656 "equation.ml" 22 654 657
+type(
+  Spl_syn.point
+)
+ident(
+  int_ref a "equation.ml" 21 598 617 "equation.ml" 21 598 618
+)
+"equation.ml" 22 654 656 "equation.ml" 22 654 670
+type(
+  int
+)
+"equation.ml" 22 654 671 "equation.ml" 22 654 672
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"equation.ml" 22 654 673 "equation.ml" 22 654 674
+type(
+  Spl_syn.point
+)
+ident(
+  int_ref b "equation.ml" 21 598 635 "equation.ml" 21 598 636
+)
+"equation.ml" 22 654 673 "equation.ml" 22 654 687
+type(
+  int
+)
+"equation.ml" 22 654 656 "equation.ml" 22 654 687
+type(
+  int
+)
+"equation.ml" 24 689 693 "equation.ml" 24 689 704
+type(
+  Spl_syn.point -> Spl_syn.point -> bool
+)
+ident(
+  def equal_point "equation.ml" 27 782 782 "equation.ml" 1 0 -1
+)
+"equation.ml" 24 689 706 "equation.ml" 24 689 707
+type(
+  Spl_syn.point
+)
+ident(
+  def a "equation.ml" 24 689 723 "equation.ml" 25 743 780
+)
+"equation.ml" 24 689 724 "equation.ml" 24 689 725
+type(
+  Spl_syn.point
+)
+ident(
+  def b "equation.ml" 25 743 746 "equation.ml" 25 743 780
+)
+"equation.ml" 25 743 747 "equation.ml" 25 743 748
+type(
+  Spl_syn.point
+)
+ident(
+  int_ref a "equation.ml" 24 689 706 "equation.ml" 24 689 707
+)
+"equation.ml" 25 743 747 "equation.ml" 25 743 761
+type(
+  int
+)
+"equation.ml" 25 743 762 "equation.ml" 25 743 764
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"equation.ml" 25 743 765 "equation.ml" 25 743 766
+type(
+  Spl_syn.point
+)
+ident(
+  int_ref b "equation.ml" 24 689 724 "equation.ml" 24 689 725
+)
+"equation.ml" 25 743 765 "equation.ml" 25 743 779
+type(
+  int
+)
+"equation.ml" 25 743 746 "equation.ml" 25 743 780
+type(
+  bool
+)
+"equation.ml" 27 782 786 "equation.ml" 27 782 796
+type(
+  Spl_syn.point -> int
+)
+ident(
+  def hash_point "equation.ml" 31 824 824 "equation.ml" 1 0 -1
+)
+"equation.ml" 27 782 797 "equation.ml" 27 782 798
+type(
+  Spl_syn.point
+)
+ident(
+  def x "equation.ml" 28 801 803 "equation.ml" 28 801 821
+)
+"equation.ml" 28 801 803 "equation.ml" 28 801 806
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"equation.ml" 28 801 807 "equation.ml" 28 801 808
+type(
+  Spl_syn.point
+)
+ident(
+  int_ref x "equation.ml" 27 782 797 "equation.ml" 27 782 798
+)
+"equation.ml" 28 801 807 "equation.ml" 28 801 821
+type(
+  int
+)
+"equation.ml" 28 801 803 "equation.ml" 28 801 821
+call(
+  tail
+)
+type(
+  int
+)
+"equation.ml" 31 824 828 "equation.ml" 31 824 840
+type(
+  Spl_syn.point
+)
+ident(
+  def vertex_dummy "equation.ml" 32 902 902 "equation.ml" 1 0 -1
+)
+"equation.ml" 31 824 858 "equation.ml" 31 824 862
+type(
+  int
+)
+"equation.ml" 31 824 876 "equation.ml" 31 824 880
+type(
+  int
+)
+"equation.ml" 31 824 895 "equation.ml" 31 824 899
+type(
+  int
+)
+"equation.ml" 31 824 843 "equation.ml" 31 824 901
+type(
+  Spl_syn.point
+)
+"equation.ml" 32 902 906 "equation.ml" 32 902 917
+type(
+  int
+)
+ident(
+  def hedge_dummy "equation.ml" 34 924 924 "equation.ml" 1 0 -1
+)
+"equation.ml" 32 902 920 "equation.ml" 32 902 922
+type(
+  int
+)
+"equation.ml" 34 924 928 "equation.ml" 34 924 935
+type(
+  (Spl_syn.point, int) PSHGraph.compare
+)
+ident(
+  def compare "equation.ml" 47 1180 1180 "equation.ml" 1 0 -1
+)
+"equation.ml" 36 961 979 "equation.ml" 36 961 989
+type(
+  Spl_syn.point -> int
+)
+ident(
+  int_ref hash_point "equation.ml" 27 782 786 "equation.ml" 27 782 796
+)
+"equation.ml" 37 991 1010 "equation.ml" 37 991 1021
+type(
+  Spl_syn.point -> Spl_syn.point -> bool
+)
+ident(
+  int_ref equal_point "equation.ml" 24 689 693 "equation.ml" 24 689 704
+)
+"equation.ml" 35 940 959 "equation.ml" 38 1023 1026
+type(
+  Spl_syn.point Hashhe.compare
+)
+"equation.ml" 40 1049 1072 "equation.ml" 40 1049 1073
+type(
+  int
+)
+ident(
+  def x "equation.ml" 40 1049 1077 "equation.ml" 40 1049 1082
+)
+"equation.ml" 40 1049 1077 "equation.ml" 40 1049 1080
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"equation.ml" 40 1049 1081 "equation.ml" 40 1049 1082
+type(
+  int
+)
+ident(
+  int_ref x "equation.ml" 40 1049 1072 "equation.ml" 40 1049 1073
+)
+"equation.ml" 40 1049 1077 "equation.ml" 40 1049 1082
+call(
+  tail
+)
+type(
+  int
+)
+"equation.ml" 40 1049 1067 "equation.ml" 40 1049 1083
+type(
+  int -> int
+)
+"equation.ml" 41 1085 1104 "equation.ml" 41 1085 1108
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"equation.ml" 39 1028 1047 "equation.ml" 42 1109 1112
+type(
+  int Hashhe.compare
+)
+"equation.ml" 43 1114 1136 "equation.ml" 43 1114 1149
+type(
+  Spl_syn.point -> Spl_syn.point -> int
+)
+ident(
+  int_ref compare_point "equation.ml" 21 598 602 "equation.ml" 21 598 615
+)
+"equation.ml" 44 1151 1173 "equation.ml" 44 1151 1176
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"equation.ml" 34 924 938 "equation.ml" 45 1177 1178
+type(
+  (Spl_syn.point, int) PSHGraph.compare
+)
+"equation.ml" 47 1180 1184 "equation.ml" 47 1180 1190
+type(
+  int -> 'a -> (Spl_syn.point, int, 'b, 'c, 'a) PSHGraph.t
+)
+ident(
+  def create "equation.ml" 50 1309 1309 "equation.ml" 1 0 -1
+)
+"equation.ml" 47 1180 1191 "equation.ml" 47 1180 1192
+type(
+  int
+)
+ident(
+  def n "equation.ml" 47 1180 1193 "equation.ml" 47 1180 1230
+)
+"equation.ml" 47 1180 1193 "equation.ml" 47 1180 1197
+type(
+  'a
+)
+ident(
+  def info "equation.ml" 47 1180 1200 "equation.ml" 47 1180 1230
+)
+"equation.ml" 47 1180 1200 "equation.ml" 47 1180 1215
+type(
+  (Spl_syn.point, int) PSHGraph.compare ->
+  int -> 'a -> (Spl_syn.point, int, 'b, 'c, 'a) PSHGraph.t
+)
+ident(
+  ext_ref PSHGraph.create
+)
+"equation.ml" 47 1180 1216 "equation.ml" 47 1180 1223
+type(
+  (Spl_syn.point, int) PSHGraph.compare
+)
+ident(
+  int_ref compare "equation.ml" 34 924 928 "equation.ml" 34 924 935
+)
+"equation.ml" 47 1180 1224 "equation.ml" 47 1180 1225
+type(
+  int
+)
+ident(
+  int_ref n "equation.ml" 47 1180 1191 "equation.ml" 47 1180 1192
+)
+"equation.ml" 47 1180 1226 "equation.ml" 47 1180 1230
+type(
+  'a
+)
+ident(
+  int_ref info "equation.ml" 47 1180 1193 "equation.ml" 47 1180 1197
+)
+"equation.ml" 47 1180 1200 "equation.ml" 47 1180 1230
+call(
+  tail
+)
+type(
+  (Spl_syn.point, int, 'b, 'c, 'a) PSHGraph.t
+)
+"equation.ml" 115 4108 4112 "equation.ml" 115 4108 4124
+type(
+  graph -> var array -> transfer -> var -> unit
+)
+ident(
+  def add_equation "equation.ml" 135 4724 4724 "equation.ml" 1 0 -1
+)
+"equation.ml" 115 4108 4126 "equation.ml" 115 4108 4131
+type(
+  graph
+)
+ident(
+  def graph "equation.ml" 115 4108 4139 "equation.ml" 132 4641 4645
+)
+"equation.ml" 115 4108 4140 "equation.ml" 115 4108 4144
+type(
+  var array
+)
+ident(
+  def torg "equation.ml" 115 4108 4156 "equation.ml" 132 4641 4645
+)
+"equation.ml" 115 4108 4157 "equation.ml" 115 4108 4165
+type(
+  transfer
+)
+ident(
+  def transfer "equation.ml" 115 4108 4176 "equation.ml" 132 4641 4645
+)
+"equation.ml" 115 4108 4177 "equation.ml" 115 4108 4181
+type(
+  var
+)
+ident(
+  def dest "equation.ml" 116 4187 4189 "equation.ml" 132 4641 4645
+)
+"equation.ml" 120 4203 4205 "equation.ml" 120 4203 4215
+type(
+  (vertex -> unit) -> vertex array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"equation.ml" 121 4216 4231 "equation.ml" 121 4216 4234
+type(
+  vertex
+)
+ident(
+  def var "equation.ml" 122 4238 4244 "equation.ml" 122 4238 4319
+)
+"equation.ml" 122 4238 4247 "equation.ml" 122 4238 4250
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"equation.ml" 122 4238 4252 "equation.ml" 122 4238 4270
+type(
+  graph -> vertex -> bool
+)
+ident(
+  ext_ref PSHGraph.is_vertex
+)
+"equation.ml" 122 4238 4271 "equation.ml" 122 4238 4276
+type(
+  graph
+)
+ident(
+  int_ref graph "equation.ml" 115 4108 4126 "equation.ml" 115 4108 4131
+)
+"equation.ml" 122 4238 4277 "equation.ml" 122 4238 4280
+type(
+  vertex
+)
+ident(
+  int_ref var "equation.ml" 121 4216 4231 "equation.ml" 121 4216 4234
+)
+"equation.ml" 122 4238 4251 "equation.ml" 122 4238 4281
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 122 4238 4247 "equation.ml" 122 4238 4281
+type(
+  bool
+)
+"equation.ml" 122 4238 4287 "equation.ml" 122 4238 4306
+type(
+  graph -> vertex -> unit -> unit
+)
+ident(
+  ext_ref PSHGraph.add_vertex
+)
+"equation.ml" 122 4238 4307 "equation.ml" 122 4238 4312
+type(
+  graph
+)
+ident(
+  int_ref graph "equation.ml" 115 4108 4126 "equation.ml" 115 4108 4131
+)
+"equation.ml" 122 4238 4313 "equation.ml" 122 4238 4316
+type(
+  vertex
+)
+ident(
+  int_ref var "equation.ml" 121 4216 4231 "equation.ml" 121 4216 4234
+)
+"equation.ml" 122 4238 4317 "equation.ml" 122 4238 4319
+type(
+  unit
+)
+"equation.ml" 122 4238 4287 "equation.ml" 122 4238 4319
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 122 4238 4244 "equation.ml" 122 4238 4319
+type(
+  unit
+)
+"equation.ml" 121 4216 4220 "equation.ml" 123 4320 4328
+type(
+  vertex -> unit
+)
+"equation.ml" 124 4329 4333 "equation.ml" 124 4329 4337
+type(
+  vertex array
+)
+ident(
+  int_ref torg "equation.ml" 115 4108 4140 "equation.ml" 115 4108 4144
+)
+"equation.ml" 120 4203 4205 "equation.ml" 124 4329 4337
+call(
+  stack
+)
+type(
+  unit
+)
+"equation.ml" 126 4342 4347 "equation.ml" 126 4342 4350
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"equation.ml" 126 4342 4352 "equation.ml" 126 4342 4370
+type(
+  graph -> vertex -> bool
+)
+ident(
+  ext_ref PSHGraph.is_vertex
+)
+"equation.ml" 126 4342 4371 "equation.ml" 126 4342 4376
+type(
+  graph
+)
+ident(
+  int_ref graph "equation.ml" 115 4108 4126 "equation.ml" 115 4108 4131
+)
+"equation.ml" 126 4342 4377 "equation.ml" 126 4342 4381
+type(
+  var
+)
+ident(
+  int_ref dest "equation.ml" 115 4108 4177 "equation.ml" 115 4108 4181
+)
+"equation.ml" 126 4342 4351 "equation.ml" 126 4342 4382
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 126 4342 4347 "equation.ml" 126 4342 4382
+type(
+  bool
+)
+"equation.ml" 126 4342 4388 "equation.ml" 126 4342 4407
+type(
+  graph -> vertex -> unit -> unit
+)
+ident(
+  ext_ref PSHGraph.add_vertex
+)
+"equation.ml" 126 4342 4408 "equation.ml" 126 4342 4413
+type(
+  graph
+)
+ident(
+  int_ref graph "equation.ml" 115 4108 4126 "equation.ml" 115 4108 4131
+)
+"equation.ml" 126 4342 4414 "equation.ml" 126 4342 4418
+type(
+  var
+)
+ident(
+  int_ref dest "equation.ml" 115 4108 4177 "equation.ml" 115 4108 4181
+)
+"equation.ml" 126 4342 4419 "equation.ml" 126 4342 4421
+type(
+  unit
+)
+"equation.ml" 126 4342 4388 "equation.ml" 126 4342 4421
+call(
+  stack
+)
+type(
+  unit
+)
+"equation.ml" 126 4342 4344 "equation.ml" 126 4342 4421
+type(
+  unit
+)
+"equation.ml" 127 4423 4428 "equation.ml" 127 4423 4436
+type(
+  transfer
+)
+ident(
+  int_ref transfer "equation.ml" 115 4108 4157 "equation.ml" 115 4108 4165
+)
+"equation.ml" 127 4423 4436 "equation.ml" 127 4423 4438
+type(
+  transfer -> transfer -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"equation.ml" 127 4423 4462 "equation.ml" 127 4423 4466
+type(
+  Apron.Tcons1.earray list
+)
+"equation.ml" 127 4423 4448 "equation.ml" 127 4423 4467
+type(
+  Apron.Tcons1.earray Boolexpr.t
+)
+"equation.ml" 127 4423 4438 "equation.ml" 127 4423 4468
+type(
+  transfer
+)
+"equation.ml" 127 4423 4428 "equation.ml" 127 4423 4468
+type(
+  bool
+)
+"equation.ml" 128 4480 4488 "equation.ml" 128 4480 4492
+type(
+  info
+)
+ident(
+  def info "equation.ml" 129 4518 4522 "equation.ml" 130 4596 4633
+)
+"equation.ml" 128 4480 4495 "equation.ml" 128 4480 4508
+type(
+  graph -> info
+)
+ident(
+  ext_ref PSHGraph.info
+)
+"equation.ml" 128 4480 4509 "equation.ml" 128 4480 4514
+type(
+  graph
+)
+ident(
+  int_ref graph "equation.ml" 115 4108 4126 "equation.ml" 115 4108 4131
+)
+"equation.ml" 128 4480 4495 "equation.ml" 128 4480 4514
+call(
+  stack
+)
+type(
+  info
+)
+"equation.ml" 129 4518 4522 "equation.ml" 129 4518 4540
+type(
+  graph ->
+  hedge -> transfer -> pred:vertex array -> succ:vertex array -> unit
+)
+ident(
+  ext_ref PSHGraph.add_hedge
+)
+"equation.ml" 129 4518 4541 "equation.ml" 129 4518 4546
+type(
+  graph
+)
+ident(
+  int_ref graph "equation.ml" 115 4108 4126 "equation.ml" 115 4108 4131
+)
+"equation.ml" 129 4518 4547 "equation.ml" 129 4518 4551
+type(
+  info
+)
+ident(
+  int_ref info "equation.ml" 128 4480 4488 "equation.ml" 128 4480 4492
+)
+"equation.ml" 129 4518 4547 "equation.ml" 129 4518 4559
+type(
+  hedge
+)
+"equation.ml" 129 4518 4560 "equation.ml" 129 4518 4568
+type(
+  transfer
+)
+ident(
+  int_ref transfer "equation.ml" 115 4108 4157 "equation.ml" 115 4108 4165
+)
+"equation.ml" 129 4518 4575 "equation.ml" 129 4518 4579
+type(
+  vertex array
+)
+ident(
+  int_ref torg "equation.ml" 115 4108 4140 "equation.ml" 115 4108 4144
+)
+"equation.ml" 129 4518 4588 "equation.ml" 129 4518 4592
+type(
+  var
+)
+ident(
+  int_ref dest "equation.ml" 115 4108 4177 "equation.ml" 115 4108 4181
+)
+"equation.ml" 129 4518 4586 "equation.ml" 129 4518 4594
+type(
+  vertex array
+)
+"equation.ml" 129 4518 4522 "equation.ml" 129 4518 4594
+call(
+  stack
+)
+type(
+  unit
+)
+"equation.ml" 130 4596 4600 "equation.ml" 130 4596 4604
+type(
+  info
+)
+ident(
+  int_ref info "equation.ml" 128 4480 4488 "equation.ml" 128 4480 4492
+)
+"equation.ml" 130 4596 4616 "equation.ml" 130 4596 4620
+type(
+  info
+)
+ident(
+  int_ref info "equation.ml" 128 4480 4488 "equation.ml" 128 4480 4492
+)
+"equation.ml" 130 4596 4616 "equation.ml" 130 4596 4628
+type(
+  int
+)
+"equation.ml" 130 4596 4629 "equation.ml" 130 4596 4630
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"equation.ml" 130 4596 4631 "equation.ml" 130 4596 4632
+type(
+  int
+)
+"equation.ml" 130 4596 4616 "equation.ml" 130 4596 4632
+type(
+  int
+)
+"equation.ml" 130 4596 4600 "equation.ml" 130 4596 4633
+type(
+  unit
+)
+"equation.ml" 129 4518 4522 "equation.ml" 130 4596 4633
+type(
+  unit
+)
+"equation.ml" 127 4423 4474 "equation.ml" 131 4634 4639
+type(
+  unit
+)
+"equation.ml" 127 4423 4425 "equation.ml" 131 4634 4639
+type(
+  unit
+)
+"equation.ml" 132 4641 4643 "equation.ml" 132 4641 4645
+type(
+  unit
+)
+"equation.ml" 127 4423 4425 "equation.ml" 132 4641 4645
+type(
+  unit
+)
+"equation.ml" 126 4342 4344 "equation.ml" 132 4641 4645
+type(
+  unit
+)
+"equation.ml" 120 4203 4205 "equation.ml" 132 4641 4645
+type(
+  unit
+)
+type(
+  unit
+)
+"equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  def print_tvar "equation.ml" 144 4997 4997 "equation.ml" 1 0 -1
+)
+"equation.ml" 138 4832 4847 "equation.ml" 138 4832 4850
+type(
+  Format.formatter
+)
+ident(
+  def fmt "equation.ml" 138 4832 4851 "equation.ml" 142 4967 4995
+)
+"equation.ml" 138 4832 4852 "equation.ml" 138 4832 4856
+type(
+  Apron.Var.t array
+)
+ident(
+  def tvar "equation.ml" 139 4878 4880 "equation.ml" 142 4967 4995
+)
+"equation.ml" 139 4878 4880 "equation.ml" 139 4878 4899
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Apron.Var.t -> unit) ->
+  Format.formatter -> Apron.Var.t list -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_list
+)
+"equation.ml" 140 4900 4911 "equation.ml" 140 4900 4922
+type(
+  (unit, Format.formatter, unit) format
+)
+"equation.ml" 140 4900 4928 "equation.ml" 140 4900 4933
+type(
+  (unit, Format.formatter, unit) format
+)
+"equation.ml" 140 4900 4940 "equation.ml" 140 4900 4946
+type(
+  (unit, Format.formatter, unit) format
+)
+"equation.ml" 141 4947 4951 "equation.ml" 141 4947 4966
+type(
+  Format.formatter -> Apron.Var.t -> unit
+)
+ident(
+  ext_ref Apron.Var.print
+)
+"equation.ml" 142 4967 4971 "equation.ml" 142 4967 4974
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "equation.ml" 138 4832 4847 "equation.ml" 138 4832 4850
+)
+"equation.ml" 142 4967 4976 "equation.ml" 142 4967 4989
+type(
+  Apron.Var.t array -> Apron.Var.t list
+)
+ident(
+  ext_ref Array.to_list
+)
+"equation.ml" 142 4967 4990 "equation.ml" 142 4967 4994
+type(
+  Apron.Var.t array
+)
+ident(
+  int_ref tvar "equation.ml" 138 4832 4852 "equation.ml" 138 4832 4856
+)
+"equation.ml" 142 4967 4975 "equation.ml" 142 4967 4995
+call(
+  stack
+)
+type(
+  Apron.Var.t list
+)
+"equation.ml" 139 4878 4880 "equation.ml" 142 4967 4995
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 144 4997 5001 "equation.ml" 144 4997 5015
+type(
+  Format.formatter -> procinfo -> unit
+)
+ident(
+  def print_procinfo "equation.ml" 154 5433 5433 "equation.ml" 1 0 -1
+)
+"equation.ml" 144 4997 5016 "equation.ml" 144 4997 5019
+type(
+  Format.formatter
+)
+ident(
+  def fmt "equation.ml" 144 4997 5020 "equation.ml" 152 5396 5431
+)
+"equation.ml" 144 4997 5020 "equation.ml" 144 4997 5028
+type(
+  procinfo
+)
+ident(
+  def procinfo "equation.ml" 145 5031 5033 "equation.ml" 152 5396 5431
+)
+"equation.ml" 145 5031 5033 "equation.ml" 145 5031 5040
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.point -> unit) ->
+   Spl_syn.point ->
+   (Format.formatter -> Spl_syn.point -> unit) ->
+   Spl_syn.point ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   (Format.formatter -> Apron.Environment.t -> unit) ->
+   Apron.Environment.t ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Spl_syn.point ->
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Spl_syn.point ->
+  (Format.formatter -> Apron.Var.t array -> unit) ->
+  Apron.Var.t array ->
+  (Format.formatter -> Apron.Var.t array -> unit) ->
+  Apron.Var.t array ->
+  (Format.formatter -> Apron.Var.t array -> unit) ->
+  Apron.Var.t array ->
+  (Format.formatter -> Apron.Environment.t -> unit) ->
+  Apron.Environment.t ->
+  (Format.formatter -> Apron.Var.t array -> unit) ->
+  Apron.Var.t array -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"equation.ml" 145 5031 5041 "equation.ml" 145 5031 5044
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "equation.ml" 144 4997 5016 "equation.ml" 144 4997 5019
+)
+"equation.ml" 145 5031 5045 "equation.ml" 145 5031 5157
+type(
+  ((Format.formatter -> Spl_syn.point -> unit) ->
+   Spl_syn.point ->
+   (Format.formatter -> Spl_syn.point -> unit) ->
+   Spl_syn.point ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   (Format.formatter -> Apron.Environment.t -> unit) ->
+   Apron.Environment.t ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array -> unit, Format.formatter, unit)
+  format
+)
+"equation.ml" 146 5158 5162 "equation.ml" 146 5158 5182
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_point
+)
+"equation.ml" 146 5158 5183 "equation.ml" 146 5158 5191
+type(
+  procinfo
+)
+ident(
+  int_ref procinfo "equation.ml" 144 4997 5020 "equation.ml" 144 4997 5028
+)
+"equation.ml" 146 5158 5183 "equation.ml" 146 5158 5198
+type(
+  Spl_syn.point
+)
+"equation.ml" 147 5199 5203 "equation.ml" 147 5199 5223
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_point
+)
+"equation.ml" 147 5199 5224 "equation.ml" 147 5199 5232
+type(
+  procinfo
+)
+ident(
+  int_ref procinfo "equation.ml" 144 4997 5020 "equation.ml" 144 4997 5028
+)
+"equation.ml" 147 5199 5224 "equation.ml" 147 5199 5238
+type(
+  Spl_syn.point
+)
+"equation.ml" 148 5239 5243 "equation.ml" 148 5239 5253
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  int_ref print_tvar "equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+)
+"equation.ml" 148 5239 5254 "equation.ml" 148 5239 5262
+type(
+  procinfo
+)
+ident(
+  int_ref procinfo "equation.ml" 144 4997 5020 "equation.ml" 144 4997 5028
+)
+"equation.ml" 148 5239 5254 "equation.ml" 148 5239 5269
+type(
+  Apron.Var.t array
+)
+"equation.ml" 149 5270 5274 "equation.ml" 149 5270 5284
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  int_ref print_tvar "equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+)
+"equation.ml" 149 5270 5285 "equation.ml" 149 5270 5293
+type(
+  procinfo
+)
+ident(
+  int_ref procinfo "equation.ml" 144 4997 5020 "equation.ml" 144 4997 5028
+)
+"equation.ml" 149 5270 5285 "equation.ml" 149 5270 5301
+type(
+  Apron.Var.t array
+)
+"equation.ml" 150 5302 5306 "equation.ml" 150 5302 5316
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  int_ref print_tvar "equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+)
+"equation.ml" 150 5302 5317 "equation.ml" 150 5302 5325
+type(
+  procinfo
+)
+ident(
+  int_ref procinfo "equation.ml" 144 4997 5020 "equation.ml" 144 4997 5028
+)
+"equation.ml" 150 5302 5317 "equation.ml" 150 5302 5332
+type(
+  Apron.Var.t array
+)
+"equation.ml" 151 5333 5342 "equation.ml" 151 5333 5345
+type(
+  Format.formatter
+)
+ident(
+  def fmt "equation.ml" 151 5333 5346 "equation.ml" 151 5333 5380
+)
+"equation.ml" 151 5333 5346 "equation.ml" 151 5333 5347
+type(
+  Apron.Environment.t
+)
+ident(
+  def e "equation.ml" 151 5333 5351 "equation.ml" 151 5333 5380
+)
+"equation.ml" 151 5333 5351 "equation.ml" 151 5333 5374
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  Format.formatter -> Apron.Environment.t -> unit
+)
+ident(
+  ext_ref Apron.Environment.print
+)
+"equation.ml" 151 5333 5375 "equation.ml" 151 5333 5378
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "equation.ml" 151 5333 5342 "equation.ml" 151 5333 5345
+)
+"equation.ml" 151 5333 5379 "equation.ml" 151 5333 5380
+type(
+  Apron.Environment.t
+)
+ident(
+  int_ref e "equation.ml" 151 5333 5346 "equation.ml" 151 5333 5347
+)
+"equation.ml" 151 5333 5351 "equation.ml" 151 5333 5380
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 151 5333 5337 "equation.ml" 151 5333 5381
+type(
+  Format.formatter -> Apron.Environment.t -> unit
+)
+"equation.ml" 151 5333 5382 "equation.ml" 151 5333 5390
+type(
+  procinfo
+)
+ident(
+  int_ref procinfo "equation.ml" 144 4997 5020 "equation.ml" 144 4997 5028
+)
+"equation.ml" 151 5333 5382 "equation.ml" 151 5333 5395
+type(
+  Apron.Environment.t
+)
+"equation.ml" 152 5396 5400 "equation.ml" 152 5396 5410
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  int_ref print_tvar "equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+)
+"equation.ml" 152 5396 5411 "equation.ml" 152 5396 5419
+type(
+  procinfo
+)
+ident(
+  int_ref procinfo "equation.ml" 144 4997 5020 "equation.ml" 144 4997 5028
+)
+"equation.ml" 152 5396 5411 "equation.ml" 152 5396 5431
+type(
+  Apron.Var.t array
+)
+"equation.ml" 145 5031 5033 "equation.ml" 152 5396 5431
+call(
+  stack
+)
+type(
+  unit
+)
+"equation.ml" 154 5433 5437 "equation.ml" 154 5433 5447
+type(
+  Format.formatter -> info -> unit
+)
+ident(
+  def print_info "equation.ml" 161 5782 5782 "equation.ml" 1 0 -1
+)
+"equation.ml" 154 5433 5448 "equation.ml" 154 5433 5451
+type(
+  Format.formatter
+)
+ident(
+  def fmt "equation.ml" 154 5433 5452 "equation.ml" 159 5764 5780
+)
+"equation.ml" 154 5433 5452 "equation.ml" 154 5433 5456
+type(
+  info
+)
+ident(
+  def info "equation.ml" 155 5459 5461 "equation.ml" 159 5764 5780
+)
+"equation.ml" 155 5459 5461 "equation.ml" 155 5459 5468
+type(
+  Format.formatter ->
+  ((Format.formatter -> (string, procinfo) Hashhe.t -> unit) ->
+   (string, procinfo) Hashhe.t ->
+   (Format.formatter -> (Spl_syn.point, Spl_syn.point) DHashhe.t -> unit) ->
+   (Spl_syn.point, Spl_syn.point) DHashhe.t ->
+   (Format.formatter -> (Spl_syn.point, Apron.Environment.t) Hashhe.t -> unit) ->
+   (Spl_syn.point, Apron.Environment.t) Hashhe.t -> int -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> (string, procinfo) Hashhe.t -> unit) ->
+  (string, procinfo) Hashhe.t ->
+  (Format.formatter -> (Spl_syn.point, Spl_syn.point) DHashhe.t -> unit) ->
+  (Spl_syn.point, Spl_syn.point) DHashhe.t ->
+  (Format.formatter -> (Spl_syn.point, Apron.Environment.t) Hashhe.t -> unit) ->
+  (Spl_syn.point, Apron.Environment.t) Hashhe.t -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"equation.ml" 155 5459 5469 "equation.ml" 155 5459 5472
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "equation.ml" 154 5433 5448 "equation.ml" 154 5433 5451
+)
+"equation.ml" 155 5459 5473 "equation.ml" 155 5459 5546
+type(
+  ((Format.formatter -> (string, procinfo) Hashhe.t -> unit) ->
+   (string, procinfo) Hashhe.t ->
+   (Format.formatter -> (Spl_syn.point, Spl_syn.point) DHashhe.t -> unit) ->
+   (Spl_syn.point, Spl_syn.point) DHashhe.t ->
+   (Format.formatter -> (Spl_syn.point, Apron.Environment.t) Hashhe.t -> unit) ->
+   (Spl_syn.point, Apron.Environment.t) Hashhe.t -> int -> unit,
+   Format.formatter, unit)
+  format
+)
+"equation.ml" 156 5547 5552 "equation.ml" 156 5547 5564
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  ?firstbind:(unit, Format.formatter, unit) format ->
+  ?sepbind:(unit, Format.formatter, unit) format ->
+  ?lastbind:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> string -> unit) ->
+  (Format.formatter -> procinfo -> unit) ->
+  Format.formatter -> (string, procinfo) Hashhe.t -> unit
+)
+ident(
+  ext_ref Hashhe.print
+)
+"equation.ml" 156 5547 5565 "equation.ml" 156 5547 5580
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"equation.ml" 156 5547 5581 "equation.ml" 156 5547 5595
+type(
+  Format.formatter -> procinfo -> unit
+)
+ident(
+  int_ref print_procinfo "equation.ml" 144 4997 5001 "equation.ml" 144 4997 5015
+)
+"equation.ml" 156 5547 5551 "equation.ml" 156 5547 5596
+call(
+  stack
+)
+type(
+  Format.formatter -> (string, procinfo) Hashhe.t -> unit
+)
+"equation.ml" 156 5547 5597 "equation.ml" 156 5547 5601
+type(
+  info
+)
+ident(
+  int_ref info "equation.ml" 154 5433 5452 "equation.ml" 154 5433 5456
+)
+"equation.ml" 156 5547 5597 "equation.ml" 156 5547 5610
+type(
+  (string, procinfo) Hashhe.t
+)
+"equation.ml" 157 5611 5616 "equation.ml" 157 5611 5629
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  ?firstbind:(unit, Format.formatter, unit) format ->
+  ?sepbind:(unit, Format.formatter, unit) format ->
+  ?lastbind:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> (Spl_syn.point, Spl_syn.point) DHashhe.t -> unit
+)
+ident(
+  ext_ref DHashhe.print
+)
+"equation.ml" 157 5611 5630 "equation.ml" 157 5611 5650
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_point
+)
+"equation.ml" 157 5611 5651 "equation.ml" 157 5611 5671
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_point
+)
+"equation.ml" 157 5611 5615 "equation.ml" 157 5611 5672
+call(
+  stack
+)
+type(
+  Format.formatter -> (Spl_syn.point, Spl_syn.point) DHashhe.t -> unit
+)
+"equation.ml" 157 5611 5673 "equation.ml" 157 5611 5677
+type(
+  info
+)
+ident(
+  int_ref info "equation.ml" 154 5433 5452 "equation.ml" 154 5433 5456
+)
+"equation.ml" 157 5611 5673 "equation.ml" 157 5611 5685
+type(
+  (Spl_syn.point, Spl_syn.point) DHashhe.t
+)
+"equation.ml" 158 5686 5691 "equation.ml" 158 5686 5703
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  ?firstbind:(unit, Format.formatter, unit) format ->
+  ?sepbind:(unit, Format.formatter, unit) format ->
+  ?lastbind:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  (Format.formatter -> Apron.Environment.t -> unit) ->
+  Format.formatter -> (Spl_syn.point, Apron.Environment.t) Hashhe.t -> unit
+)
+ident(
+  ext_ref Hashhe.print
+)
+"equation.ml" 158 5686 5704 "equation.ml" 158 5686 5724
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_point
+)
+"equation.ml" 158 5686 5725 "equation.ml" 158 5686 5748
+call(
+  tail
+)
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  Format.formatter -> Apron.Environment.t -> unit
+)
+ident(
+  ext_ref Apron.Environment.print
+)
+"equation.ml" 158 5686 5690 "equation.ml" 158 5686 5749
+call(
+  stack
+)
+type(
+  Format.formatter -> (Spl_syn.point, Apron.Environment.t) Hashhe.t -> unit
+)
+"equation.ml" 158 5686 5750 "equation.ml" 158 5686 5754
+type(
+  info
+)
+ident(
+  int_ref info "equation.ml" 154 5433 5452 "equation.ml" 154 5433 5456
+)
+"equation.ml" 158 5686 5750 "equation.ml" 158 5686 5763
+type(
+  (Spl_syn.point, Apron.Environment.t) Hashhe.t
+)
+"equation.ml" 159 5764 5768 "equation.ml" 159 5764 5772
+type(
+  info
+)
+ident(
+  int_ref info "equation.ml" 154 5433 5452 "equation.ml" 154 5433 5456
+)
+"equation.ml" 159 5764 5768 "equation.ml" 159 5764 5780
+type(
+  int
+)
+"equation.ml" 155 5459 5461 "equation.ml" 159 5764 5780
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 161 5782 5786 "equation.ml" 161 5782 5800
+type(
+  Format.formatter -> transfer -> unit
+)
+ident(
+  def print_transfer "equation.ml" 179 6383 6403 "equation.ml" 1 0 -1
+)
+"equation.ml" 161 5782 5801 "equation.ml" 161 5782 5804
+type(
+  Format.formatter
+)
+ident(
+  def fmt "equation.ml" 161 5782 5805 "equation.ml" 179 6383 6403
+)
+"equation.ml" 161 5782 5805 "equation.ml" 161 5782 5813
+type(
+  transfer
+)
+ident(
+  def transfer "equation.ml" 161 5782 5816 "equation.ml" 179 6383 6403
+)
+"equation.ml" 161 5782 5822 "equation.ml" 161 5782 5830
+type(
+  transfer
+)
+ident(
+  int_ref transfer "equation.ml" 161 5782 5805 "equation.ml" 161 5782 5813
+)
+"equation.ml" 162 5836 5848 "equation.ml" 162 5836 5849
+type(
+  Apron.Linexpr1.t
+)
+type(
+  Apron.Var.t
+)
+"equation.ml" 162 5836 5840 "equation.ml" 162 5836 5849
+type(
+  transfer
+)
+"equation.ml" 162 5836 5853 "equation.ml" 162 5836 5861
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"equation.ml" 162 5836 5862 "equation.ml" 162 5836 5864
+type(
+  string
+)
+"equation.ml" 162 5836 5853 "equation.ml" 162 5836 5864
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 163 5865 5877 "equation.ml" 163 5865 5878
+type(
+  Apron.Var.t
+)
+ident(
+  def v "equation.ml" 164 5885 5891 "equation.ml" 166 5937 5963
+)
+"equation.ml" 163 5865 5879 "equation.ml" 163 5865 5880
+type(
+  Apron.Texpr1.t
+)
+ident(
+  def e "equation.ml" 164 5885 5891 "equation.ml" 166 5937 5963
+)
+"equation.ml" 163 5865 5869 "equation.ml" 163 5865 5881
+type(
+  transfer
+)
+"equation.ml" 164 5885 5891 "equation.ml" 164 5885 5898
+type(
+  Format.formatter ->
+  ((Format.formatter -> Apron.Var.t -> unit) ->
+   Apron.Var.t ->
+   (Format.formatter -> Apron.Texpr1.t -> unit) -> Apron.Texpr1.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Apron.Var.t -> unit) ->
+  Apron.Var.t ->
+  (Format.formatter -> Apron.Texpr1.t -> unit) -> Apron.Texpr1.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"equation.ml" 164 5885 5899 "equation.ml" 164 5885 5902
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "equation.ml" 161 5782 5801 "equation.ml" 161 5782 5804
+)
+"equation.ml" 164 5885 5903 "equation.ml" 164 5885 5912
+type(
+  ((Format.formatter -> Apron.Var.t -> unit) ->
+   Apron.Var.t ->
+   (Format.formatter -> Apron.Texpr1.t -> unit) -> Apron.Texpr1.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"equation.ml" 165 5913 5919 "equation.ml" 165 5913 5934
+type(
+  Format.formatter -> Apron.Var.t -> unit
+)
+ident(
+  ext_ref Apron.Var.print
+)
+"equation.ml" 165 5913 5935 "equation.ml" 165 5913 5936
+type(
+  Apron.Var.t
+)
+ident(
+  int_ref v "equation.ml" 163 5865 5877 "equation.ml" 163 5865 5878
+)
+"equation.ml" 166 5937 5943 "equation.ml" 166 5937 5961
+type(
+  Format.formatter -> Apron.Texpr1.t -> unit
+)
+ident(
+  ext_ref Apron.Texpr1.print
+)
+"equation.ml" 166 5937 5962 "equation.ml" 166 5937 5963
+type(
+  Apron.Texpr1.t
+)
+ident(
+  int_ref e "equation.ml" 163 5865 5879 "equation.ml" 163 5865 5880
+)
+"equation.ml" 164 5885 5891 "equation.ml" 166 5937 5963
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 167 5964 5978 "equation.ml" 167 5964 5983
+ident(
+  def bexpr "equation.ml" 168 5988 5994 "equation.ml" 169 6014 6105
+)
+"equation.ml" 167 5964 5977 "equation.ml" 167 5964 5984
+type(
+  Apron.Tcons1.earray Boolexpr.t
+)
+"equation.ml" 167 5964 5968 "equation.ml" 167 5964 5984
+type(
+  transfer
+)
+"equation.ml" 168 5988 5994 "equation.ml" 168 5988 6001
+type(
+  Format.formatter ->
+  ((Format.formatter -> Apron.Tcons1.earray Boolexpr.t -> unit) ->
+   Apron.Tcons1.earray Boolexpr.t -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Apron.Tcons1.earray Boolexpr.t -> unit) ->
+  Apron.Tcons1.earray Boolexpr.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"equation.ml" 168 5988 6002 "equation.ml" 168 5988 6005
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "equation.ml" 161 5782 5801 "equation.ml" 161 5782 5804
+)
+"equation.ml" 168 5988 6006 "equation.ml" 168 5988 6013
+type(
+  ((Format.formatter -> Apron.Tcons1.earray Boolexpr.t -> unit) ->
+   Apron.Tcons1.earray Boolexpr.t -> unit, Format.formatter, unit)
+  format
+)
+"equation.ml" 169 6014 6021 "equation.ml" 169 6014 6035
+type(
+  (Format.formatter -> Apron.Tcons1.earray -> unit) ->
+  Format.formatter -> Apron.Tcons1.earray Boolexpr.t -> unit
+)
+ident(
+  ext_ref Boolexpr.print
+)
+"equation.ml" 169 6014 6037 "equation.ml" 169 6014 6061
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  Format.formatter -> Apron.Tcons1.earray -> unit
+)
+ident(
+  ext_ref Apron.Tcons1.array_print
+)
+"equation.ml" 169 6014 6069 "equation.ml" 169 6014 6073
+type(
+  (unit, Format.formatter, unit) format
+)
+"equation.ml" 169 6014 6079 "equation.ml" 169 6014 6086
+type(
+  (unit, Format.formatter, unit) format
+)
+"equation.ml" 169 6014 6093 "equation.ml" 169 6014 6097
+type(
+  (unit, Format.formatter, unit) format
+)
+"equation.ml" 169 6014 6036 "equation.ml" 169 6014 6098
+call(
+  stack
+)
+type(
+  Format.formatter -> Apron.Tcons1.earray -> unit
+)
+"equation.ml" 169 6014 6020 "equation.ml" 169 6014 6099
+call(
+  stack
+)
+type(
+  Format.formatter -> Apron.Tcons1.earray Boolexpr.t -> unit
+)
+"equation.ml" 169 6014 6100 "equation.ml" 169 6014 6105
+type(
+  Apron.Tcons1.earray Boolexpr.t
+)
+ident(
+  int_ref bexpr "equation.ml" 167 5964 5977 "equation.ml" 167 5964 5984
+)
+"equation.ml" 168 5988 5994 "equation.ml" 169 6014 6105
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 170 6106 6115 "equation.ml" 170 6106 6125
+type(
+  procinfo
+)
+ident(
+  def callerinfo "equation.ml" 171 6150 6156 "equation.ml" 174 6232 6252
+)
+"equation.ml" 170 6106 6126 "equation.ml" 170 6106 6136
+type(
+  procinfo
+)
+ident(
+  def calleeinfo "equation.ml" 171 6150 6156 "equation.ml" 174 6232 6252
+)
+"equation.ml" 170 6106 6137 "equation.ml" 170 6106 6140
+type(
+  Apron.Var.t array
+)
+ident(
+  def pin "equation.ml" 171 6150 6156 "equation.ml" 174 6232 6252
+)
+"equation.ml" 170 6106 6141 "equation.ml" 170 6106 6145
+type(
+  Apron.Var.t array
+)
+ident(
+  def pout "equation.ml" 171 6150 6156 "equation.ml" 174 6232 6252
+)
+"equation.ml" 170 6106 6110 "equation.ml" 170 6106 6146
+type(
+  transfer
+)
+"equation.ml" 171 6150 6156 "equation.ml" 171 6150 6163
+type(
+  Format.formatter ->
+  ((Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   string ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Apron.Var.t array -> unit) ->
+  Apron.Var.t array ->
+  string ->
+  (Format.formatter -> Apron.Var.t array -> unit) ->
+  Apron.Var.t array -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"equation.ml" 171 6150 6164 "equation.ml" 171 6150 6167
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "equation.ml" 161 5782 5801 "equation.ml" 161 5782 5804
+)
+"equation.ml" 171 6150 6168 "equation.ml" 171 6150 6186
+type(
+  ((Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   string ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array -> unit, Format.formatter, unit)
+  format
+)
+"equation.ml" 172 6187 6193 "equation.ml" 172 6187 6203
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  int_ref print_tvar "equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+)
+"equation.ml" 172 6187 6204 "equation.ml" 172 6187 6208
+type(
+  Apron.Var.t array
+)
+ident(
+  int_ref pout "equation.ml" 170 6106 6141 "equation.ml" 170 6106 6145
+)
+"equation.ml" 173 6209 6215 "equation.ml" 173 6209 6225
+type(
+  procinfo
+)
+ident(
+  int_ref calleeinfo "equation.ml" 170 6106 6126 "equation.ml" 170 6106 6136
+)
+"equation.ml" 173 6209 6215 "equation.ml" 173 6209 6231
+type(
+  string
+)
+"equation.ml" 174 6232 6238 "equation.ml" 174 6232 6248
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  int_ref print_tvar "equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+)
+"equation.ml" 174 6232 6249 "equation.ml" 174 6232 6252
+type(
+  Apron.Var.t array
+)
+ident(
+  int_ref pin "equation.ml" 170 6106 6137 "equation.ml" 170 6106 6140
+)
+"equation.ml" 171 6150 6156 "equation.ml" 174 6232 6252
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 175 6253 6264 "equation.ml" 175 6253 6274
+type(
+  procinfo
+)
+ident(
+  def callerinfo "equation.ml" 176 6299 6305 "equation.ml" 179 6383 6403
+)
+"equation.ml" 175 6253 6275 "equation.ml" 175 6253 6285
+type(
+  procinfo
+)
+ident(
+  def calleeinfo "equation.ml" 176 6299 6305 "equation.ml" 179 6383 6403
+)
+"equation.ml" 175 6253 6286 "equation.ml" 175 6253 6289
+type(
+  Apron.Var.t array
+)
+ident(
+  def pin "equation.ml" 176 6299 6305 "equation.ml" 179 6383 6403
+)
+"equation.ml" 175 6253 6290 "equation.ml" 175 6253 6294
+type(
+  Apron.Var.t array
+)
+ident(
+  def pout "equation.ml" 176 6299 6305 "equation.ml" 179 6383 6403
+)
+"equation.ml" 175 6253 6257 "equation.ml" 175 6253 6295
+type(
+  transfer
+)
+"equation.ml" 176 6299 6305 "equation.ml" 176 6299 6312
+type(
+  Format.formatter ->
+  ((Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   string ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Apron.Var.t array -> unit) ->
+  Apron.Var.t array ->
+  string ->
+  (Format.formatter -> Apron.Var.t array -> unit) ->
+  Apron.Var.t array -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"equation.ml" 176 6299 6313 "equation.ml" 176 6299 6316
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "equation.ml" 161 5782 5801 "equation.ml" 161 5782 5804
+)
+"equation.ml" 176 6299 6317 "equation.ml" 176 6299 6337
+type(
+  ((Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array ->
+   string ->
+   (Format.formatter -> Apron.Var.t array -> unit) ->
+   Apron.Var.t array -> unit, Format.formatter, unit)
+  format
+)
+"equation.ml" 177 6338 6344 "equation.ml" 177 6338 6354
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  int_ref print_tvar "equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+)
+"equation.ml" 177 6338 6355 "equation.ml" 177 6338 6359
+type(
+  Apron.Var.t array
+)
+ident(
+  int_ref pout "equation.ml" 175 6253 6290 "equation.ml" 175 6253 6294
+)
+"equation.ml" 178 6360 6366 "equation.ml" 178 6360 6376
+type(
+  procinfo
+)
+ident(
+  int_ref calleeinfo "equation.ml" 175 6253 6275 "equation.ml" 175 6253 6285
+)
+"equation.ml" 178 6360 6366 "equation.ml" 178 6360 6382
+type(
+  string
+)
+"equation.ml" 179 6383 6389 "equation.ml" 179 6383 6399
+type(
+  Format.formatter -> Apron.Var.t array -> unit
+)
+ident(
+  int_ref print_tvar "equation.ml" 138 4832 4836 "equation.ml" 138 4832 4846
+)
+"equation.ml" 179 6383 6400 "equation.ml" 179 6383 6403
+type(
+  Apron.Var.t array
+)
+ident(
+  int_ref pin "equation.ml" 175 6253 6286 "equation.ml" 175 6253 6289
+)
+"equation.ml" 176 6299 6305 "equation.ml" 179 6383 6403
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 161 5782 5816 "equation.ml" 179 6383 6403
+type(
+  unit
+)

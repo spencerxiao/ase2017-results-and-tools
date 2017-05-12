@@ -1,0 +1,45 @@
+[32mAnnotated program after forward analysis[m
+var x : int, y : int, z : int, k : int;
+begin
+  /* [31m(L2 C5) [|z=0 mod 1; y=0 mod 1; x=0 mod 1; k=0 mod 1|][m */
+  x = 0; /* [31m(L3 C8) [|x=0; z=0 mod 1; y=0 mod 1; x=0; k=0 mod 1|][m */
+  y = 0; /* [31m(L4 C8) [|y=0; x=0; z=0 mod 1; y=0; x=0; k=0 mod 1|][m */
+  z = 0; /* [31m(L5 C8) [|z=0; y=0; x=0; z=0; y=0; x=0; k=0 mod 1|][m */
+  k = 0; /* [31m(L6 C8)
+            [|-k+x+2z=0; -k+x+2y=0; x>=0; k-3x>=0; -k+x+2z=0; -k+x+2y=0;
+              k+x=0 mod 2; 2k=0 mod 2|][m */
+  while brandom do
+    /* [31m(L8 C20)
+       [|-k+x+2z=0; -k+x+2y=0; x>=0; k-3x>=0; -k+x+2z=0; -k+x+2y=0;
+         k+x=0 mod 2; 2k=0 mod 2|][m */
+    if k %_i,? 3 == 0 then
+      /* [31m(L9 C26)
+         [|-k+x+2z=0; -k+x+2y=0; x>=0; k-3x>=0; -k+x+2z=0; -k+x+2y=0;
+           k+x=0 mod 2; 2k=0 mod 2|][m */
+      x = x +_i,? 1; /* [31m(L10 C18)
+                        [|-k+x+2z-1=0; -k+x+2y-1=0; x-1>=0; k-3x+3>=0;
+                          -k+x+2z-1=0; -k+x+2y-1=0; k+x+1=0 mod 2; 2k=0 mod 2|][m */
+    endif; /* [31m(L11 C10)
+              [|-y+z=0; -k+3y>=0; -k+x+2y>=0; k-x-2y+1>=0; k-2y>=0; -y+z=0;
+                y=0 mod 1; x=0 mod 1; k=0 mod 1|][m */
+    y = y +_i,? 1; /* [31m(L12 C16)
+                      [|-y+z+1=0; -k+3y-3>=0; -k+x+2y-2>=0; k-x-2y+3>=0;
+                        k-2y+2>=0; -y+z+1=0; y=0 mod 1; x=0 mod 1; k=0 mod 1|][m */
+    z = z +_i,? 1; /* [31m(L13 C16)
+                      [|-y+z=0; -k+3y-3>=0; -k+x+2y-2>=0; k-x-2y+3>=0;
+                        k-2y+2>=0; -y+z=0; y=0 mod 1; x=0 mod 1; k=0 mod 1|][m */
+    k = x +_i,? y +_i,? z; /* [31m(L14 C22)
+                              [|-k+x+2z=0; -k+x+2y=0; x>=0; k-3x>=0;
+                                k-x-2>=0; -k+x+2z=0; -k+x+2y=0; k+x=0 mod 2;
+                                2k=0 mod 2|][m */
+  done; /* [31m(L15 C7)
+           [|-k+x+2z=0; -k+x+2y=0; x>=0; k-3x>=0; -k+x+2z=0; -k+x+2y=0;
+             k+x=0 mod 2; 2k=0 mod 2|][m */
+  assume x == y; /* [31m(L17 C18)
+                    [|-k+3z=0; -k+3y=0; -k+3x=0; k>=0; -k+x+2z=0; -k+x+2y=0;
+                      -k+3x=0; 2k=0 mod 6|][m */
+  assume y == z; /* [31m(L18 C18)
+                    [|-k+3z=0; -k+3y=0; -k+3x=0; k>=0; -k+x+2z=0; -k+x+2y=0;
+                      -k+3x=0; 2k=0 mod 6|][m */
+end
+

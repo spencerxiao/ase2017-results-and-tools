@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (x <= 1)
+find an inductive invaraint  based on abstractions
+invariant size: 18
+interp: (and (<= x 1) (not (and (<= 1 x) (<= (to_real (+ w (* (- 2) (to_int (* (/ 1 2) (to_real (+ (* 1 w) (- 1)))))))) (to_real 1)))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

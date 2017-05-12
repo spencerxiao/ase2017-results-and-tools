@@ -1,0 +1,17 @@
+(declare-fun |main::w| () Int)
+(declare-fun |main::z| () Int)
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+
+16 (17) @7:
+(assert (let ((.cse1 (- |main::x|)) (.cse0 (- 1))) (and (= |main::x| |main::y|) (= |main::z| 0) (<= |main::y| |main::x|) (<= |main::x| |main::y|) (<= 0 (+ |main::w| .cse0)) (<= (+ .cse1 |main::y|) 0) (not (<= (+ .cse1 |main::y| 1) 0)) (not (<= 0 (+ |main::z| .cse0))) (not (<= |main::w| 0)) (<= 0 |main::w|) (not (<= (+ |main::w| 1) 0)))))
+
+17 (18) @7:
+(assert (let ((.cse1 (- |main::x|)) (.cse0 (- 1))) (and (= |main::x| |main::y|) (not (= |main::z| 0)) (<= |main::y| |main::x|) (<= |main::x| |main::y|) (not (<= 0 (+ |main::w| .cse0))) (<= (+ .cse1 |main::y|) 0) (not (<= (+ .cse1 |main::y| 1) 0)) (<= 0 (+ |main::z| .cse0)) (<= |main::w| 0) (<= 0 |main::w|) (not (<= (+ |main::w| 1) 0)))))
+
+18 () @7:
+(assert (let ((.cse1 (- |main::x|)) (.cse0 (- 1))) (and (= |main::x| |main::y|) (not (= |main::z| 0)) (<= |main::y| |main::x|) (<= |main::x| |main::y|) (not (<= 0 (+ |main::w| .cse0))) (<= (+ .cse1 |main::y|) 0) (not (<= (+ .cse1 |main::y| 1) 0)) (<= 0 (+ |main::z| .cse0)) (<= |main::w| 0) (<= 0 |main::w|) (not (<= (+ |main::w| 1) 0)))))
+
+0 (16) @1:
+(assert true)
+

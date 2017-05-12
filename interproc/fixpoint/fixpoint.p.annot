@@ -1,0 +1,200 @@
+"fixpoint.ml" 83 3227 3231 "fixpoint.ml" 83 3227 3252
+type(
+  ?depth:int ->
+  ?widening_start:int ->
+  ?widening_descend:int ->
+  ?priority:'a PSHGraph.priority ->
+  vertex_dummy:'b ->
+  hedge_dummy:'a ->
+  ('b, 'a, 'c, 'd, 'e) PSHGraph.t ->
+  'b PSette.t -> ('b, 'a) FixpointType.strategy
+)
+ident(
+  def make_strategy_default "fixpoint.ml" 84 3290 3290 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 83 3227 3255 "fixpoint.ml" 83 3227 3289
+type(
+  ?depth:int ->
+  ?widening_start:int ->
+  ?widening_descend:int ->
+  ?priority:'a PSHGraph.priority ->
+  vertex_dummy:'b ->
+  hedge_dummy:'a ->
+  ('b, 'a, 'c, 'd, 'e) PSHGraph.t ->
+  'b PSette.t -> ('b, 'a) FixpointType.strategy
+)
+ident(
+  ext_ref FixpointType.make_strategy_default
+)
+"fixpoint.ml" 84 3290 3294 "fixpoint.ml" 84 3290 3306
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  ('a, 'b, 'e, 'f, 'g) PSHGraph.t ->
+  'a PSette.t ->
+  ('a, 'b) FixpointType.strategy -> ('a, 'b, 'c, 'd) FixpointType.output
+)
+ident(
+  def analysis_std "fixpoint.ml" 85 3330 3330 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 84 3290 3309 "fixpoint.ml" 84 3290 3329
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  ('a, 'b, 'e, 'f, 'g) PSHGraph.t ->
+  'a PSette.t ->
+  ('a, 'b) FixpointType.strategy -> ('a, 'b, 'c, 'd) FixpointType.output
+)
+ident(
+  ext_ref FixpointStd.analysis
+)
+"fixpoint.ml" 85 3330 3334 "fixpoint.ml" 85 3330 3349
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  ('a, 'b, 'e, 'f, 'g) PSHGraph.t ->
+  'a PSette.t ->
+  (('b -> bool) -> ('a, 'b) FixpointType.strategy) ->
+  ('a, 'b, 'c, 'd) FixpointType.output
+)
+ident(
+  def analysis_guided "fixpoint.ml" 86 3376 3376 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 85 3330 3352 "fixpoint.ml" 85 3330 3375
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  ('a, 'b, 'e, 'f, 'g) PSHGraph.t ->
+  'a PSette.t ->
+  (('b -> bool) -> ('a, 'b) FixpointType.strategy) ->
+  ('a, 'b, 'c, 'd) FixpointType.output
+)
+ident(
+  ext_ref FixpointGuided.analysis
+)
+"fixpoint.ml" 86 3376 3380 "fixpoint.ml" 86 3376 3392
+type(
+  ('a, 'b) SHGraph.compare ->
+  guided:bool ->
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  ('a, 'b) FixpointType.equation ->
+  'a PSette.t ->
+  (('a, 'b, 'c, 'd) FixpointType.graph -> ('a, 'b) FixpointType.strategy) ->
+  ('a, 'b, 'c, 'd) FixpointType.output
+)
+ident(
+  def analysis_dyn "fixpoint.ml" 88 3417 3417 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 86 3376 3395 "fixpoint.ml" 86 3376 3415
+type(
+  ('a, 'b) SHGraph.compare ->
+  guided:bool ->
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  ('a, 'b) FixpointType.equation ->
+  'a PSette.t ->
+  (('a, 'b, 'c, 'd) FixpointType.graph -> ('a, 'b) FixpointType.strategy) ->
+  ('a, 'b, 'c, 'd) FixpointType.output
+)
+ident(
+  ext_ref FixpointDyn.analysis
+)
+"fixpoint.ml" 88 3417 3421 "fixpoint.ml" 88 3417 3438
+type(
+  ?filter:('a -> bool) ->
+  ('b, 'a, 'c, 'd, 'e) PSHGraph.t -> ('b, 'a) FixpointType.equation
+)
+ident(
+  def equation_of_graph "fixpoint.ml" 90 3472 3472 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 88 3417 3441 "fixpoint.ml" 88 3417 3470
+type(
+  ?filter:('a -> bool) ->
+  ('b, 'a, 'c, 'd, 'e) PSHGraph.t -> ('b, 'a) FixpointType.equation
+)
+ident(
+  ext_ref FixpointDyn.equation_of_graph
+)
+"fixpoint.ml" 90 3472 3476 "fixpoint.ml" 90 3472 3493
+type(
+  ('a, 'b) SHGraph.compare ->
+  ?filter:('b -> bool) ->
+  make_attrvertex:('a -> 'c) ->
+  make_attrhedge:('b -> 'd) ->
+  info:'e ->
+  ('a, 'b) FixpointType.equation ->
+  'a PSette.t -> ('a, 'b, 'c, 'd, 'e) PSHGraph.t
+)
+ident(
+  def graph_of_equation "fixpoint.ml" 93 3605 3605 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 90 3472 3496 "fixpoint.ml" 90 3472 3525
+type(
+  ('a, 'b) SHGraph.compare ->
+  ?filter:('b -> bool) ->
+  make_attrvertex:('a -> 'c) ->
+  make_attrhedge:('b -> 'd) ->
+  info:'e ->
+  ('a, 'b) FixpointType.equation ->
+  'a PSette.t -> ('a, 'b, 'c, 'd, 'e) PSHGraph.t
+)
+ident(
+  ext_ref FixpointDyn.graph_of_equation
+)
+"fixpoint.ml" 96 3714 3718 "fixpoint.ml" 96 3714 3739
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  Format.formatter -> ('a, 'b) FixpointType.strategy_vertex -> unit
+)
+ident(
+  def print_strategy_vertex "fixpoint.ml" 97 3777 3777 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 96 3714 3742 "fixpoint.ml" 96 3714 3776
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  Format.formatter -> ('a, 'b) FixpointType.strategy_vertex -> unit
+)
+ident(
+  ext_ref FixpointType.print_strategy_vertex
+)
+"fixpoint.ml" 97 3777 3781 "fixpoint.ml" 97 3777 3795
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  Format.formatter -> ('a, 'b) FixpointType.strategy -> unit
+)
+ident(
+  def print_strategy "fixpoint.ml" 98 3826 3826 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 97 3777 3798 "fixpoint.ml" 97 3777 3825
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  Format.formatter -> ('a, 'b) FixpointType.strategy -> unit
+)
+ident(
+  ext_ref FixpointType.print_strategy
+)
+"fixpoint.ml" 98 3826 3830 "fixpoint.ml" 98 3826 3840
+type(
+  Format.formatter -> FixpointType.stat -> unit
+)
+ident(
+  def print_stat "fixpoint.ml" 99 3867 3867 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 98 3826 3843 "fixpoint.ml" 98 3826 3866
+type(
+  Format.formatter -> FixpointType.stat -> unit
+)
+ident(
+  ext_ref FixpointType.print_stat
+)
+"fixpoint.ml" 99 3867 3871 "fixpoint.ml" 99 3867 3883
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  Format.formatter -> ('a, 'b, 'c, 'd) FixpointType.output -> unit
+)
+ident(
+  def print_output "fixpoint.ml" 99 3867 3911 "fixpoint.ml" 1 0 -1
+)
+"fixpoint.ml" 99 3867 3886 "fixpoint.ml" 99 3867 3911
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  Format.formatter -> ('a, 'b, 'c, 'd) FixpointType.output -> unit
+)
+ident(
+  ext_ref FixpointType.print_output
+)

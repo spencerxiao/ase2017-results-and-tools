@@ -1,0 +1,12 @@
+loop__main__6:
+(declare-fun |main::k| () Int)
+(declare-fun |main::i| () Int)
+(assert (let ((.cse0 (- 1))) (and (<= |main::i| |main::k|) (<= 0 (+ |main::i| .cse0)) (<= 0 (+ |main::k| .cse0)))))
+loop__main__8:
+(declare-fun |main::i| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |main::n| () Int)
+(assert (let ((.cse6 (- 1))) (let ((.cse7 (+ |main::k| .cse6))) (let ((.cse2 (<= |main::j| .cse7)) (.cse3 (<= |main::i| .cse7)) (.cse5 (+ |main::i| .cse6))) (let ((.cse0 (<= 0 .cse5)) (.cse1 (<= |main::j| .cse5)) (.cse4 (and .cse2 .cse3 (not (<= |main::j| (+ |main::i| (- 2))))))) (ite (>= |main::k| |main::n|) (and .cse0 (ite .cse1 (and .cse2 .cse3) .cse4)) (and .cse0 (ite .cse1 .cse2 .cse4))))))))
+loop__main__15:
+(assert false)

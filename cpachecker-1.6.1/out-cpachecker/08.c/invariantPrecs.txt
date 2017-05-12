@@ -1,0 +1,9 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+
+main N5:
+(assert (let ((.cse13 (<= 0 (+ |main::y| (- 400)))) (.cse12 (<= 0 (+ |main::y| (- 300)))) (.cse11 (<= 0 (+ |main::y| (- 200))))) (let ((.cse0 (<= |main::x| 0)) (.cse1 (not (<= |main::x| (- 1)))) (.cse2 (<= |main::x| 1)) (.cse3 (<= |main::x| 2)) (.cse4 (<= |main::x| 3)) (.cse5 (<= 0 |main::x|)) (.cse6 (<= 0 |main::y|)) (.cse7 (<= 0 (+ |main::y| (- 100)))) (.cse8 (not .cse11)) (.cse9 (not .cse12)) (.cse10 (not .cse13))) (ite (> |main::y| 2) (and (not .cse0) .cse1 (ite .cse2 (and .cse3 .cse4 .cse5 .cse6 .cse7 .cse8 .cse9 .cse10) (ite .cse3 (and .cse4 .cse5 .cse6 .cse7 .cse11 .cse9 .cse10) (ite .cse4 (and .cse5 .cse6 .cse7 .cse11 .cse12 .cse10) (and .cse5 .cse6 .cse7 .cse11 .cse12 .cse13))))) (and .cse0 .cse1 .cse2 .cse3 .cse4 .cse5 .cse6 (not .cse7) .cse8 .cse9 .cse10)))))
+
+main N39:
+(assert false)
+

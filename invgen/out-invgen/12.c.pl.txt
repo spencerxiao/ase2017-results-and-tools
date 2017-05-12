@@ -1,0 +1,35 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/12.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([33,32,30,34,25,23]): pc(main-18-27) pc(main-ret-0) {y>=1+x,y=<4,y'=y,x'=x,t'=t,s'=s,flag'=flag,b'=b,a'=a}
+[y>=1+x,y=<4] [y'=y,x'=x,t'=t,s'=s,flag'=flag,b'=b,a'=a]
+path([31,30,34,25,23]): pc(main-18-27) pc(main-err-0) {y>=1+x,y>=1+4,y'=y,x'=x,t'=t,s'=s,flag'=flag,b'=b,a'=a}
+[y>=1+x,y>=1+4] [y'=y,x'=x,t'=t,s'=s,flag'=flag,b'=b,a'=a]
+path([29,28,24,23]): pc(main-18-27) pc(main-18-27) {y=<x,y'=y+2,x'=x,t'=t,s'=s,flag'=flag,b'=b,a'=a}
+[y=<x] [y'=y+2,x'=x,t'=t,s'=s,flag'=flag,b'=b,a'=a]
+path([27,26,24,23]): pc(main-18-27) pc(main-18-27) {y=<x,y'=y+1,x'=x,t'=t,s'=s,flag'=flag,b'=b,a'=a}
+[y=<x] [y'=y+1,x'=x,t'=t,s'=s,flag'=flag,b'=b,a'=a]
+path([22,21,17,16,35,7,5]): pc(main-1-11) pc(main-18-27) {flag=0,y'=0,x'=1,t'=t,s'=s,flag'=flag,b'=b,a'=a}
+[flag=0] [y'=0,x'=1,t'=t,s'=s,flag'=flag,b'=b,a'=a]
+path([22,20,19,17,16,35,7,5]): pc(main-1-11) pc(main-18-27) {flag>=1+0,y'=0,x'=t-2*s+2,t'=t,s'=s,flag'=flag,b'=b,a'=a}
+[flag>=1+0] [y'=0,x'=t-2*s+2,t'=t,s'=s,flag'=flag,b'=b,a'=a]
+path([22,20,18,17,16,35,7,5]): pc(main-1-11) pc(main-18-27) {flag+1=<0,y'=0,x'=t-2*s+2,t'=t,s'=s,flag'=flag,b'=b,a'=a}
+[flag+1=<0] [y'=0,x'=t-2*s+2,t'=t,s'=s,flag'=flag,b'=b,a'=a]
+path([15,11,10,9,8,6,5]): pc(main-1-11) pc(main-1-11) {flag=0,y'=y,x'=x,t'=t+(b+1),s'=s+(a+1),flag'=flag,b'=b+1,a'=a+1}
+[flag=0] [y'=y,x'=x,t'=t+(b+1),s'=s+(a+1),flag'=flag,b'=b+1,a'=a+1]
+path([14,13,11,10,9,8,6,5]): pc(main-1-11) pc(main-1-11) {flag>=1+0,y'=y,x'=x,t'=t+(b+1)+(a+1),s'=s+(a+1),flag'=flag,b'=b+1,a'=a+1}
+[flag>=1+0] [y'=y,x'=x,t'=t+(b+1)+(a+1),s'=s+(a+1),flag'=flag,b'=b+1,a'=a+1]
+path([14,12,11,10,9,8,6,5]): pc(main-1-11) pc(main-1-11) {flag+1=<0,y'=y,x'=x,t'=t+(b+1)+(a+1),s'=s+(a+1),flag'=flag,b'=b+1,a'=a+1}
+[flag+1=<0] [y'=y,x'=x,t'=t+(b+1)+(a+1),s'=s+(a+1),flag'=flag,b'=b+1,a'=a+1]
+path([4,3,2,1]): pc(main-0-10) pc(main-1-11) {y'=y,x'=x,t'=0,s'=0,flag'=flag,b'=0,a'=0}
+[] [y'=y,x'=x,t'=0,s'=0,flag'=flag,b'=0,a'=0]
+
+#Printing Strengthening ==
+#pc(main-18-27): [y-t=<4,y>=0,t-a>=0,s-a>=0,b=a,a>=0,x-t=<2]
+#pc(main-1-11): [t-a>=0,s-a>=0,b=a,a>=0]
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([31,30,34,25,23])..

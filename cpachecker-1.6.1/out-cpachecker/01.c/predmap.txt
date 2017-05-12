@@ -1,0 +1,15 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+
+main:
+(assert (>= |main::y| 1))
+
+main N5:
+(assert (<= 0 (+ |main::y| |main::x| (- 2))))
+(assert (<= 0 (+ |main::y| (- 2))))
+(assert (>= |main::y| 1))
+
+main N16:
+(assert false)
+(assert (>= |main::y| 1))
+

@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html ng-app='report'>
+<head>
+    <meta charset="UTF-8">
+    <title>CPAchecker Report for
+/home/spencerxiao/Experiments/tacas17/cpachecker-1.6.1/benchmarks/41.c (Counterexample 1)    </title>
+
+<style type="text/css">
+<!--
+html{
+    position: relative;
+    height: 100%;
+}
+body {
+    padding-top: 50px;
+    height: 100%;
+    min-height: 300px;
+    min-width: 750px;
+    background-color: white;
+}
+.header {
+    position: absolute;
+    top:0;
+    width: 100%;
+    min-width: 750px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-bottom: solid 2px;
+    border-bottom-color: lightgrey;
+    padding: 7px;
+}
+
+.sections{
+    position: relative;
+    height: 100%;
+    padding: 0;
+}
+
+.btn{
+    cursor: pointer;
+}
+#err_table td{
+    cursor: pointer;
+}
+#err_table td:hover{
+    font-weight: bold;
+}
+.edge{
+    cursor: pointer;
+}
+.edge:hover{
+    font-weight: bold;
+    stroke-width: 2;
+}
+.argContent .node{
+    cursor: pointer;
+}
+.argContent .node:hover{
+    font-weight: bold;
+}
+.functionNode{
+    cursor: pointer;
+}
+.functionNode:hover{
+    font-weight: bold;
+    stroke-width: 2;
+}
+.functionNode polygon{
+    fill: transparent;
+}
+
+.header img.logo {
+    float: left;
+    height: 30px;
+    margin-right: 5px;
+}
+.header h1 {
+    display: inline;
+    font-size: 20px;
+}
+.header .generated {
+    float: right;
+    margin-left: 2em;
+    font-size: 80%;
+}
+
+
+#errorpath_section{
+    position:relative;
+    float: left;
+    width: 25%;
+    min-width: 70px;
+    height: inherit;
+    background-color: white;
+    border: solid 4px;
+    border-color: lightgrey;
+    padding: 5px;
+}
+
+#errorpath_section header .input-group{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#middleLine{
+    cursor: col-resize;
+    position: absolute;
+    top:0;
+    right: -8px;
+    height:inherit;
+    width: 8px;
+    z-index: 100;
+    background-color: darkgrey;
+}
+#middleLine:hover{
+    background-color: grey;
+}
+#externalFiles_section{
+    float: right;
+    width: 75%;
+    height: inherit;
+    background-color: white;
+    padding: 5px;
+    border: solid 4px;
+    border-color: lightgrey;
+}
+
+.popover{
+    min-width: 500px;
+    max-height: 500px;
+    white-space: pre-line !important;
+    overflow: auto;
+    background-color: #f5fff8;
+    border: solid 2px;
+    border-color: #00d415;
+    font-family: monospace
+}
+#externalFiles_section .popover{
+    overflow: hidden;
+}
+
+#errorpath_section .fileContent {
+    height: calc(100% - 110px);
+    margin: 5px;
+    overflow: auto;
+}
+#externalFiles_section .fileContent {
+    height: calc(100% - 50px);
+    margin: 5px;
+    overflow: auto;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+td:first-child {
+    background-color: #ccc;
+}
+#err_table td:first-child{
+    border-radius: 6px;
+}
+#err_table td pre {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+#err_table tr:nth-child(odd) td pre.prettyprint {
+    background-color: #f3f3f3;
+}
+.sourceContent td pre {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+.sourceContent tr:nth-child(odd) td pre.prettyprint {
+    background-color: #f3f3f3;
+}
+.markedSourceLine{
+    background-color: #df80ff;
+}
+.markedCFAEdge path{
+    stroke: #df80ff;
+}
+.markedCFAEdge polygon{
+    fill: #df80ff;
+    stroke: #df80ff;
+}
+.markedCFAEdge text{
+    fill: #df80ff;
+}
+
+.markedCFANode text{
+    fill: #df80ff;
+}
+.markedCFANode ellipse{
+    stroke: #df80ff;
+}
+.markedCFANode polygon{
+    stroke: #df80ff;
+}
+
+.markedARGNode polygon{
+    fill: #df80ff;
+}
+.markedTableElement{
+    border: solid 2px;
+    border-color: #00d415;
+}
+.markedValueElement pre{
+    background-color: #83d480 !important;
+}
+.markedDescElement pre{
+    background-color: #71afff !important;
+}
+.markedValueDescElement pre{
+    background: linear-gradient(#83d480, #71afff) !important;
+}
+#searchOptions label{
+    font-weight: normal;
+}
+#matches{
+    display: none;
+}
+.markedValues{
+    background-color: #83d480;
+    border-radius: 25px;
+    margin-bottom: 2px;
+    padding: 2px;
+    padding-left: 8px;
+    max-width: 270px;
+}
+.markedDescriptions{
+    background-color: #71afff;
+    border-radius: 20px;
+    padding: 2px;
+    padding-left: 8px;
+    margin-bottom: 2px;
+    max-width: 270px;
+}
+.cfaContent{
+    margin: 20px;
+    margin-top: 45px;
+    /* This is very important - otherwise right margin is not shown (and nodes cannot be centered) */
+    display: inline-block;
+}
+.argContent{
+    margin: 20px;
+    margin-top: 45px;
+    /* This is very important - otherwise right margin is not shown (and nodes cannot be centered) */
+    display: inline-block;
+}
+.sourceContent{
+    margin-top: 45px;
+}
+.edit-line{
+    position: fixed;
+    background-color: white;
+    padding: 5px;
+}
+.edit-line div{
+    display: inline-block;
+}
+.edit-line label{
+    margin-right: 100px;
+    display: inline-block;
+}
+.edit-line p{
+    display: inline-block;
+}
+#cfa-scalingField{
+    margin-left: 5px;
+    width: 50px;
+    display: inline-block;
+}
+#arg-scalingField{
+    margin-left: 5px;
+    width: 50px;
+    display: inline-block;
+}
+
+div pre{
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+.help_button{
+    padding: 0px;
+    border: 0px;
+    margin:0px;
+    display: inline-block;
+    float: right;
+}
+#externalFiles_section .help_button{
+    margin-left: 10px;
+    float: left;
+}
+	    -->
+	</style>
+	
+	<link rel="stylesheet" type="text/css" href="https://www.sosy-lab.org/lib/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://www.sosy-lab.org/lib/google-code-prettify/2015-12-08-c67d802/prettify.css" integrity="sha384-Idd9oLcdDqxPfUuMARR/TPo7z2VE5qgbFk6j2RHdfzB88HFW5Ecm8qSe0KjhtZ2S" crossorigin="anonymous">
+    
+    <!--the jquery-script is necessary for bootstrap, it has to be added BEFORE the bootstrap-script-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://www.sosy-lab.org/lib/jquery/1.12.0/jquery.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script type="text/javascript" src="https://www.sosy-lab.org/lib/jquery/2.2.0/jquery.min.js" integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk" crossorigin="anonymous"></script>
+    <!--<![endif]-->
+    
+    <script type="text/javascript" src="https://www.sosy-lab.org/lib/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.sosy-lab.org/lib/angularjs/1.5.5/angular.min.js" integrity="sha384-JhiEhwQjPEF1WJVY0yQaYOdN73Ml70AQwr+sq+zhSomAf4Fh0ImVDR8G9Ry0QokZ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.sosy-lab.org/lib/google-code-prettify/2015-12-08-c67d802/prettify.js" integrity="sha384-uvP0LdNXVGNnAFf48ha9Ze5oJX136a8YERZm6nDnr/jAocGDVsfIj/N6I3h1wSj8" crossorigin="anonymous"></script>
+   
+	
+	<script type="text/javascript">
+/**
+* Created by Magdalena Murr on 06.07.15.
+*/
+//(function(){})() --> this notation makes a function in JS "self-invoking"
+(function() {
+    var app = angular.module('report', []);
+
+    app.controller('ReportController', ['$rootScope', '$scope', function($rootScope, $scope){
+        $scope.logo = "https://cpachecker.sosy-lab.org/logo.svg";
+        $scope.help_externalFiles = "<p><b>CFA</b> (control flow automaton) shows the control flow of the program (one CFA for one function in the source-code)</p>" +
+            "<p>- the errorpath is highlighted in red</p>" +
+            "<p>- click on the function-nodes to jump to CFA of this function</p>" +
+            "<p>- click on edges to jump to the relating line in the source-code</p>" +
+            "<p> ○ normal element   ▢ more normal elements</p>" +
+            "<p> ◇ condition</p>" +
+            "<p> ▭ function</p>" +
+            "<p> ◎ loop head (graph-based)  ⬡ loop head (syntactic)</p> " +
+            "<p><b>ARG</b> shows the errorpath as a graph</p>" +
+            "<p>- the errorpath is highlighted in red</p>" +
+            "<p>- click on nodes to jump to the relating node in the CFA</p>" +
+            "<p>- click on edges to jump to the relating line in the source-code</p>" +
+            "<p><font color=\"green\">■</font> covered state</p>" +
+            "<p><font color=\"orange\">■</font> not yet processed state</p>" +
+            "<p><font color=\"cornflowerblue\">■</font> important state (depending on used analysis)</p>" +
+            "<p><font color=\"red\">■</font> target state</p>";
+        $scope.help_errorpath = "<p>The errorpath leads to the error 'line by line' (Source) or 'edge by edge' (CFA)</p>\n" +
+            "<p><b>-V-</b> Click to show all initialized variables and their values at that point</p>\n" +
+            "<p><b>Edge-Description (Source-Code-View)</b> Click to jump to the relating edge in the CFA / node in the ARG / line in Source (depending on active tab)</p>\n" +
+            "<p><b>Buttons (Prev, Start, Next)</b> Click to navigate through the errorpath and jump to the relating position in the active tab</p>\n" +
+            "<p><b>Search</b>\n - You can search for words or numbers in the edge-descriptions (matches appear blue)\n" +
+            "- You can search for value-assignments (variable names or their value) - it will highlight only where a variable has been initialized or where it has changed its value (matches appear green)</p>";
+        //the tab that is shown
+        $scope.tab = 1;
+
+        $scope.$on("FirstTimeErrorpathElementIsSelected", function(event){
+            $scope.setMarginForGraphs();
+        });
+        $scope.$on("ChangeTab", function(event, tab){
+            $scope.setTab(tab);
+        });
+
+        $scope.setTab = function(tab){
+            $scope.tab = tab;
+        };
+        $scope.tabIsSet = function(tab){
+            return $scope.tab === tab;
+        };
+
+        $scope.setWidth = function(event) {
+            if (mouseDown) {
+                var wholeWidth = document.getElementById("externalFiles_section").offsetWidth + document.getElementById("errorpath_section").offsetWidth;
+                document.getElementById("errorpath_section").style.width = (Math.round(event.clientX/wholeWidth*100) + "%");
+                document.getElementById("externalFiles_section").style.width = (Math.round((wholeWidth - event.clientX)/wholeWidth*100) + "%");
+            }
+        };
+
+        $scope.setMouseUp = function(){
+            mouseDown = false;
+            document.onselectstart = null;
+            document.onmousedown = null;
+            if($rootScope.selected_ErrLine != null) {
+                $scope.setMarginForGraphs();
+            }
+        };
+
+        $scope.setMouseDown = function(){
+            mouseDown = true;
+            //we need this so that no text gets marked when moving middleline
+            document.onselectstart = function(){return false;};
+            document.onmousedown = function(){return false;};
+        };
+
+        $scope.setMarginForGraphs = function(){
+            var width = (Math.round((document.getElementById("externalFiles_section").offsetWidth/ 2)-10) + "px");
+            var height = (Math.round(document.getElementById("externalFiles_section").offsetHeight/ 2) + "px");
+            var cfaContent = document.getElementsByClassName("cfaContent")[0];
+            var argContent = document.getElementsByClassName("argContent")[0];
+            cfaContent.style.marginLeft = (width);
+            cfaContent.style.marginRight = (width);
+            cfaContent.style.marginTop = (height);
+            cfaContent.style.marginBottom = (height);
+            argContent.style.marginLeft = (width);
+            argContent.style.marginRight = (width);
+            argContent.style.marginTop = (height);
+            argContent.style.marginBottom = (height);
+        };
+
+    }]);
+
+
+    app.controller("SearchController", ['$rootScope', '$scope', function($rootScope, $scope){
+        $scope.numOfValueMatches = 0;
+        $scope.numOfDescriptionMatches = 0;
+
+        $scope.checkIfEnter = function($event){
+            if($event.keyCode == 13){
+                $scope.searchFor();
+            }
+        };
+
+        $scope.searchFor = function(){
+            //you have to get the matches-element this way, because display:none does not allow direct search
+            var matchesDiv = document.getElementsByClassName("markedValues")[0].parentNode;
+            if(matchesDiv.style.display != "inline"){
+                matchesDiv.style.display = "inline";
+                document.getElementById("err_table").parentNode.style.height = "calc(100% - 160px)";
+            }
+            $scope.numOfValueMatches = 0;
+            $scope.numOfDescriptionMatches = 0;
+            var allMarkedValueElements = document.getElementsByClassName("markedValueElement");
+            while(allMarkedValueElements.length != 0){
+                allMarkedValueElements[0].classList.remove("markedValueElement");
+            }
+            var allMarkedDescElements = document.getElementsByClassName("markedDescElement");
+            while(allMarkedDescElements.length != 0){
+                allMarkedDescElements[0].classList.remove("markedDescElement");
+            }
+            var allMarkedValueDescElements = document.getElementsByClassName("markedValueDescElement");
+            while(allMarkedValueDescElements.length != 0){
+                allMarkedValueDescElements[0].classList.remove("markedValueDescElement");
+            }
+            var searchedString = document.getElementsByClassName("search-input")[0].value;
+
+            if (searchedString.trim() != "" && !document.getElementById("optionExactMatch").checked) {
+                for (var l = 0; l < $rootScope.errorPathData.length; l++) {
+                    var errorPathElem = $rootScope.errorPathData[l];
+                    if (errorPathElem.val.contains(searchedString) && errorPathElem.desc.contains(searchedString)) {
+                        $scope.numOfValueMatches = $scope.numOfValueMatches + 1;
+                        $scope.numOfDescriptionMatches = $scope.numOfDescriptionMatches + 1;
+                        document.getElementById("errpath-" + l).getElementsByTagName("td")[1].classList.add("markedValueDescElement");
+                    } else if (errorPathElem.val.contains(searchedString)) {
+                        $scope.numOfValueMatches = $scope.numOfValueMatches + 1;
+                        document.getElementById("errpath-" + l).getElementsByTagName("td")[1].classList.add("markedValueElement");
+                    } else if (errorPathElem.desc.contains(searchedString)) {
+                        $scope.numOfDescriptionMatches = $scope.numOfDescriptionMatches + 1;
+                        document.getElementById("errpath-" + l).getElementsByTagName("td")[1].classList.add("markedDescElement");
+                    }
+                }
+            } else if (searchedString.trim() != "" && document.getElementById("optionExactMatch").checked) {
+                for (var l = 0; l < $rootScope.errorPathData.length; l++) {
+                    var errorPathElem = $rootScope.errorPathData[l];
+                    if (searchedString in errorPathElem.newValDict && errorPathElem.desc == searchedString) {
+                        $scope.numOfValueMatches = $scope.numOfValueMatches + 1;
+                        $scope.numOfDescriptionMatches = $scope.numOfDescriptionMatches + 1;
+                        document.getElementById("errpath-" + l).getElementsByTagName("td")[1].classList.add("markedValueDescElement");
+                    } else if (searchedString in errorPathElem.newValDict) {
+                        $scope.numOfValueMatches = $scope.numOfValueMatches + 1;
+                        document.getElementById("errpath-" + l).getElementsByTagName("td")[1].classList.add("markedValueElement");
+                    } else if (errorPathElem.desc == searchedString) {
+                        $scope.numOfDescriptionMatches = $scope.numOfDescriptionMatches + 1;
+                        document.getElementById("errpath-" + l).getElementsByTagName("td")[1].classList.add("markedDescElement");
+                    }
+                }
+            }
+        };
+    }]);
+
+
+    app.controller("ValueAssignmentsController", ['$rootScope', '$scope', function($rootScope, $scope){
+        //gets called when '-V-'button in errorpath is clicked
+        $scope.showValues = function($event){
+            var element = $event.currentTarget;
+            if (element.classList.contains("markedTableElement")) {
+                element.classList.remove("markedTableElement");
+            } else {
+                element.classList.add("markedTableElement");
+            }
+        };
+    }]);
+
+
+    app.controller("ErrorpathController", ['$rootScope', '$scope', function($rootScope, $scope){
+        $rootScope.errorPathData = [];
+        //the line (errorpath) that is selected
+        $rootScope.selected_ErrLine = null;
+
+        $scope.getValues = function(val){
+            var values = {};
+            if(val != "") {
+                var singleStatements = val.split("\n");
+                for (var i = 0; i < singleStatements.length-1; i++) {
+                    values[singleStatements[i].split("==")[0].trim()] = singleStatements[i].split("==")[1].trim().slice(0,-1);
+                }
+            }
+            return values;
+        };
+
+        var indentationlevel = 0;
+        for(var a = 0; a<errorPathData.length; a++) {
+            var errPathElem = errorPathData[a];
+            //do not show start, return and blank edges
+            if (errPathElem.desc.substring(0, "Return edge from".length) != "Return edge from" && errPathElem.desc != "Function start dummy edge" && errPathElem.desc != "") {
+                if (errPathElem.source in fCallEdges) {
+                    errPathElem.target = fCallEdges[errPathElem.source][0];
+                }
+                var newValues = $scope.getValues(errPathElem.val);
+                errPathElem["newValDict"] = newValues;
+                errPathElem["valDict"] = {};
+                errPathElem["valString"] = "";
+                if (a > 0) {
+                    for (key in $rootScope.errorPathData[$rootScope.errorPathData.length - 1].valDict) {
+                        errPathElem.valDict[key] = $rootScope.errorPathData[$rootScope.errorPathData.length - 1].valDict[key];
+                    }
+                }
+                if (newValues != {}) {
+                    for (key in newValues) {
+                        errPathElem.valDict[key] = newValues[key];
+                    }
+                }
+                // if I do it in one of the for-loops before, I get the new values doubled
+                for (key in errPathElem.valDict){
+                    errPathElem.valString = errPathElem.valString + key + ":  " + errPathElem.valDict[key] + "\n";
+                }
+                //add indentation
+                for(var b = 1; b <= indentationlevel; b++) {
+                    errPathElem.desc = "   " + errPathElem.desc;
+                }
+                $rootScope.errorPathData.push(errPathElem);
+            } else if(errPathElem.desc.substring(0, "Return edge from".length) == "Return edge from"){
+                indentationlevel -= 1;
+            } else if(errPathElem.desc == "Function start dummy edge"){
+                indentationlevel += 1;
+            }
+        }
+
+        $scope.clickedErrpathElement = function($event){
+            var lineNumber = $event.currentTarget.parentElement.id;
+            $scope.setLine(lineNumber);
+            $rootScope.$broadcast('clickedErrorpathElement', lineNumber.substring("errpath-".length));
+        };
+
+        $scope.clickedErrpathButton = function($event){
+            var button = $event.currentTarget.innerHTML;
+            var line;
+            if (button == "Prev" && ($rootScope.selected_ErrLine.substring("errpath-".length) == 0 || $rootScope.selected_ErrLine == null)) {
+            } else if (button == "Prev") {
+                line = parseInt($rootScope.selected_ErrLine.substring("errpath-".length)) - 1;
+                $scope.setLine("errpath-" + line);
+                $rootScope.$broadcast("clickedErrorpathButton", line);
+            } else if (button == "Start" || button == "Next" && $rootScope.selected_ErrLine == null) {
+                document.getElementById("err_table").parentNode.scrollTop = 0;
+                $scope.setLine("errpath-" + 0);
+                $rootScope.$broadcast("clickedErrorpathButton", 0);
+            } else if (button == "Next" && ($rootScope.selected_ErrLine.substring("errpath-".length) == $rootScope.errorPathData.length -1)) {
+            } else if (button == "Next") {
+                line = parseInt($rootScope.selected_ErrLine.substring("errpath-".length)) + 1;
+                $scope.setLine("errpath-" + line);
+                $rootScope.$broadcast("clickedErrorpathButton", line);
+            }
+        };
+
+        $scope.setLine = function(id){
+            if ($rootScope.selected_ErrLine != null) {
+                document.getElementById($rootScope.selected_ErrLine).style.outline = "none";
+            } else {
+                //The first time a line is selected
+                $rootScope.$broadcast("FirstTimeErrorpathElementIsSelected");
+            }
+            document.getElementById(id).style.outline = "#df80ff solid 1px";
+            $rootScope.selected_ErrLine = id;
+        };
+    }]);
+
+
+    app.controller('ARGController', ['$rootScope', '$scope', function($rootScope, $scope){
+        $scope.argNodeMarked = false;
+
+        $scope.$on('clickedErrorpathElement', function(event, index){
+            $scope.markARGNode(index);
+        });
+        $scope.$on("clickedErrorpathButton", function(event, index){
+            $scope.markARGNode(index);
+        });
+
+        $scope.clickedARGElement = function($event){
+            var y = $event.currentTarget.id;
+            if (document.getElementById(y).classList.contains("edge")){
+                $rootScope.$broadcast("ChangeTab", 3);
+                var line = document.getElementById(y).getElementsByTagName("text")[0].innerHTML.split(":")[0].substring("Line ".length);
+                $rootScope.$broadcast("clickedARGEdge", line);
+            } else if (document.getElementById(y).classList.contains("node")){
+                var cfaNodeNumber = document.getElementById(y).getElementsByTagName("text")[0].innerHTML.split("N")[1];
+                $rootScope.$broadcast("ChangeTab", 1);
+                $rootScope.$broadcast("clickedARGNode", cfaNodeNumber);
+            }
+        };
+
+        $scope.markARGNode = function(index){
+            var argElement = $rootScope.errorPathData[index].argelem;
+            if($scope.argNodeMarked){
+                document.getElementsByClassName("markedARGNode")[0].classList.remove("markedARGNode");
+            }
+            document.getElementById("arg-" + argElement).classList.add("markedARGNode");
+            $scope.argNodeMarked = true;
+            $scope.scrollToARGElement("arg-" + argElement);
+        };
+
+        $scope.scrollToARGElement = function(id){
+            var element = document.getElementById(id);
+            var argContent = document.getElementsByClassName("argContent")[0];
+            var box = argContent.parentNode.getBoundingClientRect();
+            var xScroll = argContent.parentNode.scrollLeft;
+            var yScroll = argContent.parentNode.scrollTop;
+            var bcr = element.getBoundingClientRect();
+            var xMargin = (argContent.style.marginLeft).split("px")[0];
+            var yMargin = (argContent.style.marginTop).split("px")[0];
+            argContent.parentNode.scrollLeft = bcr.left + xScroll - box.left - xMargin + 20;
+            argContent.parentNode.scrollTop =  bcr.top + yScroll - box.top - yMargin + 20;
+        };
+    }]);
+
+
+    app.controller('CFAController', ["$rootScope", "$scope", function($rootScope, $scope){
+        //available functions (cfa-graphs)
+        $rootScope.functions = functions;
+        //selected cfa-graph (index = -1 means the function does not exist)
+        if (functions.indexOf("main" != -1)) {
+            $rootScope.selectedCFAFunction = functions.indexOf("main");
+        } else {
+            $rootScope.selectedCFAFunction = 0;
+        }
+        $scope.cfaEdgeMarked = false;
+        $scope.cfaNodeMarked = false;
+
+        $scope.$on('clickedErrorpathElement', function(event, nodeNumber){
+            $scope.markCFAedge(nodeNumber);
+        });
+        $scope.$on("clickedErrorpathButton", function(event, nodeNumber){
+            $scope.markCFAedge(nodeNumber);
+        });
+        $scope.$on("clickedARGNode", function(event, nodeNumber){
+            $scope.markCFANode(nodeNumber);
+        });
+
+        $scope.setCFAFunction = function(value){
+            document.getElementsByClassName("cfaContent")[0].parentNode.scrollTop = 0;
+            document.getElementsByClassName("cfaContent")[0].parentNode.scrollLeft = 0;
+            $rootScope.$broadcast("clearCFAZoom");
+            $rootScope.selectedCFAFunction = value;
+        };
+        $scope.cfaFunctionIsSet = function(value){
+            return value === $rootScope.selectedCFAFunction;
+        };
+
+        //Behaviour for Click-Elements in CFA
+        $scope.clickedCFAElement = function($event){
+            var element = $event.currentTarget.id;
+            if (document.getElementById(element).classList.contains("edge")){
+                $rootScope.$broadcast("ChangeTab", 3);
+                var line;
+                var source;
+                if (element.split("->")[1] > 100000 || element.split("->")[0].substring("cfa-".length) > 100000){
+                    source = element.split("->")[0].substring("cfa-".length);
+                    line = cfaInfo["edges"][source + "->" + fCallEdges[source][1]]["line"];
+                } else if (element.split("->")[0].substring("cfa-".length) in combinedNodes){
+                    var textfields = document.getElementById("cfa-" + element.split("->")[0].substring("cfa-".length)).getElementsByTagName("text");
+                    source = textfields[textfields.length - 2].innerHTML;
+                    line = cfaInfo["edges"][source + "->" + element.split("->")[1]]["line"];
+                } else {
+                    line = cfaInfo["edges"][element.substring("cfa-".length)]["line"];
+                }
+                $rootScope.$broadcast("clickedCFAEdge", line);
+            } else if (document.getElementById(element).classList.contains("node") && (element.substring("cfa-".length) > 100000)) {
+                var func = document.getElementById(element).getElementsByTagName("text")[0].innerHTML;
+                $scope.setCFAFunction(functions.indexOf(func));
+            }
+        };
+
+        $scope.markCFAedge = function(index){
+            var source = $rootScope.errorPathData[index].source;
+            var target = $rootScope.errorPathData[index].target;
+            var funcIndex = $rootScope.functions.indexOf(cfaInfo["nodes"][source]["func"]);
+            if(funcIndex != $rootScope.selectedCFAFunction) {
+                $scope.setCFAFunction(funcIndex);
+            }
+            if(!(source in combinedNodes && target in combinedNodes)) {
+                if(source in combinedNodes){
+                    source = combinedNodes[source];
+                }
+                if ($scope.cfaEdgeMarked) {
+                    document.getElementsByClassName("markedCFAEdge")[0].classList.remove("markedCFAEdge");
+                }
+                if ($scope.cfaNodeMarked) {
+                    document.getElementsByClassName("markedCFANode")[0].classList.remove("markedCFANode");
+                    $scope.cfaNodeMarked = false;
+                }
+                document.getElementById("cfa-" + source + "->" + target).classList.add("markedCFAEdge");
+                $scope.scrollToCFAElement("cfa-" + source + "->" + target);
+                $scope.cfaEdgeMarked = true;
+            } else {
+                $scope.markCFANode(combinedNodes[source]);
+            }
+        };
+
+        $scope.markCFANode = function(nodenumber){
+            if($scope.cfaNodeMarked){
+                document.getElementsByClassName("markedCFANode")[0].classList.remove("markedCFANode");
+            }
+            if($scope.cfaEdgeMarked){
+                document.getElementsByClassName("markedCFAEdge")[0].classList.remove("markedCFAEdge");
+                $scope.cfaEdgeMarked = false;
+            }
+            $scope.setCFAFunction($rootScope.functions.indexOf(cfaInfo["nodes"][nodenumber]["func"]));
+            if(!(nodenumber in combinedNodes)) {
+                document.getElementById("cfa-" + nodenumber).classList.add("markedCFANode");
+                $scope.scrollToCFAElement("cfa-" + nodenumber);
+            } else {
+                document.getElementById("cfa-" + combinedNodes[nodenumber]).classList.add("markedCFANode");
+                $scope.scrollToCFAElement("cfa-" + combinedNodes[nodenumber]);
+            }
+            $scope.cfaNodeMarked = true;
+        };
+
+        $scope.scrollToCFAElement = function(id){
+            var element = document.getElementById(id);
+            var box = document.getElementsByClassName("cfaContent")[0].parentNode.getBoundingClientRect();
+            var bcr = element.getBoundingClientRect();
+            var cfaContent = document.getElementsByClassName("cfaContent")[0];
+            var xScroll = cfaContent.parentNode.scrollLeft;
+            var yScroll =  cfaContent.parentNode.scrollTop;
+            var xMargin = (cfaContent.style.marginLeft).split("px")[0];
+            var yMargin = (cfaContent.style.marginTop).split("px")[0];
+            cfaContent.parentNode.scrollLeft = bcr.left + xScroll - box.left - xMargin + 20;
+            cfaContent.parentNode.scrollTop = bcr.top + yScroll - box.top - yMargin + 20;
+        };
+
+    }]);
+
+
+    app.controller('SourceController', ['$rootScope', '$scope', function($rootScope, $scope){
+        //available sourcefiles
+        $scope.sourceFiles = sourceFiles;
+        $scope.selectedSourceFile = 0;
+        $scope.lineMarked = false;
+
+        $scope.$on('clickedErrorpathElement', function(event, lineNumber){
+            $scope.markSource($rootScope.errorPathData[lineNumber].line);
+        });
+        $scope.$on('clickedErrorpathButton', function(event, lineNumber){
+            $scope.markSource($rootScope.errorPathData[lineNumber].line);
+        });
+        $scope.$on('clickedCFAEdge', function(event, line){
+            $scope.markSource(line);
+        });
+        $scope.$on('clickedARGEdge', function(event, line){
+            $scope.markSource(line);
+        });
+
+        $scope.setSourceFile = function(value){
+            $scope.selectedSourceFile = value;
+        };
+        $scope.sourceFileIsSet = function(value){
+            return value === $scope.selectedSourceFile;
+        };
+
+        $scope.markSource = function(line){
+            if ($scope.lineMarked) {
+                document.getElementsByClassName("markedSourceLine")[0].className = "prettyprint";
+            }
+            document.getElementById("source-" + line).getElementsByTagName("pre")[1].className = "markedSourceLine";
+            var element = document.getElementById("source-" + line);
+            var box = document.getElementsByClassName("sourceContent")[0].parentNode.getBoundingClientRect();
+            var bcr = element.getBoundingClientRect();
+            var sourceContent = document.getElementsByClassName("sourceContent")[0];
+            var yScroll =  sourceContent.parentNode.scrollTop;
+            var yMargin = Math.round((document.getElementById("externalFiles_section").offsetHeight/ 2)-50);
+            sourceContent.parentNode.scrollTop = bcr.top + yScroll - box.top - yMargin;
+            $scope.lineMarked = true;
+        };
+    }]);
+
+
+    app.controller('ZoomController', ['$rootScope', '$scope', function($rootScope, $scope){
+        $scope.zoomFactorCFA = 100;
+        $scope.zoomFactorARG = 100;
+
+        $scope.$on("clearCFAZoom", function(){$scope.clearZoomCFA();});
+
+        $scope.setZoom = function(id){
+            if (id.contains("cfa")) {
+                document.getElementById("cfaGraph-" + $rootScope.selectedCFAFunction).transform.baseVal.getItem(0).setScale($scope.zoomFactorCFA / 100, $scope.zoomFactorCFA / 100);
+            } else if (id.contains("arg")){
+                document.getElementById("argGraph-" + $rootScope.functions.length).transform.baseVal.getItem(0).setScale($scope.zoomFactorARG / 100, $scope.zoomFactorARG / 100);
+            }
+        };
+
+        $scope.clearZoomCFA = function(){
+            $scope.zoomFactorCFA = 100;
+            document.getElementById("cfaGraph-" + $rootScope.selectedCFAFunction).transform.baseVal.getItem(0).setScale($scope.zoomFactorCFA/100, $scope.zoomFactorCFA/100);
+        };
+    }]);
+})();
+
+
+var mouseDown = false;
+var functions = ["__VERIFIER_assume","main"];
+var fCallEdges = {"9":[100001,10]};
+var cfaInfo = {"nodes":{"0":{"no":0,"func":"__VERIFIER_assume"},"1":{"no":1,"func":"__VERIFIER_assume"},"2":{"no":2,"func":"__VERIFIER_assume"},"3":{"no":3,"func":"__VERIFIER_assume"},"4":{"no":4,"func":"__VERIFIER_assume"},"5":{"no":5,"func":"__VERIFIER_assume"},"7":{"no":7,"func":"main"},"8":{"no":8,"func":"main"},"9":{"no":9,"func":"main"},"10":{"no":10,"func":"main"},"11":{"no":11,"func":"main"},"12":{"no":12,"func":"main"},"13":{"no":13,"func":"main"},"14":{"no":14,"func":"main"},"15":{"no":15,"func":"main"},"16":{"no":16,"func":"main"},"17":{"no":17,"func":"main"},"18":{"no":18,"func":"main"},"19":{"no":19,"func":"main"},"20":{"no":20,"func":"main"},"21":{"no":21,"func":"main"},"22":{"no":22,"func":"main"},"23":{"no":23,"func":"main"},"24":{"no":24,"func":"main"},"25":{"no":25,"func":"main"},"26":{"no":26,"func":"main"},"27":{"no":27,"func":"main"},"28":{"no":28,"func":"main"},"30":{"no":30,"func":"main"},"31":{"no":31,"func":"main"},"32":{"no":32,"func":"main"},"33":{"no":33,"func":"main"}},"edges":{"28->28":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":26,"source":28,"type":"BlankEdge","stmt":"Goto: ERROR","target":28},"23->24":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":22,"source":23,"type":"StatementEdge","stmt":"j = j + i;","target":24},"12->16":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":19,"source":12,"type":"DeclarationEdge","stmt":"int i = 0;","target":16},"1->2":{"file":"<none>","line":0,"source":1,"type":"BlankEdge","stmt":"Function start dummy edge","target":2},"3->5":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":5,"source":3,"type":"AssumeEdge","stmt":"[!(i == 0)]","target":5},"3->4":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":5,"source":3,"type":"AssumeEdge","stmt":"[i == 0]","target":4},"17->18":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":20,"source":17,"type":"BlankEdge","stmt":"while","target":18},"18->19":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":20,"source":18,"type":"AssumeEdge","stmt":"[i <= n]","target":19},"19->21":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":21,"source":19,"type":"DeclarationEdge","stmt":"int __CPAchecker_TMP_0 = i;","target":21},"18->20":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":20,"source":18,"type":"AssumeEdge","stmt":"[!(i <= n)]","target":20},"5->0":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":6,"source":5,"type":"ReturnStatementEdge","stmt":"return;","target":0},"27->28":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":26,"source":27,"type":"BlankEdge","stmt":"Label: ERROR","target":28},"11->13":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":15,"source":11,"type":"AssumeEdge","stmt":"[!(flag == 0)]","target":13},"11->12":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":15,"source":11,"type":"AssumeEdge","stmt":"[flag == 0]","target":12},"16->17":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":19,"source":16,"type":"DeclarationEdge","stmt":"int j = 0;","target":17},"22->23":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":21,"source":22,"type":"StatementEdge","stmt":"__CPAchecker_TMP_0;","target":23},"24->18":{"file":"<none>","line":0,"source":24,"type":"BlankEdge","stmt":"","target":18},"31->32":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":3,"source":31,"type":"DeclarationEdge","stmt":"void __VERIFIER_assume(int i);","target":32},"2->3":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":5,"source":2,"type":"BlankEdge","stmt":"while","target":3},"10->11":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":14,"source":10,"type":"DeclarationEdge","stmt":"int k = 1;","target":11},"25->26":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":25,"source":25,"type":"AssumeEdge","stmt":"[z > (2 * n)]","target":26},"21->22":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":21,"source":21,"type":"StatementEdge","stmt":"i = i + 1;","target":22},"15->12":{"file":"<none>","line":0,"source":15,"type":"BlankEdge","stmt":"","target":12},"25->27":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":25,"source":25,"type":"AssumeEdge","stmt":"[!(z > (2 * n))]","target":27},"8->30":{"file":"<none>","line":0,"source":8,"type":"BlankEdge","stmt":"INIT GLOBAL VARS","target":30},"30->31":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":1,"source":30,"type":"DeclarationEdge","stmt":"int __VERIFIER_nondet_int();","target":31},"32->33":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":12,"source":32,"type":"DeclarationEdge","stmt":"int main(int n, int flag);","target":33},"33->9":{"file":"<none>","line":0,"source":33,"type":"BlankEdge","stmt":"Function start dummy edge","target":9},"9->10":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":13,"source":9,"type":"CallToReturnEdge","stmt":"__VERIFIER_assume(n >= 0);","target":10},"4->3":{"file":"<none>","line":0,"source":4,"type":"BlankEdge","stmt":"","target":3},"13->14":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":16,"source":13,"type":"StatementEdge","stmt":"k = __VERIFIER_nondet_int();","target":14},"14->15":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":17,"source":14,"type":"StatementEdge","stmt":"assume(k >= 0);","target":15},"26->7":{"file":"<none>","line":0,"source":26,"type":"BlankEdge","stmt":"default return","target":7},"20->25":{"file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":24,"source":20,"type":"DeclarationEdge","stmt":"int z = (k + i) + j;","target":25}}};
+var errorPathData = [{"val":"","file":"<none>","line":0,"argelem":0,"source":8,"target":30,"desc":"INIT GLOBAL VARS"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":1,"argelem":30,"source":30,"target":31,"desc":"int __VERIFIER_nondet_int();"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":3,"source":31,"target":32,"desc":"void __VERIFIER_assume(int i);"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":12,"source":32,"target":33,"desc":"int main(int n, int flag);"},{"val":"flag == 1;\nn == 0;\n","file":"<none>","line":0,"source":33,"target":9,"desc":"Function start dummy edge"},{"val":"n == 0;\nflag == 1;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":13,"argelem":31,"source":9,"target":1,"desc":"__VERIFIER_assume(n >= 0)"},{"val":"i == 1;\n","file":"<none>","line":0,"argelem":32,"source":1,"target":2,"desc":"Function start dummy edge"},{"val":"i == 1;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":5,"argelem":33,"source":2,"target":3,"desc":"while"},{"val":"i == 1;","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":5,"argelem":60,"source":3,"target":5,"desc":"[!(i == 0)]"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":6,"argelem":62,"source":5,"target":0,"desc":"return;"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":13,"argelem":63,"source":0,"target":10,"desc":"Return edge from __VERIFIER_assume to main"},{"val":"k == 1;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":14,"argelem":64,"source":10,"target":11,"desc":"int k = 1;"},{"val":"flag == 1;","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":15,"argelem":67,"source":11,"target":13,"desc":"[!(flag == 0)]"},{"val":"k == -2;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":16,"argelem":69,"source":13,"target":14,"desc":"k = __VERIFIER_nondet_int();"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":17,"argelem":70,"source":14,"target":15,"desc":"assume(k >= 0);"},{"val":"","file":"<none>","line":0,"argelem":71,"source":15,"target":12,"desc":""},{"val":"i == 0;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":19,"argelem":73,"source":12,"target":16,"desc":"int i = 0;"},{"val":"j == 0;\ni == 0;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":19,"source":16,"target":17,"desc":"int j = 0;"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":20,"argelem":74,"source":17,"target":18,"desc":"while"},{"val":"i == 0;\nn == 0;","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":20,"argelem":76,"source":18,"target":19,"desc":"[i <= n]"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":21,"argelem":77,"source":19,"target":21,"desc":"int __CPAchecker_TMP_0 = i;"},{"val":"i == 1;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":21,"source":21,"target":22,"desc":"i = i + 1;"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":21,"source":22,"target":23,"desc":"__CPAchecker_TMP_0;"},{"val":"i == 1;\nj == 1;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":22,"source":23,"target":24,"desc":"j = j + i;"},{"val":"","file":"<none>","line":0,"argelem":84,"source":24,"target":18,"desc":""},{"val":"i == 1;\nn == 0;","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":20,"argelem":86,"source":18,"target":20,"desc":"[!(i <= n)]"},{"val":"z == 0;\n","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":24,"argelem":88,"source":20,"target":25,"desc":"int z = (k + i) + j;"},{"val":"z == 0;\n2 * n == 0","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":25,"argelem":89,"source":25,"target":27,"desc":"[!(z > (2 * n))]"},{"val":"","file":"\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c","line":26,"argelem":91,"source":27,"target":28,"desc":"Label: ERROR"}];
+var combinedNodes = {"32":30,"1":1,"33":30,"2":1,"13":13,"14":13,"15":13,"16":16,"17":16,"21":21,"22":21,"23":21,"24":21,"30":30,"31":30};
+var sourceFiles = ["\/home\/spencerxiao\/Experiments\/tacas17\/cpachecker-1.6.1\/benchmarks\/41.c"];
+
+$(function () {
+  $('[data-toggle="popover"]').popover({ html : true })
+})
+
+function init(){
+  var svgElements = document.getElementsByTagName("svg");
+  //set IDs for all CFA-SVGs
+  for(var r = 0; r<svgElements.length-1; r++){
+    var graph = svgElements[r].getElementsByTagName("g")[0];
+    graph.id = "cfaGraph-" + r.toString();
+    var nodes = graph.getElementsByClassName("node");
+    for(var s = 0; s < nodes.length; s++){
+      nodes[s].id = "cfa-" + nodes[s].getElementsByTagName("title")[0].innerHTML;
+      if(nodes[s].getElementsByTagName("title")[0].innerHTML > 100000){
+        nodes[s].classList.add("functionNode");
+      }
+    }
+    var edges = graph.getElementsByClassName("edge");
+    for(var t=0; t<edges.length; t++){
+      var edge = edges[t];
+      var fromto = [];
+      if(edge.getElementsByTagName("title")[0].innerHTML.split("&#45;&gt;")[1] != null){
+        fromto = edge.getElementsByTagName("title")[0].innerHTML.split("&#45;&gt;");
+      } else if (edge.getElementsByTagName("title")[0].innerHTML.split("&#45;>")[1] != null) {
+        fromto = edge.getElementsByTagName("title")[0].innerHTML.split("&#45;>");
+      } else if (edge.getElementsByTagName("title")[0].innerHTML.split("-&gt;")[1] != null) {
+        fromto = edge.getElementsByTagName("title")[0].innerHTML.split("-&gt;");
+      } else {
+        fromto = edge.getElementsByTagName("title")[0].innerHTML.split("->");
+      }
+      edge.id = "cfa-" + fromto[0] + "->" + fromto[1];
+    }
+  }
+  //set IDs for the ARG-SVG
+  graph = svgElements[svgElements.length-1].getElementsByTagName("g")[0];
+  graph.id = "argGraph-" + (svgElements.length-1).toString();
+  nodes = graph.getElementsByClassName("node");
+  for(var u = 0; u < nodes.length; u++){
+    nodes[u].id = "arg-" + nodes[u].getElementsByTagName("title")[0].innerHTML;
+  }
+  edges = graph.getElementsByClassName("edge");
+  for(var v=0; v<edges.length; v++){
+    edge = edges[v];
+    fromto = [];
+    if(edge.getElementsByTagName("title")[0].innerHTML.split("&#45;&gt;")[1] != null){
+      fromto = edge.getElementsByTagName("title")[0].innerHTML.split("&#45;&gt;");
+    } else if (edge.getElementsByTagName("title")[0].innerHTML.split("&#45;>")[1] != null) {
+      fromto = edge.getElementsByTagName("title")[0].innerHTML.split("&#45;>");
+    } else if (edge.getElementsByTagName("title")[0].innerHTML.split("-&gt;")[1] != null) {
+      fromto = edge.getElementsByTagName("title")[0].innerHTML.split("-&gt;");
+    } else {
+      fromto = edge.getElementsByTagName("title")[0].innerHTML.split("->");
+    }
+    edge.id = "arg-" + fromto[0] + "->" + fromto[1];
+  }
+
+  //If we do not have an Errorpath
+  if(errorPathData.length == undefined){
+    document.getElementById("errorpath_section").style.display = "none";
+    document.getElementById("externalFiles_section").style.width = "100%";
+  }
+
+  //prepare Errorpath-Data for marking in the cfa
+  var returnedges = {};
+  for(key in fCallEdges){
+    var fcalledge = fCallEdges[key];
+    returnedges[fcalledge[1]] = fcalledge[0];
+  }
+  var errPathDataForCFA = [];
+  for(var w = 0; w < errorPathData.length; w++){
+    var source = errorPathData[w].source;
+    var target = errorPathData[w].target;
+    if(source in combinedNodes && target in combinedNodes){
+    } else if(source in combinedNodes){
+      errPathDataForCFA.push(combinedNodes[source] + "->" + target);
+    } else if (source in fCallEdges){
+      errPathDataForCFA.push(source + "->" + fCallEdges[source][0]);
+    } else if (target in returnedges){
+      errPathDataForCFA.push(returnedges[target] + "->" + target);
+    } else {
+      errPathDataForCFA.push(source + "->" + target);
+    }
+  }
+  for(var x = 0; x < errPathDataForCFA.length; x++){
+    var cfaEdge = document.getElementById("cfa-" + errPathDataForCFA[x]);
+    if (cfaEdge != null) {
+	  var path = cfaEdge.getElementsByTagName("path")[0];
+	  var poly = cfaEdge.getElementsByTagName("polygon")[0];
+	  var text = cfaEdge.getElementsByTagName("text")[0];
+	  path.setAttribute("stroke", "red");
+	  poly.setAttribute("stroke", "red");
+	  poly.setAttribute("fill", "red");
+	  if(text != undefined) {
+	    text.setAttribute("fill", "red");
+	  }
+    }
+  }
+};
+	</script>
+	
+</head>
+
+<body ng-controller="ReportController" onload="prettyPrint(); init()">
+<header class="header">
+
+    <a href="https://cpachecker.sosy-lab.org/"><img class="logo" ng-src="{{logo}}"/></a>
+    <h1>Report for
+/home/spencerxiao/Experiments/tacas17/cpachecker-1.6.1/benchmarks/41.c (Counterexample 1)    </h1>
+
+    <span class="generated">
+Generated on 2017-05-11 14:16:57 by CPAchecker 1.6.1    </span>
+</header>
+
+<div class="sections" ng-mousemove="setWidth($event)" ng-mouseup="setMouseUp()">
+    <section id="errorpath_section" ng-controller="ErrorpathController">
+        <div id="middleLine" ng-mousedown="setMouseDown()"></div>
+        <header ng-controller="SearchController">
+            <div class="btn-group">
+                <button class="btn btn-success" ng-click="clickedErrpathButton($event)">Prev</button>
+                <button class="btn btn-warning" ng-click="clickedErrpathButton($event)">Start</button>
+                <button class="btn btn-success" ng-click="clickedErrpathButton($event)">Next</button>
+            </div>
+            <button data-toggle="popover" data-placement="right" data-trigger="click" data-content="{{help_errorpath}}" class="btn btn-default btn-lg help_button" type="button">
+                <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+            </button>
+            <div class="input-group input-group-sm">
+                <input type="text" ng-keydown="checkIfEnter($event)" class="form-control search-input" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button ng-click="searchFor()" class="btn btn-default" type="button">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </span>
+            </div>
+            <div id="searchOptions">
+                <label for="optionExactMatch">
+                    <input id="optionExactMatch" type="checkbox" name="searchOption">
+                    Find only exact matches</label>
+            </div>
+            <div id="matches">
+                <p class="markedValues">Matches in value-assignements (V): {{numOfValueMatches}}</p>
+                <p class="markedDescriptions">Matches in edge-description: {{numOfDescriptionMatches}}</p>
+            </div>
+        </header>
+        <div class="fileContent" ng-controller="ValueAssignmentsController">
+            <table id="err_table">
+                <tr id="errpath-{{$index}}" ng-repeat="line in errorPathData">
+                    <td ng-click="showValues($event)" data-toggle="popover" data-placement="right" data-trigger="click" data-content="{{line.valString}}"><pre>-V-</pre></td>
+                    <td ng-click="clickedErrpathElement($event)"><pre class="prettyprint">{{line.desc}}</pre></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="externalFiles_section">
+        <ul class="nav nav-pills">
+            <li ng-class="{active: tabIsSet(1)}">
+                <a href ng-click="setTab(1)">CFA</a>
+            </li>
+            <li ng-class="{active: tabIsSet(2)}">
+                <a href ng-click="setTab(2)">ARG</a>
+            </li>
+            <li ng-class="{active: tabIsSet(3)}">
+                <a href ng-click="setTab(3)">Source</a>
+            </li>
+            <li ng-class="{active: tabIsSet(4)}">
+                <a href ng-click="setTab(4)">Log</a>
+            </li>
+            <li ng-class="{active: tabIsSet(5)}">
+                <a href ng-click="setTab(5)">Statistics</a>
+            </li>
+            <li ng-class="{active: tabIsSet(6)}">
+                <a href ng-click="setTab(6)">Configurations</a>
+            </li>
+            <button data-toggle="popover" data-placement="right" data-trigger="click" data-content="{{help_externalFiles}}" class="btn btn-default btn-lg help_button" type="button">
+                <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+            </button>
+        </ul>
+        <div class="fileContent" ng-show="tabIsSet(1)" ng-controller="CFAController">
+            <div class="edit-line">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Displayed CFA
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li ng-repeat="func in functions"><a ng-click="setCFAFunction($index)">{{func}}</a></li>
+                    </ul>
+                </div>
+                <label>{{functions[selectedCFAFunction]}}</label>
+                <div ng-controller="ZoomController">
+                    <p>Zoom Factor (%)</p>
+                    <input id="cfa-scalingField" type="number" min="0" max="200" ng-model="zoomFactorCFA" ng-change="setZoom('cfa-scalingField')"/>
+                </div>
+            </div>
+            <div class="cfaContent">
+                    <p>Run scripts/report-generator.py to display CFAs.</p><!--CFAFUNCTIONGRAPHS-->
+                </div>
+            </div>
+            <div class="fileContent" ng-show="tabIsSet(2)" ng-controller="ARGController">
+                <div class="edit-line">
+                    <div ng-controller="ZoomController">
+                        <p>Zoom Factor (%)</p>
+                        <input id="arg-scalingField" type="number" min="0" max="200" ng-model="zoomFactorARG" ng-change="setZoom('arg-scalingField')"/>
+                    </div>
+                </div>
+                <div class="argContent">
+                    <p>Run scripts/report-generator.py to display ARG.</p><!--ARGGRAPHS-->
+                </div>
+            </div>
+            <div class="fileContent" ng-show="tabIsSet(3)" ng-controller="SourceController">
+                <div class="edit-line">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Displayed Sourcefile
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li ng-repeat="file in sourceFiles"><a ng-click="setSourceFile($index)">{{file}}</a></li>
+                        </ul>
+                    </div>
+                    <label>{{sourceFiles[selectedSourceFile]}}</label>
+                </div>
+<table class="sourceContent" ng-show = "sourceFileIsSet(0)">
+<tr id="source-0"><td><pre>0</pre></td><td><pre class="prettyprint">extern int __VERIFIER_nondet_int();  </pre></td></tr>
+<tr id="source-1"><td><pre>1</pre></td><td><pre class="prettyprint">  </pre></td></tr>
+<tr id="source-2"><td><pre>2</pre></td><td><pre class="prettyprint">void __VERIFIER_assume(int i)  </pre></td></tr>
+<tr id="source-3"><td><pre>3</pre></td><td><pre class="prettyprint">{  </pre></td></tr>
+<tr id="source-4"><td><pre>4</pre></td><td><pre class="prettyprint">  while (!i);  </pre></td></tr>
+<tr id="source-5"><td><pre>5</pre></td><td><pre class="prettyprint">  return;  </pre></td></tr>
+<tr id="source-6"><td><pre>6</pre></td><td><pre class="prettyprint">}  </pre></td></tr>
+<tr id="source-7"><td><pre>7</pre></td><td><pre class="prettyprint">/*  </pre></td></tr>
+<tr id="source-8"><td><pre>8</pre></td><td><pre class="prettyprint"> * Adapted from "Automated Error Diagnosis Using Abductive Inference" by Dillig et al.  </pre></td></tr>
+<tr id="source-9"><td><pre>9</pre></td><td><pre class="prettyprint"> */  </pre></td></tr>
+<tr id="source-10"><td><pre>10</pre></td><td><pre class="prettyprint">  </pre></td></tr>
+<tr id="source-11"><td><pre>11</pre></td><td><pre class="prettyprint">int main(int n, int flag) {  </pre></td></tr>
+<tr id="source-12"><td><pre>12</pre></td><td><pre class="prettyprint">  __VERIFIER_assume(n>=0);  </pre></td></tr>
+<tr id="source-13"><td><pre>13</pre></td><td><pre class="prettyprint">  int k = 1;  </pre></td></tr>
+<tr id="source-14"><td><pre>14</pre></td><td><pre class="prettyprint">  if(flag) {  </pre></td></tr>
+<tr id="source-15"><td><pre>15</pre></td><td><pre class="prettyprint">		k = __VERIFIER_nondet_int();  </pre></td></tr>
+<tr id="source-16"><td><pre>16</pre></td><td><pre class="prettyprint">		assume(k>=0);  </pre></td></tr>
+<tr id="source-17"><td><pre>17</pre></td><td><pre class="prettyprint">  }  </pre></td></tr>
+<tr id="source-18"><td><pre>18</pre></td><td><pre class="prettyprint">  int i = 0, j = 0;  </pre></td></tr>
+<tr id="source-19"><td><pre>19</pre></td><td><pre class="prettyprint">  while(i <= n) {  </pre></td></tr>
+<tr id="source-20"><td><pre>20</pre></td><td><pre class="prettyprint">    i++;  </pre></td></tr>
+<tr id="source-21"><td><pre>21</pre></td><td><pre class="prettyprint">    j+=i;  </pre></td></tr>
+<tr id="source-22"><td><pre>22</pre></td><td><pre class="prettyprint">  }  </pre></td></tr>
+<tr id="source-23"><td><pre>23</pre></td><td><pre class="prettyprint">  int z = k + i + j;  </pre></td></tr>
+<tr id="source-24"><td><pre>24</pre></td><td><pre class="prettyprint">  if(!(z > 2*n)) {  </pre></td></tr>
+<tr id="source-25"><td><pre>25</pre></td><td><pre class="prettyprint">		ERROR: goto ERROR;  </pre></td></tr>
+<tr id="source-26"><td><pre>26</pre></td><td><pre class="prettyprint">	}  </pre></td></tr>
+<tr id="source-27"><td><pre>27</pre></td><td><pre class="prettyprint">}  </pre></td></tr>
+<tr id="source-28"><td><pre>28</pre></td><td><pre class="prettyprint">  </pre></td></tr>
+</table>
+            </div>
+            <div class="fileContent" ng-show="tabIsSet(4)">
+<pre id="log-0">2017-05-11 14:16:56:339	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 900s</pre>
+<pre id="log-1"></pre>
+<pre id="log-2">2017-05-11 14:16:56:360	INFO	CPAchecker.run	CPAchecker 1.6.1 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_101) started</pre>
+<pre id="log-3"></pre>
+<pre id="log-4">2017-05-11 14:16:56:660	WARNING	CheckBindingVisitor.visit	Undefined function assume found, first called in line 17</pre>
+<pre id="log-5"></pre>
+<pre id="log-6">2017-05-11 14:16:56:915	INFO	PredicateCPA:PredicateCPA.<init>	Using predicate analysis with SMTInterpol 2.1-238-g1f06d6a-comp and JFactory 1.21.</pre>
+<pre id="log-7"></pre>
+<pre id="log-8">2017-05-11 14:16:56:942	INFO	PredicateCPA:InvariantsManager.<init>	No invariants are computed</pre>
+<pre id="log-9"></pre>
+<pre id="log-10">2017-05-11 14:16:56:980	INFO	PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.</pre>
+<pre id="log-11"></pre>
+<pre id="log-12">2017-05-11 14:16:56:989	INFO	CPAchecker.runAlgorithm	Starting analysis ...</pre>
+<pre id="log-13"></pre>
+<pre id="log-14">2017-05-11 14:16:57:020	WARNING	PredicateCPA:CtoFormulaConverter.getReturnType	line 17: Return type of function assume is void, but result is used as type int: assume(k >= 0);</pre>
+<pre id="log-15"></pre>
+<pre id="log-16">2017-05-11 14:16:57:020	INFO	PredicateCPA:ExpressionToFormulaVisitor.visit	Assuming external function assume to be a pure function.</pre>
+<pre id="log-17"></pre>
+<pre id="log-18">2017-05-11 14:16:57:020	WARNING	PredicateCPA:ExpressionToFormulaVisitor.visit	Cannot get declaration of function assume, ignoring calls to it.</pre>
+<pre id="log-19"></pre>
+<pre id="log-20">2017-05-11 14:16:57:224	INFO	CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.</pre>
+<pre id="log-21"></pre>
+<pre id="log-22">2017-05-11 14:16:57:228	INFO	CounterexampleCheck:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 900s</pre>
+<pre id="log-23"></pre>
+<pre id="log-24">2017-05-11 14:16:57:230	INFO	CounterexampleCheck:EclipseParsers.getClassLoader	Repeated loading of Eclipse source parser</pre>
+<pre id="log-25"></pre>
+<pre id="log-26">2017-05-11 14:16:57:395	INFO	CounterexampleCheckAlgorithm.checkCounterexample	Error path found and confirmed by counterexample check with CPACHECKER.</pre>
+<pre id="log-27"></pre>
+<pre id="log-28">2017-05-11 14:16:57:395	INFO	CPAchecker.runAlgorithm	Stopping analysis ...</pre>
+<pre id="log-29"></pre>
+            </div>
+            <div class="fileContent"  ng-show="tabIsSet(5)">
+<pre id="statistics-0">PredicateCPA statistics</pre>
+<pre id="statistics-1">-----------------------</pre>
+<pre id="statistics-2">Number of abstractions:            14 (16% of all post computations)</pre>
+<pre id="statistics-3">  Times abstraction was reused:    0</pre>
+<pre id="statistics-4">  Because of function entry/exit:  0 (0%)</pre>
+<pre id="statistics-5">  Because of loop head:            14 (100%)</pre>
+<pre id="statistics-6">  Because of join nodes:           0 (0%)</pre>
+<pre id="statistics-7">  Because of threshold:            0 (0%)</pre>
+<pre id="statistics-8">  Because of target state:         0 (0%)</pre>
+<pre id="statistics-9">  Times precision was empty:       6 (43%)</pre>
+<pre id="statistics-10">  Times precision was {false}:     1 (7%)</pre>
+<pre id="statistics-11">  Times result was cached:         0 (0%)</pre>
+<pre id="statistics-12">  Times cartesian abs was used:    0 (0%)</pre>
+<pre id="statistics-13">  Times boolean abs was used:      7 (50%)</pre>
+<pre id="statistics-14">  Times result was 'false':        1 (7%)</pre>
+<pre id="statistics-15">Number of strengthen sat checks:   0</pre>
+<pre id="statistics-16">Number of coverage checks:         10</pre>
+<pre id="statistics-17">  BDD entailment checks:           4</pre>
+<pre id="statistics-18">Number of SMT sat checks:          0</pre>
+<pre id="statistics-19">  trivial:                         0</pre>
+<pre id="statistics-20">  cached:                          0</pre>
+<pre id="statistics-21"></pre>
+<pre id="statistics-22">Max ABE block size:                       7</pre>
+<pre id="statistics-23">Number of predicates discovered:          5</pre>
+<pre id="statistics-24">Number of abstraction locations:          3</pre>
+<pre id="statistics-25">Max number of predicates per location:    2</pre>
+<pre id="statistics-26">Avg number of predicates per location:    2</pre>
+<pre id="statistics-27">Total predicates per abstraction:         14</pre>
+<pre id="statistics-28">Max number of predicates per abstraction: 2</pre>
+<pre id="statistics-29">Avg number of predicates per abstraction: 1.75</pre>
+<pre id="statistics-30">Number of irrelevant predicates:          3 (21%)</pre>
+<pre id="statistics-31">Number of preds handled by boolean abs:   11 (79%)</pre>
+<pre id="statistics-32">  Total number of models for allsat:      11</pre>
+<pre id="statistics-33">  Max number of models for allsat:        4</pre>
+<pre id="statistics-34">  Avg number of models for allsat:        1.57</pre>
+<pre id="statistics-35"></pre>
+<pre id="statistics-36">Number of path formula cache hits:   66 (52%)</pre>
+<pre id="statistics-37"></pre>
+<pre id="statistics-38">Time for post operator:                  0.026s</pre>
+<pre id="statistics-39">  Time for path formula creation:        0.026s</pre>
+<pre id="statistics-40">    Actual computation:                  0.085s</pre>
+<pre id="statistics-41">Time for strengthen operator:            0.000s</pre>
+<pre id="statistics-42">Time for prec operator:                  0.030s</pre>
+<pre id="statistics-43">  Time for abstraction:                  0.028s (Max:     0.006s, Count: 14)</pre>
+<pre id="statistics-44">    Boolean abstraction:                 0.012s</pre>
+<pre id="statistics-45">    Solving time:                        0.005s (Max:     0.001s)</pre>
+<pre id="statistics-46">    Model enumeration time:              0.004s</pre>
+<pre id="statistics-47">    Time for BDD construction:           0.000s (Max:     0.000s)</pre>
+<pre id="statistics-48">Time for merge operator:                 0.002s</pre>
+<pre id="statistics-49">Time for coverage check:                 0.001s</pre>
+<pre id="statistics-50">  Time for BDD entailment checks:        0.001s</pre>
+<pre id="statistics-51">Total time for SMT solver (w/o itp):     0.009s</pre>
+<pre id="statistics-52"></pre>
+<pre id="statistics-53">Number of BDD nodes:                               209</pre>
+<pre id="statistics-54">Size of BDD node table:                            55949</pre>
+<pre id="statistics-55">Size of BDD cache:                                 5623</pre>
+<pre id="statistics-56">Size of BDD node cleanup queue:                          25 (count: 88, min: 0, max: 25, avg: 0.28)</pre>
+<pre id="statistics-57">Time for BDD node cleanup:                             0.000s</pre>
+<pre id="statistics-58">Time for BDD garbage collection:                       0.000s (in 0 runs)</pre>
+<pre id="statistics-59"></pre>
+<pre id="statistics-60">PrecisionBootstrap statistics</pre>
+<pre id="statistics-61">-----------------------------</pre>
+<pre id="statistics-62">Init. function predicates:                         0</pre>
+<pre id="statistics-63">Init. global predicates:                           0</pre>
+<pre id="statistics-64">Init. location predicates:                         0</pre>
+<pre id="statistics-65"></pre>
+<pre id="statistics-66">Invariant Generation statistics</pre>
+<pre id="statistics-67">-------------------------------</pre>
+<pre id="statistics-68"></pre>
+<pre id="statistics-69">AutomatonAnalysis (AssertionAutomaton) statistics</pre>
+<pre id="statistics-70">-------------------------------------------------</pre>
+<pre id="statistics-71">Number of states:                                  1</pre>
+<pre id="statistics-72">Total time for successor computation:                  0.000s</pre>
+<pre id="statistics-73">Automaton transfers with branching:                0</pre>
+<pre id="statistics-74">Automaton transfer successors:                           89 (count: 89, min: 1, max: 1, avg: 1.00) [1 x 89]</pre>
+<pre id="statistics-75"></pre>
+<pre id="statistics-76">AutomatonAnalysis (ErrorLabelAutomaton) statistics</pre>
+<pre id="statistics-77">--------------------------------------------------</pre>
+<pre id="statistics-78">Number of states:                                  1</pre>
+<pre id="statistics-79">Total time for successor computation:                  0.001s</pre>
+<pre id="statistics-80">Automaton transfers with branching:                0</pre>
+<pre id="statistics-81">Automaton transfer successors:                           89 (count: 89, min: 1, max: 1, avg: 1.00) [1 x 89]</pre>
+<pre id="statistics-82"></pre>
+<pre id="statistics-83">AutomatonAnalysis (TerminatingFunctions) statistics</pre>
+<pre id="statistics-84">---------------------------------------------------</pre>
+<pre id="statistics-85">Number of states:                                  1</pre>
+<pre id="statistics-86">Total time for successor computation:                  0.001s</pre>
+<pre id="statistics-87">Automaton transfers with branching:                0</pre>
+<pre id="statistics-88">Automaton transfer successors:                           89 (count: 89, min: 1, max: 1, avg: 1.00) [1 x 89]</pre>
+<pre id="statistics-89"></pre>
+<pre id="statistics-90">CPA algorithm statistics</pre>
+<pre id="statistics-91">------------------------</pre>
+<pre id="statistics-92">Number of iterations:            64</pre>
+<pre id="statistics-93">Max size of waitlist:            3</pre>
+<pre id="statistics-94">Average size of waitlist:        1</pre>
+<pre id="statistics-95">Number of computed successors:   77</pre>
+<pre id="statistics-96">Max successors for one state:    2</pre>
+<pre id="statistics-97">Number of times merged:          3</pre>
+<pre id="statistics-98">Number of times stopped:         6</pre>
+<pre id="statistics-99">Number of times breaked:         3</pre>
+<pre id="statistics-100"></pre>
+<pre id="statistics-101">Total time for CPA algorithm:         0.077s (Max:     0.038s)</pre>
+<pre id="statistics-102">  Time for choose from waitlist:      0.002s</pre>
+<pre id="statistics-103">  Time for precision adjustment:      0.032s</pre>
+<pre id="statistics-104">  Time for transfer relation:         0.034s</pre>
+<pre id="statistics-105">  Time for merge operator:            0.002s</pre>
+<pre id="statistics-106">  Time for stop operator:             0.004s</pre>
+<pre id="statistics-107">  Time for adding to reached set:     0.002s</pre>
+<pre id="statistics-108"></pre>
+<pre id="statistics-109">Static Predicate Refiner statistics</pre>
+<pre id="statistics-110">-----------------------------------</pre>
+<pre id="statistics-111">Number of predicates found statically:                    1 (count: 1, min: 1, max: 1, avg: 1.00)</pre>
+<pre id="statistics-112"></pre>
+<pre id="statistics-113">Total time for static refinement:                      0.035s</pre>
+<pre id="statistics-114">  Time for path feasibility check:                     0.028s</pre>
+<pre id="statistics-115">  Time for predicate extraction from CFA:              0.004s</pre>
+<pre id="statistics-116">  Time for ARG update:                                 0.002s</pre>
+<pre id="statistics-117"></pre>
+<pre id="statistics-118">Predicate-Abstraction Refiner statistics</pre>
+<pre id="statistics-119">----------------------------------------</pre>
+<pre id="statistics-120">Number of predicate refinements:                   2</pre>
+<pre id="statistics-121">Avg. length of target path (in blocks):                   7 (count: 2, min: 3, max: 4, avg: 3.50)</pre>
+<pre id="statistics-122">Number of infeasible sliced prefixes:                     0 (count: 0, min: 0, max: 0, avg: 0.00)</pre>
+<pre id="statistics-123"></pre>
+<pre id="statistics-124">Time for refinement:                                   0.118s</pre>
+<pre id="statistics-125">  Counterexample analysis:                             0.063s (Max:     0.028s, Calls: 3)</pre>
+<pre id="statistics-126">    Refinement sat check:                              0.039s</pre>
+<pre id="statistics-127">    Interpolant computation:                           0.000s</pre>
+<pre id="statistics-128">  Path-formulas extraction:                            0.000s</pre>
+<pre id="statistics-129">  Error path post-processing:                          0.081s</pre>
+<pre id="statistics-130">  Predicate creation:                                  0.000s</pre>
+<pre id="statistics-131">  Precision update:                                    0.000s</pre>
+<pre id="statistics-132">  ARG update:                                          0.001s</pre>
+<pre id="statistics-133"></pre>
+<pre id="statistics-134">Length of refined path (in blocks):                       3 (count: 1, min: 3, max: 3, avg: 3.00)</pre>
+<pre id="statistics-135">Number of affected states:                                2 (count: 1, min: 2, max: 2, avg: 2.00)</pre>
+<pre id="statistics-136">Length (states) of path with itp 'true':                  0 (count: 1, min: 0, max: 0, avg: 0.00)</pre>
+<pre id="statistics-137">Length (states) of path with itp non-trivial itp:         2 (count: 1, min: 2, max: 2, avg: 2.00)</pre>
+<pre id="statistics-138">Length (states) of path with itp 'false':                 0 (count: 1, min: 0, max: 0, avg: 0.00)</pre>
+<pre id="statistics-139">Different non-trivial interpolants along paths:           1 (count: 1, min: 1, max: 1, avg: 1.00)</pre>
+<pre id="statistics-140">Equal non-trivial interpolants along paths:               0 (count: 1, min: 0, max: 0, avg: 0.00)</pre>
+<pre id="statistics-141">Number of refs with location-based cutoff:                0</pre>
+<pre id="statistics-142"></pre>
+<pre id="statistics-143">CEGAR algorithm statistics</pre>
+<pre id="statistics-144">--------------------------</pre>
+<pre id="statistics-145">Number of refinements:                3</pre>
+<pre id="statistics-146">Number of successful refinements:     2</pre>
+<pre id="statistics-147">Number of failed refinements:         0</pre>
+<pre id="statistics-148">Max. size of reached set before ref.: 31</pre>
+<pre id="statistics-149">Max. size of reached set after ref.:  5</pre>
+<pre id="statistics-150">Avg. size of reached set before ref.: 25.67</pre>
+<pre id="statistics-151">Avg. size of reached set after ref.:  3.00</pre>
+<pre id="statistics-152"></pre>
+<pre id="statistics-153">Total time for CEGAR algorithm:       0.235s</pre>
+<pre id="statistics-154">Time for refinements:                 0.158s</pre>
+<pre id="statistics-155">Average time for refinement:          0.052s</pre>
+<pre id="statistics-156">Max time for refinement:              0.101s</pre>
+<pre id="statistics-157"></pre>
+<pre id="statistics-158">Counterexample-Check Algorithm statistics</pre>
+<pre id="statistics-159">-----------------------------------------</pre>
+<pre id="statistics-160">Number of counterexample checks:    1</pre>
+<pre id="statistics-161">Number of infeasible paths:         0 (0%)</pre>
+<pre id="statistics-162">Time for counterexample checks:         0.171s</pre>
+<pre id="statistics-163"></pre>
+<pre id="statistics-164">Code Coverage</pre>
+<pre id="statistics-165">-----------------------------</pre>
+<pre id="statistics-166">  Function coverage:      1.000</pre>
+<pre id="statistics-167">  Visited lines:          14</pre>
+<pre id="statistics-168">  Total lines:            14</pre>
+<pre id="statistics-169">  Line coverage:          1.000</pre>
+<pre id="statistics-170">  Visited conditions:     8</pre>
+<pre id="statistics-171">  Total conditions:       8</pre>
+<pre id="statistics-172">  Condition coverage:     1.000</pre>
+<pre id="statistics-173"></pre>
+<pre id="statistics-174">CPAchecker general statistics</pre>
+<pre id="statistics-175">-----------------------------</pre>
+<pre id="statistics-176">Number of program locations:     32</pre>
+<pre id="statistics-177">Number of CFA edges:             35</pre>
+<pre id="statistics-178">Number of relevant variables:    7</pre>
+<pre id="statistics-179">Number of functions:             2</pre>
+<pre id="statistics-180">Number of loops:                 3</pre>
+<pre id="statistics-181">Size of reached set:             31</pre>
+<pre id="statistics-182">  Number of reached locations:   25 (78%)</pre>
+<pre id="statistics-183">    Avg states per location:     1</pre>
+<pre id="statistics-184">    Max states per location:     2 (at node N18)</pre>
+<pre id="statistics-185">  Number of reached functions:   2 (100%)</pre>
+<pre id="statistics-186">  Number of partitions:          30</pre>
+<pre id="statistics-187">    Avg size of partitions:      1</pre>
+<pre id="statistics-188">    Max size of partitions:      2 (with key [N18 (before line 20), Function main called from node N8, stack depth 1 [db57326], stack [main]])</pre>
+<pre id="statistics-189">  Number of target states:       1</pre>
+<pre id="statistics-190">  Size of final wait list        3</pre>
+<pre id="statistics-191"></pre>
+<pre id="statistics-192">Time for analysis setup:          0.623s</pre>
+<pre id="statistics-193">  Time for loading CPAs:          0.267s</pre>
+<pre id="statistics-194">  Time for loading parser:        0.127s</pre>
+<pre id="statistics-195">  Time for CFA construction:      0.196s</pre>
+<pre id="statistics-196">    Time for parsing file(s):     0.085s</pre>
+<pre id="statistics-197">    Time for AST to CFA:          0.061s</pre>
+<pre id="statistics-198">    Time for CFA sanity check:    0.002s</pre>
+<pre id="statistics-199">    Time for post-processing:     0.033s</pre>
+<pre id="statistics-200">      Time for var class.:        0.018s</pre>
+<pre id="statistics-201">    Time for CFA export:          0.027s</pre>
+<pre id="statistics-202">Time for Analysis:                0.407s</pre>
+<pre id="statistics-203">CPU time for analysis:            1.420s</pre>
+<pre id="statistics-204">Time for analyzing result:        0.000s</pre>
+<pre id="statistics-205">Total time for CPAchecker:        1.033s</pre>
+<pre id="statistics-206">Total CPU time for CPAchecker:    3.150s</pre>
+<pre id="statistics-207">Time for statistics:              0.086s</pre>
+<pre id="statistics-208"></pre>
+<pre id="statistics-209">Time for Garbage Collector:       0.063s (in 3 runs)</pre>
+<pre id="statistics-210">Garbage Collector(s) used:    PS MarkSweep, PS Scavenge</pre>
+<pre id="statistics-211">Used heap memory:                 67MB (    64 MiB) max;     40MB (    38 MiB) avg;     97MB (    92 MiB) peak</pre>
+<pre id="statistics-212">Used non-heap memory:             29MB (    28 MiB) max;     21MB (    20 MiB) avg;     34MB (    32 MiB) peak</pre>
+<pre id="statistics-213">Used in PS Old Gen pool:          20MB (    19 MiB) max;      4MB (     4 MiB) avg;     20MB (    19 MiB) peak</pre>
+<pre id="statistics-214">Allocated heap memory:           283MB (   270 MiB) max;    258MB (   246 MiB) avg</pre>
+<pre id="statistics-215">Allocated non-heap memory:        31MB (    29 MiB) max;     22MB (    21 MiB) avg</pre>
+<pre id="statistics-216">Total process virtual memory:   4395MB (  4192 MiB) max;   4362MB (  4160 MiB) avg</pre>
+<pre id="statistics-217"></pre>
+            </div>
+            <div class="fileContent" ng-show="tabIsSet(6)">
+<pre id="config-0">analysis.algorithm.CEGAR = true</pre>
+<pre id="config-1">analysis.checkCounterexamples = true</pre>
+<pre id="config-2">analysis.programNames = /home/spencerxiao/Experiments/tacas17/cpachecker-1.6.1/benchmarks/41.c</pre>
+<pre id="config-3">analysis.traversal.order = bfs</pre>
+<pre id="config-4">analysis.traversal.useCallstack = true</pre>
+<pre id="config-5">analysis.traversal.useReversePostorder = true</pre>
+<pre id="config-6">ARGCPA.cpa = cpa.composite.CompositeCPA</pre>
+<pre id="config-7">cegar.refiner = cpa.predicate.PredicateRefiner</pre>
+<pre id="config-8">CompositeCPA.cpas = cpa.location.LocationCPA, cpa.callstack.CallstackCPA, cpa.functionpointer.FunctionPointerCPA, cpa.predicate.PredicateCPA</pre>
+<pre id="config-9">counterexample.checker = CPACHECKER</pre>
+<pre id="config-10">counterexample.checker.config = ../cex-checks/valueAnalysis-as-cex-check.properties</pre>
+<pre id="config-11">cpa = cpa.arg.ARGCPA</pre>
+<pre id="config-12">cpa.composite.aggregateBasicBlocks = true</pre>
+<pre id="config-13">cpa.predicate.blk.alwaysAtFunctions = false</pre>
+<pre id="config-14">cpa.predicate.blk.alwaysAtLoops = true</pre>
+<pre id="config-15">cpa.predicate.refinement.performInitialStaticRefinement = true</pre>
+<pre id="config-16">limits.time.cpu = 900s</pre>
+<pre id="config-17">log.level = INFO</pre>
+<pre id="config-18">specification = ../specification/default.spc</pre>
+<pre id="config-19"></pre>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

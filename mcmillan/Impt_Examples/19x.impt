@@ -1,0 +1,36 @@
+MODULE main
+	int n;
+	int m;
+	int x;
+	int y;
+
+	int finish;
+
+	assume(n >= 0);
+	assume(m >= 0);
+	assume(m < n);
+	assume(x == 0);
+	assume(y == m);
+
+	assume(finish == 0);
+
+	while(x < n){
+		x = x + 1;
+		
+		if(x > m){
+			y = y + 1;
+		}
+		else{
+			skip;
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && y != n;

@@ -1,0 +1,23 @@
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::n| () Int)
+(declare-fun |main::i| () Int)
+(declare-fun |main::z| () Int)
+
+13 (14) @18:
+(assert true)
+
+11 (13) @18:
+(assert (<= |main::i| |main::n|))
+
+14 () @28:
+(assert (not (> |main::z| (* 2 |main::n|))))
+
+10 () @3:
+(assert (and (not (<= 0 |main::n|)) (= |__VERIFIER_assume::i| 0)))
+
+9 (11,10) @3:
+(assert (let ((.cse0 (= |__VERIFIER_assume::i| 0))) (ite (<= 0 |main::n|) (not .cse0) .cse0)))
+
+0 (9) @8:
+(assert true)
+

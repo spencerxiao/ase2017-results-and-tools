@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (x = y)
+find an inductive invaraint based on concrete reachables
+invariant size: 69
+interp: (let ((.def_25 (= turn 0))) (let ((.def_27 (= x y))) (let ((.def_314 (= turn 1))) (let ((.def_432 (not .def_314))) (let ((.def_451 (= turn 2))) (let ((.def_559 (not .def_451))) (let ((.def_928 (= (+ y (+ (* (- 1) z) k)) 0))) (let ((.def_943 (<= x y))) (let ((.def_944 (<= y x))) (let ((.def_951 (and .def_943 .def_944))) (let ((.def_3638 (not (and .def_314 .def_559)))) (let ((.def_3643 (not (and .def_943 (and .def_944 .def_3638))))) (or (and .def_25 (and .def_27 .def_928)) (and (not (and (not .def_25) (and (and (and (and (not (and .def_27 .def_3638)) .def_3643) (and (and .def_3643 (not (and .def_432 (and .def_559 .def_951)))) (not (and .def_451 .def_951)))) (not (and .def_451 (and .def_432 .def_951)))) (not (and .def_314 (and (= (+ y (+ (* (- 1) z) (+ (* (- 1) c) k))) 0) .def_951)))))) (or (<= 1 turn) (and (<= turn 0) (not (and .def_432 (and .def_559 (not (and .def_943 (and .def_928 .def_944))))))))))))))))))))))
+The assertion is satisfied!
+forward [2] times, backtracks [1] times
+backward [1] times

@@ -1,0 +1,14 @@
+2017-05-11 14:15:52:683	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 900s
+
+2017-05-11 14:15:52:705	INFO	CPAchecker.run	CPAchecker 1.6.1 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_101) started
+
+2017-05-11 14:15:53:315	INFO	PredicateCPA:PredicateCPA.<init>	Using predicate analysis with SMTInterpol 2.1-238-g1f06d6a-comp and JFactory 1.21.
+
+2017-05-11 14:15:53:341	INFO	PredicateCPA:InvariantsManager.<init>	No invariants are computed
+
+2017-05-11 14:15:53:378	INFO	PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.
+
+2017-05-11 14:15:53:388	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2017-05-11 14:16:47:022	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

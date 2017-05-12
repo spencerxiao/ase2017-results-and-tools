@@ -1,0 +1,161 @@
+[32mAnnotated program after forward analysis[m
+var x : int, y : int, z : int, w : int, i : int, j : int, c : int, d : int,
+    flag : int;
+begin
+  /* [31m(L2 C5)
+     [|z=0 mod 1; y=0 mod 1; x=0 mod 1; w=0 mod 1; j=0 mod 1; i=0 mod 1;
+       flag=0 mod 1; d=0 mod 1; c=0 mod 1|][m */
+  x = 0; /* [31m(L3 C7)
+            [|x=0; z=0 mod 1; y=0 mod 1; x=0; w=0 mod 1; j=0 mod 1;
+              i=0 mod 1; flag=0 mod 1; d=0 mod 1; c=0 mod 1|][m */
+  y = 0; /* [31m(L4 C7)
+            [|y=0; x=0; z=0 mod 1; y=0; x=0; w=0 mod 1; j=0 mod 1; i=0 mod 1;
+              flag=0 mod 1; d=0 mod 1; c=0 mod 1|][m */
+  i = 0; /* [31m(L5 C7)
+            [|y=0; x=0; i=0; z=0 mod 1; y=0; x=0; w=0 mod 1; j=0 mod 1; 
+              i=0; flag=0 mod 1; d=0 mod 1; c=0 mod 1|][m */
+  j = 0; /* [31m(L6 C7)
+            [|y=0; x=0; j=0; i=0; z=0 mod 1; y=0; x=0; w=0 mod 1; j=0; 
+              i=0; flag=0 mod 1; d=0 mod 1; c=0 mod 1|][m */
+  c = 0; /* [31m(L7 C7)
+            [|y=0; x=0; j=0; i=0; c=0; z=0 mod 1; y=0; x=0; w=0 mod 1; 
+              j=0; i=0; flag=0 mod 1; d=0 mod 1; c=0|][m */
+  d = 1; /* [31m(L8 C7)
+            [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x>=0; i-3x+3>=0; i-2x+1>=0;
+              i-x>=0; z=0 mod 1; -x+y=0; x=0 mod 1; w=0 mod 1; j=0 mod 1;
+              i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+  while brandom do
+    /* [31m(L9 C18)
+       [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x>=0; i-3x+3>=0; i-2x+1>=0; 
+         i-x>=0; z=0 mod 1; -x+y=0; x=0 mod 1; w=0 mod 1; j=0 mod 1;
+         i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+    x = x +_i,? 1; /* [31m(L10 C14)
+                      [|-x+y+1=0; d-1=0; c=0; -i+j>=0; i-j+x-1>=0; i-3x+6>=0;
+                        i-2x+3>=0; i-x+1>=0; z=0 mod 1; -x+y+1=0; x=0 mod 1;
+                        w=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1; 
+                        d-1=0; c=0|][m */
+    y = y +_i,? 1; /* [31m(L11 C14)
+                      [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x-1>=0; i-3x+6>=0;
+                        i-2x+3>=0; i-x+1>=0; z=0 mod 1; -x+y=0; x=0 mod 1;
+                        w=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1; 
+                        d-1=0; c=0|][m */
+    i = i +_i,? x; /* [31m(L12 C14)
+                      [|-x+y=0; d-1=0; c=0; -i+j+x>=0; i-j-1>=0; i-4x+6>=0;
+                        i-3x+3>=0; i-2x+1>=0; z=0 mod 1; -x+y=0; x=0 mod 1;
+                        w=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1; 
+                        d-1=0; c=0|][m */
+    j = j +_i,? y; /* [31m(L13 C14)
+                      [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x-1>=0; i-4x+6>=0;
+                        i-3x+3>=0; i-2x+1>=0; z=0 mod 1; -x+y=0; x=0 mod 1;
+                        w=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1; 
+                        d-1=0; c=0|][m */
+    if not flag == 0 then
+      /* [31m(L14 C27)
+         [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x-1>=0; i-4x+6>=0; i-3x+3>=0;
+           i-2x+1>=0; z=0 mod 1; -x+y=0; x=0 mod 1; w=0 mod 1; j=0 mod 1;
+           i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+      j = j +_i,? 1; /* [31m(L15 C15)
+                        [|-x+y=0; d-1=0; c=0; -i+j-1>=0; i-j+x>=0; i-4x+6>=0;
+                          i-3x+3>=0; i-2x+1>=0; z=0 mod 1; -x+y=0; x=0 mod 1;
+                          w=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1;
+                          d-1=0; c=0|][m */
+    endif; /* [31m(L16 C8)
+              [|-x+y=0; d-1=0; c=0; -i+j>=0; x-1>=0; i-j+x>=0; i-4x+6>=0;
+                i-3x+3>=0; i-2x+1>=0; z=0 mod 1; -x+y=0; x=0 mod 1;
+                w=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1; d-1=0; 
+                c=0|][m */
+  done; /* [31m(L17 C6)
+           [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x>=0; i-3x+3>=0; i-2x+1>=0;
+             i-x>=0; z=0 mod 1; -x+y=0; x=0 mod 1; w=0 mod 1; j=0 mod 1;
+             i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+  if j >= i then
+     /* [31m(L18 C17)
+        [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x>=0; i-3x+3>=0; i-2x+1>=0;
+          i-x>=0; z=0 mod 1; -x+y=0; x=0 mod 1; w=0 mod 1; j=0 mod 1;
+          i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+     x = y; /* [31m(L19 C8)
+               [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x>=0; i-3x+3>=0; i-2x+1>=0;
+                 i-x>=0; z=0 mod 1; -x+y=0; x=0 mod 1; w=0 mod 1; j=0 mod 1;
+                 i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+  else
+    /* [31m(L20 C5) bottom[m */
+    x = y +_i,? 1; /* [31m(L21 C14) bottom[m */
+  endif; /* [31m(L22 C7)
+            [|-x+y=0; d-1=0; c=0; -i+j>=0; i-j+x>=0; i-3x+3>=0; i-2x+1>=0;
+              i-x>=0; z=0 mod 1; -x+y=0; x=0 mod 1; w=0 mod 1; j=0 mod 1;
+              i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+  w = 1; /* [31m(L24 C7)
+            [|-x+y=0; w-1=0; d-1=0; c=0; -i+j>=0; i-j+x>=0; i-3x+3>=0;
+              i-2x+1>=0; i-x>=0; z=0 mod 1; -x+y=0; x=0 mod 1; w-1=0;
+              j=0 mod 1; i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+  z = 0; /* [31m(L25 C7)
+            [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y-1>=0; w+x-y-1>=0;
+              i-j+y>=0; i-j+x>=0; -w+z+1=0; w+x+y+1=0 mod 2; 2x=0 mod 2;
+              2w=0 mod 2; 2j=0 mod 2; 2i=0 mod 2; 2flag=0 mod 2; d-1=0; 
+              c=0|][m */
+  while brandom do
+    /* [31m(L26 C18)
+       [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y-1>=0; w+x-y-1>=0; i-j+y>=0;
+         i-j+x>=0; -w+z+1=0; w+x+y+1=0 mod 2; 2x=0 mod 2; 2w=0 mod 2;
+         2j=0 mod 2; 2i=0 mod 2; 2flag=0 mod 2; d-1=0; c=0|][m */
+    while brandom do
+      /* [31m(L27 C19)
+         [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y-1>=0; w+x-y-1>=0; i-j+y>=0;
+           i-j+x>=0; -w+z+1=0; w+x+y+1=0 mod 2; 2x=0 mod 2; 2w=0 mod 2;
+           2j=0 mod 2; 2i=0 mod 2; 2flag=0 mod 2; d-1=0; c=0|][m */
+      if w %_i,n 2 == 1 then
+        /* [31m(L28 C27)
+           [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y-1>=0; w+x-y-1>=0; i-j+y>=0;
+             i-j+x>=0; -w+z+1=0; w+x+y+1=0 mod 2; 2x=0 mod 2; 2w=0 mod 2;
+             2j=0 mod 2; 2i=0 mod 2; 2flag=0 mod 2; d-1=0; c=0|][m */
+        x = x +_i,? 1; /* [31m(L29 C16)
+                          [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y>=0;
+                            w+x-y-2>=0; i-j+y>=0; i-j+x-1>=0; -w+z+1=0;
+                            w+x+y=0 mod 2; 2x=0 mod 2; 2w=0 mod 2;
+                            2j=0 mod 2; 2i=0 mod 2; 2flag=0 mod 2; d-1=0; 
+                            c=0|][m */
+      endif; /* [31m(L30 C9)
+                [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y>=0; w-1>=0;
+                  w+x-y-1>=0; i-j+y>=0; i-j+x>=0; -w+z+1=0; y=0 mod 1;
+                  x=0 mod 1; w=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1;
+                  d-1=0; c=0|][m */
+      if z %_i,n 2 == 0 then
+        /* [31m(L32 C27)
+           [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y>=0; w-1>=0; w+x-y-1>=0;
+             i-j+y>=0; i-j+x>=0; -w+z+1=0; y=0 mod 1; x=0 mod 1; w=0 mod 1;
+             j=0 mod 1; i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+        y = y +_i,? 1; /* [31m(L33 C16)
+                          [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y-1>=0;
+                            w-1>=0; w+x-y>=0; i-j+y-1>=0; i-j+x>=0; -w+z+1=0;
+                            y=0 mod 1; x=0 mod 1; w=0 mod 1; j=0 mod 1;
+                            i=0 mod 1; flag=0 mod 1; d-1=0; c=0|][m */
+      endif; /* [31m(L34 C9)
+                [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y>=0; w-1>=0; w+x-y>=0;
+                  i-j+y>=0; i-j+x>=0; -w+z+1=0; y=0 mod 1; x=0 mod 1;
+                  w=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1; d-1=0; 
+                  c=0|][m */
+      z = x +_i,? y; /* [31m(L36 C15)
+                        [|-x-y+z=0; d-1=0; c=0; -i+j>=0; w-x+y>=0; w-1>=0;
+                          w+x-y>=0; i-j+y>=0; i-j+x>=0; -x-y+z=0; y=0 mod 1;
+                          x=0 mod 1; w=0 mod 1; j=0 mod 1; i=0 mod 1;
+                          flag=0 mod 1; d-1=0; c=0|][m */
+      w = z +_i,? 1; /* [31m(L37 C15)
+                        [|-w+z+1=0; -w+x+y+1=0; d-1=0; c=0; -i+j>=0;
+                          i-j+x>=0; i-j+w-x-1>=0; -w+z+1=0; -w+x+y+1=0;
+                          x=0 mod 1; w=0 mod 1; j=0 mod 1; i=0 mod 1;
+                          flag=0 mod 1; d-1=0; c=0|][m */
+    done; /* [31m(L38 C7)
+             [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y-1>=0; w+x-y-1>=0;
+               i-j+y>=0; i-j+x>=0; -w+z+1=0; w+x+y+1=0 mod 2; 2x=0 mod 2;
+               2w=0 mod 2; 2j=0 mod 2; 2i=0 mod 2; 2flag=0 mod 2; d-1=0; 
+               c=0|][m */
+  done; /* [31m(L39 C6)
+           [|-w+z+1=0; d-1=0; c=0; -i+j>=0; w-x+y-1>=0; w+x-y-1>=0; i-j+y>=0;
+             i-j+x>=0; -w+z+1=0; w+x+y+1=0 mod 2; 2x=0 mod 2; 2w=0 mod 2;
+             2j=0 mod 2; 2i=0 mod 2; 2flag=0 mod 2; d-1=0; c=0|][m */
+  assume x == y; /* [31m(L40 C16)
+                    [|-w+z+1=0; -x+y=0; d-1=0; c=0; -i+j>=0; w-1>=0;
+                      i-j+x>=0; -w+z+1=0; -x+y=0; 2x=0 mod 2; w+1=0 mod 2;
+                      2j=0 mod 2; 2i=0 mod 2; 2flag=0 mod 2; d-1=0; c=0|][m */
+end
+

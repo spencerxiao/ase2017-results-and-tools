@@ -1,0 +1,42 @@
+[32mAnnotated program after forward analysis[m
+var flag : int, j : int, k : int;
+begin
+  /* [31m(L2 C5) [|k=0 mod 1; j=0 mod 1; flag=0 mod 1|][m */
+  flag = [-inf; inf]; /* [31m(L3 C16)
+                         [|k=0 mod 1; j=0 mod 1; flag=0 mod 1|][m */
+  j = 2; /* [31m(L4 C8) [|j-2=0; k=0 mod 1; j-2=0; flag=0 mod 1|][m */
+  k = 0; /* [31m(L5 C8)
+            [|k>=0; j-2k-2>=0; j+2k+2=0 mod 4; 2j=0 mod 4; 4flag=0 mod 4|][m */
+  while brandom do
+    /* [31m(L6 C20)
+       [|k>=0; j-2k-2>=0; j+2k+2=0 mod 4; 2j=0 mod 4; 4flag=0 mod 4|][m */
+    if not flag == 0 then
+       /* [31m(L7 C27)
+          [|k>=0; j-2k-2>=0; j+2k+2=0 mod 4; 2j=0 mod 4; 4flag=0 mod 4|][m */
+       j = j +_i,? 4; /* [31m(L8 C18)
+                         [|k>=0; j-2k-6>=0; j+2k+2=0 mod 4; 2j=0 mod 4;
+                           4flag=0 mod 4|][m */
+    else
+      /* [31m(L9 C8)
+         [|flag=0; k>=0; j-2k-2>=0; j+2k+2=0 mod 4; 2j=0 mod 4; flag=0|][m */
+      j = j +_i,? 2; /* [31m(L10 C18)
+                        [|flag=0; k>=0; j-2k-4>=0; j+2k=0 mod 4; 2j=0 mod 4;
+                          flag=0|][m */
+      k = k +_i,? 1; /* [31m(L11 C18)
+                        [|flag=0; k-1>=0; j-2k-2>=0; j+2k+2=0 mod 4;
+                          2j=0 mod 4; flag=0|][m */
+    endif; /* [31m(L12 C10)
+              [|k>=0; j-2k-2>=0; j+2k-6>=0; j+2k+2=0 mod 4; 2j=0 mod 4;
+                4flag=0 mod 4|][m */
+  done; /* [31m(L13 C7)
+           [|k>=0; j-2k-2>=0; j+2k+2=0 mod 4; 2j=0 mod 4; 4flag=0 mod 4|][m */
+  if not k == 0 then
+    /* [31m(L15 C22)
+       [|k>=0; j-2k-2>=0; j+2k+2=0 mod 4; 2j=0 mod 4; 4flag=0 mod 4|][m */
+    assume j == 2 *_i,? k + 2; /* [31m(L16 C30)
+                                  [|-j+2k+2=0; j-2>=0; -j+2k+2=0; 2j=0 mod 4;
+                                    4flag=0 mod 4|][m */
+  endif; /* [31m(L17 C8)
+            [|k>=0; j-2k-2>=0; j+2k+2=0 mod 4; 2j=0 mod 4; 4flag=0 mod 4|][m */
+end
+

@@ -1,0 +1,46 @@
+MODULE main
+	int i;
+	int j;
+	int k;
+	int c1;
+	int c2;
+	int n;
+	int v;
+
+	int finish;
+
+	assume(n > 0 && n < 10);
+	assume(k == 0);
+	assume(i == 0);
+	assume(c1 == 4000);
+	assume(c2 == 2000);
+
+	assume(finish == 0);
+
+	while(i < n){
+		i = i + 1;
+		
+		if(*){
+			v = 0;		
+		}
+		else{
+			v = 1;
+		}
+
+		if(v == 0){
+			k = k + c1;
+		}
+		else{
+			k = k + c2;
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && k <= n;

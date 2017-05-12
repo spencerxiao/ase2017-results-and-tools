@@ -1,0 +1,90 @@
+[32mAnnotated program after forward analysis[m
+var a : int, b : int, c : int, d : int, x : int, y : int;
+begin
+  /* [31m(L2 C5)
+     [|y=0 mod 1; x=0 mod 1; d=0 mod 1; c=0 mod 1; b=0 mod 1; a=0 mod 1|][m */
+  a = 1; /* [31m(L3 C7)
+            [|a-1=0; y=0 mod 1; x=0 mod 1; d=0 mod 1; c=0 mod 1; b=0 mod 1;
+              a-1=0|][m */
+  b = 1; /* [31m(L4 C7)
+            [|b-1=0; a-1=0; y=0 mod 1; x=0 mod 1; d=0 mod 1; c=0 mod 1;
+              b-1=0; a-1=0|][m */
+  c = 2; /* [31m(L5 C7)
+            [|c-2=0; b-1=0; a-1=0; y=0 mod 1; x=0 mod 1; d=0 mod 1; c-2=0;
+              b-1=0; a-1=0|][m */
+  d = 2; /* [31m(L6 C7)
+            [|d-2=0; c-2=0; b-1=0; a-1=0; y=0 mod 1; x=0 mod 1; d-2=0; 
+              c-2=0; b-1=0; a-1=0|][m */
+  x = 3; /* [31m(L7 C7)
+            [|x-3=0; d-2=0; c-2=0; b-1=0; a-1=0; y=0 mod 1; x-3=0; d-2=0;
+              c-2=0; b-1=0; a-1=0|][m */
+  y = 3; /* [31m(L8 C7)
+            [|-b+c-1=0; -a+d+x-y-1>=0; -b+1>=0; -x+y>=0; d-y+1>=0;
+              a-b-2d-x+2y+2>=0; a-d-x+y+2>=0; y=0 mod 1; x=0 mod 1;
+              d=0 mod 1; -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+  while brandom do
+    /* [31m(L9 C19)
+       [|-b+c-1=0; -a+d+x-y-1>=0; -b+1>=0; -x+y>=0; d-y+1>=0;
+         a-b-2d-x+2y+2>=0; a-d-x+y+2>=0; y=0 mod 1; x=0 mod 1; d=0 mod 1;
+         -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+    x = a +_i,? c; /* [31m(L10 C14)
+                      [|-a-b+x-1=0; -b+c-1=0; -a+d-1>=0; -b-d+y+1>=0;
+                        -b+1>=0; d-y+1>=0; y=0 mod 1; -a-b+x-1=0; d=0 mod 1;
+                        -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+    y = b +_i,? d; /* [31m(L11 C14)
+                      [|-a-b+x-1=0; -b-d+y=0; -b+c-1=0; -a+d-1>=0; -b+1>=0;
+                        -b-d+y=0; -a-b+x-1=0; d=0 mod 1; -b+c-1=0; b=0 mod 1;
+                        a=0 mod 1|][m */
+    if (x +_i,? y) %_i,n 2 == 0 then
+       /* [31m(L12 C34)
+          [|-a-b+x-1=0; -b-d+y=0; -b+c-1=0; -a+d-1>=0; -b+1>=0; -b-d+y=0;
+            -a-b+x-1=0; d=0 mod 1; -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+       a = a +_i,? 1; /* [31m(L13 C15)
+                         [|-a-b+x=0; -b-d+y=0; -b+c-1=0; -a+d>=0; -b+1>=0;
+                           -b-d+y=0; -a-b+x=0; d=0 mod 1; -b+c-1=0;
+                           b=0 mod 1; a=0 mod 1|][m */
+       d = d +_i,? 1; /* [31m(L14 C15)
+                         [|-a-b+x=0; -b-d+y+1=0; -b+c-1=0; -a+d-1>=0;
+                           -b+1>=0; -b-d+y+1=0; -a-b+x=0; d=0 mod 1;
+                           -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+    else
+      /* [31m(L15 C6)
+         [|-a-b+x-1=0; -b-d+y=0; -b+c-1=0; -a+d-1>=0; -b+1>=0; -b-d+y=0;
+           -a-b+x-1=0; d=0 mod 1; -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+      a = a -_i,? 1; /* [31m(L16 C15)
+                        [|-a-b+x-2=0; -b-d+y=0; -b+c-1=0; -a+d-2>=0; 
+                          -b+1>=0; -b-d+y=0; -a-b+x-2=0; d=0 mod 1; -b+c-1=0;
+                          b=0 mod 1; a=0 mod 1|][m */
+    endif; /* [31m(L17 C8)
+              [|-b+c-1=0; -a+d+x-y-1>=0; -a+2d+x-2y-1>=0; -x+y>=0;
+                a-b-2d-x+2y+2>=0; a-d-x+y+2>=0; y=0 mod 1; x=0 mod 1;
+                d=0 mod 1; -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+    while brandom do
+      /* [31m(L19 C20)
+         [|-b+c-1=0; -a+d+x-y-1>=0; -a+2d+x-2y-1>=0; -x+y>=0;
+           a-b-2d-x+2y+2>=0; a-d-x+y+2>=0; y=0 mod 1; x=0 mod 1; d=0 mod 1;
+           -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+      c = c -_i,? 1; /* [31m(L20 C15)
+                        [|-b+c=0; -a+d+x-y-1>=0; -a+2d+x-2y-1>=0; -x+y>=0;
+                          a-b-2d-x+2y+2>=0; a-d-x+y+2>=0; y=0 mod 1;
+                          x=0 mod 1; d=0 mod 1; -b+c=0; b=0 mod 1; a=0 mod 1|][m */
+      b = b -_i,? 1; /* [31m(L21 C15)
+                        [|-b+c-1=0; -a+d+x-y-1>=0; -a+2d+x-2y-1>=0; -x+y>=0;
+                          a-b-2d-x+2y+1>=0; a-d-x+y+2>=0; y=0 mod 1;
+                          x=0 mod 1; d=0 mod 1; -b+c-1=0; b=0 mod 1;
+                          a=0 mod 1|][m */
+    done; /* [31m(L22 C7)
+             [|-b+c-1=0; -a+d+x-y-1>=0; -a+2d+x-2y-1>=0; -x+y>=0;
+               a-b-2d-x+2y+2>=0; a-d-x+y+2>=0; y=0 mod 1; x=0 mod 1;
+               d=0 mod 1; -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+  done; /* [31m(L23 C6)
+           [|-b+c-1=0; -a+d+x-y-1>=0; -b+1>=0; -x+y>=0; d-y+1>=0;
+             a-b-2d-x+2y+2>=0; a-d-x+y+2>=0; y=0 mod 1; x=0 mod 1; d=0 mod 1;
+             -b+c-1=0; b=0 mod 1; a=0 mod 1|][m */
+  assume a +_i,? c == b +_i,? d; /* [31m(L25 C32)
+                                    [|-a+d-1=0; -b+c-1=0; -x+y=0; -a-b+x>=0;
+                                      -b+1>=0; a-x+2>=0; -x+y=0; x=0 mod 1;
+                                      -a+d-1=0; -b+c-1=0; b=0 mod 1;
+                                      a=0 mod 1|][m */
+end
+

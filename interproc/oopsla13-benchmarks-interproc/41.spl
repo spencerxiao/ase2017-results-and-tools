@@ -1,0 +1,22 @@
+var flag:int, n:int, i:int, j:int, k:int, z:int;
+begin
+  flag = random; 
+  k = 1;
+  n = random;
+  assume (n >= 0);
+
+  if (not flag == 0) then
+    k = random;
+    assume (k >= 0);
+  endif;
+
+  i = 0;
+  j = 0;
+  while (i <= n) do
+    i = i +_i 1;
+    j = j +_i i;
+  done;
+
+  z = k +_i i +_i j;
+  assume (z > 2 *_i n);
+end

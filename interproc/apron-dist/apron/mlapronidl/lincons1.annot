@@ -1,0 +1,1511 @@
+"lincons1.ml" 43 1140 1144 "lincons1.ml" 43 1140 1148
+type(
+  Linexpr1.t -> Lincons0.typ -> t
+)
+ident(
+  def make "lincons1.ml" 50 1281 1281 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 43 1140 1149 "lincons1.ml" 43 1140 1157
+type(
+  Linexpr1.t
+)
+ident(
+  def linexpr1 "lincons1.ml" 43 1140 1158 "lincons1.ml" 49 1279 1280
+)
+"lincons1.ml" 43 1140 1158 "lincons1.ml" 43 1140 1161
+type(
+  Lincons0.typ
+)
+ident(
+  def typ "lincons1.ml" 43 1140 1164 "lincons1.ml" 49 1279 1280
+)
+"lincons1.ml" 45 1179 1199 "lincons1.ml" 45 1179 1207
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref linexpr1 "lincons1.ml" 43 1140 1149 "lincons1.ml" 43 1140 1157
+)
+"lincons1.ml" 45 1179 1199 "lincons1.ml" 45 1179 1225
+type(
+  Linexpr0.t
+)
+"lincons1.ml" 46 1227 1242 "lincons1.ml" 46 1227 1245
+type(
+  Lincons0.typ
+)
+ident(
+  int_ref typ "lincons1.ml" 43 1140 1158 "lincons1.ml" 43 1140 1161
+)
+"lincons1.ml" 44 1166 1177 "lincons1.ml" 47 1247 1248
+type(
+  Lincons0.t
+)
+"lincons1.ml" 48 1250 1256 "lincons1.ml" 48 1250 1264
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref linexpr1 "lincons1.ml" 43 1140 1149 "lincons1.ml" 43 1140 1157
+)
+"lincons1.ml" 48 1250 1256 "lincons1.ml" 48 1250 1277
+type(
+  Environment.t
+)
+"lincons1.ml" 43 1140 1164 "lincons1.ml" 49 1279 1280
+type(
+  t
+)
+"lincons1.ml" 50 1281 1285 "lincons1.ml" 50 1281 1289
+type(
+  t -> t
+)
+ident(
+  def copy "lincons1.ml" 54 1357 1357 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 50 1281 1290 "lincons1.ml" 50 1281 1294
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 50 1281 1297 "lincons1.ml" 53 1355 1356
+)
+"lincons1.ml" 51 1299 1310 "lincons1.ml" 51 1299 1323
+type(
+  Lincons0.t -> Lincons0.t
+)
+ident(
+  ext_ref Lincons0.copy
+)
+"lincons1.ml" 51 1299 1324 "lincons1.ml" 51 1299 1328
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 50 1281 1290 "lincons1.ml" 50 1281 1294
+)
+"lincons1.ml" 51 1299 1324 "lincons1.ml" 51 1299 1337
+type(
+  Lincons0.t
+)
+"lincons1.ml" 51 1299 1310 "lincons1.ml" 51 1299 1337
+call(
+  stack
+)
+type(
+  Lincons0.t
+)
+"lincons1.ml" 52 1339 1345 "lincons1.ml" 52 1339 1349
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 50 1281 1290 "lincons1.ml" 50 1281 1294
+)
+"lincons1.ml" 52 1339 1345 "lincons1.ml" 52 1339 1353
+type(
+  Environment.t
+)
+"lincons1.ml" 50 1281 1297 "lincons1.ml" 53 1355 1356
+type(
+  t
+)
+"lincons1.ml" 54 1357 1361 "lincons1.ml" 54 1357 1374
+type(
+  Lincons0.typ -> string
+)
+ident(
+  def string_of_typ "lincons1.ml" 56 1401 1401 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 54 1357 1377 "lincons1.ml" 54 1357 1399
+type(
+  Lincons0.typ -> string
+)
+ident(
+  ext_ref Lincons0.string_of_typ
+)
+"lincons1.ml" 56 1401 1405 "lincons1.ml" 56 1401 1410
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "lincons1.ml" 60 1526 1526 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 56 1401 1411 "lincons1.ml" 56 1401 1414
+type(
+  Format.formatter
+)
+ident(
+  def fmt "lincons1.ml" 56 1401 1415 "lincons1.ml" 59 1522 1525
+)
+"lincons1.ml" 56 1401 1415 "lincons1.ml" 56 1401 1419
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 57 1423 1423 "lincons1.ml" 59 1522 1525
+)
+"lincons1.ml" 57 1423 1423 "lincons1.ml" 57 1423 1437
+type(
+  (Dim.t -> string) -> Format.formatter -> Lincons0.t -> unit
+)
+ident(
+  ext_ref Lincons0.print
+)
+"lincons1.ml" 58 1438 1443 "lincons1.ml" 58 1438 1446
+type(
+  Dim.t
+)
+ident(
+  def dim "lincons1.ml" 58 1438 1450 "lincons1.ml" 58 1438 1501
+)
+"lincons1.ml" 58 1438 1450 "lincons1.ml" 58 1438 1463
+type(
+  Var.t -> string
+)
+ident(
+  ext_ref Var.to_string
+)
+"lincons1.ml" 58 1438 1465 "lincons1.ml" 58 1438 1487
+type(
+  Environment.t -> Dim.t -> Var.t
+)
+ident(
+  ext_ref Environment.var_of_dim
+)
+"lincons1.ml" 58 1438 1488 "lincons1.ml" 58 1438 1492
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 56 1401 1415 "lincons1.ml" 56 1401 1419
+)
+"lincons1.ml" 58 1438 1488 "lincons1.ml" 58 1438 1496
+type(
+  Environment.t
+)
+"lincons1.ml" 58 1438 1497 "lincons1.ml" 58 1438 1500
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "lincons1.ml" 58 1438 1443 "lincons1.ml" 58 1438 1446
+)
+"lincons1.ml" 58 1438 1464 "lincons1.ml" 58 1438 1501
+type(
+  Var.t
+)
+"lincons1.ml" 58 1438 1450 "lincons1.ml" 58 1438 1501
+type(
+  string
+)
+"lincons1.ml" 58 1438 1438 "lincons1.ml" 58 1438 1502
+type(
+  Dim.t -> string
+)
+"lincons1.ml" 58 1438 1503 "lincons1.ml" 58 1438 1506
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "lincons1.ml" 56 1401 1411 "lincons1.ml" 56 1401 1414
+)
+"lincons1.ml" 58 1438 1507 "lincons1.ml" 58 1438 1511
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 56 1401 1415 "lincons1.ml" 56 1401 1419
+)
+"lincons1.ml" 58 1438 1507 "lincons1.ml" 58 1438 1520
+type(
+  Lincons0.t
+)
+"lincons1.ml" 57 1423 1423 "lincons1.ml" 58 1438 1520
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons1.ml" 59 1522 1523 "lincons1.ml" 59 1522 1525
+type(
+  unit
+)
+"lincons1.ml" 57 1423 1423 "lincons1.ml" 59 1522 1525
+type(
+  unit
+)
+"lincons1.ml" 60 1526 1530 "lincons1.ml" 60 1526 1537
+type(
+  t -> Lincons0.typ
+)
+ident(
+  def get_typ "lincons1.ml" 61 1572 1572 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 60 1526 1538 "lincons1.ml" 60 1526 1542
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 60 1526 1545 "lincons1.ml" 60 1526 1571
+)
+"lincons1.ml" 60 1526 1545 "lincons1.ml" 60 1526 1549
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 60 1526 1538 "lincons1.ml" 60 1526 1542
+)
+"lincons1.ml" 60 1526 1545 "lincons1.ml" 60 1526 1558
+type(
+  Lincons0.t
+)
+"lincons1.ml" 60 1526 1545 "lincons1.ml" 60 1526 1571
+type(
+  Lincons0.typ
+)
+"lincons1.ml" 61 1572 1576 "lincons1.ml" 61 1572 1583
+type(
+  t -> Lincons0.typ -> unit
+)
+ident(
+  def set_typ "lincons1.ml" 62 1629 1629 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 61 1572 1584 "lincons1.ml" 61 1572 1588
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 61 1572 1589 "lincons1.ml" 61 1572 1628
+)
+"lincons1.ml" 61 1572 1589 "lincons1.ml" 61 1572 1592
+type(
+  Lincons0.typ
+)
+ident(
+  def typ "lincons1.ml" 61 1572 1595 "lincons1.ml" 61 1572 1628
+)
+"lincons1.ml" 61 1572 1595 "lincons1.ml" 61 1572 1599
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 61 1572 1584 "lincons1.ml" 61 1572 1588
+)
+"lincons1.ml" 61 1572 1595 "lincons1.ml" 61 1572 1608
+type(
+  Lincons0.t
+)
+"lincons1.ml" 61 1572 1625 "lincons1.ml" 61 1572 1628
+type(
+  Lincons0.typ
+)
+ident(
+  int_ref typ "lincons1.ml" 61 1572 1589 "lincons1.ml" 61 1572 1592
+)
+"lincons1.ml" 61 1572 1595 "lincons1.ml" 61 1572 1628
+type(
+  unit
+)
+"lincons1.ml" 62 1629 1633 "lincons1.ml" 62 1629 1640
+type(
+  t -> Coeff.t
+)
+ident(
+  def get_cst "lincons1.ml" 63 1697 1697 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 62 1629 1641 "lincons1.ml" 62 1629 1645
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 62 1629 1648 "lincons1.ml" 62 1629 1696
+)
+"lincons1.ml" 62 1629 1648 "lincons1.ml" 62 1629 1664
+type(
+  Linexpr0.t -> Coeff.t
+)
+ident(
+  ext_ref Linexpr0.get_cst
+)
+"lincons1.ml" 62 1629 1665 "lincons1.ml" 62 1629 1669
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 62 1629 1641 "lincons1.ml" 62 1629 1645
+)
+"lincons1.ml" 62 1629 1665 "lincons1.ml" 62 1629 1678
+type(
+  Lincons0.t
+)
+"lincons1.ml" 62 1629 1665 "lincons1.ml" 62 1629 1696
+type(
+  Linexpr0.t
+)
+"lincons1.ml" 62 1629 1648 "lincons1.ml" 62 1629 1696
+type(
+  Coeff.t
+)
+"lincons1.ml" 63 1697 1701 "lincons1.ml" 63 1697 1708
+type(
+  t -> Coeff.t -> unit
+)
+ident(
+  def set_cst "lincons1.ml" 64 1773 1773 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 63 1697 1709 "lincons1.ml" 63 1697 1713
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 63 1697 1714 "lincons1.ml" 63 1697 1772
+)
+"lincons1.ml" 63 1697 1714 "lincons1.ml" 63 1697 1717
+type(
+  Coeff.t
+)
+ident(
+  def cst "lincons1.ml" 63 1697 1720 "lincons1.ml" 63 1697 1772
+)
+"lincons1.ml" 63 1697 1720 "lincons1.ml" 63 1697 1736
+type(
+  Linexpr0.t -> Coeff.t -> unit
+)
+ident(
+  ext_ref Linexpr0.set_cst
+)
+"lincons1.ml" 63 1697 1737 "lincons1.ml" 63 1697 1741
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 63 1697 1709 "lincons1.ml" 63 1697 1713
+)
+"lincons1.ml" 63 1697 1737 "lincons1.ml" 63 1697 1750
+type(
+  Lincons0.t
+)
+"lincons1.ml" 63 1697 1737 "lincons1.ml" 63 1697 1768
+type(
+  Linexpr0.t
+)
+"lincons1.ml" 63 1697 1769 "lincons1.ml" 63 1697 1772
+type(
+  Coeff.t
+)
+ident(
+  int_ref cst "lincons1.ml" 63 1697 1714 "lincons1.ml" 63 1697 1717
+)
+"lincons1.ml" 63 1697 1720 "lincons1.ml" 63 1697 1772
+type(
+  unit
+)
+"lincons1.ml" 64 1773 1777 "lincons1.ml" 64 1773 1789
+type(
+  t -> Lincons0.t
+)
+ident(
+  def get_lincons0 "lincons1.ml" 65 1811 1811 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 64 1773 1790 "lincons1.ml" 64 1773 1794
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 64 1773 1797 "lincons1.ml" 64 1773 1810
+)
+"lincons1.ml" 64 1773 1797 "lincons1.ml" 64 1773 1801
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 64 1773 1790 "lincons1.ml" 64 1773 1794
+)
+"lincons1.ml" 64 1773 1797 "lincons1.ml" 64 1773 1810
+type(
+  Lincons0.t
+)
+"lincons1.ml" 65 1811 1815 "lincons1.ml" 65 1811 1822
+type(
+  t -> Environment.t
+)
+ident(
+  def get_env "lincons1.ml" 66 1839 1839 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 65 1811 1823 "lincons1.ml" 65 1811 1827
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 65 1811 1830 "lincons1.ml" 65 1811 1838
+)
+"lincons1.ml" 65 1811 1830 "lincons1.ml" 65 1811 1834
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 65 1811 1823 "lincons1.ml" 65 1811 1827
+)
+"lincons1.ml" 65 1811 1830 "lincons1.ml" 65 1811 1838
+type(
+  Environment.t
+)
+"lincons1.ml" 66 1839 1843 "lincons1.ml" 66 1839 1851
+type(
+  t -> (Coeff.t * Var.t) list -> Coeff.t option -> unit
+)
+ident(
+  def set_list "lincons1.ml" 75 2007 2007 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 66 1839 1852 "lincons1.ml" 66 1839 1856
+type(
+  t
+)
+ident(
+  def expr "lincons1.ml" 66 1839 1857 "lincons1.ml" 74 2004 2006
+)
+"lincons1.ml" 66 1839 1857 "lincons1.ml" 66 1839 1861
+type(
+  (Coeff.t * Var.t) list
+)
+ident(
+  def list "lincons1.ml" 66 1839 1862 "lincons1.ml" 74 2004 2006
+)
+"lincons1.ml" 66 1839 1862 "lincons1.ml" 66 1839 1866
+type(
+  Coeff.t option
+)
+ident(
+  def ocst "lincons1.ml" 67 1870 1870 "lincons1.ml" 74 2004 2006
+)
+"lincons1.ml" 67 1870 1870 "lincons1.ml" 67 1870 1879
+type(
+  (Coeff.t * Var.t -> unit) -> (Coeff.t * Var.t) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lincons1.ml" 68 1880 1886 "lincons1.ml" 68 1880 1891
+type(
+  Coeff.t
+)
+ident(
+  def coeff "lincons1.ml" 68 1880 1900 "lincons1.ml" 68 1880 1924
+)
+"lincons1.ml" 68 1880 1892 "lincons1.ml" 68 1880 1895
+type(
+  Var.t
+)
+ident(
+  def var "lincons1.ml" 68 1880 1900 "lincons1.ml" 68 1880 1924
+)
+"lincons1.ml" 68 1880 1885 "lincons1.ml" 68 1880 1896
+type(
+  Coeff.t * Var.t
+)
+"lincons1.ml" 68 1880 1900 "lincons1.ml" 68 1880 1909
+type(
+  t -> Var.t -> Coeff.t -> unit
+)
+ident(
+  int_ref set_coeff "lincons1.ml" 27 653 653 "lincons1.ml" 28 704 747
+)
+"lincons1.ml" 68 1880 1910 "lincons1.ml" 68 1880 1914
+type(
+  t
+)
+ident(
+  int_ref expr "lincons1.ml" 66 1839 1852 "lincons1.ml" 66 1839 1856
+)
+"lincons1.ml" 68 1880 1915 "lincons1.ml" 68 1880 1918
+type(
+  Var.t
+)
+ident(
+  int_ref var "lincons1.ml" 68 1880 1892 "lincons1.ml" 68 1880 1895
+)
+"lincons1.ml" 68 1880 1919 "lincons1.ml" 68 1880 1924
+type(
+  Coeff.t
+)
+ident(
+  int_ref coeff "lincons1.ml" 68 1880 1886 "lincons1.ml" 68 1880 1891
+)
+"lincons1.ml" 68 1880 1900 "lincons1.ml" 68 1880 1924
+type(
+  unit
+)
+"lincons1.ml" 68 1880 1880 "lincons1.ml" 68 1880 1926
+type(
+  Coeff.t * Var.t -> unit
+)
+"lincons1.ml" 69 1927 1927 "lincons1.ml" 69 1927 1931
+type(
+  (Coeff.t * Var.t) list
+)
+ident(
+  int_ref list "lincons1.ml" 66 1839 1857 "lincons1.ml" 66 1839 1861
+)
+"lincons1.ml" 67 1870 1870 "lincons1.ml" 69 1927 1931
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons1.ml" 70 1933 1945 "lincons1.ml" 70 1933 1949
+type(
+  Coeff.t option
+)
+ident(
+  int_ref ocst "lincons1.ml" 66 1839 1862 "lincons1.ml" 66 1839 1866
+)
+"lincons1.ml" 71 1955 1962 "lincons1.ml" 71 1955 1965
+type(
+  Coeff.t
+)
+ident(
+  def cst "lincons1.ml" 71 1955 1969 "lincons1.ml" 71 1955 1985
+)
+"lincons1.ml" 71 1955 1957 "lincons1.ml" 71 1955 1965
+type(
+  Coeff.t option
+)
+"lincons1.ml" 71 1955 1969 "lincons1.ml" 71 1955 1976
+type(
+  t -> Coeff.t -> unit
+)
+ident(
+  int_ref set_cst "lincons1.ml" 63 1697 1701 "lincons1.ml" 63 1697 1708
+)
+"lincons1.ml" 71 1955 1977 "lincons1.ml" 71 1955 1981
+type(
+  t
+)
+ident(
+  int_ref expr "lincons1.ml" 66 1839 1852 "lincons1.ml" 66 1839 1856
+)
+"lincons1.ml" 71 1955 1982 "lincons1.ml" 71 1955 1985
+type(
+  Coeff.t
+)
+ident(
+  int_ref cst "lincons1.ml" 71 1955 1962 "lincons1.ml" 71 1955 1965
+)
+"lincons1.ml" 71 1955 1969 "lincons1.ml" 71 1955 1985
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons1.ml" 72 1986 1988 "lincons1.ml" 72 1986 1992
+type(
+  Coeff.t option
+)
+"lincons1.ml" 72 1986 1996 "lincons1.ml" 72 1986 1998
+type(
+  unit
+)
+"lincons1.ml" 70 1933 1933 "lincons1.ml" 73 1999 2002
+type(
+  unit
+)
+"lincons1.ml" 74 2004 2004 "lincons1.ml" 74 2004 2006
+type(
+  unit
+)
+"lincons1.ml" 70 1933 1933 "lincons1.ml" 74 2004 2006
+type(
+  unit
+)
+"lincons1.ml" 67 1870 1870 "lincons1.ml" 74 2004 2006
+type(
+  unit
+)
+"lincons1.ml" 75 2007 2011 "lincons1.ml" 75 2007 2020
+type(
+  t -> (Coeff.t * Var.t) array -> Coeff.t option -> unit
+)
+ident(
+  def set_array "lincons1.ml" 85 2176 2176 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 75 2007 2021 "lincons1.ml" 75 2007 2025
+type(
+  t
+)
+ident(
+  def expr "lincons1.ml" 75 2007 2026 "lincons1.ml" 83 2172 2174
+)
+"lincons1.ml" 75 2007 2026 "lincons1.ml" 75 2007 2029
+type(
+  (Coeff.t * Var.t) array
+)
+ident(
+  def tab "lincons1.ml" 75 2007 2030 "lincons1.ml" 83 2172 2174
+)
+"lincons1.ml" 75 2007 2030 "lincons1.ml" 75 2007 2034
+type(
+  Coeff.t option
+)
+ident(
+  def ocst "lincons1.ml" 76 2038 2038 "lincons1.ml" 83 2172 2174
+)
+"lincons1.ml" 76 2038 2038 "lincons1.ml" 76 2038 2048
+type(
+  (Coeff.t * Var.t -> unit) -> (Coeff.t * Var.t) array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"lincons1.ml" 77 2049 2055 "lincons1.ml" 77 2049 2060
+type(
+  Coeff.t
+)
+ident(
+  def coeff "lincons1.ml" 77 2049 2069 "lincons1.ml" 77 2049 2093
+)
+"lincons1.ml" 77 2049 2061 "lincons1.ml" 77 2049 2064
+type(
+  Var.t
+)
+ident(
+  def var "lincons1.ml" 77 2049 2069 "lincons1.ml" 77 2049 2093
+)
+"lincons1.ml" 77 2049 2054 "lincons1.ml" 77 2049 2065
+type(
+  Coeff.t * Var.t
+)
+"lincons1.ml" 77 2049 2069 "lincons1.ml" 77 2049 2078
+type(
+  t -> Var.t -> Coeff.t -> unit
+)
+ident(
+  int_ref set_coeff "lincons1.ml" 27 653 653 "lincons1.ml" 28 704 747
+)
+"lincons1.ml" 77 2049 2079 "lincons1.ml" 77 2049 2083
+type(
+  t
+)
+ident(
+  int_ref expr "lincons1.ml" 75 2007 2021 "lincons1.ml" 75 2007 2025
+)
+"lincons1.ml" 77 2049 2084 "lincons1.ml" 77 2049 2087
+type(
+  Var.t
+)
+ident(
+  int_ref var "lincons1.ml" 77 2049 2061 "lincons1.ml" 77 2049 2064
+)
+"lincons1.ml" 77 2049 2088 "lincons1.ml" 77 2049 2093
+type(
+  Coeff.t
+)
+ident(
+  int_ref coeff "lincons1.ml" 77 2049 2055 "lincons1.ml" 77 2049 2060
+)
+"lincons1.ml" 77 2049 2069 "lincons1.ml" 77 2049 2093
+type(
+  unit
+)
+"lincons1.ml" 77 2049 2049 "lincons1.ml" 77 2049 2095
+type(
+  Coeff.t * Var.t -> unit
+)
+"lincons1.ml" 78 2096 2096 "lincons1.ml" 78 2096 2099
+type(
+  (Coeff.t * Var.t) array
+)
+ident(
+  int_ref tab "lincons1.ml" 75 2007 2026 "lincons1.ml" 75 2007 2029
+)
+"lincons1.ml" 76 2038 2038 "lincons1.ml" 78 2096 2099
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons1.ml" 79 2101 2113 "lincons1.ml" 79 2101 2117
+type(
+  Coeff.t option
+)
+ident(
+  int_ref ocst "lincons1.ml" 75 2007 2030 "lincons1.ml" 75 2007 2034
+)
+"lincons1.ml" 80 2123 2130 "lincons1.ml" 80 2123 2133
+type(
+  Coeff.t
+)
+ident(
+  def cst "lincons1.ml" 80 2123 2137 "lincons1.ml" 80 2123 2153
+)
+"lincons1.ml" 80 2123 2125 "lincons1.ml" 80 2123 2133
+type(
+  Coeff.t option
+)
+"lincons1.ml" 80 2123 2137 "lincons1.ml" 80 2123 2144
+type(
+  t -> Coeff.t -> unit
+)
+ident(
+  int_ref set_cst "lincons1.ml" 63 1697 1701 "lincons1.ml" 63 1697 1708
+)
+"lincons1.ml" 80 2123 2145 "lincons1.ml" 80 2123 2149
+type(
+  t
+)
+ident(
+  int_ref expr "lincons1.ml" 75 2007 2021 "lincons1.ml" 75 2007 2025
+)
+"lincons1.ml" 80 2123 2150 "lincons1.ml" 80 2123 2153
+type(
+  Coeff.t
+)
+ident(
+  int_ref cst "lincons1.ml" 80 2123 2130 "lincons1.ml" 80 2123 2133
+)
+"lincons1.ml" 80 2123 2137 "lincons1.ml" 80 2123 2153
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons1.ml" 81 2154 2156 "lincons1.ml" 81 2154 2160
+type(
+  Coeff.t option
+)
+"lincons1.ml" 81 2154 2164 "lincons1.ml" 81 2154 2166
+type(
+  unit
+)
+"lincons1.ml" 79 2101 2101 "lincons1.ml" 82 2167 2170
+type(
+  unit
+)
+"lincons1.ml" 83 2172 2172 "lincons1.ml" 83 2172 2174
+type(
+  unit
+)
+"lincons1.ml" 79 2101 2101 "lincons1.ml" 83 2172 2174
+type(
+  unit
+)
+"lincons1.ml" 76 2038 2038 "lincons1.ml" 83 2172 2174
+type(
+  unit
+)
+"lincons1.ml" 85 2176 2180 "lincons1.ml" 85 2176 2184
+type(
+  (Coeff.t -> Var.t -> unit) -> t -> unit
+)
+ident(
+  def iter "lincons1.ml" 91 2315 2315 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 85 2176 2185 "lincons1.ml" 85 2176 2186
+type(
+  Coeff.t -> Var.t -> unit
+)
+ident(
+  def f "lincons1.ml" 85 2176 2187 "lincons1.ml" 90 2283 2314
+)
+"lincons1.ml" 85 2176 2187 "lincons1.ml" 85 2176 2191
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 86 2194 2194 "lincons1.ml" 90 2283 2314
+)
+"lincons1.ml" 86 2194 2194 "lincons1.ml" 86 2194 2207
+type(
+  (Coeff.t -> Dim.t -> unit) -> Linexpr0.t -> unit
+)
+ident(
+  ext_ref Linexpr0.iter
+)
+"lincons1.ml" 87 2208 2219 "lincons1.ml" 87 2208 2224
+type(
+  Coeff.t
+)
+ident(
+  def coeff "lincons1.ml" 87 2208 2225 "lincons1.ml" 88 2232 2277
+)
+"lincons1.ml" 87 2208 2225 "lincons1.ml" 87 2208 2228
+type(
+  Dim.t
+)
+ident(
+  def dim "lincons1.ml" 88 2232 2232 "lincons1.ml" 88 2232 2277
+)
+"lincons1.ml" 88 2232 2232 "lincons1.ml" 88 2232 2233
+type(
+  Coeff.t -> Var.t -> unit
+)
+ident(
+  int_ref f "lincons1.ml" 85 2176 2185 "lincons1.ml" 85 2176 2186
+)
+"lincons1.ml" 88 2232 2234 "lincons1.ml" 88 2232 2239
+type(
+  Coeff.t
+)
+ident(
+  int_ref coeff "lincons1.ml" 87 2208 2219 "lincons1.ml" 87 2208 2224
+)
+"lincons1.ml" 88 2232 2241 "lincons1.ml" 88 2232 2263
+type(
+  Environment.t -> Dim.t -> Var.t
+)
+ident(
+  ext_ref Environment.var_of_dim
+)
+"lincons1.ml" 88 2232 2264 "lincons1.ml" 88 2232 2268
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 85 2176 2187 "lincons1.ml" 85 2176 2191
+)
+"lincons1.ml" 88 2232 2264 "lincons1.ml" 88 2232 2272
+type(
+  Environment.t
+)
+"lincons1.ml" 88 2232 2273 "lincons1.ml" 88 2232 2276
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "lincons1.ml" 87 2208 2225 "lincons1.ml" 87 2208 2228
+)
+"lincons1.ml" 88 2232 2240 "lincons1.ml" 88 2232 2277
+type(
+  Var.t
+)
+"lincons1.ml" 88 2232 2232 "lincons1.ml" 88 2232 2277
+call(
+  tail
+)
+type(
+  unit
+)
+"lincons1.ml" 87 2208 2208 "lincons1.ml" 89 2278 2282
+type(
+  Coeff.t -> Dim.t -> unit
+)
+"lincons1.ml" 90 2283 2283 "lincons1.ml" 90 2283 2287
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 85 2176 2187 "lincons1.ml" 85 2176 2191
+)
+"lincons1.ml" 90 2283 2283 "lincons1.ml" 90 2283 2296
+type(
+  Lincons0.t
+)
+"lincons1.ml" 90 2283 2283 "lincons1.ml" 90 2283 2314
+type(
+  Linexpr0.t
+)
+"lincons1.ml" 86 2194 2194 "lincons1.ml" 90 2283 2314
+type(
+  unit
+)
+"lincons1.ml" 91 2315 2319 "lincons1.ml" 91 2315 2331
+type(
+  t -> Linexpr1.t
+)
+ident(
+  def get_linexpr1 "lincons1.ml" 98 2597 2597 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 91 2315 2332 "lincons1.ml" 91 2315 2336
+type(
+  t
+)
+ident(
+  def cons "lincons1.ml" 91 2315 2339 "lincons1.ml" 94 2419 2420
+)
+"lincons1.ml" 92 2341 2361 "lincons1.ml" 92 2341 2365
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 91 2315 2332 "lincons1.ml" 91 2315 2336
+)
+"lincons1.ml" 92 2341 2361 "lincons1.ml" 92 2341 2374
+type(
+  Lincons0.t
+)
+"lincons1.ml" 92 2341 2361 "lincons1.ml" 92 2341 2392
+type(
+  Linexpr0.t
+)
+"lincons1.ml" 93 2394 2409 "lincons1.ml" 93 2394 2413
+type(
+  t
+)
+ident(
+  int_ref cons "lincons1.ml" 91 2315 2332 "lincons1.ml" 91 2315 2336
+)
+"lincons1.ml" 93 2394 2409 "lincons1.ml" 93 2394 2417
+type(
+  Environment.t
+)
+"lincons1.ml" 91 2315 2339 "lincons1.ml" 94 2419 2420
+type(
+  Linexpr1.t
+)
+"lincons1.ml" 105 2866 2870 "lincons1.ml" 105 2866 2880
+type(
+  Environment.t -> int -> earray
+)
+ident(
+  def array_make "lincons1.ml" 111 3012 3012 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 105 2866 2881 "lincons1.ml" 105 2866 2884
+type(
+  Environment.t
+)
+ident(
+  def env "lincons1.ml" 105 2866 2885 "lincons1.ml" 110 3010 3011
+)
+"lincons1.ml" 105 2866 2885 "lincons1.ml" 105 2866 2889
+type(
+  int
+)
+ident(
+  def size "lincons1.ml" 106 2892 2892 "lincons1.ml" 110 3010 3011
+)
+"lincons1.ml" 106 2892 2896 "lincons1.ml" 106 2892 2900
+type(
+  Lincons0.t
+)
+ident(
+  def cons "lincons1.ml" 107 2953 2953 "lincons1.ml" 110 3010 3011
+)
+"lincons1.ml" 106 2892 2903 "lincons1.ml" 106 2892 2916
+type(
+  Linexpr0.t -> Lincons0.typ -> Lincons0.t
+)
+ident(
+  ext_ref Lincons0.make
+)
+"lincons1.ml" 106 2892 2918 "lincons1.ml" 106 2892 2931
+type(
+  int option -> Linexpr0.t
+)
+ident(
+  ext_ref Linexpr0.make
+)
+"lincons1.ml" 106 2892 2932 "lincons1.ml" 106 2892 2936
+type(
+  int option
+)
+"lincons1.ml" 106 2892 2917 "lincons1.ml" 106 2892 2937
+type(
+  Linexpr0.t
+)
+"lincons1.ml" 106 2892 2938 "lincons1.ml" 106 2892 2949
+type(
+  Lincons0.typ
+)
+"lincons1.ml" 106 2892 2903 "lincons1.ml" 106 2892 2949
+call(
+  stack
+)
+type(
+  Lincons0.t
+)
+"lincons1.ml" 108 2955 2972 "lincons1.ml" 108 2955 2982
+type(
+  int -> Lincons0.t -> Lincons0.t array
+)
+ident(
+  ext_ref Array.make
+)
+"lincons1.ml" 108 2955 2983 "lincons1.ml" 108 2955 2987
+type(
+  int
+)
+ident(
+  int_ref size "lincons1.ml" 105 2866 2885 "lincons1.ml" 105 2866 2889
+)
+"lincons1.ml" 108 2955 2988 "lincons1.ml" 108 2955 2992
+type(
+  Lincons0.t
+)
+ident(
+  int_ref cons "lincons1.ml" 106 2892 2896 "lincons1.ml" 106 2892 2900
+)
+"lincons1.ml" 108 2955 2972 "lincons1.ml" 108 2955 2992
+type(
+  Lincons0.t array
+)
+"lincons1.ml" 109 2994 3006 "lincons1.ml" 109 2994 3009
+type(
+  Environment.t
+)
+ident(
+  int_ref env "lincons1.ml" 105 2866 2881 "lincons1.ml" 105 2866 2884
+)
+"lincons1.ml" 107 2953 2953 "lincons1.ml" 110 3010 3011
+type(
+  earray
+)
+"lincons1.ml" 106 2892 2892 "lincons1.ml" 110 3010 3011
+type(
+  earray
+)
+"lincons1.ml" 111 3012 3016 "lincons1.ml" 111 3012 3027
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  Format.formatter -> earray -> unit
+)
+ident(
+  def array_print "lincons1.ml" 122 3368 3368 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 112 3028 3030 "lincons1.ml" 112 3028 3035
+type(
+  (unit, Format.formatter, unit) format
+)
+"lincons1.ml" 112 3028 3037 "lincons1.ml" 112 3028 3048
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"lincons1.ml" 113 3087 3089 "lincons1.ml" 113 3087 3092
+type(
+  (unit, Format.formatter, unit) format
+)
+"lincons1.ml" 113 3087 3096 "lincons1.ml" 113 3087 3101
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"lincons1.ml" 114 3140 3142 "lincons1.ml" 114 3140 3146
+type(
+  (unit, Format.formatter, unit) format
+)
+"lincons1.ml" 114 3140 3150 "lincons1.ml" 114 3140 3156
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"lincons1.ml" 115 3195 3195 "lincons1.ml" 115 3195 3198
+type(
+  Format.formatter
+)
+ident(
+  def fmt "lincons1.ml" 115 3195 3199 "lincons1.ml" 121 3365 3367
+)
+"lincons1.ml" 115 3195 3199 "lincons1.ml" 115 3195 3204
+type(
+  earray
+)
+ident(
+  def array "lincons1.ml" 117 3209 3209 "lincons1.ml" 121 3365 3367
+)
+"lincons1.ml" 117 3209 3209 "lincons1.ml" 117 3209 3230
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Lincons0.t -> unit) ->
+  Format.formatter -> Lincons0.t array -> unit
+)
+ident(
+  ext_ref Abstract0.print_array
+)
+"lincons1.ml" 117 3209 3232 "lincons1.ml" 117 3209 3237
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref first "lincons1.ml" 112 3028 3030 "lincons1.ml" 112 3028 3035
+)
+"lincons1.ml" 117 3209 3239 "lincons1.ml" 117 3209 3242
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref sep "lincons1.ml" 113 3087 3089 "lincons1.ml" 113 3087 3092
+)
+"lincons1.ml" 117 3209 3244 "lincons1.ml" 117 3209 3248
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref last "lincons1.ml" 114 3140 3142 "lincons1.ml" 114 3140 3146
+)
+"lincons1.ml" 118 3249 3250 "lincons1.ml" 118 3249 3264
+type(
+  (Dim.t -> string) -> Format.formatter -> Lincons0.t -> unit
+)
+ident(
+  ext_ref Lincons0.print
+)
+"lincons1.ml" 119 3265 3270 "lincons1.ml" 119 3265 3273
+type(
+  Dim.t
+)
+ident(
+  def dim "lincons1.ml" 119 3265 3277 "lincons1.ml" 119 3265 3335
+)
+"lincons1.ml" 119 3265 3277 "lincons1.ml" 119 3265 3290
+type(
+  Var.t -> string
+)
+ident(
+  ext_ref Var.to_string
+)
+"lincons1.ml" 119 3265 3292 "lincons1.ml" 119 3265 3314
+type(
+  Environment.t -> Dim.t -> Var.t
+)
+ident(
+  ext_ref Environment.var_of_dim
+)
+"lincons1.ml" 119 3265 3315 "lincons1.ml" 119 3265 3320
+type(
+  earray
+)
+ident(
+  int_ref array "lincons1.ml" 115 3195 3199 "lincons1.ml" 115 3195 3204
+)
+"lincons1.ml" 119 3265 3315 "lincons1.ml" 119 3265 3330
+type(
+  Environment.t
+)
+"lincons1.ml" 119 3265 3331 "lincons1.ml" 119 3265 3334
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "lincons1.ml" 119 3265 3270 "lincons1.ml" 119 3265 3273
+)
+"lincons1.ml" 119 3265 3291 "lincons1.ml" 119 3265 3335
+type(
+  Var.t
+)
+"lincons1.ml" 119 3265 3277 "lincons1.ml" 119 3265 3335
+type(
+  string
+)
+"lincons1.ml" 119 3265 3265 "lincons1.ml" 119 3265 3336
+type(
+  Dim.t -> string
+)
+"lincons1.ml" 118 3249 3249 "lincons1.ml" 119 3265 3337
+call(
+  stack
+)
+type(
+  Format.formatter -> Lincons0.t -> unit
+)
+"lincons1.ml" 120 3338 3339 "lincons1.ml" 120 3338 3342
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "lincons1.ml" 115 3195 3195 "lincons1.ml" 115 3195 3198
+)
+"lincons1.ml" 120 3338 3343 "lincons1.ml" 120 3338 3348
+type(
+  earray
+)
+ident(
+  int_ref array "lincons1.ml" 115 3195 3199 "lincons1.ml" 115 3195 3204
+)
+"lincons1.ml" 120 3338 3343 "lincons1.ml" 120 3338 3363
+type(
+  Lincons0.t array
+)
+"lincons1.ml" 117 3209 3209 "lincons1.ml" 120 3338 3363
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons1.ml" 121 3365 3365 "lincons1.ml" 121 3365 3367
+type(
+  unit
+)
+"lincons1.ml" 117 3209 3209 "lincons1.ml" 121 3365 3367
+type(
+  unit
+)
+"lincons1.ml" 122 3368 3372 "lincons1.ml" 122 3368 3384
+type(
+  earray -> int
+)
+ident(
+  def array_length "lincons1.ml" 123 3429 3429 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 122 3368 3385 "lincons1.ml" 122 3368 3390
+type(
+  earray
+)
+ident(
+  def array "lincons1.ml" 122 3368 3393 "lincons1.ml" 122 3368 3428
+)
+"lincons1.ml" 122 3368 3393 "lincons1.ml" 122 3368 3405
+type(
+  Lincons0.t array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"lincons1.ml" 122 3368 3407 "lincons1.ml" 122 3368 3412
+type(
+  earray
+)
+ident(
+  int_ref array "lincons1.ml" 122 3368 3385 "lincons1.ml" 122 3368 3390
+)
+"lincons1.ml" 122 3368 3406 "lincons1.ml" 122 3368 3428
+type(
+  Lincons0.t array
+)
+"lincons1.ml" 122 3368 3393 "lincons1.ml" 122 3368 3428
+type(
+  int
+)
+"lincons1.ml" 123 3429 3433 "lincons1.ml" 123 3429 3446
+type(
+  earray -> Environment.t
+)
+ident(
+  def array_get_env "lincons1.ml" 124 3471 3471 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 123 3429 3447 "lincons1.ml" 123 3429 3452
+type(
+  earray
+)
+ident(
+  def array "lincons1.ml" 123 3429 3455 "lincons1.ml" 123 3429 3470
+)
+"lincons1.ml" 123 3429 3455 "lincons1.ml" 123 3429 3460
+type(
+  earray
+)
+ident(
+  int_ref array "lincons1.ml" 123 3429 3447 "lincons1.ml" 123 3429 3452
+)
+"lincons1.ml" 123 3429 3455 "lincons1.ml" 123 3429 3470
+type(
+  Environment.t
+)
+"lincons1.ml" 124 3471 3475 "lincons1.ml" 124 3471 3484
+type(
+  earray -> int -> t
+)
+ident(
+  def array_get "lincons1.ml" 127 3588 3588 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 124 3471 3485 "lincons1.ml" 124 3471 3490
+type(
+  earray
+)
+ident(
+  def array "lincons1.ml" 124 3471 3491 "lincons1.ml" 126 3543 3587
+)
+"lincons1.ml" 124 3471 3491 "lincons1.ml" 124 3471 3496
+type(
+  int
+)
+ident(
+  def index "lincons1.ml" 125 3499 3499 "lincons1.ml" 126 3543 3587
+)
+"lincons1.ml" 125 3499 3503 "lincons1.ml" 125 3499 3508
+type(
+  Lincons0.t
+)
+ident(
+  def cons0 "lincons1.ml" 126 3543 3543 "lincons1.ml" 126 3543 3587
+)
+"lincons1.ml" 125 3499 3511 "lincons1.ml" 125 3499 3516
+type(
+  earray
+)
+ident(
+  int_ref array "lincons1.ml" 124 3471 3485 "lincons1.ml" 124 3471 3490
+)
+"lincons1.ml" 125 3499 3511 "lincons1.ml" 125 3499 3531
+type(
+  Lincons0.t array
+)
+"lincons1.ml" 125 3499 3533 "lincons1.ml" 125 3499 3538
+type(
+  int
+)
+ident(
+  int_ref index "lincons1.ml" 124 3471 3491 "lincons1.ml" 124 3471 3496
+)
+"lincons1.ml" 125 3499 3511 "lincons1.ml" 125 3499 3539
+type(
+  Lincons0.t
+)
+"lincons1.ml" 126 3543 3556 "lincons1.ml" 126 3543 3561
+type(
+  Lincons0.t
+)
+ident(
+  int_ref cons0 "lincons1.ml" 125 3499 3503 "lincons1.ml" 125 3499 3508
+)
+"lincons1.ml" 126 3543 3569 "lincons1.ml" 126 3543 3574
+type(
+  earray
+)
+ident(
+  int_ref array "lincons1.ml" 124 3471 3485 "lincons1.ml" 124 3471 3490
+)
+"lincons1.ml" 126 3543 3569 "lincons1.ml" 126 3543 3584
+type(
+  Environment.t
+)
+"lincons1.ml" 126 3543 3543 "lincons1.ml" 126 3543 3587
+type(
+  t
+)
+"lincons1.ml" 125 3499 3499 "lincons1.ml" 126 3543 3587
+type(
+  t
+)
+"lincons1.ml" 127 3588 3592 "lincons1.ml" 127 3588 3601
+type(
+  earray -> int -> t -> unit
+)
+ident(
+  def array_set "lincons1.ml" 131 3746 3793 "lincons1.ml" 1 0 -1
+)
+"lincons1.ml" 127 3588 3602 "lincons1.ml" 127 3588 3607
+type(
+  earray
+)
+ident(
+  def array "lincons1.ml" 127 3588 3608 "lincons1.ml" 131 3746 3793
+)
+"lincons1.ml" 127 3588 3608 "lincons1.ml" 127 3588 3613
+type(
+  int
+)
+ident(
+  def index "lincons1.ml" 127 3588 3614 "lincons1.ml" 131 3746 3793
+)
+"lincons1.ml" 127 3588 3614 "lincons1.ml" 127 3588 3619
+type(
+  t
+)
+ident(
+  def cons1 "lincons1.ml" 128 3622 3622 "lincons1.ml" 131 3746 3793
+)
+"lincons1.ml" 128 3622 3625 "lincons1.ml" 128 3622 3628
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"lincons1.ml" 128 3622 3630 "lincons1.ml" 128 3622 3647
+type(
+  Environment.t -> Environment.t -> bool
+)
+ident(
+  ext_ref Environment.equal
+)
+"lincons1.ml" 128 3622 3648 "lincons1.ml" 128 3622 3653
+type(
+  earray
+)
+ident(
+  int_ref array "lincons1.ml" 127 3588 3602 "lincons1.ml" 127 3588 3607
+)
+"lincons1.ml" 128 3622 3648 "lincons1.ml" 128 3622 3663
+type(
+  Environment.t
+)
+"lincons1.ml" 128 3622 3664 "lincons1.ml" 128 3622 3669
+type(
+  t
+)
+ident(
+  int_ref cons1 "lincons1.ml" 127 3588 3614 "lincons1.ml" 127 3588 3619
+)
+"lincons1.ml" 128 3622 3664 "lincons1.ml" 128 3622 3673
+type(
+  Environment.t
+)
+"lincons1.ml" 128 3622 3629 "lincons1.ml" 128 3622 3674
+type(
+  bool
+)
+"lincons1.ml" 128 3622 3625 "lincons1.ml" 128 3622 3674
+type(
+  bool
+)
+"lincons1.ml" 129 3680 3680 "lincons1.ml" 129 3680 3688
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"lincons1.ml" 129 3680 3689 "lincons1.ml" 129 3680 3740
+type(
+  string
+)
+"lincons1.ml" 129 3680 3680 "lincons1.ml" 129 3680 3740
+call(
+  tail
+)
+type(
+  unit
+)
+"lincons1.ml" 131 3746 3746 "lincons1.ml" 131 3746 3751
+type(
+  earray
+)
+ident(
+  int_ref array "lincons1.ml" 127 3588 3602 "lincons1.ml" 127 3588 3607
+)
+"lincons1.ml" 131 3746 3746 "lincons1.ml" 131 3746 3766
+type(
+  Lincons0.t array
+)
+"lincons1.ml" 131 3746 3768 "lincons1.ml" 131 3746 3773
+type(
+  int
+)
+ident(
+  int_ref index "lincons1.ml" 127 3588 3608 "lincons1.ml" 127 3588 3613
+)
+"lincons1.ml" 131 3746 3778 "lincons1.ml" 131 3746 3783
+type(
+  t
+)
+ident(
+  int_ref cons1 "lincons1.ml" 127 3588 3614 "lincons1.ml" 127 3588 3619
+)
+"lincons1.ml" 131 3746 3778 "lincons1.ml" 131 3746 3792
+type(
+  Lincons0.t
+)
+"lincons1.ml" 131 3746 3746 "lincons1.ml" 131 3746 3792
+type(
+  unit
+)
+"lincons1.ml" 128 3622 3622 "lincons1.ml" 131 3746 3793
+type(
+  unit
+)

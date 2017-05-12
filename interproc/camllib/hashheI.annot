@@ -1,0 +1,18 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheI.ml" 7 139 147 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheI.ml" 7 139 152
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def equal "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheI.ml" 7 139 158 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheI.ml" 8 159 164
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheI.ml" 7 139 155 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheI.ml" 7 139 158
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheI.ml" 3 48 56 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheI.ml" 9 165 166
+call(
+  stack
+)

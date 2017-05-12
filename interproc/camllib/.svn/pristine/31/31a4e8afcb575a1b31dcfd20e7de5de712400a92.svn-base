@@ -1,0 +1,19 @@
+{{:../index.html}Up}
+
+{!indexlist}
+
+{2 Common data-structures}
+Variants of modules of the standard OCaml library
+{!modules: Sette Mappe Hashhe}
+
+Data-structures
+{!modules: Union DMappe DHashhe Ilist SHGraph SetList MultiSetList}
+
+Parametrized polymorphic versions
+{!modules: PSette PMappe PHashhe PDMappe PDHashhe PSHGraph}
+
+Misc
+{!modules: Print Time Symbol Parse Rational Statistic FGraph1 FGraph}
+
+Instanciation of functors
+{!modules: SetteI SetteS MappeI MappeS HashheI HashheIB HashheS}

@@ -1,0 +1,21 @@
+var a:int, j:int, m:int;
+begin
+  a = 0;
+  j = 1;
+  m = random;
+  if ( m <= 0) then
+    halt;
+  endif;
+
+  while (j <= m) do 
+    if (brandom) then
+      a = a +_i 1;
+    else
+      a = a -_i 1;
+    endif;
+    j = j +_i 1;
+  done;
+
+  assume (a >= -m);
+  assume ( a <= m);
+end

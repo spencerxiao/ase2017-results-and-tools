@@ -1,0 +1,52 @@
+none:	N8 -{INIT GLOBAL VARS}-> N30
+line 1:	N30 -{int __VERIFIER_nondet_int();}-> N31
+lines 3-7:	N31 -{void __VERIFIER_assume(int i);}-> N32
+lines 12-28:	N32 -{int main(int n, int flag);}-> N33
+none:	N33 -{Function start dummy edge}-> N9
+	flag == 1;
+	n == 0;
+line 13:	N9 -{__VERIFIER_assume(n >= 0)}-> N1
+	n == 0;
+	flag == 1;
+none:	N1 -{Function start dummy edge}-> N2
+	i == 1;
+line 5:	N2 -{while}-> N3
+	i == 1;
+line 5:	N3 -{[!(i == 0)]}-> N5
+	i == 1;
+line 6:	N5 -{return;}-> N0
+line 13:	N0 -{Return edge from __VERIFIER_assume to main}-> N10
+line 14:	N10 -{int k = 1;}-> N11
+	k == 1;
+line 15:	N11 -{[!(flag == 0)]}-> N13
+	flag == 1;
+line 16:	N13 -{k = __VERIFIER_nondet_int();}-> N14
+	k == -2;
+line 17:	N14 -{assume(k >= 0);}-> N15
+none:	N15 -{}-> N12
+line 19:	N12 -{int i = 0;}-> N16
+	i == 0;
+line 19:	N16 -{int j = 0;}-> N17
+	j == 0;
+	i == 0;
+lines 20-23:	N17 -{while}-> N18
+line 20:	N18 -{[i <= n]}-> N19
+	i == 0;
+n == 0;
+line 21:	N19 -{int __CPAchecker_TMP_0 = i;}-> N21
+line 21:	N21 -{i = i + 1;}-> N22
+	i == 1;
+line 21:	N22 -{__CPAchecker_TMP_0;}-> N23
+line 22:	N23 -{j = j + i;}-> N24
+	i == 1;
+	j == 1;
+none:	N24 -{}-> N18
+line 20:	N18 -{[!(i <= n)]}-> N20
+	i == 1;
+n == 0;
+line 24:	N20 -{int z = (k + i) + j;}-> N25
+	z == 0;
+line 25:	N25 -{[!(z > (2 * n))]}-> N27
+	z == 0;
+2 * n == 0
+line 26:	N27 -{Label: ERROR}-> N28

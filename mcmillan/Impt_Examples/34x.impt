@@ -1,0 +1,36 @@
+MODULE main
+	int x;
+	int y;
+	int i;
+	int m;
+
+	int finish;
+
+	assume(x == 0);
+	assume(y == 0);
+	assume(i == 0);
+	assume(m == 10);
+
+	assume(finish == 0);
+
+	while(i < m){
+		i = i + 1;
+		x = x + 1;
+
+		if(x % 2 == 0){
+			y = y + 1;		
+		}
+		else{
+			skip;	
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && (i == m && x != 2*y);

@@ -1,0 +1,8 @@
+line 13:	N9 -{__VERIFIER_assume(n >= 0)}-> N1
+line 5:	N2 -{while}-> N3
+line 5:	N3 -{[!(i == 0)]}-> N5
+line 15:	N11 -{[!(flag == 0)]}-> N13
+line 17:	N14 -{assume(k >= 0);}-> N15
+line 19:	N12 -{int i = 0;}-> N16
+lines 20-23:	N17 -{while}-> N18
+line 20:	N18 -{[i <= n]}-> N19

@@ -1,0 +1,528 @@
+"oct.ml" 44 1494 1498 "oct.ml" 44 1494 1510
+type(
+  int
+)
+ident(
+  def pre_widening "oct.ml" 47 1518 1518 "oct.ml" 1 0 -1
+)
+"oct.ml" 44 1494 1513 "oct.ml" 44 1494 1515
+type(
+  int
+)
+"oct.ml" 47 1518 1522 "oct.ml" 47 1518 1536
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_oct "oct.ml" 50 1620 1620 "oct.ml" 1 0 -1
+)
+"oct.ml" 47 1518 1537 "oct.ml" 47 1518 1540
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "oct.ml" 48 1543 1545 "oct.ml" 49 1588 1619
+)
+"oct.ml" 48 1543 1549 "oct.ml" 48 1543 1552
+type(
+  string
+)
+ident(
+  def str "oct.ml" 49 1588 1590 "oct.ml" 49 1588 1619
+)
+"oct.ml" 48 1543 1555 "oct.ml" 48 1543 1580
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"oct.ml" 48 1543 1581 "oct.ml" 48 1543 1584
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "oct.ml" 47 1518 1537 "oct.ml" 47 1518 1540
+)
+"oct.ml" 48 1543 1555 "oct.ml" 48 1543 1584
+type(
+  string
+)
+"oct.ml" 49 1588 1591 "oct.ml" 49 1588 1605
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"oct.ml" 49 1588 1606 "oct.ml" 49 1588 1609
+type(
+  String.t
+)
+ident(
+  int_ref str "oct.ml" 48 1543 1549 "oct.ml" 48 1543 1552
+)
+"oct.ml" 49 1588 1610 "oct.ml" 49 1588 1615
+type(
+  String.t
+)
+"oct.ml" 49 1588 1590 "oct.ml" 49 1588 1616
+call(
+  stack
+)
+type(
+  int
+)
+"oct.ml" 49 1588 1616 "oct.ml" 49 1588 1618
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"oct.ml" 49 1588 1618 "oct.ml" 49 1588 1619
+type(
+  int
+)
+"oct.ml" 49 1588 1590 "oct.ml" 49 1588 1619
+type(
+  bool
+)
+"oct.ml" 48 1543 1545 "oct.ml" 49 1588 1619
+type(
+  bool
+)
+"oct.ml" 50 1620 1624 "oct.ml" 50 1620 1638
+type(
+  t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  def manager_of_oct "oct.ml" 51 1700 1700 "oct.ml" 1 0 -1
+)
+"oct.ml" 50 1620 1640 "oct.ml" 50 1620 1643
+type(
+  t Apron.Manager.t
+)
+ident(
+  def man "oct.ml" 50 1620 1663 "oct.ml" 50 1620 1699
+)
+"oct.ml" 50 1620 1686 "oct.ml" 50 1620 1695
+type(
+  t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"oct.ml" 50 1620 1696 "oct.ml" 50 1620 1699
+type(
+  t Apron.Manager.t
+)
+ident(
+  int_ref man "oct.ml" 50 1620 1640 "oct.ml" 50 1620 1643
+)
+"oct.ml" 50 1620 1686 "oct.ml" 50 1620 1699
+type(
+  'a Apron.Manager.t
+)
+type(
+  'a Apron.Manager.t
+)
+"oct.ml" 51 1700 1704 "oct.ml" 51 1700 1718
+type(
+  'a Apron.Manager.t -> t Apron.Manager.t
+)
+ident(
+  def manager_to_oct "oct.ml" 56 1898 1898 "oct.ml" 1 0 -1
+)
+"oct.ml" 51 1700 1720 "oct.ml" 51 1700 1723
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "oct.ml" 51 1700 1744 "oct.ml" 55 1820 1897
+)
+"oct.ml" 52 1766 1771 "oct.ml" 52 1766 1785
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_oct "oct.ml" 47 1518 1522 "oct.ml" 47 1518 1536
+)
+"oct.ml" 52 1766 1786 "oct.ml" 52 1766 1789
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "oct.ml" 51 1700 1720 "oct.ml" 51 1700 1723
+)
+"oct.ml" 52 1766 1771 "oct.ml" 52 1766 1789
+call(
+  stack
+)
+type(
+  bool
+)
+"oct.ml" 53 1795 1799 "oct.ml" 53 1795 1808
+type(
+  'a Apron.Manager.t -> t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"oct.ml" 53 1795 1809 "oct.ml" 53 1795 1812
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "oct.ml" 51 1700 1720 "oct.ml" 51 1700 1723
+)
+"oct.ml" 53 1795 1799 "oct.ml" 53 1795 1812
+type(
+  t Apron.Manager.t
+)
+"oct.ml" 55 1820 1824 "oct.ml" 55 1820 1832
+type(
+  string -> t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"oct.ml" 55 1820 1833 "oct.ml" 55 1820 1897
+type(
+  string
+)
+"oct.ml" 55 1820 1824 "oct.ml" 55 1820 1897
+call(
+  tail
+)
+type(
+  t Apron.Manager.t
+)
+"oct.ml" 52 1766 1768 "oct.ml" 55 1820 1897
+type(
+  t Apron.Manager.t
+)
+type(
+  t Apron.Manager.t
+)
+"oct.ml" 57 1924 1930 "oct.ml" 57 1924 1936
+type(
+  'a Apron.Abstract0.t -> bool
+)
+ident(
+  def is_oct "oct.ml" 59 1992 1994 "oct.ml" 65 2257 2260
+)
+"oct.ml" 57 1924 1937 "oct.ml" 57 1924 1940
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  def abs "oct.ml" 58 1943 1947 "oct.ml" 58 1943 1991
+)
+"oct.ml" 58 1943 1947 "oct.ml" 58 1943 1961
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_oct "oct.ml" 47 1518 1522 "oct.ml" 47 1518 1536
+)
+"oct.ml" 58 1943 1963 "oct.ml" 58 1943 1986
+type(
+  'a Apron.Abstract0.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"oct.ml" 58 1943 1987 "oct.ml" 58 1943 1990
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  int_ref abs "oct.ml" 57 1924 1937 "oct.ml" 57 1924 1940
+)
+"oct.ml" 58 1943 1962 "oct.ml" 58 1943 1991
+type(
+  'a Apron.Manager.t
+)
+"oct.ml" 58 1943 1947 "oct.ml" 58 1943 1991
+call(
+  tail
+)
+type(
+  bool
+)
+"oct.ml" 59 1992 1998 "oct.ml" 59 1992 2004
+type(
+  t Apron.Abstract0.t -> 'a0 Apron.Abstract0.t
+)
+ident(
+  def of_oct "oct.ml" 60 2071 2073 "oct.ml" 65 2257 2260
+)
+"oct.ml" 59 1992 2006 "oct.ml" 59 1992 2009
+type(
+  t Apron.Abstract0.t
+)
+ident(
+  def abs "oct.ml" 59 1992 2032 "oct.ml" 59 1992 2070
+)
+"oct.ml" 59 1992 2057 "oct.ml" 59 1992 2066
+type(
+  t Apron.Abstract0.t -> 'a0 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"oct.ml" 59 1992 2067 "oct.ml" 59 1992 2070
+type(
+  t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "oct.ml" 59 1992 2006 "oct.ml" 59 1992 2009
+)
+"oct.ml" 59 1992 2057 "oct.ml" 59 1992 2070
+type(
+  'a0 Apron.Abstract0.t
+)
+type(
+  'a0 Apron.Abstract0.t
+)
+"oct.ml" 60 2071 2077 "oct.ml" 60 2071 2083
+type(
+  'a1 Apron.Abstract0.t -> t Apron.Abstract0.t
+)
+ident(
+  def to_oct "oct.ml" 64 2181 2256 "oct.ml" 65 2257 2260
+)
+"oct.ml" 60 2071 2085 "oct.ml" 60 2071 2088
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  def abs "oct.ml" 60 2071 2111 "oct.ml" 64 2181 2256
+)
+"oct.ml" 61 2135 2140 "oct.ml" 61 2135 2146
+type(
+  'a1 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_oct "oct.ml" 57 1924 1930 "oct.ml" 57 1924 1936
+)
+"oct.ml" 61 2135 2147 "oct.ml" 61 2135 2150
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "oct.ml" 60 2071 2085 "oct.ml" 60 2071 2088
+)
+"oct.ml" 61 2135 2140 "oct.ml" 61 2135 2150
+call(
+  stack
+)
+type(
+  bool
+)
+"oct.ml" 62 2156 2160 "oct.ml" 62 2156 2169
+type(
+  'a1 Apron.Abstract0.t -> t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"oct.ml" 62 2156 2170 "oct.ml" 62 2156 2173
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "oct.ml" 60 2071 2085 "oct.ml" 60 2071 2088
+)
+"oct.ml" 62 2156 2160 "oct.ml" 62 2156 2173
+type(
+  t Apron.Abstract0.t
+)
+"oct.ml" 64 2181 2185 "oct.ml" 64 2181 2193
+type(
+  string -> t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"oct.ml" 64 2181 2194 "oct.ml" 64 2181 2256
+type(
+  string
+)
+"oct.ml" 64 2181 2185 "oct.ml" 64 2181 2256
+call(
+  tail
+)
+type(
+  t Apron.Abstract0.t
+)
+"oct.ml" 61 2135 2137 "oct.ml" 64 2181 2256
+type(
+  t Apron.Abstract0.t
+)
+type(
+  t Apron.Abstract0.t
+)
+"oct.ml" 67 2287 2293 "oct.ml" 67 2287 2299
+type(
+  'a Apron.Abstract1.t -> bool
+)
+ident(
+  def is_oct "oct.ml" 69 2355 2357 "oct.ml" 75 2620 2623
+)
+"oct.ml" 67 2287 2300 "oct.ml" 67 2287 2303
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  def abs "oct.ml" 68 2306 2310 "oct.ml" 68 2306 2354
+)
+"oct.ml" 68 2306 2310 "oct.ml" 68 2306 2324
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_oct "oct.ml" 47 1518 1522 "oct.ml" 47 1518 1536
+)
+"oct.ml" 68 2306 2326 "oct.ml" 68 2306 2349
+type(
+  'a Apron.Abstract1.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"oct.ml" 68 2306 2350 "oct.ml" 68 2306 2353
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  int_ref abs "oct.ml" 67 2287 2300 "oct.ml" 67 2287 2303
+)
+"oct.ml" 68 2306 2325 "oct.ml" 68 2306 2354
+call(
+  stack
+)
+type(
+  'a Apron.Manager.t
+)
+"oct.ml" 68 2306 2310 "oct.ml" 68 2306 2354
+call(
+  tail
+)
+type(
+  bool
+)
+"oct.ml" 69 2355 2361 "oct.ml" 69 2355 2367
+type(
+  t Apron.Abstract1.t -> 'a0 Apron.Abstract1.t
+)
+ident(
+  def of_oct "oct.ml" 70 2434 2436 "oct.ml" 75 2620 2623
+)
+"oct.ml" 69 2355 2369 "oct.ml" 69 2355 2372
+type(
+  t Apron.Abstract1.t
+)
+ident(
+  def abs "oct.ml" 69 2355 2395 "oct.ml" 69 2355 2433
+)
+"oct.ml" 69 2355 2420 "oct.ml" 69 2355 2429
+type(
+  t Apron.Abstract1.t -> 'a0 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"oct.ml" 69 2355 2430 "oct.ml" 69 2355 2433
+type(
+  t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "oct.ml" 69 2355 2369 "oct.ml" 69 2355 2372
+)
+"oct.ml" 69 2355 2420 "oct.ml" 69 2355 2433
+type(
+  'a0 Apron.Abstract1.t
+)
+type(
+  'a0 Apron.Abstract1.t
+)
+"oct.ml" 70 2434 2440 "oct.ml" 70 2434 2446
+type(
+  'a1 Apron.Abstract1.t -> t Apron.Abstract1.t
+)
+ident(
+  def to_oct "oct.ml" 74 2544 2619 "oct.ml" 75 2620 2623
+)
+"oct.ml" 70 2434 2448 "oct.ml" 70 2434 2451
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  def abs "oct.ml" 70 2434 2474 "oct.ml" 74 2544 2619
+)
+"oct.ml" 71 2498 2503 "oct.ml" 71 2498 2509
+type(
+  'a1 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_oct "oct.ml" 67 2287 2293 "oct.ml" 67 2287 2299
+)
+"oct.ml" 71 2498 2510 "oct.ml" 71 2498 2513
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "oct.ml" 70 2434 2448 "oct.ml" 70 2434 2451
+)
+"oct.ml" 71 2498 2503 "oct.ml" 71 2498 2513
+call(
+  stack
+)
+type(
+  bool
+)
+"oct.ml" 72 2519 2523 "oct.ml" 72 2519 2532
+type(
+  'a1 Apron.Abstract1.t -> t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"oct.ml" 72 2519 2533 "oct.ml" 72 2519 2536
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "oct.ml" 70 2434 2448 "oct.ml" 70 2434 2451
+)
+"oct.ml" 72 2519 2523 "oct.ml" 72 2519 2536
+type(
+  t Apron.Abstract1.t
+)
+"oct.ml" 74 2544 2548 "oct.ml" 74 2544 2556
+type(
+  string -> t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"oct.ml" 74 2544 2557 "oct.ml" 74 2544 2619
+type(
+  string
+)
+"oct.ml" 74 2544 2548 "oct.ml" 74 2544 2619
+call(
+  tail
+)
+type(
+  t Apron.Abstract1.t
+)
+"oct.ml" 71 2498 2500 "oct.ml" 74 2544 2619
+type(
+  t Apron.Abstract1.t
+)
+type(
+  t Apron.Abstract1.t
+)

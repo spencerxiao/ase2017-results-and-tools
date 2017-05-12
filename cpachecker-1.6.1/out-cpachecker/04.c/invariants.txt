@@ -1,0 +1,8 @@
+loop____VERIFIER_assume__5:
+(assert false)
+loop__main__13:
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+(assert (or (> |main::y| 0) (<= |main::x| (- 50))))
+loop__main__19:
+(assert false)

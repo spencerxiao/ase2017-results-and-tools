@@ -1,0 +1,79 @@
+Hola is a tool proposed in the paper "Inductive Invariant Generation via Abductive Inference"
+by Isil Dillig etc. However, the source code at http://www.cs.utexas.edu/~isil/hola.zip for 
+hola is incomplete. Hola depends on the compass tool which is available from 
+http://www.cs.utexas.edu/~isil/compass.tar.gz and it also needs source code of dex-parser 
+whcih can be copied from the framework subfolder at https://github.com/fredfeng/compass.
+
+Step 1: Download compass from http://www.cs.utexas.edu/~isil/compass.tar.gz and decompress 
+it to folder hola/framework.
+
+Step 2: Check out repository at https://github.com/fredfeng/compass to compass and copy 
+subfolders dex-parser, dex-parser-test, and sail-test to hola/framework. 
+
+Step 3: Download hola from https://www.cs.utexas.edu/isil/hola.zip and unzip it to a folder 
+framework and copy the file framework/CMakeList.txt to folder hola/framework/, which will 
+replace the CMakeFile.txt in the compass tool.
+
+Step 4: Follow the instructions in hola/framework/README to build hola. The following common 
+problems which are encountered when building hola on Ubuntu 16.04 are provided with solutions:
+Maybe it is better to use ubuntu-12.04 to buld hola may eliminate these problems, many of these 
+problems are caused by newer version of GCC and building older GCC on a host with newer GCC.
+
+Problem 1: The declaration and definition of global friend funciton Clause_new is placed in the 
+class Clause in file hola/framework/mistral/sat-solver/SolverTypes.h, this caused the use of this 
+function in /hola/framework/mistral/sat-solver/SatSolver.cpp:149 cannot find its definition.
+Solution: Separate the declaration from defintion for funciton Clause_new by moving the definition 
+to follow the declaration of class Clause in SolverTypes.h.
+
+Problem 2: The Qt version 4 is used by the UI components of Hola, however there is a known bug in 
+Qt 4. The problem shows something like this:
+ /usr/include/boost/type_traits/detail/has_binary_operator.hp:50 parse error
+The solution is to add the following macro in the file has_binary_operator.hp. Add "#ifndef Q_MOC_RUN"
+in the beginning of the file and add "#endif" in the end of this file.
+
+Problem 3: Sometimes the calls to function system(string_param) inside various UI files located 
+hola/framework/compass/ui/*.cpp are ambiguous. The solution is to change system() to std::system().
+
+Prolem 4: Sometimes the following error is reported during compilation:
+   hola/framework/sail/il/type.cpp:338:59: error: conversion from 
+	 ‘std::unordered_set<il::type*, il::type::type_hash, il::type::type_eq>::iterator 
+	 {aka std::__detail::_Node_iterator<il::type*, true, true>}’ to non-scalar type 
+	 ‘std::unordered_set<il::type*>::iterator 
+	 {aka std::__detail::_Node_iterator<il::type*, true, false>}’ requestedtype::instances.erase(it);
+The solution is to change the defintion for the iterator returned by the find method to 
+unordered_set<type*, type_hash, type_eq>::iterator.
+
+Problem 5: The following problem may be encountered:
+hola/framework/./compass/error-traces/ErrorTrace.h:45:2: error: ‘callstack_entry::callstack_entry()’ is private
+  callstack_entry(){};
+The solution is to change the access level of callstack_entry(){} from private to public.
+
+About sail gcc:
+Sail depends on gcc and thus as the last step in the README you need to run the script hola/framework/install-sail-gcc
+which downloads and builds gcc-4.3.4 in your host using a newer version of gcc. During building gcc, there is 
+an error saying floor_log2 function in toplevel.c is duplicate, you can disable this error by adding compiler option 
+-fgnu89-inline to the command ./configure in install-sail-gcc as the following: 
+
+./configure --enable-stage1-languages=all --disable-bootstrap --prefix=$1 --enable-checking=no --disable-stage1-checking\
+   CFLAGS='-g -O2 -fgnu89-inline' CXXFLAGS='-g O2 fgnu89-inline'
+
+The script install-sail-gcc then makes and installs gcc into a prefix folder which is the first paramter when calling
+the install-sail-gcc. Make sure that the prefix folder is hola/gcc, this directory is used by the compass tool. 
+During building and installing errors may be thrown by make, just ignore the errors and sail-gcc will work correctly 
+despite the installation errors.
+
+About the benchmarks:
+The paper uses the benchmarks which can be download from 
+         http://www.cs.utexas.edu/~tdillig/oopsla13-benchmarks.tar.gz 
+decompress the benchmarks to the folder hola/framework/oopsla13-benchmarks.
+
+How to run hola:
+
+Step 1: Convert the benchmark c programs to the intermidiate presentation of *.sail files.
+The sail is the front-end tool which converts c files to the sail intermediate representations. sail depends on 
+a specific version of gcc. Follow the instructions in README to intall and build the specific gcc version. One notat
+
+Step 2: Run hola on the sail outputs
+
+The above two steps are combined in the script "run.sh"
+which first converts the c files to sail representation and then runs abductor on the sail outputs.

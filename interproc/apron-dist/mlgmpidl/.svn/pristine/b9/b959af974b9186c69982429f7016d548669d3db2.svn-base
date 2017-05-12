@@ -1,0 +1,103 @@
+# $Id$
+
+# This file is part of the MLGmpIDL OCaml interface for GMP 5.0.0 and MPFR 3.0.0 or up
+# released under LGPL license with an exception allowing the redistribution
+# of statically linked executables.
+
+# Please read the COPYING file packaged in the distribution
+
+This package is an OCAML interface for GMP and MPFR libraries.
+
+The interface is decomposed into 5 modules:
+Mpz       : GMP multiprecision integers
+Mpzf      : GMP multiprecision integers, functional version
+	    (no side-effect on numbers)
+Mpq       : GMP multiprecision rationals
+Mpqf      : GMP multiprecision rationals, functional version
+	    (no side-effect on numbers)
+Mpf       : GMP multiprecision floating-point numbers
+Gmp_random: GMP random numbers generation
+Mpfr      : MPFR multiprecision floating-point numbers
+Mpfrf	  : MPFR multiprecision floating-point numbers, functional version
+	    (no side-effect on numbers)
+
+Compared to the well-known MLGMP interface developped by D. Monniaux
+(http://www.di.ens.fr/~monniaux/programmes.html.en), MLGMPIDL favours an
+imperative interface to a functional interface (all functions are offered in an
+imperative version, more efficient in term of memory allocation). Moreover, it
+uses CamlIDL, which allows to design easily further OCaml/C interface that
+needs GMP types, using "import mpz.idl" clauses. The APRON project exploits
+this.
+
+REQUIREMENTS
+============
+GMP library (tested with version 5.x.y and up)
+MPFR library (requires version 3.x.y)
+OCaml 3.09 or up (tested with 3.09 and 3.12)
+Camlidl (tested with 1.05)
+GNU sed, version 4.1 or up
+FINDLIB (http://projects.camlcity.org/projects/findlib.html)
+
+INSTALLATION
+============
+
+1. Library
+----------
+
+Type:
+
+   ./configure
+
+to check for dependencies and generate a Makefile.configure file.
+
+Then, type:
+
+   make
+   make install
+
+(with optional 'sudo' for make install, in case you install in a system
+location)
+
+
+The OCaml part of the library is named gmp.cma (.cmxa, .a).  The C
+part of the library is named libgmp_caml.a (libgmp_caml_debug.a), or, with dynamic linking, dllgmp_caml.so.
+
+'make install' installs not only .mli, .cmi, but also .idl files.
+
+
+./configure has some options and acknowledges some environment variables.
+Type './configure --help' to know everything about it.
+
+
+2. Linking
+------------
+
+With FINDLIB, no problem at all.
+
+gmp.cma requires bigarray.cma. 
+
+Look at the rule for session.byte and session.opt executable in the Makefile
+to see how to link against gmp.cma/gmp.cmxa.
+
+3. Interpreter and toplevel
+---------------------------
+
+With dynamic linking, you can use ordinary runtime ocamlrun and toplevel.
+
+You can play with [session.ml], and compile it with 'make session.byte',
+'make session.opt'.
+
+4. Documentation
+----------------
+
+The documentation (currently, just refers to GMP and MPFR doc) is generated
+with ocamldoc.
+
+'make mlgmpidl.pdf'
+'make html' (put the HTML files in the html subdirectoy)
+
+5. Miscellaneous
+----------------
+
+'make install', 'make uninstall',
+'make clean' and 'make distclean' have the usual behaviour. 

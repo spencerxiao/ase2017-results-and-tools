@@ -1,0 +1,14 @@
+loop__main__11:
+(declare-fun |main::d| () Int)
+(declare-fun |main::b| () Int)
+(declare-fun |main::c| () Int)
+(declare-fun |main::a| () Int)
+(assert (= (+ |main::a| |main::c|) (+ |main::b| |main::d|)))
+loop__main__23:
+(declare-fun |main::d| () Int)
+(declare-fun |main::b| () Int)
+(declare-fun |main::c| () Int)
+(declare-fun |main::a| () Int)
+(assert (= (+ |main::a| |main::c|) (+ |main::b| |main::d|)))
+loop__main__30:
+(assert false)

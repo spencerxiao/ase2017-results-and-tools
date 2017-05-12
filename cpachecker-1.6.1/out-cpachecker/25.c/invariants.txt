@@ -1,0 +1,16 @@
+loop____VERIFIER_assume__5:
+(assert false)
+loop__main__16:
+(declare-fun |main::i| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+(assert (let ((.cse0 (- |main::x|))) (and (>= |main::i| |main::j|) (<= |main::y| |main::x|) (<= (+ |main::y| .cse0) 0) (<= |main::x| |main::y|) (not (<= (+ |main::y| .cse0 1) 0)) (<= |main::j| |main::i|))))
+loop__main__18:
+(declare-fun |main::i| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+(assert (let ((.cse0 (- |main::x|))) (and (>= |main::i| |main::j|) (<= |main::y| |main::x|) (<= (+ |main::y| .cse0) 0) (<= |main::x| |main::y|) (not (<= (+ |main::y| .cse0 1) 0)) (<= |main::j| |main::i|))))
+loop__main__35:
+(assert false)

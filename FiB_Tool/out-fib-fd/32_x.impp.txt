@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (i = j)
+find an inductive invaraint based on concrete reachables
+invariant size: 93
+interp: (let ((.def_20 (= i j))) (let ((.def_33 (= b 1))) (let ((.def_34 (not .def_33))) (let ((.def_57 (= (+ i (* (- 1) j)) 1))) (let ((.def_110 (= (+ i (* (- 1) j)) (- 1)))) (let ((.def_350 (<= 2 (+ (* 2 k) (* (- 1) n))))) (let ((.def_2156 (<= (to_real 1) (to_real (+ (* 2 k) (* (- 1) n)))))) (let ((.def_2169 (<= (to_real (+ n (* (- 2) (to_int (* (/ 1 2) (to_real (+ (* 1 n) (- 3)))))))) (to_real 3)))) (let ((.def_3805 (<= (to_real 0) (to_real (+ n (* 2 (to_int (* (/ 1 2) (to_real (* (- 1) n)))))))))) (let ((.def_3806 (and (<= (to_real (+ n (* (- 2) (to_int (* (/ 1 2) (to_real (* 1 n))))))) (to_real 0)) .def_3805))) (let ((.def_3809 (and .def_2156 (<= (to_real (+ n (* (- 2) (to_int (* (/ 1 2) (to_real (+ (* 1 n) (- 1)))))))) (to_real 1))))) (let ((.def_3840 (not (and .def_20 (and .def_34 .def_3806))))) (let ((.def_3843 (and (not (and .def_33 (and .def_110 (and .def_2156 .def_2169)))) (not (and .def_2156 (and .def_57 (and .def_34 .def_2169))))))) (let ((.def_3847 (and .def_3840 (and (and (not (and .def_33 (and .def_110 .def_3809))) .def_3843) (not (and .def_57 (and .def_34 .def_3809))))))) (let ((.def_3849 (not (and .def_20 (and .def_33 .def_3806))))) (let ((.def_3850 (and (and .def_3843 .def_3847) .def_3849))) (not (and .def_3840 (or (and .def_3849 (or (and (not (and .def_350 (and .def_20 .def_3805))) .def_3850) (and .def_3849 (and .def_33 (and .def_3847 (not (and .def_20 (and .def_350 .def_3805)))))))) (and (not .def_20) .def_3850))))))))))))))))))))
+The assertion is satisfied!
+forward [6] times, backtracks [3] times
+backward [3] times

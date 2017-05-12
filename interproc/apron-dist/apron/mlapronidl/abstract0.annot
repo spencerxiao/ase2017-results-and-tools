@@ -1,0 +1,1651 @@
+"abstract0.ml" 269 11630 11634 "abstract0.ml" 269 11630 11650
+type(
+  'a Manager.t -> int -> int -> Lincons0.t array -> 'a t
+)
+ident(
+  def of_lincons_array "abstract0.ml" 273 11757 11757 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 269 11630 11651 "abstract0.ml" 269 11630 11654
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 269 11630 11655 "abstract0.ml" 272 11753 11756
+)
+"abstract0.ml" 269 11630 11655 "abstract0.ml" 269 11630 11661
+type(
+  int
+)
+ident(
+  def intdim "abstract0.ml" 269 11630 11662 "abstract0.ml" 272 11753 11756
+)
+"abstract0.ml" 269 11630 11662 "abstract0.ml" 269 11630 11669
+type(
+  int
+)
+ident(
+  def realdim "abstract0.ml" 269 11630 11670 "abstract0.ml" 272 11753 11756
+)
+"abstract0.ml" 269 11630 11670 "abstract0.ml" 269 11630 11675
+type(
+  Lincons0.t array
+)
+ident(
+  def array "abstract0.ml" 270 11678 11678 "abstract0.ml" 272 11753 11756
+)
+"abstract0.ml" 270 11678 11682 "abstract0.ml" 270 11678 11685
+type(
+  'a t
+)
+ident(
+  def res "abstract0.ml" 271 11714 11714 "abstract0.ml" 272 11753 11756
+)
+"abstract0.ml" 270 11678 11688 "abstract0.ml" 270 11678 11691
+type(
+  'a Manager.t -> int -> int -> 'a t
+)
+ident(
+  int_ref top "abstract0.ml" 59 2458 2458 "abstract0.ml" 60 2508 2547
+)
+"abstract0.ml" 270 11678 11692 "abstract0.ml" 270 11678 11695
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 269 11630 11651 "abstract0.ml" 269 11630 11654
+)
+"abstract0.ml" 270 11678 11696 "abstract0.ml" 270 11678 11702
+type(
+  int
+)
+ident(
+  int_ref intdim "abstract0.ml" 269 11630 11655 "abstract0.ml" 269 11630 11661
+)
+"abstract0.ml" 270 11678 11703 "abstract0.ml" 270 11678 11710
+type(
+  int
+)
+ident(
+  int_ref realdim "abstract0.ml" 269 11630 11662 "abstract0.ml" 269 11630 11669
+)
+"abstract0.ml" 270 11678 11688 "abstract0.ml" 270 11678 11710
+type(
+  'a t
+)
+"abstract0.ml" 271 11714 11714 "abstract0.ml" 271 11714 11737
+type(
+  'a Manager.t -> 'a t -> Lincons0.t array -> unit
+)
+ident(
+  int_ref meet_lincons_array_with "abstract0.ml" 155 6278 6278 "abstract0.ml" 156 6362 6421
+)
+"abstract0.ml" 271 11714 11738 "abstract0.ml" 271 11714 11741
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 269 11630 11651 "abstract0.ml" 269 11630 11654
+)
+"abstract0.ml" 271 11714 11742 "abstract0.ml" 271 11714 11745
+type(
+  'a t
+)
+ident(
+  int_ref res "abstract0.ml" 270 11678 11682 "abstract0.ml" 270 11678 11685
+)
+"abstract0.ml" 271 11714 11746 "abstract0.ml" 271 11714 11751
+type(
+  Lincons0.t array
+)
+ident(
+  int_ref array "abstract0.ml" 269 11630 11670 "abstract0.ml" 269 11630 11675
+)
+"abstract0.ml" 271 11714 11714 "abstract0.ml" 271 11714 11751
+type(
+  unit
+)
+"abstract0.ml" 272 11753 11753 "abstract0.ml" 272 11753 11756
+type(
+  'a t
+)
+ident(
+  int_ref res "abstract0.ml" 270 11678 11682 "abstract0.ml" 270 11678 11685
+)
+"abstract0.ml" 271 11714 11714 "abstract0.ml" 272 11753 11756
+type(
+  'a t
+)
+"abstract0.ml" 270 11678 11678 "abstract0.ml" 272 11753 11756
+type(
+  'a t
+)
+"abstract0.ml" 273 11757 11761 "abstract0.ml" 273 11757 11775
+type(
+  'a Manager.t -> int -> int -> Tcons0.t array -> 'a t
+)
+ident(
+  def of_tcons_array "abstract0.ml" 277 11880 11880 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 273 11757 11776 "abstract0.ml" 273 11757 11779
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 273 11757 11780 "abstract0.ml" 276 11876 11879
+)
+"abstract0.ml" 273 11757 11780 "abstract0.ml" 273 11757 11786
+type(
+  int
+)
+ident(
+  def intdim "abstract0.ml" 273 11757 11787 "abstract0.ml" 276 11876 11879
+)
+"abstract0.ml" 273 11757 11787 "abstract0.ml" 273 11757 11794
+type(
+  int
+)
+ident(
+  def realdim "abstract0.ml" 273 11757 11795 "abstract0.ml" 276 11876 11879
+)
+"abstract0.ml" 273 11757 11795 "abstract0.ml" 273 11757 11800
+type(
+  Tcons0.t array
+)
+ident(
+  def array "abstract0.ml" 274 11803 11803 "abstract0.ml" 276 11876 11879
+)
+"abstract0.ml" 274 11803 11807 "abstract0.ml" 274 11803 11810
+type(
+  'a t
+)
+ident(
+  def res "abstract0.ml" 275 11839 11839 "abstract0.ml" 276 11876 11879
+)
+"abstract0.ml" 274 11803 11813 "abstract0.ml" 274 11803 11816
+type(
+  'a Manager.t -> int -> int -> 'a t
+)
+ident(
+  int_ref top "abstract0.ml" 59 2458 2458 "abstract0.ml" 60 2508 2547
+)
+"abstract0.ml" 274 11803 11817 "abstract0.ml" 274 11803 11820
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 273 11757 11776 "abstract0.ml" 273 11757 11779
+)
+"abstract0.ml" 274 11803 11821 "abstract0.ml" 274 11803 11827
+type(
+  int
+)
+ident(
+  int_ref intdim "abstract0.ml" 273 11757 11780 "abstract0.ml" 273 11757 11786
+)
+"abstract0.ml" 274 11803 11828 "abstract0.ml" 274 11803 11835
+type(
+  int
+)
+ident(
+  int_ref realdim "abstract0.ml" 273 11757 11787 "abstract0.ml" 273 11757 11794
+)
+"abstract0.ml" 274 11803 11813 "abstract0.ml" 274 11803 11835
+type(
+  'a t
+)
+"abstract0.ml" 275 11839 11839 "abstract0.ml" 275 11839 11860
+type(
+  'a Manager.t -> 'a t -> Tcons0.t array -> unit
+)
+ident(
+  int_ref meet_tcons_array_with "abstract0.ml" 158 6423 6423 "abstract0.ml" 159 6503 6560
+)
+"abstract0.ml" 275 11839 11861 "abstract0.ml" 275 11839 11864
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 273 11757 11776 "abstract0.ml" 273 11757 11779
+)
+"abstract0.ml" 275 11839 11865 "abstract0.ml" 275 11839 11868
+type(
+  'a t
+)
+ident(
+  int_ref res "abstract0.ml" 274 11803 11807 "abstract0.ml" 274 11803 11810
+)
+"abstract0.ml" 275 11839 11869 "abstract0.ml" 275 11839 11874
+type(
+  Tcons0.t array
+)
+ident(
+  int_ref array "abstract0.ml" 273 11757 11795 "abstract0.ml" 273 11757 11800
+)
+"abstract0.ml" 275 11839 11839 "abstract0.ml" 275 11839 11874
+type(
+  unit
+)
+"abstract0.ml" 276 11876 11876 "abstract0.ml" 276 11876 11879
+type(
+  'a t
+)
+ident(
+  int_ref res "abstract0.ml" 274 11803 11807 "abstract0.ml" 274 11803 11810
+)
+"abstract0.ml" 275 11839 11839 "abstract0.ml" 276 11876 11879
+type(
+  'a t
+)
+"abstract0.ml" 274 11803 11803 "abstract0.ml" 276 11876 11879
+type(
+  'a t
+)
+"abstract0.ml" 277 11880 11884 "abstract0.ml" 277 11880 11898
+type(
+  'a Manager.t -> 'a t -> Dim.t -> Linexpr0.t -> 'a t option -> 'a t
+)
+ident(
+  def assign_linexpr "abstract0.ml" 279 11976 11976 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 277 11880 11899 "abstract0.ml" 277 11880 11902
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 277 11880 11903 "abstract0.ml" 278 11924 11975
+)
+"abstract0.ml" 277 11880 11903 "abstract0.ml" 277 11880 11906
+type(
+  'a t
+)
+ident(
+  def abs "abstract0.ml" 277 11880 11907 "abstract0.ml" 278 11924 11975
+)
+"abstract0.ml" 277 11880 11907 "abstract0.ml" 277 11880 11910
+type(
+  Dim.t
+)
+ident(
+  def dim "abstract0.ml" 277 11880 11911 "abstract0.ml" 278 11924 11975
+)
+"abstract0.ml" 277 11880 11911 "abstract0.ml" 277 11880 11915
+type(
+  Linexpr0.t
+)
+ident(
+  def expr "abstract0.ml" 277 11880 11916 "abstract0.ml" 278 11924 11975
+)
+"abstract0.ml" 277 11880 11916 "abstract0.ml" 277 11880 11921
+type(
+  'a t option
+)
+ident(
+  def odest "abstract0.ml" 278 11924 11924 "abstract0.ml" 278 11924 11975
+)
+"abstract0.ml" 278 11924 11924 "abstract0.ml" 278 11924 11944
+type(
+  'a Manager.t ->
+  'a t -> Dim.t array -> Linexpr0.t array -> 'a t option -> 'a t
+)
+ident(
+  int_ref assign_linexpr_array "abstract0.ml" 170 6980 6980 "abstract0.ml" 171 7091 7147
+)
+"abstract0.ml" 278 11924 11945 "abstract0.ml" 278 11924 11948
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 277 11880 11899 "abstract0.ml" 277 11880 11902
+)
+"abstract0.ml" 278 11924 11949 "abstract0.ml" 278 11924 11952
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract0.ml" 277 11880 11903 "abstract0.ml" 277 11880 11906
+)
+"abstract0.ml" 278 11924 11955 "abstract0.ml" 278 11924 11958
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "abstract0.ml" 277 11880 11907 "abstract0.ml" 277 11880 11910
+)
+"abstract0.ml" 278 11924 11953 "abstract0.ml" 278 11924 11960
+type(
+  Dim.t array
+)
+"abstract0.ml" 278 11924 11963 "abstract0.ml" 278 11924 11967
+type(
+  Linexpr0.t
+)
+ident(
+  int_ref expr "abstract0.ml" 277 11880 11911 "abstract0.ml" 277 11880 11915
+)
+"abstract0.ml" 278 11924 11961 "abstract0.ml" 278 11924 11969
+type(
+  Linexpr0.t array
+)
+"abstract0.ml" 278 11924 11970 "abstract0.ml" 278 11924 11975
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract0.ml" 277 11880 11916 "abstract0.ml" 277 11880 11921
+)
+"abstract0.ml" 278 11924 11924 "abstract0.ml" 278 11924 11975
+type(
+  'a t
+)
+"abstract0.ml" 279 11976 11980 "abstract0.ml" 279 11976 11992
+type(
+  'a Manager.t -> 'a t -> Dim.t -> Texpr0.t -> 'a t option -> 'a t
+)
+ident(
+  def assign_texpr "abstract0.ml" 281 12068 12068 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 279 11976 11993 "abstract0.ml" 279 11976 11996
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 279 11976 11997 "abstract0.ml" 280 12018 12067
+)
+"abstract0.ml" 279 11976 11997 "abstract0.ml" 279 11976 12000
+type(
+  'a t
+)
+ident(
+  def abs "abstract0.ml" 279 11976 12001 "abstract0.ml" 280 12018 12067
+)
+"abstract0.ml" 279 11976 12001 "abstract0.ml" 279 11976 12004
+type(
+  Dim.t
+)
+ident(
+  def dim "abstract0.ml" 279 11976 12005 "abstract0.ml" 280 12018 12067
+)
+"abstract0.ml" 279 11976 12005 "abstract0.ml" 279 11976 12009
+type(
+  Texpr0.t
+)
+ident(
+  def expr "abstract0.ml" 279 11976 12010 "abstract0.ml" 280 12018 12067
+)
+"abstract0.ml" 279 11976 12010 "abstract0.ml" 279 11976 12015
+type(
+  'a t option
+)
+ident(
+  def odest "abstract0.ml" 280 12018 12018 "abstract0.ml" 280 12018 12067
+)
+"abstract0.ml" 280 12018 12018 "abstract0.ml" 280 12018 12036
+type(
+  'a Manager.t ->
+  'a t -> Dim.t array -> Texpr0.t array -> 'a t option -> 'a t
+)
+ident(
+  int_ref assign_texpr_array "abstract0.ml" 176 7326 7326 "abstract0.ml" 177 7433 7487
+)
+"abstract0.ml" 280 12018 12037 "abstract0.ml" 280 12018 12040
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 279 11976 11993 "abstract0.ml" 279 11976 11996
+)
+"abstract0.ml" 280 12018 12041 "abstract0.ml" 280 12018 12044
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract0.ml" 279 11976 11997 "abstract0.ml" 279 11976 12000
+)
+"abstract0.ml" 280 12018 12047 "abstract0.ml" 280 12018 12050
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "abstract0.ml" 279 11976 12001 "abstract0.ml" 279 11976 12004
+)
+"abstract0.ml" 280 12018 12045 "abstract0.ml" 280 12018 12052
+type(
+  Dim.t array
+)
+"abstract0.ml" 280 12018 12055 "abstract0.ml" 280 12018 12059
+type(
+  Texpr0.t
+)
+ident(
+  int_ref expr "abstract0.ml" 279 11976 12005 "abstract0.ml" 279 11976 12009
+)
+"abstract0.ml" 280 12018 12053 "abstract0.ml" 280 12018 12061
+type(
+  Texpr0.t array
+)
+"abstract0.ml" 280 12018 12062 "abstract0.ml" 280 12018 12067
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract0.ml" 279 11976 12010 "abstract0.ml" 279 11976 12015
+)
+"abstract0.ml" 280 12018 12018 "abstract0.ml" 280 12018 12067
+type(
+  'a t
+)
+"abstract0.ml" 281 12068 12072 "abstract0.ml" 281 12068 12090
+type(
+  'a Manager.t -> 'a t -> Dim.t -> Linexpr0.t -> 'a t option -> 'a t
+)
+ident(
+  def substitute_linexpr "abstract0.ml" 283 12172 12172 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 281 12068 12091 "abstract0.ml" 281 12068 12094
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 281 12068 12095 "abstract0.ml" 282 12116 12171
+)
+"abstract0.ml" 281 12068 12095 "abstract0.ml" 281 12068 12098
+type(
+  'a t
+)
+ident(
+  def abs "abstract0.ml" 281 12068 12099 "abstract0.ml" 282 12116 12171
+)
+"abstract0.ml" 281 12068 12099 "abstract0.ml" 281 12068 12102
+type(
+  Dim.t
+)
+ident(
+  def dim "abstract0.ml" 281 12068 12103 "abstract0.ml" 282 12116 12171
+)
+"abstract0.ml" 281 12068 12103 "abstract0.ml" 281 12068 12107
+type(
+  Linexpr0.t
+)
+ident(
+  def expr "abstract0.ml" 281 12068 12108 "abstract0.ml" 282 12116 12171
+)
+"abstract0.ml" 281 12068 12108 "abstract0.ml" 281 12068 12113
+type(
+  'a t option
+)
+ident(
+  def odest "abstract0.ml" 282 12116 12116 "abstract0.ml" 282 12116 12171
+)
+"abstract0.ml" 282 12116 12116 "abstract0.ml" 282 12116 12140
+type(
+  'a Manager.t ->
+  'a t -> Dim.t array -> Linexpr0.t array -> 'a t option -> 'a t
+)
+ident(
+  int_ref substitute_linexpr_array "abstract0.ml" 173 7149 7149 "abstract0.ml" 174 7264 7324
+)
+"abstract0.ml" 282 12116 12141 "abstract0.ml" 282 12116 12144
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 281 12068 12091 "abstract0.ml" 281 12068 12094
+)
+"abstract0.ml" 282 12116 12145 "abstract0.ml" 282 12116 12148
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract0.ml" 281 12068 12095 "abstract0.ml" 281 12068 12098
+)
+"abstract0.ml" 282 12116 12151 "abstract0.ml" 282 12116 12154
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "abstract0.ml" 281 12068 12099 "abstract0.ml" 281 12068 12102
+)
+"abstract0.ml" 282 12116 12149 "abstract0.ml" 282 12116 12156
+type(
+  Dim.t array
+)
+"abstract0.ml" 282 12116 12159 "abstract0.ml" 282 12116 12163
+type(
+  Linexpr0.t
+)
+ident(
+  int_ref expr "abstract0.ml" 281 12068 12103 "abstract0.ml" 281 12068 12107
+)
+"abstract0.ml" 282 12116 12157 "abstract0.ml" 282 12116 12165
+type(
+  Linexpr0.t array
+)
+"abstract0.ml" 282 12116 12166 "abstract0.ml" 282 12116 12171
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract0.ml" 281 12068 12108 "abstract0.ml" 281 12068 12113
+)
+"abstract0.ml" 282 12116 12116 "abstract0.ml" 282 12116 12171
+type(
+  'a t
+)
+"abstract0.ml" 283 12172 12176 "abstract0.ml" 283 12172 12192
+type(
+  'a Manager.t -> 'a t -> Dim.t -> Texpr0.t -> 'a t option -> 'a t
+)
+ident(
+  def substitute_texpr "abstract0.ml" 285 12272 12272 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 283 12172 12193 "abstract0.ml" 283 12172 12196
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 283 12172 12197 "abstract0.ml" 284 12218 12271
+)
+"abstract0.ml" 283 12172 12197 "abstract0.ml" 283 12172 12200
+type(
+  'a t
+)
+ident(
+  def abs "abstract0.ml" 283 12172 12201 "abstract0.ml" 284 12218 12271
+)
+"abstract0.ml" 283 12172 12201 "abstract0.ml" 283 12172 12204
+type(
+  Dim.t
+)
+ident(
+  def dim "abstract0.ml" 283 12172 12205 "abstract0.ml" 284 12218 12271
+)
+"abstract0.ml" 283 12172 12205 "abstract0.ml" 283 12172 12209
+type(
+  Texpr0.t
+)
+ident(
+  def expr "abstract0.ml" 283 12172 12210 "abstract0.ml" 284 12218 12271
+)
+"abstract0.ml" 283 12172 12210 "abstract0.ml" 283 12172 12215
+type(
+  'a t option
+)
+ident(
+  def odest "abstract0.ml" 284 12218 12218 "abstract0.ml" 284 12218 12271
+)
+"abstract0.ml" 284 12218 12218 "abstract0.ml" 284 12218 12240
+type(
+  'a Manager.t ->
+  'a t -> Dim.t array -> Texpr0.t array -> 'a t option -> 'a t
+)
+ident(
+  int_ref substitute_texpr_array "abstract0.ml" 179 7489 7489 "abstract0.ml" 180 7600 7658
+)
+"abstract0.ml" 284 12218 12241 "abstract0.ml" 284 12218 12244
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 283 12172 12193 "abstract0.ml" 283 12172 12196
+)
+"abstract0.ml" 284 12218 12245 "abstract0.ml" 284 12218 12248
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract0.ml" 283 12172 12197 "abstract0.ml" 283 12172 12200
+)
+"abstract0.ml" 284 12218 12251 "abstract0.ml" 284 12218 12254
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "abstract0.ml" 283 12172 12201 "abstract0.ml" 283 12172 12204
+)
+"abstract0.ml" 284 12218 12249 "abstract0.ml" 284 12218 12256
+type(
+  Dim.t array
+)
+"abstract0.ml" 284 12218 12259 "abstract0.ml" 284 12218 12263
+type(
+  Texpr0.t
+)
+ident(
+  int_ref expr "abstract0.ml" 283 12172 12205 "abstract0.ml" 283 12172 12209
+)
+"abstract0.ml" 284 12218 12257 "abstract0.ml" 284 12218 12265
+type(
+  Texpr0.t array
+)
+"abstract0.ml" 284 12218 12266 "abstract0.ml" 284 12218 12271
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract0.ml" 283 12172 12210 "abstract0.ml" 283 12172 12215
+)
+"abstract0.ml" 284 12218 12218 "abstract0.ml" 284 12218 12271
+type(
+  'a t
+)
+"abstract0.ml" 285 12272 12276 "abstract0.ml" 285 12272 12295
+type(
+  'a Manager.t -> 'a t -> Dim.t -> Linexpr0.t -> 'a t option -> unit
+)
+ident(
+  def assign_linexpr_with "abstract0.ml" 287 12378 12378 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 285 12272 12296 "abstract0.ml" 285 12272 12299
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 285 12272 12300 "abstract0.ml" 286 12321 12377
+)
+"abstract0.ml" 285 12272 12300 "abstract0.ml" 285 12272 12303
+type(
+  'a t
+)
+ident(
+  def abs "abstract0.ml" 285 12272 12304 "abstract0.ml" 286 12321 12377
+)
+"abstract0.ml" 285 12272 12304 "abstract0.ml" 285 12272 12307
+type(
+  Dim.t
+)
+ident(
+  def dim "abstract0.ml" 285 12272 12308 "abstract0.ml" 286 12321 12377
+)
+"abstract0.ml" 285 12272 12308 "abstract0.ml" 285 12272 12312
+type(
+  Linexpr0.t
+)
+ident(
+  def expr "abstract0.ml" 285 12272 12313 "abstract0.ml" 286 12321 12377
+)
+"abstract0.ml" 285 12272 12313 "abstract0.ml" 285 12272 12318
+type(
+  'a t option
+)
+ident(
+  def odest "abstract0.ml" 286 12321 12321 "abstract0.ml" 286 12321 12377
+)
+"abstract0.ml" 286 12321 12321 "abstract0.ml" 286 12321 12346
+type(
+  'a Manager.t ->
+  'a t -> Dim.t array -> Linexpr0.t array -> 'a t option -> unit
+)
+ident(
+  int_ref assign_linexpr_array_with "abstract0.ml" 182 7660 7660 "abstract0.ml" 183 7776 7837
+)
+"abstract0.ml" 286 12321 12347 "abstract0.ml" 286 12321 12350
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 285 12272 12296 "abstract0.ml" 285 12272 12299
+)
+"abstract0.ml" 286 12321 12351 "abstract0.ml" 286 12321 12354
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract0.ml" 285 12272 12300 "abstract0.ml" 285 12272 12303
+)
+"abstract0.ml" 286 12321 12357 "abstract0.ml" 286 12321 12360
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "abstract0.ml" 285 12272 12304 "abstract0.ml" 285 12272 12307
+)
+"abstract0.ml" 286 12321 12355 "abstract0.ml" 286 12321 12362
+type(
+  Dim.t array
+)
+"abstract0.ml" 286 12321 12365 "abstract0.ml" 286 12321 12369
+type(
+  Linexpr0.t
+)
+ident(
+  int_ref expr "abstract0.ml" 285 12272 12308 "abstract0.ml" 285 12272 12312
+)
+"abstract0.ml" 286 12321 12363 "abstract0.ml" 286 12321 12371
+type(
+  Linexpr0.t array
+)
+"abstract0.ml" 286 12321 12372 "abstract0.ml" 286 12321 12377
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract0.ml" 285 12272 12313 "abstract0.ml" 285 12272 12318
+)
+"abstract0.ml" 286 12321 12321 "abstract0.ml" 286 12321 12377
+type(
+  unit
+)
+"abstract0.ml" 287 12378 12382 "abstract0.ml" 287 12378 12399
+type(
+  'a Manager.t -> 'a t -> Dim.t -> Texpr0.t -> 'a t option -> unit
+)
+ident(
+  def assign_texpr_with "abstract0.ml" 289 12480 12480 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 287 12378 12400 "abstract0.ml" 287 12378 12403
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 287 12378 12404 "abstract0.ml" 288 12425 12479
+)
+"abstract0.ml" 287 12378 12404 "abstract0.ml" 287 12378 12407
+type(
+  'a t
+)
+ident(
+  def abs "abstract0.ml" 287 12378 12408 "abstract0.ml" 288 12425 12479
+)
+"abstract0.ml" 287 12378 12408 "abstract0.ml" 287 12378 12411
+type(
+  Dim.t
+)
+ident(
+  def dim "abstract0.ml" 287 12378 12412 "abstract0.ml" 288 12425 12479
+)
+"abstract0.ml" 287 12378 12412 "abstract0.ml" 287 12378 12416
+type(
+  Texpr0.t
+)
+ident(
+  def expr "abstract0.ml" 287 12378 12417 "abstract0.ml" 288 12425 12479
+)
+"abstract0.ml" 287 12378 12417 "abstract0.ml" 287 12378 12422
+type(
+  'a t option
+)
+ident(
+  def odest "abstract0.ml" 288 12425 12425 "abstract0.ml" 288 12425 12479
+)
+"abstract0.ml" 288 12425 12425 "abstract0.ml" 288 12425 12448
+type(
+  'a Manager.t ->
+  'a t -> Dim.t array -> Texpr0.t array -> 'a t option -> unit
+)
+ident(
+  int_ref assign_texpr_array_with "abstract0.ml" 188 8026 8026 "abstract0.ml" 189 8138 8197
+)
+"abstract0.ml" 288 12425 12449 "abstract0.ml" 288 12425 12452
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 287 12378 12400 "abstract0.ml" 287 12378 12403
+)
+"abstract0.ml" 288 12425 12453 "abstract0.ml" 288 12425 12456
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract0.ml" 287 12378 12404 "abstract0.ml" 287 12378 12407
+)
+"abstract0.ml" 288 12425 12459 "abstract0.ml" 288 12425 12462
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "abstract0.ml" 287 12378 12408 "abstract0.ml" 287 12378 12411
+)
+"abstract0.ml" 288 12425 12457 "abstract0.ml" 288 12425 12464
+type(
+  Dim.t array
+)
+"abstract0.ml" 288 12425 12467 "abstract0.ml" 288 12425 12471
+type(
+  Texpr0.t
+)
+ident(
+  int_ref expr "abstract0.ml" 287 12378 12412 "abstract0.ml" 287 12378 12416
+)
+"abstract0.ml" 288 12425 12465 "abstract0.ml" 288 12425 12473
+type(
+  Texpr0.t array
+)
+"abstract0.ml" 288 12425 12474 "abstract0.ml" 288 12425 12479
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract0.ml" 287 12378 12417 "abstract0.ml" 287 12378 12422
+)
+"abstract0.ml" 288 12425 12425 "abstract0.ml" 288 12425 12479
+type(
+  unit
+)
+"abstract0.ml" 289 12480 12484 "abstract0.ml" 289 12480 12507
+type(
+  'a Manager.t -> 'a t -> Dim.t -> Linexpr0.t -> 'a t option -> unit
+)
+ident(
+  def substitute_linexpr_with "abstract0.ml" 291 12594 12594 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 289 12480 12508 "abstract0.ml" 289 12480 12511
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 289 12480 12512 "abstract0.ml" 290 12533 12593
+)
+"abstract0.ml" 289 12480 12512 "abstract0.ml" 289 12480 12515
+type(
+  'a t
+)
+ident(
+  def abs "abstract0.ml" 289 12480 12516 "abstract0.ml" 290 12533 12593
+)
+"abstract0.ml" 289 12480 12516 "abstract0.ml" 289 12480 12519
+type(
+  Dim.t
+)
+ident(
+  def dim "abstract0.ml" 289 12480 12520 "abstract0.ml" 290 12533 12593
+)
+"abstract0.ml" 289 12480 12520 "abstract0.ml" 289 12480 12524
+type(
+  Linexpr0.t
+)
+ident(
+  def expr "abstract0.ml" 289 12480 12525 "abstract0.ml" 290 12533 12593
+)
+"abstract0.ml" 289 12480 12525 "abstract0.ml" 289 12480 12530
+type(
+  'a t option
+)
+ident(
+  def odest "abstract0.ml" 290 12533 12533 "abstract0.ml" 290 12533 12593
+)
+"abstract0.ml" 290 12533 12533 "abstract0.ml" 290 12533 12562
+type(
+  'a Manager.t ->
+  'a t -> Dim.t array -> Linexpr0.t array -> 'a t option -> unit
+)
+ident(
+  int_ref substitute_linexpr_array_with "abstract0.ml" 185 7839 7839 "abstract0.ml" 186 7959 8024
+)
+"abstract0.ml" 290 12533 12563 "abstract0.ml" 290 12533 12566
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 289 12480 12508 "abstract0.ml" 289 12480 12511
+)
+"abstract0.ml" 290 12533 12567 "abstract0.ml" 290 12533 12570
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract0.ml" 289 12480 12512 "abstract0.ml" 289 12480 12515
+)
+"abstract0.ml" 290 12533 12573 "abstract0.ml" 290 12533 12576
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "abstract0.ml" 289 12480 12516 "abstract0.ml" 289 12480 12519
+)
+"abstract0.ml" 290 12533 12571 "abstract0.ml" 290 12533 12578
+type(
+  Dim.t array
+)
+"abstract0.ml" 290 12533 12581 "abstract0.ml" 290 12533 12585
+type(
+  Linexpr0.t
+)
+ident(
+  int_ref expr "abstract0.ml" 289 12480 12520 "abstract0.ml" 289 12480 12524
+)
+"abstract0.ml" 290 12533 12579 "abstract0.ml" 290 12533 12587
+type(
+  Linexpr0.t array
+)
+"abstract0.ml" 290 12533 12588 "abstract0.ml" 290 12533 12593
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract0.ml" 289 12480 12525 "abstract0.ml" 289 12480 12530
+)
+"abstract0.ml" 290 12533 12533 "abstract0.ml" 290 12533 12593
+type(
+  unit
+)
+"abstract0.ml" 291 12594 12598 "abstract0.ml" 291 12594 12619
+type(
+  'a Manager.t -> 'a t -> Dim.t -> Texpr0.t -> 'a t option -> unit
+)
+ident(
+  def substitute_texpr_with "abstract0.ml" 295 12706 12706 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 291 12594 12620 "abstract0.ml" 291 12594 12623
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 291 12594 12624 "abstract0.ml" 292 12645 12703
+)
+"abstract0.ml" 291 12594 12624 "abstract0.ml" 291 12594 12627
+type(
+  'a t
+)
+ident(
+  def abs "abstract0.ml" 291 12594 12628 "abstract0.ml" 292 12645 12703
+)
+"abstract0.ml" 291 12594 12628 "abstract0.ml" 291 12594 12631
+type(
+  Dim.t
+)
+ident(
+  def dim "abstract0.ml" 291 12594 12632 "abstract0.ml" 292 12645 12703
+)
+"abstract0.ml" 291 12594 12632 "abstract0.ml" 291 12594 12636
+type(
+  Texpr0.t
+)
+ident(
+  def expr "abstract0.ml" 291 12594 12637 "abstract0.ml" 292 12645 12703
+)
+"abstract0.ml" 291 12594 12637 "abstract0.ml" 291 12594 12642
+type(
+  'a t option
+)
+ident(
+  def odest "abstract0.ml" 292 12645 12645 "abstract0.ml" 292 12645 12703
+)
+"abstract0.ml" 292 12645 12645 "abstract0.ml" 292 12645 12672
+type(
+  'a Manager.t ->
+  'a t -> Dim.t array -> Texpr0.t array -> 'a t option -> unit
+)
+ident(
+  int_ref substitute_texpr_array_with "abstract0.ml" 191 8199 8199 "abstract0.ml" 192 8315 8378
+)
+"abstract0.ml" 292 12645 12673 "abstract0.ml" 292 12645 12676
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 291 12594 12620 "abstract0.ml" 291 12594 12623
+)
+"abstract0.ml" 292 12645 12677 "abstract0.ml" 292 12645 12680
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract0.ml" 291 12594 12624 "abstract0.ml" 291 12594 12627
+)
+"abstract0.ml" 292 12645 12683 "abstract0.ml" 292 12645 12686
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "abstract0.ml" 291 12594 12628 "abstract0.ml" 291 12594 12631
+)
+"abstract0.ml" 292 12645 12681 "abstract0.ml" 292 12645 12688
+type(
+  Dim.t array
+)
+"abstract0.ml" 292 12645 12691 "abstract0.ml" 292 12645 12695
+type(
+  Texpr0.t
+)
+ident(
+  int_ref expr "abstract0.ml" 291 12594 12632 "abstract0.ml" 291 12594 12636
+)
+"abstract0.ml" 292 12645 12689 "abstract0.ml" 292 12645 12697
+type(
+  Texpr0.t array
+)
+"abstract0.ml" 292 12645 12698 "abstract0.ml" 292 12645 12703
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract0.ml" 291 12594 12637 "abstract0.ml" 291 12594 12642
+)
+"abstract0.ml" 292 12645 12645 "abstract0.ml" 292 12645 12703
+type(
+  unit
+)
+"abstract0.ml" 295 12706 12710 "abstract0.ml" 295 12706 12721
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a array -> unit
+)
+ident(
+  def print_array "abstract0.ml" 321 13269 13269 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 296 12722 12724 "abstract0.ml" 296 12722 12729
+type(
+  (unit, Format.formatter, unit) format
+)
+"abstract0.ml" 296 12722 12731 "abstract0.ml" 296 12722 12742
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"abstract0.ml" 297 12781 12783 "abstract0.ml" 297 12781 12786
+type(
+  (unit, Format.formatter, unit) format
+)
+"abstract0.ml" 297 12781 12790 "abstract0.ml" 297 12781 12795
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"abstract0.ml" 298 12834 12836 "abstract0.ml" 298 12834 12840
+type(
+  (unit, Format.formatter, unit) format
+)
+"abstract0.ml" 298 12834 12844 "abstract0.ml" 298 12834 12850
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"abstract0.ml" 299 12889 12890 "abstract0.ml" 299 12889 12899
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def print_elt "abstract0.ml" 300 12933 12933 "abstract0.ml" 319 13264 13267
+)
+"abstract0.ml" 300 12933 12934 "abstract0.ml" 300 12933 12937
+type(
+  Format.formatter
+)
+ident(
+  def fmt "abstract0.ml" 301 12956 12956 "abstract0.ml" 319 13264 13267
+)
+"abstract0.ml" 301 12956 12957 "abstract0.ml" 301 12956 12962
+type(
+  'a array
+)
+ident(
+  def array "abstract0.ml" 302 12974 12974 "abstract0.ml" 319 13264 13267
+)
+"abstract0.ml" 304 12983 12986 "abstract0.ml" 304 12983 12991
+type(
+  'a array
+)
+ident(
+  int_ref array "abstract0.ml" 301 12956 12957 "abstract0.ml" 301 12956 12962
+)
+"abstract0.ml" 304 12983 12991 "abstract0.ml" 304 12983 12992
+type(
+  'a array -> 'a array -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"abstract0.ml" 304 12983 12992 "abstract0.ml" 304 12983 12996
+type(
+  'a array
+)
+"abstract0.ml" 304 12983 12986 "abstract0.ml" 304 12983 12996
+type(
+  bool
+)
+"abstract0.ml" 305 13008 13008 "abstract0.ml" 305 13008 13022
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"abstract0.ml" 305 13008 13023 "abstract0.ml" 305 13008 13026
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 300 12933 12934 "abstract0.ml" 300 12933 12937
+)
+"abstract0.ml" 305 13008 13027 "abstract0.ml" 305 13008 13032
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref first "abstract0.ml" 296 12722 12724 "abstract0.ml" 296 12722 12729
+)
+"abstract0.ml" 305 13008 13008 "abstract0.ml" 305 13008 13032
+call(
+  stack
+)
+type(
+  unit
+)
+"abstract0.ml" 306 13034 13034 "abstract0.ml" 306 13034 13048
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"abstract0.ml" 306 13034 13049 "abstract0.ml" 306 13034 13052
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 300 12933 12934 "abstract0.ml" 300 12933 12937
+)
+"abstract0.ml" 306 13034 13053 "abstract0.ml" 306 13034 13057
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref last "abstract0.ml" 298 12834 12836 "abstract0.ml" 298 12834 12840
+)
+"abstract0.ml" 306 13034 13034 "abstract0.ml" 306 13034 13058
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract0.ml" 304 12983 13002 "abstract0.ml" 307 13059 13062
+type(
+  unit
+)
+"abstract0.ml" 309 13074 13074 "abstract0.ml" 309 13074 13088
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"abstract0.ml" 309 13074 13089 "abstract0.ml" 309 13074 13092
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 300 12933 12934 "abstract0.ml" 300 12933 12937
+)
+"abstract0.ml" 309 13074 13093 "abstract0.ml" 309 13074 13098
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref first "abstract0.ml" 296 12722 12724 "abstract0.ml" 296 12722 12729
+)
+"abstract0.ml" 309 13074 13074 "abstract0.ml" 309 13074 13098
+call(
+  stack
+)
+type(
+  unit
+)
+"abstract0.ml" 310 13100 13104 "abstract0.ml" 310 13100 13109
+type(
+  bool ref
+)
+ident(
+  def first "abstract0.ml" 311 13124 13124 "abstract0.ml" 318 13239 13263
+)
+"abstract0.ml" 310 13100 13112 "abstract0.ml" 310 13100 13115
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"abstract0.ml" 310 13100 13116 "abstract0.ml" 310 13100 13120
+type(
+  bool
+)
+"abstract0.ml" 310 13100 13112 "abstract0.ml" 310 13100 13120
+type(
+  bool ref
+)
+"abstract0.ml" 311 13124 13124 "abstract0.ml" 311 13124 13134
+type(
+  ('a -> unit) -> 'a array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"abstract0.ml" 312 13135 13146 "abstract0.ml" 312 13135 13147
+type(
+  'a
+)
+ident(
+  def e "abstract0.ml" 313 13151 13151 "abstract0.ml" 314 13210 13225
+)
+"abstract0.ml" 313 13151 13154 "abstract0.ml" 313 13151 13155
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"abstract0.ml" 313 13151 13155 "abstract0.ml" 313 13151 13160
+type(
+  bool ref
+)
+ident(
+  int_ref first "abstract0.ml" 310 13100 13104 "abstract0.ml" 310 13100 13109
+)
+"abstract0.ml" 313 13151 13154 "abstract0.ml" 313 13151 13160
+type(
+  bool
+)
+"abstract0.ml" 313 13151 13166 "abstract0.ml" 313 13151 13171
+type(
+  bool ref
+)
+ident(
+  int_ref first "abstract0.ml" 310 13100 13104 "abstract0.ml" 310 13100 13109
+)
+"abstract0.ml" 313 13151 13172 "abstract0.ml" 313 13151 13174
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"abstract0.ml" 313 13151 13175 "abstract0.ml" 313 13151 13180
+type(
+  bool
+)
+"abstract0.ml" 313 13151 13166 "abstract0.ml" 313 13151 13180
+type(
+  unit
+)
+"abstract0.ml" 313 13151 13186 "abstract0.ml" 313 13151 13200
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"abstract0.ml" 313 13151 13201 "abstract0.ml" 313 13151 13204
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 300 12933 12934 "abstract0.ml" 300 12933 12937
+)
+"abstract0.ml" 313 13151 13205 "abstract0.ml" 313 13151 13208
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref sep "abstract0.ml" 297 12781 12783 "abstract0.ml" 297 12781 12786
+)
+"abstract0.ml" 313 13151 13186 "abstract0.ml" 313 13151 13208
+call(
+  stack
+)
+type(
+  unit
+)
+"abstract0.ml" 313 13151 13151 "abstract0.ml" 313 13151 13208
+type(
+  unit
+)
+"abstract0.ml" 314 13210 13210 "abstract0.ml" 314 13210 13219
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print_elt "abstract0.ml" 299 12889 12890 "abstract0.ml" 299 12889 12899
+)
+"abstract0.ml" 314 13210 13220 "abstract0.ml" 314 13210 13223
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 300 12933 12934 "abstract0.ml" 300 12933 12937
+)
+"abstract0.ml" 314 13210 13224 "abstract0.ml" 314 13210 13225
+type(
+  'a
+)
+ident(
+  int_ref e "abstract0.ml" 312 13135 13146 "abstract0.ml" 312 13135 13147
+)
+"abstract0.ml" 314 13210 13210 "abstract0.ml" 314 13210 13225
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract0.ml" 313 13151 13151 "abstract0.ml" 314 13210 13225
+type(
+  unit
+)
+"abstract0.ml" 312 13135 13135 "abstract0.ml" 315 13226 13230
+type(
+  'a -> unit
+)
+"abstract0.ml" 316 13231 13231 "abstract0.ml" 316 13231 13236
+type(
+  'a array
+)
+ident(
+  int_ref array "abstract0.ml" 301 12956 12957 "abstract0.ml" 301 12956 12962
+)
+"abstract0.ml" 311 13124 13124 "abstract0.ml" 316 13231 13236
+call(
+  stack
+)
+type(
+  unit
+)
+"abstract0.ml" 318 13239 13239 "abstract0.ml" 318 13239 13253
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"abstract0.ml" 318 13239 13254 "abstract0.ml" 318 13239 13257
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 300 12933 12934 "abstract0.ml" 300 12933 12937
+)
+"abstract0.ml" 318 13239 13258 "abstract0.ml" 318 13239 13262
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref last "abstract0.ml" 298 12834 12836 "abstract0.ml" 298 12834 12840
+)
+"abstract0.ml" 318 13239 13239 "abstract0.ml" 318 13239 13263
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract0.ml" 311 13124 13124 "abstract0.ml" 318 13239 13263
+type(
+  unit
+)
+"abstract0.ml" 310 13100 13100 "abstract0.ml" 318 13239 13263
+type(
+  unit
+)
+"abstract0.ml" 308 13063 13068 "abstract0.ml" 319 13264 13267
+type(
+  unit
+)
+"abstract0.ml" 304 12983 12983 "abstract0.ml" 319 13264 13267
+type(
+  unit
+)
+type(
+  unit
+)
+"abstract0.ml" 321 13269 13273 "abstract0.ml" 321 13269 13278
+type(
+  (Dim.t -> string) -> Format.formatter -> 'a t -> unit
+)
+ident(
+  def print "abstract0.ml" 330 13527 13530 "abstract0.ml" 1 0 -1
+)
+"abstract0.ml" 321 13269 13279 "abstract0.ml" 321 13269 13284
+type(
+  Dim.t -> string
+)
+ident(
+  def assoc "abstract0.ml" 321 13269 13285 "abstract0.ml" 330 13527 13530
+)
+"abstract0.ml" 321 13269 13285 "abstract0.ml" 321 13269 13288
+type(
+  Format.formatter
+)
+ident(
+  def fmt "abstract0.ml" 321 13269 13289 "abstract0.ml" 330 13527 13530
+)
+"abstract0.ml" 321 13269 13289 "abstract0.ml" 321 13269 13290
+type(
+  'a t
+)
+ident(
+  def a "abstract0.ml" 322 13293 13293 "abstract0.ml" 330 13527 13530
+)
+"abstract0.ml" 322 13293 13297 "abstract0.ml" 322 13293 13300
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract0.ml" 323 13316 13316 "abstract0.ml" 330 13527 13530
+)
+"abstract0.ml" 322 13293 13303 "abstract0.ml" 322 13293 13310
+type(
+  'a t -> 'a Manager.t
+)
+ident(
+  int_ref manager "abstract0.ml" 71 2927 2927 "abstract0.ml" 72 2967 3010
+)
+"abstract0.ml" 322 13293 13311 "abstract0.ml" 322 13293 13312
+type(
+  'a t
+)
+ident(
+  int_ref a "abstract0.ml" 321 13269 13289 "abstract0.ml" 321 13269 13290
+)
+"abstract0.ml" 322 13293 13303 "abstract0.ml" 322 13293 13312
+type(
+  'a Manager.t
+)
+"abstract0.ml" 323 13316 13319 "abstract0.ml" 323 13316 13328
+type(
+  'a Manager.t -> 'a t -> bool
+)
+ident(
+  int_ref is_bottom "abstract0.ml" 77 3163 3163 "abstract0.ml" 78 3213 3258
+)
+"abstract0.ml" 323 13316 13329 "abstract0.ml" 323 13316 13332
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 322 13293 13297 "abstract0.ml" 322 13293 13300
+)
+"abstract0.ml" 323 13316 13333 "abstract0.ml" 323 13316 13334
+type(
+  'a t
+)
+ident(
+  int_ref a "abstract0.ml" 321 13269 13289 "abstract0.ml" 321 13269 13290
+)
+"abstract0.ml" 323 13316 13319 "abstract0.ml" 323 13316 13334
+type(
+  bool
+)
+"abstract0.ml" 324 13340 13341 "abstract0.ml" 324 13340 13363
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"abstract0.ml" 324 13340 13364 "abstract0.ml" 324 13340 13367
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 321 13269 13285 "abstract0.ml" 321 13269 13288
+)
+"abstract0.ml" 324 13340 13368 "abstract0.ml" 324 13340 13376
+type(
+  string
+)
+"abstract0.ml" 324 13340 13341 "abstract0.ml" 324 13340 13376
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract0.ml" 325 13377 13385 "abstract0.ml" 325 13377 13391
+type(
+  'a Manager.t -> 'a t -> bool
+)
+ident(
+  int_ref is_top "abstract0.ml" 80 3260 3260 "abstract0.ml" 81 3307 3349
+)
+"abstract0.ml" 325 13377 13392 "abstract0.ml" 325 13377 13395
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 322 13293 13297 "abstract0.ml" 322 13293 13300
+)
+"abstract0.ml" 325 13377 13396 "abstract0.ml" 325 13377 13397
+type(
+  'a t
+)
+ident(
+  int_ref a "abstract0.ml" 321 13269 13289 "abstract0.ml" 321 13269 13290
+)
+"abstract0.ml" 325 13377 13385 "abstract0.ml" 325 13377 13397
+type(
+  bool
+)
+"abstract0.ml" 326 13403 13403 "abstract0.ml" 326 13403 13425
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"abstract0.ml" 326 13403 13426 "abstract0.ml" 326 13403 13429
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 321 13269 13285 "abstract0.ml" 321 13269 13288
+)
+"abstract0.ml" 326 13403 13430 "abstract0.ml" 326 13403 13435
+type(
+  string
+)
+"abstract0.ml" 326 13403 13403 "abstract0.ml" 326 13403 13435
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract0.ml" 328 13447 13451 "abstract0.ml" 328 13447 13454
+type(
+  Lincons0.t array
+)
+ident(
+  def tab "abstract0.ml" 329 13483 13483 "abstract0.ml" 329 13483 13526
+)
+"abstract0.ml" 328 13447 13457 "abstract0.ml" 328 13447 13473
+type(
+  'a Manager.t -> 'a t -> Lincons0.t array
+)
+ident(
+  int_ref to_lincons_array "abstract0.ml" 116 4678 4678 "abstract0.ml" 117 4747 4799
+)
+"abstract0.ml" 328 13447 13474 "abstract0.ml" 328 13447 13477
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract0.ml" 322 13293 13297 "abstract0.ml" 322 13293 13300
+)
+"abstract0.ml" 328 13447 13478 "abstract0.ml" 328 13447 13479
+type(
+  'a t
+)
+ident(
+  int_ref a "abstract0.ml" 321 13269 13289 "abstract0.ml" 321 13269 13290
+)
+"abstract0.ml" 328 13447 13457 "abstract0.ml" 328 13447 13479
+type(
+  Lincons0.t array
+)
+"abstract0.ml" 329 13483 13483 "abstract0.ml" 329 13483 13494
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Lincons0.t -> unit) ->
+  Format.formatter -> Lincons0.t array -> unit
+)
+ident(
+  int_ref print_array "abstract0.ml" 295 12706 12710 "abstract0.ml" 295 12706 12721
+)
+"abstract0.ml" 329 13483 13496 "abstract0.ml" 329 13483 13510
+type(
+  (Dim.t -> string) -> Format.formatter -> Lincons0.t -> unit
+)
+ident(
+  ext_ref Lincons0.print
+)
+"abstract0.ml" 329 13483 13511 "abstract0.ml" 329 13483 13516
+type(
+  Dim.t -> string
+)
+ident(
+  int_ref assoc "abstract0.ml" 321 13269 13279 "abstract0.ml" 321 13269 13284
+)
+"abstract0.ml" 329 13483 13495 "abstract0.ml" 329 13483 13517
+call(
+  stack
+)
+type(
+  Format.formatter -> Lincons0.t -> unit
+)
+"abstract0.ml" 329 13483 13518 "abstract0.ml" 329 13483 13521
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract0.ml" 321 13269 13285 "abstract0.ml" 321 13269 13288
+)
+"abstract0.ml" 329 13483 13522 "abstract0.ml" 329 13483 13525
+type(
+  Lincons0.t array
+)
+ident(
+  int_ref tab "abstract0.ml" 328 13447 13451 "abstract0.ml" 328 13447 13454
+)
+"abstract0.ml" 329 13483 13483 "abstract0.ml" 329 13483 13526
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract0.ml" 327 13436 13441 "abstract0.ml" 330 13527 13530
+type(
+  unit
+)
+"abstract0.ml" 325 13377 13382 "abstract0.ml" 330 13527 13530
+type(
+  unit
+)
+"abstract0.ml" 323 13316 13316 "abstract0.ml" 330 13527 13530
+type(
+  unit
+)
+"abstract0.ml" 322 13293 13293 "abstract0.ml" 330 13527 13530
+type(
+  unit
+)

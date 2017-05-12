@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((a + b) = (3 * n))
+find an inductive invaraint  based on abstractions
+invariant size: 25
+interp: (let ((.def_201 (<= (+ (* 3 n) (+ (* (- 1) a) (* (- 1) b))) (- 1)))) (let ((.def_392 (<= (+ (* 3 i) (+ (* (- 1) a) (* (- 1) b))) (- 1)))) (not (or (<= 1 (+ (* 3 i) (+ (* (- 1) a) (* (- 1) b)))) (and (or .def_201 .def_392) (or .def_392 (and .def_201 (<= (+ (* 3 i) (+ (* (- 1) a) (* (- 1) b))) 0))))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

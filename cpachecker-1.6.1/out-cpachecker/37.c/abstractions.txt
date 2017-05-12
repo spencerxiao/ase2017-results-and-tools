@@ -1,0 +1,16 @@
+(declare-fun |main::n| () Int)
+(declare-fun |main::m| () Int)
+(declare-fun |main::x| () Int)
+
+13 () @5:
+(assert (and (< |main::m| |main::n|) (<= 0 |main::m|) (not (<= |main::x| 0)) (<= 0 |main::x|) (<= |main::m| |main::x|) (not (<= |main::x| |main::m|)) (<= |main::m| (+ |main::n| (- 1)))))
+
+9 (11) @5:
+(assert (let ((.cse0 (<= 0 |main::m|)) (.cse1 (<= |main::x| 0)) (.cse2 (<= 0 |main::x|)) (.cse3 (<= |main::m| |main::x|)) (.cse4 (<= |main::x| |main::m|)) (.cse5 (<= |main::m| (+ |main::n| (- 1))))) (ite (< |main::m| |main::n|) (and .cse0 .cse1 .cse2 .cse3 .cse4 .cse5) (and .cse0 .cse1 .cse2 .cse3 .cse4 (not .cse5)))))
+
+11 (13) @5:
+(assert (and (< |main::m| |main::n|) (<= 0 |main::m|) (not (<= |main::x| 0)) (<= 0 |main::x|) (<= |main::m| |main::x|) (not (<= |main::x| |main::m|)) (<= |main::m| (+ |main::n| (- 1)))))
+
+0 (9) @1:
+(assert true)
+

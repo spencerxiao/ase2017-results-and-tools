@@ -1,0 +1,9 @@
+var i:int,j:int,k:int;
+begin
+  i=0;
+  j=100;
+  k=1;
+  while i<j do
+    k=k+1;
+  done;
+end

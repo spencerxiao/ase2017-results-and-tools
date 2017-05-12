@@ -1,0 +1,1000 @@
+"mpq.ml" 43 1492 1496 "mpq.ml" 43 1492 1503
+type(
+  t -> string -> base:int -> unit
+)
+ident(
+  def set_str "mpq.ml" 44 1534 1534 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 43 1492 1504 "mpq.ml" 43 1492 1505
+type(
+  t
+)
+ident(
+  def a "mpq.ml" 43 1492 1506 "mpq.ml" 43 1492 1533
+)
+"mpq.ml" 43 1492 1506 "mpq.ml" 43 1492 1507
+type(
+  string
+)
+ident(
+  def b "mpq.ml" 43 1492 1508 "mpq.ml" 43 1492 1533
+)
+"mpq.ml" 43 1492 1509 "mpq.ml" 43 1492 1513
+type(
+  int
+)
+ident(
+  def base "mpq.ml" 43 1492 1516 "mpq.ml" 43 1492 1533
+)
+"mpq.ml" 43 1492 1516 "mpq.ml" 43 1492 1524
+type(
+  t -> string -> int -> unit
+)
+ident(
+  int_ref _set_str "mpq.ml" 40 1414 1414 "mpq.ml" 41 1461 1490
+)
+"mpq.ml" 43 1492 1525 "mpq.ml" 43 1492 1526
+type(
+  t
+)
+ident(
+  int_ref a "mpq.ml" 43 1492 1504 "mpq.ml" 43 1492 1505
+)
+"mpq.ml" 43 1492 1527 "mpq.ml" 43 1492 1528
+type(
+  string
+)
+ident(
+  int_ref b "mpq.ml" 43 1492 1506 "mpq.ml" 43 1492 1507
+)
+"mpq.ml" 43 1492 1529 "mpq.ml" 43 1492 1533
+type(
+  int
+)
+ident(
+  int_ref base "mpq.ml" 43 1492 1509 "mpq.ml" 43 1492 1513
+)
+"mpq.ml" 43 1492 1516 "mpq.ml" 43 1492 1533
+type(
+  unit
+)
+"mpq.ml" 63 1991 1995 "mpq.ml" 63 1991 2002
+type(
+  base:int -> 'a tt -> string
+)
+ident(
+  def get_str "mpq.ml" 65 2030 2030 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 63 1991 2004 "mpq.ml" 63 1991 2008
+type(
+  int
+)
+ident(
+  def base "mpq.ml" 63 1991 2009 "mpq.ml" 63 1991 2028
+)
+"mpq.ml" 63 1991 2009 "mpq.ml" 63 1991 2010
+type(
+  'a tt
+)
+ident(
+  def a "mpq.ml" 63 1991 2013 "mpq.ml" 63 1991 2028
+)
+"mpq.ml" 63 1991 2013 "mpq.ml" 63 1991 2021
+type(
+  int -> 'a tt -> string
+)
+ident(
+  int_ref _get_str "mpq.ml" 60 1917 1917 "mpq.ml" 61 1960 1989
+)
+"mpq.ml" 63 1991 2022 "mpq.ml" 63 1991 2026
+type(
+  int
+)
+ident(
+  int_ref base "mpq.ml" 63 1991 2004 "mpq.ml" 63 1991 2008
+)
+"mpq.ml" 63 1991 2027 "mpq.ml" 63 1991 2028
+type(
+  'a tt
+)
+ident(
+  int_ref a "mpq.ml" 63 1991 2009 "mpq.ml" 63 1991 2010
+)
+"mpq.ml" 63 1991 2013 "mpq.ml" 63 1991 2028
+type(
+  string
+)
+"mpq.ml" 133 3697 3701 "mpq.ml" 133 3697 3706
+type(
+  Format.formatter -> 'a tt -> unit
+)
+ident(
+  def print "mpq.ml" 134 3757 3757 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 133 3697 3707 "mpq.ml" 133 3697 3710
+type(
+  Format.formatter
+)
+ident(
+  def fmt "mpq.ml" 133 3697 3711 "mpq.ml" 133 3697 3756
+)
+"mpq.ml" 133 3697 3711 "mpq.ml" 133 3697 3712
+type(
+  'a tt
+)
+ident(
+  def x "mpq.ml" 133 3697 3715 "mpq.ml" 133 3697 3756
+)
+"mpq.ml" 133 3697 3715 "mpq.ml" 133 3697 3737
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"mpq.ml" 133 3697 3738 "mpq.ml" 133 3697 3741
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "mpq.ml" 133 3697 3707 "mpq.ml" 133 3697 3710
+)
+"mpq.ml" 133 3697 3743 "mpq.ml" 133 3697 3750
+type(
+  base:int -> 'a tt -> string
+)
+ident(
+  int_ref get_str "mpq.ml" 63 1991 1995 "mpq.ml" 63 1991 2002
+)
+"mpq.ml" 133 3697 3751 "mpq.ml" 133 3697 3753
+type(
+  int
+)
+"mpq.ml" 133 3697 3754 "mpq.ml" 133 3697 3755
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpq.ml" 133 3697 3711 "mpq.ml" 133 3697 3712
+)
+"mpq.ml" 133 3697 3742 "mpq.ml" 133 3697 3756
+call(
+  stack
+)
+type(
+  string
+)
+"mpq.ml" 133 3697 3715 "mpq.ml" 133 3697 3756
+call(
+  tail
+)
+type(
+  unit
+)
+"mpq.ml" 134 3757 3762 "mpq.ml" 134 3757 3766
+type(
+  m tt -> 'a tt
+)
+ident(
+  def _gen "mpq.ml" 135 3796 3796 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 134 3757 3786 "mpq.ml" 134 3757 3795
+type(
+  m tt -> 'a tt
+)
+ident(
+  ext_ref Obj.magic
+)
+"mpq.ml" 135 3796 3800 "mpq.ml" 135 3796 3808
+type(
+  'a tt -> 'b tt
+)
+ident(
+  def init_set "mpq.ml" 136 3847 3847 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 135 3796 3809 "mpq.ml" 135 3796 3810
+type(
+  'a tt
+)
+ident(
+  def x "mpq.ml" 135 3796 3813 "mpq.ml" 135 3796 3846
+)
+"mpq.ml" 135 3796 3817 "mpq.ml" 135 3796 3818
+type(
+  m tt
+)
+ident(
+  def y "mpq.ml" 135 3796 3831 "mpq.ml" 135 3796 3846
+)
+"mpq.ml" 135 3796 3821 "mpq.ml" 135 3796 3825
+type(
+  unit -> m tt
+)
+ident(
+  int_ref init "mpq.ml" 28 1158 1158 "mpq.ml" 29 1188 1213
+)
+"mpq.ml" 135 3796 3825 "mpq.ml" 135 3796 3827
+type(
+  unit
+)
+"mpq.ml" 135 3796 3821 "mpq.ml" 135 3796 3827
+type(
+  m tt
+)
+"mpq.ml" 135 3796 3831 "mpq.ml" 135 3796 3834
+type(
+  t -> 'a tt -> unit
+)
+ident(
+  int_ref set "mpq.ml" 31 1215 1215 "mpq.ml" 32 1249 1273
+)
+"mpq.ml" 135 3796 3835 "mpq.ml" 135 3796 3836
+type(
+  t
+)
+ident(
+  int_ref y "mpq.ml" 135 3796 3817 "mpq.ml" 135 3796 3818
+)
+"mpq.ml" 135 3796 3837 "mpq.ml" 135 3796 3838
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpq.ml" 135 3796 3809 "mpq.ml" 135 3796 3810
+)
+"mpq.ml" 135 3796 3831 "mpq.ml" 135 3796 3838
+type(
+  unit
+)
+"mpq.ml" 135 3796 3840 "mpq.ml" 135 3796 3844
+type(
+  m tt -> 'b tt
+)
+ident(
+  int_ref _gen "mpq.ml" 134 3757 3762 "mpq.ml" 134 3757 3766
+)
+"mpq.ml" 135 3796 3845 "mpq.ml" 135 3796 3846
+type(
+  m tt
+)
+ident(
+  int_ref y "mpq.ml" 135 3796 3817 "mpq.ml" 135 3796 3818
+)
+"mpq.ml" 135 3796 3840 "mpq.ml" 135 3796 3846
+call(
+  tail
+)
+type(
+  'b tt
+)
+"mpq.ml" 135 3796 3831 "mpq.ml" 135 3796 3846
+type(
+  'b tt
+)
+"mpq.ml" 135 3796 3813 "mpq.ml" 135 3796 3846
+type(
+  'b tt
+)
+"mpq.ml" 136 3847 3851 "mpq.ml" 136 3847 3861
+type(
+  'a Mpz.tt -> 'b tt
+)
+ident(
+  def init_set_z "mpq.ml" 137 3902 3902 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 136 3847 3862 "mpq.ml" 136 3847 3863
+type(
+  'a Mpz.tt
+)
+ident(
+  def z "mpq.ml" 136 3847 3866 "mpq.ml" 136 3847 3901
+)
+"mpq.ml" 136 3847 3870 "mpq.ml" 136 3847 3871
+type(
+  m tt
+)
+ident(
+  def x "mpq.ml" 136 3847 3884 "mpq.ml" 136 3847 3901
+)
+"mpq.ml" 136 3847 3874 "mpq.ml" 136 3847 3878
+type(
+  unit -> m tt
+)
+ident(
+  int_ref init "mpq.ml" 28 1158 1158 "mpq.ml" 29 1188 1213
+)
+"mpq.ml" 136 3847 3878 "mpq.ml" 136 3847 3880
+type(
+  unit
+)
+"mpq.ml" 136 3847 3874 "mpq.ml" 136 3847 3880
+type(
+  m tt
+)
+"mpq.ml" 136 3847 3884 "mpq.ml" 136 3847 3889
+type(
+  t -> 'a Mpz.tt -> unit
+)
+ident(
+  int_ref set_z "mpq.ml" 34 1275 1275 "mpq.ml" 35 1315 1341
+)
+"mpq.ml" 136 3847 3890 "mpq.ml" 136 3847 3891
+type(
+  t
+)
+ident(
+  int_ref x "mpq.ml" 136 3847 3870 "mpq.ml" 136 3847 3871
+)
+"mpq.ml" 136 3847 3892 "mpq.ml" 136 3847 3893
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref z "mpq.ml" 136 3847 3862 "mpq.ml" 136 3847 3863
+)
+"mpq.ml" 136 3847 3884 "mpq.ml" 136 3847 3893
+type(
+  unit
+)
+"mpq.ml" 136 3847 3895 "mpq.ml" 136 3847 3899
+type(
+  m tt -> 'b tt
+)
+ident(
+  int_ref _gen "mpq.ml" 134 3757 3762 "mpq.ml" 134 3757 3766
+)
+"mpq.ml" 136 3847 3900 "mpq.ml" 136 3847 3901
+type(
+  m tt
+)
+ident(
+  int_ref x "mpq.ml" 136 3847 3870 "mpq.ml" 136 3847 3871
+)
+"mpq.ml" 136 3847 3895 "mpq.ml" 136 3847 3901
+call(
+  tail
+)
+type(
+  'b tt
+)
+"mpq.ml" 136 3847 3884 "mpq.ml" 136 3847 3901
+type(
+  'b tt
+)
+"mpq.ml" 136 3847 3866 "mpq.ml" 136 3847 3901
+type(
+  'b tt
+)
+"mpq.ml" 137 3902 3906 "mpq.ml" 137 3902 3917
+type(
+  int -> int -> 'a tt
+)
+ident(
+  def init_set_si "mpq.ml" 138 3963 3963 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 137 3902 3918 "mpq.ml" 137 3902 3919
+type(
+  int
+)
+ident(
+  def n "mpq.ml" 137 3902 3920 "mpq.ml" 137 3902 3962
+)
+"mpq.ml" 137 3902 3920 "mpq.ml" 137 3902 3921
+type(
+  int
+)
+ident(
+  def d "mpq.ml" 137 3902 3924 "mpq.ml" 137 3902 3962
+)
+"mpq.ml" 137 3902 3928 "mpq.ml" 137 3902 3929
+type(
+  m tt
+)
+ident(
+  def x "mpq.ml" 137 3902 3942 "mpq.ml" 137 3902 3962
+)
+"mpq.ml" 137 3902 3932 "mpq.ml" 137 3902 3936
+type(
+  unit -> m tt
+)
+ident(
+  int_ref init "mpq.ml" 28 1158 1158 "mpq.ml" 29 1188 1213
+)
+"mpq.ml" 137 3902 3936 "mpq.ml" 137 3902 3938
+type(
+  unit
+)
+"mpq.ml" 137 3902 3932 "mpq.ml" 137 3902 3938
+type(
+  m tt
+)
+"mpq.ml" 137 3902 3942 "mpq.ml" 137 3902 3948
+type(
+  t -> int -> int -> unit
+)
+ident(
+  int_ref set_si "mpq.ml" 37 1343 1343 "mpq.ml" 38 1385 1412
+)
+"mpq.ml" 137 3902 3949 "mpq.ml" 137 3902 3950
+type(
+  t
+)
+ident(
+  int_ref x "mpq.ml" 137 3902 3928 "mpq.ml" 137 3902 3929
+)
+"mpq.ml" 137 3902 3951 "mpq.ml" 137 3902 3952
+type(
+  int
+)
+ident(
+  int_ref n "mpq.ml" 137 3902 3918 "mpq.ml" 137 3902 3919
+)
+"mpq.ml" 137 3902 3953 "mpq.ml" 137 3902 3954
+type(
+  int
+)
+ident(
+  int_ref d "mpq.ml" 137 3902 3920 "mpq.ml" 137 3902 3921
+)
+"mpq.ml" 137 3902 3942 "mpq.ml" 137 3902 3954
+type(
+  unit
+)
+"mpq.ml" 137 3902 3956 "mpq.ml" 137 3902 3960
+type(
+  m tt -> 'a tt
+)
+ident(
+  int_ref _gen "mpq.ml" 134 3757 3762 "mpq.ml" 134 3757 3766
+)
+"mpq.ml" 137 3902 3961 "mpq.ml" 137 3902 3962
+type(
+  m tt
+)
+ident(
+  int_ref x "mpq.ml" 137 3902 3928 "mpq.ml" 137 3902 3929
+)
+"mpq.ml" 137 3902 3956 "mpq.ml" 137 3902 3962
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpq.ml" 137 3902 3942 "mpq.ml" 137 3902 3962
+type(
+  'a tt
+)
+"mpq.ml" 137 3902 3924 "mpq.ml" 137 3902 3962
+type(
+  'a tt
+)
+"mpq.ml" 138 3963 3967 "mpq.ml" 138 3963 3979
+type(
+  string -> base:int -> 'a tt
+)
+ident(
+  def init_set_str "mpq.ml" 139 4047 4047 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 138 3963 3980 "mpq.ml" 138 3963 3983
+type(
+  string
+)
+ident(
+  def str "mpq.ml" 138 3963 3984 "mpq.ml" 138 3963 4046
+)
+"mpq.ml" 138 3963 3985 "mpq.ml" 138 3963 3989
+type(
+  int
+)
+ident(
+  def base "mpq.ml" 138 3963 3992 "mpq.ml" 138 3963 4046
+)
+"mpq.ml" 138 3963 3996 "mpq.ml" 138 3963 3997
+type(
+  m tt
+)
+ident(
+  def x "mpq.ml" 138 3963 4010 "mpq.ml" 138 3963 4046
+)
+"mpq.ml" 138 3963 4000 "mpq.ml" 138 3963 4004
+type(
+  unit -> m tt
+)
+ident(
+  int_ref init "mpq.ml" 28 1158 1158 "mpq.ml" 29 1188 1213
+)
+"mpq.ml" 138 3963 4004 "mpq.ml" 138 3963 4006
+type(
+  unit
+)
+"mpq.ml" 138 3963 4000 "mpq.ml" 138 3963 4006
+type(
+  m tt
+)
+"mpq.ml" 138 3963 4010 "mpq.ml" 138 3963 4016
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"mpq.ml" 138 3963 4018 "mpq.ml" 138 3963 4025
+type(
+  t -> string -> base:int -> unit
+)
+ident(
+  int_ref set_str "mpq.ml" 43 1492 1496 "mpq.ml" 43 1492 1503
+)
+"mpq.ml" 138 3963 4026 "mpq.ml" 138 3963 4027
+type(
+  t
+)
+ident(
+  int_ref x "mpq.ml" 138 3963 3996 "mpq.ml" 138 3963 3997
+)
+"mpq.ml" 138 3963 4028 "mpq.ml" 138 3963 4031
+type(
+  string
+)
+ident(
+  int_ref str "mpq.ml" 138 3963 3980 "mpq.ml" 138 3963 3983
+)
+"mpq.ml" 138 3963 4033 "mpq.ml" 138 3963 4037
+type(
+  int
+)
+ident(
+  int_ref base "mpq.ml" 138 3963 3985 "mpq.ml" 138 3963 3989
+)
+"mpq.ml" 138 3963 4017 "mpq.ml" 138 3963 4038
+call(
+  stack
+)
+type(
+  unit
+)
+"mpq.ml" 138 3963 4010 "mpq.ml" 138 3963 4038
+type(
+  unit
+)
+"mpq.ml" 138 3963 4040 "mpq.ml" 138 3963 4044
+type(
+  m tt -> 'a tt
+)
+ident(
+  int_ref _gen "mpq.ml" 134 3757 3762 "mpq.ml" 134 3757 3766
+)
+"mpq.ml" 138 3963 4045 "mpq.ml" 138 3963 4046
+type(
+  m tt
+)
+ident(
+  int_ref x "mpq.ml" 138 3963 3996 "mpq.ml" 138 3963 3997
+)
+"mpq.ml" 138 3963 4040 "mpq.ml" 138 3963 4046
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpq.ml" 138 3963 4010 "mpq.ml" 138 3963 4046
+type(
+  'a tt
+)
+"mpq.ml" 138 3963 3992 "mpq.ml" 138 3963 4046
+type(
+  'a tt
+)
+"mpq.ml" 139 4047 4051 "mpq.ml" 139 4047 4061
+type(
+  float -> 'a tt
+)
+ident(
+  def init_set_d "mpq.ml" 140 4102 4102 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 139 4047 4062 "mpq.ml" 139 4047 4063
+type(
+  float
+)
+ident(
+  def d "mpq.ml" 139 4047 4066 "mpq.ml" 139 4047 4101
+)
+"mpq.ml" 139 4047 4070 "mpq.ml" 139 4047 4071
+type(
+  m tt
+)
+ident(
+  def x "mpq.ml" 139 4047 4084 "mpq.ml" 139 4047 4101
+)
+"mpq.ml" 139 4047 4074 "mpq.ml" 139 4047 4078
+type(
+  unit -> m tt
+)
+ident(
+  int_ref init "mpq.ml" 28 1158 1158 "mpq.ml" 29 1188 1213
+)
+"mpq.ml" 139 4047 4078 "mpq.ml" 139 4047 4080
+type(
+  unit
+)
+"mpq.ml" 139 4047 4074 "mpq.ml" 139 4047 4080
+type(
+  m tt
+)
+"mpq.ml" 139 4047 4084 "mpq.ml" 139 4047 4089
+type(
+  t -> float -> unit
+)
+ident(
+  int_ref set_d "mpq.ml" 54 1785 1785 "mpq.ml" 55 1821 1847
+)
+"mpq.ml" 139 4047 4090 "mpq.ml" 139 4047 4091
+type(
+  t
+)
+ident(
+  int_ref x "mpq.ml" 139 4047 4070 "mpq.ml" 139 4047 4071
+)
+"mpq.ml" 139 4047 4092 "mpq.ml" 139 4047 4093
+type(
+  float
+)
+ident(
+  int_ref d "mpq.ml" 139 4047 4062 "mpq.ml" 139 4047 4063
+)
+"mpq.ml" 139 4047 4084 "mpq.ml" 139 4047 4093
+type(
+  unit
+)
+"mpq.ml" 139 4047 4095 "mpq.ml" 139 4047 4099
+type(
+  m tt -> 'a tt
+)
+ident(
+  int_ref _gen "mpq.ml" 134 3757 3762 "mpq.ml" 134 3757 3766
+)
+"mpq.ml" 139 4047 4100 "mpq.ml" 139 4047 4101
+type(
+  m tt
+)
+ident(
+  int_ref x "mpq.ml" 139 4047 4070 "mpq.ml" 139 4047 4071
+)
+"mpq.ml" 139 4047 4095 "mpq.ml" 139 4047 4101
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpq.ml" 139 4047 4084 "mpq.ml" 139 4047 4101
+type(
+  'a tt
+)
+"mpq.ml" 139 4047 4066 "mpq.ml" 139 4047 4101
+type(
+  'a tt
+)
+"mpq.ml" 140 4102 4106 "mpq.ml" 140 4102 4115
+type(
+  'a tt -> string
+)
+ident(
+  def to_string "mpq.ml" 141 4133 4133 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 140 4102 4116 "mpq.ml" 140 4102 4117
+type(
+  'a tt
+)
+ident(
+  def x "mpq.ml" 140 4102 4120 "mpq.ml" 140 4102 4132
+)
+"mpq.ml" 140 4102 4120 "mpq.ml" 140 4102 4127
+type(
+  base:int -> 'a tt -> string
+)
+ident(
+  int_ref get_str "mpq.ml" 63 1991 1995 "mpq.ml" 63 1991 2002
+)
+"mpq.ml" 140 4102 4128 "mpq.ml" 140 4102 4130
+type(
+  int
+)
+"mpq.ml" 140 4102 4131 "mpq.ml" 140 4102 4132
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpq.ml" 140 4102 4116 "mpq.ml" 140 4102 4117
+)
+"mpq.ml" 140 4102 4120 "mpq.ml" 140 4102 4132
+call(
+  tail
+)
+type(
+  string
+)
+"mpq.ml" 141 4133 4137 "mpq.ml" 141 4133 4145
+type(
+  'a tt -> float
+)
+ident(
+  def to_float "mpq.ml" 142 4154 4154 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 141 4133 4148 "mpq.ml" 141 4133 4153
+type(
+  'a tt -> float
+)
+ident(
+  int_ref get_d "mpq.ml" 51 1725 1725 "mpq.ml" 52 1757 1783
+)
+"mpq.ml" 142 4154 4158 "mpq.ml" 142 4154 4167
+type(
+  string -> 'a tt
+)
+ident(
+  def of_string "mpq.ml" 143 4194 4194 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 142 4154 4168 "mpq.ml" 142 4154 4171
+type(
+  string
+)
+ident(
+  def str "mpq.ml" 142 4154 4174 "mpq.ml" 142 4154 4193
+)
+"mpq.ml" 142 4154 4174 "mpq.ml" 142 4154 4186
+type(
+  string -> base:int -> 'a tt
+)
+ident(
+  int_ref init_set_str "mpq.ml" 138 3963 3967 "mpq.ml" 138 3963 3979
+)
+"mpq.ml" 142 4154 4187 "mpq.ml" 142 4154 4190
+type(
+  string
+)
+ident(
+  int_ref str "mpq.ml" 142 4154 4168 "mpq.ml" 142 4154 4171
+)
+"mpq.ml" 142 4154 4191 "mpq.ml" 142 4154 4193
+type(
+  int
+)
+"mpq.ml" 142 4154 4174 "mpq.ml" 142 4154 4193
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpq.ml" 143 4194 4198 "mpq.ml" 143 4194 4206
+type(
+  float -> 'a tt
+)
+ident(
+  def of_float "mpq.ml" 144 4220 4220 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 143 4194 4209 "mpq.ml" 143 4194 4219
+type(
+  float -> 'a tt
+)
+ident(
+  int_ref init_set_d "mpq.ml" 139 4047 4051 "mpq.ml" 139 4047 4061
+)
+"mpq.ml" 144 4220 4224 "mpq.ml" 144 4220 4230
+type(
+  int -> 'a tt
+)
+ident(
+  def of_int "mpq.ml" 145 4251 4251 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 144 4220 4231 "mpq.ml" 144 4220 4232
+type(
+  int
+)
+ident(
+  def a "mpq.ml" 144 4220 4235 "mpq.ml" 144 4220 4250
+)
+"mpq.ml" 144 4220 4235 "mpq.ml" 144 4220 4246
+type(
+  int -> int -> 'a tt
+)
+ident(
+  int_ref init_set_si "mpq.ml" 137 3902 3906 "mpq.ml" 137 3902 3917
+)
+"mpq.ml" 144 4220 4247 "mpq.ml" 144 4220 4248
+type(
+  int
+)
+ident(
+  int_ref a "mpq.ml" 144 4220 4231 "mpq.ml" 144 4220 4232
+)
+"mpq.ml" 144 4220 4249 "mpq.ml" 144 4220 4250
+type(
+  int
+)
+"mpq.ml" 144 4220 4235 "mpq.ml" 144 4220 4250
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpq.ml" 145 4251 4255 "mpq.ml" 145 4251 4262
+type(
+  int -> int -> 'a tt
+)
+ident(
+  def of_frac "mpq.ml" 146 4277 4277 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 145 4251 4265 "mpq.ml" 145 4251 4276
+type(
+  int -> int -> 'a tt
+)
+ident(
+  int_ref init_set_si "mpq.ml" 137 3902 3906 "mpq.ml" 137 3902 3917
+)
+"mpq.ml" 146 4277 4281 "mpq.ml" 146 4277 4287
+type(
+  'a Mpz.tt -> 'b tt
+)
+ident(
+  def of_mpz "mpq.ml" 147 4301 4301 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 146 4277 4290 "mpq.ml" 146 4277 4300
+type(
+  'a Mpz.tt -> 'b tt
+)
+ident(
+  int_ref init_set_z "mpq.ml" 136 3847 3851 "mpq.ml" 136 3847 3861
+)
+"mpq.ml" 147 4301 4305 "mpq.ml" 147 4301 4312
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> 'c tt
+)
+ident(
+  def of_mpz2 "mpq.ml" 147 4301 4403 "mpq.ml" 1 0 -1
+)
+"mpq.ml" 147 4301 4313 "mpq.ml" 147 4301 4316
+type(
+  'a Mpz.tt
+)
+ident(
+  def num "mpq.ml" 147 4301 4317 "mpq.ml" 147 4301 4403
+)
+"mpq.ml" 147 4301 4317 "mpq.ml" 147 4301 4320
+type(
+  'b Mpz.tt
+)
+ident(
+  def den "mpq.ml" 147 4301 4323 "mpq.ml" 147 4301 4403
+)
+"mpq.ml" 147 4301 4327 "mpq.ml" 147 4301 4330
+type(
+  m tt
+)
+ident(
+  def res "mpq.ml" 147 4301 4343 "mpq.ml" 147 4301 4403
+)
+"mpq.ml" 147 4301 4333 "mpq.ml" 147 4301 4337
+type(
+  unit -> m tt
+)
+ident(
+  int_ref init "mpq.ml" 28 1158 1158 "mpq.ml" 29 1188 1213
+)
+"mpq.ml" 147 4301 4337 "mpq.ml" 147 4301 4339
+type(
+  unit
+)
+"mpq.ml" 147 4301 4333 "mpq.ml" 147 4301 4339
+type(
+  m tt
+)
+"mpq.ml" 147 4301 4343 "mpq.ml" 147 4301 4350
+type(
+  t -> 'a Mpz.tt -> unit
+)
+ident(
+  int_ref set_num "mpq.ml" 121 3468 3468 "mpq.ml" 122 3510 3538
+)
+"mpq.ml" 147 4301 4351 "mpq.ml" 147 4301 4354
+type(
+  t
+)
+ident(
+  int_ref res "mpq.ml" 147 4301 4327 "mpq.ml" 147 4301 4330
+)
+"mpq.ml" 147 4301 4355 "mpq.ml" 147 4301 4358
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref num "mpq.ml" 147 4301 4313 "mpq.ml" 147 4301 4316
+)
+"mpq.ml" 147 4301 4343 "mpq.ml" 147 4301 4358
+type(
+  unit
+)
+"mpq.ml" 147 4301 4360 "mpq.ml" 147 4301 4367
+type(
+  t -> 'b Mpz.tt -> unit
+)
+ident(
+  int_ref set_den "mpq.ml" 124 3540 3540 "mpq.ml" 125 3582 3610
+)
+"mpq.ml" 147 4301 4368 "mpq.ml" 147 4301 4371
+type(
+  t
+)
+ident(
+  int_ref res "mpq.ml" 147 4301 4327 "mpq.ml" 147 4301 4330
+)
+"mpq.ml" 147 4301 4372 "mpq.ml" 147 4301 4375
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref den "mpq.ml" 147 4301 4317 "mpq.ml" 147 4301 4320
+)
+"mpq.ml" 147 4301 4360 "mpq.ml" 147 4301 4375
+type(
+  unit
+)
+"mpq.ml" 147 4301 4377 "mpq.ml" 147 4301 4389
+type(
+  m tt -> unit
+)
+ident(
+  int_ref canonicalize "mpq.ml" 21 929 929 "mpq.ml" 22 967 1000
+)
+"mpq.ml" 147 4301 4390 "mpq.ml" 147 4301 4393
+type(
+  m tt
+)
+ident(
+  int_ref res "mpq.ml" 147 4301 4327 "mpq.ml" 147 4301 4330
+)
+"mpq.ml" 147 4301 4377 "mpq.ml" 147 4301 4393
+type(
+  unit
+)
+"mpq.ml" 147 4301 4395 "mpq.ml" 147 4301 4399
+type(
+  m tt -> 'c tt
+)
+ident(
+  int_ref _gen "mpq.ml" 134 3757 3762 "mpq.ml" 134 3757 3766
+)
+"mpq.ml" 147 4301 4400 "mpq.ml" 147 4301 4403
+type(
+  m tt
+)
+ident(
+  int_ref res "mpq.ml" 147 4301 4327 "mpq.ml" 147 4301 4330
+)
+"mpq.ml" 147 4301 4395 "mpq.ml" 147 4301 4403
+call(
+  tail
+)
+type(
+  'c tt
+)
+"mpq.ml" 147 4301 4377 "mpq.ml" 147 4301 4403
+type(
+  'c tt
+)
+"mpq.ml" 147 4301 4360 "mpq.ml" 147 4301 4403
+type(
+  'c tt
+)
+"mpq.ml" 147 4301 4343 "mpq.ml" 147 4301 4403
+type(
+  'c tt
+)
+"mpq.ml" 147 4301 4323 "mpq.ml" 147 4301 4403
+type(
+  'c tt
+)

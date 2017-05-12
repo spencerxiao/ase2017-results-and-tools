@@ -1,0 +1,583 @@
+"interproc.ml" 12 259 263 "interproc.ml" 12 259 267
+type(
+  unit -> unit
+)
+ident(
+  def main "interproc.ml" 45 1208 1208 "interproc.ml" 1 0 -1
+)
+"interproc.ml" 12 259 268 "interproc.ml" 12 259 270
+type(
+  unit
+)
+"interproc.ml" 14 306 308 "interproc.ml" 14 306 317
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"interproc.ml" 15 318 322 "interproc.ml" 15 318 337
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Option.speclist
+)
+"interproc.ml" 16 338 355 "interproc.ml" 16 338 359
+type(
+  string
+)
+ident(
+  def name "interproc.ml" 16 338 363 "interproc.ml" 16 338 391
+)
+"interproc.ml" 16 338 363 "interproc.ml" 16 338 383
+type(
+  string ref
+)
+ident(
+  ext_ref Option.inputfilename
+)
+"interproc.ml" 16 338 384 "interproc.ml" 16 338 386
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"interproc.ml" 16 338 387 "interproc.ml" 16 338 391
+type(
+  string
+)
+ident(
+  int_ref name "interproc.ml" 16 338 355 "interproc.ml" 16 338 359
+)
+"interproc.ml" 16 338 363 "interproc.ml" 16 338 391
+type(
+  unit
+)
+"interproc.ml" 16 338 344 "interproc.ml" 16 338 396
+type(
+  Arg.anon_fun
+)
+"interproc.ml" 17 397 403 "interproc.ml" 17 397 436
+type(
+  Arg.usage_msg
+)
+"interproc.ml" 14 306 308 "interproc.ml" 17 397 436
+call(
+  stack
+)
+type(
+  unit
+)
+"interproc.ml" 20 469 475 "interproc.ml" 20 469 480
+type(
+  in_channel
+)
+ident(
+  def input "interproc.ml" 21 516 518 "interproc.ml" 43 1202 1206
+)
+"interproc.ml" 20 469 483 "interproc.ml" 20 469 490
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"interproc.ml" 20 469 491 "interproc.ml" 20 469 492
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"interproc.ml" 20 469 492 "interproc.ml" 20 469 512
+type(
+  string ref
+)
+ident(
+  ext_ref Option.inputfilename
+)
+"interproc.ml" 20 469 491 "interproc.ml" 20 469 512
+type(
+  string
+)
+"interproc.ml" 20 469 483 "interproc.ml" 20 469 512
+call(
+  stack
+)
+type(
+  in_channel
+)
+"interproc.ml" 21 516 522 "interproc.ml" 21 516 528
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "interproc.ml" 22 560 562 "interproc.ml" 43 1202 1206
+)
+"interproc.ml" 21 516 531 "interproc.ml" 21 516 550
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"interproc.ml" 21 516 551 "interproc.ml" 21 516 556
+type(
+  in_channel
+)
+ident(
+  int_ref input "interproc.ml" 20 469 475 "interproc.ml" 20 469 480
+)
+"interproc.ml" 21 516 531 "interproc.ml" 21 516 556
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"interproc.ml" 22 560 562 "interproc.ml" 22 560 568
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interproc.ml" 21 516 522 "interproc.ml" 21 516 528
+)
+"interproc.ml" 22 560 592 "interproc.ml" 22 560 598
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interproc.ml" 21 516 522 "interproc.ml" 21 516 528
+)
+"interproc.ml" 22 560 592 "interproc.ml" 22 560 616
+type(
+  Lexing.position
+)
+"interproc.ml" 23 622 645 "interproc.ml" 23 622 652
+type(
+  string
+)
+"interproc.ml" 23 622 652 "interproc.ml" 23 622 653
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"interproc.ml" 23 622 654 "interproc.ml" 23 622 655
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"interproc.ml" 23 622 655 "interproc.ml" 23 622 675
+type(
+  string ref
+)
+ident(
+  ext_ref Option.inputfilename
+)
+"interproc.ml" 23 622 653 "interproc.ml" 23 622 676
+type(
+  string
+)
+"interproc.ml" 23 622 645 "interproc.ml" 23 622 676
+call(
+  stack
+)
+type(
+  string
+)
+"interproc.ml" 22 560 590 "interproc.ml" 24 678 681
+type(
+  Lexing.position
+)
+"interproc.ml" 22 560 562 "interproc.ml" 24 678 681
+type(
+  unit
+)
+"interproc.ml" 25 683 689 "interproc.ml" 25 683 693
+type(
+  Spl_syn.program
+)
+ident(
+  def prog "interproc.ml" 26 749 751 "interproc.ml" 43 1202 1206
+)
+"interproc.ml" 25 683 696 "interproc.ml" 25 683 717
+type(
+  Format.formatter -> Lexing.lexbuf -> Spl_syn.program
+)
+ident(
+  ext_ref Frontend.parse_lexbuf
+)
+"interproc.ml" 25 683 718 "interproc.ml" 25 683 738
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.err_formatter
+)
+"interproc.ml" 25 683 739 "interproc.ml" 25 683 745
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interproc.ml" 21 516 522 "interproc.ml" 21 516 528
+)
+"interproc.ml" 25 683 696 "interproc.ml" 25 683 745
+call(
+  stack
+)
+type(
+  Spl_syn.program
+)
+"interproc.ml" 26 749 751 "interproc.ml" 26 749 759
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"interproc.ml" 26 749 760 "interproc.ml" 26 749 765
+type(
+  in_channel
+)
+ident(
+  int_ref input "interproc.ml" 20 469 475 "interproc.ml" 20 469 480
+)
+"interproc.ml" 26 749 751 "interproc.ml" 26 749 765
+call(
+  stack
+)
+type(
+  unit
+)
+"interproc.ml" 28 770 775 "interproc.ml" 28 770 776
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"interproc.ml" 28 770 776 "interproc.ml" 28 770 781
+type(
+  int ref
+)
+ident(
+  ext_ref Option.debug
+)
+"interproc.ml" 28 770 775 "interproc.ml" 28 770 781
+type(
+  int
+)
+"interproc.ml" 28 770 781 "interproc.ml" 28 770 782
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"interproc.ml" 28 770 782 "interproc.ml" 28 770 783
+type(
+  int
+)
+"interproc.ml" 28 770 775 "interproc.ml" 28 770 783
+type(
+  bool
+)
+"interproc.ml" 29 789 793 "interproc.ml" 29 789 799
+type(
+  (string ->
+   string ->
+   (Format.formatter -> Spl_syn.program -> unit) -> Spl_syn.program -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  string ->
+  (Format.formatter -> Spl_syn.program -> unit) -> Spl_syn.program -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"interproc.ml" 29 789 800 "interproc.ml" 29 789 844
+type(
+  (string ->
+   string ->
+   (Format.formatter -> Spl_syn.program -> unit) -> Spl_syn.program -> unit,
+   Format.formatter, unit)
+  format
+)
+"interproc.ml" 30 845 852 "interproc.ml" 30 845 853
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"interproc.ml" 30 845 853 "interproc.ml" 30 845 871
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"interproc.ml" 30 845 851 "interproc.ml" 30 845 872
+type(
+  Option.displaytags
+)
+"interproc.ml" 30 845 851 "interproc.ml" 30 845 882
+type(
+  string
+)
+"interproc.ml" 30 845 884 "interproc.ml" 30 845 885
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"interproc.ml" 30 845 885 "interproc.ml" 30 845 903
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"interproc.ml" 30 845 883 "interproc.ml" 30 845 904
+type(
+  Option.displaytags
+)
+"interproc.ml" 30 845 883 "interproc.ml" 30 845 914
+type(
+  string
+)
+"interproc.ml" 31 915 922 "interproc.ml" 31 915 944
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.program -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_program
+)
+"interproc.ml" 32 945 957 "interproc.ml" 32 945 960
+type(
+  Format.formatter
+)
+ident(
+  def fmt "interproc.ml" 32 945 961 "interproc.ml" 36 1059 1093
+)
+"interproc.ml" 32 945 961 "interproc.ml" 32 945 966
+type(
+  Spl_syn.point
+)
+ident(
+  def point "interproc.ml" 33 970 973 "interproc.ml" 36 1059 1093
+)
+"interproc.ml" 33 970 973 "interproc.ml" 33 970 980
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Spl_syn.point -> unit) ->
+   Spl_syn.point -> string -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Spl_syn.point -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"interproc.ml" 33 970 981 "interproc.ml" 33 970 984
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "interproc.ml" 32 945 957 "interproc.ml" 32 945 960
+)
+"interproc.ml" 33 970 985 "interproc.ml" 33 970 993
+type(
+  (string ->
+   (Format.formatter -> Spl_syn.point -> unit) ->
+   Spl_syn.point -> string -> unit, Format.formatter, unit)
+  format
+)
+"interproc.ml" 34 994 998 "interproc.ml" 34 994 999
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"interproc.ml" 34 994 999 "interproc.ml" 34 994 1017
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"interproc.ml" 34 994 997 "interproc.ml" 34 994 1018
+type(
+  Option.displaytags
+)
+"interproc.ml" 34 994 997 "interproc.ml" 34 994 1028
+type(
+  string
+)
+"interproc.ml" 35 1029 1032 "interproc.ml" 35 1029 1052
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_point
+)
+"interproc.ml" 35 1029 1053 "interproc.ml" 35 1029 1058
+type(
+  Spl_syn.point
+)
+ident(
+  int_ref point "interproc.ml" 32 945 961 "interproc.ml" 32 945 966
+)
+"interproc.ml" 36 1059 1063 "interproc.ml" 36 1059 1064
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"interproc.ml" 36 1059 1064 "interproc.ml" 36 1059 1082
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"interproc.ml" 36 1059 1062 "interproc.ml" 36 1059 1083
+type(
+  Option.displaytags
+)
+"interproc.ml" 36 1059 1062 "interproc.ml" 36 1059 1093
+type(
+  string
+)
+"interproc.ml" 33 970 973 "interproc.ml" 36 1059 1093
+call(
+  tail
+)
+type(
+  unit
+)
+"interproc.ml" 32 945 946 "interproc.ml" 37 1094 1099
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+"interproc.ml" 31 915 921 "interproc.ml" 37 1094 1100
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.program -> unit
+)
+"interproc.ml" 38 1101 1107 "interproc.ml" 38 1101 1111
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "interproc.ml" 25 683 689 "interproc.ml" 25 683 693
+)
+"interproc.ml" 29 789 793 "interproc.ml" 38 1101 1111
+call(
+  stack
+)
+type(
+  unit
+)
+"interproc.ml" 28 770 772 "interproc.ml" 38 1101 1111
+type(
+  unit
+)
+"interproc.ml" 42 1144 1146 "interproc.ml" 42 1144 1174
+type(
+  Format.formatter -> Spl_syn.program -> unit
+)
+ident(
+  ext_ref Frontend.analyze_and_display
+)
+"interproc.ml" 42 1144 1175 "interproc.ml" 42 1144 1195
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.std_formatter
+)
+"interproc.ml" 42 1144 1196 "interproc.ml" 42 1144 1200
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "interproc.ml" 25 683 689 "interproc.ml" 25 683 693
+)
+"interproc.ml" 42 1144 1146 "interproc.ml" 42 1144 1200
+call(
+  stack
+)
+type(
+  unit
+)
+"interproc.ml" 43 1202 1204 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 42 1144 1146 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 28 770 772 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 26 749 751 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 25 683 685 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 22 560 562 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 21 516 518 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 20 469 471 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 14 306 308 "interproc.ml" 43 1202 1206
+type(
+  unit
+)
+"interproc.ml" 45 1208 1216 "interproc.ml" 45 1208 1220
+type(
+  unit -> unit
+)
+ident(
+  int_ref main "interproc.ml" 12 259 263 "interproc.ml" 12 259 267
+)
+"interproc.ml" 45 1208 1220 "interproc.ml" 45 1208 1222
+type(
+  unit
+)
+"interproc.ml" 45 1208 1216 "interproc.ml" 45 1208 1222
+call(
+  stack
+)
+type(
+  unit
+)

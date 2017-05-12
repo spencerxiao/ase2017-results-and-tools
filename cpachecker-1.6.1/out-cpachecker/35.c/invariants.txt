@@ -1,0 +1,6 @@
+loop__main__7:
+(declare-fun |main::n| () Int)
+(declare-fun |main::x| () Int)
+(assert (let ((.cse0 (<= |main::x| 0)) (.cse1 (<= |main::x| 1)) (.cse2 (not (<= (+ (- |main::x|) |main::n| 1) 0)))) (ite (= |main::x| |main::n|) (ite .cse0 (and .cse1 .cse2) .cse2) (ite .cse0 .cse1 .cse2))))
+loop__main__12:
+(assert false)

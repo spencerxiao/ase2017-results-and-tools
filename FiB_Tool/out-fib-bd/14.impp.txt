@@ -1,0 +1,15 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (a >= -(m))
+find an inductive invaraint  based on abstractions
+invariant size: 27
+interp: (let ((.def_125 (<= m j))) (let ((.def_231 (<= (+ a j) 0))) (let ((.def_238 (and .def_125 .def_231))) (and (not (and (<= (+ a m) (- 1)) (<= (+ a m) 0))) (and (not (and .def_231 (and (and .def_231 (and .def_125 (and .def_231 (<= 0 (+ a j))))) .def_238))) (not (and .def_238 (and .def_231 (<= (+ a j) (- 1))))))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times
+verifying assertion: (a <= m)
+find an inductive invaraint  based on concrete reachables
+invariant size: 8
+interp: (not (<= 1 (+ a (* (- 1) m))))
+The assertion is satisfied!
+forward [0] times
+backward [0] times, backtracks [0] times

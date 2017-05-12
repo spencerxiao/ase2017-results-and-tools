@@ -1,0 +1,15 @@
+var i:int, n:int, sum:int;
+begin
+  i = 0;
+  n = random;
+  sum = 0;
+
+  assume (n >= 0);
+
+  while (i < n) do
+    sum = sum +_i i;
+    i = i +_i 1;
+  done;
+
+  assume (sum >= 0);
+end

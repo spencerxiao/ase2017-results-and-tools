@@ -1,0 +1,30 @@
+[32mAnnotated program after forward analysis[m
+var x : int, y : int, t1 : int, t2 : int;
+begin
+  /* [31m(L2 C5) [|y=0 mod 1; x=0 mod 1; t2=0 mod 1; t1=0 mod 1|][m */
+  x = 1; /* [31m(L3 C7)
+            [|x-1=0; y=0 mod 1; x-1=0; t2=0 mod 1; t1=0 mod 1|][m */
+  y = 1; /* [31m(L4 C7)
+            [|-x+y=0; x-1>=0; -x+y=0; x=0 mod 1; t2=0 mod 1; t1=0 mod 1|][m */
+  while brandom do
+    /* [31m(L5 C18)
+       [|-x+y=0; x-1>=0; -x+y=0; x=0 mod 1; t2=0 mod 1; t1=0 mod 1|][m */
+    t1 = x; /* [31m(L6 C9)
+               [|-t1+y=0; -t1+x=0; t1-1>=0; -t1+y=0; -t1+x=0; t2=0 mod 1;
+                 t1=0 mod 1|][m */
+    t2 = y; /* [31m(L7 C9)
+               [|-t1+y=0; -t1+x=0; -t1+t2=0; t1-1>=0; -t1+y=0; -t1+x=0;
+                 -t1+t2=0; t1=0 mod 1|][m */
+    x = t1 +_i,? t2; /* [31m(L8 C16)
+                        [|-2t1+x=0; -t1+y=0; -t1+t2=0; t1-1>=0; -t1+y=0;
+                          -2t1+x=0; -t1+t2=0; t1=0 mod 1|][m */
+    y = t1 +_i,? t2; /* [31m(L9 C16)
+                        [|-2t1+y=0; -2t1+x=0; -t1+t2=0; t1-1>=0; -2t1+y=0;
+                          -2t1+x=0; -t1+t2=0; t1=0 mod 1|][m */
+  done; /* [31m(L10 C6)
+           [|-x+y=0; x-1>=0; -x+y=0; x=0 mod 1; t2=0 mod 1; t1=0 mod 1|][m */
+  assume y >= 1; /* [31m(L11 C17)
+                    [|-x+y=0; x-1>=0; -x+y=0; x=0 mod 1; t2=0 mod 1;
+                      t1=0 mod 1|][m */
+end
+

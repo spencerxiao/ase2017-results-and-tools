@@ -1,0 +1,65 @@
+MODULE main
+	int x;
+	int y;
+	int w;
+	int z;
+
+	int turn;
+
+	assume(x == 0);
+	assume(y == 0);
+	assume(z == 0);
+	assume(w == 1);
+	assume(turn == 0);
+
+	while(*){
+		if(turn == 0){
+			if(*){
+				turn = 1;
+			}
+			else{
+				turn = 2;
+			}
+		}
+		else{
+			skip;
+		}
+
+		if(turn == 1){
+			if(w % 2 == 1){
+				x = x + 1;
+			}
+			else{
+				skip;
+			}
+
+			if(z % 2 == 0){
+				y = y + 1;
+			}
+			else{
+				skip;
+			}
+
+			if(*){
+				turn = 1;
+			}
+			else{
+				turn = 2;
+			}
+		}
+		else{
+			if(turn == 2){
+				z = z + y;
+				w = z + 1;
+
+				turn = 0;
+			}
+			else{
+				skip;
+			}
+		}
+	}
+
+	assert(x == y);	
+
+END MODULE

@@ -1,0 +1,73 @@
+[32mAnnotated program after forward analysis[m
+var i : int, j : int, k : int, b : int, n : int;
+begin
+  /* [31m(L2 C5)
+     [|n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1; b=0 mod 1|][m */
+  k = 100; /* [31m(L3 C10)
+              [|k-100=0; n=0 mod 1; k-100=0; j=0 mod 1; i=0 mod 1; b=0 mod 1|][m */
+  n = 0; /* [31m(L4 C8)
+            [|n=0; k-100=0; n=0; k-100=0; j=0 mod 1; i=0 mod 1; b=0 mod 1|][m */
+  j = [-inf; inf]; /* [31m(L5 C13)
+                      [|n=0; k-100=0; n=0; k-100=0; j=0 mod 1; i=0 mod 1;
+                        b=0 mod 1|][m */
+  i = j; /* [31m(L6 C8)
+            [|-i+j=0; n=0; k-100=0; n=0; k-100=0; -i+j=0; i=0 mod 1;
+              b=0 mod 1|][m */
+  b = [-inf; inf]; /* [31m(L7 C13)
+                      [|k-100=0; -i+j+n>=0; -n+200>=0; i-j+n>=0;
+                        i+j+n=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2;
+                        2b=0 mod 2|][m */
+  while n < 2 *_i,? k do
+    /* [31m(L9 C24)
+       [|k-100=0; -i+j+n>=0; -n+199>=0; i-j+n>=0; i+j+n=0 mod 2; k-100=0;
+         2j=0 mod 2; 2i=0 mod 2; 2b=0 mod 2|][m */
+    if not b == 0 then
+       /* [31m(L10 C23)
+          [|k-100=0; -i+j+n>=0; -n+199>=0; i-j+n>=0; i+j+n=0 mod 2; k-100=0;
+            2j=0 mod 2; 2i=0 mod 2; 2b=0 mod 2|][m */
+       i = i +_i,? 1; /* [31m(L11 C18)
+                         [|k-100=0; -i+j+n+1>=0; -n+199>=0; i-j+n-1>=0;
+                           i+j+n+1=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2;
+                           2b=0 mod 2|][m */
+    else
+      /* [31m(L12 C8)
+         [|k-100=0; b=0; -i+j+n>=0; -n+199>=0; i-j+n>=0; i+j+n=0 mod 2;
+           k-100=0; 2j=0 mod 2; 2i=0 mod 2; b=0|][m */
+      j = j +_i,? 1; /* [31m(L13 C18)
+                        [|k-100=0; b=0; -i+j+n-1>=0; -n+199>=0; i-j+n+1>=0;
+                          i+j+n+1=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2;
+                          b=0|][m */
+    endif; /* [31m(L14 C10)
+              [|k-100=0; -i+j+n+1>=0; -n+199>=0; n>=0; i-j+n+1>=0;
+                i+j+n+1=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2; 2b=0 mod 2|][m */
+    if b == 0 then
+       /* [31m(L16 C20)
+          [|k-100=0; b=0; -i+j+n+1>=0; -n+199>=0; n>=0; i-j+n+1>=0;
+            i+j+n+1=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2; b=0|][m */
+       b = 1; /* [31m(L17 C12)
+                 [|k-100=0; b-1=0; -i+j+n+1>=0; -n+199>=0; n>=0; i-j+n+1>=0;
+                   i+j+n+1=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2; 
+                   b-1=0|][m */
+    else
+      /* [31m(L18 C8)
+         [|k-100=0; -i+j+n+1>=0; -n+199>=0; n>=0; i-j+n+1>=0;
+           i+j+n+1=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2; 2b=0 mod 2|][m */
+      b = 0; /* [31m(L19 C12)
+                [|k-100=0; b=0; -i+j+n+1>=0; -n+199>=0; n>=0; i-j+n+1>=0;
+                  i+j+n+1=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2; b=0|][m */
+    endif; /* [31m(L20 C10)
+              [|k-100=0; -b+1>=0; -i+j+n+1>=0; -n+199>=0; n>=0; i-j+n+1>=0;
+                b>=0; i+j+n+1=0 mod 2; k-100=0; 2j=0 mod 2; 2i=0 mod 2;
+                2b=0 mod 2|][m */
+    n = n +_i,? 1; /* [31m(L21 C16)
+                      [|k-100=0; -b+1>=0; -i+j+n>=0; -n+200>=0; n-1>=0;
+                        i-j+n>=0; b>=0; i+j+n=0 mod 2; k-100=0; 2j=0 mod 2;
+                        2i=0 mod 2; 2b=0 mod 2|][m */
+  done; /* [31m(L22 C7)
+           [|n-200=0; k-100=0; -i+j+200>=0; i-j+200>=0; n-200=0; k-100=0;
+             i+j=0 mod 2; 2i=0 mod 2; 2b=0 mod 2|][m */
+  assume i == j; /* [31m(L24 C18)
+                    [|-i+j=0; n-200=0; k-100=0; n-200=0; k-100=0; -i+j=0;
+                      2i=0 mod 2; 2b=0 mod 2|][m */
+end
+

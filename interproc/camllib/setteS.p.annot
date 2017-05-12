@@ -1,0 +1,18 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteS.ml" 6 97 105 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteS.ml" 6 97 112
+type(
+  String.t -> String.t -> int
+)
+ident(
+  def compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteS.ml" 6 97 127 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteS.ml" 7 128 133
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteS.ml" 6 97 113 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteS.ml" 6 97 127
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteS.ml" 3 50 58 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteS.ml" 8 134 135
+call(
+  stack
+)

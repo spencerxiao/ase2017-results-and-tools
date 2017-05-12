@@ -1,0 +1,14 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/38.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([6,4]): pc(main-1-9) pc(main-8-9) {i>=n,y'=y,x'=x,n'=n,i'=i}
+[i>=n] [y'=y,x'=x,n'=n,i'=i]
+path([8,7,5,4]): pc(main-1-9) pc(main-9-12) {i+1=<n,y'=y,x'=x+1,n'=n,i'=i+1}
+[i+1=<n] [y'=y,x'=x+1,n'=n,i'=i+1]
+path([3,2,1]): pc(main-0-7) pc(main-1-9) {y'=0,x'=0,n'=n,i'=0}
+[] [y'=0,x'=0,n'=n,i'=0]
+
+#Printing Strengthening ==
+#=========================

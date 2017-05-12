@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (y = n)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 64
+interp: (let ((.def_20 (not (<= n m)))) (let ((.def_122 (not (<= (+ n (* (- 1) y)) (- 1))))) (let ((.def_123 (not (<= 1 (+ x (* (- 1) y)))))) (let ((.def_151 (not (<= 1 (+ m (* (- 1) x)))))) (let ((.def_333 (not (<= (+ x (* (- 1) y)) (- 1))))) (let ((.def_334 (and .def_123 .def_333))) (let ((.def_389 (not (<= 2 (+ m (* (- 1) x)))))) (let ((.def_413 (and .def_123 (and .def_334 .def_389)))) (let ((.def_843 (not (and (and .def_151 (and .def_122 .def_334)) .def_389)))) (let ((.def_845 (and .def_151 .def_413))) (let ((.def_852 (not (and .def_845 (and .def_122 .def_333))))) (let ((.def_854 (and (and (and (not (and .def_151 (and .def_122 (and .def_333 .def_413)))) .def_843) (not (and .def_122 (and .def_333 .def_845)))) (and .def_843 .def_852)))) (not (and (and .def_852 .def_854) (and .def_854 (not (and (not (<= n y)) (and (and .def_123 (and .def_20 (not (<= 1 (+ m (* (- 1) y)))))) (and .def_20 (and (not (<= (+ m (* (- 1) y)) (- 1))) .def_123))))))))))))))))))))
+The assertion is satisfied!
+forward [4] times, backtrack [2] times
+backward [4] times, backtrack [2] times

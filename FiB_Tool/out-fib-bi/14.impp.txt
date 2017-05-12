@@ -1,0 +1,15 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (a >= -(m))
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 20
+interp: (let ((.def_134 (<= (+ a m) 0))) (and (not (and (<= (+ a m) (- 1)) .def_134)) (and (not (<= (+ a j) (- 1))) (not (and .def_134 (and (<= (+ a j) 0) (<= 0 (+ a j))))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times
+verifying assertion: (a <= m)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 21
+interp: (let ((.def_367 (<= m a))) (and (not (and (<= 1 (+ a (* (- 1) m))) .def_367)) (and (not (<= 2 (+ a (* (- 1) j)))) (not (and .def_367 (<= j a))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

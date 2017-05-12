@@ -1,0 +1,48 @@
+MODULE main
+	int x;
+	int y;
+	int k;
+	int j;
+	int i;
+	int n;
+	int m;
+
+	int finish;
+
+	assume(x+y == k);
+	assume(m == 0);
+	assume(j == 0);
+
+	assume(finish == 0);
+
+	while(j < n){
+		if(j == i){
+			x = x + 1;
+			y = y - 1;
+		}
+		else{
+			x = x - 1;
+			y = y + 1;
+		}
+
+		if(*){
+			m = j;
+		}
+		else{
+			skip;
+		}
+
+		j = j + 1;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	finish == 1 && x + y != k;
+	finish == 1 && (n > 0 && 0 > m);
+	finish == 1 && (n > 0 && m > n);

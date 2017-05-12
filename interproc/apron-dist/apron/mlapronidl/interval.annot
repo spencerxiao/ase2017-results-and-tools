@@ -1,0 +1,1847 @@
+"interval.ml" 17 359 363 "interval.ml" 17 359 372
+type(
+  Scalar.t -> Scalar.t -> t
+)
+ident(
+  def of_scalar "interval.ml" 18 408 408 "interval.ml" 1 0 -1
+)
+"interval.ml" 17 359 373 "interval.ml" 17 359 376
+type(
+  Scalar.t
+)
+ident(
+  def inf "interval.ml" 17 359 377 "interval.ml" 17 359 407
+)
+"interval.ml" 17 359 377 "interval.ml" 17 359 380
+type(
+  Scalar.t
+)
+ident(
+  def sup "interval.ml" 17 359 383 "interval.ml" 17 359 407
+)
+"interval.ml" 17 359 391 "interval.ml" 17 359 394
+type(
+  Scalar.t
+)
+ident(
+  int_ref inf "interval.ml" 17 359 373 "interval.ml" 17 359 376
+)
+"interval.ml" 17 359 402 "interval.ml" 17 359 405
+type(
+  Scalar.t
+)
+ident(
+  int_ref sup "interval.ml" 17 359 377 "interval.ml" 17 359 380
+)
+"interval.ml" 17 359 383 "interval.ml" 17 359 407
+type(
+  t
+)
+"interval.ml" 18 408 412 "interval.ml" 18 408 421
+type(
+  Scalar.t -> Scalar.t -> t
+)
+ident(
+  def of_infsup "interval.ml" 19 434 434 "interval.ml" 1 0 -1
+)
+"interval.ml" 18 408 424 "interval.ml" 18 408 433
+type(
+  Scalar.t -> Scalar.t -> t
+)
+ident(
+  int_ref of_scalar "interval.ml" 17 359 363 "interval.ml" 17 359 372
+)
+"interval.ml" 19 434 438 "interval.ml" 19 434 444
+type(
+  Mpq.t -> Mpq.t -> t
+)
+ident(
+  def of_mpq "interval.ml" 23 501 501 "interval.ml" 1 0 -1
+)
+"interval.ml" 19 434 445 "interval.ml" 19 434 446
+type(
+  Mpq.t
+)
+ident(
+  def x "interval.ml" 19 434 447 "interval.ml" 22 499 500
+)
+"interval.ml" 19 434 447 "interval.ml" 19 434 448
+type(
+  Mpq.t
+)
+ident(
+  def y "interval.ml" 19 434 451 "interval.ml" 22 499 500
+)
+"interval.ml" 20 454 460 "interval.ml" 20 454 473
+type(
+  Mpq.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpq
+)
+"interval.ml" 20 454 474 "interval.ml" 20 454 475
+type(
+  Mpq.t
+)
+ident(
+  int_ref x "interval.ml" 19 434 445 "interval.ml" 19 434 446
+)
+"interval.ml" 20 454 460 "interval.ml" 20 454 475
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 21 477 483 "interval.ml" 21 477 496
+type(
+  Mpq.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpq
+)
+"interval.ml" 21 477 497 "interval.ml" 21 477 498
+type(
+  Mpq.t
+)
+ident(
+  int_ref y "interval.ml" 19 434 447 "interval.ml" 19 434 448
+)
+"interval.ml" 21 477 483 "interval.ml" 21 477 498
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 19 434 451 "interval.ml" 22 499 500
+type(
+  t
+)
+"interval.ml" 23 501 505 "interval.ml" 23 501 512
+type(
+  Mpqf.t -> Mpqf.t -> t
+)
+ident(
+  def of_mpqf "interval.ml" 27 570 570 "interval.ml" 1 0 -1
+)
+"interval.ml" 23 501 513 "interval.ml" 23 501 514
+type(
+  Mpqf.t
+)
+ident(
+  def x "interval.ml" 23 501 515 "interval.ml" 26 568 569
+)
+"interval.ml" 23 501 515 "interval.ml" 23 501 516
+type(
+  Mpqf.t
+)
+ident(
+  def y "interval.ml" 23 501 519 "interval.ml" 26 568 569
+)
+"interval.ml" 24 521 527 "interval.ml" 24 521 541
+type(
+  Mpqf.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpqf
+)
+"interval.ml" 24 521 542 "interval.ml" 24 521 543
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "interval.ml" 23 501 513 "interval.ml" 23 501 514
+)
+"interval.ml" 24 521 527 "interval.ml" 24 521 543
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 25 545 551 "interval.ml" 25 545 565
+type(
+  Mpqf.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpqf
+)
+"interval.ml" 25 545 566 "interval.ml" 25 545 567
+type(
+  Mpqf.t
+)
+ident(
+  int_ref y "interval.ml" 23 501 515 "interval.ml" 23 501 516
+)
+"interval.ml" 25 545 551 "interval.ml" 25 545 567
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 23 501 519 "interval.ml" 26 568 569
+type(
+  t
+)
+"interval.ml" 27 570 574 "interval.ml" 27 570 580
+type(
+  int -> int -> t
+)
+ident(
+  def of_int "interval.ml" 31 636 636 "interval.ml" 1 0 -1
+)
+"interval.ml" 27 570 581 "interval.ml" 27 570 582
+type(
+  int
+)
+ident(
+  def x "interval.ml" 27 570 583 "interval.ml" 30 634 635
+)
+"interval.ml" 27 570 583 "interval.ml" 27 570 584
+type(
+  int
+)
+ident(
+  def y "interval.ml" 27 570 587 "interval.ml" 30 634 635
+)
+"interval.ml" 28 589 595 "interval.ml" 28 589 608
+type(
+  int -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_int
+)
+"interval.ml" 28 589 609 "interval.ml" 28 589 610
+type(
+  int
+)
+ident(
+  int_ref x "interval.ml" 27 570 581 "interval.ml" 27 570 582
+)
+"interval.ml" 28 589 595 "interval.ml" 28 589 610
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 29 612 618 "interval.ml" 29 612 631
+type(
+  int -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_int
+)
+"interval.ml" 29 612 632 "interval.ml" 29 612 633
+type(
+  int
+)
+ident(
+  int_ref y "interval.ml" 27 570 583 "interval.ml" 27 570 584
+)
+"interval.ml" 29 612 618 "interval.ml" 29 612 633
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 27 570 587 "interval.ml" 30 634 635
+type(
+  t
+)
+"interval.ml" 31 636 640 "interval.ml" 31 636 647
+type(
+  int -> int -> int -> int -> t
+)
+ident(
+  def of_frac "interval.ml" 35 713 713 "interval.ml" 1 0 -1
+)
+"interval.ml" 31 636 648 "interval.ml" 31 636 649
+type(
+  int
+)
+ident(
+  def x "interval.ml" 31 636 650 "interval.ml" 34 711 712
+)
+"interval.ml" 31 636 650 "interval.ml" 31 636 651
+type(
+  int
+)
+ident(
+  def y "interval.ml" 31 636 652 "interval.ml" 34 711 712
+)
+"interval.ml" 31 636 652 "interval.ml" 31 636 653
+type(
+  int
+)
+ident(
+  def z "interval.ml" 31 636 654 "interval.ml" 34 711 712
+)
+"interval.ml" 31 636 654 "interval.ml" 31 636 655
+type(
+  int
+)
+ident(
+  def w "interval.ml" 31 636 658 "interval.ml" 34 711 712
+)
+"interval.ml" 32 660 666 "interval.ml" 32 660 680
+type(
+  int -> int -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_frac
+)
+"interval.ml" 32 660 681 "interval.ml" 32 660 682
+type(
+  int
+)
+ident(
+  int_ref x "interval.ml" 31 636 648 "interval.ml" 31 636 649
+)
+"interval.ml" 32 660 683 "interval.ml" 32 660 684
+type(
+  int
+)
+ident(
+  int_ref y "interval.ml" 31 636 650 "interval.ml" 31 636 651
+)
+"interval.ml" 32 660 666 "interval.ml" 32 660 684
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 33 686 692 "interval.ml" 33 686 706
+type(
+  int -> int -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_frac
+)
+"interval.ml" 33 686 707 "interval.ml" 33 686 708
+type(
+  int
+)
+ident(
+  int_ref z "interval.ml" 31 636 652 "interval.ml" 31 636 653
+)
+"interval.ml" 33 686 709 "interval.ml" 33 686 710
+type(
+  int
+)
+ident(
+  int_ref w "interval.ml" 31 636 654 "interval.ml" 31 636 655
+)
+"interval.ml" 33 686 692 "interval.ml" 33 686 710
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 31 636 658 "interval.ml" 34 711 712
+type(
+  t
+)
+"interval.ml" 35 713 717 "interval.ml" 35 713 725
+type(
+  float -> float -> t
+)
+ident(
+  def of_float "interval.ml" 39 785 785 "interval.ml" 1 0 -1
+)
+"interval.ml" 35 713 726 "interval.ml" 35 713 727
+type(
+  float
+)
+ident(
+  def x "interval.ml" 35 713 728 "interval.ml" 38 783 784
+)
+"interval.ml" 35 713 728 "interval.ml" 35 713 729
+type(
+  float
+)
+ident(
+  def y "interval.ml" 35 713 732 "interval.ml" 38 783 784
+)
+"interval.ml" 36 734 740 "interval.ml" 36 734 755
+type(
+  float -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_float
+)
+"interval.ml" 36 734 756 "interval.ml" 36 734 757
+type(
+  float
+)
+ident(
+  int_ref x "interval.ml" 35 713 726 "interval.ml" 35 713 727
+)
+"interval.ml" 36 734 740 "interval.ml" 36 734 757
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 37 759 765 "interval.ml" 37 759 780
+type(
+  float -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_float
+)
+"interval.ml" 37 759 781 "interval.ml" 37 759 782
+type(
+  float
+)
+ident(
+  int_ref y "interval.ml" 35 713 728 "interval.ml" 35 713 729
+)
+"interval.ml" 37 759 765 "interval.ml" 37 759 782
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 35 713 732 "interval.ml" 38 783 784
+type(
+  t
+)
+"interval.ml" 39 785 789 "interval.ml" 39 785 796
+type(
+  Mpfr.t -> Mpfr.t -> t
+)
+ident(
+  def of_mpfr "interval.ml" 43 854 854 "interval.ml" 1 0 -1
+)
+"interval.ml" 39 785 797 "interval.ml" 39 785 798
+type(
+  Mpfr.t
+)
+ident(
+  def x "interval.ml" 39 785 799 "interval.ml" 42 852 853
+)
+"interval.ml" 39 785 799 "interval.ml" 39 785 800
+type(
+  Mpfr.t
+)
+ident(
+  def y "interval.ml" 39 785 803 "interval.ml" 42 852 853
+)
+"interval.ml" 40 805 811 "interval.ml" 40 805 825
+type(
+  Mpfr.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpfr
+)
+"interval.ml" 40 805 826 "interval.ml" 40 805 827
+type(
+  Mpfr.t
+)
+ident(
+  int_ref x "interval.ml" 39 785 797 "interval.ml" 39 785 798
+)
+"interval.ml" 40 805 811 "interval.ml" 40 805 827
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 41 829 835 "interval.ml" 41 829 849
+type(
+  Mpfr.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpfr
+)
+"interval.ml" 41 829 850 "interval.ml" 41 829 851
+type(
+  Mpfr.t
+)
+ident(
+  int_ref y "interval.ml" 39 785 799 "interval.ml" 39 785 800
+)
+"interval.ml" 41 829 835 "interval.ml" 41 829 851
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 39 785 803 "interval.ml" 42 852 853
+type(
+  t
+)
+"interval.ml" 43 854 858 "interval.ml" 43 854 864
+type(
+  t -> bool
+)
+ident(
+  def is_top "interval.ml" 45 930 930 "interval.ml" 1 0 -1
+)
+"interval.ml" 43 854 865 "interval.ml" 43 854 868
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 44 871 871 "interval.ml" 44 871 929
+)
+"interval.ml" 44 871 871 "interval.ml" 44 871 886
+type(
+  Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.is_infty
+)
+"interval.ml" 44 871 887 "interval.ml" 44 871 890
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 43 854 865 "interval.ml" 43 854 868
+)
+"interval.ml" 44 871 887 "interval.ml" 44 871 894
+type(
+  Scalar.t
+)
+"interval.ml" 44 871 871 "interval.ml" 44 871 894
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 44 871 895 "interval.ml" 44 871 896
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"interval.ml" 44 871 897 "interval.ml" 44 871 898
+type(
+  int
+)
+"interval.ml" 44 871 871 "interval.ml" 44 871 898
+type(
+  bool
+)
+"interval.ml" 44 871 899 "interval.ml" 44 871 901
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"interval.ml" 44 871 902 "interval.ml" 44 871 917
+type(
+  Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.is_infty
+)
+"interval.ml" 44 871 918 "interval.ml" 44 871 921
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 43 854 865 "interval.ml" 43 854 868
+)
+"interval.ml" 44 871 918 "interval.ml" 44 871 925
+type(
+  Scalar.t
+)
+"interval.ml" 44 871 902 "interval.ml" 44 871 925
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 44 871 926 "interval.ml" 44 871 927
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"interval.ml" 44 871 928 "interval.ml" 44 871 929
+type(
+  int
+)
+"interval.ml" 44 871 902 "interval.ml" 44 871 929
+type(
+  bool
+)
+"interval.ml" 44 871 871 "interval.ml" 44 871 929
+type(
+  bool
+)
+"interval.ml" 45 930 934 "interval.ml" 45 930 943
+type(
+  t -> bool
+)
+ident(
+  def is_bottom "interval.ml" 47 981 981 "interval.ml" 1 0 -1
+)
+"interval.ml" 45 930 944 "interval.ml" 45 930 947
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 46 950 950 "interval.ml" 46 950 980
+)
+"interval.ml" 46 950 950 "interval.ml" 46 950 960
+type(
+  Scalar.t -> Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.cmp
+)
+"interval.ml" 46 950 961 "interval.ml" 46 950 964
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 45 930 944 "interval.ml" 45 930 947
+)
+"interval.ml" 46 950 961 "interval.ml" 46 950 968
+type(
+  Scalar.t
+)
+"interval.ml" 46 950 969 "interval.ml" 46 950 972
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 45 930 944 "interval.ml" 45 930 947
+)
+"interval.ml" 46 950 969 "interval.ml" 46 950 976
+type(
+  Scalar.t
+)
+"interval.ml" 46 950 950 "interval.ml" 46 950 976
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 46 950 977 "interval.ml" 46 950 978
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"interval.ml" 46 950 979 "interval.ml" 46 950 980
+type(
+  int
+)
+"interval.ml" 46 950 950 "interval.ml" 46 950 980
+type(
+  bool
+)
+"interval.ml" 47 981 985 "interval.ml" 47 981 991
+type(
+  t -> t -> bool
+)
+ident(
+  def is_leq "interval.ml" 50 1075 1075 "interval.ml" 1 0 -1
+)
+"interval.ml" 47 981 992 "interval.ml" 47 981 996
+type(
+  t
+)
+ident(
+  def itv1 "interval.ml" 47 981 997 "interval.ml" 49 1041 1074
+)
+"interval.ml" 47 981 997 "interval.ml" 47 981 1001
+type(
+  t
+)
+ident(
+  def itv2 "interval.ml" 48 1004 1004 "interval.ml" 49 1041 1074
+)
+"interval.ml" 48 1004 1004 "interval.ml" 48 1004 1014
+type(
+  Scalar.t -> Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.cmp
+)
+"interval.ml" 48 1004 1015 "interval.ml" 48 1004 1019
+type(
+  t
+)
+ident(
+  int_ref itv1 "interval.ml" 47 981 992 "interval.ml" 47 981 996
+)
+"interval.ml" 48 1004 1015 "interval.ml" 48 1004 1023
+type(
+  Scalar.t
+)
+"interval.ml" 48 1004 1024 "interval.ml" 48 1004 1028
+type(
+  t
+)
+ident(
+  int_ref itv2 "interval.ml" 47 981 997 "interval.ml" 47 981 1001
+)
+"interval.ml" 48 1004 1024 "interval.ml" 48 1004 1032
+type(
+  Scalar.t
+)
+"interval.ml" 48 1004 1004 "interval.ml" 48 1004 1032
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 48 1004 1033 "interval.ml" 48 1004 1035
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"interval.ml" 48 1004 1036 "interval.ml" 48 1004 1037
+type(
+  int
+)
+"interval.ml" 48 1004 1004 "interval.ml" 48 1004 1037
+type(
+  bool
+)
+"interval.ml" 48 1004 1038 "interval.ml" 48 1004 1040
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"interval.ml" 49 1041 1041 "interval.ml" 49 1041 1051
+type(
+  Scalar.t -> Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.cmp
+)
+"interval.ml" 49 1041 1052 "interval.ml" 49 1041 1056
+type(
+  t
+)
+ident(
+  int_ref itv1 "interval.ml" 47 981 992 "interval.ml" 47 981 996
+)
+"interval.ml" 49 1041 1052 "interval.ml" 49 1041 1060
+type(
+  Scalar.t
+)
+"interval.ml" 49 1041 1061 "interval.ml" 49 1041 1065
+type(
+  t
+)
+ident(
+  int_ref itv2 "interval.ml" 47 981 997 "interval.ml" 47 981 1001
+)
+"interval.ml" 49 1041 1061 "interval.ml" 49 1041 1069
+type(
+  Scalar.t
+)
+"interval.ml" 49 1041 1041 "interval.ml" 49 1041 1069
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 49 1041 1070 "interval.ml" 49 1041 1072
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"interval.ml" 49 1041 1073 "interval.ml" 49 1041 1074
+type(
+  int
+)
+"interval.ml" 49 1041 1041 "interval.ml" 49 1041 1074
+type(
+  bool
+)
+"interval.ml" 48 1004 1004 "interval.ml" 49 1041 1074
+type(
+  bool
+)
+"interval.ml" 50 1075 1079 "interval.ml" 50 1075 1082
+type(
+  t -> t -> int
+)
+ident(
+  def cmp "interval.ml" 58 1290 1290 "interval.ml" 1 0 -1
+)
+"interval.ml" 50 1075 1083 "interval.ml" 50 1075 1087
+type(
+  t
+)
+ident(
+  def itv1 "interval.ml" 50 1075 1088 "interval.ml" 57 1283 1289
+)
+"interval.ml" 50 1075 1088 "interval.ml" 50 1075 1092
+type(
+  t
+)
+ident(
+  def itv2 "interval.ml" 51 1095 1095 "interval.ml" 57 1283 1289
+)
+"interval.ml" 51 1095 1099 "interval.ml" 51 1095 1101
+type(
+  int
+)
+ident(
+  def s1 "interval.ml" 52 1136 1136 "interval.ml" 57 1283 1289
+)
+"interval.ml" 51 1095 1104 "interval.ml" 51 1095 1114
+type(
+  Scalar.t -> Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.cmp
+)
+"interval.ml" 51 1095 1115 "interval.ml" 51 1095 1119
+type(
+  t
+)
+ident(
+  int_ref itv1 "interval.ml" 50 1075 1083 "interval.ml" 50 1075 1087
+)
+"interval.ml" 51 1095 1115 "interval.ml" 51 1095 1123
+type(
+  Scalar.t
+)
+"interval.ml" 51 1095 1124 "interval.ml" 51 1095 1128
+type(
+  t
+)
+ident(
+  int_ref itv2 "interval.ml" 50 1075 1088 "interval.ml" 50 1075 1092
+)
+"interval.ml" 51 1095 1124 "interval.ml" 51 1095 1132
+type(
+  Scalar.t
+)
+"interval.ml" 51 1095 1104 "interval.ml" 51 1095 1132
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 52 1136 1140 "interval.ml" 52 1136 1142
+type(
+  int
+)
+ident(
+  def s2 "interval.ml" 53 1177 1177 "interval.ml" 57 1283 1289
+)
+"interval.ml" 52 1136 1145 "interval.ml" 52 1136 1155
+type(
+  Scalar.t -> Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.cmp
+)
+"interval.ml" 52 1136 1156 "interval.ml" 52 1136 1160
+type(
+  t
+)
+ident(
+  int_ref itv1 "interval.ml" 50 1075 1083 "interval.ml" 50 1075 1087
+)
+"interval.ml" 52 1136 1156 "interval.ml" 52 1136 1164
+type(
+  Scalar.t
+)
+"interval.ml" 52 1136 1165 "interval.ml" 52 1136 1169
+type(
+  t
+)
+ident(
+  int_ref itv2 "interval.ml" 50 1075 1088 "interval.ml" 50 1075 1092
+)
+"interval.ml" 52 1136 1165 "interval.ml" 52 1136 1173
+type(
+  Scalar.t
+)
+"interval.ml" 52 1136 1145 "interval.ml" 52 1136 1173
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 53 1177 1180 "interval.ml" 53 1177 1182
+type(
+  int
+)
+ident(
+  int_ref s1 "interval.ml" 51 1095 1099 "interval.ml" 51 1095 1101
+)
+"interval.ml" 53 1177 1182 "interval.ml" 53 1177 1183
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"interval.ml" 53 1177 1183 "interval.ml" 53 1177 1184
+type(
+  int
+)
+"interval.ml" 53 1177 1180 "interval.ml" 53 1177 1184
+type(
+  bool
+)
+"interval.ml" 53 1177 1185 "interval.ml" 53 1177 1187
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"interval.ml" 53 1177 1188 "interval.ml" 53 1177 1190
+type(
+  int
+)
+ident(
+  int_ref s2 "interval.ml" 52 1136 1140 "interval.ml" 52 1136 1142
+)
+"interval.ml" 53 1177 1190 "interval.ml" 53 1177 1191
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"interval.ml" 53 1177 1191 "interval.ml" 53 1177 1192
+type(
+  int
+)
+"interval.ml" 53 1177 1188 "interval.ml" 53 1177 1192
+type(
+  bool
+)
+"interval.ml" 53 1177 1180 "interval.ml" 53 1177 1192
+type(
+  bool
+)
+"interval.ml" 53 1177 1198 "interval.ml" 53 1177 1199
+type(
+  int
+)
+"interval.ml" 54 1200 1208 "interval.ml" 54 1200 1210
+type(
+  int
+)
+ident(
+  int_ref s1 "interval.ml" 51 1095 1099 "interval.ml" 51 1095 1101
+)
+"interval.ml" 54 1200 1210 "interval.ml" 54 1200 1212
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"interval.ml" 54 1200 1212 "interval.ml" 54 1200 1213
+type(
+  int
+)
+"interval.ml" 54 1200 1208 "interval.ml" 54 1200 1213
+type(
+  bool
+)
+"interval.ml" 54 1200 1214 "interval.ml" 54 1200 1216
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"interval.ml" 54 1200 1217 "interval.ml" 54 1200 1219
+type(
+  int
+)
+ident(
+  int_ref s2 "interval.ml" 52 1136 1140 "interval.ml" 52 1136 1142
+)
+"interval.ml" 54 1200 1219 "interval.ml" 54 1200 1221
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"interval.ml" 54 1200 1221 "interval.ml" 54 1200 1222
+type(
+  int
+)
+"interval.ml" 54 1200 1217 "interval.ml" 54 1200 1222
+type(
+  bool
+)
+"interval.ml" 54 1200 1208 "interval.ml" 54 1200 1222
+type(
+  bool
+)
+"interval.ml" 54 1200 1228 "interval.ml" 54 1200 1230
+type(
+  int
+)
+"interval.ml" 55 1231 1239 "interval.ml" 55 1231 1241
+type(
+  int
+)
+ident(
+  int_ref s1 "interval.ml" 51 1095 1099 "interval.ml" 51 1095 1101
+)
+"interval.ml" 55 1231 1241 "interval.ml" 55 1231 1243
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"interval.ml" 55 1231 1243 "interval.ml" 55 1231 1244
+type(
+  int
+)
+"interval.ml" 55 1231 1239 "interval.ml" 55 1231 1244
+type(
+  bool
+)
+"interval.ml" 55 1231 1245 "interval.ml" 55 1231 1247
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"interval.ml" 55 1231 1248 "interval.ml" 55 1231 1250
+type(
+  int
+)
+ident(
+  int_ref s2 "interval.ml" 52 1136 1140 "interval.ml" 52 1136 1142
+)
+"interval.ml" 55 1231 1250 "interval.ml" 55 1231 1252
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"interval.ml" 55 1231 1252 "interval.ml" 55 1231 1253
+type(
+  int
+)
+"interval.ml" 55 1231 1248 "interval.ml" 55 1231 1253
+type(
+  bool
+)
+"interval.ml" 55 1231 1239 "interval.ml" 55 1231 1253
+type(
+  bool
+)
+"interval.ml" 55 1231 1259 "interval.ml" 55 1231 1260
+type(
+  int
+)
+"interval.ml" 56 1261 1269 "interval.ml" 56 1261 1271
+type(
+  int
+)
+ident(
+  int_ref s1 "interval.ml" 51 1095 1099 "interval.ml" 51 1095 1101
+)
+"interval.ml" 56 1261 1271 "interval.ml" 56 1261 1273
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"interval.ml" 56 1261 1273 "interval.ml" 56 1261 1274
+type(
+  int
+)
+"interval.ml" 56 1261 1269 "interval.ml" 56 1261 1274
+type(
+  bool
+)
+"interval.ml" 56 1261 1280 "interval.ml" 56 1261 1282
+type(
+  int
+)
+"interval.ml" 57 1283 1288 "interval.ml" 57 1283 1289
+type(
+  int
+)
+"interval.ml" 56 1261 1266 "interval.ml" 57 1283 1289
+type(
+  int
+)
+"interval.ml" 55 1231 1236 "interval.ml" 57 1283 1289
+type(
+  int
+)
+"interval.ml" 54 1200 1205 "interval.ml" 57 1283 1289
+type(
+  int
+)
+"interval.ml" 53 1177 1177 "interval.ml" 57 1283 1289
+type(
+  int
+)
+"interval.ml" 52 1136 1136 "interval.ml" 57 1283 1289
+type(
+  int
+)
+"interval.ml" 51 1095 1095 "interval.ml" 57 1283 1289
+type(
+  int
+)
+"interval.ml" 58 1290 1294 "interval.ml" 58 1290 1299
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "interval.ml" 61 1378 1378 "interval.ml" 1 0 -1
+)
+"interval.ml" 58 1290 1300 "interval.ml" 58 1290 1304
+type(
+  t
+)
+ident(
+  def itv1 "interval.ml" 58 1290 1305 "interval.ml" 60 1346 1376
+)
+"interval.ml" 58 1290 1305 "interval.ml" 58 1290 1309
+type(
+  t
+)
+ident(
+  def itv2 "interval.ml" 59 1312 1312 "interval.ml" 60 1346 1376
+)
+"interval.ml" 59 1312 1312 "interval.ml" 59 1312 1324
+type(
+  Scalar.t -> Scalar.t -> bool
+)
+ident(
+  ext_ref Scalar.equal
+)
+"interval.ml" 59 1312 1325 "interval.ml" 59 1312 1329
+type(
+  t
+)
+ident(
+  int_ref itv1 "interval.ml" 58 1290 1300 "interval.ml" 58 1290 1304
+)
+"interval.ml" 59 1312 1325 "interval.ml" 59 1312 1333
+type(
+  Scalar.t
+)
+"interval.ml" 59 1312 1334 "interval.ml" 59 1312 1338
+type(
+  t
+)
+ident(
+  int_ref itv2 "interval.ml" 58 1290 1305 "interval.ml" 58 1290 1309
+)
+"interval.ml" 59 1312 1334 "interval.ml" 59 1312 1342
+type(
+  Scalar.t
+)
+"interval.ml" 59 1312 1312 "interval.ml" 59 1312 1342
+call(
+  stack
+)
+type(
+  bool
+)
+"interval.ml" 59 1312 1343 "interval.ml" 59 1312 1345
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"interval.ml" 60 1346 1346 "interval.ml" 60 1346 1358
+type(
+  Scalar.t -> Scalar.t -> bool
+)
+ident(
+  ext_ref Scalar.equal
+)
+"interval.ml" 60 1346 1359 "interval.ml" 60 1346 1363
+type(
+  t
+)
+ident(
+  int_ref itv1 "interval.ml" 58 1290 1300 "interval.ml" 58 1290 1304
+)
+"interval.ml" 60 1346 1359 "interval.ml" 60 1346 1367
+type(
+  Scalar.t
+)
+"interval.ml" 60 1346 1368 "interval.ml" 60 1346 1372
+type(
+  t
+)
+ident(
+  int_ref itv2 "interval.ml" 58 1290 1305 "interval.ml" 58 1290 1309
+)
+"interval.ml" 60 1346 1368 "interval.ml" 60 1346 1376
+type(
+  Scalar.t
+)
+"interval.ml" 60 1346 1346 "interval.ml" 60 1346 1376
+call(
+  tail
+)
+type(
+  bool
+)
+"interval.ml" 59 1312 1312 "interval.ml" 60 1346 1376
+type(
+  bool
+)
+"interval.ml" 61 1378 1382 "interval.ml" 61 1378 1389
+type(
+  t -> bool
+)
+ident(
+  def is_zero "interval.ml" 63 1443 1443 "interval.ml" 1 0 -1
+)
+"interval.ml" 61 1378 1390 "interval.ml" 61 1378 1393
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 62 1396 1396 "interval.ml" 62 1396 1442
+)
+"interval.ml" 62 1396 1396 "interval.ml" 62 1396 1406
+type(
+  Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.sgn
+)
+"interval.ml" 62 1396 1407 "interval.ml" 62 1396 1410
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 61 1378 1390 "interval.ml" 61 1378 1393
+)
+"interval.ml" 62 1396 1407 "interval.ml" 62 1396 1414
+type(
+  Scalar.t
+)
+"interval.ml" 62 1396 1396 "interval.ml" 62 1396 1414
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 62 1396 1414 "interval.ml" 62 1396 1415
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"interval.ml" 62 1396 1415 "interval.ml" 62 1396 1416
+type(
+  int
+)
+"interval.ml" 62 1396 1396 "interval.ml" 62 1396 1416
+type(
+  bool
+)
+"interval.ml" 62 1396 1417 "interval.ml" 62 1396 1419
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"interval.ml" 62 1396 1420 "interval.ml" 62 1396 1430
+type(
+  Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.sgn
+)
+"interval.ml" 62 1396 1431 "interval.ml" 62 1396 1434
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 61 1378 1390 "interval.ml" 61 1378 1393
+)
+"interval.ml" 62 1396 1431 "interval.ml" 62 1396 1438
+type(
+  Scalar.t
+)
+"interval.ml" 62 1396 1420 "interval.ml" 62 1396 1438
+call(
+  stack
+)
+type(
+  int
+)
+"interval.ml" 62 1396 1439 "interval.ml" 62 1396 1440
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"interval.ml" 62 1396 1441 "interval.ml" 62 1396 1442
+type(
+  int
+)
+"interval.ml" 62 1396 1420 "interval.ml" 62 1396 1442
+type(
+  bool
+)
+"interval.ml" 62 1396 1396 "interval.ml" 62 1396 1442
+type(
+  bool
+)
+"interval.ml" 63 1443 1447 "interval.ml" 63 1443 1456
+type(
+  t -> int -> bool
+)
+ident(
+  def equal_int "interval.ml" 65 1523 1523 "interval.ml" 1 0 -1
+)
+"interval.ml" 63 1443 1457 "interval.ml" 63 1443 1460
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 63 1443 1461 "interval.ml" 64 1466 1522
+)
+"interval.ml" 63 1443 1461 "interval.ml" 63 1443 1462
+type(
+  int
+)
+ident(
+  def b "interval.ml" 64 1466 1466 "interval.ml" 64 1466 1522
+)
+"interval.ml" 64 1466 1466 "interval.ml" 64 1466 1482
+type(
+  Scalar.t -> int -> bool
+)
+ident(
+  ext_ref Scalar.equal_int
+)
+"interval.ml" 64 1466 1483 "interval.ml" 64 1466 1486
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 63 1443 1457 "interval.ml" 63 1443 1460
+)
+"interval.ml" 64 1466 1483 "interval.ml" 64 1466 1490
+type(
+  Scalar.t
+)
+"interval.ml" 64 1466 1491 "interval.ml" 64 1466 1492
+type(
+  int
+)
+ident(
+  int_ref b "interval.ml" 63 1443 1461 "interval.ml" 63 1443 1462
+)
+"interval.ml" 64 1466 1466 "interval.ml" 64 1466 1492
+call(
+  stack
+)
+type(
+  bool
+)
+"interval.ml" 64 1466 1493 "interval.ml" 64 1466 1495
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"interval.ml" 64 1466 1496 "interval.ml" 64 1466 1512
+type(
+  Scalar.t -> int -> bool
+)
+ident(
+  ext_ref Scalar.equal_int
+)
+"interval.ml" 64 1466 1513 "interval.ml" 64 1466 1516
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 63 1443 1457 "interval.ml" 63 1443 1460
+)
+"interval.ml" 64 1466 1513 "interval.ml" 64 1466 1520
+type(
+  Scalar.t
+)
+"interval.ml" 64 1466 1521 "interval.ml" 64 1466 1522
+type(
+  int
+)
+ident(
+  int_ref b "interval.ml" 63 1443 1461 "interval.ml" 63 1443 1462
+)
+"interval.ml" 64 1466 1496 "interval.ml" 64 1466 1522
+call(
+  tail
+)
+type(
+  bool
+)
+"interval.ml" 64 1466 1466 "interval.ml" 64 1466 1522
+type(
+  bool
+)
+"interval.ml" 65 1523 1527 "interval.ml" 65 1523 1530
+type(
+  t -> t
+)
+ident(
+  def neg "interval.ml" 67 1593 1593 "interval.ml" 1 0 -1
+)
+"interval.ml" 65 1523 1531 "interval.ml" 65 1523 1534
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 66 1538 1538 "interval.ml" 66 1538 1592
+)
+"interval.ml" 66 1538 1546 "interval.ml" 66 1538 1556
+type(
+  Scalar.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.neg
+)
+"interval.ml" 66 1538 1557 "interval.ml" 66 1538 1560
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 65 1523 1531 "interval.ml" 65 1523 1534
+)
+"interval.ml" 66 1538 1557 "interval.ml" 66 1538 1564
+type(
+  Scalar.t
+)
+"interval.ml" 66 1538 1546 "interval.ml" 66 1538 1564
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 66 1538 1572 "interval.ml" 66 1538 1582
+type(
+  Scalar.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.neg
+)
+"interval.ml" 66 1538 1583 "interval.ml" 66 1538 1586
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 65 1523 1531 "interval.ml" 65 1523 1534
+)
+"interval.ml" 66 1538 1583 "interval.ml" 66 1538 1590
+type(
+  Scalar.t
+)
+"interval.ml" 66 1538 1572 "interval.ml" 66 1538 1590
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"interval.ml" 66 1538 1538 "interval.ml" 66 1538 1592
+type(
+  t
+)
+"interval.ml" 67 1593 1597 "interval.ml" 67 1593 1600
+type(
+  t
+)
+ident(
+  def top "interval.ml" 68 1668 1668 "interval.ml" 1 0 -1
+)
+"interval.ml" 67 1593 1624 "interval.ml" 67 1593 1636
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.neg_infinity
+)
+"interval.ml" 67 1593 1611 "interval.ml" 67 1593 1636
+type(
+  Scalar.t
+)
+"interval.ml" 67 1593 1657 "interval.ml" 67 1593 1665
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.infinity
+)
+"interval.ml" 67 1593 1644 "interval.ml" 67 1593 1665
+type(
+  Scalar.t
+)
+"interval.ml" 67 1593 1603 "interval.ml" 67 1593 1667
+type(
+  t
+)
+"interval.ml" 68 1668 1672 "interval.ml" 68 1668 1678
+type(
+  t
+)
+ident(
+  def bottom "interval.ml" 69 1746 1746 "interval.ml" 1 0 -1
+)
+"interval.ml" 68 1668 1702 "interval.ml" 68 1668 1710
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.infinity
+)
+"interval.ml" 68 1668 1689 "interval.ml" 68 1668 1710
+type(
+  Scalar.t
+)
+"interval.ml" 68 1668 1731 "interval.ml" 68 1668 1743
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.neg_infinity
+)
+"interval.ml" 68 1668 1718 "interval.ml" 68 1668 1743
+type(
+  Scalar.t
+)
+"interval.ml" 68 1668 1681 "interval.ml" 68 1668 1745
+type(
+  t
+)
+"interval.ml" 69 1746 1750 "interval.ml" 69 1746 1760
+type(
+  t -> Scalar.t -> Scalar.t -> unit
+)
+ident(
+  def set_infsup "interval.ml" 72 1806 1806 "interval.ml" 1 0 -1
+)
+"interval.ml" 69 1746 1761 "interval.ml" 69 1746 1764
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 69 1746 1765 "interval.ml" 71 1791 1805
+)
+"interval.ml" 69 1746 1765 "interval.ml" 69 1746 1768
+type(
+  Scalar.t
+)
+ident(
+  def inf "interval.ml" 69 1746 1769 "interval.ml" 71 1791 1805
+)
+"interval.ml" 69 1746 1769 "interval.ml" 69 1746 1772
+type(
+  Scalar.t
+)
+ident(
+  def sup "interval.ml" 70 1775 1775 "interval.ml" 71 1791 1805
+)
+"interval.ml" 70 1775 1775 "interval.ml" 70 1775 1778
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 69 1746 1761 "interval.ml" 69 1746 1764
+)
+"interval.ml" 70 1775 1786 "interval.ml" 70 1775 1789
+type(
+  Scalar.t
+)
+ident(
+  int_ref inf "interval.ml" 69 1746 1765 "interval.ml" 69 1746 1768
+)
+"interval.ml" 70 1775 1775 "interval.ml" 70 1775 1789
+type(
+  unit
+)
+"interval.ml" 71 1791 1791 "interval.ml" 71 1791 1794
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 69 1746 1761 "interval.ml" 69 1746 1764
+)
+"interval.ml" 71 1791 1802 "interval.ml" 71 1791 1805
+type(
+  Scalar.t
+)
+ident(
+  int_ref sup "interval.ml" 69 1746 1769 "interval.ml" 69 1746 1772
+)
+"interval.ml" 71 1791 1791 "interval.ml" 71 1791 1805
+type(
+  unit
+)
+"interval.ml" 70 1775 1775 "interval.ml" 71 1791 1805
+type(
+  unit
+)
+"interval.ml" 72 1806 1810 "interval.ml" 72 1806 1817
+type(
+  t -> unit
+)
+ident(
+  def set_top "interval.ml" 75 1895 1895 "interval.ml" 1 0 -1
+)
+"interval.ml" 72 1806 1818 "interval.ml" 72 1806 1821
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 73 1824 1824 "interval.ml" 74 1862 1894
+)
+"interval.ml" 73 1824 1824 "interval.ml" 73 1824 1827
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 72 1806 1818 "interval.ml" 72 1806 1821
+)
+"interval.ml" 73 1824 1848 "interval.ml" 73 1824 1860
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.neg_infinity
+)
+"interval.ml" 73 1824 1835 "interval.ml" 73 1824 1860
+type(
+  Scalar.t
+)
+"interval.ml" 73 1824 1824 "interval.ml" 73 1824 1860
+type(
+  unit
+)
+"interval.ml" 74 1862 1862 "interval.ml" 74 1862 1865
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 72 1806 1818 "interval.ml" 72 1806 1821
+)
+"interval.ml" 74 1862 1886 "interval.ml" 74 1862 1894
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.infinity
+)
+"interval.ml" 74 1862 1873 "interval.ml" 74 1862 1894
+type(
+  Scalar.t
+)
+"interval.ml" 74 1862 1862 "interval.ml" 74 1862 1894
+type(
+  unit
+)
+"interval.ml" 73 1824 1824 "interval.ml" 74 1862 1894
+type(
+  unit
+)
+"interval.ml" 75 1895 1899 "interval.ml" 75 1895 1909
+type(
+  t -> unit
+)
+ident(
+  def set_bottom "interval.ml" 78 1987 1987 "interval.ml" 1 0 -1
+)
+"interval.ml" 75 1895 1910 "interval.ml" 75 1895 1913
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 76 1916 1916 "interval.ml" 77 1950 1986
+)
+"interval.ml" 76 1916 1916 "interval.ml" 76 1916 1919
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 75 1895 1910 "interval.ml" 75 1895 1913
+)
+"interval.ml" 76 1916 1940 "interval.ml" 76 1916 1948
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.infinity
+)
+"interval.ml" 76 1916 1927 "interval.ml" 76 1916 1948
+type(
+  Scalar.t
+)
+"interval.ml" 76 1916 1916 "interval.ml" 76 1916 1948
+type(
+  unit
+)
+"interval.ml" 77 1950 1950 "interval.ml" 77 1950 1953
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 75 1895 1910 "interval.ml" 75 1895 1913
+)
+"interval.ml" 77 1950 1974 "interval.ml" 77 1950 1986
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.neg_infinity
+)
+"interval.ml" 77 1950 1961 "interval.ml" 77 1950 1986
+type(
+  Scalar.t
+)
+"interval.ml" 77 1950 1950 "interval.ml" 77 1950 1986
+type(
+  unit
+)
+"interval.ml" 76 1916 1916 "interval.ml" 77 1950 1986
+type(
+  unit
+)
+"interval.ml" 78 1987 1991 "interval.ml" 78 1987 1996
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "interval.ml" 80 2046 2087 "interval.ml" 1 0 -1
+)
+"interval.ml" 78 1987 1997 "interval.ml" 78 1987 2000
+type(
+  Format.formatter
+)
+ident(
+  def fmt "interval.ml" 78 1987 2001 "interval.ml" 80 2046 2087
+)
+"interval.ml" 78 1987 2001 "interval.ml" 78 1987 2004
+type(
+  t
+)
+ident(
+  def itv "interval.ml" 79 2007 2007 "interval.ml" 80 2046 2087
+)
+"interval.ml" 79 2007 2007 "interval.ml" 79 2007 2021
+type(
+  Format.formatter ->
+  ((Format.formatter -> Scalar.t -> unit) ->
+   Scalar.t -> (Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Scalar.t -> unit) ->
+  Scalar.t -> (Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"interval.ml" 79 2007 2022 "interval.ml" 79 2007 2025
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "interval.ml" 78 1987 1997 "interval.ml" 78 1987 2000
+)
+"interval.ml" 79 2007 2026 "interval.ml" 79 2007 2045
+type(
+  ((Format.formatter -> Scalar.t -> unit) ->
+   Scalar.t -> (Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"interval.ml" 80 2046 2046 "interval.ml" 80 2046 2058
+type(
+  Format.formatter -> Scalar.t -> unit
+)
+ident(
+  ext_ref Scalar.print
+)
+"interval.ml" 80 2046 2059 "interval.ml" 80 2046 2062
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 78 1987 2001 "interval.ml" 78 1987 2004
+)
+"interval.ml" 80 2046 2059 "interval.ml" 80 2046 2066
+type(
+  Scalar.t
+)
+"interval.ml" 80 2046 2067 "interval.ml" 80 2046 2079
+type(
+  Format.formatter -> Scalar.t -> unit
+)
+ident(
+  ext_ref Scalar.print
+)
+"interval.ml" 80 2046 2080 "interval.ml" 80 2046 2083
+type(
+  t
+)
+ident(
+  int_ref itv "interval.ml" 78 1987 2001 "interval.ml" 78 1987 2004
+)
+"interval.ml" 80 2046 2080 "interval.ml" 80 2046 2087
+type(
+  Scalar.t
+)
+"interval.ml" 79 2007 2007 "interval.ml" 80 2046 2087
+call(
+  tail
+)
+type(
+  unit
+)

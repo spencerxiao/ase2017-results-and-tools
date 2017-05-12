@@ -1,0 +1,11 @@
+main::n	4
+main::__CPAchecker_TMP_1	0
+main::__CPAchecker_TMP_0	4
+main::c1	4
+main::k	4
+main::j	7
+main::i	4
+main::c2	4
+main::v	6
+main::__retval__	7
+__VERIFIER_assume::i	4

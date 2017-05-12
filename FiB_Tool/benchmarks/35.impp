@@ -1,0 +1,14 @@
+MODULE main
+	int x;
+	int n;
+
+	assume(n > 0);
+	assume(x == 0);
+
+	while(x < n){
+		x = x + 1;
+	}
+
+	assert(x == n);	
+
+END MODULE

@@ -1,0 +1,19 @@
+var x:int, y:int, z:int, k:int;
+begin
+  x = 0;
+  y = 0;
+  z = 0;
+  k = 0;
+
+  while (brandom) do
+    if (k %_i 3 == 0) then
+      x = x +_i 1;
+    endif;
+    y = y +_i 1;
+    z = z +_i 1;
+    k = x +_i y +_i z;
+  done;
+
+  assume (x == y);
+  assume (y == z);
+end

@@ -1,0 +1,17 @@
+var i:int, j:int, x:int, y:int;
+begin
+  i = random;
+  j = random;
+
+  x = i;
+  y = j;
+
+  while (not x == 0) do
+    x = x -_i 1;
+    y = y -_i 1;
+  done;
+
+  if (x == j) then
+    assume (y == 0);
+  endif;
+end

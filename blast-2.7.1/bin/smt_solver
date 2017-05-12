@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Get solver from environment variable and run it
+
+case $BLAST_SOLVER in
+	yices)
+		exec yices -smt;;
+	cvc3|'')
+		#default SMT solver is CVC3 now
+		# We use special tuning option to make it less precise (unknowns instead of unsat-s), but less greedy.  See bug #546 for more info.
+		# Remove some -quant* options if you want it to have default behavior
+		exec cvc3 -lang smtlib -quant-complete-inst -quant-new -quant-max-IL 1;;
+	z3)
+		exec z3/run;;
+	mathsat)
+		# We explicitly add the logic specification, as MathSAT doesn't always guess it
+		# Zero verbosity makes it comply to what BLAST expects as an output.
+		# NOTE that you should use -noUFannot and -smtUF to use mathsat, as it currently doesn't support quantified axioms.
+		exec mathsat -input=smt -solve -verbosity=0 -logic=QF_UFLIA;;
+	*)
+		# We intentionally don't put any quotes because BLAST_SOLVER may provide sevaral arguments
+		$BLAST_SOLVER;;
+esac
+

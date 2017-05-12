@@ -1,0 +1,64 @@
+# -*- mode: makefile -*-
+
+include Makefile.build.config
+
+#---------------------------------------
+# Directories
+#---------------------------------------
+
+SRCDIR = $(shell pwd)
+#
+# Installation directory
+#
+PKG-NAME = camllib
+
+#---------------------------------------
+# Files
+#---------------------------------------
+
+MLMODULES = $(shell cat camllib.mllib)
+
+FILES_TOINSTALL = \
+	$(MLMODULES:%=%.ml) $(MLMODULES:%=%.mli) \
+	$(MLMODULES:%=%.cmi) camllib.cma \
+	$(MLMODULES:%=%.cmx) camllib.cmxa camllib.a \
+	$(MLMODULES:%=%.p.cmx) camllib.p.cmxa camllib.p.a
+
+all:
+	$(OCAMLBUILD) all.otarget
+doc:
+	$(OCAMLBUILD) doc.otarget
+
+META: Makefile
+	/bin/rm -f META
+	echo "description = \"Utility Library (including various datatypes)\"" >META
+	echo "version = \"1.3.0\"" >>META
+	echo "archive(byte) = \"camllib.cma\"" >>META
+	echo "archive(native) = \"camllib.cmxa\"" >>META
+	echo "archive(native,gprof) = \"camllib.p.cmxa\"" >>META
+
+install: $(FILES_TOINSTALL)
+	$(OCAMLFIND) remove $(PKG-NAME)
+	$(OCAMLFIND) install $(PKG-NAME) META $(FILES_TOINSTALL:%=_build/%)
+
+uninstall:
+	$(OCAMLFIND) remove $(PKG-NAME)
+
+clean:
+	$(OCAMLBUILD) -clean
+distclean: clean
+	/bin/rm -f TAGS Makefile.depend myocamlbuild
+
+dot: $(MLMODULES:%=%.mli)
+	$(OCAMLDOC) -dot -dot-reduce -o camllib.dot $^
+
+homepage: doc
+	hyperlatex index
+	scp -r index.html _build/camllib.docdir _build/camllib.pdf \
+		avedon:/home/wwwpop-art/people/bjeannet/bjeannet-forge/camllib
+	ssh avedon chmod -R ugoa+rx /home/wwwpop-art/people/bjeannet/bjeannet-forge/camllib
+
+.PHONY: TAGS
+tags: TAGS
+TAGS: $(MLMODULES:%=%.mli) $(MLMODULES:%=%.ml)
+	ocamltags $^

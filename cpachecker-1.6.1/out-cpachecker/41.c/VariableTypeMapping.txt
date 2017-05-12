@@ -1,0 +1,8 @@
+main::n	0
+main::flag	7
+main::__CPAchecker_TMP_0	0
+main::k	0
+main::j	0
+main::z	0
+main::i	0
+__VERIFIER_assume::i	0

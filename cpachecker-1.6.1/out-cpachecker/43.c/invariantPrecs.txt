@@ -1,0 +1,9 @@
+(declare-fun |main::t| () Int)
+(declare-fun |main::y| () Int)
+
+main N8:
+(assert (>= |main::y| |main::t|))
+
+main N18:
+(assert false)
+

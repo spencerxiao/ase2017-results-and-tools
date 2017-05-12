@@ -1,0 +1,25 @@
+MODULE main
+   	int i;
+	int x;
+	int y;
+	int n;
+
+	assume(i == 0);
+	assume(x == 0);
+	assume(y == 0);
+
+	while(i < n){
+		i = i + 1;
+		x = x + 1;
+		
+		if(i % 2 == 0){
+			y = y + 1;
+		}
+		else{
+			skip;
+		}
+	}
+
+	assert((i % 2 != 0) || (x == 2 * y));
+
+END MODULE

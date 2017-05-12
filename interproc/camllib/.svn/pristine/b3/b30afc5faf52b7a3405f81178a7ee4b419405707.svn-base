@@ -1,0 +1,62 @@
+\documentclass[a4paper,11pt]{article}
+
+\htmlcss{style.css}
+\htmltitle{Camllib}
+\htmlpanel{0}
+\setcounter{htmlautomenu}{1}
+\setcounter{htmldepth}{1}
+
+\usepackage{hyperlatex}
+\usepackage{xspace}
+%\usepackage{frames}
+
+\newcommand{\ocaml}{\xlink{OCaml}{http://www.caml.org}\xspace}
+\newcommand{\findlib}{\xlink{FINDLIB}{http://projects.camlcity.org/projects/findlib.html}\xspace}
+
+\title{Camllib}
+\date{}
+\author{}
+
+\begin{document}
+
+%\xmlattributes*{img}{align="left"}
+%\xlink{\htmlimg{http://devel.inria.fr/logo_inria.png}{INRIA}}{http://www.inria.fr}
+\xlink{Up}{../index.html}
+\maketitle
+
+\section{About}
+
+Camllib is an \ocaml library implementing various abstract
+datatypes inspired by the standard OCaml library. It provides:
+\begin{itemize}
+\item Slightly improved versions of Set, Map, Hashtbl modules,
+  named Sette, Mappe, Hashhe. These versions offers the choice
+  between polymorphic types, or specialization via a functor. A
+  few additional functions are offered (functions Mappe.maptoset,
+  ...).
+\item Two-ways associations, Multisets, Union-Find, Graphs.
+\item Various small modules
+\item Standard specialization are also provided, such as HashheI
+  for hashtables over integers.
+\end{itemize}
+
+\section{License}
+
+Files that are modifications of files of the \ocaml distribution
+inherit the LGPL license of their original version in the \ocaml
+system. Other are also released under the LGPL license.
+
+\section{Download}
+
+Makefile now uses \findlib management system.
+\begin{itemize}
+\item \xlink{Subversion repository}{http://gforge.inria.fr/plugins/scmsvn/viewcvs.php/?root=bjeannet}, \xlink{current version: 1.2.1}{http://gforge.inria.fr/plugins/scmsvn/viewcvs.php/pkg/fixpoint/tags/release-1.2.1/?root=bjeannet} (see \xlink{Up}{../index.html} for the organisation of the repository)
+\end{itemize}
+
+\section{Documentation}
+\begin{itemize}
+\item \xlink{On-line}{html/index.html}
+\item \xlink{PDF}{camllib.pdf}
+\end{itemize}
+
+\end{document}

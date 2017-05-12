@@ -1,0 +1,83 @@
+
+
+proc integer() returns ()
+var a:int,b:int,c:int;
+begin
+  a = 5;
+  b = 2;
+  if brandom then
+    c = a / b;
+  else
+    c = a /_i b;
+    c = a /_i,0 b;
+    c = a /_i,-oo b;
+    c = a /_i,+oo b;
+    c = a /_i,n b;
+    c = a %_i b;
+  endif;
+end
+
+proc exact() returns (z:real)
+var x:real,y:real;
+begin
+  x = 5;
+  y = 2;
+  z = x/y;
+  y = 0.1;
+  z = x+y;
+  z = z-y;
+end
+
+proc floating() returns (z:real)
+var x:real,y:real;
+begin
+  x = 5;
+  y = 2;
+  z = x/_f y;
+  y = 0.1;
+  z = x +_f,0 y;
+  z = x +_f,+oo y;
+  z = x +_f,-oo y;
+  z = x +_f,n y;
+  z = x +_f,? y;
+  z = z -_f y;
+
+  z = x +_d,0 y;
+  z = x +_d,+oo y;
+  z = x +_d,-oo y;
+  z = x +_d,n y;
+  z = x +_d,? y;
+  z = z -_d y;
+
+end
+
+proc floating2() returns (z:real)
+var x:real,y:real;
+begin
+  x = 5;
+  y = 2;
+  z = x/_f y;
+  y = 1/10;
+  z = x +_f,0 y;
+  z = x +_f,+oo y;
+  z = x +_f,-oo y;
+  z = x +_f,n y;
+  z = x +_f,? y;
+  z = z -_f y;
+
+  z = x +_d,0 y;
+  z = x +_d,+oo y;
+  z = x +_d,-oo y;
+  z = x +_d,n y;
+  z = x +_d,? y;
+  z = z -_d y;
+
+end
+
+var z:real;
+begin
+  () = integer();
+  z = exact();
+  z = floating();
+  z = floating2();
+end

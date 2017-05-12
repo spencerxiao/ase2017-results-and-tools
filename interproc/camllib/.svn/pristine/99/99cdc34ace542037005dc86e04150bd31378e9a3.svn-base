@@ -1,0 +1,20 @@
+About
+=====
+Various abstract datatypes inspired by the standard OCaml library.
+
+To configure
+============
+- copy Makefile.config.model into Makefile.config
+- set properly the flags (mainly directories).
+
+To compile the library:
+=======================
+make all # for bytecode and nativecode compilation
+
+To install the library (with ocamlfind)
+=======================
+make install
+make uninstall
+make camllib.pdf
+make html (html/*)
+

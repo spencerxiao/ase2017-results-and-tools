@@ -1,0 +1,12 @@
+loop____VERIFIER_assume__4:
+(declare-fun |main::n| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(assert (let ((.cse1 (- 1))) (let ((.cse0 (<= 0 (+ |main::n| .cse1)))) (ite (= |__VERIFIER_assume::i| 0) (or (not .cse0) (not (<= |main::n| (+ |main::k| .cse1)))) .cse0))))
+loop__main__20:
+(declare-fun |main::j| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |main::n| () Int)
+(assert (let ((.cse2 (- 1))) (let ((.cse0 (+ |main::k| .cse2))) (and (>= |main::k| 0) (<= 0 .cse0) (<= 0 |main::k|) (let ((.cse1 (<= |main::n| (+ |main::k| |main::j| .cse2)))) (ite (<= |main::n| .cse0) .cse1 (and (not (= |main::j| 0)) .cse1)))))))
+loop__main__26:
+(assert false)

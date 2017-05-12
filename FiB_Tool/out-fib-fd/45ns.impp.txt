@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (x = y)
+find an inductive invaraint based on concrete reachables
+invariant size: 17
+interp: (not (and (not (= x y)) (and (= turn 6) (and (not (<= turn 1)) (not (<= turn 2))))))
+The assertion is satisfied!
+forward [0] times, backtracks [0] times
+backward [0] times

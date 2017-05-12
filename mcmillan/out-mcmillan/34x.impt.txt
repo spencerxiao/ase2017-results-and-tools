@@ -1,0 +1,17 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool-ase2017/IMP.cgt succesfully
+System Definition: 
+Verifying [((finish = 1) & ((i = m) & (x != (2 * y))))]
+step is 4 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 8
+step is 8 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 19
+step is 19 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 42
+step is 42 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 70
+step is 70 (MathSAT)
+Interpolating...

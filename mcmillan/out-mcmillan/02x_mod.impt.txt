@@ -1,0 +1,17 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool-ase2017/IMP.cgt succesfully
+System Definition: 
+Verifying [((finish = 1) & (x != y))]
+step is 4 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 6
+step is 6 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 10
+step is 10 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 18
+step is 18 (MathSAT)
+Interpolating...
+fixpoint size: 2914
+[((finish = 1) & (x != y))] is not reachable!
+

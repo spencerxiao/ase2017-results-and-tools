@@ -1,0 +1,4 @@
+main::flag	7
+main::__CPAchecker_TMP_0	7
+main::k	0
+main::j	0

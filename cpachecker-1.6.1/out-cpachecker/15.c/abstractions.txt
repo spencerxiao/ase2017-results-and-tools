@@ -1,0 +1,32 @@
+(declare-fun |main::n| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |main::j| () Int)
+
+41 (43) @18:
+(assert (let ((.cse2 (- 1))) (let ((.cse0 (+ |main::k| .cse2))) (and (>= |main::k| 0) (<= 0 .cse0) (<= 0 |main::k|) (let ((.cse1 (<= |main::n| (+ |main::k| |main::j| .cse2)))) (ite (<= |main::n| .cse0) .cse1 (and (not (= |main::j| 0)) .cse1)))))))
+
+24 () @3:
+(assert (and (= |__VERIFIER_assume::i| 0) (not (<= 0 (+ |main::n| (- 1))))))
+
+23 (35,24) @3:
+(assert (let ((.cse0 (<= 0 (+ |main::n| (- 1))))) (ite (= |__VERIFIER_assume::i| 0) (not .cse0) .cse0)))
+
+43 () @18:
+(assert (let ((.cse2 (- 1))) (let ((.cse0 (+ |main::k| .cse2))) (and (>= |main::k| 0) (<= 0 .cse0) (<= 0 |main::k|) (let ((.cse1 (<= |main::n| (+ |main::k| |main::j| .cse2)))) (ite (<= |main::n| .cse0) .cse1 (and (not (= |main::j| 0)) .cse1)))))))
+
+35 (37,36) @3:
+(assert (let ((.cse2 (- 1))) (let ((.cse0 (<= 0 (+ |main::n| .cse2))) (.cse1 (<= |main::n| (+ |main::k| .cse2)))) (ite (= |__VERIFIER_assume::i| 0) (and .cse0 (not .cse1)) (and .cse0 (<= 0 (+ |main::k| (- 2))) .cse1)))))
+
+37 (39) @18:
+(assert (let ((.cse1 (- 1))) (let ((.cse0 (+ |main::k| .cse1))) (and (>= |main::k| 0) (<= 0 (+ |main::k| (- 2))) (<= 0 .cse0) (<= 0 |main::k|) (<= |main::n| .cse0) (= |main::j| 0) (<= |main::n| (+ |main::k| |main::j| .cse1))))))
+
+39 (41) @18:
+(assert (and (>= |main::k| 0) (let ((.cse5 (- 1))) (let ((.cse4 (+ |main::k| .cse5))) (let ((.cse0 (<= 0 .cse4)) (.cse1 (<= 0 |main::k|)) (.cse2 (not (= |main::j| 0))) (.cse3 (<= |main::n| (+ |main::k| |main::j| .cse5)))) (ite (<= 0 (+ |main::k| (- 2))) (and .cse0 .cse1 .cse2 .cse3) (and .cse0 .cse1 (not (<= |main::n| .cse4)) .cse2 .cse3)))))))
+
+0 (23) @8:
+(assert true)
+
+36 () @3:
+(assert (let ((.cse0 (- 1))) (and (= |__VERIFIER_assume::i| 0) (<= 0 (+ |main::n| .cse0)) (not (<= |main::n| (+ |main::k| .cse0))))))
+

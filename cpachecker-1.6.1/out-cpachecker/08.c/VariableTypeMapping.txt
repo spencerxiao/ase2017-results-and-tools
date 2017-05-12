@@ -1,0 +1,9 @@
+main::__CPAchecker_TMP_4	4
+main::__CPAchecker_TMP_3	7
+main::__CPAchecker_TMP_2	4
+main::__CPAchecker_TMP_1	7
+main::__CPAchecker_TMP_0	7
+main::y	4
+main::x	4
+main::__CPAchecker_TMP_6	4
+main::__CPAchecker_TMP_5	4

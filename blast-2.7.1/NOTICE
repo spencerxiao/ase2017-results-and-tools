@@ -1,0 +1,43 @@
+Software model checking tool BLAST.
+
+ Copyright 2009-2011 Institute for System Programming of Russian
+                     Academy of Sciences.
+ Copyright 2002-2008 The BLAST Team.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may
+not use this file except in compliance with the License. You may obtain
+a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+This version of BLAST is maintained by a team inside the Institute for
+System Programming of Russian Academy of Sciences (ISPRAS).  The members
+of the team are:
+
+        Pavel Shved       <shved@ispras.ru>
+        Vadim Mutilin     <mutilin@ispras.ru>
+        Mikhail Mandrykin <mandrykin@ispras.ru>
+
+
+This distribution of BLAST contains a copy of CSIsat, an interpolating
+decision procedure for LA + EUF.  Copyright (C) 2007-2008  Dirk Beyer
+and Damien Zufferey, (c) 2011 Mikhail Mandrykin.  All rights reserved.
+Licensed under GPLv3.
+
+
+BLAST incorporates CVC3, SMT solver.  CVC3 is licensed under LGPLv3.
+For a list of contributors, refer to its PEOPLE file.
+
+
+BLAST includes Hash table implementation from OCaml Batteries Included,
+or just Batteries, a community-maintained foundation library for our
+OCaml projects.  Licensed under LGPL v2.1 with an exception.  You may
+find the source code of the modified library alongside the BLAST source
+distribution.
+

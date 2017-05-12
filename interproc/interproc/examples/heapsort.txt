@@ -1,0 +1,52 @@
+
+proc div2(a:int) returns (b:int)
+begin
+  assume (a-2*b>=0 and a-2*b<=1); /* trick to encode b = a div 2 */
+end
+
+proc heapsort(N:int) returns (res:int) 
+var L:int,R:int,I:int,J:int,
+continue:int,nondet:int;
+begin
+  assume N>=2;
+  L = div2(N);
+  L = L+1;
+  if (L>=2) then
+    L = L-1; /* K = T[L]; */
+  else
+    /* K = T[R]; T[R] = T[1]; */
+    R = R-1;
+  endif;
+  while (R>=2) do
+    I = L;
+    J = 2*I;
+    continue = 1;
+    while (J<=R and continue>0) do
+      if (J<=R-1) then
+        if /* T[J]<T[j-1] */ brandom then
+	  J = J+1;
+        endif;
+      endif;
+      if /* K>=T[J] */ brandom then
+	continue=0;
+      else
+	/* T[I]=T[J]; */
+	I = J;
+	J = 2*J;
+      endif;
+    done;
+    /* T[I] = K; */
+    if (L>=2) then
+      L = L-1; /* K = T[L]; */
+    else
+      /* K = T[R]; T[R]=T[1]; */
+      R = R-1;
+    endif;
+    /* T[1] = K; */
+  done;
+end
+
+var N:int,res:int;
+begin
+  res = heapsort(N);
+end

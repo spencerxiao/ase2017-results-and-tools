@@ -1,0 +1,2891 @@
+"spl_lex.mll" 12 63 67 "spl_lex.mll" 12 63 75
+type(
+  (string, Spl_yacc.token) Hashtbl.t
+)
+ident(
+  def keywords "spl_lex.mll" 13 96 96 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.mll" 12 63 78 "spl_lex.mll" 12 63 92
+type(
+  ?random:bool -> int -> (string, Spl_yacc.token) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"spl_lex.mll" 12 63 93 "spl_lex.mll" 12 63 95
+type(
+  int
+)
+"spl_lex.mll" 12 63 78 "spl_lex.mll" 12 63 95
+call(
+  stack
+)
+type(
+  (string, Spl_yacc.token) Hashtbl.t
+)
+"spl_lex.mll" 14 104 106 "spl_lex.mll" 14 104 116
+type(
+  (string * Spl_yacc.token -> unit) ->
+  (string * Spl_yacc.token) array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"spl_lex.mll" 15 117 127 "spl_lex.mll" 15 117 134
+type(
+  string
+)
+ident(
+  def keyword "spl_lex.mll" 15 117 145 "spl_lex.mll" 15 117 179
+)
+"spl_lex.mll" 15 117 135 "spl_lex.mll" 15 117 140
+type(
+  Spl_yacc.token
+)
+ident(
+  def token "spl_lex.mll" 15 117 145 "spl_lex.mll" 15 117 179
+)
+"spl_lex.mll" 15 117 126 "spl_lex.mll" 15 117 141
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 15 117 145 "spl_lex.mll" 15 117 156
+type(
+  (string, Spl_yacc.token) Hashtbl.t -> string -> Spl_yacc.token -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"spl_lex.mll" 15 117 157 "spl_lex.mll" 15 117 165
+type(
+  (string, Spl_yacc.token) Hashtbl.t
+)
+ident(
+  int_ref keywords "spl_lex.mll" 12 63 67 "spl_lex.mll" 12 63 75
+)
+"spl_lex.mll" 15 117 166 "spl_lex.mll" 15 117 173
+type(
+  string
+)
+ident(
+  int_ref keyword "spl_lex.mll" 15 117 127 "spl_lex.mll" 15 117 134
+)
+"spl_lex.mll" 15 117 174 "spl_lex.mll" 15 117 179
+type(
+  Spl_yacc.token
+)
+ident(
+  int_ref token "spl_lex.mll" 15 117 135 "spl_lex.mll" 15 117 140
+)
+"spl_lex.mll" 15 117 145 "spl_lex.mll" 15 117 179
+call(
+  tail
+)
+type(
+  unit
+)
+"spl_lex.mll" 15 117 121 "spl_lex.mll" 15 117 180
+type(
+  string * Spl_yacc.token -> unit
+)
+"spl_lex.mll" 17 189 196 "spl_lex.mll" 17 189 202
+type(
+  string
+)
+"spl_lex.mll" 17 189 204 "spl_lex.mll" 17 189 211
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 17 189 195 "spl_lex.mll" 17 189 212
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 18 214 221 "spl_lex.mll" 18 214 226
+type(
+  string
+)
+"spl_lex.mll" 18 214 228 "spl_lex.mll" 18 214 234
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 18 214 220 "spl_lex.mll" 18 214 235
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 19 237 244 "spl_lex.mll" 19 237 250
+type(
+  string
+)
+"spl_lex.mll" 19 237 252 "spl_lex.mll" 19 237 259
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 19 237 243 "spl_lex.mll" 19 237 260
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 20 262 269 "spl_lex.mll" 20 262 276
+type(
+  string
+)
+"spl_lex.mll" 20 262 277 "spl_lex.mll" 20 262 285
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 20 262 268 "spl_lex.mll" 20 262 286
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 21 288 295 "spl_lex.mll" 21 288 303
+type(
+  string
+)
+"spl_lex.mll" 21 288 305 "spl_lex.mll" 21 288 314
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 21 288 294 "spl_lex.mll" 21 288 315
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 22 317 324 "spl_lex.mll" 22 317 330
+type(
+  string
+)
+"spl_lex.mll" 22 317 332 "spl_lex.mll" 22 317 339
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 22 317 323 "spl_lex.mll" 22 317 340
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 23 342 349 "spl_lex.mll" 23 342 355
+type(
+  string
+)
+"spl_lex.mll" 23 342 357 "spl_lex.mll" 23 342 364
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 23 342 348 "spl_lex.mll" 23 342 365
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 24 367 374 "spl_lex.mll" 24 367 380
+type(
+  string
+)
+"spl_lex.mll" 24 367 382 "spl_lex.mll" 24 367 389
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 24 367 373 "spl_lex.mll" 24 367 390
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 25 392 399 "spl_lex.mll" 25 392 406
+type(
+  string
+)
+"spl_lex.mll" 25 392 407 "spl_lex.mll" 25 392 415
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 25 392 398 "spl_lex.mll" 25 392 416
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 26 418 425 "spl_lex.mll" 26 418 434
+type(
+  string
+)
+"spl_lex.mll" 26 418 436 "spl_lex.mll" 26 418 446
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 26 418 424 "spl_lex.mll" 26 418 447
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 27 449 456 "spl_lex.mll" 27 449 462
+type(
+  string
+)
+"spl_lex.mll" 27 449 466 "spl_lex.mll" 27 449 473
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 27 449 455 "spl_lex.mll" 27 449 474
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 28 476 483 "spl_lex.mll" 28 476 488
+type(
+  string
+)
+"spl_lex.mll" 28 476 491 "spl_lex.mll" 28 476 497
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 28 476 482 "spl_lex.mll" 28 476 498
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 29 500 507 "spl_lex.mll" 29 500 514
+type(
+  string
+)
+"spl_lex.mll" 29 500 517 "spl_lex.mll" 29 500 525
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 29 500 506 "spl_lex.mll" 29 500 526
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 30 528 535 "spl_lex.mll" 30 528 539
+type(
+  string
+)
+"spl_lex.mll" 30 528 543 "spl_lex.mll" 30 528 548
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 30 528 534 "spl_lex.mll" 30 528 549
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 31 551 558 "spl_lex.mll" 31 551 563
+type(
+  string
+)
+"spl_lex.mll" 31 551 566 "spl_lex.mll" 31 551 572
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 31 551 557 "spl_lex.mll" 31 551 573
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 32 575 582 "spl_lex.mll" 32 575 588
+type(
+  string
+)
+"spl_lex.mll" 32 575 591 "spl_lex.mll" 32 575 598
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 32 575 581 "spl_lex.mll" 32 575 599
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 33 601 608 "spl_lex.mll" 33 601 613
+type(
+  string
+)
+"spl_lex.mll" 33 601 616 "spl_lex.mll" 33 601 622
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 33 601 607 "spl_lex.mll" 33 601 623
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 34 625 632 "spl_lex.mll" 34 625 637
+type(
+  string
+)
+"spl_lex.mll" 34 625 640 "spl_lex.mll" 34 625 646
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 34 625 631 "spl_lex.mll" 34 625 647
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 35 649 656 "spl_lex.mll" 35 649 660
+type(
+  string
+)
+"spl_lex.mll" 35 649 664 "spl_lex.mll" 35 649 669
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 35 649 655 "spl_lex.mll" 35 649 670
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 36 672 679 "spl_lex.mll" 36 672 688
+type(
+  string
+)
+"spl_lex.mll" 36 672 690 "spl_lex.mll" 36 672 700
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 36 672 678 "spl_lex.mll" 36 672 701
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 37 703 710 "spl_lex.mll" 37 703 718
+type(
+  string
+)
+"spl_lex.mll" 37 703 720 "spl_lex.mll" 37 703 729
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 37 703 709 "spl_lex.mll" 37 703 730
+type(
+  string * Spl_yacc.token
+)
+"spl_lex.mll" 16 181 185 "spl_lex.mll" 38 732 738
+type(
+  (string * Spl_yacc.token) array
+)
+"spl_lex.mll" 14 104 106 "spl_lex.mll" 38 732 738
+call(
+  stack
+)
+type(
+  unit
+)
+"spl_lex.mll" 40 744 748 "spl_lex.mll" 40 744 755
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def newline "spl_lex.mll" 49 971 971 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.mll" 40 744 757 "spl_lex.mll" 40 744 763
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "spl_lex.mll" 40 744 779 "spl_lex.mll" 47 965 969
+)
+"spl_lex.mll" 42 790 796 "spl_lex.mll" 42 790 799
+type(
+  Lexing.position
+)
+ident(
+  def pos "spl_lex.mll" 43 830 832 "spl_lex.mll" 47 965 969
+)
+"spl_lex.mll" 42 790 802 "spl_lex.mll" 42 790 808
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.mll" 40 744 757 "spl_lex.mll" 40 744 763
+)
+"spl_lex.mll" 42 790 802 "spl_lex.mll" 42 790 826
+type(
+  Lexing.position
+)
+"spl_lex.mll" 43 830 832 "spl_lex.mll" 43 830 838
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.mll" 40 744 757 "spl_lex.mll" 40 744 763
+)
+"spl_lex.mll" 43 830 862 "spl_lex.mll" 43 830 865
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "spl_lex.mll" 42 790 796 "spl_lex.mll" 42 790 799
+)
+"spl_lex.mll" 44 871 893 "spl_lex.mll" 44 871 896
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "spl_lex.mll" 42 790 796 "spl_lex.mll" 42 790 799
+)
+"spl_lex.mll" 44 871 893 "spl_lex.mll" 44 871 912
+type(
+  int
+)
+"spl_lex.mll" 44 871 913 "spl_lex.mll" 44 871 914
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"spl_lex.mll" 44 871 915 "spl_lex.mll" 44 871 916
+type(
+  int
+)
+"spl_lex.mll" 44 871 893 "spl_lex.mll" 44 871 916
+type(
+  int
+)
+"spl_lex.mll" 45 918 939 "spl_lex.mll" 45 918 942
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "spl_lex.mll" 42 790 796 "spl_lex.mll" 42 790 799
+)
+"spl_lex.mll" 45 918 939 "spl_lex.mll" 45 918 958
+type(
+  int
+)
+"spl_lex.mll" 43 830 860 "spl_lex.mll" 46 960 963
+type(
+  Lexing.position
+)
+"spl_lex.mll" 43 830 832 "spl_lex.mll" 46 960 963
+type(
+  unit
+)
+"spl_lex.mll" 47 965 967 "spl_lex.mll" 47 965 969
+type(
+  unit
+)
+"spl_lex.mll" 43 830 832 "spl_lex.mll" 47 965 969
+type(
+  unit
+)
+"spl_lex.mll" 42 790 792 "spl_lex.mll" 47 965 969
+type(
+  unit
+)
+type(
+  unit
+)
+"spl_lex.mll" 49 971 975 "spl_lex.mll" 49 971 980
+type(
+  Lexing.lexbuf -> int -> Spl_syn.point
+)
+ident(
+  def point "spl_lex.mll" 60 1254 1254 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.mll" 49 971 981 "spl_lex.mll" 49 971 987
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "spl_lex.mll" 49 971 988 "spl_lex.mll" 58 1249 1252
+)
+"spl_lex.mll" 49 971 988 "spl_lex.mll" 49 971 994
+type(
+  int
+)
+ident(
+  def offset "spl_lex.mll" 49 971 995 "spl_lex.mll" 58 1249 1252
+)
+"spl_lex.mll" 51 1015 1021 "spl_lex.mll" 51 1015 1024
+type(
+  Lexing.position
+)
+ident(
+  def pos "spl_lex.mll" 52 1055 1057 "spl_lex.mll" 58 1249 1252
+)
+"spl_lex.mll" 51 1015 1027 "spl_lex.mll" 51 1015 1033
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.mll" 49 971 981 "spl_lex.mll" 49 971 987
+)
+"spl_lex.mll" 51 1015 1027 "spl_lex.mll" 51 1015 1051
+type(
+  Lexing.position
+)
+"spl_lex.mll" 52 1055 1061 "spl_lex.mll" 52 1055 1065
+type(
+  int
+)
+ident(
+  def line "spl_lex.mll" 53 1091 1093 "spl_lex.mll" 58 1249 1252
+)
+"spl_lex.mll" 52 1055 1068 "spl_lex.mll" 52 1055 1071
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "spl_lex.mll" 51 1015 1021 "spl_lex.mll" 51 1015 1024
+)
+"spl_lex.mll" 52 1055 1068 "spl_lex.mll" 52 1055 1087
+type(
+  int
+)
+"spl_lex.mll" 53 1091 1097 "spl_lex.mll" 53 1091 1100
+type(
+  int
+)
+ident(
+  def col "spl_lex.mll" 54 1147 1149 "spl_lex.mll" 58 1249 1252
+)
+"spl_lex.mll" 53 1091 1103 "spl_lex.mll" 53 1091 1106
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "spl_lex.mll" 51 1015 1021 "spl_lex.mll" 51 1015 1024
+)
+"spl_lex.mll" 53 1091 1103 "spl_lex.mll" 53 1091 1122
+type(
+  int
+)
+"spl_lex.mll" 53 1091 1123 "spl_lex.mll" 53 1091 1124
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"spl_lex.mll" 53 1091 1125 "spl_lex.mll" 53 1091 1128
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "spl_lex.mll" 51 1015 1021 "spl_lex.mll" 51 1015 1024
+)
+"spl_lex.mll" 53 1091 1125 "spl_lex.mll" 53 1091 1143
+type(
+  int
+)
+"spl_lex.mll" 53 1091 1103 "spl_lex.mll" 53 1091 1143
+type(
+  int
+)
+"spl_lex.mll" 55 1152 1171 "spl_lex.mll" 55 1152 1175
+type(
+  int
+)
+ident(
+  int_ref line "spl_lex.mll" 52 1055 1061 "spl_lex.mll" 52 1055 1065
+)
+"spl_lex.mll" 56 1177 1195 "spl_lex.mll" 56 1177 1198
+type(
+  int
+)
+ident(
+  int_ref col "spl_lex.mll" 53 1091 1097 "spl_lex.mll" 53 1091 1100
+)
+"spl_lex.mll" 56 1177 1199 "spl_lex.mll" 56 1177 1200
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"spl_lex.mll" 56 1177 1201 "spl_lex.mll" 56 1177 1207
+type(
+  int
+)
+ident(
+  int_ref offset "spl_lex.mll" 49 971 988 "spl_lex.mll" 49 971 994
+)
+"spl_lex.mll" 56 1177 1195 "spl_lex.mll" 56 1177 1207
+type(
+  int
+)
+"spl_lex.mll" 57 1209 1228 "spl_lex.mll" 57 1209 1231
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "spl_lex.mll" 51 1015 1021 "spl_lex.mll" 51 1015 1024
+)
+"spl_lex.mll" 57 1209 1228 "spl_lex.mll" 57 1209 1247
+type(
+  int
+)
+"spl_lex.mll" 54 1147 1149 "spl_lex.mll" 58 1249 1252
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 53 1091 1093 "spl_lex.mll" 58 1249 1252
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 52 1055 1057 "spl_lex.mll" 58 1249 1252
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 51 1015 1017 "spl_lex.mll" 58 1249 1252
+type(
+  Spl_syn.point
+)
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 60 1254 1258 "spl_lex.mll" 60 1254 1278
+type(
+  int -> Lexing.lexbuf -> Apron.Texpr1.typ * Apron.Texpr1.round
+)
+ident(
+  def attributes_of_string "spl_lex.ml" 98 2442 2442 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.mll" 60 1254 1280 "spl_lex.mll" 60 1254 1283
+type(
+  int
+)
+ident(
+  def pos "spl_lex.mll" 60 1254 1289 "spl_lex.mll" 100 2417 2422
+)
+"spl_lex.mll" 60 1254 1289 "spl_lex.mll" 60 1254 1295
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "spl_lex.mll" 61 1298 1300 "spl_lex.mll" 100 2417 2422
+)
+"spl_lex.mll" 61 1298 1304 "spl_lex.mll" 61 1298 1307
+type(
+  string
+)
+ident(
+  def str "spl_lex.mll" 62 1334 1336 "spl_lex.mll" 100 2417 2422
+)
+"spl_lex.mll" 61 1298 1310 "spl_lex.mll" 61 1298 1323
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"spl_lex.mll" 61 1298 1324 "spl_lex.mll" 61 1298 1330
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.mll" 60 1254 1289 "spl_lex.mll" 60 1254 1295
+)
+"spl_lex.mll" 61 1298 1310 "spl_lex.mll" 61 1298 1330
+call(
+  stack
+)
+type(
+  string
+)
+"spl_lex.mll" 62 1334 1340 "spl_lex.mll" 62 1334 1346
+type(
+  int
+)
+ident(
+  def length "spl_lex.mll" 63 1378 1380 "spl_lex.mll" 100 2417 2422
+)
+"spl_lex.mll" 62 1334 1350 "spl_lex.mll" 62 1334 1363
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"spl_lex.mll" 62 1334 1364 "spl_lex.mll" 62 1334 1367
+type(
+  string
+)
+ident(
+  int_ref str "spl_lex.mll" 61 1298 1304 "spl_lex.mll" 61 1298 1307
+)
+"spl_lex.mll" 62 1334 1349 "spl_lex.mll" 62 1334 1368
+type(
+  int
+)
+"spl_lex.mll" 62 1334 1369 "spl_lex.mll" 62 1334 1370
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"spl_lex.mll" 62 1334 1371 "spl_lex.mll" 62 1334 1374
+type(
+  int
+)
+ident(
+  int_ref pos "spl_lex.mll" 60 1254 1280 "spl_lex.mll" 60 1254 1283
+)
+"spl_lex.mll" 62 1334 1349 "spl_lex.mll" 62 1334 1374
+type(
+  int
+)
+"spl_lex.mll" 63 1378 1384 "spl_lex.mll" 63 1378 1390
+type(
+  string
+)
+ident(
+  def suffix "spl_lex.mll" 64 1422 1424 "spl_lex.mll" 100 2417 2422
+)
+"spl_lex.mll" 63 1378 1393 "spl_lex.mll" 63 1378 1403
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"spl_lex.mll" 63 1378 1404 "spl_lex.mll" 63 1378 1407
+type(
+  string
+)
+ident(
+  int_ref str "spl_lex.mll" 61 1298 1304 "spl_lex.mll" 61 1298 1307
+)
+"spl_lex.mll" 63 1378 1408 "spl_lex.mll" 63 1378 1411
+type(
+  int
+)
+ident(
+  int_ref pos "spl_lex.mll" 60 1254 1280 "spl_lex.mll" 60 1254 1283
+)
+"spl_lex.mll" 63 1378 1412 "spl_lex.mll" 63 1378 1418
+type(
+  int
+)
+ident(
+  int_ref length "spl_lex.mll" 62 1334 1340 "spl_lex.mll" 62 1334 1346
+)
+"spl_lex.mll" 63 1378 1393 "spl_lex.mll" 63 1378 1418
+call(
+  stack
+)
+type(
+  string
+)
+"spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+type(
+  int ref
+)
+ident(
+  def index "spl_lex.mll" 65 1445 1447 "spl_lex.mll" 100 2417 2422
+)
+"spl_lex.mll" 64 1422 1436 "spl_lex.mll" 64 1422 1439
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"spl_lex.mll" 64 1422 1440 "spl_lex.mll" 64 1422 1441
+type(
+  int
+)
+"spl_lex.mll" 64 1422 1436 "spl_lex.mll" 64 1422 1441
+type(
+  int ref
+)
+"spl_lex.mll" 65 1445 1450 "spl_lex.mll" 65 1445 1456
+type(
+  int
+)
+ident(
+  int_ref length "spl_lex.mll" 62 1334 1340 "spl_lex.mll" 62 1334 1346
+)
+"spl_lex.mll" 65 1445 1456 "spl_lex.mll" 65 1445 1457
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"spl_lex.mll" 65 1445 1457 "spl_lex.mll" 65 1445 1458
+type(
+  int
+)
+"spl_lex.mll" 65 1445 1450 "spl_lex.mll" 65 1445 1458
+type(
+  bool
+)
+"spl_lex.mll" 66 1464 1469 "spl_lex.mll" 66 1464 1486
+type(
+  Apron.Texpr1.typ
+)
+"spl_lex.mll" 66 1464 1488 "spl_lex.mll" 66 1464 1504
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 66 1464 1468 "spl_lex.mll" 66 1464 1505
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 68 1519 1526 "spl_lex.mll" 68 1519 1536
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"spl_lex.mll" 68 1519 1537 "spl_lex.mll" 68 1519 1543
+type(
+  string
+)
+ident(
+  int_ref suffix "spl_lex.mll" 63 1378 1384 "spl_lex.mll" 63 1378 1390
+)
+"spl_lex.mll" 68 1519 1544 "spl_lex.mll" 68 1519 1545
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"spl_lex.mll" 68 1519 1545 "spl_lex.mll" 68 1519 1550
+type(
+  int ref
+)
+ident(
+  int_ref index "spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+)
+"spl_lex.mll" 68 1519 1544 "spl_lex.mll" 68 1519 1550
+type(
+  int
+)
+"spl_lex.mll" 68 1519 1526 "spl_lex.mll" 68 1519 1550
+type(
+  char
+)
+"spl_lex.mll" 68 1519 1551 "spl_lex.mll" 68 1519 1553
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"spl_lex.mll" 68 1519 1554 "spl_lex.mll" 68 1519 1557
+type(
+  char
+)
+"spl_lex.mll" 68 1519 1526 "spl_lex.mll" 68 1519 1557
+type(
+  bool
+)
+"spl_lex.mll" 68 1519 1558 "spl_lex.mll" 68 1519 1560
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"spl_lex.mll" 68 1519 1561 "spl_lex.mll" 68 1519 1567
+type(
+  int
+)
+ident(
+  int_ref length "spl_lex.mll" 62 1334 1340 "spl_lex.mll" 62 1334 1346
+)
+"spl_lex.mll" 68 1519 1568 "spl_lex.mll" 68 1519 1569
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"spl_lex.mll" 68 1519 1570 "spl_lex.mll" 68 1519 1571
+type(
+  int
+)
+"spl_lex.mll" 68 1519 1561 "spl_lex.mll" 68 1519 1571
+type(
+  bool
+)
+"spl_lex.mll" 68 1519 1526 "spl_lex.mll" 68 1519 1571
+type(
+  bool
+)
+"spl_lex.mll" 69 1577 1583 "spl_lex.mll" 69 1577 1588
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"spl_lex.mll" 69 1577 1589 "spl_lex.mll" 69 1577 1594
+type(
+  exn
+)
+"spl_lex.mll" 69 1577 1583 "spl_lex.mll" 69 1577 1594
+type(
+  unit
+)
+"spl_lex.mll" 68 1519 1523 "spl_lex.mll" 69 1577 1594
+type(
+  unit
+)
+"spl_lex.mll" 71 1601 1605 "spl_lex.mll" 71 1601 1609
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"spl_lex.mll" 71 1601 1610 "spl_lex.mll" 71 1601 1615
+type(
+  int ref
+)
+ident(
+  int_ref index "spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+)
+"spl_lex.mll" 71 1601 1605 "spl_lex.mll" 71 1601 1615
+type(
+  unit
+)
+"spl_lex.mll" 72 1617 1625 "spl_lex.mll" 72 1617 1634
+type(
+  Apron.Texpr1.typ
+)
+ident(
+  def round_typ "spl_lex.mll" 81 1884 1888 "spl_lex.mll" 99 2409 2416
+)
+"spl_lex.mll" 73 1637 1649 "spl_lex.mll" 73 1637 1659
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"spl_lex.mll" 73 1637 1660 "spl_lex.mll" 73 1637 1666
+type(
+  string
+)
+ident(
+  int_ref suffix "spl_lex.mll" 63 1378 1384 "spl_lex.mll" 63 1378 1390
+)
+"spl_lex.mll" 73 1637 1667 "spl_lex.mll" 73 1637 1668
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"spl_lex.mll" 73 1637 1668 "spl_lex.mll" 73 1637 1673
+type(
+  int ref
+)
+ident(
+  int_ref index "spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+)
+"spl_lex.mll" 73 1637 1667 "spl_lex.mll" 73 1637 1673
+type(
+  int
+)
+"spl_lex.mll" 73 1637 1649 "spl_lex.mll" 73 1637 1673
+type(
+  char
+)
+"spl_lex.mll" 74 1679 1687 "spl_lex.mll" 74 1679 1690
+type(
+  char
+)
+"spl_lex.mll" 74 1679 1694 "spl_lex.mll" 74 1679 1710
+type(
+  Apron.Texpr1.typ
+)
+"spl_lex.mll" 75 1711 1719 "spl_lex.mll" 75 1711 1722
+type(
+  char
+)
+"spl_lex.mll" 75 1711 1726 "spl_lex.mll" 75 1711 1745
+type(
+  Apron.Texpr1.typ
+)
+"spl_lex.mll" 76 1746 1754 "spl_lex.mll" 76 1746 1757
+type(
+  char
+)
+"spl_lex.mll" 76 1746 1761 "spl_lex.mll" 76 1746 1780
+type(
+  Apron.Texpr1.typ
+)
+"spl_lex.mll" 77 1781 1789 "spl_lex.mll" 77 1781 1792
+type(
+  char
+)
+"spl_lex.mll" 77 1781 1796 "spl_lex.mll" 77 1781 1817
+type(
+  Apron.Texpr1.typ
+)
+"spl_lex.mll" 78 1818 1826 "spl_lex.mll" 78 1818 1829
+type(
+  char
+)
+"spl_lex.mll" 78 1818 1833 "spl_lex.mll" 78 1818 1850
+type(
+  Apron.Texpr1.typ
+)
+"spl_lex.mll" 79 1851 1859 "spl_lex.mll" 79 1851 1860
+type(
+  char
+)
+"spl_lex.mll" 79 1851 1864 "spl_lex.mll" 79 1851 1869
+type(
+  exn -> Apron.Texpr1.typ
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"spl_lex.mll" 79 1851 1870 "spl_lex.mll" 79 1851 1875
+type(
+  exn
+)
+"spl_lex.mll" 79 1851 1864 "spl_lex.mll" 79 1851 1876
+type(
+  Apron.Texpr1.typ
+)
+"spl_lex.mll" 73 1637 1643 "spl_lex.mll" 79 1851 1876
+type(
+  Apron.Texpr1.typ
+)
+"spl_lex.mll" 81 1884 1891 "spl_lex.mll" 81 1884 1897
+type(
+  int
+)
+ident(
+  int_ref length "spl_lex.mll" 62 1334 1340 "spl_lex.mll" 62 1334 1346
+)
+"spl_lex.mll" 81 1884 1898 "spl_lex.mll" 81 1884 1899
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"spl_lex.mll" 81 1884 1900 "spl_lex.mll" 81 1884 1901
+type(
+  int
+)
+"spl_lex.mll" 81 1884 1891 "spl_lex.mll" 81 1884 1901
+type(
+  bool
+)
+"spl_lex.mll" 82 1907 1914 "spl_lex.mll" 82 1907 1923
+type(
+  Apron.Texpr1.typ
+)
+ident(
+  int_ref round_typ "spl_lex.mll" 72 1617 1625 "spl_lex.mll" 72 1617 1634
+)
+"spl_lex.mll" 82 1907 1925 "spl_lex.mll" 82 1907 1941
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 82 1907 1913 "spl_lex.mll" 82 1907 1942
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 84 1958 1964 "spl_lex.mll" 84 1958 1968
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"spl_lex.mll" 84 1958 1969 "spl_lex.mll" 84 1958 1974
+type(
+  int ref
+)
+ident(
+  int_ref index "spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+)
+"spl_lex.mll" 84 1958 1964 "spl_lex.mll" 84 1958 1974
+type(
+  unit
+)
+"spl_lex.mll" 85 1976 1986 "spl_lex.mll" 85 1976 1996
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"spl_lex.mll" 85 1976 1997 "spl_lex.mll" 85 1976 2003
+type(
+  string
+)
+ident(
+  int_ref suffix "spl_lex.mll" 63 1378 1384 "spl_lex.mll" 63 1378 1390
+)
+"spl_lex.mll" 85 1976 2004 "spl_lex.mll" 85 1976 2005
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"spl_lex.mll" 85 1976 2005 "spl_lex.mll" 85 1976 2010
+type(
+  int ref
+)
+ident(
+  int_ref index "spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+)
+"spl_lex.mll" 85 1976 2004 "spl_lex.mll" 85 1976 2010
+type(
+  int
+)
+"spl_lex.mll" 85 1976 1985 "spl_lex.mll" 85 1976 2011
+type(
+  char
+)
+"spl_lex.mll" 85 1976 2012 "spl_lex.mll" 85 1976 2014
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"spl_lex.mll" 85 1976 2015 "spl_lex.mll" 85 1976 2018
+type(
+  char
+)
+"spl_lex.mll" 85 1976 1985 "spl_lex.mll" 85 1976 2018
+type(
+  bool
+)
+"spl_lex.mll" 85 1976 2019 "spl_lex.mll" 85 1976 2021
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"spl_lex.mll" 85 1976 2022 "spl_lex.mll" 85 1976 2028
+type(
+  int
+)
+ident(
+  int_ref length "spl_lex.mll" 62 1334 1340 "spl_lex.mll" 62 1334 1346
+)
+"spl_lex.mll" 85 1976 2029 "spl_lex.mll" 85 1976 2030
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"spl_lex.mll" 85 1976 2031 "spl_lex.mll" 85 1976 2032
+type(
+  int
+)
+"spl_lex.mll" 85 1976 2022 "spl_lex.mll" 85 1976 2032
+type(
+  bool
+)
+"spl_lex.mll" 85 1976 1985 "spl_lex.mll" 85 1976 2032
+type(
+  bool
+)
+"spl_lex.mll" 86 2038 2046 "spl_lex.mll" 86 2038 2051
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"spl_lex.mll" 86 2038 2052 "spl_lex.mll" 86 2038 2057
+type(
+  exn
+)
+"spl_lex.mll" 86 2038 2046 "spl_lex.mll" 86 2038 2057
+type(
+  unit
+)
+"spl_lex.mll" 85 1976 1982 "spl_lex.mll" 86 2038 2057
+type(
+  unit
+)
+"spl_lex.mll" 88 2066 2072 "spl_lex.mll" 88 2066 2076
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"spl_lex.mll" 88 2066 2077 "spl_lex.mll" 88 2066 2082
+type(
+  int ref
+)
+ident(
+  int_ref index "spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+)
+"spl_lex.mll" 88 2066 2072 "spl_lex.mll" 88 2066 2082
+type(
+  unit
+)
+"spl_lex.mll" 89 2084 2094 "spl_lex.mll" 89 2084 2103
+type(
+  Apron.Texpr1.round
+)
+ident(
+  def round_dir "spl_lex.mll" 98 2380 2386 "spl_lex.mll" 98 2380 2408
+)
+"spl_lex.mll" 90 2106 2120 "spl_lex.mll" 90 2106 2130
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"spl_lex.mll" 90 2106 2131 "spl_lex.mll" 90 2106 2137
+type(
+  string
+)
+ident(
+  int_ref suffix "spl_lex.mll" 63 1378 1384 "spl_lex.mll" 63 1378 1390
+)
+"spl_lex.mll" 90 2106 2138 "spl_lex.mll" 90 2106 2139
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"spl_lex.mll" 90 2106 2139 "spl_lex.mll" 90 2106 2144
+type(
+  int ref
+)
+ident(
+  int_ref index "spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+)
+"spl_lex.mll" 90 2106 2138 "spl_lex.mll" 90 2106 2144
+type(
+  int
+)
+"spl_lex.mll" 90 2106 2146 "spl_lex.mll" 90 2106 2152
+type(
+  int
+)
+ident(
+  int_ref length "spl_lex.mll" 62 1334 1340 "spl_lex.mll" 62 1334 1346
+)
+"spl_lex.mll" 90 2106 2153 "spl_lex.mll" 90 2106 2154
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"spl_lex.mll" 90 2106 2155 "spl_lex.mll" 90 2106 2156
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"spl_lex.mll" 90 2106 2156 "spl_lex.mll" 90 2106 2161
+type(
+  int ref
+)
+ident(
+  int_ref index "spl_lex.mll" 64 1422 1428 "spl_lex.mll" 64 1422 1433
+)
+"spl_lex.mll" 90 2106 2155 "spl_lex.mll" 90 2106 2161
+type(
+  int
+)
+"spl_lex.mll" 90 2106 2145 "spl_lex.mll" 90 2106 2162
+type(
+  int
+)
+"spl_lex.mll" 90 2106 2120 "spl_lex.mll" 90 2106 2162
+call(
+  stack
+)
+type(
+  string
+)
+"spl_lex.mll" 91 2168 2177 "spl_lex.mll" 91 2168 2180
+type(
+  string
+)
+"spl_lex.mll" 91 2168 2184 "spl_lex.mll" 91 2168 2201
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 92 2202 2212 "spl_lex.mll" 92 2202 2215
+type(
+  string
+)
+"spl_lex.mll" 92 2202 2219 "spl_lex.mll" 92 2202 2236
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 93 2237 2247 "spl_lex.mll" 93 2237 2252
+type(
+  string
+)
+"spl_lex.mll" 93 2237 2256 "spl_lex.mll" 93 2237 2271
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 94 2272 2282 "spl_lex.mll" 94 2272 2287
+type(
+  string
+)
+"spl_lex.mll" 94 2272 2291 "spl_lex.mll" 94 2272 2308
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 95 2309 2319 "spl_lex.mll" 95 2309 2322
+type(
+  string
+)
+"spl_lex.mll" 95 2309 2326 "spl_lex.mll" 95 2309 2342
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 96 2343 2354 "spl_lex.mll" 96 2343 2355
+type(
+  string
+)
+"spl_lex.mll" 96 2343 2359 "spl_lex.mll" 96 2343 2364
+type(
+  exn -> Apron.Texpr1.round
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"spl_lex.mll" 96 2343 2365 "spl_lex.mll" 96 2343 2370
+type(
+  exn
+)
+"spl_lex.mll" 96 2343 2359 "spl_lex.mll" 96 2343 2370
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 90 2106 2114 "spl_lex.mll" 96 2343 2370
+type(
+  Apron.Texpr1.round
+)
+"spl_lex.mll" 98 2380 2387 "spl_lex.mll" 98 2380 2396
+type(
+  Apron.Texpr1.typ
+)
+ident(
+  int_ref round_typ "spl_lex.mll" 72 1617 1625 "spl_lex.mll" 72 1617 1634
+)
+"spl_lex.mll" 98 2380 2398 "spl_lex.mll" 98 2380 2407
+type(
+  Apron.Texpr1.round
+)
+ident(
+  int_ref round_dir "spl_lex.mll" 89 2084 2094 "spl_lex.mll" 89 2084 2103
+)
+"spl_lex.mll" 98 2380 2386 "spl_lex.mll" 98 2380 2408
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 89 2084 2090 "spl_lex.mll" 98 2380 2408
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 88 2066 2072 "spl_lex.mll" 98 2380 2408
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 85 1976 1982 "spl_lex.mll" 98 2380 2408
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 83 1943 1952 "spl_lex.mll" 99 2409 2416
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 81 1884 1888 "spl_lex.mll" 99 2409 2416
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 72 1617 1621 "spl_lex.mll" 99 2409 2416
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 71 1601 1605 "spl_lex.mll" 99 2409 2416
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 67 1506 1513 "spl_lex.mll" 100 2417 2422
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 65 1445 1447 "spl_lex.mll" 100 2417 2422
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 64 1422 1424 "spl_lex.mll" 100 2417 2422
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 63 1378 1380 "spl_lex.mll" 100 2417 2422
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 62 1334 1336 "spl_lex.mll" 100 2417 2422
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 61 1298 1300 "spl_lex.mll" 100 2417 2422
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.ml" 98 2442 2446 "spl_lex.ml" 98 2442 2464
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "spl_lex.ml" 826 52111 52111 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.ml" 100 2490 2493 "spl_lex.ml" 115 3540 3545
+type(
+  string
+)
+"spl_lex.ml" 117 3571 3574 "spl_lex.ml" 132 4621 4626
+type(
+  string
+)
+"spl_lex.ml" 134 4652 4655 "spl_lex.ml" 149 5702 5707
+type(
+  string
+)
+"spl_lex.ml" 151 5731 5734 "spl_lex.ml" 480 28761 28806
+type(
+  string
+)
+"spl_lex.ml" 482 28830 28833 "spl_lex.ml" 811 51860 51905
+type(
+  string
+)
+"spl_lex.ml" 813 51933 51936 "spl_lex.ml" 813 51933 51938
+type(
+  string
+)
+"spl_lex.ml" 815 51969 51972 "spl_lex.ml" 815 51969 51974
+type(
+  string
+)
+"spl_lex.ml" 817 52005 52008 "spl_lex.ml" 817 52005 52010
+type(
+  string
+)
+"spl_lex.ml" 819 52039 52042 "spl_lex.ml" 819 52039 52044
+type(
+  string
+)
+"spl_lex.ml" 821 52073 52076 "spl_lex.ml" 821 52073 52078
+type(
+  string
+)
+"spl_lex.ml" 823 52101 52104 "spl_lex.ml" 823 52101 52106
+type(
+  string
+)
+"spl_lex.ml" 98 2442 2467 "spl_lex.ml" 824 52108 52109
+type(
+  Lexing.lex_tables
+)
+"spl_lex.ml" 826 52111 52119 "spl_lex.ml" 826 52111 52124
+type(
+  Lexing.lexbuf -> Spl_yacc.token
+)
+ident(
+  def token "spl_lex.ml" 826 52111 52111 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.ml" 826 52111 52125 "spl_lex.ml" 826 52111 52131
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "spl_lex.ml" 827 52134 52138 "spl_lex.ml" 827 52134 52168
+)
+"spl_lex.ml" 827 52134 52138 "spl_lex.ml" 827 52134 52159
+type(
+  Lexing.lexbuf -> int -> Spl_yacc.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "spl_lex.ml" 828 52169 52173 "spl_lex.ml" 828 52169 52194
+)
+"spl_lex.ml" 827 52134 52160 "spl_lex.ml" 827 52134 52166
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 826 52111 52125 "spl_lex.ml" 826 52111 52131
+)
+"spl_lex.ml" 827 52134 52167 "spl_lex.ml" 827 52134 52168
+type(
+  int
+)
+"spl_lex.ml" 827 52134 52138 "spl_lex.ml" 827 52134 52168
+call(
+  tail
+)
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 828 52169 52173 "spl_lex.ml" 828 52169 52194
+type(
+  Lexing.lexbuf -> int -> Spl_yacc.token
+)
+ident(
+  def __ocaml_lex_token_rec "spl_lex.ml" 826 52111 52111 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "spl_lex.ml" 828 52169 52202 "spl_lex.ml" 1002 55315 55367
+)
+"spl_lex.ml" 828 52169 52202 "spl_lex.ml" 828 52169 52219
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "spl_lex.ml" 829 52222 52224 "spl_lex.ml" 1002 55315 55367
+)
+"spl_lex.ml" 829 52222 52230 "spl_lex.ml" 829 52222 52243
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"spl_lex.ml" 829 52222 52244 "spl_lex.ml" 829 52222 52262
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "spl_lex.ml" 98 2442 2446 "spl_lex.ml" 98 2442 2464
+)
+"spl_lex.ml" 829 52222 52263 "spl_lex.ml" 829 52222 52280
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "spl_lex.ml" 828 52169 52202 "spl_lex.ml" 828 52169 52219
+)
+"spl_lex.ml" 829 52222 52281 "spl_lex.ml" 829 52222 52287
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.ml" 829 52222 52230 "spl_lex.ml" 829 52222 52287
+call(
+  stack
+)
+type(
+  int
+)
+"spl_lex.ml" 830 52293 52301 "spl_lex.ml" 830 52293 52302
+type(
+  int
+)
+"spl_lex.mll" 105 52326 52353 "spl_lex.mll" 105 52326 52358
+type(
+  Lexing.lexbuf -> Spl_yacc.token
+)
+ident(
+  int_ref token "spl_lex.ml" 826 52111 52119 "spl_lex.ml" 826 52111 52124
+)
+"spl_lex.mll" 105 52326 52359 "spl_lex.mll" 105 52326 52365
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 105 52326 52351 "spl_lex.mll" 105 52326 52367
+call(
+  tail
+)
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 835 52388 52392 "spl_lex.ml" 835 52388 52393
+type(
+  int
+)
+"spl_lex.mll" 109 52417 52423 "spl_lex.mll" 109 52417 52430
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref newline "spl_lex.mll" 40 744 748 "spl_lex.mll" 40 744 755
+)
+"spl_lex.mll" 109 52417 52431 "spl_lex.mll" 109 52417 52437
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 109 52417 52423 "spl_lex.mll" 109 52417 52437
+call(
+  stack
+)
+type(
+  unit
+)
+"spl_lex.mll" 109 52417 52439 "spl_lex.mll" 109 52417 52444
+type(
+  Lexing.lexbuf -> Spl_yacc.token
+)
+ident(
+  int_ref token "spl_lex.ml" 826 52111 52119 "spl_lex.ml" 826 52111 52124
+)
+"spl_lex.mll" 109 52417 52445 "spl_lex.mll" 109 52417 52451
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 109 52417 52439 "spl_lex.mll" 109 52417 52451
+call(
+  tail
+)
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 109 52417 52421 "spl_lex.mll" 109 52417 52453
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 840 52474 52478 "spl_lex.ml" 840 52474 52479
+type(
+  int
+)
+"spl_lex.mll" 112 52503 52516 "spl_lex.mll" 112 52503 52540
+type(
+  Lexing.position ref
+)
+ident(
+  ext_ref Spl_syn.start_of_comment
+)
+"spl_lex.mll" 112 52503 52541 "spl_lex.mll" 112 52503 52543
+type(
+  Lexing.position ref -> Lexing.position -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"spl_lex.mll" 112 52503 52544 "spl_lex.mll" 112 52503 52565
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"spl_lex.mll" 112 52503 52566 "spl_lex.mll" 112 52503 52572
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 112 52503 52544 "spl_lex.mll" 112 52503 52572
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"spl_lex.mll" 112 52503 52516 "spl_lex.mll" 112 52503 52572
+type(
+  unit
+)
+"spl_lex.mll" 113 52574 52580 "spl_lex.mll" 113 52574 52587
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "spl_lex.ml" 1004 55369 55373 "spl_lex.ml" 1004 55369 55380
+)
+"spl_lex.mll" 113 52574 52588 "spl_lex.mll" 113 52574 52594
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 113 52574 52580 "spl_lex.mll" 113 52574 52594
+call(
+  stack
+)
+type(
+  unit
+)
+"spl_lex.mll" 114 52597 52603 "spl_lex.mll" 114 52597 52608
+type(
+  Lexing.lexbuf -> Spl_yacc.token
+)
+ident(
+  int_ref token "spl_lex.ml" 826 52111 52119 "spl_lex.ml" 826 52111 52124
+)
+"spl_lex.mll" 114 52597 52609 "spl_lex.mll" 114 52597 52615
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 114 52597 52603 "spl_lex.mll" 114 52597 52615
+call(
+  tail
+)
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 113 52574 52580 "spl_lex.mll" 114 52597 52615
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 112 52503 52514 "spl_lex.mll" 114 52597 52617
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 847 52638 52642 "spl_lex.ml" 847 52638 52643
+type(
+  int
+)
+"spl_lex.mll" 115 52667 52694 "spl_lex.mll" 115 52667 52699
+type(
+  Lexing.lexbuf -> Spl_yacc.token
+)
+ident(
+  int_ref token "spl_lex.ml" 826 52111 52119 "spl_lex.ml" 826 52111 52124
+)
+"spl_lex.mll" 115 52667 52700 "spl_lex.mll" 115 52667 52706
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 115 52667 52692 "spl_lex.mll" 115 52667 52708
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 852 52729 52733 "spl_lex.ml" 852 52729 52734
+type(
+  int
+)
+"spl_lex.mll" 120 52761 52768 "spl_lex.mll" 120 52761 52771
+type(
+  string
+)
+ident(
+  def str "spl_lex.mll" 121 52798 52801 "spl_lex.mll" 121 52798 52828
+)
+"spl_lex.mll" 120 52761 52774 "spl_lex.mll" 120 52761 52787
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"spl_lex.mll" 120 52761 52788 "spl_lex.mll" 120 52761 52794
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 120 52761 52774 "spl_lex.mll" 120 52761 52794
+call(
+  stack
+)
+type(
+  string
+)
+"spl_lex.mll" 121 52798 52809 "spl_lex.mll" 121 52798 52823
+type(
+  string -> Mpqf.t
+)
+ident(
+  ext_ref Mpqf.of_string
+)
+"spl_lex.mll" 121 52798 52824 "spl_lex.mll" 121 52798 52827
+type(
+  string
+)
+ident(
+  int_ref str "spl_lex.mll" 120 52761 52768 "spl_lex.mll" 120 52761 52771
+)
+"spl_lex.mll" 121 52798 52808 "spl_lex.mll" 121 52798 52828
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"spl_lex.mll" 121 52798 52801 "spl_lex.mll" 121 52798 52828
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 119 52758 52759 "spl_lex.mll" 122 52829 52831
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 860 52852 52856 "spl_lex.ml" 860 52852 52857
+type(
+  int
+)
+"spl_lex.mll" 125 52884 52891 "spl_lex.mll" 125 52884 52894
+type(
+  string
+)
+ident(
+  def str "spl_lex.mll" 126 52921 52924 "spl_lex.mll" 126 52921 52953
+)
+"spl_lex.mll" 125 52884 52897 "spl_lex.mll" 125 52884 52910
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"spl_lex.mll" 125 52884 52911 "spl_lex.mll" 125 52884 52917
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 125 52884 52897 "spl_lex.mll" 125 52884 52917
+call(
+  stack
+)
+type(
+  string
+)
+"spl_lex.mll" 126 52921 52933 "spl_lex.mll" 126 52921 52948
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"spl_lex.mll" 126 52921 52949 "spl_lex.mll" 126 52921 52952
+type(
+  string
+)
+ident(
+  int_ref str "spl_lex.mll" 125 52884 52891 "spl_lex.mll" 125 52884 52894
+)
+"spl_lex.mll" 126 52921 52932 "spl_lex.mll" 126 52921 52953
+type(
+  float
+)
+"spl_lex.mll" 126 52921 52924 "spl_lex.mll" 126 52921 52953
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 124 52881 52882 "spl_lex.mll" 127 52954 52956
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 868 52977 52981 "spl_lex.ml" 868 52977 52982
+type(
+  int
+)
+"spl_lex.mll" 130 53006 53030 "spl_lex.mll" 130 53006 53035
+type(
+  Lexing.lexbuf -> int -> Spl_syn.point
+)
+ident(
+  int_ref point "spl_lex.mll" 49 971 975 "spl_lex.mll" 49 971 980
+)
+"spl_lex.mll" 130 53006 53036 "spl_lex.mll" 130 53006 53042
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 130 53006 53043 "spl_lex.mll" 130 53006 53044
+type(
+  int
+)
+"spl_lex.mll" 130 53006 53029 "spl_lex.mll" 130 53006 53045
+call(
+  stack
+)
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 130 53006 53021 "spl_lex.mll" 130 53006 53047
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 873 53068 53072 "spl_lex.ml" 873 53068 53073
+type(
+  int
+)
+"spl_lex.mll" 131 53097 53123 "spl_lex.mll" 131 53097 53128
+type(
+  Lexing.lexbuf -> int -> Spl_syn.point
+)
+ident(
+  int_ref point "spl_lex.mll" 49 971 975 "spl_lex.mll" 49 971 980
+)
+"spl_lex.mll" 131 53097 53129 "spl_lex.mll" 131 53097 53135
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 131 53097 53136 "spl_lex.mll" 131 53097 53137
+type(
+  int
+)
+"spl_lex.mll" 131 53097 53122 "spl_lex.mll" 131 53097 53138
+call(
+  stack
+)
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 131 53097 53112 "spl_lex.mll" 131 53097 53140
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 878 53161 53165 "spl_lex.ml" 878 53161 53166
+type(
+  int
+)
+"spl_lex.mll" 132 53190 53216 "spl_lex.mll" 132 53190 53221
+type(
+  Lexing.lexbuf -> int -> Spl_syn.point
+)
+ident(
+  int_ref point "spl_lex.mll" 49 971 975 "spl_lex.mll" 49 971 980
+)
+"spl_lex.mll" 132 53190 53222 "spl_lex.mll" 132 53190 53228
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 132 53190 53229 "spl_lex.mll" 132 53190 53230
+type(
+  int
+)
+"spl_lex.mll" 132 53190 53215 "spl_lex.mll" 132 53190 53231
+call(
+  stack
+)
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 132 53190 53205 "spl_lex.mll" 132 53190 53233
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 883 53254 53258 "spl_lex.ml" 883 53254 53259
+type(
+  int
+)
+"spl_lex.mll" 133 53283 53310 "spl_lex.mll" 133 53283 53315
+type(
+  Lexing.lexbuf -> int -> Spl_syn.point
+)
+ident(
+  int_ref point "spl_lex.mll" 49 971 975 "spl_lex.mll" 49 971 980
+)
+"spl_lex.mll" 133 53283 53316 "spl_lex.mll" 133 53283 53322
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 133 53283 53323 "spl_lex.mll" 133 53283 53324
+type(
+  int
+)
+"spl_lex.mll" 133 53283 53309 "spl_lex.mll" 133 53283 53325
+call(
+  stack
+)
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 133 53283 53298 "spl_lex.mll" 133 53283 53327
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 888 53348 53352 "spl_lex.ml" 888 53348 53354
+type(
+  int
+)
+"spl_lex.mll" 134 53378 53409 "spl_lex.mll" 134 53378 53414
+type(
+  Lexing.lexbuf -> int -> Spl_syn.point
+)
+ident(
+  int_ref point "spl_lex.mll" 49 971 975 "spl_lex.mll" 49 971 980
+)
+"spl_lex.mll" 134 53378 53415 "spl_lex.mll" 134 53378 53421
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 134 53378 53422 "spl_lex.mll" 134 53378 53423
+type(
+  int
+)
+"spl_lex.mll" 134 53378 53408 "spl_lex.mll" 134 53378 53424
+call(
+  stack
+)
+type(
+  Spl_syn.point
+)
+"spl_lex.mll" 134 53378 53393 "spl_lex.mll" 134 53378 53426
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 893 53447 53451 "spl_lex.ml" 893 53447 53453
+type(
+  int
+)
+"spl_lex.mll" 135 53477 53492 "spl_lex.mll" 135 53477 53504
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 898 53525 53529 "spl_lex.ml" 898 53525 53531
+type(
+  int
+)
+"spl_lex.mll" 136 53555 53570 "spl_lex.mll" 136 53555 53582
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 903 53603 53607 "spl_lex.ml" 903 53603 53609
+type(
+  int
+)
+"spl_lex.mll" 137 53633 53648 "spl_lex.mll" 137 53633 53659
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 908 53680 53684 "spl_lex.ml" 908 53680 53686
+type(
+  int
+)
+"spl_lex.mll" 138 53710 53725 "spl_lex.mll" 138 53710 53736
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 913 53757 53761 "spl_lex.ml" 913 53757 53763
+type(
+  int
+)
+"spl_lex.mll" 139 53787 53802 "spl_lex.mll" 139 53787 53812
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 918 53833 53837 "spl_lex.ml" 918 53833 53839
+type(
+  int
+)
+"spl_lex.mll" 140 53863 53878 "spl_lex.mll" 140 53863 53888
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 923 53909 53913 "spl_lex.ml" 923 53909 53915
+type(
+  int
+)
+"spl_lex.mll" 141 53939 53954 "spl_lex.mll" 141 53939 53963
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 928 53984 53988 "spl_lex.ml" 928 53984 53990
+type(
+  int
+)
+"spl_lex.mll" 142 54014 54029 "spl_lex.mll" 142 54014 54038
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 933 54059 54063 "spl_lex.ml" 933 54059 54065
+type(
+  int
+)
+"spl_lex.mll" 143 54089 54104 "spl_lex.mll" 143 54089 54114
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 938 54135 54139 "spl_lex.ml" 938 54135 54141
+type(
+  int
+)
+"spl_lex.mll" 144 54165 54181 "spl_lex.mll" 144 54165 54190
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 943 54211 54215 "spl_lex.ml" 943 54211 54217
+type(
+  int
+)
+"spl_lex.mll" 145 54241 54256 "spl_lex.mll" 145 54241 54265
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 948 54286 54290 "spl_lex.ml" 948 54286 54292
+type(
+  int
+)
+"spl_lex.mll" 149 54316 54326 "spl_lex.mll" 149 54316 54346
+type(
+  int -> Lexing.lexbuf -> Apron.Texpr1.typ * Apron.Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "spl_lex.mll" 60 1254 1258 "spl_lex.mll" 60 1254 1278
+)
+"spl_lex.mll" 149 54316 54347 "spl_lex.mll" 149 54316 54348
+type(
+  int
+)
+"spl_lex.mll" 149 54316 54349 "spl_lex.mll" 149 54316 54355
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 149 54316 54325 "spl_lex.mll" 149 54316 54356
+call(
+  stack
+)
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 149 54316 54317 "spl_lex.mll" 149 54316 54358
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 953 54379 54383 "spl_lex.ml" 953 54379 54385
+type(
+  int
+)
+"spl_lex.mll" 151 54409 54419 "spl_lex.mll" 151 54409 54439
+type(
+  int -> Lexing.lexbuf -> Apron.Texpr1.typ * Apron.Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "spl_lex.mll" 60 1254 1258 "spl_lex.mll" 60 1254 1278
+)
+"spl_lex.mll" 151 54409 54440 "spl_lex.mll" 151 54409 54441
+type(
+  int
+)
+"spl_lex.mll" 151 54409 54442 "spl_lex.mll" 151 54409 54448
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 151 54409 54418 "spl_lex.mll" 151 54409 54449
+call(
+  stack
+)
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 151 54409 54410 "spl_lex.mll" 151 54409 54451
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 958 54472 54476 "spl_lex.ml" 958 54472 54478
+type(
+  int
+)
+"spl_lex.mll" 153 54502 54512 "spl_lex.mll" 153 54502 54532
+type(
+  int -> Lexing.lexbuf -> Apron.Texpr1.typ * Apron.Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "spl_lex.mll" 60 1254 1258 "spl_lex.mll" 60 1254 1278
+)
+"spl_lex.mll" 153 54502 54533 "spl_lex.mll" 153 54502 54534
+type(
+  int
+)
+"spl_lex.mll" 153 54502 54535 "spl_lex.mll" 153 54502 54541
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 153 54502 54511 "spl_lex.mll" 153 54502 54542
+call(
+  stack
+)
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 153 54502 54503 "spl_lex.mll" 153 54502 54544
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 963 54565 54569 "spl_lex.ml" 963 54565 54571
+type(
+  int
+)
+"spl_lex.mll" 155 54595 54605 "spl_lex.mll" 155 54595 54625
+type(
+  int -> Lexing.lexbuf -> Apron.Texpr1.typ * Apron.Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "spl_lex.mll" 60 1254 1258 "spl_lex.mll" 60 1254 1278
+)
+"spl_lex.mll" 155 54595 54626 "spl_lex.mll" 155 54595 54627
+type(
+  int
+)
+"spl_lex.mll" 155 54595 54628 "spl_lex.mll" 155 54595 54634
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 155 54595 54604 "spl_lex.mll" 155 54595 54635
+call(
+  stack
+)
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 155 54595 54596 "spl_lex.mll" 155 54595 54637
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 968 54658 54662 "spl_lex.ml" 968 54658 54664
+type(
+  int
+)
+"spl_lex.mll" 157 54688 54701 "spl_lex.mll" 157 54688 54721
+type(
+  int -> Lexing.lexbuf -> Apron.Texpr1.typ * Apron.Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "spl_lex.mll" 60 1254 1258 "spl_lex.mll" 60 1254 1278
+)
+"spl_lex.mll" 157 54688 54722 "spl_lex.mll" 157 54688 54723
+type(
+  int
+)
+"spl_lex.mll" 157 54688 54724 "spl_lex.mll" 157 54688 54730
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 157 54688 54700 "spl_lex.mll" 157 54688 54731
+call(
+  stack
+)
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 157 54688 54689 "spl_lex.mll" 157 54688 54733
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 973 54754 54758 "spl_lex.ml" 973 54754 54760
+type(
+  int
+)
+"spl_lex.mll" 159 54784 54795 "spl_lex.mll" 159 54784 54815
+type(
+  int -> Lexing.lexbuf -> Apron.Texpr1.typ * Apron.Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "spl_lex.mll" 60 1254 1258 "spl_lex.mll" 60 1254 1278
+)
+"spl_lex.mll" 159 54784 54816 "spl_lex.mll" 159 54784 54817
+type(
+  int
+)
+"spl_lex.mll" 159 54784 54818 "spl_lex.mll" 159 54784 54824
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 159 54784 54794 "spl_lex.mll" 159 54784 54825
+call(
+  stack
+)
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 159 54784 54785 "spl_lex.mll" 159 54784 54827
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 978 54848 54852 "spl_lex.ml" 978 54848 54854
+type(
+  int
+)
+"spl_lex.mll" 161 54878 54889 "spl_lex.mll" 161 54878 54909
+type(
+  int -> Lexing.lexbuf -> Apron.Texpr1.typ * Apron.Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "spl_lex.mll" 60 1254 1258 "spl_lex.mll" 60 1254 1278
+)
+"spl_lex.mll" 161 54878 54910 "spl_lex.mll" 161 54878 54911
+type(
+  int
+)
+"spl_lex.mll" 161 54878 54912 "spl_lex.mll" 161 54878 54918
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 161 54878 54888 "spl_lex.mll" 161 54878 54919
+call(
+  stack
+)
+type(
+  Apron.Texpr1.typ * Apron.Texpr1.round
+)
+"spl_lex.mll" 161 54878 54879 "spl_lex.mll" 161 54878 54921
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 983 54942 54946 "spl_lex.ml" 983 54942 54948
+type(
+  int
+)
+"spl_lex.mll" 166 54981 54986 "spl_lex.mll" 166 54981 54988
+type(
+  string
+)
+ident(
+  def id "spl_lex.mll" 167 55015 55016 "spl_lex.mll" 168 55046 55073
+)
+"spl_lex.mll" 166 54981 54991 "spl_lex.mll" 166 54981 55004
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"spl_lex.mll" 166 54981 55005 "spl_lex.mll" 166 54981 55011
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.mll" 166 54981 54991 "spl_lex.mll" 166 54981 55011
+call(
+  stack
+)
+type(
+  string
+)
+"spl_lex.mll" 167 55015 55020 "spl_lex.mll" 167 55015 55032
+type(
+  (string, Spl_yacc.token) Hashtbl.t -> string -> Spl_yacc.token
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"spl_lex.mll" 167 55015 55033 "spl_lex.mll" 167 55015 55041
+type(
+  (string, Spl_yacc.token) Hashtbl.t
+)
+ident(
+  int_ref keywords "spl_lex.mll" 12 63 67 "spl_lex.mll" 12 63 75
+)
+"spl_lex.mll" 167 55015 55042 "spl_lex.mll" 167 55015 55044
+type(
+  string
+)
+ident(
+  int_ref id "spl_lex.mll" 166 54981 54986 "spl_lex.mll" 166 54981 54988
+)
+"spl_lex.mll" 167 55015 55020 "spl_lex.mll" 167 55015 55044
+call(
+  stack
+)
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 168 55046 55052 "spl_lex.mll" 168 55046 55061
+type(
+  exn
+)
+"spl_lex.mll" 168 55046 55071 "spl_lex.mll" 168 55046 55073
+type(
+  string
+)
+ident(
+  int_ref id "spl_lex.mll" 166 54981 54986 "spl_lex.mll" 166 54981 54988
+)
+"spl_lex.mll" 168 55046 55065 "spl_lex.mll" 168 55046 55073
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 167 55015 55016 "spl_lex.mll" 168 55046 55073
+type(
+  Spl_yacc.token
+)
+"spl_lex.mll" 165 54972 54978 "spl_lex.mll" 168 55046 55075
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 991 55096 55100 "spl_lex.ml" 991 55096 55102
+type(
+  int
+)
+"spl_lex.mll" 171 55126 55144 "spl_lex.mll" 171 55126 55154
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 996 55175 55179 "spl_lex.ml" 996 55175 55181
+type(
+  int
+)
+"spl_lex.mll" 172 55205 55223 "spl_lex.mll" 172 55205 55233
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 1001 55255 55259 "spl_lex.ml" 1001 55255 55276
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "spl_lex.ml" 1001 55255 55280 "spl_lex.ml" 1002 55315 55367
+)
+"spl_lex.ml" 1001 55255 55280 "spl_lex.ml" 1001 55255 55286
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.ml" 1001 55255 55280 "spl_lex.ml" 1001 55255 55305
+type(
+  Lexing.lexbuf -> unit
+)
+"spl_lex.ml" 1001 55255 55306 "spl_lex.ml" 1001 55255 55312
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.ml" 1001 55255 55280 "spl_lex.ml" 1001 55255 55312
+call(
+  stack
+)
+type(
+  unit
+)
+"spl_lex.ml" 1002 55315 55321 "spl_lex.ml" 1002 55315 55342
+type(
+  Lexing.lexbuf -> int -> Spl_yacc.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "spl_lex.ml" 828 52169 52173 "spl_lex.ml" 828 52169 52194
+)
+"spl_lex.ml" 1002 55315 55343 "spl_lex.ml" 1002 55315 55349
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 828 52169 52195 "spl_lex.ml" 828 52169 52201
+)
+"spl_lex.ml" 1002 55315 55350 "spl_lex.ml" 1002 55315 55367
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "spl_lex.ml" 1001 55255 55259 "spl_lex.ml" 1001 55255 55276
+)
+"spl_lex.ml" 1002 55315 55321 "spl_lex.ml" 1002 55315 55367
+call(
+  tail
+)
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 1001 55255 55280 "spl_lex.ml" 1002 55315 55367
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 829 52222 52224 "spl_lex.ml" 1002 55315 55367
+type(
+  Spl_yacc.token
+)
+"spl_lex.ml" 1004 55369 55373 "spl_lex.ml" 1004 55369 55380
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def comment "spl_lex.ml" 826 52111 52111 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.ml" 1004 55369 55381 "spl_lex.ml" 1004 55369 55387
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "spl_lex.ml" 1005 55390 55394 "spl_lex.ml" 1005 55390 55428
+)
+"spl_lex.ml" 1005 55390 55394 "spl_lex.ml" 1005 55390 55417
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "spl_lex.ml" 1006 55429 55433 "spl_lex.ml" 1006 55429 55456
+)
+"spl_lex.ml" 1005 55390 55418 "spl_lex.ml" 1005 55390 55424
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1004 55369 55381 "spl_lex.ml" 1004 55369 55387
+)
+"spl_lex.ml" 1005 55390 55425 "spl_lex.ml" 1005 55390 55428
+type(
+  int
+)
+"spl_lex.ml" 1005 55390 55394 "spl_lex.ml" 1005 55390 55428
+call(
+  tail
+)
+type(
+  unit
+)
+"spl_lex.ml" 1006 55429 55433 "spl_lex.ml" 1006 55429 55456
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_comment_rec "spl_lex.ml" 826 52111 52111 "spl_lex.ml" 1 0 -1
+)
+"spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "spl_lex.ml" 1006 55429 55464 "spl_lex.ml" 1039 56180 56234
+)
+"spl_lex.ml" 1006 55429 55464 "spl_lex.ml" 1006 55429 55481
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "spl_lex.ml" 1007 55484 55486 "spl_lex.ml" 1039 56180 56234
+)
+"spl_lex.ml" 1007 55484 55492 "spl_lex.ml" 1007 55484 55505
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"spl_lex.ml" 1007 55484 55506 "spl_lex.ml" 1007 55484 55524
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "spl_lex.ml" 98 2442 2446 "spl_lex.ml" 98 2442 2464
+)
+"spl_lex.ml" 1007 55484 55525 "spl_lex.ml" 1007 55484 55542
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "spl_lex.ml" 1006 55429 55464 "spl_lex.ml" 1006 55429 55481
+)
+"spl_lex.ml" 1007 55484 55543 "spl_lex.ml" 1007 55484 55549
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.ml" 1007 55484 55492 "spl_lex.ml" 1007 55484 55549
+call(
+  stack
+)
+type(
+  int
+)
+"spl_lex.ml" 1008 55555 55563 "spl_lex.ml" 1008 55555 55564
+type(
+  int
+)
+"spl_lex.mll" 178 55588 55601 "spl_lex.mll" 178 55588 55608
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "spl_lex.ml" 1004 55369 55373 "spl_lex.ml" 1004 55369 55380
+)
+"spl_lex.mll" 178 55588 55609 "spl_lex.mll" 178 55588 55615
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.mll" 178 55588 55601 "spl_lex.mll" 178 55588 55615
+call(
+  stack
+)
+type(
+  unit
+)
+"spl_lex.mll" 178 55588 55617 "spl_lex.mll" 178 55588 55624
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "spl_lex.ml" 1004 55369 55373 "spl_lex.ml" 1004 55369 55380
+)
+"spl_lex.mll" 178 55588 55625 "spl_lex.mll" 178 55588 55631
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.mll" 178 55588 55617 "spl_lex.mll" 178 55588 55631
+call(
+  tail
+)
+type(
+  unit
+)
+"spl_lex.mll" 178 55588 55599 "spl_lex.mll" 178 55588 55633
+type(
+  unit
+)
+"spl_lex.ml" 1013 55655 55659 "spl_lex.ml" 1013 55655 55660
+type(
+  int
+)
+"spl_lex.mll" 179 55684 55695 "spl_lex.mll" 179 55684 55701
+type(
+  unit
+)
+"spl_lex.ml" 1018 55723 55727 "spl_lex.ml" 1018 55723 55728
+type(
+  int
+)
+"spl_lex.mll" 181 55752 55760 "spl_lex.mll" 181 55752 55767
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref newline "spl_lex.mll" 40 744 748 "spl_lex.mll" 40 744 755
+)
+"spl_lex.mll" 181 55752 55768 "spl_lex.mll" 181 55752 55774
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.mll" 181 55752 55760 "spl_lex.mll" 181 55752 55774
+call(
+  stack
+)
+type(
+  unit
+)
+"spl_lex.mll" 181 55752 55776 "spl_lex.mll" 181 55752 55783
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "spl_lex.ml" 1004 55369 55373 "spl_lex.ml" 1004 55369 55380
+)
+"spl_lex.mll" 181 55752 55784 "spl_lex.mll" 181 55752 55790
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.mll" 181 55752 55776 "spl_lex.mll" 181 55752 55790
+call(
+  tail
+)
+type(
+  unit
+)
+"spl_lex.mll" 181 55752 55758 "spl_lex.mll" 181 55752 55792
+type(
+  unit
+)
+"spl_lex.ml" 1023 55814 55818 "spl_lex.ml" 1023 55814 55819
+type(
+  int
+)
+"spl_lex.mll" 182 55843 55866 "spl_lex.mll" 182 55843 55873
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "spl_lex.ml" 1004 55369 55373 "spl_lex.ml" 1004 55369 55380
+)
+"spl_lex.mll" 182 55843 55874 "spl_lex.mll" 182 55843 55880
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.mll" 182 55843 55864 "spl_lex.mll" 182 55843 55882
+call(
+  tail
+)
+type(
+  unit
+)
+"spl_lex.ml" 1028 55904 55908 "spl_lex.ml" 1028 55904 55909
+type(
+  int
+)
+"spl_lex.mll" 183 55933 55954 "spl_lex.mll" 183 55933 55961
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "spl_lex.ml" 1004 55369 55373 "spl_lex.ml" 1004 55369 55380
+)
+"spl_lex.mll" 183 55933 55962 "spl_lex.mll" 183 55933 55968
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.mll" 183 55933 55952 "spl_lex.mll" 183 55933 55970
+type(
+  unit
+)
+"spl_lex.ml" 1033 55992 55996 "spl_lex.ml" 1033 55992 55997
+type(
+  int
+)
+"spl_lex.mll" 184 56021 56042 "spl_lex.mll" 184 56021 56047
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"spl_lex.mll" 184 56021 56070 "spl_lex.mll" 184 56021 56071
+type(
+  Lexing.position ref -> Lexing.position
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"spl_lex.mll" 184 56021 56071 "spl_lex.mll" 184 56021 56095
+type(
+  Lexing.position ref
+)
+ident(
+  ext_ref Spl_syn.start_of_comment
+)
+"spl_lex.mll" 184 56021 56070 "spl_lex.mll" 184 56021 56095
+type(
+  Lexing.position
+)
+"spl_lex.mll" 184 56021 56048 "spl_lex.mll" 184 56021 56096
+type(
+  exn
+)
+"spl_lex.mll" 184 56021 56040 "spl_lex.mll" 184 56021 56098
+type(
+  unit
+)
+"spl_lex.ml" 1038 56120 56124 "spl_lex.ml" 1038 56120 56141
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "spl_lex.ml" 1038 56120 56145 "spl_lex.ml" 1039 56180 56234
+)
+"spl_lex.ml" 1038 56120 56145 "spl_lex.ml" 1038 56120 56151
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.ml" 1038 56120 56145 "spl_lex.ml" 1038 56120 56170
+type(
+  Lexing.lexbuf -> unit
+)
+"spl_lex.ml" 1038 56120 56171 "spl_lex.ml" 1038 56120 56177
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.ml" 1038 56120 56145 "spl_lex.ml" 1038 56120 56177
+call(
+  stack
+)
+type(
+  unit
+)
+"spl_lex.ml" 1039 56180 56186 "spl_lex.ml" 1039 56180 56209
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "spl_lex.ml" 1006 55429 55433 "spl_lex.ml" 1006 55429 55456
+)
+"spl_lex.ml" 1039 56180 56210 "spl_lex.ml" 1039 56180 56216
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "spl_lex.ml" 1006 55429 55457 "spl_lex.ml" 1006 55429 55463
+)
+"spl_lex.ml" 1039 56180 56217 "spl_lex.ml" 1039 56180 56234
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "spl_lex.ml" 1038 56120 56124 "spl_lex.ml" 1038 56120 56141
+)
+"spl_lex.ml" 1039 56180 56186 "spl_lex.ml" 1039 56180 56234
+call(
+  tail
+)
+type(
+  unit
+)
+"spl_lex.ml" 1038 56120 56145 "spl_lex.ml" 1039 56180 56234
+type(
+  unit
+)
+"spl_lex.ml" 1007 55484 55486 "spl_lex.ml" 1039 56180 56234
+type(
+  unit
+)

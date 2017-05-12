@@ -1,0 +1,2124 @@
+"ppl.ml" 56 1870 1874 "ppl.ml" 56 1870 1888
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_ppl "ppl.ml" 63 2050 2050 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 56 1870 1889 "ppl.ml" 56 1870 1892
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 57 1895 1897 "ppl.ml" 62 2018 2049
+)
+"ppl.ml" 57 1895 1901 "ppl.ml" 57 1895 1904
+type(
+  string
+)
+ident(
+  def str "ppl.ml" 58 1940 1942 "ppl.ml" 62 2018 2049
+)
+"ppl.ml" 57 1895 1907 "ppl.ml" 57 1895 1932
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"ppl.ml" 57 1895 1933 "ppl.ml" 57 1895 1936
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 56 1870 1889 "ppl.ml" 56 1870 1892
+)
+"ppl.ml" 57 1895 1907 "ppl.ml" 57 1895 1936
+type(
+  string
+)
+"ppl.ml" 58 1940 1946 "ppl.ml" 58 1940 1949
+type(
+  string
+)
+ident(
+  def str "ppl.ml" 62 2018 2020 "ppl.ml" 62 2018 2049
+)
+"ppl.ml" 59 1952 1960 "ppl.ml" 59 1952 1970
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ppl.ml" 59 1952 1971 "ppl.ml" 59 1952 1974
+type(
+  string
+)
+ident(
+  int_ref str "ppl.ml" 57 1895 1901 "ppl.ml" 57 1895 1904
+)
+"ppl.ml" 59 1952 1975 "ppl.ml" 59 1952 1976
+type(
+  int
+)
+"ppl.ml" 59 1952 1977 "ppl.ml" 59 1952 1978
+type(
+  int
+)
+"ppl.ml" 59 1952 1960 "ppl.ml" 59 1952 1978
+call(
+  stack
+)
+type(
+  string
+)
+"ppl.ml" 60 1979 2005 "ppl.ml" 60 1979 2006
+type(
+  string
+)
+"ppl.ml" 60 1979 1988 "ppl.ml" 60 1979 2006
+type(
+  exn
+)
+"ppl.ml" 60 1979 2010 "ppl.ml" 60 1979 2012
+type(
+  string
+)
+"ppl.ml" 59 1952 1956 "ppl.ml" 60 1979 2012
+type(
+  string
+)
+"ppl.ml" 62 2018 2021 "ppl.ml" 62 2018 2035
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"ppl.ml" 62 2018 2036 "ppl.ml" 62 2018 2039
+type(
+  String.t
+)
+ident(
+  int_ref str "ppl.ml" 58 1940 1946 "ppl.ml" 58 1940 1949
+)
+"ppl.ml" 62 2018 2040 "ppl.ml" 62 2018 2045
+type(
+  String.t
+)
+"ppl.ml" 62 2018 2020 "ppl.ml" 62 2018 2046
+call(
+  stack
+)
+type(
+  int
+)
+"ppl.ml" 62 2018 2046 "ppl.ml" 62 2018 2048
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ppl.ml" 62 2018 2048 "ppl.ml" 62 2018 2049
+type(
+  int
+)
+"ppl.ml" 62 2018 2020 "ppl.ml" 62 2018 2049
+type(
+  bool
+)
+"ppl.ml" 58 1940 1942 "ppl.ml" 62 2018 2049
+type(
+  bool
+)
+"ppl.ml" 57 1895 1897 "ppl.ml" 62 2018 2049
+type(
+  bool
+)
+"ppl.ml" 63 2050 2054 "ppl.ml" 63 2050 2068
+type(
+  'a t Apron.Manager.t -> 'b Apron.Manager.t
+)
+ident(
+  def manager_of_ppl "ppl.ml" 64 2133 2133 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 63 2050 2070 "ppl.ml" 63 2050 2073
+type(
+  'a t Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 63 2050 2096 "ppl.ml" 63 2050 2132
+)
+"ppl.ml" 63 2050 2119 "ppl.ml" 63 2050 2128
+type(
+  'a t Apron.Manager.t -> 'b Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 63 2050 2129 "ppl.ml" 63 2050 2132
+type(
+  'a t Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 63 2050 2070 "ppl.ml" 63 2050 2073
+)
+"ppl.ml" 63 2050 2119 "ppl.ml" 63 2050 2132
+type(
+  'b Apron.Manager.t
+)
+type(
+  'b Apron.Manager.t
+)
+"ppl.ml" 64 2133 2137 "ppl.ml" 64 2133 2151
+type(
+  'a Apron.Manager.t -> 'b t Apron.Manager.t
+)
+ident(
+  def manager_to_ppl "ppl.ml" 70 2326 2326 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 64 2133 2153 "ppl.ml" 64 2133 2156
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 64 2133 2177 "ppl.ml" 68 2256 2324
+)
+"ppl.ml" 65 2202 2207 "ppl.ml" 65 2202 2221
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl "ppl.ml" 56 1870 1874 "ppl.ml" 56 1870 1888
+)
+"ppl.ml" 65 2202 2222 "ppl.ml" 65 2202 2225
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 64 2133 2153 "ppl.ml" 64 2133 2156
+)
+"ppl.ml" 65 2202 2207 "ppl.ml" 65 2202 2225
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 66 2231 2235 "ppl.ml" 66 2231 2244
+type(
+  'a Apron.Manager.t -> 'b t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 66 2231 2245 "ppl.ml" 66 2231 2248
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 64 2133 2153 "ppl.ml" 64 2133 2156
+)
+"ppl.ml" 66 2231 2235 "ppl.ml" 66 2231 2248
+type(
+  'b t Apron.Manager.t
+)
+"ppl.ml" 68 2256 2260 "ppl.ml" 68 2256 2268
+type(
+  string -> 'b t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 68 2256 2269 "ppl.ml" 68 2256 2324
+type(
+  string
+)
+"ppl.ml" 68 2256 2260 "ppl.ml" 68 2256 2324
+call(
+  tail
+)
+type(
+  'b t Apron.Manager.t
+)
+"ppl.ml" 65 2202 2204 "ppl.ml" 68 2256 2324
+type(
+  'b t Apron.Manager.t
+)
+type(
+  'b t Apron.Manager.t
+)
+"ppl.ml" 70 2326 2330 "ppl.ml" 70 2326 2350
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_ppl_loose "ppl.ml" 73 2458 2458 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 70 2326 2351 "ppl.ml" 70 2326 2354
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 71 2357 2359 "ppl.ml" 72 2402 2457
+)
+"ppl.ml" 71 2357 2363 "ppl.ml" 71 2357 2366
+type(
+  string
+)
+ident(
+  def str "ppl.ml" 72 2402 2404 "ppl.ml" 72 2402 2457
+)
+"ppl.ml" 71 2357 2369 "ppl.ml" 71 2357 2394
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"ppl.ml" 71 2357 2395 "ppl.ml" 71 2357 2398
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 70 2326 2351 "ppl.ml" 70 2326 2354
+)
+"ppl.ml" 71 2357 2369 "ppl.ml" 71 2357 2398
+type(
+  string
+)
+"ppl.ml" 72 2402 2405 "ppl.ml" 72 2402 2419
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"ppl.ml" 72 2402 2420 "ppl.ml" 72 2402 2423
+type(
+  String.t
+)
+ident(
+  int_ref str "ppl.ml" 71 2357 2363 "ppl.ml" 71 2357 2366
+)
+"ppl.ml" 72 2402 2424 "ppl.ml" 72 2402 2453
+type(
+  String.t
+)
+"ppl.ml" 72 2402 2404 "ppl.ml" 72 2402 2454
+call(
+  stack
+)
+type(
+  int
+)
+"ppl.ml" 72 2402 2454 "ppl.ml" 72 2402 2456
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ppl.ml" 72 2402 2456 "ppl.ml" 72 2402 2457
+type(
+  int
+)
+"ppl.ml" 72 2402 2404 "ppl.ml" 72 2402 2457
+type(
+  bool
+)
+"ppl.ml" 71 2357 2359 "ppl.ml" 72 2402 2457
+type(
+  bool
+)
+"ppl.ml" 73 2458 2462 "ppl.ml" 73 2458 2482
+type(
+  loose t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  def manager_of_ppl_loose "ppl.ml" 74 2550 2550 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 73 2458 2484 "ppl.ml" 73 2458 2487
+type(
+  loose t Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 73 2458 2513 "ppl.ml" 73 2458 2549
+)
+"ppl.ml" 73 2458 2536 "ppl.ml" 73 2458 2545
+type(
+  loose t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 73 2458 2546 "ppl.ml" 73 2458 2549
+type(
+  loose t Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 73 2458 2484 "ppl.ml" 73 2458 2487
+)
+"ppl.ml" 73 2458 2536 "ppl.ml" 73 2458 2549
+type(
+  'a Apron.Manager.t
+)
+type(
+  'a Apron.Manager.t
+)
+"ppl.ml" 74 2550 2554 "ppl.ml" 74 2550 2574
+type(
+  'a Apron.Manager.t -> loose t Apron.Manager.t
+)
+ident(
+  def manager_to_ppl_loose "ppl.ml" 80 2770 2770 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 74 2550 2576 "ppl.ml" 74 2550 2579
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 74 2550 2600 "ppl.ml" 78 2688 2768
+)
+"ppl.ml" 75 2628 2633 "ppl.ml" 75 2628 2653
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl_loose "ppl.ml" 70 2326 2330 "ppl.ml" 70 2326 2350
+)
+"ppl.ml" 75 2628 2654 "ppl.ml" 75 2628 2657
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 74 2550 2576 "ppl.ml" 74 2550 2579
+)
+"ppl.ml" 75 2628 2633 "ppl.ml" 75 2628 2657
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 76 2663 2667 "ppl.ml" 76 2663 2676
+type(
+  'a Apron.Manager.t -> loose t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 76 2663 2677 "ppl.ml" 76 2663 2680
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 74 2550 2576 "ppl.ml" 74 2550 2579
+)
+"ppl.ml" 76 2663 2667 "ppl.ml" 76 2663 2680
+type(
+  loose t Apron.Manager.t
+)
+"ppl.ml" 78 2688 2692 "ppl.ml" 78 2688 2700
+type(
+  string -> loose t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 78 2688 2701 "ppl.ml" 78 2688 2768
+type(
+  string
+)
+"ppl.ml" 78 2688 2692 "ppl.ml" 78 2688 2768
+call(
+  tail
+)
+type(
+  loose t Apron.Manager.t
+)
+"ppl.ml" 75 2628 2630 "ppl.ml" 78 2688 2768
+type(
+  loose t Apron.Manager.t
+)
+type(
+  loose t Apron.Manager.t
+)
+"ppl.ml" 80 2770 2774 "ppl.ml" 80 2770 2795
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_ppl_strict "ppl.ml" 83 2904 2904 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 80 2770 2796 "ppl.ml" 80 2770 2799
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 81 2802 2804 "ppl.ml" 82 2847 2903
+)
+"ppl.ml" 81 2802 2808 "ppl.ml" 81 2802 2811
+type(
+  string
+)
+ident(
+  def str "ppl.ml" 82 2847 2849 "ppl.ml" 82 2847 2903
+)
+"ppl.ml" 81 2802 2814 "ppl.ml" 81 2802 2839
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"ppl.ml" 81 2802 2840 "ppl.ml" 81 2802 2843
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 80 2770 2796 "ppl.ml" 80 2770 2799
+)
+"ppl.ml" 81 2802 2814 "ppl.ml" 81 2802 2843
+type(
+  string
+)
+"ppl.ml" 82 2847 2850 "ppl.ml" 82 2847 2864
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"ppl.ml" 82 2847 2865 "ppl.ml" 82 2847 2868
+type(
+  String.t
+)
+ident(
+  int_ref str "ppl.ml" 81 2802 2808 "ppl.ml" 81 2802 2811
+)
+"ppl.ml" 82 2847 2869 "ppl.ml" 82 2847 2899
+type(
+  String.t
+)
+"ppl.ml" 82 2847 2849 "ppl.ml" 82 2847 2900
+call(
+  stack
+)
+type(
+  int
+)
+"ppl.ml" 82 2847 2900 "ppl.ml" 82 2847 2902
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ppl.ml" 82 2847 2902 "ppl.ml" 82 2847 2903
+type(
+  int
+)
+"ppl.ml" 82 2847 2849 "ppl.ml" 82 2847 2903
+type(
+  bool
+)
+"ppl.ml" 81 2802 2804 "ppl.ml" 82 2847 2903
+type(
+  bool
+)
+"ppl.ml" 83 2904 2908 "ppl.ml" 83 2904 2929
+type(
+  strict t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  def manager_of_ppl_strict "ppl.ml" 84 2998 2998 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 83 2904 2931 "ppl.ml" 83 2904 2934
+type(
+  strict t Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 83 2904 2961 "ppl.ml" 83 2904 2997
+)
+"ppl.ml" 83 2904 2984 "ppl.ml" 83 2904 2993
+type(
+  strict t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 83 2904 2994 "ppl.ml" 83 2904 2997
+type(
+  strict t Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 83 2904 2931 "ppl.ml" 83 2904 2934
+)
+"ppl.ml" 83 2904 2984 "ppl.ml" 83 2904 2997
+type(
+  'a Apron.Manager.t
+)
+type(
+  'a Apron.Manager.t
+)
+"ppl.ml" 84 2998 3002 "ppl.ml" 84 2998 3023
+type(
+  'a Apron.Manager.t -> strict t Apron.Manager.t
+)
+ident(
+  def manager_to_ppl_strict "ppl.ml" 90 3223 3223 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 84 2998 3025 "ppl.ml" 84 2998 3028
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 84 2998 3049 "ppl.ml" 88 3139 3221
+)
+"ppl.ml" 85 3078 3083 "ppl.ml" 85 3078 3104
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl_strict "ppl.ml" 80 2770 2774 "ppl.ml" 80 2770 2795
+)
+"ppl.ml" 85 3078 3105 "ppl.ml" 85 3078 3108
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 84 2998 3025 "ppl.ml" 84 2998 3028
+)
+"ppl.ml" 85 3078 3083 "ppl.ml" 85 3078 3108
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 86 3114 3118 "ppl.ml" 86 3114 3127
+type(
+  'a Apron.Manager.t -> strict t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 86 3114 3128 "ppl.ml" 86 3114 3131
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 84 2998 3025 "ppl.ml" 84 2998 3028
+)
+"ppl.ml" 86 3114 3118 "ppl.ml" 86 3114 3131
+type(
+  strict t Apron.Manager.t
+)
+"ppl.ml" 88 3139 3143 "ppl.ml" 88 3139 3151
+type(
+  string -> strict t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 88 3139 3152 "ppl.ml" 88 3139 3221
+type(
+  string
+)
+"ppl.ml" 88 3139 3143 "ppl.ml" 88 3139 3221
+call(
+  tail
+)
+type(
+  strict t Apron.Manager.t
+)
+"ppl.ml" 85 3078 3080 "ppl.ml" 88 3139 3221
+type(
+  strict t Apron.Manager.t
+)
+type(
+  strict t Apron.Manager.t
+)
+"ppl.ml" 90 3223 3227 "ppl.ml" 90 3223 3246
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_ppl_grid "ppl.ml" 93 3336 3336 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 90 3223 3247 "ppl.ml" 90 3223 3250
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 91 3253 3255 "ppl.ml" 92 3298 3335
+)
+"ppl.ml" 91 3253 3259 "ppl.ml" 91 3253 3262
+type(
+  string
+)
+ident(
+  def str "ppl.ml" 92 3298 3300 "ppl.ml" 92 3298 3335
+)
+"ppl.ml" 91 3253 3265 "ppl.ml" 91 3253 3290
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"ppl.ml" 91 3253 3291 "ppl.ml" 91 3253 3294
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 90 3223 3247 "ppl.ml" 90 3223 3250
+)
+"ppl.ml" 91 3253 3265 "ppl.ml" 91 3253 3294
+type(
+  string
+)
+"ppl.ml" 92 3298 3301 "ppl.ml" 92 3298 3315
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"ppl.ml" 92 3298 3316 "ppl.ml" 92 3298 3319
+type(
+  String.t
+)
+ident(
+  int_ref str "ppl.ml" 91 3253 3259 "ppl.ml" 91 3253 3262
+)
+"ppl.ml" 92 3298 3320 "ppl.ml" 92 3298 3331
+type(
+  String.t
+)
+"ppl.ml" 92 3298 3300 "ppl.ml" 92 3298 3332
+call(
+  stack
+)
+type(
+  int
+)
+"ppl.ml" 92 3298 3332 "ppl.ml" 92 3298 3334
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ppl.ml" 92 3298 3334 "ppl.ml" 92 3298 3335
+type(
+  int
+)
+"ppl.ml" 92 3298 3300 "ppl.ml" 92 3298 3335
+type(
+  bool
+)
+"ppl.ml" 91 3253 3255 "ppl.ml" 92 3298 3335
+type(
+  bool
+)
+"ppl.ml" 93 3336 3340 "ppl.ml" 93 3336 3359
+type(
+  grid t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  def manager_of_ppl_grid "ppl.ml" 94 3426 3426 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 93 3336 3361 "ppl.ml" 93 3336 3364
+type(
+  grid t Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 93 3336 3389 "ppl.ml" 93 3336 3425
+)
+"ppl.ml" 93 3336 3412 "ppl.ml" 93 3336 3421
+type(
+  grid t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 93 3336 3422 "ppl.ml" 93 3336 3425
+type(
+  grid t Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 93 3336 3361 "ppl.ml" 93 3336 3364
+)
+"ppl.ml" 93 3336 3412 "ppl.ml" 93 3336 3425
+type(
+  'a Apron.Manager.t
+)
+type(
+  'a Apron.Manager.t
+)
+"ppl.ml" 94 3426 3430 "ppl.ml" 94 3426 3449
+type(
+  'a Apron.Manager.t -> grid t Apron.Manager.t
+)
+ident(
+  def manager_to_ppl_grid "ppl.ml" 100 3641 3641 "ppl.ml" 1 0 -1
+)
+"ppl.ml" 94 3426 3451 "ppl.ml" 94 3426 3454
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "ppl.ml" 94 3426 3475 "ppl.ml" 98 3561 3639
+)
+"ppl.ml" 95 3502 3507 "ppl.ml" 95 3502 3526
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl_grid "ppl.ml" 90 3223 3227 "ppl.ml" 90 3223 3246
+)
+"ppl.ml" 95 3502 3527 "ppl.ml" 95 3502 3530
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 94 3426 3451 "ppl.ml" 94 3426 3454
+)
+"ppl.ml" 95 3502 3507 "ppl.ml" 95 3502 3530
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 96 3536 3540 "ppl.ml" 96 3536 3549
+type(
+  'a Apron.Manager.t -> grid t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 96 3536 3550 "ppl.ml" 96 3536 3553
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "ppl.ml" 94 3426 3451 "ppl.ml" 94 3426 3454
+)
+"ppl.ml" 96 3536 3540 "ppl.ml" 96 3536 3553
+type(
+  grid t Apron.Manager.t
+)
+"ppl.ml" 98 3561 3565 "ppl.ml" 98 3561 3573
+type(
+  string -> grid t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 98 3561 3574 "ppl.ml" 98 3561 3639
+type(
+  string
+)
+"ppl.ml" 98 3561 3565 "ppl.ml" 98 3561 3639
+call(
+  tail
+)
+type(
+  grid t Apron.Manager.t
+)
+"ppl.ml" 95 3502 3504 "ppl.ml" 98 3561 3639
+type(
+  grid t Apron.Manager.t
+)
+type(
+  grid t Apron.Manager.t
+)
+"ppl.ml" 101 3667 3673 "ppl.ml" 101 3667 3679
+type(
+  'a Apron.Abstract0.t -> bool
+)
+ident(
+  def is_ppl "ppl.ml" 103 3735 3737 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 101 3667 3680 "ppl.ml" 101 3667 3683
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 102 3686 3690 "ppl.ml" 102 3686 3734
+)
+"ppl.ml" 102 3686 3690 "ppl.ml" 102 3686 3704
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl "ppl.ml" 56 1870 1874 "ppl.ml" 56 1870 1888
+)
+"ppl.ml" 102 3686 3706 "ppl.ml" 102 3686 3729
+type(
+  'a Apron.Abstract0.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"ppl.ml" 102 3686 3730 "ppl.ml" 102 3686 3733
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 101 3667 3680 "ppl.ml" 101 3667 3683
+)
+"ppl.ml" 102 3686 3705 "ppl.ml" 102 3686 3734
+type(
+  'a Apron.Manager.t
+)
+"ppl.ml" 102 3686 3690 "ppl.ml" 102 3686 3734
+call(
+  tail
+)
+type(
+  bool
+)
+"ppl.ml" 103 3735 3741 "ppl.ml" 103 3735 3753
+type(
+  'b Apron.Abstract0.t -> bool
+)
+ident(
+  def is_ppl_loose "ppl.ml" 105 3815 3817 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 103 3735 3754 "ppl.ml" 103 3735 3757
+type(
+  'b Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 104 3760 3764 "ppl.ml" 104 3760 3814
+)
+"ppl.ml" 104 3760 3764 "ppl.ml" 104 3760 3784
+type(
+  'b Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl_loose "ppl.ml" 70 2326 2330 "ppl.ml" 70 2326 2350
+)
+"ppl.ml" 104 3760 3786 "ppl.ml" 104 3760 3809
+type(
+  'b Apron.Abstract0.t -> 'b Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"ppl.ml" 104 3760 3810 "ppl.ml" 104 3760 3813
+type(
+  'b Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 103 3735 3754 "ppl.ml" 103 3735 3757
+)
+"ppl.ml" 104 3760 3785 "ppl.ml" 104 3760 3814
+type(
+  'b Apron.Manager.t
+)
+"ppl.ml" 104 3760 3764 "ppl.ml" 104 3760 3814
+call(
+  tail
+)
+type(
+  bool
+)
+"ppl.ml" 105 3815 3821 "ppl.ml" 105 3815 3834
+type(
+  'c Apron.Abstract0.t -> bool
+)
+ident(
+  def is_ppl_strict "ppl.ml" 107 3890 3892 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 105 3815 3835 "ppl.ml" 105 3815 3838
+type(
+  'c Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 106 3841 3845 "ppl.ml" 106 3841 3889
+)
+"ppl.ml" 106 3841 3845 "ppl.ml" 106 3841 3859
+type(
+  'c Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl "ppl.ml" 56 1870 1874 "ppl.ml" 56 1870 1888
+)
+"ppl.ml" 106 3841 3861 "ppl.ml" 106 3841 3884
+type(
+  'c Apron.Abstract0.t -> 'c Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"ppl.ml" 106 3841 3885 "ppl.ml" 106 3841 3888
+type(
+  'c Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 105 3815 3835 "ppl.ml" 105 3815 3838
+)
+"ppl.ml" 106 3841 3860 "ppl.ml" 106 3841 3889
+type(
+  'c Apron.Manager.t
+)
+"ppl.ml" 106 3841 3845 "ppl.ml" 106 3841 3889
+call(
+  tail
+)
+type(
+  bool
+)
+"ppl.ml" 107 3890 3896 "ppl.ml" 107 3890 3907
+type(
+  'd Apron.Abstract0.t -> bool
+)
+ident(
+  def is_ppl_grid "ppl.ml" 109 3968 3970 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 107 3890 3908 "ppl.ml" 107 3890 3911
+type(
+  'd Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 108 3914 3918 "ppl.ml" 108 3914 3967
+)
+"ppl.ml" 108 3914 3918 "ppl.ml" 108 3914 3937
+type(
+  'd Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl_grid "ppl.ml" 90 3223 3227 "ppl.ml" 90 3223 3246
+)
+"ppl.ml" 108 3914 3939 "ppl.ml" 108 3914 3962
+type(
+  'd Apron.Abstract0.t -> 'd Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"ppl.ml" 108 3914 3963 "ppl.ml" 108 3914 3966
+type(
+  'd Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 107 3890 3908 "ppl.ml" 107 3890 3911
+)
+"ppl.ml" 108 3914 3938 "ppl.ml" 108 3914 3967
+type(
+  'd Apron.Manager.t
+)
+"ppl.ml" 108 3914 3918 "ppl.ml" 108 3914 3967
+call(
+  tail
+)
+type(
+  bool
+)
+"ppl.ml" 109 3968 3974 "ppl.ml" 109 3968 3980
+type(
+  'a0 t Apron.Abstract0.t -> 'b0 Apron.Abstract0.t
+)
+ident(
+  def of_ppl "ppl.ml" 110 4050 4052 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 109 3968 3982 "ppl.ml" 109 3968 3985
+type(
+  'a0 t Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 109 3968 4011 "ppl.ml" 109 3968 4049
+)
+"ppl.ml" 109 3968 4036 "ppl.ml" 109 3968 4045
+type(
+  'a0 t Apron.Abstract0.t -> 'b0 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 109 3968 4046 "ppl.ml" 109 3968 4049
+type(
+  'a0 t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 109 3968 3982 "ppl.ml" 109 3968 3985
+)
+"ppl.ml" 109 3968 4036 "ppl.ml" 109 3968 4049
+type(
+  'b0 Apron.Abstract0.t
+)
+type(
+  'b0 Apron.Abstract0.t
+)
+"ppl.ml" 110 4050 4056 "ppl.ml" 110 4050 4068
+type(
+  loose t Apron.Abstract0.t -> 'a1 Apron.Abstract0.t
+)
+ident(
+  def of_ppl_loose "ppl.ml" 111 4141 4143 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 110 4050 4070 "ppl.ml" 110 4050 4073
+type(
+  loose t Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 110 4050 4102 "ppl.ml" 110 4050 4140
+)
+"ppl.ml" 110 4050 4127 "ppl.ml" 110 4050 4136
+type(
+  loose t Apron.Abstract0.t -> 'a1 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 110 4050 4137 "ppl.ml" 110 4050 4140
+type(
+  loose t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 110 4050 4070 "ppl.ml" 110 4050 4073
+)
+"ppl.ml" 110 4050 4127 "ppl.ml" 110 4050 4140
+type(
+  'a1 Apron.Abstract0.t
+)
+type(
+  'a1 Apron.Abstract0.t
+)
+"ppl.ml" 111 4141 4147 "ppl.ml" 111 4141 4160
+type(
+  strict t Apron.Abstract0.t -> 'a2 Apron.Abstract0.t
+)
+ident(
+  def of_ppl_strict "ppl.ml" 112 4234 4236 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 111 4141 4162 "ppl.ml" 111 4141 4165
+type(
+  strict t Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 111 4141 4195 "ppl.ml" 111 4141 4233
+)
+"ppl.ml" 111 4141 4220 "ppl.ml" 111 4141 4229
+type(
+  strict t Apron.Abstract0.t -> 'a2 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 111 4141 4230 "ppl.ml" 111 4141 4233
+type(
+  strict t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 111 4141 4162 "ppl.ml" 111 4141 4165
+)
+"ppl.ml" 111 4141 4220 "ppl.ml" 111 4141 4233
+type(
+  'a2 Apron.Abstract0.t
+)
+type(
+  'a2 Apron.Abstract0.t
+)
+"ppl.ml" 112 4234 4240 "ppl.ml" 112 4234 4251
+type(
+  grid t Apron.Abstract0.t -> 'a3 Apron.Abstract0.t
+)
+ident(
+  def of_ppl_grid "ppl.ml" 113 4323 4325 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 112 4234 4253 "ppl.ml" 112 4234 4256
+type(
+  grid t Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 112 4234 4284 "ppl.ml" 112 4234 4322
+)
+"ppl.ml" 112 4234 4309 "ppl.ml" 112 4234 4318
+type(
+  grid t Apron.Abstract0.t -> 'a3 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 112 4234 4319 "ppl.ml" 112 4234 4322
+type(
+  grid t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 112 4234 4253 "ppl.ml" 112 4234 4256
+)
+"ppl.ml" 112 4234 4309 "ppl.ml" 112 4234 4322
+type(
+  'a3 Apron.Abstract0.t
+)
+type(
+  'a3 Apron.Abstract0.t
+)
+"ppl.ml" 113 4323 4329 "ppl.ml" 113 4323 4335
+type(
+  'a4 Apron.Abstract0.t -> 'b1 t Apron.Abstract0.t
+)
+ident(
+  def to_ppl "ppl.ml" 118 4519 4521 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 113 4323 4337 "ppl.ml" 113 4323 4340
+type(
+  'a4 Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 113 4323 4363 "ppl.ml" 117 4442 4518
+)
+"ppl.ml" 114 4390 4397 "ppl.ml" 114 4390 4403
+type(
+  'a4 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_ppl "ppl.ml" 101 3667 3673 "ppl.ml" 101 3667 3679
+)
+"ppl.ml" 114 4390 4404 "ppl.ml" 114 4390 4407
+type(
+  'a4 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 113 4323 4337 "ppl.ml" 113 4323 4340
+)
+"ppl.ml" 114 4390 4397 "ppl.ml" 114 4390 4407
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 115 4413 4419 "ppl.ml" 115 4413 4428
+type(
+  'a4 Apron.Abstract0.t -> 'b1 t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 115 4413 4429 "ppl.ml" 115 4413 4432
+type(
+  'a4 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 113 4323 4337 "ppl.ml" 113 4323 4340
+)
+"ppl.ml" 115 4413 4419 "ppl.ml" 115 4413 4432
+type(
+  'b1 t Apron.Abstract0.t
+)
+"ppl.ml" 117 4442 4448 "ppl.ml" 117 4442 4456
+type(
+  string -> 'b1 t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 117 4442 4457 "ppl.ml" 117 4442 4518
+type(
+  string
+)
+"ppl.ml" 117 4442 4448 "ppl.ml" 117 4442 4518
+call(
+  tail
+)
+type(
+  'b1 t Apron.Abstract0.t
+)
+"ppl.ml" 114 4390 4394 "ppl.ml" 117 4442 4518
+type(
+  'b1 t Apron.Abstract0.t
+)
+type(
+  'b1 t Apron.Abstract0.t
+)
+"ppl.ml" 118 4519 4525 "ppl.ml" 118 4519 4537
+type(
+  'a5 Apron.Abstract0.t -> loose t Apron.Abstract0.t
+)
+ident(
+  def to_ppl_loose "ppl.ml" 123 4742 4744 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 118 4519 4539 "ppl.ml" 118 4519 4542
+type(
+  'a5 Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 118 4519 4565 "ppl.ml" 122 4653 4741
+)
+"ppl.ml" 119 4595 4602 "ppl.ml" 119 4595 4614
+type(
+  'a5 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_ppl_loose "ppl.ml" 103 3735 3741 "ppl.ml" 103 3735 3753
+)
+"ppl.ml" 119 4595 4615 "ppl.ml" 119 4595 4618
+type(
+  'a5 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 118 4519 4539 "ppl.ml" 118 4519 4542
+)
+"ppl.ml" 119 4595 4602 "ppl.ml" 119 4595 4618
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 120 4624 4630 "ppl.ml" 120 4624 4639
+type(
+  'a5 Apron.Abstract0.t -> loose t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 120 4624 4640 "ppl.ml" 120 4624 4643
+type(
+  'a5 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 118 4519 4539 "ppl.ml" 118 4519 4542
+)
+"ppl.ml" 120 4624 4630 "ppl.ml" 120 4624 4643
+type(
+  loose t Apron.Abstract0.t
+)
+"ppl.ml" 122 4653 4659 "ppl.ml" 122 4653 4667
+type(
+  string -> loose t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 122 4653 4668 "ppl.ml" 122 4653 4741
+type(
+  string
+)
+"ppl.ml" 122 4653 4659 "ppl.ml" 122 4653 4741
+call(
+  tail
+)
+type(
+  loose t Apron.Abstract0.t
+)
+"ppl.ml" 119 4595 4599 "ppl.ml" 122 4653 4741
+type(
+  loose t Apron.Abstract0.t
+)
+type(
+  loose t Apron.Abstract0.t
+)
+"ppl.ml" 123 4742 4748 "ppl.ml" 123 4742 4761
+type(
+  'a6 Apron.Abstract0.t -> strict t Apron.Abstract0.t
+)
+ident(
+  def to_ppl_strict "ppl.ml" 128 4970 4972 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 123 4742 4763 "ppl.ml" 123 4742 4766
+type(
+  'a6 Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 123 4742 4789 "ppl.ml" 127 4879 4969
+)
+"ppl.ml" 124 4820 4827 "ppl.ml" 124 4820 4840
+type(
+  'a6 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_ppl_strict "ppl.ml" 105 3815 3821 "ppl.ml" 105 3815 3834
+)
+"ppl.ml" 124 4820 4841 "ppl.ml" 124 4820 4844
+type(
+  'a6 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 123 4742 4763 "ppl.ml" 123 4742 4766
+)
+"ppl.ml" 124 4820 4827 "ppl.ml" 124 4820 4844
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 125 4850 4856 "ppl.ml" 125 4850 4865
+type(
+  'a6 Apron.Abstract0.t -> strict t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 125 4850 4866 "ppl.ml" 125 4850 4869
+type(
+  'a6 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 123 4742 4763 "ppl.ml" 123 4742 4766
+)
+"ppl.ml" 125 4850 4856 "ppl.ml" 125 4850 4869
+type(
+  strict t Apron.Abstract0.t
+)
+"ppl.ml" 127 4879 4885 "ppl.ml" 127 4879 4893
+type(
+  string -> strict t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 127 4879 4894 "ppl.ml" 127 4879 4969
+type(
+  string
+)
+"ppl.ml" 127 4879 4885 "ppl.ml" 127 4879 4969
+call(
+  tail
+)
+type(
+  strict t Apron.Abstract0.t
+)
+"ppl.ml" 124 4820 4824 "ppl.ml" 127 4879 4969
+type(
+  strict t Apron.Abstract0.t
+)
+type(
+  strict t Apron.Abstract0.t
+)
+"ppl.ml" 128 4970 4976 "ppl.ml" 128 4970 4987
+type(
+  'a7 Apron.Abstract0.t -> grid t Apron.Abstract0.t
+)
+ident(
+  def to_ppl_grid "ppl.ml" 132 5101 5187 "ppl.ml" 133 5188 5191
+)
+"ppl.ml" 128 4970 4989 "ppl.ml" 128 4970 4992
+type(
+  'a7 Apron.Abstract0.t
+)
+ident(
+  def abs "ppl.ml" 128 4970 5015 "ppl.ml" 132 5101 5187
+)
+"ppl.ml" 129 5044 5051 "ppl.ml" 129 5044 5062
+type(
+  'a7 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_ppl_grid "ppl.ml" 107 3890 3896 "ppl.ml" 107 3890 3907
+)
+"ppl.ml" 129 5044 5063 "ppl.ml" 129 5044 5066
+type(
+  'a7 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 128 4970 4989 "ppl.ml" 128 4970 4992
+)
+"ppl.ml" 129 5044 5051 "ppl.ml" 129 5044 5066
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 130 5072 5078 "ppl.ml" 130 5072 5087
+type(
+  'a7 Apron.Abstract0.t -> grid t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 130 5072 5088 "ppl.ml" 130 5072 5091
+type(
+  'a7 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "ppl.ml" 128 4970 4989 "ppl.ml" 128 4970 4992
+)
+"ppl.ml" 130 5072 5078 "ppl.ml" 130 5072 5091
+type(
+  grid t Apron.Abstract0.t
+)
+"ppl.ml" 132 5101 5107 "ppl.ml" 132 5101 5115
+type(
+  string -> grid t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 132 5101 5116 "ppl.ml" 132 5101 5187
+type(
+  string
+)
+"ppl.ml" 132 5101 5107 "ppl.ml" 132 5101 5187
+call(
+  tail
+)
+type(
+  grid t Apron.Abstract0.t
+)
+"ppl.ml" 129 5044 5048 "ppl.ml" 132 5101 5187
+type(
+  grid t Apron.Abstract0.t
+)
+type(
+  grid t Apron.Abstract0.t
+)
+"ppl.ml" 136 5219 5225 "ppl.ml" 136 5219 5231
+type(
+  'a Apron.Abstract1.t -> bool
+)
+ident(
+  def is_ppl "ppl.ml" 138 5287 5289 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 136 5219 5232 "ppl.ml" 136 5219 5235
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 137 5238 5242 "ppl.ml" 137 5238 5286
+)
+"ppl.ml" 137 5238 5242 "ppl.ml" 137 5238 5256
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl "ppl.ml" 56 1870 1874 "ppl.ml" 56 1870 1888
+)
+"ppl.ml" 137 5238 5258 "ppl.ml" 137 5238 5281
+type(
+  'a Apron.Abstract1.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"ppl.ml" 137 5238 5282 "ppl.ml" 137 5238 5285
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 136 5219 5232 "ppl.ml" 136 5219 5235
+)
+"ppl.ml" 137 5238 5257 "ppl.ml" 137 5238 5286
+call(
+  stack
+)
+type(
+  'a Apron.Manager.t
+)
+"ppl.ml" 137 5238 5242 "ppl.ml" 137 5238 5286
+call(
+  tail
+)
+type(
+  bool
+)
+"ppl.ml" 138 5287 5293 "ppl.ml" 138 5287 5305
+type(
+  'b Apron.Abstract1.t -> bool
+)
+ident(
+  def is_ppl_loose "ppl.ml" 140 5367 5369 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 138 5287 5306 "ppl.ml" 138 5287 5309
+type(
+  'b Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 139 5312 5316 "ppl.ml" 139 5312 5366
+)
+"ppl.ml" 139 5312 5316 "ppl.ml" 139 5312 5336
+type(
+  'b Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl_loose "ppl.ml" 70 2326 2330 "ppl.ml" 70 2326 2350
+)
+"ppl.ml" 139 5312 5338 "ppl.ml" 139 5312 5361
+type(
+  'b Apron.Abstract1.t -> 'b Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"ppl.ml" 139 5312 5362 "ppl.ml" 139 5312 5365
+type(
+  'b Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 138 5287 5306 "ppl.ml" 138 5287 5309
+)
+"ppl.ml" 139 5312 5337 "ppl.ml" 139 5312 5366
+call(
+  stack
+)
+type(
+  'b Apron.Manager.t
+)
+"ppl.ml" 139 5312 5316 "ppl.ml" 139 5312 5366
+call(
+  tail
+)
+type(
+  bool
+)
+"ppl.ml" 140 5367 5373 "ppl.ml" 140 5367 5386
+type(
+  'c Apron.Abstract1.t -> bool
+)
+ident(
+  def is_ppl_strict "ppl.ml" 142 5442 5444 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 140 5367 5387 "ppl.ml" 140 5367 5390
+type(
+  'c Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 141 5393 5397 "ppl.ml" 141 5393 5441
+)
+"ppl.ml" 141 5393 5397 "ppl.ml" 141 5393 5411
+type(
+  'c Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl "ppl.ml" 56 1870 1874 "ppl.ml" 56 1870 1888
+)
+"ppl.ml" 141 5393 5413 "ppl.ml" 141 5393 5436
+type(
+  'c Apron.Abstract1.t -> 'c Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"ppl.ml" 141 5393 5437 "ppl.ml" 141 5393 5440
+type(
+  'c Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 140 5367 5387 "ppl.ml" 140 5367 5390
+)
+"ppl.ml" 141 5393 5412 "ppl.ml" 141 5393 5441
+call(
+  stack
+)
+type(
+  'c Apron.Manager.t
+)
+"ppl.ml" 141 5393 5397 "ppl.ml" 141 5393 5441
+call(
+  tail
+)
+type(
+  bool
+)
+"ppl.ml" 142 5442 5448 "ppl.ml" 142 5442 5459
+type(
+  'd Apron.Abstract1.t -> bool
+)
+ident(
+  def is_ppl_grid "ppl.ml" 144 5520 5522 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 142 5442 5460 "ppl.ml" 142 5442 5463
+type(
+  'd Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 143 5466 5470 "ppl.ml" 143 5466 5519
+)
+"ppl.ml" 143 5466 5470 "ppl.ml" 143 5466 5489
+type(
+  'd Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_ppl_grid "ppl.ml" 90 3223 3227 "ppl.ml" 90 3223 3246
+)
+"ppl.ml" 143 5466 5491 "ppl.ml" 143 5466 5514
+type(
+  'd Apron.Abstract1.t -> 'd Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"ppl.ml" 143 5466 5515 "ppl.ml" 143 5466 5518
+type(
+  'd Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 142 5442 5460 "ppl.ml" 142 5442 5463
+)
+"ppl.ml" 143 5466 5490 "ppl.ml" 143 5466 5519
+call(
+  stack
+)
+type(
+  'd Apron.Manager.t
+)
+"ppl.ml" 143 5466 5470 "ppl.ml" 143 5466 5519
+call(
+  tail
+)
+type(
+  bool
+)
+"ppl.ml" 144 5520 5526 "ppl.ml" 144 5520 5532
+type(
+  'a0 t Apron.Abstract1.t -> 'b0 Apron.Abstract1.t
+)
+ident(
+  def of_ppl "ppl.ml" 145 5602 5604 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 144 5520 5534 "ppl.ml" 144 5520 5537
+type(
+  'a0 t Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 144 5520 5563 "ppl.ml" 144 5520 5601
+)
+"ppl.ml" 144 5520 5588 "ppl.ml" 144 5520 5597
+type(
+  'a0 t Apron.Abstract1.t -> 'b0 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 144 5520 5598 "ppl.ml" 144 5520 5601
+type(
+  'a0 t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 144 5520 5534 "ppl.ml" 144 5520 5537
+)
+"ppl.ml" 144 5520 5588 "ppl.ml" 144 5520 5601
+type(
+  'b0 Apron.Abstract1.t
+)
+type(
+  'b0 Apron.Abstract1.t
+)
+"ppl.ml" 145 5602 5608 "ppl.ml" 145 5602 5620
+type(
+  loose t Apron.Abstract1.t -> 'a1 Apron.Abstract1.t
+)
+ident(
+  def of_ppl_loose "ppl.ml" 146 5693 5695 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 145 5602 5622 "ppl.ml" 145 5602 5625
+type(
+  loose t Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 145 5602 5654 "ppl.ml" 145 5602 5692
+)
+"ppl.ml" 145 5602 5679 "ppl.ml" 145 5602 5688
+type(
+  loose t Apron.Abstract1.t -> 'a1 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 145 5602 5689 "ppl.ml" 145 5602 5692
+type(
+  loose t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 145 5602 5622 "ppl.ml" 145 5602 5625
+)
+"ppl.ml" 145 5602 5679 "ppl.ml" 145 5602 5692
+type(
+  'a1 Apron.Abstract1.t
+)
+type(
+  'a1 Apron.Abstract1.t
+)
+"ppl.ml" 146 5693 5699 "ppl.ml" 146 5693 5712
+type(
+  strict t Apron.Abstract1.t -> 'a2 Apron.Abstract1.t
+)
+ident(
+  def of_ppl_strict "ppl.ml" 147 5786 5788 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 146 5693 5714 "ppl.ml" 146 5693 5717
+type(
+  strict t Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 146 5693 5747 "ppl.ml" 146 5693 5785
+)
+"ppl.ml" 146 5693 5772 "ppl.ml" 146 5693 5781
+type(
+  strict t Apron.Abstract1.t -> 'a2 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 146 5693 5782 "ppl.ml" 146 5693 5785
+type(
+  strict t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 146 5693 5714 "ppl.ml" 146 5693 5717
+)
+"ppl.ml" 146 5693 5772 "ppl.ml" 146 5693 5785
+type(
+  'a2 Apron.Abstract1.t
+)
+type(
+  'a2 Apron.Abstract1.t
+)
+"ppl.ml" 147 5786 5792 "ppl.ml" 147 5786 5803
+type(
+  grid t Apron.Abstract1.t -> 'a3 Apron.Abstract1.t
+)
+ident(
+  def of_ppl_grid "ppl.ml" 148 5875 5877 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 147 5786 5805 "ppl.ml" 147 5786 5808
+type(
+  grid t Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 147 5786 5836 "ppl.ml" 147 5786 5874
+)
+"ppl.ml" 147 5786 5861 "ppl.ml" 147 5786 5870
+type(
+  grid t Apron.Abstract1.t -> 'a3 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 147 5786 5871 "ppl.ml" 147 5786 5874
+type(
+  grid t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 147 5786 5805 "ppl.ml" 147 5786 5808
+)
+"ppl.ml" 147 5786 5861 "ppl.ml" 147 5786 5874
+type(
+  'a3 Apron.Abstract1.t
+)
+type(
+  'a3 Apron.Abstract1.t
+)
+"ppl.ml" 148 5875 5881 "ppl.ml" 148 5875 5887
+type(
+  'a4 Apron.Abstract1.t -> 'b1 t Apron.Abstract1.t
+)
+ident(
+  def to_ppl "ppl.ml" 153 6071 6073 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 148 5875 5889 "ppl.ml" 148 5875 5892
+type(
+  'a4 Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 148 5875 5915 "ppl.ml" 152 5994 6070
+)
+"ppl.ml" 149 5942 5949 "ppl.ml" 149 5942 5955
+type(
+  'a4 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_ppl "ppl.ml" 136 5219 5225 "ppl.ml" 136 5219 5231
+)
+"ppl.ml" 149 5942 5956 "ppl.ml" 149 5942 5959
+type(
+  'a4 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 148 5875 5889 "ppl.ml" 148 5875 5892
+)
+"ppl.ml" 149 5942 5949 "ppl.ml" 149 5942 5959
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 150 5965 5971 "ppl.ml" 150 5965 5980
+type(
+  'a4 Apron.Abstract1.t -> 'b1 t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 150 5965 5981 "ppl.ml" 150 5965 5984
+type(
+  'a4 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 148 5875 5889 "ppl.ml" 148 5875 5892
+)
+"ppl.ml" 150 5965 5971 "ppl.ml" 150 5965 5984
+type(
+  'b1 t Apron.Abstract1.t
+)
+"ppl.ml" 152 5994 6000 "ppl.ml" 152 5994 6008
+type(
+  string -> 'b1 t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 152 5994 6009 "ppl.ml" 152 5994 6070
+type(
+  string
+)
+"ppl.ml" 152 5994 6000 "ppl.ml" 152 5994 6070
+call(
+  tail
+)
+type(
+  'b1 t Apron.Abstract1.t
+)
+"ppl.ml" 149 5942 5946 "ppl.ml" 152 5994 6070
+type(
+  'b1 t Apron.Abstract1.t
+)
+type(
+  'b1 t Apron.Abstract1.t
+)
+"ppl.ml" 153 6071 6077 "ppl.ml" 153 6071 6089
+type(
+  'a5 Apron.Abstract1.t -> loose t Apron.Abstract1.t
+)
+ident(
+  def to_ppl_loose "ppl.ml" 158 6294 6296 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 153 6071 6091 "ppl.ml" 153 6071 6094
+type(
+  'a5 Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 153 6071 6117 "ppl.ml" 157 6205 6293
+)
+"ppl.ml" 154 6147 6154 "ppl.ml" 154 6147 6166
+type(
+  'a5 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_ppl_loose "ppl.ml" 138 5287 5293 "ppl.ml" 138 5287 5305
+)
+"ppl.ml" 154 6147 6167 "ppl.ml" 154 6147 6170
+type(
+  'a5 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 153 6071 6091 "ppl.ml" 153 6071 6094
+)
+"ppl.ml" 154 6147 6154 "ppl.ml" 154 6147 6170
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 155 6176 6182 "ppl.ml" 155 6176 6191
+type(
+  'a5 Apron.Abstract1.t -> loose t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 155 6176 6192 "ppl.ml" 155 6176 6195
+type(
+  'a5 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 153 6071 6091 "ppl.ml" 153 6071 6094
+)
+"ppl.ml" 155 6176 6182 "ppl.ml" 155 6176 6195
+type(
+  loose t Apron.Abstract1.t
+)
+"ppl.ml" 157 6205 6211 "ppl.ml" 157 6205 6219
+type(
+  string -> loose t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 157 6205 6220 "ppl.ml" 157 6205 6293
+type(
+  string
+)
+"ppl.ml" 157 6205 6211 "ppl.ml" 157 6205 6293
+call(
+  tail
+)
+type(
+  loose t Apron.Abstract1.t
+)
+"ppl.ml" 154 6147 6151 "ppl.ml" 157 6205 6293
+type(
+  loose t Apron.Abstract1.t
+)
+type(
+  loose t Apron.Abstract1.t
+)
+"ppl.ml" 158 6294 6300 "ppl.ml" 158 6294 6313
+type(
+  'a6 Apron.Abstract1.t -> strict t Apron.Abstract1.t
+)
+ident(
+  def to_ppl_strict "ppl.ml" 163 6522 6524 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 158 6294 6315 "ppl.ml" 158 6294 6318
+type(
+  'a6 Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 158 6294 6341 "ppl.ml" 162 6431 6521
+)
+"ppl.ml" 159 6372 6379 "ppl.ml" 159 6372 6392
+type(
+  'a6 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_ppl_strict "ppl.ml" 140 5367 5373 "ppl.ml" 140 5367 5386
+)
+"ppl.ml" 159 6372 6393 "ppl.ml" 159 6372 6396
+type(
+  'a6 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 158 6294 6315 "ppl.ml" 158 6294 6318
+)
+"ppl.ml" 159 6372 6379 "ppl.ml" 159 6372 6396
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 160 6402 6408 "ppl.ml" 160 6402 6417
+type(
+  'a6 Apron.Abstract1.t -> strict t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 160 6402 6418 "ppl.ml" 160 6402 6421
+type(
+  'a6 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 158 6294 6315 "ppl.ml" 158 6294 6318
+)
+"ppl.ml" 160 6402 6408 "ppl.ml" 160 6402 6421
+type(
+  strict t Apron.Abstract1.t
+)
+"ppl.ml" 162 6431 6437 "ppl.ml" 162 6431 6445
+type(
+  string -> strict t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 162 6431 6446 "ppl.ml" 162 6431 6521
+type(
+  string
+)
+"ppl.ml" 162 6431 6437 "ppl.ml" 162 6431 6521
+call(
+  tail
+)
+type(
+  strict t Apron.Abstract1.t
+)
+"ppl.ml" 159 6372 6376 "ppl.ml" 162 6431 6521
+type(
+  strict t Apron.Abstract1.t
+)
+type(
+  strict t Apron.Abstract1.t
+)
+"ppl.ml" 163 6522 6528 "ppl.ml" 163 6522 6539
+type(
+  'a7 Apron.Abstract1.t -> grid t Apron.Abstract1.t
+)
+ident(
+  def to_ppl_grid "ppl.ml" 167 6653 6739 "ppl.ml" 168 6740 6743
+)
+"ppl.ml" 163 6522 6541 "ppl.ml" 163 6522 6544
+type(
+  'a7 Apron.Abstract1.t
+)
+ident(
+  def abs "ppl.ml" 163 6522 6567 "ppl.ml" 167 6653 6739
+)
+"ppl.ml" 164 6596 6603 "ppl.ml" 164 6596 6614
+type(
+  'a7 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_ppl_grid "ppl.ml" 142 5442 5448 "ppl.ml" 142 5442 5459
+)
+"ppl.ml" 164 6596 6615 "ppl.ml" 164 6596 6618
+type(
+  'a7 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 163 6522 6541 "ppl.ml" 163 6522 6544
+)
+"ppl.ml" 164 6596 6603 "ppl.ml" 164 6596 6618
+call(
+  stack
+)
+type(
+  bool
+)
+"ppl.ml" 165 6624 6630 "ppl.ml" 165 6624 6639
+type(
+  'a7 Apron.Abstract1.t -> grid t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"ppl.ml" 165 6624 6640 "ppl.ml" 165 6624 6643
+type(
+  'a7 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "ppl.ml" 163 6522 6541 "ppl.ml" 163 6522 6544
+)
+"ppl.ml" 165 6624 6630 "ppl.ml" 165 6624 6643
+type(
+  grid t Apron.Abstract1.t
+)
+"ppl.ml" 167 6653 6659 "ppl.ml" 167 6653 6667
+type(
+  string -> grid t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ppl.ml" 167 6653 6668 "ppl.ml" 167 6653 6739
+type(
+  string
+)
+"ppl.ml" 167 6653 6659 "ppl.ml" 167 6653 6739
+call(
+  tail
+)
+type(
+  grid t Apron.Abstract1.t
+)
+"ppl.ml" 164 6596 6600 "ppl.ml" 167 6653 6739
+type(
+  grid t Apron.Abstract1.t
+)
+type(
+  grid t Apron.Abstract1.t
+)

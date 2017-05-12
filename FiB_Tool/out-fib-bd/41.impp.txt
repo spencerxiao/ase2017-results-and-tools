@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (((k + i) + j) > (2 * n))
+find an inductive invaraint  based on abstractions
+invariant size: 12
+interp: (not (or (<= (+ k (+ (* (- 1) i) j)) (- 2)) (<= i (- 1))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

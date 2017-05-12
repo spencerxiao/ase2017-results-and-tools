@@ -1,0 +1,175 @@
+run blast for file 01.c.i
+0:00.63 real
+0.12 user
+0.04 sys
+run blast for file 02.c.i
+0:00.13 real
+0.01 user
+0.02 sys
+run blast for file 04.c.i
+0:03.94 real
+0.40 user
+0.20 sys
+run blast for file 05.c.i
+Command exited with non-zero status 124
+3:20.00 real
+5.97 user
+0.62 sys
+run blast for file 06.c.i
+0:00.14 real
+0.00 user
+0.03 sys
+run blast for file 07.c.i
+0:12.04 real
+7.07 user
+0.52 sys
+run blast for file 08.c.i
+0:02.93 real
+0.32 user
+0.17 sys
+run blast for file 09.c.i
+Command exited with non-zero status 124
+3:20.00 real
+5.23 user
+0.96 sys
+run blast for file 10.c.i
+0:01.31 real
+0.14 user
+0.05 sys
+run blast for file 11.c.i
+Command exited with non-zero status 124
+3:20.00 real
+6.48 user
+1.74 sys
+run blast for file 12.c.i
+Command exited with non-zero status 124
+3:20.00 real
+4.81 user
+1.02 sys
+run blast for file 13.c.i
+0:00.65 real
+0.06 user
+0.04 sys
+run blast for file 14.c.i
+0:05.35 real
+1.34 user
+0.26 sys
+run blast for file 15.c.i
+0:00.89 real
+0.16 user
+0.05 sys
+run blast for file 16.c.i
+Command exited with non-zero status 2
+0:01.82 real
+0.36 user
+0.08 sys
+run blast for file 17.c.i
+0:01.14 real
+0.17 user
+0.06 sys
+run blast for file 18.c.i
+Command exited with non-zero status 124
+3:20.00 real
+8.41 user
+3.21 sys
+run blast for file 19.c.i
+0:04.08 real
+0.96 user
+0.22 sys
+run blast for file 20.c.i
+0:05.22 real
+1.36 user
+0.32 sys
+run blast for file 21.c.i
+Command exited with non-zero status 2
+0:01.97 real
+0.14 user
+0.10 sys
+run blast for file 22.c.i
+0:00.14 real
+0.01 user
+0.01 sys
+run blast for file 23.c.i
+Command exited with non-zero status 124
+3:20.00 real
+3.69 user
+0.57 sys
+run blast for file 25.c.i
+0:01.33 real
+0.15 user
+0.09 sys
+run blast for file 26.c.i
+0:00.12 real
+0.02 user
+0.00 sys
+run blast for file 28.c.i
+Command exited with non-zero status 2
+0:00.91 real
+0.12 user
+0.04 sys
+run blast for file 29.c.i
+0:00.09 real
+0.00 user
+0.01 sys
+run blast for file 30.c.i
+0:00.66 real
+0.03 user
+0.04 sys
+run blast for file 32.c.i
+Command exited with non-zero status 124
+3:20.00 real
+6.72 user
+1.79 sys
+run blast for file 33.c.i
+0:01.72 real
+0.37 user
+0.10 sys
+run blast for file 34.c.i
+0:04.34 real
+0.42 user
+0.25 sys
+run blast for file 35.c.i
+0:00.38 real
+0.02 user
+0.02 sys
+run blast for file 36.c.i
+0:03.21 real
+0.43 user
+0.15 sys
+run blast for file 37.c.i
+0:02.05 real
+0.17 user
+0.08 sys
+run blast for file 38.c.i
+0:00.33 real
+0.03 user
+0.01 sys
+run blast for file 40.c.i
+0:03.97 real
+0.66 user
+0.20 sys
+run blast for file 41.c.i
+Command exited with non-zero status 2
+0:00.00 real
+0.00 user
+0.00 sys
+run blast for file 42.c.i
+0:00.08 real
+0.01 user
+0.00 sys
+run blast for file 43.c.i
+0:00.20 real
+0.01 user
+0.02 sys
+run blast for file 44.c.i
+0:01.27 real
+0.08 user
+0.06 sys
+run blast for file 45.c.i
+0:00.55 real
+0.09 user
+0.03 sys
+run blast for file 46.c.i
+0:00.23 real
+0.02 user
+0.02 sys

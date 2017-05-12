@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (k > n)
+find an inductive invaraint  based on abstractions
+invariant size: 53
+interp: (let ((.def_1478 (not (<= c2 (- 1))))) (let ((.def_1479 (not (<= c1 (- 1))))) (let ((.def_1494 (not (<= (+ c1 (* (- 1) c2)) (- 1))))) (let ((.def_1498 (not (<= (- 1) (+ i (+ (* (- 1) k) (* (- 1) c2))))))) (let ((.def_2722 (and .def_1478 (and .def_1479 (and .def_1494 (and (and .def_1494 (not (<= c2 0))) (not (<= 1 (+ c1 (* (- 2) c2)))))))))) (not (and (not (and .def_1478 (and .def_1479 (and .def_1494 (and .def_1498 (and (not (<= k i)) .def_2722)))))) (not (and (not (<= (+ i (+ (* (- 1) k) (+ c1 (* (- 2) c2)))) (- 1))) (and .def_1498 (and (not (<= n i)) .def_2722)))))))))))
+The assertion is satisfied!
+forward [2] times
+backward [2] times, backtracks [0] times

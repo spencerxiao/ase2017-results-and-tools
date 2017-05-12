@@ -1,0 +1,84 @@
+description = "Numerical abstract domains"
+version = "20150916"
+requires = "apron.apron"
+package "apron" (
+requires = "gmp"
+archive(native,debug) = "apron.d.cmxa"
+archive(byte) = "apron.cma"
+archive(byte,plugin) = "apron.cma"
+archive(native) = "apron.cmxa"
+)
+package "boxD" (
+requires = "apron.apron"
+archive(byte) = "boxD.cma"
+archive(byte,plugin) = "boxD.cma"
+archive(native) = "boxD.cmxa"
+)
+package "boxMPQ" (
+requires = "apron.apron"
+archive(byte) = "boxMPQ.cma"
+archive(byte,plugin) = "boxMPQ.cma"
+archive(native) = "boxMPQ.cmxa"
+)
+package "boxMPFR" (
+requires = "apron.apron"
+archive(byte) = "boxMPFR.cma"
+archive(byte,plugin) = "boxMPFR.cma"
+archive(native) = "boxMPFR.cmxa"
+)
+package "octD" (
+requires = "apron.apron"
+archive(byte) = "octD.cma"
+archive(byte,plugin) = "octD.cma"
+archive(native) = "octD.cmxa"
+)
+package "octMPQ" (
+requires = "apron.apron"
+archive(byte) = "octMPQ.cma"
+archive(byte,plugin) = "octMPQ.cma"
+archive(native) = "octMPQ.cmxa"
+)
+package "polkaMPQ" (
+requires = "apron.apron"
+archive(native,debug) = "polkaMPQ.d.cmxa"
+archive(byte) = "polkaMPQ.cma"
+archive(byte,plugin) = "polkaMPQ.cma"
+archive(native) = "polkaMPQ.cmxa"
+)
+package "polkaRll" (
+requires = "apron.apron"
+archive(native,debug) = "polkaRll.d.cmxa"
+archive(byte) = "polkaRll.cma"
+archive(byte,plugin) = "polkaRll.cma"
+archive(native) = "polkaRll.cmxa"
+)
+package "t1pD" (
+requires = "apron.apron"
+archive(byte) = "t1pD.cma"
+archive(byte,plugin) = "t1pD.cma"
+archive(native) = "t1pD.cmxa"
+)
+package "t1pMPQ" (
+requires = "apron.apron"
+archive(byte) = "t1pMPQ.cma"
+archive(byte,plugin) = "t1pMPQ.cma"
+archive(native) = "t1pMPQ.cmxa"
+)
+package "t1pMPFR" (
+requires = "apron.apron"
+archive(byte) = "t1pMPFR.cma"
+archive(byte,plugin) = "t1pMPFR.cma"
+archive(native) = "t1pMPFR.cmxa"
+)
+package "ppl" (
+requires = "apron.apron"
+archive(byte) = "ppl.cma"
+archive(byte,plugin) = "ppl.cma"
+archive(native) = "ppl.cmxa"
+)
+package "polkaGrid" (
+requires = "apron.apron apron.ppl apron.polkaMPQ"
+archive(byte) = "polkaGrid.cma"
+archive(byte,plugin) = "polkaGrid.cma"
+archive(native) = "polkaGrid.cmxa"
+)

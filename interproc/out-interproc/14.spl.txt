@@ -1,0 +1,47 @@
+[32mAnnotated program after forward analysis[m
+var a : int, j : int, m : int;
+begin
+  /* [31m(L2 C5) [|m=0 mod 1; j=0 mod 1; a=0 mod 1|][m */
+  a = 0; /* [31m(L3 C8) [|a=0; m=0 mod 1; j=0 mod 1; a=0|][m */
+  j = 1; /* [31m(L4 C8) [|j-1=0; a=0; m=0 mod 1; j-1=0; a=0|][m */
+  m = [-inf; inf]; /* [31m(L5 C13) [|j-1=0; a=0; m=0 mod 1; j-1=0; a=0|][m */
+  if m <= 0 then
+    /* [31m(L6 C19) [|j-1=0; a=0; -m>=0; m=0 mod 1; j-1=0; a=0|][m */
+    halt; /* [31m(L7 C9) bottom[m */
+  endif; /* [31m(L8 C8)
+            [|-a+j-1>=0; -j+m+1>=0; m-1>=0; a+j-1>=0; 2m=0 mod 2;
+              a+j+1=0 mod 2; 2a=0 mod 2|][m */
+  while j <= m do
+    /* [31m(L10 C19)
+       [|-a+j-1>=0; -j+m>=0; a+j-1>=0; 2m=0 mod 2; a+j+1=0 mod 2; 2a=0 mod 2|][m */
+    if brandom then
+       /* [31m(L11 C21)
+          [|-a+j-1>=0; -j+m>=0; a+j-1>=0; 2m=0 mod 2; a+j+1=0 mod 2;
+            2a=0 mod 2|][m */
+       a = a +_i,? 1; /* [31m(L12 C18)
+                         [|-a+j>=0; -j+m>=0; a+j-2>=0; 2m=0 mod 2;
+                           a+j=0 mod 2; 2a=0 mod 2|][m */
+    else
+      /* [31m(L13 C8)
+         [|-a+j-1>=0; -j+m>=0; a+j-1>=0; 2m=0 mod 2; a+j+1=0 mod 2;
+           2a=0 mod 2|][m */
+      a = a -_i,? 1; /* [31m(L14 C18)
+                        [|-a+j-2>=0; -j+m>=0; a+j>=0; 2m=0 mod 2;
+                          a+j=0 mod 2; 2a=0 mod 2|][m */
+    endif; /* [31m(L15 C10)
+              [|-a+j>=0; -j+m>=0; j-1>=0; a+j>=0; 2m=0 mod 2; a+j=0 mod 2;
+                2a=0 mod 2|][m */
+    j = j +_i,? 1; /* [31m(L16 C16)
+                      [|-a+j-1>=0; -j+m+1>=0; j-2>=0; a+j-1>=0; 2m=0 mod 2;
+                        a+j+1=0 mod 2; 2a=0 mod 2|][m */
+  done; /* [31m(L17 C7)
+           [|-j+m+1=0; -a+j-1>=0; j-2>=0; a+j-1>=0; -j+m+1=0; a+j+1=0 mod 2;
+             2a=0 mod 2|][m */
+  assume a >= -m; /* [31m(L19 C19)
+                     [|-j+m+1=0; -a+j-1>=0; j-2>=0; a+j-1>=0; -j+m+1=0;
+                       a+j+1=0 mod 2; 2a=0 mod 2|][m */
+  assume a <= m; /* [31m(L20 C19)
+                    [|-j+m+1=0; -a+j-1>=0; j-2>=0; a+j-1>=0; -j+m+1=0;
+                      a+j+1=0 mod 2; 2a=0 mod 2|][m */
+end
+

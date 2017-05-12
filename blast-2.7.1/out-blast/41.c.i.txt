@@ -1,0 +1,8 @@
+BLAST 2.7.1, Copyright (c) 2002-2011, ISPRAS, The BLAST Team.
+Blast was run with the following command line:
+/home/spencerxiao/Experiments/tacas17/blast-2.7.1/bin/pblast.opt -craig 2 -systime -main main /home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/41.c.i 
+Begin Parsing files: /home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/41.c.i
+Timings:
+TOTAL                          0.000 s (1)
+  Parse:                         0.000 s (1)
+Ack! The gremlins again!: Failure("/home/spencerxiao/Experiments/tacas17/blast-2.7.1/oopsla13-benchmarks-blast/41.c:13: error: frontc reported an error --- see messages above.")

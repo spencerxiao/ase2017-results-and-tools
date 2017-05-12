@@ -1,0 +1,16 @@
+(declare-fun |main::n| () Int)
+(declare-fun |main::x| () Int)
+
+main:
+(assert (= |main::x| |main::n|))
+
+main N4:
+(assert (<= |main::x| 0))
+(assert (= |main::x| |main::n|))
+(assert (<= |main::x| 1))
+(assert (<= (+ (- |main::x|) |main::n| 1) 0))
+
+main N14:
+(assert false)
+(assert (= |main::x| |main::n|))
+

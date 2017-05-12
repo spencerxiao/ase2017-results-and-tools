@@ -1,0 +1,5 @@
+description = "Utility Library (including various datatypes)"
+version = "1.3.0"
+archive(byte) = "camllib.cma"
+archive(native) = "camllib.cmxa"
+archive(native,gprof) = "camllib.p.cmxa"

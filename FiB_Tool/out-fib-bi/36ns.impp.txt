@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((w >= z) & (a = b))
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 85
+interp: (let ((.def_47 (= turn 0))) (let ((.def_50 (= a b))) (let ((.def_2234 (= turn 5))) (let ((.def_2236 (not .def_2234))) (let ((.def_2402 (not (= turn 6)))) (let ((.def_4410 (= turn 7))) (let ((.def_5233 (<= 1 (+ z (* (- 1) w))))) (let ((.def_5235 (not .def_5233))) (let ((.def_18869 (and .def_47 .def_5235))) (let ((.def_18871 (not (and .def_50 .def_18869)))) (let ((.def_18877 (not (and .def_50 (not (and (and (and (not (and (not .def_4410) (and .def_2402 (and (<= j i) (and (= turn 4) .def_5235))))) (not (and .def_2402 (and .def_5235 (and (not (<= (+ a (+ (* (- 1) b) (+ (* (- 1) c) d))) (- 1))) (and (not (<= 1 (+ a (+ (* (- 1) b) (+ (* (- 1) c) d))))) (and .def_4410 (and (not .def_47) .def_2236)))))))) .def_18871) (not .def_18869))))))) (and (not (and .def_5233 (and .def_18871 (and .def_5233 .def_18877)))) (and .def_50 (not (and .def_18877 (and (or .def_4410 (and (not (= turn 3)) .def_2234)) (not (and .def_2236 (and (not (<= 1 (+ c (* (- 1) d)))) (not (<= (+ c (* (- 1) d)) (- 1))))))))))))))))))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

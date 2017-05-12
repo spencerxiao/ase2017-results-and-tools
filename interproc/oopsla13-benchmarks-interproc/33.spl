@@ -1,0 +1,28 @@
+var x:int, y:int, z:int, k:int, c:int;
+begin
+	z = k;
+	x = 0;
+	y = 0;
+
+	while(brandom) do
+		c = 0;
+		while (brandom) do
+			if (z == (k +_i y +_i c)) then
+				x = x +_i 1;
+				y = y +_i 1;
+				c = c +_i 1;
+			else
+				x = x +_i 1;
+				y = y -_i 1;
+				c = c +_i 1;
+			endif;
+		done;
+
+		while (brandom) do
+			x = x -_i 1;
+			y = y -_i 1;
+		done;
+		z = k +_i y;
+	done;
+	assume(x == y);
+end

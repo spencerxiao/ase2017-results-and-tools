@@ -1,0 +1,34 @@
+MODULE main
+	int z;
+	int x;
+	int y;
+	int w;
+
+	assume(w == 1);
+	assume(z == 0);
+	assume(x == 0);
+	assume(y == 0);
+
+	while(*){
+		if(w % 2 == 1){
+			x = x + 1;
+			w = w + 1;
+		}
+		else{
+			skip;
+		}
+
+		if(z % 2 == 0){
+			y = y + 1;
+			z = z + 1;
+		}
+		else{
+			skip;
+		}
+
+		w = w + 2;
+	}
+
+	assert(x <= 1);
+
+END MODULE

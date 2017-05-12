@@ -1,0 +1,3 @@
+main::flag	7
+main::j	4
+main::b	4

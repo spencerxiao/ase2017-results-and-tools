@@ -1,0 +1,9 @@
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+
+main N5:
+(assert (and (>= |main::y| 1) (<= 0 (+ |main::y| |main::x| (- 2)))))
+
+main N16:
+(assert false)
+

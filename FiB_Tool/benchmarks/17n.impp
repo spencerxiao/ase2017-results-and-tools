@@ -1,0 +1,55 @@
+MODULE main
+	int k;
+	int i;
+	int j;
+	int n;
+
+	int turn;
+
+	assume(k == 1);
+	assume(i == 1);
+	assume(j == 0);
+	assume(turn == 0);
+
+	while(turn != 3){
+		if(turn == 0){
+			if(i < n){
+				j = 0;
+				turn = 1;
+			}
+			else{
+				turn = 3;
+			}
+			
+		}
+		else{
+			skip;
+		}
+
+		if(turn == 1){
+			if(j < i){
+				k = k + i - j;
+				j = j + 1;
+			}
+			else{
+				turn = 2;
+			}
+			
+		}
+		else{
+			skip;
+		}
+
+		if(turn == 2){
+			i = i + 1;
+			turn = 0;
+		}
+		else{
+			skip;
+		}
+		
+	}
+
+	assert(k >= n);	
+
+END MODULE

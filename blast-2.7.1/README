@@ -1,0 +1,91 @@
+OVERVIEW
+========
+
+BLAST (Berkeley Lazy Abstraction Software verification Tool) is an
+automatic verification tool for checking temporal safety properties of C
+programs. Given a C program and a temporal safety property, BLAST either
+statically proves that the program satisfies the safety property, or
+provides an execution path that exhibits a violation of the property
+(or, since the problem is undecidable, does not terminate, or fails).
+BLAST constructs, explores, and refines abstractions of the program
+state space based on lazy predicate abstraction and interpolation-based
+predicate discovery.  The concepts of BLAST are described in D. Beyer,
+T.A. Henzinger, Ranjit Jhala, and Rupak Majumdar, ``The Software Model
+Checker BLAST: Applications to Software Engineering'', Int. Journal on
+Software Tools for Technology Transfer, 2007.
+
+BLAST is free software, released under the Apache 2.0 License.
+
+
+INSTALLATION
+============
+
+To build blast, just invoke `make`.  To install, invoke:
+
+	prefix=/where/to/install make install
+
+Prerequisites: OCaml 3.10+, GCC, G++, GMP, Perl, Bash.
+
+USAGE
+=====
+
+The binary you need to run is <prefix>/bin/pblast.opt.  You should add
+this bin/ folder to your PATH.  Given a program sample.c with an
+safety property instrumented as inreachability of label ERROR from
+main() function, run
+
+        pblast.opt sample.c
+
+to find out if the program is safe.  Various sample programs may be
+found in regression test sets (tests/files/ and blast/test/).  You may
+check the -help option for the list of options.
+
+We advise to run BLAST via ocamltune script when checking large
+programs. It tunes OCaml virtual machine parameters specifically for the
+best memory utilization in the tasks BLAST usually carries on:
+
+        ocamltune pblast.opt ...
+
+The more extended (but somewhat outdated) documentation will be built in
+blast/doc after you invoke:
+
+        make -C blast doc
+
+Check the blast/doc/manual/blast.pdf file.
+
+
+CURRENT TEAM
+============
+
+This version of BLAST is maintained by a team from the Institute for
+System Programming of Russian Academy of Sciences (ISPRAS).  The members
+of the team are:
+
+        Pavel Shved       <pavel.shved@gmail.com>
+        Vadim Mutilin     <mutilin@ispras.ru>
+        Mikhail Mandrykin <mandrykin@ispras.ru>
+
+
+BUG REPORTS AND FEEDBACK
+========================
+
+You may report bugs and check for new vesions at the BLAST project
+homepage at:
+
+        http://forge.ispras.ru/projects/blast
+
+
+AUTHORS AND CONTRIBUTORS
+========================
+
+This project is forked from BLAST v2.5 developed by The BLAST Team that
+consists of:
+
+        Dirk Beyer (SFU), Thomas A. Henzinger (EPFL),
+        Ranjit Jhala (UCSD), and Rupak Majumdar (UCLA).
+
+Many people have contributed to BLAST, including Yvan Bidiville, Adam
+Chlipala, Jeff Fischer, Ken McMillan, Shaz Qadeer, Andrey Rybalchenko,
+Gregoire Sutre, Gregory Theoduloz, Damien Zufferey, and Alexander
+Strakh.
+

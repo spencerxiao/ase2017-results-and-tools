@@ -1,0 +1,7 @@
+digraph functioncalls {
+rankdir=LR;
+
+main [shape="box", color=blue];
+__VERIFIER_nondet_int [shape="box", color=grey];
+main -> __VERIFIER_nondet_int;
+}

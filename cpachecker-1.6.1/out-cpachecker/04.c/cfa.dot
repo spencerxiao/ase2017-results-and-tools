@@ -1,0 +1,47 @@
+digraph CFA {
+8 [shape="circle" label="N8\n18"]
+23 [shape="circle" label="N23\n17"]
+24 [shape="circle" label="N24\n16"]
+25 [shape="circle" label="N25\n15"]
+26 [shape="circle" label="N26\n14"]
+9 [shape="circle" label="N9\n13"]
+10 [shape="circle" label="N10\n12"]
+11 [shape="circle" label="N11\n11"]
+12 [shape="doublecircle" label="N12\n10"]
+14 [shape="diamond" label="N14\n9"]
+20 [shape="circle" label="N20\n8"]
+21 [shape="doublecircle" label="N21\n7"]
+19 [shape="circle" label="N19\n6"]
+7 [shape="circle" label="N7\n5"]
+13 [shape="circle" label="N13\n4"]
+15 [shape="circle" label="N15\n3"]
+16 [shape="circle" label="N16\n2"]
+17 [shape="circle" label="N17\n1"]
+18 [shape="circle" label="N18\n0"]
+node [shape="circle"]
+subgraph cluster___VERIFIER_assume {
+label="__VERIFIER_assume()"
+}
+subgraph cluster_main {
+label="main()"
+8 -> 23 [label="INIT GLOBAL VARS"]
+23 -> 24 [label="int __VERIFIER_nondet_int();"]
+24 -> 25 [label="void __VERIFIER_assume(int i);"]
+25 -> 26 [label="void main();"]
+26 -> 9 [label="Function start dummy edge"]
+9 -> 10 [label="int x = -50;"]
+10 -> 11 [label="int y;"]
+11 -> 12 [label="while"]
+12 -> 13 [label="[x < 0]"]
+12 -> 14 [label="[!(x < 0)]"]
+14 -> 19 [label="[y > 0]"]
+14 -> 20 [label="[!(y > 0)]"]
+20 -> 21 [label="Label: ERROR"]
+21 -> 21 [label="Goto: ERROR"]
+19 -> 7 [label="default return"]
+13 -> 15 [label="x = x + y;"]
+15 -> 16 [label="int __CPAchecker_TMP_0 = y;"]
+16 -> 17 [label="y = y + 1;"]
+17 -> 18 [label="__CPAchecker_TMP_0;"]
+18 -> 12 [label=""]}
+}

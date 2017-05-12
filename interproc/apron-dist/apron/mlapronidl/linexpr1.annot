@@ -1,0 +1,880 @@
+"linexpr1.ml" 30 896 900 "linexpr1.ml" 30 896 904
+type(
+  ?sparse:bool -> Environment.t -> t
+)
+ident(
+  def make "linexpr1.ml" 37 1022 1022 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 30 896 907 "linexpr1.ml" 30 896 913
+type(
+  bool
+)
+"linexpr1.ml" 30 896 914 "linexpr1.ml" 30 896 918
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "linexpr1.ml" 30 896 914 "linexpr1.ml" 30 896 918
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"linexpr1.ml" 30 896 920 "linexpr1.ml" 30 896 923
+type(
+  Environment.t
+)
+ident(
+  def env "linexpr1.ml" 30 896 926 "linexpr1.ml" 36 1020 1021
+)
+"linexpr1.ml" 31 928 939 "linexpr1.ml" 31 928 952
+type(
+  int option -> Linexpr0.t
+)
+ident(
+  ext_ref Linexpr0.make
+)
+"linexpr1.ml" 32 953 957 "linexpr1.ml" 32 953 963
+type(
+  bool
+)
+ident(
+  int_ref sparse "linexpr1.ml" 30 896 907 "linexpr1.ml" 30 896 913
+)
+"linexpr1.ml" 33 964 969 "linexpr1.ml" 33 964 973
+type(
+  int option
+)
+"linexpr1.ml" 34 974 985 "linexpr1.ml" 34 974 1001
+type(
+  Environment.t -> int
+)
+ident(
+  ext_ref Environment.size
+)
+"linexpr1.ml" 34 974 1002 "linexpr1.ml" 34 974 1005
+type(
+  Environment.t
+)
+ident(
+  int_ref env "linexpr1.ml" 30 896 920 "linexpr1.ml" 30 896 923
+)
+"linexpr1.ml" 34 974 984 "linexpr1.ml" 34 974 1006
+type(
+  int
+)
+"linexpr1.ml" 34 974 979 "linexpr1.ml" 34 974 1006
+type(
+  int option
+)
+"linexpr1.ml" 32 953 953 "linexpr1.ml" 34 974 1007
+type(
+  int option
+)
+"linexpr1.ml" 31 928 939 "linexpr1.ml" 34 974 1007
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 35 1009 1015 "linexpr1.ml" 35 1009 1018
+type(
+  Environment.t
+)
+ident(
+  int_ref env "linexpr1.ml" 30 896 920 "linexpr1.ml" 30 896 923
+)
+"linexpr1.ml" 30 896 926 "linexpr1.ml" 36 1020 1021
+type(
+  t
+)
+"linexpr1.ml" 37 1022 1026 "linexpr1.ml" 37 1022 1034
+type(
+  t -> unit
+)
+ident(
+  def minimize "linexpr1.ml" 38 1068 1068 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 37 1022 1035 "linexpr1.ml" 37 1022 1036
+type(
+  t
+)
+ident(
+  def e "linexpr1.ml" 37 1022 1039 "linexpr1.ml" 37 1022 1067
+)
+"linexpr1.ml" 37 1022 1039 "linexpr1.ml" 37 1022 1056
+type(
+  Linexpr0.t -> unit
+)
+ident(
+  ext_ref Linexpr0.minimize
+)
+"linexpr1.ml" 37 1022 1057 "linexpr1.ml" 37 1022 1058
+type(
+  t
+)
+ident(
+  int_ref e "linexpr1.ml" 37 1022 1035 "linexpr1.ml" 37 1022 1036
+)
+"linexpr1.ml" 37 1022 1057 "linexpr1.ml" 37 1022 1067
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 37 1022 1039 "linexpr1.ml" 37 1022 1067
+type(
+  unit
+)
+"linexpr1.ml" 38 1068 1072 "linexpr1.ml" 38 1068 1076
+type(
+  t -> t
+)
+ident(
+  def copy "linexpr1.ml" 42 1135 1135 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 38 1068 1077 "linexpr1.ml" 38 1068 1078
+type(
+  t
+)
+ident(
+  def e "linexpr1.ml" 38 1068 1081 "linexpr1.ml" 41 1133 1134
+)
+"linexpr1.ml" 39 1083 1094 "linexpr1.ml" 39 1083 1107
+type(
+  Linexpr0.t -> Linexpr0.t
+)
+ident(
+  ext_ref Linexpr0.copy
+)
+"linexpr1.ml" 39 1083 1108 "linexpr1.ml" 39 1083 1109
+type(
+  t
+)
+ident(
+  int_ref e "linexpr1.ml" 38 1068 1077 "linexpr1.ml" 38 1068 1078
+)
+"linexpr1.ml" 39 1083 1108 "linexpr1.ml" 39 1083 1118
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 39 1083 1094 "linexpr1.ml" 39 1083 1118
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 40 1120 1126 "linexpr1.ml" 40 1120 1127
+type(
+  t
+)
+ident(
+  int_ref e "linexpr1.ml" 38 1068 1077 "linexpr1.ml" 38 1068 1078
+)
+"linexpr1.ml" 40 1120 1126 "linexpr1.ml" 40 1120 1131
+type(
+  Environment.t
+)
+"linexpr1.ml" 38 1068 1081 "linexpr1.ml" 41 1133 1134
+type(
+  t
+)
+"linexpr1.ml" 42 1135 1139 "linexpr1.ml" 42 1135 1146
+type(
+  t -> Coeff.t
+)
+ident(
+  def get_cst "linexpr1.ml" 44 1185 1185 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 42 1135 1147 "linexpr1.ml" 42 1135 1151
+type(
+  t
+)
+ident(
+  def expr "linexpr1.ml" 43 1154 1154 "linexpr1.ml" 43 1154 1184
+)
+"linexpr1.ml" 43 1154 1154 "linexpr1.ml" 43 1154 1170
+type(
+  Linexpr0.t -> Coeff.t
+)
+ident(
+  ext_ref Linexpr0.get_cst
+)
+"linexpr1.ml" 43 1154 1171 "linexpr1.ml" 43 1154 1175
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 42 1135 1147 "linexpr1.ml" 42 1135 1151
+)
+"linexpr1.ml" 43 1154 1171 "linexpr1.ml" 43 1154 1184
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 43 1154 1154 "linexpr1.ml" 43 1154 1184
+type(
+  Coeff.t
+)
+"linexpr1.ml" 44 1185 1189 "linexpr1.ml" 44 1185 1201
+type(
+  t -> Linexpr0.t
+)
+ident(
+  def get_linexpr0 "linexpr1.ml" 45 1223 1223 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 44 1185 1202 "linexpr1.ml" 44 1185 1206
+type(
+  t
+)
+ident(
+  def expr "linexpr1.ml" 44 1185 1209 "linexpr1.ml" 44 1185 1222
+)
+"linexpr1.ml" 44 1185 1209 "linexpr1.ml" 44 1185 1213
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 44 1185 1202 "linexpr1.ml" 44 1185 1206
+)
+"linexpr1.ml" 44 1185 1209 "linexpr1.ml" 44 1185 1222
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 45 1223 1227 "linexpr1.ml" 45 1223 1234
+type(
+  t -> Environment.t
+)
+ident(
+  def get_env "linexpr1.ml" 46 1251 1251 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 45 1223 1235 "linexpr1.ml" 45 1223 1239
+type(
+  t
+)
+ident(
+  def expr "linexpr1.ml" 45 1223 1242 "linexpr1.ml" 45 1223 1250
+)
+"linexpr1.ml" 45 1223 1242 "linexpr1.ml" 45 1223 1246
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 45 1223 1235 "linexpr1.ml" 45 1223 1239
+)
+"linexpr1.ml" 45 1223 1242 "linexpr1.ml" 45 1223 1250
+type(
+  Environment.t
+)
+"linexpr1.ml" 46 1251 1255 "linexpr1.ml" 46 1251 1262
+type(
+  t -> Coeff.t -> unit
+)
+ident(
+  def set_cst "linexpr1.ml" 48 1309 1309 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 46 1251 1263 "linexpr1.ml" 46 1251 1267
+type(
+  t
+)
+ident(
+  def expr "linexpr1.ml" 46 1251 1268 "linexpr1.ml" 47 1274 1308
+)
+"linexpr1.ml" 46 1251 1268 "linexpr1.ml" 46 1251 1271
+type(
+  Coeff.t
+)
+ident(
+  def cst "linexpr1.ml" 47 1274 1274 "linexpr1.ml" 47 1274 1308
+)
+"linexpr1.ml" 47 1274 1274 "linexpr1.ml" 47 1274 1290
+type(
+  Linexpr0.t -> Coeff.t -> unit
+)
+ident(
+  ext_ref Linexpr0.set_cst
+)
+"linexpr1.ml" 47 1274 1291 "linexpr1.ml" 47 1274 1295
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 46 1251 1263 "linexpr1.ml" 46 1251 1267
+)
+"linexpr1.ml" 47 1274 1291 "linexpr1.ml" 47 1274 1304
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 47 1274 1305 "linexpr1.ml" 47 1274 1308
+type(
+  Coeff.t
+)
+ident(
+  int_ref cst "linexpr1.ml" 46 1251 1268 "linexpr1.ml" 46 1251 1271
+)
+"linexpr1.ml" 47 1274 1274 "linexpr1.ml" 47 1274 1308
+type(
+  unit
+)
+"linexpr1.ml" 48 1309 1313 "linexpr1.ml" 48 1309 1321
+type(
+  t -> (Coeff.t * Var.t) list -> Coeff.t option -> unit
+)
+ident(
+  def set_list "linexpr1.ml" 57 1477 1477 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 48 1309 1322 "linexpr1.ml" 48 1309 1326
+type(
+  t
+)
+ident(
+  def expr "linexpr1.ml" 48 1309 1327 "linexpr1.ml" 56 1474 1476
+)
+"linexpr1.ml" 48 1309 1327 "linexpr1.ml" 48 1309 1331
+type(
+  (Coeff.t * Var.t) list
+)
+ident(
+  def list "linexpr1.ml" 48 1309 1332 "linexpr1.ml" 56 1474 1476
+)
+"linexpr1.ml" 48 1309 1332 "linexpr1.ml" 48 1309 1336
+type(
+  Coeff.t option
+)
+ident(
+  def ocst "linexpr1.ml" 49 1340 1340 "linexpr1.ml" 56 1474 1476
+)
+"linexpr1.ml" 49 1340 1340 "linexpr1.ml" 49 1340 1349
+type(
+  (Coeff.t * Var.t -> unit) -> (Coeff.t * Var.t) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"linexpr1.ml" 50 1350 1356 "linexpr1.ml" 50 1350 1361
+type(
+  Coeff.t
+)
+ident(
+  def coeff "linexpr1.ml" 50 1350 1370 "linexpr1.ml" 50 1350 1394
+)
+"linexpr1.ml" 50 1350 1362 "linexpr1.ml" 50 1350 1365
+type(
+  Var.t
+)
+ident(
+  def var "linexpr1.ml" 50 1350 1370 "linexpr1.ml" 50 1350 1394
+)
+"linexpr1.ml" 50 1350 1355 "linexpr1.ml" 50 1350 1366
+type(
+  Coeff.t * Var.t
+)
+"linexpr1.ml" 50 1350 1370 "linexpr1.ml" 50 1350 1379
+type(
+  t -> Var.t -> Coeff.t -> unit
+)
+ident(
+  int_ref set_coeff "linexpr1.ml" 14 420 420 "linexpr1.ml" 15 471 514
+)
+"linexpr1.ml" 50 1350 1380 "linexpr1.ml" 50 1350 1384
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 48 1309 1322 "linexpr1.ml" 48 1309 1326
+)
+"linexpr1.ml" 50 1350 1385 "linexpr1.ml" 50 1350 1388
+type(
+  Var.t
+)
+ident(
+  int_ref var "linexpr1.ml" 50 1350 1362 "linexpr1.ml" 50 1350 1365
+)
+"linexpr1.ml" 50 1350 1389 "linexpr1.ml" 50 1350 1394
+type(
+  Coeff.t
+)
+ident(
+  int_ref coeff "linexpr1.ml" 50 1350 1356 "linexpr1.ml" 50 1350 1361
+)
+"linexpr1.ml" 50 1350 1370 "linexpr1.ml" 50 1350 1394
+type(
+  unit
+)
+"linexpr1.ml" 50 1350 1350 "linexpr1.ml" 50 1350 1396
+type(
+  Coeff.t * Var.t -> unit
+)
+"linexpr1.ml" 51 1397 1397 "linexpr1.ml" 51 1397 1401
+type(
+  (Coeff.t * Var.t) list
+)
+ident(
+  int_ref list "linexpr1.ml" 48 1309 1327 "linexpr1.ml" 48 1309 1331
+)
+"linexpr1.ml" 49 1340 1340 "linexpr1.ml" 51 1397 1401
+call(
+  stack
+)
+type(
+  unit
+)
+"linexpr1.ml" 52 1403 1415 "linexpr1.ml" 52 1403 1419
+type(
+  Coeff.t option
+)
+ident(
+  int_ref ocst "linexpr1.ml" 48 1309 1332 "linexpr1.ml" 48 1309 1336
+)
+"linexpr1.ml" 53 1425 1432 "linexpr1.ml" 53 1425 1435
+type(
+  Coeff.t
+)
+ident(
+  def cst "linexpr1.ml" 53 1425 1439 "linexpr1.ml" 53 1425 1455
+)
+"linexpr1.ml" 53 1425 1427 "linexpr1.ml" 53 1425 1435
+type(
+  Coeff.t option
+)
+"linexpr1.ml" 53 1425 1439 "linexpr1.ml" 53 1425 1446
+type(
+  t -> Coeff.t -> unit
+)
+ident(
+  int_ref set_cst "linexpr1.ml" 46 1251 1255 "linexpr1.ml" 46 1251 1262
+)
+"linexpr1.ml" 53 1425 1447 "linexpr1.ml" 53 1425 1451
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 48 1309 1322 "linexpr1.ml" 48 1309 1326
+)
+"linexpr1.ml" 53 1425 1452 "linexpr1.ml" 53 1425 1455
+type(
+  Coeff.t
+)
+ident(
+  int_ref cst "linexpr1.ml" 53 1425 1432 "linexpr1.ml" 53 1425 1435
+)
+"linexpr1.ml" 53 1425 1439 "linexpr1.ml" 53 1425 1455
+call(
+  stack
+)
+type(
+  unit
+)
+"linexpr1.ml" 54 1456 1458 "linexpr1.ml" 54 1456 1462
+type(
+  Coeff.t option
+)
+"linexpr1.ml" 54 1456 1466 "linexpr1.ml" 54 1456 1468
+type(
+  unit
+)
+"linexpr1.ml" 52 1403 1403 "linexpr1.ml" 55 1469 1472
+type(
+  unit
+)
+"linexpr1.ml" 56 1474 1474 "linexpr1.ml" 56 1474 1476
+type(
+  unit
+)
+"linexpr1.ml" 52 1403 1403 "linexpr1.ml" 56 1474 1476
+type(
+  unit
+)
+"linexpr1.ml" 49 1340 1340 "linexpr1.ml" 56 1474 1476
+type(
+  unit
+)
+"linexpr1.ml" 57 1477 1481 "linexpr1.ml" 57 1477 1490
+type(
+  t -> (Coeff.t * Var.t) array -> Coeff.t option -> unit
+)
+ident(
+  def set_array "linexpr1.ml" 67 1646 1646 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 57 1477 1491 "linexpr1.ml" 57 1477 1495
+type(
+  t
+)
+ident(
+  def expr "linexpr1.ml" 57 1477 1496 "linexpr1.ml" 65 1642 1644
+)
+"linexpr1.ml" 57 1477 1496 "linexpr1.ml" 57 1477 1499
+type(
+  (Coeff.t * Var.t) array
+)
+ident(
+  def tab "linexpr1.ml" 57 1477 1500 "linexpr1.ml" 65 1642 1644
+)
+"linexpr1.ml" 57 1477 1500 "linexpr1.ml" 57 1477 1504
+type(
+  Coeff.t option
+)
+ident(
+  def ocst "linexpr1.ml" 58 1508 1508 "linexpr1.ml" 65 1642 1644
+)
+"linexpr1.ml" 58 1508 1508 "linexpr1.ml" 58 1508 1518
+type(
+  (Coeff.t * Var.t -> unit) -> (Coeff.t * Var.t) array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"linexpr1.ml" 59 1519 1525 "linexpr1.ml" 59 1519 1530
+type(
+  Coeff.t
+)
+ident(
+  def coeff "linexpr1.ml" 59 1519 1539 "linexpr1.ml" 59 1519 1563
+)
+"linexpr1.ml" 59 1519 1531 "linexpr1.ml" 59 1519 1534
+type(
+  Var.t
+)
+ident(
+  def var "linexpr1.ml" 59 1519 1539 "linexpr1.ml" 59 1519 1563
+)
+"linexpr1.ml" 59 1519 1524 "linexpr1.ml" 59 1519 1535
+type(
+  Coeff.t * Var.t
+)
+"linexpr1.ml" 59 1519 1539 "linexpr1.ml" 59 1519 1548
+type(
+  t -> Var.t -> Coeff.t -> unit
+)
+ident(
+  int_ref set_coeff "linexpr1.ml" 14 420 420 "linexpr1.ml" 15 471 514
+)
+"linexpr1.ml" 59 1519 1549 "linexpr1.ml" 59 1519 1553
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 57 1477 1491 "linexpr1.ml" 57 1477 1495
+)
+"linexpr1.ml" 59 1519 1554 "linexpr1.ml" 59 1519 1557
+type(
+  Var.t
+)
+ident(
+  int_ref var "linexpr1.ml" 59 1519 1531 "linexpr1.ml" 59 1519 1534
+)
+"linexpr1.ml" 59 1519 1558 "linexpr1.ml" 59 1519 1563
+type(
+  Coeff.t
+)
+ident(
+  int_ref coeff "linexpr1.ml" 59 1519 1525 "linexpr1.ml" 59 1519 1530
+)
+"linexpr1.ml" 59 1519 1539 "linexpr1.ml" 59 1519 1563
+type(
+  unit
+)
+"linexpr1.ml" 59 1519 1519 "linexpr1.ml" 59 1519 1565
+type(
+  Coeff.t * Var.t -> unit
+)
+"linexpr1.ml" 60 1566 1566 "linexpr1.ml" 60 1566 1569
+type(
+  (Coeff.t * Var.t) array
+)
+ident(
+  int_ref tab "linexpr1.ml" 57 1477 1496 "linexpr1.ml" 57 1477 1499
+)
+"linexpr1.ml" 58 1508 1508 "linexpr1.ml" 60 1566 1569
+call(
+  stack
+)
+type(
+  unit
+)
+"linexpr1.ml" 61 1571 1583 "linexpr1.ml" 61 1571 1587
+type(
+  Coeff.t option
+)
+ident(
+  int_ref ocst "linexpr1.ml" 57 1477 1500 "linexpr1.ml" 57 1477 1504
+)
+"linexpr1.ml" 62 1593 1600 "linexpr1.ml" 62 1593 1603
+type(
+  Coeff.t
+)
+ident(
+  def cst "linexpr1.ml" 62 1593 1607 "linexpr1.ml" 62 1593 1623
+)
+"linexpr1.ml" 62 1593 1595 "linexpr1.ml" 62 1593 1603
+type(
+  Coeff.t option
+)
+"linexpr1.ml" 62 1593 1607 "linexpr1.ml" 62 1593 1614
+type(
+  t -> Coeff.t -> unit
+)
+ident(
+  int_ref set_cst "linexpr1.ml" 46 1251 1255 "linexpr1.ml" 46 1251 1262
+)
+"linexpr1.ml" 62 1593 1615 "linexpr1.ml" 62 1593 1619
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 57 1477 1491 "linexpr1.ml" 57 1477 1495
+)
+"linexpr1.ml" 62 1593 1620 "linexpr1.ml" 62 1593 1623
+type(
+  Coeff.t
+)
+ident(
+  int_ref cst "linexpr1.ml" 62 1593 1600 "linexpr1.ml" 62 1593 1603
+)
+"linexpr1.ml" 62 1593 1607 "linexpr1.ml" 62 1593 1623
+call(
+  stack
+)
+type(
+  unit
+)
+"linexpr1.ml" 63 1624 1626 "linexpr1.ml" 63 1624 1630
+type(
+  Coeff.t option
+)
+"linexpr1.ml" 63 1624 1634 "linexpr1.ml" 63 1624 1636
+type(
+  unit
+)
+"linexpr1.ml" 61 1571 1571 "linexpr1.ml" 64 1637 1640
+type(
+  unit
+)
+"linexpr1.ml" 65 1642 1642 "linexpr1.ml" 65 1642 1644
+type(
+  unit
+)
+"linexpr1.ml" 61 1571 1571 "linexpr1.ml" 65 1642 1644
+type(
+  unit
+)
+"linexpr1.ml" 58 1508 1508 "linexpr1.ml" 65 1642 1644
+type(
+  unit
+)
+"linexpr1.ml" 67 1646 1650 "linexpr1.ml" 67 1646 1654
+type(
+  (Coeff.t -> Var.t -> unit) -> t -> unit
+)
+ident(
+  def iter "linexpr1.ml" 73 1767 1767 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 67 1646 1655 "linexpr1.ml" 67 1646 1656
+type(
+  Coeff.t -> Var.t -> unit
+)
+ident(
+  def f "linexpr1.ml" 67 1646 1657 "linexpr1.ml" 72 1753 1766
+)
+"linexpr1.ml" 67 1646 1657 "linexpr1.ml" 67 1646 1661
+type(
+  t
+)
+ident(
+  def expr "linexpr1.ml" 68 1664 1664 "linexpr1.ml" 72 1753 1766
+)
+"linexpr1.ml" 68 1664 1664 "linexpr1.ml" 68 1664 1677
+type(
+  (Coeff.t -> Dim.t -> unit) -> Linexpr0.t -> unit
+)
+ident(
+  ext_ref Linexpr0.iter
+)
+"linexpr1.ml" 69 1678 1689 "linexpr1.ml" 69 1678 1694
+type(
+  Coeff.t
+)
+ident(
+  def coeff "linexpr1.ml" 69 1678 1695 "linexpr1.ml" 70 1702 1747
+)
+"linexpr1.ml" 69 1678 1695 "linexpr1.ml" 69 1678 1698
+type(
+  Dim.t
+)
+ident(
+  def dim "linexpr1.ml" 70 1702 1702 "linexpr1.ml" 70 1702 1747
+)
+"linexpr1.ml" 70 1702 1702 "linexpr1.ml" 70 1702 1703
+type(
+  Coeff.t -> Var.t -> unit
+)
+ident(
+  int_ref f "linexpr1.ml" 67 1646 1655 "linexpr1.ml" 67 1646 1656
+)
+"linexpr1.ml" 70 1702 1704 "linexpr1.ml" 70 1702 1709
+type(
+  Coeff.t
+)
+ident(
+  int_ref coeff "linexpr1.ml" 69 1678 1689 "linexpr1.ml" 69 1678 1694
+)
+"linexpr1.ml" 70 1702 1711 "linexpr1.ml" 70 1702 1733
+type(
+  Environment.t -> Dim.t -> Var.t
+)
+ident(
+  ext_ref Environment.var_of_dim
+)
+"linexpr1.ml" 70 1702 1734 "linexpr1.ml" 70 1702 1738
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 67 1646 1657 "linexpr1.ml" 67 1646 1661
+)
+"linexpr1.ml" 70 1702 1734 "linexpr1.ml" 70 1702 1742
+type(
+  Environment.t
+)
+"linexpr1.ml" 70 1702 1743 "linexpr1.ml" 70 1702 1746
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "linexpr1.ml" 69 1678 1695 "linexpr1.ml" 69 1678 1698
+)
+"linexpr1.ml" 70 1702 1710 "linexpr1.ml" 70 1702 1747
+type(
+  Var.t
+)
+"linexpr1.ml" 70 1702 1702 "linexpr1.ml" 70 1702 1747
+call(
+  tail
+)
+type(
+  unit
+)
+"linexpr1.ml" 69 1678 1678 "linexpr1.ml" 71 1748 1752
+type(
+  Coeff.t -> Dim.t -> unit
+)
+"linexpr1.ml" 72 1753 1753 "linexpr1.ml" 72 1753 1757
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 67 1646 1657 "linexpr1.ml" 67 1646 1661
+)
+"linexpr1.ml" 72 1753 1753 "linexpr1.ml" 72 1753 1766
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 68 1664 1664 "linexpr1.ml" 72 1753 1766
+type(
+  unit
+)
+"linexpr1.ml" 73 1767 1771 "linexpr1.ml" 73 1767 1776
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "linexpr1.ml" 76 1868 1885 "linexpr1.ml" 1 0 -1
+)
+"linexpr1.ml" 73 1767 1777 "linexpr1.ml" 73 1767 1780
+type(
+  Format.formatter
+)
+ident(
+  def fmt "linexpr1.ml" 73 1767 1781 "linexpr1.ml" 76 1868 1885
+)
+"linexpr1.ml" 73 1767 1781 "linexpr1.ml" 73 1767 1785
+type(
+  t
+)
+ident(
+  def expr "linexpr1.ml" 74 1788 1788 "linexpr1.ml" 76 1868 1885
+)
+"linexpr1.ml" 74 1788 1788 "linexpr1.ml" 74 1788 1802
+type(
+  (Dim.t -> string) -> Format.formatter -> Linexpr0.t -> unit
+)
+ident(
+  ext_ref Linexpr0.print
+)
+"linexpr1.ml" 75 1803 1808 "linexpr1.ml" 75 1803 1811
+type(
+  Dim.t
+)
+ident(
+  def dim "linexpr1.ml" 75 1803 1815 "linexpr1.ml" 75 1803 1866
+)
+"linexpr1.ml" 75 1803 1815 "linexpr1.ml" 75 1803 1828
+type(
+  Var.t -> string
+)
+ident(
+  ext_ref Var.to_string
+)
+"linexpr1.ml" 75 1803 1830 "linexpr1.ml" 75 1803 1852
+type(
+  Environment.t -> Dim.t -> Var.t
+)
+ident(
+  ext_ref Environment.var_of_dim
+)
+"linexpr1.ml" 75 1803 1853 "linexpr1.ml" 75 1803 1857
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 73 1767 1781 "linexpr1.ml" 73 1767 1785
+)
+"linexpr1.ml" 75 1803 1853 "linexpr1.ml" 75 1803 1861
+type(
+  Environment.t
+)
+"linexpr1.ml" 75 1803 1862 "linexpr1.ml" 75 1803 1865
+type(
+  Dim.t
+)
+ident(
+  int_ref dim "linexpr1.ml" 75 1803 1808 "linexpr1.ml" 75 1803 1811
+)
+"linexpr1.ml" 75 1803 1829 "linexpr1.ml" 75 1803 1866
+type(
+  Var.t
+)
+"linexpr1.ml" 75 1803 1815 "linexpr1.ml" 75 1803 1866
+type(
+  string
+)
+"linexpr1.ml" 75 1803 1803 "linexpr1.ml" 75 1803 1867
+type(
+  Dim.t -> string
+)
+"linexpr1.ml" 76 1868 1868 "linexpr1.ml" 76 1868 1871
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "linexpr1.ml" 73 1767 1777 "linexpr1.ml" 73 1767 1780
+)
+"linexpr1.ml" 76 1868 1872 "linexpr1.ml" 76 1868 1876
+type(
+  t
+)
+ident(
+  int_ref expr "linexpr1.ml" 73 1767 1781 "linexpr1.ml" 73 1767 1785
+)
+"linexpr1.ml" 76 1868 1872 "linexpr1.ml" 76 1868 1885
+type(
+  Linexpr0.t
+)
+"linexpr1.ml" 74 1788 1788 "linexpr1.ml" 76 1868 1885
+call(
+  tail
+)
+type(
+  unit
+)

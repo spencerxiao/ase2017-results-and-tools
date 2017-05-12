@@ -1,0 +1,15 @@
+var flag:int, a:int, b:int, j:int;
+begin
+  b = 0;
+  flag = random;
+  while (b < 100) do
+    if (not flag == 0) then
+      j = j +_i 1;
+    endif;
+    b = b +_i 1;
+  done;
+
+  if (not flag == 0) then 
+    assume (j == 100);
+  endif;
+end

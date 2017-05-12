@@ -1,0 +1,357 @@
+"lincons0.ml" 20 394 398 "lincons0.ml" 20 394 411
+type(
+  typ -> string
+)
+ident(
+  def string_of_typ "lincons0.ml" 26 491 491 "lincons0.ml" 1 0 -1
+)
+"lincons0.ml" 21 423 425 "lincons0.ml" 21 423 427
+type(
+  typ
+)
+"lincons0.ml" 21 423 436 "lincons0.ml" 21 423 437
+type(
+  Scalar.t
+)
+"lincons0.ml" 21 423 430 "lincons0.ml" 21 423 437
+type(
+  typ
+)
+"lincons0.ml" 21 423 425 "lincons0.ml" 21 423 437
+type(
+  typ
+)
+"lincons0.ml" 21 423 441 "lincons0.ml" 21 423 444
+type(
+  string
+)
+"lincons0.ml" 22 445 447 "lincons0.ml" 22 445 452
+type(
+  typ
+)
+"lincons0.ml" 22 445 456 "lincons0.ml" 22 445 460
+type(
+  string
+)
+"lincons0.ml" 23 461 463 "lincons0.ml" 23 461 466
+type(
+  typ
+)
+"lincons0.ml" 23 461 470 "lincons0.ml" 23 461 473
+type(
+  string
+)
+"lincons0.ml" 24 474 476 "lincons0.ml" 24 474 481
+type(
+  typ
+)
+"lincons0.ml" 24 474 485 "lincons0.ml" 24 474 489
+type(
+  string
+)
+"lincons0.ml" 20 394 414 "lincons0.ml" 24 474 489
+type(
+  typ -> string
+)
+"lincons0.ml" 26 491 495 "lincons0.ml" 26 491 500
+type(
+  (Dim.t -> string) -> Format.formatter -> t -> unit
+)
+ident(
+  def print "lincons0.ml" 34 712 712 "lincons0.ml" 1 0 -1
+)
+"lincons0.ml" 26 491 501 "lincons0.ml" 26 491 506
+type(
+  Dim.t -> string
+)
+ident(
+  def assoc "lincons0.ml" 26 491 507 "lincons0.ml" 33 709 711
+)
+"lincons0.ml" 26 491 507 "lincons0.ml" 26 491 510
+type(
+  Format.formatter
+)
+ident(
+  def fmt "lincons0.ml" 26 491 511 "lincons0.ml" 33 709 711
+)
+"lincons0.ml" 26 491 511 "lincons0.ml" 26 491 515
+type(
+  t
+)
+ident(
+  def cons "lincons0.ml" 27 519 519 "lincons0.ml" 33 709 711
+)
+"lincons0.ml" 27 519 519 "lincons0.ml" 27 519 533
+type(
+  (Dim.t -> string) -> Format.formatter -> Linexpr0.t -> unit
+)
+ident(
+  ext_ref Linexpr0.print
+)
+"lincons0.ml" 27 519 534 "lincons0.ml" 27 519 539
+type(
+  Dim.t -> string
+)
+ident(
+  int_ref assoc "lincons0.ml" 26 491 501 "lincons0.ml" 26 491 506
+)
+"lincons0.ml" 27 519 540 "lincons0.ml" 27 519 543
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "lincons0.ml" 26 491 507 "lincons0.ml" 26 491 510
+)
+"lincons0.ml" 27 519 544 "lincons0.ml" 27 519 548
+type(
+  t
+)
+ident(
+  int_ref cons "lincons0.ml" 26 491 511 "lincons0.ml" 26 491 515
+)
+"lincons0.ml" 27 519 544 "lincons0.ml" 27 519 557
+type(
+  Linexpr0.t
+)
+"lincons0.ml" 27 519 519 "lincons0.ml" 27 519 557
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons0.ml" 28 559 559 "lincons0.ml" 28 559 573
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lincons0.ml" 28 559 574 "lincons0.ml" 28 559 577
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "lincons0.ml" 26 491 507 "lincons0.ml" 26 491 510
+)
+"lincons0.ml" 28 559 578 "lincons0.ml" 28 559 583
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"lincons0.ml" 28 559 585 "lincons0.ml" 28 559 598
+type(
+  typ -> string
+)
+ident(
+  int_ref string_of_typ "lincons0.ml" 20 394 398 "lincons0.ml" 20 394 411
+)
+"lincons0.ml" 28 559 599 "lincons0.ml" 28 559 603
+type(
+  t
+)
+ident(
+  int_ref cons "lincons0.ml" 26 491 511 "lincons0.ml" 26 491 515
+)
+"lincons0.ml" 28 559 599 "lincons0.ml" 28 559 607
+type(
+  typ
+)
+"lincons0.ml" 28 559 584 "lincons0.ml" 28 559 608
+call(
+  stack
+)
+type(
+  string
+)
+"lincons0.ml" 28 559 559 "lincons0.ml" 28 559 608
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons0.ml" 29 610 622 "lincons0.ml" 29 610 626
+type(
+  t
+)
+ident(
+  int_ref cons "lincons0.ml" 26 491 511 "lincons0.ml" 26 491 515
+)
+"lincons0.ml" 29 610 622 "lincons0.ml" 29 610 630
+type(
+  typ
+)
+"lincons0.ml" 30 636 644 "lincons0.ml" 30 636 645
+type(
+  Scalar.t
+)
+ident(
+  def x "lincons0.ml" 30 636 649 "lincons0.ml" 30 636 693
+)
+"lincons0.ml" 30 636 638 "lincons0.ml" 30 636 645
+type(
+  typ
+)
+"lincons0.ml" 30 636 649 "lincons0.ml" 30 636 663
+type(
+  Format.formatter ->
+  ((Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lincons0.ml" 30 636 664 "lincons0.ml" 30 636 667
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "lincons0.ml" 26 491 507 "lincons0.ml" 26 491 510
+)
+"lincons0.ml" 30 636 668 "lincons0.ml" 30 636 677
+type(
+  ((Format.formatter -> Scalar.t -> unit) -> Scalar.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"lincons0.ml" 30 636 678 "lincons0.ml" 30 636 690
+type(
+  Format.formatter -> Scalar.t -> unit
+)
+ident(
+  ext_ref Scalar.print
+)
+"lincons0.ml" 30 636 691 "lincons0.ml" 30 636 692
+type(
+  Scalar.t
+)
+ident(
+  int_ref x "lincons0.ml" 30 636 644 "lincons0.ml" 30 636 645
+)
+"lincons0.ml" 30 636 649 "lincons0.ml" 30 636 693
+call(
+  stack
+)
+type(
+  unit
+)
+"lincons0.ml" 31 694 696 "lincons0.ml" 31 694 697
+type(
+  typ
+)
+"lincons0.ml" 31 694 701 "lincons0.ml" 31 694 703
+type(
+  unit
+)
+"lincons0.ml" 29 610 610 "lincons0.ml" 32 704 707
+type(
+  unit
+)
+"lincons0.ml" 33 709 709 "lincons0.ml" 33 709 711
+type(
+  unit
+)
+"lincons0.ml" 29 610 610 "lincons0.ml" 33 709 711
+type(
+  unit
+)
+"lincons0.ml" 28 559 559 "lincons0.ml" 33 709 711
+type(
+  unit
+)
+"lincons0.ml" 27 519 519 "lincons0.ml" 33 709 711
+type(
+  unit
+)
+"lincons0.ml" 34 712 716 "lincons0.ml" 34 712 720
+type(
+  Linexpr0.t -> typ -> t
+)
+ident(
+  def make "lincons0.ml" 37 764 764 "lincons0.ml" 1 0 -1
+)
+"lincons0.ml" 34 712 721 "lincons0.ml" 34 712 725
+type(
+  Linexpr0.t
+)
+ident(
+  def expr "lincons0.ml" 34 712 726 "lincons0.ml" 36 762 763
+)
+"lincons0.ml" 34 712 726 "lincons0.ml" 34 712 729
+type(
+  typ
+)
+ident(
+  def typ "lincons0.ml" 34 712 732 "lincons0.ml" 36 762 763
+)
+"lincons0.ml" 35 734 745 "lincons0.ml" 35 734 749
+type(
+  Linexpr0.t
+)
+ident(
+  int_ref expr "lincons0.ml" 34 712 721 "lincons0.ml" 34 712 725
+)
+"lincons0.ml" 35 734 757 "lincons0.ml" 35 734 760
+type(
+  typ
+)
+ident(
+  int_ref typ "lincons0.ml" 34 712 726 "lincons0.ml" 34 712 729
+)
+"lincons0.ml" 34 712 732 "lincons0.ml" 36 762 763
+type(
+  t
+)
+"lincons0.ml" 37 764 768 "lincons0.ml" 37 764 772
+type(
+  t -> t
+)
+ident(
+  def copy "lincons0.ml" 39 837 838 "lincons0.ml" 1 0 -1
+)
+"lincons0.ml" 37 764 773 "lincons0.ml" 37 764 777
+type(
+  t
+)
+ident(
+  def cons "lincons0.ml" 37 764 780 "lincons0.ml" 39 837 838
+)
+"lincons0.ml" 38 782 793 "lincons0.ml" 38 782 806
+type(
+  Linexpr0.t -> Linexpr0.t
+)
+ident(
+  ext_ref Linexpr0.copy
+)
+"lincons0.ml" 38 782 807 "lincons0.ml" 38 782 811
+type(
+  t
+)
+ident(
+  int_ref cons "lincons0.ml" 37 764 773 "lincons0.ml" 37 764 777
+)
+"lincons0.ml" 38 782 807 "lincons0.ml" 38 782 820
+type(
+  Linexpr0.t
+)
+"lincons0.ml" 38 782 793 "lincons0.ml" 38 782 820
+type(
+  Linexpr0.t
+)
+"lincons0.ml" 38 782 828 "lincons0.ml" 38 782 832
+type(
+  t
+)
+ident(
+  int_ref cons "lincons0.ml" 37 764 773 "lincons0.ml" 37 764 777
+)
+"lincons0.ml" 38 782 828 "lincons0.ml" 38 782 836
+type(
+  typ
+)
+"lincons0.ml" 37 764 780 "lincons0.ml" 39 837 838
+type(
+  t
+)

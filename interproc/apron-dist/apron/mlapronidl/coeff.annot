@@ -1,0 +1,1609 @@
+"coeff.ml" 13 392 396 "coeff.ml" 13 392 404
+type(
+  Mpq.t -> union_5
+)
+ident(
+  def s_of_mpq "coeff.ml" 14 434 434 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 13 392 405 "coeff.ml" 13 392 406
+type(
+  Mpq.t
+)
+ident(
+  def x "coeff.ml" 13 392 409 "coeff.ml" 13 392 433
+)
+"coeff.ml" 13 392 417 "coeff.ml" 13 392 430
+type(
+  Mpq.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpq
+)
+"coeff.ml" 13 392 431 "coeff.ml" 13 392 432
+type(
+  Mpq.t
+)
+ident(
+  int_ref x "coeff.ml" 13 392 405 "coeff.ml" 13 392 406
+)
+"coeff.ml" 13 392 416 "coeff.ml" 13 392 433
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"coeff.ml" 13 392 409 "coeff.ml" 13 392 433
+type(
+  union_5
+)
+"coeff.ml" 14 434 438 "coeff.ml" 14 434 447
+type(
+  Mpqf.t -> union_5
+)
+ident(
+  def s_of_mpqf "coeff.ml" 15 478 478 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 14 434 448 "coeff.ml" 14 434 449
+type(
+  Mpqf.t
+)
+ident(
+  def x "coeff.ml" 14 434 452 "coeff.ml" 14 434 477
+)
+"coeff.ml" 14 434 460 "coeff.ml" 14 434 474
+type(
+  Mpqf.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpqf
+)
+"coeff.ml" 14 434 475 "coeff.ml" 14 434 476
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "coeff.ml" 14 434 448 "coeff.ml" 14 434 449
+)
+"coeff.ml" 14 434 459 "coeff.ml" 14 434 477
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"coeff.ml" 14 434 452 "coeff.ml" 14 434 477
+type(
+  union_5
+)
+"coeff.ml" 15 478 482 "coeff.ml" 15 478 490
+type(
+  int -> union_5
+)
+ident(
+  def s_of_int "coeff.ml" 16 520 520 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 15 478 491 "coeff.ml" 15 478 492
+type(
+  int
+)
+ident(
+  def x "coeff.ml" 15 478 495 "coeff.ml" 15 478 519
+)
+"coeff.ml" 15 478 503 "coeff.ml" 15 478 516
+type(
+  int -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_int
+)
+"coeff.ml" 15 478 517 "coeff.ml" 15 478 518
+type(
+  int
+)
+ident(
+  int_ref x "coeff.ml" 15 478 491 "coeff.ml" 15 478 492
+)
+"coeff.ml" 15 478 502 "coeff.ml" 15 478 519
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"coeff.ml" 15 478 495 "coeff.ml" 15 478 519
+type(
+  union_5
+)
+"coeff.ml" 16 520 524 "coeff.ml" 16 520 533
+type(
+  int -> int -> union_5
+)
+ident(
+  def s_of_frac "coeff.ml" 17 568 568 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 16 520 534 "coeff.ml" 16 520 535
+type(
+  int
+)
+ident(
+  def x "coeff.ml" 16 520 536 "coeff.ml" 16 520 567
+)
+"coeff.ml" 16 520 536 "coeff.ml" 16 520 537
+type(
+  int
+)
+ident(
+  def y "coeff.ml" 16 520 540 "coeff.ml" 16 520 567
+)
+"coeff.ml" 16 520 548 "coeff.ml" 16 520 562
+type(
+  int -> int -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_frac
+)
+"coeff.ml" 16 520 563 "coeff.ml" 16 520 564
+type(
+  int
+)
+ident(
+  int_ref x "coeff.ml" 16 520 534 "coeff.ml" 16 520 535
+)
+"coeff.ml" 16 520 565 "coeff.ml" 16 520 566
+type(
+  int
+)
+ident(
+  int_ref y "coeff.ml" 16 520 536 "coeff.ml" 16 520 537
+)
+"coeff.ml" 16 520 547 "coeff.ml" 16 520 567
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"coeff.ml" 16 520 540 "coeff.ml" 16 520 567
+type(
+  union_5
+)
+"coeff.ml" 17 568 572 "coeff.ml" 17 568 582
+type(
+  float -> union_5
+)
+ident(
+  def s_of_float "coeff.ml" 18 614 614 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 17 568 583 "coeff.ml" 17 568 584
+type(
+  float
+)
+ident(
+  def x "coeff.ml" 17 568 587 "coeff.ml" 17 568 613
+)
+"coeff.ml" 17 568 595 "coeff.ml" 17 568 610
+type(
+  float -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_float
+)
+"coeff.ml" 17 568 611 "coeff.ml" 17 568 612
+type(
+  float
+)
+ident(
+  int_ref x "coeff.ml" 17 568 583 "coeff.ml" 17 568 584
+)
+"coeff.ml" 17 568 594 "coeff.ml" 17 568 613
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"coeff.ml" 17 568 587 "coeff.ml" 17 568 613
+type(
+  union_5
+)
+"coeff.ml" 18 614 618 "coeff.ml" 18 614 627
+type(
+  Mpfr.t -> union_5
+)
+ident(
+  def s_of_mpfr "coeff.ml" 20 659 659 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 18 614 628 "coeff.ml" 18 614 629
+type(
+  Mpfr.t
+)
+ident(
+  def x "coeff.ml" 18 614 632 "coeff.ml" 18 614 657
+)
+"coeff.ml" 18 614 640 "coeff.ml" 18 614 654
+type(
+  Mpfr.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.of_mpfr
+)
+"coeff.ml" 18 614 655 "coeff.ml" 18 614 656
+type(
+  Mpfr.t
+)
+ident(
+  int_ref x "coeff.ml" 18 614 628 "coeff.ml" 18 614 629
+)
+"coeff.ml" 18 614 639 "coeff.ml" 18 614 657
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"coeff.ml" 18 614 632 "coeff.ml" 18 614 657
+type(
+  union_5
+)
+"coeff.ml" 20 659 663 "coeff.ml" 20 659 674
+type(
+  Scalar.t -> Scalar.t -> union_5
+)
+ident(
+  def i_of_scalar "coeff.ml" 21 723 723 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 20 659 675 "coeff.ml" 20 659 678
+type(
+  Scalar.t
+)
+ident(
+  def inf "coeff.ml" 20 659 679 "coeff.ml" 20 659 722
+)
+"coeff.ml" 20 659 679 "coeff.ml" 20 659 682
+type(
+  Scalar.t
+)
+ident(
+  def sup "coeff.ml" 20 659 685 "coeff.ml" 20 659 722
+)
+"coeff.ml" 20 659 695 "coeff.ml" 20 659 713
+type(
+  Scalar.t -> Scalar.t -> Interval.t
+)
+ident(
+  ext_ref Interval.of_scalar
+)
+"coeff.ml" 20 659 714 "coeff.ml" 20 659 717
+type(
+  Scalar.t
+)
+ident(
+  int_ref inf "coeff.ml" 20 659 675 "coeff.ml" 20 659 678
+)
+"coeff.ml" 20 659 718 "coeff.ml" 20 659 721
+type(
+  Scalar.t
+)
+ident(
+  int_ref sup "coeff.ml" 20 659 679 "coeff.ml" 20 659 682
+)
+"coeff.ml" 20 659 694 "coeff.ml" 20 659 722
+call(
+  stack
+)
+type(
+  Interval.t
+)
+"coeff.ml" 20 659 685 "coeff.ml" 20 659 722
+type(
+  union_5
+)
+"coeff.ml" 21 723 727 "coeff.ml" 21 723 735
+type(
+  Mpq.t -> Mpq.t -> union_5
+)
+ident(
+  def i_of_mpq "coeff.ml" 22 773 773 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 21 723 736 "coeff.ml" 21 723 737
+type(
+  Mpq.t
+)
+ident(
+  def x "coeff.ml" 21 723 738 "coeff.ml" 21 723 772
+)
+"coeff.ml" 21 723 738 "coeff.ml" 21 723 739
+type(
+  Mpq.t
+)
+ident(
+  def y "coeff.ml" 21 723 742 "coeff.ml" 21 723 772
+)
+"coeff.ml" 21 723 752 "coeff.ml" 21 723 767
+type(
+  Mpq.t -> Mpq.t -> Interval.t
+)
+ident(
+  ext_ref Interval.of_mpq
+)
+"coeff.ml" 21 723 768 "coeff.ml" 21 723 769
+type(
+  Mpq.t
+)
+ident(
+  int_ref x "coeff.ml" 21 723 736 "coeff.ml" 21 723 737
+)
+"coeff.ml" 21 723 770 "coeff.ml" 21 723 771
+type(
+  Mpq.t
+)
+ident(
+  int_ref y "coeff.ml" 21 723 738 "coeff.ml" 21 723 739
+)
+"coeff.ml" 21 723 751 "coeff.ml" 21 723 772
+call(
+  stack
+)
+type(
+  Interval.t
+)
+"coeff.ml" 21 723 742 "coeff.ml" 21 723 772
+type(
+  union_5
+)
+"coeff.ml" 22 773 777 "coeff.ml" 22 773 786
+type(
+  Mpqf.t -> Mpqf.t -> union_5
+)
+ident(
+  def i_of_mpqf "coeff.ml" 23 825 825 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 22 773 787 "coeff.ml" 22 773 788
+type(
+  Mpqf.t
+)
+ident(
+  def x "coeff.ml" 22 773 789 "coeff.ml" 22 773 824
+)
+"coeff.ml" 22 773 789 "coeff.ml" 22 773 790
+type(
+  Mpqf.t
+)
+ident(
+  def y "coeff.ml" 22 773 793 "coeff.ml" 22 773 824
+)
+"coeff.ml" 22 773 803 "coeff.ml" 22 773 819
+type(
+  Mpqf.t -> Mpqf.t -> Interval.t
+)
+ident(
+  ext_ref Interval.of_mpqf
+)
+"coeff.ml" 22 773 820 "coeff.ml" 22 773 821
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "coeff.ml" 22 773 787 "coeff.ml" 22 773 788
+)
+"coeff.ml" 22 773 822 "coeff.ml" 22 773 823
+type(
+  Mpqf.t
+)
+ident(
+  int_ref y "coeff.ml" 22 773 789 "coeff.ml" 22 773 790
+)
+"coeff.ml" 22 773 802 "coeff.ml" 22 773 824
+call(
+  stack
+)
+type(
+  Interval.t
+)
+"coeff.ml" 22 773 793 "coeff.ml" 22 773 824
+type(
+  union_5
+)
+"coeff.ml" 23 825 829 "coeff.ml" 23 825 837
+type(
+  int -> int -> union_5
+)
+ident(
+  def i_of_int "coeff.ml" 24 875 875 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 23 825 838 "coeff.ml" 23 825 839
+type(
+  int
+)
+ident(
+  def x "coeff.ml" 23 825 840 "coeff.ml" 23 825 874
+)
+"coeff.ml" 23 825 840 "coeff.ml" 23 825 841
+type(
+  int
+)
+ident(
+  def y "coeff.ml" 23 825 844 "coeff.ml" 23 825 874
+)
+"coeff.ml" 23 825 854 "coeff.ml" 23 825 869
+type(
+  int -> int -> Interval.t
+)
+ident(
+  ext_ref Interval.of_int
+)
+"coeff.ml" 23 825 870 "coeff.ml" 23 825 871
+type(
+  int
+)
+ident(
+  int_ref x "coeff.ml" 23 825 838 "coeff.ml" 23 825 839
+)
+"coeff.ml" 23 825 872 "coeff.ml" 23 825 873
+type(
+  int
+)
+ident(
+  int_ref y "coeff.ml" 23 825 840 "coeff.ml" 23 825 841
+)
+"coeff.ml" 23 825 853 "coeff.ml" 23 825 874
+call(
+  stack
+)
+type(
+  Interval.t
+)
+"coeff.ml" 23 825 844 "coeff.ml" 23 825 874
+type(
+  union_5
+)
+"coeff.ml" 24 875 879 "coeff.ml" 24 875 888
+type(
+  int -> int -> int -> int -> union_5
+)
+ident(
+  def i_of_frac "coeff.ml" 25 935 935 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 24 875 889 "coeff.ml" 24 875 890
+type(
+  int
+)
+ident(
+  def x "coeff.ml" 24 875 891 "coeff.ml" 24 875 934
+)
+"coeff.ml" 24 875 891 "coeff.ml" 24 875 892
+type(
+  int
+)
+ident(
+  def y "coeff.ml" 24 875 893 "coeff.ml" 24 875 934
+)
+"coeff.ml" 24 875 893 "coeff.ml" 24 875 894
+type(
+  int
+)
+ident(
+  def z "coeff.ml" 24 875 895 "coeff.ml" 24 875 934
+)
+"coeff.ml" 24 875 895 "coeff.ml" 24 875 896
+type(
+  int
+)
+ident(
+  def w "coeff.ml" 24 875 899 "coeff.ml" 24 875 934
+)
+"coeff.ml" 24 875 909 "coeff.ml" 24 875 925
+type(
+  int -> int -> int -> int -> Interval.t
+)
+ident(
+  ext_ref Interval.of_frac
+)
+"coeff.ml" 24 875 926 "coeff.ml" 24 875 927
+type(
+  int
+)
+ident(
+  int_ref x "coeff.ml" 24 875 889 "coeff.ml" 24 875 890
+)
+"coeff.ml" 24 875 928 "coeff.ml" 24 875 929
+type(
+  int
+)
+ident(
+  int_ref y "coeff.ml" 24 875 891 "coeff.ml" 24 875 892
+)
+"coeff.ml" 24 875 930 "coeff.ml" 24 875 931
+type(
+  int
+)
+ident(
+  int_ref z "coeff.ml" 24 875 893 "coeff.ml" 24 875 894
+)
+"coeff.ml" 24 875 932 "coeff.ml" 24 875 933
+type(
+  int
+)
+ident(
+  int_ref w "coeff.ml" 24 875 895 "coeff.ml" 24 875 896
+)
+"coeff.ml" 24 875 908 "coeff.ml" 24 875 934
+call(
+  stack
+)
+type(
+  Interval.t
+)
+"coeff.ml" 24 875 899 "coeff.ml" 24 875 934
+type(
+  union_5
+)
+"coeff.ml" 25 935 939 "coeff.ml" 25 935 949
+type(
+  float -> float -> union_5
+)
+ident(
+  def i_of_float "coeff.ml" 26 989 989 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 25 935 950 "coeff.ml" 25 935 951
+type(
+  float
+)
+ident(
+  def x "coeff.ml" 25 935 952 "coeff.ml" 25 935 988
+)
+"coeff.ml" 25 935 952 "coeff.ml" 25 935 953
+type(
+  float
+)
+ident(
+  def y "coeff.ml" 25 935 956 "coeff.ml" 25 935 988
+)
+"coeff.ml" 25 935 966 "coeff.ml" 25 935 983
+type(
+  float -> float -> Interval.t
+)
+ident(
+  ext_ref Interval.of_float
+)
+"coeff.ml" 25 935 984 "coeff.ml" 25 935 985
+type(
+  float
+)
+ident(
+  int_ref x "coeff.ml" 25 935 950 "coeff.ml" 25 935 951
+)
+"coeff.ml" 25 935 986 "coeff.ml" 25 935 987
+type(
+  float
+)
+ident(
+  int_ref y "coeff.ml" 25 935 952 "coeff.ml" 25 935 953
+)
+"coeff.ml" 25 935 965 "coeff.ml" 25 935 988
+call(
+  stack
+)
+type(
+  Interval.t
+)
+"coeff.ml" 25 935 956 "coeff.ml" 25 935 988
+type(
+  union_5
+)
+"coeff.ml" 26 989 993 "coeff.ml" 26 989 1002
+type(
+  Mpfr.t -> Mpfr.t -> union_5
+)
+ident(
+  def i_of_mpfr "coeff.ml" 28 1042 1042 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 26 989 1003 "coeff.ml" 26 989 1004
+type(
+  Mpfr.t
+)
+ident(
+  def x "coeff.ml" 26 989 1005 "coeff.ml" 26 989 1040
+)
+"coeff.ml" 26 989 1005 "coeff.ml" 26 989 1006
+type(
+  Mpfr.t
+)
+ident(
+  def y "coeff.ml" 26 989 1009 "coeff.ml" 26 989 1040
+)
+"coeff.ml" 26 989 1019 "coeff.ml" 26 989 1035
+type(
+  Mpfr.t -> Mpfr.t -> Interval.t
+)
+ident(
+  ext_ref Interval.of_mpfr
+)
+"coeff.ml" 26 989 1036 "coeff.ml" 26 989 1037
+type(
+  Mpfr.t
+)
+ident(
+  int_ref x "coeff.ml" 26 989 1003 "coeff.ml" 26 989 1004
+)
+"coeff.ml" 26 989 1038 "coeff.ml" 26 989 1039
+type(
+  Mpfr.t
+)
+ident(
+  int_ref y "coeff.ml" 26 989 1005 "coeff.ml" 26 989 1006
+)
+"coeff.ml" 26 989 1018 "coeff.ml" 26 989 1040
+call(
+  stack
+)
+type(
+  Interval.t
+)
+"coeff.ml" 26 989 1009 "coeff.ml" 26 989 1040
+type(
+  union_5
+)
+"coeff.ml" 28 1042 1046 "coeff.ml" 28 1042 1055
+type(
+  union_5 -> bool
+)
+ident(
+  def is_scalar "coeff.ml" 29 1103 1103 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 28 1042 1056 "coeff.ml" 28 1042 1057
+type(
+  union_5
+)
+ident(
+  def c "coeff.ml" 28 1042 1060 "coeff.ml" 28 1042 1102
+)
+"coeff.ml" 28 1042 1066 "coeff.ml" 28 1042 1067
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 28 1042 1056 "coeff.ml" 28 1042 1057
+)
+"coeff.ml" 28 1042 1080 "coeff.ml" 28 1042 1081
+type(
+  Scalar.t
+)
+"coeff.ml" 28 1042 1073 "coeff.ml" 28 1042 1081
+type(
+  union_5
+)
+"coeff.ml" 28 1042 1085 "coeff.ml" 28 1042 1089
+type(
+  bool
+)
+"coeff.ml" 28 1042 1092 "coeff.ml" 28 1042 1093
+type(
+  union_5
+)
+"coeff.ml" 28 1042 1097 "coeff.ml" 28 1042 1102
+type(
+  bool
+)
+"coeff.ml" 28 1042 1060 "coeff.ml" 28 1042 1102
+type(
+  bool
+)
+"coeff.ml" 29 1103 1107 "coeff.ml" 29 1103 1118
+type(
+  union_5 -> bool
+)
+ident(
+  def is_interval "coeff.ml" 30 1168 1168 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 29 1103 1119 "coeff.ml" 29 1103 1120
+type(
+  union_5
+)
+ident(
+  def c "coeff.ml" 29 1103 1123 "coeff.ml" 29 1103 1167
+)
+"coeff.ml" 29 1103 1129 "coeff.ml" 29 1103 1130
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 29 1103 1119 "coeff.ml" 29 1103 1120
+)
+"coeff.ml" 29 1103 1145 "coeff.ml" 29 1103 1146
+type(
+  Interval.t
+)
+"coeff.ml" 29 1103 1136 "coeff.ml" 29 1103 1146
+type(
+  union_5
+)
+"coeff.ml" 29 1103 1150 "coeff.ml" 29 1103 1154
+type(
+  bool
+)
+"coeff.ml" 29 1103 1157 "coeff.ml" 29 1103 1158
+type(
+  union_5
+)
+"coeff.ml" 29 1103 1162 "coeff.ml" 29 1103 1167
+type(
+  bool
+)
+"coeff.ml" 29 1103 1123 "coeff.ml" 29 1103 1167
+type(
+  bool
+)
+"coeff.ml" 30 1168 1172 "coeff.ml" 30 1168 1175
+type(
+  union_5 -> union_5 -> int
+)
+ident(
+  def cmp "coeff.ml" 35 1332 1332 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 30 1168 1176 "coeff.ml" 30 1168 1178
+type(
+  union_5
+)
+ident(
+  def c1 "coeff.ml" 30 1168 1179 "coeff.ml" 34 1323 1331
+)
+"coeff.ml" 30 1168 1179 "coeff.ml" 30 1168 1181
+type(
+  union_5
+)
+ident(
+  def c2 "coeff.ml" 30 1168 1184 "coeff.ml" 34 1323 1331
+)
+"coeff.ml" 30 1168 1191 "coeff.ml" 30 1168 1193
+type(
+  union_5
+)
+ident(
+  int_ref c1 "coeff.ml" 30 1168 1176 "coeff.ml" 30 1168 1178
+)
+"coeff.ml" 30 1168 1194 "coeff.ml" 30 1168 1196
+type(
+  union_5
+)
+ident(
+  int_ref c2 "coeff.ml" 30 1168 1179 "coeff.ml" 30 1168 1181
+)
+"coeff.ml" 30 1168 1190 "coeff.ml" 30 1168 1197
+type(
+  union_5 * union_5
+)
+"coeff.ml" 31 1203 1213 "coeff.ml" 31 1203 1215
+type(
+  Scalar.t
+)
+ident(
+  def s1 "coeff.ml" 31 1203 1231 "coeff.ml" 31 1203 1247
+)
+"coeff.ml" 31 1203 1206 "coeff.ml" 31 1203 1215
+type(
+  union_5
+)
+"coeff.ml" 31 1203 1224 "coeff.ml" 31 1203 1226
+type(
+  Scalar.t
+)
+ident(
+  def s2 "coeff.ml" 31 1203 1231 "coeff.ml" 31 1203 1247
+)
+"coeff.ml" 31 1203 1217 "coeff.ml" 31 1203 1226
+type(
+  union_5
+)
+"coeff.ml" 31 1203 1205 "coeff.ml" 31 1203 1227
+type(
+  union_5 * union_5
+)
+"coeff.ml" 31 1203 1231 "coeff.ml" 31 1203 1241
+type(
+  Scalar.t -> Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.cmp
+)
+"coeff.ml" 31 1203 1242 "coeff.ml" 31 1203 1244
+type(
+  Scalar.t
+)
+ident(
+  int_ref s1 "coeff.ml" 31 1203 1213 "coeff.ml" 31 1203 1215
+)
+"coeff.ml" 31 1203 1245 "coeff.ml" 31 1203 1247
+type(
+  Scalar.t
+)
+ident(
+  int_ref s2 "coeff.ml" 31 1203 1224 "coeff.ml" 31 1203 1226
+)
+"coeff.ml" 31 1203 1231 "coeff.ml" 31 1203 1247
+call(
+  tail
+)
+type(
+  int
+)
+"coeff.ml" 32 1248 1260 "coeff.ml" 32 1248 1262
+type(
+  Interval.t
+)
+ident(
+  def i1 "coeff.ml" 32 1248 1280 "coeff.ml" 32 1248 1298
+)
+"coeff.ml" 32 1248 1251 "coeff.ml" 32 1248 1262
+type(
+  union_5
+)
+"coeff.ml" 32 1248 1273 "coeff.ml" 32 1248 1275
+type(
+  Interval.t
+)
+ident(
+  def i2 "coeff.ml" 32 1248 1280 "coeff.ml" 32 1248 1298
+)
+"coeff.ml" 32 1248 1264 "coeff.ml" 32 1248 1275
+type(
+  union_5
+)
+"coeff.ml" 32 1248 1250 "coeff.ml" 32 1248 1276
+type(
+  union_5 * union_5
+)
+"coeff.ml" 32 1248 1280 "coeff.ml" 32 1248 1292
+type(
+  Interval.t -> Interval.t -> int
+)
+ident(
+  ext_ref Interval.cmp
+)
+"coeff.ml" 32 1248 1293 "coeff.ml" 32 1248 1295
+type(
+  Interval.t
+)
+ident(
+  int_ref i1 "coeff.ml" 32 1248 1260 "coeff.ml" 32 1248 1262
+)
+"coeff.ml" 32 1248 1296 "coeff.ml" 32 1248 1298
+type(
+  Interval.t
+)
+ident(
+  int_ref i2 "coeff.ml" 32 1248 1273 "coeff.ml" 32 1248 1275
+)
+"coeff.ml" 32 1248 1280 "coeff.ml" 32 1248 1298
+call(
+  tail
+)
+type(
+  int
+)
+"coeff.ml" 33 1299 1309 "coeff.ml" 33 1299 1310
+type(
+  Scalar.t
+)
+"coeff.ml" 33 1299 1302 "coeff.ml" 33 1299 1310
+type(
+  union_5
+)
+"coeff.ml" 33 1299 1312 "coeff.ml" 33 1299 1313
+type(
+  union_5
+)
+"coeff.ml" 33 1299 1301 "coeff.ml" 33 1299 1314
+type(
+  union_5 * union_5
+)
+"coeff.ml" 33 1299 1318 "coeff.ml" 33 1299 1322
+type(
+  int
+)
+"coeff.ml" 34 1323 1325 "coeff.ml" 34 1323 1326
+type(
+  union_5 * union_5
+)
+"coeff.ml" 34 1323 1330 "coeff.ml" 34 1323 1331
+type(
+  int
+)
+"coeff.ml" 30 1168 1184 "coeff.ml" 34 1323 1331
+type(
+  int
+)
+"coeff.ml" 35 1332 1336 "coeff.ml" 35 1332 1341
+type(
+  union_5 -> union_5 -> bool
+)
+ident(
+  def equal "coeff.ml" 39 1482 1482 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 35 1332 1342 "coeff.ml" 35 1332 1344
+type(
+  union_5
+)
+ident(
+  def c1 "coeff.ml" 35 1332 1345 "coeff.ml" 38 1469 1481
+)
+"coeff.ml" 35 1332 1345 "coeff.ml" 35 1332 1347
+type(
+  union_5
+)
+ident(
+  def c2 "coeff.ml" 35 1332 1350 "coeff.ml" 38 1469 1481
+)
+"coeff.ml" 35 1332 1357 "coeff.ml" 35 1332 1359
+type(
+  union_5
+)
+ident(
+  int_ref c1 "coeff.ml" 35 1332 1342 "coeff.ml" 35 1332 1344
+)
+"coeff.ml" 35 1332 1360 "coeff.ml" 35 1332 1362
+type(
+  union_5
+)
+ident(
+  int_ref c2 "coeff.ml" 35 1332 1345 "coeff.ml" 35 1332 1347
+)
+"coeff.ml" 35 1332 1356 "coeff.ml" 35 1332 1363
+type(
+  union_5 * union_5
+)
+"coeff.ml" 36 1369 1379 "coeff.ml" 36 1369 1381
+type(
+  Scalar.t
+)
+ident(
+  def s1 "coeff.ml" 36 1369 1397 "coeff.ml" 36 1369 1415
+)
+"coeff.ml" 36 1369 1372 "coeff.ml" 36 1369 1381
+type(
+  union_5
+)
+"coeff.ml" 36 1369 1390 "coeff.ml" 36 1369 1392
+type(
+  Scalar.t
+)
+ident(
+  def s2 "coeff.ml" 36 1369 1397 "coeff.ml" 36 1369 1415
+)
+"coeff.ml" 36 1369 1383 "coeff.ml" 36 1369 1392
+type(
+  union_5
+)
+"coeff.ml" 36 1369 1371 "coeff.ml" 36 1369 1393
+type(
+  union_5 * union_5
+)
+"coeff.ml" 36 1369 1397 "coeff.ml" 36 1369 1409
+type(
+  Scalar.t -> Scalar.t -> bool
+)
+ident(
+  ext_ref Scalar.equal
+)
+"coeff.ml" 36 1369 1410 "coeff.ml" 36 1369 1412
+type(
+  Scalar.t
+)
+ident(
+  int_ref s1 "coeff.ml" 36 1369 1379 "coeff.ml" 36 1369 1381
+)
+"coeff.ml" 36 1369 1413 "coeff.ml" 36 1369 1415
+type(
+  Scalar.t
+)
+ident(
+  int_ref s2 "coeff.ml" 36 1369 1390 "coeff.ml" 36 1369 1392
+)
+"coeff.ml" 36 1369 1397 "coeff.ml" 36 1369 1415
+call(
+  tail
+)
+type(
+  bool
+)
+"coeff.ml" 37 1416 1428 "coeff.ml" 37 1416 1430
+type(
+  Interval.t
+)
+ident(
+  def i1 "coeff.ml" 37 1416 1448 "coeff.ml" 37 1416 1468
+)
+"coeff.ml" 37 1416 1419 "coeff.ml" 37 1416 1430
+type(
+  union_5
+)
+"coeff.ml" 37 1416 1441 "coeff.ml" 37 1416 1443
+type(
+  Interval.t
+)
+ident(
+  def i2 "coeff.ml" 37 1416 1448 "coeff.ml" 37 1416 1468
+)
+"coeff.ml" 37 1416 1432 "coeff.ml" 37 1416 1443
+type(
+  union_5
+)
+"coeff.ml" 37 1416 1418 "coeff.ml" 37 1416 1444
+type(
+  union_5 * union_5
+)
+"coeff.ml" 37 1416 1448 "coeff.ml" 37 1416 1462
+type(
+  Interval.t -> Interval.t -> bool
+)
+ident(
+  ext_ref Interval.equal
+)
+"coeff.ml" 37 1416 1463 "coeff.ml" 37 1416 1465
+type(
+  Interval.t
+)
+ident(
+  int_ref i1 "coeff.ml" 37 1416 1428 "coeff.ml" 37 1416 1430
+)
+"coeff.ml" 37 1416 1466 "coeff.ml" 37 1416 1468
+type(
+  Interval.t
+)
+ident(
+  int_ref i2 "coeff.ml" 37 1416 1441 "coeff.ml" 37 1416 1443
+)
+"coeff.ml" 37 1416 1448 "coeff.ml" 37 1416 1468
+call(
+  tail
+)
+type(
+  bool
+)
+"coeff.ml" 38 1469 1471 "coeff.ml" 38 1469 1472
+type(
+  union_5 * union_5
+)
+"coeff.ml" 38 1469 1476 "coeff.ml" 38 1469 1481
+type(
+  bool
+)
+"coeff.ml" 35 1332 1350 "coeff.ml" 38 1469 1481
+type(
+  bool
+)
+"coeff.ml" 39 1482 1486 "coeff.ml" 39 1482 1493
+type(
+  union_5 -> bool
+)
+ident(
+  def is_zero "coeff.ml" 42 1577 1577 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 39 1482 1494 "coeff.ml" 39 1482 1495
+type(
+  union_5
+)
+ident(
+  def c "coeff.ml" 39 1482 1498 "coeff.ml" 41 1542 1576
+)
+"coeff.ml" 39 1482 1504 "coeff.ml" 39 1482 1505
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 39 1482 1494 "coeff.ml" 39 1482 1495
+)
+"coeff.ml" 40 1511 1520 "coeff.ml" 40 1511 1521
+type(
+  Scalar.t
+)
+ident(
+  def s "coeff.ml" 40 1511 1525 "coeff.ml" 40 1511 1541
+)
+"coeff.ml" 40 1511 1513 "coeff.ml" 40 1511 1521
+type(
+  union_5
+)
+"coeff.ml" 40 1511 1526 "coeff.ml" 40 1511 1536
+type(
+  Scalar.t -> int
+)
+ident(
+  ext_ref Scalar.sgn
+)
+"coeff.ml" 40 1511 1537 "coeff.ml" 40 1511 1538
+type(
+  Scalar.t
+)
+ident(
+  int_ref s "coeff.ml" 40 1511 1520 "coeff.ml" 40 1511 1521
+)
+"coeff.ml" 40 1511 1525 "coeff.ml" 40 1511 1539
+call(
+  stack
+)
+type(
+  int
+)
+"coeff.ml" 40 1511 1539 "coeff.ml" 40 1511 1540
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"coeff.ml" 40 1511 1540 "coeff.ml" 40 1511 1541
+type(
+  int
+)
+"coeff.ml" 40 1511 1525 "coeff.ml" 40 1511 1541
+type(
+  bool
+)
+"coeff.ml" 41 1542 1553 "coeff.ml" 41 1542 1554
+type(
+  Interval.t
+)
+ident(
+  def i "coeff.ml" 41 1542 1558 "coeff.ml" 41 1542 1576
+)
+"coeff.ml" 41 1542 1544 "coeff.ml" 41 1542 1554
+type(
+  union_5
+)
+"coeff.ml" 41 1542 1558 "coeff.ml" 41 1542 1574
+type(
+  Interval.t -> bool
+)
+ident(
+  ext_ref Interval.is_zero
+)
+"coeff.ml" 41 1542 1575 "coeff.ml" 41 1542 1576
+type(
+  Interval.t
+)
+ident(
+  int_ref i "coeff.ml" 41 1542 1553 "coeff.ml" 41 1542 1554
+)
+"coeff.ml" 41 1542 1558 "coeff.ml" 41 1542 1576
+call(
+  tail
+)
+type(
+  bool
+)
+"coeff.ml" 39 1482 1498 "coeff.ml" 41 1542 1576
+type(
+  bool
+)
+"coeff.ml" 42 1577 1581 "coeff.ml" 42 1577 1590
+type(
+  union_5 -> int -> bool
+)
+ident(
+  def equal_int "coeff.ml" 45 1684 1684 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 42 1577 1591 "coeff.ml" 42 1577 1592
+type(
+  union_5
+)
+ident(
+  def c "coeff.ml" 42 1577 1593 "coeff.ml" 44 1645 1683
+)
+"coeff.ml" 42 1577 1593 "coeff.ml" 42 1577 1594
+type(
+  int
+)
+ident(
+  def b "coeff.ml" 42 1577 1597 "coeff.ml" 44 1645 1683
+)
+"coeff.ml" 42 1577 1603 "coeff.ml" 42 1577 1604
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 42 1577 1591 "coeff.ml" 42 1577 1592
+)
+"coeff.ml" 43 1610 1619 "coeff.ml" 43 1610 1620
+type(
+  Scalar.t
+)
+ident(
+  def s "coeff.ml" 43 1610 1624 "coeff.ml" 43 1610 1644
+)
+"coeff.ml" 43 1610 1612 "coeff.ml" 43 1610 1620
+type(
+  union_5
+)
+"coeff.ml" 43 1610 1624 "coeff.ml" 43 1610 1640
+type(
+  Scalar.t -> int -> bool
+)
+ident(
+  ext_ref Scalar.equal_int
+)
+"coeff.ml" 43 1610 1641 "coeff.ml" 43 1610 1642
+type(
+  Scalar.t
+)
+ident(
+  int_ref s "coeff.ml" 43 1610 1619 "coeff.ml" 43 1610 1620
+)
+"coeff.ml" 43 1610 1643 "coeff.ml" 43 1610 1644
+type(
+  int
+)
+ident(
+  int_ref b "coeff.ml" 42 1577 1593 "coeff.ml" 42 1577 1594
+)
+"coeff.ml" 43 1610 1624 "coeff.ml" 43 1610 1644
+call(
+  tail
+)
+type(
+  bool
+)
+"coeff.ml" 44 1645 1656 "coeff.ml" 44 1645 1657
+type(
+  Interval.t
+)
+ident(
+  def i "coeff.ml" 44 1645 1661 "coeff.ml" 44 1645 1683
+)
+"coeff.ml" 44 1645 1647 "coeff.ml" 44 1645 1657
+type(
+  union_5
+)
+"coeff.ml" 44 1645 1661 "coeff.ml" 44 1645 1679
+type(
+  Interval.t -> int -> bool
+)
+ident(
+  ext_ref Interval.equal_int
+)
+"coeff.ml" 44 1645 1680 "coeff.ml" 44 1645 1681
+type(
+  Interval.t
+)
+ident(
+  int_ref i "coeff.ml" 44 1645 1656 "coeff.ml" 44 1645 1657
+)
+"coeff.ml" 44 1645 1682 "coeff.ml" 44 1645 1683
+type(
+  int
+)
+ident(
+  int_ref b "coeff.ml" 42 1577 1593 "coeff.ml" 42 1577 1594
+)
+"coeff.ml" 44 1645 1661 "coeff.ml" 44 1645 1683
+call(
+  tail
+)
+type(
+  bool
+)
+"coeff.ml" 42 1577 1597 "coeff.ml" 44 1645 1683
+type(
+  bool
+)
+"coeff.ml" 45 1684 1688 "coeff.ml" 45 1684 1691
+type(
+  union_5 -> union_5
+)
+ident(
+  def neg "coeff.ml" 48 1787 1787 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 45 1684 1692 "coeff.ml" 45 1684 1693
+type(
+  union_5
+)
+ident(
+  def c "coeff.ml" 45 1684 1696 "coeff.ml" 47 1745 1786
+)
+"coeff.ml" 45 1684 1702 "coeff.ml" 45 1684 1703
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 45 1684 1692 "coeff.ml" 45 1684 1693
+)
+"coeff.ml" 46 1709 1718 "coeff.ml" 46 1709 1719
+type(
+  Scalar.t
+)
+ident(
+  def s "coeff.ml" 46 1709 1723 "coeff.ml" 46 1709 1744
+)
+"coeff.ml" 46 1709 1711 "coeff.ml" 46 1709 1719
+type(
+  union_5
+)
+"coeff.ml" 46 1709 1731 "coeff.ml" 46 1709 1741
+type(
+  Scalar.t -> Scalar.t
+)
+ident(
+  ext_ref Scalar.neg
+)
+"coeff.ml" 46 1709 1742 "coeff.ml" 46 1709 1743
+type(
+  Scalar.t
+)
+ident(
+  int_ref s "coeff.ml" 46 1709 1718 "coeff.ml" 46 1709 1719
+)
+"coeff.ml" 46 1709 1730 "coeff.ml" 46 1709 1744
+call(
+  stack
+)
+type(
+  Scalar.t
+)
+"coeff.ml" 46 1709 1723 "coeff.ml" 46 1709 1744
+type(
+  union_5
+)
+"coeff.ml" 47 1745 1756 "coeff.ml" 47 1745 1757
+type(
+  Interval.t
+)
+ident(
+  def i "coeff.ml" 47 1745 1761 "coeff.ml" 47 1745 1786
+)
+"coeff.ml" 47 1745 1747 "coeff.ml" 47 1745 1757
+type(
+  union_5
+)
+"coeff.ml" 47 1745 1771 "coeff.ml" 47 1745 1783
+type(
+  Interval.t -> Interval.t
+)
+ident(
+  ext_ref Interval.neg
+)
+"coeff.ml" 47 1745 1784 "coeff.ml" 47 1745 1785
+type(
+  Interval.t
+)
+ident(
+  int_ref i "coeff.ml" 47 1745 1756 "coeff.ml" 47 1745 1757
+)
+"coeff.ml" 47 1745 1770 "coeff.ml" 47 1745 1786
+call(
+  stack
+)
+type(
+  Interval.t
+)
+"coeff.ml" 47 1745 1761 "coeff.ml" 47 1745 1786
+type(
+  union_5
+)
+"coeff.ml" 45 1684 1696 "coeff.ml" 47 1745 1786
+type(
+  union_5
+)
+"coeff.ml" 48 1787 1791 "coeff.ml" 48 1787 1797
+type(
+  union_5 -> union_5
+)
+ident(
+  def reduce "coeff.ml" 54 1927 1927 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 48 1787 1798 "coeff.ml" 48 1787 1799
+type(
+  union_5
+)
+ident(
+  def c "coeff.ml" 48 1787 1802 "coeff.ml" 53 1920 1926
+)
+"coeff.ml" 48 1787 1808 "coeff.ml" 48 1787 1809
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 48 1787 1798 "coeff.ml" 48 1787 1799
+)
+"coeff.ml" 49 1815 1824 "coeff.ml" 49 1815 1825
+type(
+  Scalar.t
+)
+"coeff.ml" 49 1815 1817 "coeff.ml" 49 1815 1825
+type(
+  union_5
+)
+"coeff.ml" 49 1815 1829 "coeff.ml" 49 1815 1830
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 48 1787 1798 "coeff.ml" 48 1787 1799
+)
+"coeff.ml" 50 1831 1842 "coeff.ml" 50 1831 1843
+type(
+  Interval.t
+)
+ident(
+  def i "coeff.ml" 51 1847 1847 "coeff.ml" 53 1920 1926
+)
+"coeff.ml" 50 1831 1833 "coeff.ml" 50 1831 1843
+type(
+  union_5
+)
+"coeff.ml" 51 1847 1850 "coeff.ml" 51 1847 1862
+type(
+  Scalar.t -> Scalar.t -> bool
+)
+ident(
+  ext_ref Scalar.equal
+)
+"coeff.ml" 51 1847 1863 "coeff.ml" 51 1847 1864
+type(
+  Interval.t
+)
+ident(
+  int_ref i "coeff.ml" 50 1831 1842 "coeff.ml" 50 1831 1843
+)
+"coeff.ml" 51 1847 1863 "coeff.ml" 51 1847 1877
+type(
+  Scalar.t
+)
+"coeff.ml" 51 1847 1878 "coeff.ml" 51 1847 1879
+type(
+  Interval.t
+)
+ident(
+  int_ref i "coeff.ml" 50 1831 1842 "coeff.ml" 50 1831 1843
+)
+"coeff.ml" 51 1847 1878 "coeff.ml" 51 1847 1892
+type(
+  Scalar.t
+)
+"coeff.ml" 51 1847 1850 "coeff.ml" 51 1847 1892
+call(
+  stack
+)
+type(
+  bool
+)
+"coeff.ml" 52 1893 1905 "coeff.ml" 52 1893 1906
+type(
+  Interval.t
+)
+ident(
+  int_ref i "coeff.ml" 50 1831 1842 "coeff.ml" 50 1831 1843
+)
+"coeff.ml" 52 1893 1905 "coeff.ml" 52 1893 1919
+type(
+  Scalar.t
+)
+"coeff.ml" 52 1893 1898 "coeff.ml" 52 1893 1919
+type(
+  union_5
+)
+"coeff.ml" 53 1920 1925 "coeff.ml" 53 1920 1926
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 48 1787 1798 "coeff.ml" 48 1787 1799
+)
+"coeff.ml" 51 1847 1847 "coeff.ml" 53 1920 1926
+type(
+  union_5
+)
+"coeff.ml" 48 1787 1802 "coeff.ml" 53 1920 1926
+type(
+  union_5
+)
+"coeff.ml" 54 1927 1931 "coeff.ml" 54 1927 1936
+type(
+  Format.formatter -> union_5 -> unit
+)
+ident(
+  def print "coeff.ml" 56 1991 2027 "coeff.ml" 1 0 -1
+)
+"coeff.ml" 54 1927 1937 "coeff.ml" 54 1927 1940
+type(
+  Format.formatter
+)
+ident(
+  def fmt "coeff.ml" 54 1927 1941 "coeff.ml" 56 1991 2027
+)
+"coeff.ml" 54 1927 1941 "coeff.ml" 54 1927 1942
+type(
+  union_5
+)
+ident(
+  def c "coeff.ml" 54 1927 1945 "coeff.ml" 56 1991 2027
+)
+"coeff.ml" 54 1927 1951 "coeff.ml" 54 1927 1952
+type(
+  union_5
+)
+ident(
+  int_ref c "coeff.ml" 54 1927 1941 "coeff.ml" 54 1927 1942
+)
+"coeff.ml" 55 1958 1967 "coeff.ml" 55 1958 1968
+type(
+  Scalar.t
+)
+ident(
+  def s "coeff.ml" 55 1958 1972 "coeff.ml" 55 1958 1990
+)
+"coeff.ml" 55 1958 1960 "coeff.ml" 55 1958 1968
+type(
+  union_5
+)
+"coeff.ml" 55 1958 1972 "coeff.ml" 55 1958 1984
+type(
+  Format.formatter -> Scalar.t -> unit
+)
+ident(
+  ext_ref Scalar.print
+)
+"coeff.ml" 55 1958 1985 "coeff.ml" 55 1958 1988
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "coeff.ml" 54 1927 1937 "coeff.ml" 54 1927 1940
+)
+"coeff.ml" 55 1958 1989 "coeff.ml" 55 1958 1990
+type(
+  Scalar.t
+)
+ident(
+  int_ref s "coeff.ml" 55 1958 1967 "coeff.ml" 55 1958 1968
+)
+"coeff.ml" 55 1958 1972 "coeff.ml" 55 1958 1990
+call(
+  tail
+)
+type(
+  unit
+)
+"coeff.ml" 56 1991 2002 "coeff.ml" 56 1991 2003
+type(
+  Interval.t
+)
+ident(
+  def i "coeff.ml" 56 1991 2007 "coeff.ml" 56 1991 2027
+)
+"coeff.ml" 56 1991 1993 "coeff.ml" 56 1991 2003
+type(
+  union_5
+)
+"coeff.ml" 56 1991 2007 "coeff.ml" 56 1991 2021
+type(
+  Format.formatter -> Interval.t -> unit
+)
+ident(
+  ext_ref Interval.print
+)
+"coeff.ml" 56 1991 2022 "coeff.ml" 56 1991 2025
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "coeff.ml" 54 1927 1937 "coeff.ml" 54 1927 1940
+)
+"coeff.ml" 56 1991 2026 "coeff.ml" 56 1991 2027
+type(
+  Interval.t
+)
+ident(
+  int_ref i "coeff.ml" 56 1991 2002 "coeff.ml" 56 1991 2003
+)
+"coeff.ml" 56 1991 2007 "coeff.ml" 56 1991 2027
+call(
+  tail
+)
+type(
+  unit
+)
+"coeff.ml" 54 1927 1945 "coeff.ml" 56 1991 2027
+type(
+  unit
+)

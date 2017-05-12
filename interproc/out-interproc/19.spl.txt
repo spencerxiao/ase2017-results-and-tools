@@ -1,0 +1,45 @@
+[32mAnnotated program after forward analysis[m
+var m : int, n : int, x : int, y : int;
+begin
+  /* [31m(L2 C5) [|y=0 mod 1; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  m = [-inf; inf]; /* [31m(L3 C13)
+                      [|y=0 mod 1; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  n = [-inf; inf]; /* [31m(L4 C13)
+                      [|y=0 mod 1; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  assume n >= 0; /* [31m(L5 C18)
+                    [|n>=0; y=0 mod 1; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  assume m >= 0; /* [31m(L6 C18)
+                    [|n>=0; m>=0; y=0 mod 1; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  assume m < n; /* [31m(L7 C17)
+                   [|-m+n-1>=0; m>=0; y=0 mod 1; x=0 mod 1; n=0 mod 1;
+                     m=0 mod 1|][m */
+  x = 0; /* [31m(L8 C8)
+            [|x=0; -m+n-1>=0; m>=0; y=0 mod 1; x=0; n=0 mod 1; m=0 mod 1|][m */
+  y = m; /* [31m(L9 C8)
+            [|-m+y>=0; -m+n-1>=0; -x+y>=0; n-x>=0; m+x-y>=0; y=0 mod 1;
+              x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  while x < n do
+    /* [31m(L11 C18)
+       [|-m+y>=0; -m+n-1>=0; -x+y>=0; n-x-1>=0; m+x-y>=0; y=0 mod 1;
+         x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+    x = x +_i,? 1; /* [31m(L12 C16)
+                      [|-m+y>=0; -m+n-1>=0; -x+y+1>=0; n-x>=0; m+x-y-1>=0;
+                        y=0 mod 1; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+    if x > m then
+      /* [31m(L13 C19)
+         [|-m+x-1>=0; -x+y+1>=0; n-x>=0; m+x-y-1>=0; y=0 mod 1; x=0 mod 1;
+           n=0 mod 1; m=0 mod 1|][m */
+      y = y +_i,? 1; /* [31m(L14 C18)
+                        [|-m+x-1>=0; -x+y>=0; n-x>=0; m+x-y>=0; y=0 mod 1;
+                          x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+    endif; /* [31m(L15 C10)
+              [|-m+y>=0; -m+n-1>=0; -x+y>=0; x-1>=0; n-x>=0; m+x-y>=0;
+                y=0 mod 1; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  done; /* [31m(L16 C7)
+           [|-n+x=0; -m+n-1>=0; -n+y>=0; m+n-y>=0; y=0 mod 1; -n+x=0;
+             n=0 mod 1; m=0 mod 1|][m */
+  assume y == n; /* [31m(L18 C18)
+                    [|-n+y=0; -n+x=0; -m+n-1>=0; m>=0; -n+y=0; -n+x=0;
+                      n=0 mod 1; m=0 mod 1|][m */
+end
+

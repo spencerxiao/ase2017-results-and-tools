@@ -1,0 +1,15 @@
+digraph ARG {
+node [style="filled" shape="box" color="white"]
+0 [fillcolor="cornflowerblue" label="0 @ N8\nmain entry\nAbstractionState: ABS0: true\n" id="0"]
+22 [fillcolor="cornflowerblue" label="22 @ N12\nmain\nAbstractionState: ABS5\n" id="22"]
+28 [label="28 @ N7\nmain exit\n" id="28"]
+31 [fillcolor="cornflowerblue" label="31 @ N12\nmain\nAbstractionState: ABS7\n" id="31"]
+37 [label="37 @ N7\nmain exit\n" id="37"]
+40 [fillcolor="green" label="40 @ N12\nmain\nAbstractionState: ABS9\n" id="40"]
+0 -> 22 []
+22 -> 31 []
+22 -> 28 []
+40 -> 31 [style="dashed" weight="0" label="covered by"]
+31 -> 40 []
+31 -> 37 []
+}

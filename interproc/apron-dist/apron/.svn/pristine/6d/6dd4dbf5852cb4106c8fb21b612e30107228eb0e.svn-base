@@ -1,0 +1,10 @@
+package "ppl" (
+requires = "apron.apron"
+archive(byte) = "ppl.cma"
+archive(native) = "ppl.cmxa"
+)
+package "polkaGrid" (
+requires = "apron.apron apron.ppl apron.polkaMPQ"
+archive(byte) = "polkaGrid.cma"
+archive(native) = "polkaGrid.cmxa"
+)

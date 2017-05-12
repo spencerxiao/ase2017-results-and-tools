@@ -1,0 +1,18 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteI.ml" 6 91 99 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteI.ml" 6 91 106
+type(
+  int -> int -> int
+)
+ident(
+  def compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteI.ml" 6 91 110 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteI.ml" 7 111 116
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteI.ml" 6 91 107 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteI.ml" 6 91 110
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteI.ml" 3 47 55 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/setteI.ml" 8 117 118
+call(
+  stack
+)

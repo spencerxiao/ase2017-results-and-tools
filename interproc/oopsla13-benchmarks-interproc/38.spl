@@ -1,0 +1,18 @@
+var x:int, y:int, i:int, n:int;
+begin
+  x = 0;
+  y = 0;
+  i = 0;
+  n = random;
+  while (i < n) do
+    i = i +_i 1;
+    x = x +_i 1;
+    if (i %_i 2 == 0) then 
+      y = y +_i 1;
+    endif;
+  done;
+
+  if (i %_i 2 == 0) then
+    assume (x == 2 *_i y);
+  endif;
+end

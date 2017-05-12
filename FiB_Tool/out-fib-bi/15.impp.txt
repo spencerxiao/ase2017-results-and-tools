@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (k >= 0)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 18
+interp: (and (not (<= k (- 1))) (and (not (<= 1 (+ n (+ (* (- 1) j) (* (- 1) k))))) (not (<= 0 (+ n (+ (* (- 1) j) (* (- 1) k)))))))
+The assertion is satisfied!
+forward [4] times, backtrack [2] times
+backward [4] times, backtrack [2] times

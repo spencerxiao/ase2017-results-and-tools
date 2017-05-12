@@ -1,0 +1,573 @@
+"polkaGrid.ml" 22 847 851 "polkaGrid.ml" 22 847 871
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_polkagrid "polkaGrid.ml" 29 1039 1039 "polkaGrid.ml" 1 0 -1
+)
+"polkaGrid.ml" 22 847 872 "polkaGrid.ml" 22 847 875
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polkaGrid.ml" 23 878 880 "polkaGrid.ml" 28 1001 1038
+)
+"polkaGrid.ml" 23 878 884 "polkaGrid.ml" 23 878 887
+type(
+  string
+)
+ident(
+  def str "polkaGrid.ml" 24 923 925 "polkaGrid.ml" 28 1001 1038
+)
+"polkaGrid.ml" 23 878 890 "polkaGrid.ml" 23 878 915
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"polkaGrid.ml" 23 878 916 "polkaGrid.ml" 23 878 919
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polkaGrid.ml" 22 847 872 "polkaGrid.ml" 22 847 875
+)
+"polkaGrid.ml" 23 878 890 "polkaGrid.ml" 23 878 919
+type(
+  string
+)
+"polkaGrid.ml" 24 923 929 "polkaGrid.ml" 24 923 932
+type(
+  string
+)
+ident(
+  def str "polkaGrid.ml" 28 1001 1003 "polkaGrid.ml" 28 1001 1038
+)
+"polkaGrid.ml" 25 935 943 "polkaGrid.ml" 25 935 953
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"polkaGrid.ml" 25 935 954 "polkaGrid.ml" 25 935 957
+type(
+  string
+)
+ident(
+  int_ref str "polkaGrid.ml" 23 878 884 "polkaGrid.ml" 23 878 887
+)
+"polkaGrid.ml" 25 935 958 "polkaGrid.ml" 25 935 959
+type(
+  int
+)
+"polkaGrid.ml" 25 935 960 "polkaGrid.ml" 25 935 961
+type(
+  int
+)
+"polkaGrid.ml" 25 935 943 "polkaGrid.ml" 25 935 961
+call(
+  stack
+)
+type(
+  string
+)
+"polkaGrid.ml" 26 962 988 "polkaGrid.ml" 26 962 989
+type(
+  string
+)
+"polkaGrid.ml" 26 962 971 "polkaGrid.ml" 26 962 989
+type(
+  exn
+)
+"polkaGrid.ml" 26 962 993 "polkaGrid.ml" 26 962 995
+type(
+  string
+)
+"polkaGrid.ml" 25 935 939 "polkaGrid.ml" 26 962 995
+type(
+  string
+)
+"polkaGrid.ml" 28 1001 1004 "polkaGrid.ml" 28 1001 1018
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"polkaGrid.ml" 28 1001 1019 "polkaGrid.ml" 28 1001 1022
+type(
+  String.t
+)
+ident(
+  int_ref str "polkaGrid.ml" 24 923 929 "polkaGrid.ml" 24 923 932
+)
+"polkaGrid.ml" 28 1001 1023 "polkaGrid.ml" 28 1001 1034
+type(
+  String.t
+)
+"polkaGrid.ml" 28 1001 1003 "polkaGrid.ml" 28 1001 1035
+call(
+  stack
+)
+type(
+  int
+)
+"polkaGrid.ml" 28 1001 1035 "polkaGrid.ml" 28 1001 1037
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"polkaGrid.ml" 28 1001 1037 "polkaGrid.ml" 28 1001 1038
+type(
+  int
+)
+"polkaGrid.ml" 28 1001 1003 "polkaGrid.ml" 28 1001 1038
+type(
+  bool
+)
+"polkaGrid.ml" 24 923 925 "polkaGrid.ml" 28 1001 1038
+type(
+  bool
+)
+"polkaGrid.ml" 23 878 880 "polkaGrid.ml" 28 1001 1038
+type(
+  bool
+)
+"polkaGrid.ml" 29 1039 1043 "polkaGrid.ml" 29 1039 1063
+type(
+  'a t Apron.Manager.t -> 'b Apron.Manager.t
+)
+ident(
+  def manager_of_polkagrid "polkaGrid.ml" 30 1128 1128 "polkaGrid.ml" 1 0 -1
+)
+"polkaGrid.ml" 29 1039 1065 "polkaGrid.ml" 29 1039 1068
+type(
+  'a t Apron.Manager.t
+)
+ident(
+  def man "polkaGrid.ml" 29 1039 1091 "polkaGrid.ml" 29 1039 1127
+)
+"polkaGrid.ml" 29 1039 1114 "polkaGrid.ml" 29 1039 1123
+type(
+  'a t Apron.Manager.t -> 'b Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polkaGrid.ml" 29 1039 1124 "polkaGrid.ml" 29 1039 1127
+type(
+  'a t Apron.Manager.t
+)
+ident(
+  int_ref man "polkaGrid.ml" 29 1039 1065 "polkaGrid.ml" 29 1039 1068
+)
+"polkaGrid.ml" 29 1039 1114 "polkaGrid.ml" 29 1039 1127
+type(
+  'b Apron.Manager.t
+)
+type(
+  'b Apron.Manager.t
+)
+"polkaGrid.ml" 30 1128 1132 "polkaGrid.ml" 30 1128 1152
+type(
+  'a Apron.Manager.t -> 'b t Apron.Manager.t
+)
+ident(
+  def manager_to_polkagrid "polkaGrid.ml" 36 1351 1351 "polkaGrid.ml" 1 0 -1
+)
+"polkaGrid.ml" 30 1128 1154 "polkaGrid.ml" 30 1128 1157
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polkaGrid.ml" 30 1128 1178 "polkaGrid.ml" 34 1263 1349
+)
+"polkaGrid.ml" 31 1203 1208 "polkaGrid.ml" 31 1203 1228
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polkagrid "polkaGrid.ml" 22 847 851 "polkaGrid.ml" 22 847 871
+)
+"polkaGrid.ml" 31 1203 1229 "polkaGrid.ml" 31 1203 1232
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polkaGrid.ml" 30 1128 1154 "polkaGrid.ml" 30 1128 1157
+)
+"polkaGrid.ml" 31 1203 1208 "polkaGrid.ml" 31 1203 1232
+call(
+  stack
+)
+type(
+  bool
+)
+"polkaGrid.ml" 32 1238 1242 "polkaGrid.ml" 32 1238 1251
+type(
+  'a Apron.Manager.t -> 'b t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polkaGrid.ml" 32 1238 1252 "polkaGrid.ml" 32 1238 1255
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polkaGrid.ml" 30 1128 1154 "polkaGrid.ml" 30 1128 1157
+)
+"polkaGrid.ml" 32 1238 1242 "polkaGrid.ml" 32 1238 1255
+type(
+  'b t Apron.Manager.t
+)
+"polkaGrid.ml" 34 1263 1267 "polkaGrid.ml" 34 1263 1275
+type(
+  string -> 'b t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polkaGrid.ml" 34 1263 1276 "polkaGrid.ml" 34 1263 1349
+type(
+  string
+)
+"polkaGrid.ml" 34 1263 1267 "polkaGrid.ml" 34 1263 1349
+call(
+  tail
+)
+type(
+  'b t Apron.Manager.t
+)
+"polkaGrid.ml" 31 1203 1205 "polkaGrid.ml" 34 1263 1349
+type(
+  'b t Apron.Manager.t
+)
+type(
+  'b t Apron.Manager.t
+)
+"polkaGrid.ml" 37 1377 1383 "polkaGrid.ml" 37 1377 1395
+type(
+  'a Apron.Abstract0.t -> bool
+)
+ident(
+  def is_polkagrid "polkaGrid.ml" 39 1457 1459 "polkaGrid.ml" 45 1771 1774
+)
+"polkaGrid.ml" 37 1377 1396 "polkaGrid.ml" 37 1377 1399
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  def abs "polkaGrid.ml" 38 1402 1406 "polkaGrid.ml" 38 1402 1456
+)
+"polkaGrid.ml" 38 1402 1406 "polkaGrid.ml" 38 1402 1426
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polkagrid "polkaGrid.ml" 22 847 851 "polkaGrid.ml" 22 847 871
+)
+"polkaGrid.ml" 38 1402 1428 "polkaGrid.ml" 38 1402 1451
+type(
+  'a Apron.Abstract0.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"polkaGrid.ml" 38 1402 1452 "polkaGrid.ml" 38 1402 1455
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polkaGrid.ml" 37 1377 1396 "polkaGrid.ml" 37 1377 1399
+)
+"polkaGrid.ml" 38 1402 1427 "polkaGrid.ml" 38 1402 1456
+type(
+  'a Apron.Manager.t
+)
+"polkaGrid.ml" 38 1402 1406 "polkaGrid.ml" 38 1402 1456
+call(
+  tail
+)
+type(
+  bool
+)
+"polkaGrid.ml" 39 1457 1463 "polkaGrid.ml" 39 1457 1475
+type(
+  'a0 t Apron.Abstract0.t -> 'b Apron.Abstract0.t
+)
+ident(
+  def of_polkagrid "polkaGrid.ml" 40 1545 1547 "polkaGrid.ml" 45 1771 1774
+)
+"polkaGrid.ml" 39 1457 1477 "polkaGrid.ml" 39 1457 1480
+type(
+  'a0 t Apron.Abstract0.t
+)
+ident(
+  def abs "polkaGrid.ml" 39 1457 1506 "polkaGrid.ml" 39 1457 1544
+)
+"polkaGrid.ml" 39 1457 1531 "polkaGrid.ml" 39 1457 1540
+type(
+  'a0 t Apron.Abstract0.t -> 'b Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polkaGrid.ml" 39 1457 1541 "polkaGrid.ml" 39 1457 1544
+type(
+  'a0 t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polkaGrid.ml" 39 1457 1477 "polkaGrid.ml" 39 1457 1480
+)
+"polkaGrid.ml" 39 1457 1531 "polkaGrid.ml" 39 1457 1544
+type(
+  'b Apron.Abstract0.t
+)
+type(
+  'b Apron.Abstract0.t
+)
+"polkaGrid.ml" 40 1545 1551 "polkaGrid.ml" 40 1545 1563
+type(
+  'a1 Apron.Abstract0.t -> 'b0 t Apron.Abstract0.t
+)
+ident(
+  def to_polkagrid "polkaGrid.ml" 44 1676 1770 "polkaGrid.ml" 45 1771 1774
+)
+"polkaGrid.ml" 40 1545 1565 "polkaGrid.ml" 40 1545 1568
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  def abs "polkaGrid.ml" 40 1545 1591 "polkaGrid.ml" 44 1676 1770
+)
+"polkaGrid.ml" 41 1618 1625 "polkaGrid.ml" 41 1618 1637
+type(
+  'a1 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_polkagrid "polkaGrid.ml" 37 1377 1383 "polkaGrid.ml" 37 1377 1395
+)
+"polkaGrid.ml" 41 1618 1638 "polkaGrid.ml" 41 1618 1641
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polkaGrid.ml" 40 1545 1565 "polkaGrid.ml" 40 1545 1568
+)
+"polkaGrid.ml" 41 1618 1625 "polkaGrid.ml" 41 1618 1641
+call(
+  stack
+)
+type(
+  bool
+)
+"polkaGrid.ml" 42 1647 1653 "polkaGrid.ml" 42 1647 1662
+type(
+  'a1 Apron.Abstract0.t -> 'b0 t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polkaGrid.ml" 42 1647 1663 "polkaGrid.ml" 42 1647 1666
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polkaGrid.ml" 40 1545 1565 "polkaGrid.ml" 40 1545 1568
+)
+"polkaGrid.ml" 42 1647 1653 "polkaGrid.ml" 42 1647 1666
+type(
+  'b0 t Apron.Abstract0.t
+)
+"polkaGrid.ml" 44 1676 1682 "polkaGrid.ml" 44 1676 1690
+type(
+  string -> 'b0 t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polkaGrid.ml" 44 1676 1691 "polkaGrid.ml" 44 1676 1770
+type(
+  string
+)
+"polkaGrid.ml" 44 1676 1682 "polkaGrid.ml" 44 1676 1770
+call(
+  tail
+)
+type(
+  'b0 t Apron.Abstract0.t
+)
+"polkaGrid.ml" 41 1618 1622 "polkaGrid.ml" 44 1676 1770
+type(
+  'b0 t Apron.Abstract0.t
+)
+type(
+  'b0 t Apron.Abstract0.t
+)
+"polkaGrid.ml" 48 1802 1808 "polkaGrid.ml" 48 1802 1820
+type(
+  'a Apron.Abstract1.t -> bool
+)
+ident(
+  def is_polkagrid "polkaGrid.ml" 50 1882 1884 "polkaGrid.ml" 56 2196 2199
+)
+"polkaGrid.ml" 48 1802 1821 "polkaGrid.ml" 48 1802 1824
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  def abs "polkaGrid.ml" 49 1827 1831 "polkaGrid.ml" 49 1827 1881
+)
+"polkaGrid.ml" 49 1827 1831 "polkaGrid.ml" 49 1827 1851
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polkagrid "polkaGrid.ml" 22 847 851 "polkaGrid.ml" 22 847 871
+)
+"polkaGrid.ml" 49 1827 1853 "polkaGrid.ml" 49 1827 1876
+type(
+  'a Apron.Abstract1.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"polkaGrid.ml" 49 1827 1877 "polkaGrid.ml" 49 1827 1880
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polkaGrid.ml" 48 1802 1821 "polkaGrid.ml" 48 1802 1824
+)
+"polkaGrid.ml" 49 1827 1852 "polkaGrid.ml" 49 1827 1881
+call(
+  stack
+)
+type(
+  'a Apron.Manager.t
+)
+"polkaGrid.ml" 49 1827 1831 "polkaGrid.ml" 49 1827 1881
+call(
+  tail
+)
+type(
+  bool
+)
+"polkaGrid.ml" 50 1882 1888 "polkaGrid.ml" 50 1882 1900
+type(
+  'a0 t Apron.Abstract1.t -> 'b Apron.Abstract1.t
+)
+ident(
+  def of_polkagrid "polkaGrid.ml" 51 1970 1972 "polkaGrid.ml" 56 2196 2199
+)
+"polkaGrid.ml" 50 1882 1902 "polkaGrid.ml" 50 1882 1905
+type(
+  'a0 t Apron.Abstract1.t
+)
+ident(
+  def abs "polkaGrid.ml" 50 1882 1931 "polkaGrid.ml" 50 1882 1969
+)
+"polkaGrid.ml" 50 1882 1956 "polkaGrid.ml" 50 1882 1965
+type(
+  'a0 t Apron.Abstract1.t -> 'b Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polkaGrid.ml" 50 1882 1966 "polkaGrid.ml" 50 1882 1969
+type(
+  'a0 t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polkaGrid.ml" 50 1882 1902 "polkaGrid.ml" 50 1882 1905
+)
+"polkaGrid.ml" 50 1882 1956 "polkaGrid.ml" 50 1882 1969
+type(
+  'b Apron.Abstract1.t
+)
+type(
+  'b Apron.Abstract1.t
+)
+"polkaGrid.ml" 51 1970 1976 "polkaGrid.ml" 51 1970 1988
+type(
+  'a1 Apron.Abstract1.t -> 'b0 t Apron.Abstract1.t
+)
+ident(
+  def to_polkagrid "polkaGrid.ml" 55 2101 2195 "polkaGrid.ml" 56 2196 2199
+)
+"polkaGrid.ml" 51 1970 1990 "polkaGrid.ml" 51 1970 1993
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  def abs "polkaGrid.ml" 51 1970 2016 "polkaGrid.ml" 55 2101 2195
+)
+"polkaGrid.ml" 52 2043 2050 "polkaGrid.ml" 52 2043 2062
+type(
+  'a1 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_polkagrid "polkaGrid.ml" 48 1802 1808 "polkaGrid.ml" 48 1802 1820
+)
+"polkaGrid.ml" 52 2043 2063 "polkaGrid.ml" 52 2043 2066
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polkaGrid.ml" 51 1970 1990 "polkaGrid.ml" 51 1970 1993
+)
+"polkaGrid.ml" 52 2043 2050 "polkaGrid.ml" 52 2043 2066
+call(
+  stack
+)
+type(
+  bool
+)
+"polkaGrid.ml" 53 2072 2078 "polkaGrid.ml" 53 2072 2087
+type(
+  'a1 Apron.Abstract1.t -> 'b0 t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polkaGrid.ml" 53 2072 2088 "polkaGrid.ml" 53 2072 2091
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polkaGrid.ml" 51 1970 1990 "polkaGrid.ml" 51 1970 1993
+)
+"polkaGrid.ml" 53 2072 2078 "polkaGrid.ml" 53 2072 2091
+type(
+  'b0 t Apron.Abstract1.t
+)
+"polkaGrid.ml" 55 2101 2107 "polkaGrid.ml" 55 2101 2115
+type(
+  string -> 'b0 t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polkaGrid.ml" 55 2101 2116 "polkaGrid.ml" 55 2101 2195
+type(
+  string
+)
+"polkaGrid.ml" 55 2101 2107 "polkaGrid.ml" 55 2101 2195
+call(
+  tail
+)
+type(
+  'b0 t Apron.Abstract1.t
+)
+"polkaGrid.ml" 52 2043 2047 "polkaGrid.ml" 55 2101 2195
+type(
+  'b0 t Apron.Abstract1.t
+)
+type(
+  'b0 t Apron.Abstract1.t
+)

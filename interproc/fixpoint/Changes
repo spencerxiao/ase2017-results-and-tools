@@ -1,0 +1,32 @@
+
+Release 2.3.2
+=============
+
+- addition of an experimental FixpointThreshold module.
+
+- support for typerex files and prof target in Makefile
+
+Release 2.3.1
+=============
+
+- "diff" mode in ascending sequence (only overapproximated
+  difference is propagated), enabled by the existence of a diff
+  function.
+
+- (Uncompatible) change in the Ilist.t type of the required library camllib, required for the next change
+
+- widening_start and widening_descend parameters integrated in
+  strategies rather than being global parameters.
+
+Release 2.3.0
+=============
+
+- Switched to FINDLIB system.
+
+Release 2.2.0
+=============
+
+- Improved debugging display
+- Removed widening_first and widening_freq options
+  (First one superseded by guided, and second one not sound as is)
+- Fixed a bug in FixpointStd/FixpointDyn

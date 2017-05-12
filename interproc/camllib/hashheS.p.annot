@@ -1,0 +1,32 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 6 100 108 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 6 100 112
+type(
+  'a -> int
+)
+ident(
+  def hash "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 7 128 132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 8 146 151
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 6 100 115 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 6 100 127
+type(
+  'a -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 7 128 136 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 7 128 141
+type(
+  'b -> 'b -> bool
+)
+ident(
+  def equal "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 7 128 145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 8 146 151
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 7 128 142 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 7 128 145
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 3 51 59 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/hashheS.ml" 9 152 153
+call(
+  stack
+)

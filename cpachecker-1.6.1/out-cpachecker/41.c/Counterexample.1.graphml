@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <key attr.name="originFileName" attr.type="string" for="edge" id="originfile">
+  <default>/home/spencerxiao/Experiments/tacas17/cpachecker-1.6.1/benchmarks/41.c</default>
+ </key>
+ <key attr.name="invariant" attr.type="string" for="node" id="invariant"/>
+ <key attr.name="invariant.scope" attr.type="string" for="node" id="invariant.scope"/>
+ <key attr.name="namedValue" attr.type="string" for="node" id="named"/>
+ <key attr.name="nodeType" attr.type="string" for="node" id="nodetype">
+  <default>path</default>
+ </key>
+ <key attr.name="isFrontierNode" attr.type="boolean" for="node" id="frontier">
+  <default>false</default>
+ </key>
+ <key attr.name="isViolationNode" attr.type="boolean" for="node" id="violation">
+  <default>false</default>
+ </key>
+ <key attr.name="isEntryNode" attr.type="boolean" for="node" id="entry">
+  <default>false</default>
+ </key>
+ <key attr.name="isSinkNode" attr.type="boolean" for="node" id="sink">
+  <default>false</default>
+ </key>
+ <key attr.name="isLoopHead" attr.type="boolean" for="node" id="loopHead">
+  <default>false</default>
+ </key>
+ <key attr.name="violatedProperty" attr.type="string" for="node" id="violatedProperty"/>
+ <key attr.name="threadId" attr.type="string" for="edge" id="threadId"/>
+ <key attr.name="sourcecodeLanguage" attr.type="string" for="graph" id="sourcecodelang"/>
+ <key attr.name="programFile" attr.type="string" for="graph" id="programfile"/>
+ <key attr.name="programHash" attr.type="string" for="graph" id="programhash"/>
+ <key attr.name="specification" attr.type="string" for="graph" id="specification"/>
+ <key attr.name="memoryModel" attr.type="string" for="graph" id="memorymodel"/>
+ <key attr.name="architecture" attr.type="string" for="graph" id="architecture"/>
+ <key attr.name="producer" attr.type="string" for="graph" id="producer"/>
+ <key attr.name="sourcecode" attr.type="string" for="edge" id="sourcecode"/>
+ <key attr.name="startline" attr.type="int" for="edge" id="startline"/>
+ <key attr.name="startoffset" attr.type="int" for="edge" id="startoffset"/>
+ <key attr.name="lineColSet" attr.type="string" for="edge" id="lineCols"/>
+ <key attr.name="control" attr.type="string" for="edge" id="control"/>
+ <key attr.name="assumption" attr.type="string" for="edge" id="assumption"/>
+ <key attr.name="assumption.scope" attr.type="string" for="edge" id="assumption.scope"/>
+ <key attr.name="enterFunction" attr.type="string" for="edge" id="enterFunction"/>
+ <key attr.name="returnFromFunction" attr.type="string" for="edge" id="returnFrom"/>
+ <key attr.name="predecessor" attr.type="string" for="edge" id="predecessor"/>
+ <key attr.name="successor" attr.type="string" for="edge" id="successor"/>
+ <key attr.name="witness-type" attr.type="string" for="graph" id="witness-type"/>
+ <graph edgedefault="directed">
+  <data key="witness-type">violation_witness</data>
+  <data key="sourcecodelang">C</data>
+  <data key="producer">CPAchecker 1.6.1</data>
+  <data key="programfile">/home/spencerxiao/Experiments/tacas17/cpachecker-1.6.1/benchmarks/41.c</data>
+  <data key="programhash">e20113d399094532e022bb43f1d408144e054de7</data>
+  <data key="memorymodel">precise</data>
+  <data key="architecture">32bit</data>
+  <node id="A0">
+   <data key="entry">true</data>
+  </node>
+  <node id="A32">
+   <data key="loopHead">true</data>
+  </node>
+  <edge source="A0" target="A32">
+   <data key="sourcecode">__VERIFIER_assume(n&gt;=0);</data>
+   <data key="startline">13</data>
+   <data key="startoffset">250</data>
+   <data key="enterFunction">__VERIFIER_assume</data>
+  </edge>
+  <node id="A62"/>
+  <edge source="A32" target="A62">
+   <data key="sourcecode">[!(i == 0)]</data>
+   <data key="startline">5</data>
+   <data key="startoffset">83</data>
+   <data key="control">condition-false</data>
+  </edge>
+  <node id="sink">
+   <data key="sink">true</data>
+  </node>
+  <edge source="A32" target="sink">
+   <data key="sourcecode">[i == 0]</data>
+   <data key="startline">5</data>
+   <data key="startoffset">83</data>
+   <data key="control">condition-true</data>
+  </edge>
+  <node id="A63"/>
+  <edge source="A62" target="A63">
+   <data key="sourcecode">return;</data>
+   <data key="startline">6</data>
+   <data key="startoffset">90</data>
+   <data key="returnFrom">__VERIFIER_assume</data>
+  </edge>
+  <node id="A64"/>
+  <edge source="A63" target="A64">
+   <data key="startline">13</data>
+   <data key="startoffset">232</data>
+  </edge>
+  <node id="A67"/>
+  <edge source="A64" target="A67">
+   <data key="sourcecode">int k = 1;</data>
+   <data key="startline">14</data>
+   <data key="startoffset">260</data>
+  </edge>
+  <node id="A69"/>
+  <edge source="A67" target="A69">
+   <data key="sourcecode">[!(flag == 0)]</data>
+   <data key="startline">15</data>
+   <data key="startoffset">277</data>
+   <data key="control">condition-false</data>
+  </edge>
+  <edge source="A67" target="sink">
+   <data key="sourcecode">[flag == 0]</data>
+   <data key="startline">15</data>
+   <data key="startoffset">277</data>
+   <data key="control">condition-true</data>
+  </edge>
+  <node id="A70"/>
+  <edge source="A69" target="A70">
+   <data key="sourcecode">k = __VERIFIER_nondet_int();</data>
+   <data key="startline">16</data>
+   <data key="startoffset">288</data>
+  </edge>
+  <node id="A71"/>
+  <edge source="A70" target="A71">
+   <data key="sourcecode">assume(k&gt;=0);</data>
+   <data key="startline">17</data>
+   <data key="startoffset">320</data>
+  </edge>
+  <node id="A74_0_2"/>
+  <edge source="A71" target="A74_0_2">
+   <data key="sourcecode">int i = 0, j = 0;</data>
+   <data key="startline">19</data>
+   <data key="startoffset">350</data>
+  </edge>
+  <node id="A74">
+   <data key="loopHead">true</data>
+  </node>
+  <edge source="A74_0_2" target="A74">
+   <data key="sourcecode">int i = 0, j = 0;</data>
+   <data key="startline">19</data>
+   <data key="startoffset">342</data>
+  </edge>
+  <node id="A77"/>
+  <edge source="A74" target="A77">
+   <data key="sourcecode">[i &lt;= n]</data>
+   <data key="startline">20</data>
+   <data key="startoffset">374</data>
+   <data key="control">condition-true</data>
+  </edge>
+  <edge source="A74" target="sink">
+   <data key="sourcecode">[!(i &lt;= n)]</data>
+   <data key="startline">20</data>
+   <data key="startoffset">374</data>
+   <data key="control">condition-false</data>
+  </edge>
+  <node id="A84_1_3"/>
+  <edge source="A77" target="A84_1_3">
+   <data key="sourcecode">i++;</data>
+   <data key="startline">21</data>
+   <data key="startoffset">384</data>
+  </edge>
+  <node id="A84">
+   <data key="loopHead">true</data>
+  </node>
+  <edge source="A84_1_3" target="A84">
+   <data key="sourcecode">j+=i;</data>
+   <data key="startline">22</data>
+   <data key="startoffset">394</data>
+  </edge>
+  <node id="A88"/>
+  <edge source="A84" target="A88">
+   <data key="sourcecode">[!(i &lt;= n)]</data>
+   <data key="startline">20</data>
+   <data key="startoffset">374</data>
+   <data key="control">condition-false</data>
+  </edge>
+  <edge source="A84" target="sink">
+   <data key="sourcecode">[i &lt;= n]</data>
+   <data key="startline">20</data>
+   <data key="startoffset">374</data>
+   <data key="control">condition-true</data>
+  </edge>
+  <node id="A89"/>
+  <edge source="A88" target="A89">
+   <data key="sourcecode">int z = k + i + j;</data>
+   <data key="startline">24</data>
+   <data key="startoffset">408</data>
+  </edge>
+  <node id="A91">
+   <data key="violation">true</data>
+   <data key="loopHead">true</data>
+   <data key="violatedProperty">error label in line 26</data>
+  </node>
+  <edge source="A89" target="A91">
+   <data key="sourcecode">[!(z &gt; (2 * n))]</data>
+   <data key="startline">25</data>
+   <data key="startoffset">441</data>
+   <data key="control">condition-false</data>
+  </edge>
+  <edge source="A89" target="sink">
+   <data key="sourcecode">[z &gt; (2 * n)]</data>
+   <data key="startline">25</data>
+   <data key="startoffset">441</data>
+   <data key="control">condition-true</data>
+  </edge>
+ </graph>
+</graphml>

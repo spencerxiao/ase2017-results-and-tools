@@ -1,0 +1,6 @@
+description = "OCaml Interface to GMP and MPFR libraries"
+version = "1.2.1"
+requires = "bigarray"
+archive(byte) = "gmp.cma"
+archive(native) = "gmp.cmxa"
+archive(native,gprof) = "gmp.p.cmxa"

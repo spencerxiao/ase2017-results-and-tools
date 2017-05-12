@@ -1,0 +1,28 @@
+(declare-fun |main::n| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |main::i| () Int)
+(declare-fun |main::j| () Int)
+
+main:
+(assert (>= |main::k| |main::n|))
+
+main N6:
+(assert (<= |main::i| |main::k|))
+(assert (>= |main::k| |main::n|))
+(assert (<= 0 (+ |main::i| (- 1))))
+(assert false)
+(assert (<= 0 (+ |main::k| (- 1))))
+(assert (<= 0 (+ |main::i| (- 2))))
+
+main N10:
+(assert (<= |main::j| (+ |main::i| (- 1))))
+(assert (>= |main::k| |main::n|))
+(assert (<= |main::j| (+ |main::k| (- 1))))
+(assert (<= |main::i| (+ |main::k| (- 1))))
+(assert (<= 0 (+ |main::i| (- 1))))
+(assert (<= |main::j| (+ |main::i| (- 2))))
+
+main N22:
+(assert false)
+(assert (>= |main::k| |main::n|))
+

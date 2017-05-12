@@ -1,0 +1,34 @@
+About
+=====
+Interprocedural static analyzer for an academic imperative language with
+numerical variables and procedure calls.
+
+Required
+========
+OCaml libraries
+  camllib (http://gforge.inria.fr/projects/bjeannet/)
+  fixpoint (http://gforge.inria.fr/projects/bjeannet/)
+C/OCaml library
+  apron (http://svn.cri.ensmp.fr/apron)
+
+OCaml 3.12.0 or up (OCaml 3.11.0 may work, it depends on APRON library) (http://caml.inria.fr) 
+Camlidl (http://caml.inria.fr/camlidl)
+FINDLIB (http://projects.camlcity.org/projects/findlib.html)
+To configure
+============
+- copy Makefile.config.model into Makefile.config
+- set properly the flags (mainly directories).
+
+- BY DEFAULT, domains requiring that APRON to be compiled with PPL are
+  *DESACTIVATED*. If you want to activate it, uncomment the last lines
+  of frontend.ml
+
+To compile the library:
+=======================
+
+make all: build the bytecode and native versions of the library
+make install: install the two versions 
+make interproc.pdf # documentation of the program
+make manual.pdf    # user's manual
+make html (html/*) # HTML documentation of the program
+

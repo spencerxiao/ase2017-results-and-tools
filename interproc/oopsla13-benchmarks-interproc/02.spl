@@ -1,0 +1,19 @@
+var i:int, j:int, z:int, x:int, y:int, w:int, t1:int;
+begin
+	i = 1;
+	j = 0;
+	z = i-_ij;
+	x = 0;
+	y = 0;
+	w = 0;
+	while(brandom) do
+		t1 = x +_i y +_i w;
+		z = t1 +_i t1;
+		y = y +_i 1;
+		if (z%_i,n 2 == 0) then
+			x = x +_i 1;
+		endif;
+		w = w +_i 2;
+	done;
+	assume (x == y);
+end

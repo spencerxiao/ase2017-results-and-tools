@@ -1,0 +1,33 @@
+[32mAnnotated program after forward analysis[m
+var x : int, m : int, n : int;
+begin
+  /* [31m(L2 C5) [|x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  x = 0; /* [31m(L3 C8) [|x=0; x=0; n=0 mod 1; m=0 mod 1|][m */
+  m = 0; /* [31m(L4 C8) [|x=0; m=0; x=0; n=0 mod 1; m=0|][m */
+  n = [-inf; inf]; /* [31m(L5 C13)
+                      [|-m+x>=0; m>=0; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  while x < n do
+    /* [31m(L6 C18)
+       [|-m+x>=0; n-x-1>=0; m>=0; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+    if brandom then
+      /* [31m(L7 C21)
+         [|-m+x>=0; n-x-1>=0; m>=0; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+      m = x; /* [31m(L8 C12)
+                [|-m+x=0; -m+n-1>=0; m>=0; -m+x=0; n=0 mod 1; m=0 mod 1|][m */
+    endif; /* [31m(L9 C10)
+              [|-m+x>=0; n-x-1>=0; m>=0; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+    x = x +_i,? 1; /* [31m(L10 C16)
+                      [|-m+x-1>=0; n-x>=0; m>=0; x=0 mod 1; n=0 mod 1;
+                        m=0 mod 1|][m */
+  done; /* [31m(L11 C7)
+           [|-m+x>=0; -n+x>=0; m>=0; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+  if n > 0 then
+    /* [31m(L13 C17)
+       [|-m+x>=0; -n+x>=0; n-1>=0; m>=0; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+    assume 0 <= m and m < n; /* [31m(L14 C30)
+                                [|-m+n-1>=0; -n+x>=0; m>=0; x=0 mod 1;
+                                  n=0 mod 1; m=0 mod 1|][m */
+  endif; /* [31m(L15 C8)
+            [|-m+x>=0; -n+x>=0; m>=0; x=0 mod 1; n=0 mod 1; m=0 mod 1|][m */
+end
+

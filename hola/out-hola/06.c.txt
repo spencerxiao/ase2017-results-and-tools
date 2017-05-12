@@ -1,0 +1,26 @@
+===== constant renaming map  ===== 
+Constant : 1	 Variable : $cn0
+
+
+
+Block ID :
+---------------
+b-ID :	3
+is SuperBlock 
+calling context:  
+main function 
+---------------
+[<< loop invariant >>]  : (main::y = main::x& (!main::w%2=0| !main::z%2=0)& (!main::w+1%2=0| !main::z+1%2=0))
+
+
+Block ID :
+---------------
+b-ID :	4
+is SuperBlock 
+calling context:  
+main function 
+---------------
+[<< loop invariant >>]  : (main::y = main::x& (!main::w%2=0| !main::z%2=0)& (!main::w+1%2=0| !main::z+1%2=0))
+
+
+It's safe. :-)

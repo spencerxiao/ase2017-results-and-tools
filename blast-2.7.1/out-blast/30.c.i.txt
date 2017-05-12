@@ -1,0 +1,1270 @@
+BLAST 2.7.1, Copyright (c) 2002-2011, ISPRAS, The BLAST Team.
+Blast was run with the following command line:
+/home/spencerxiao/Experiments/tacas17/blast-2.7.1/bin/pblast.opt -craig 2 -systime -main main /home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i 
+Begin Parsing files: /home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i
+Putting in initializer __BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i
+No reroute info supplied!
+No reroute info supplied!
+Finished Parsing
+Begin Building CFA
+function: __blast_assert
+attr: noreturn
+function: __assert_fail
+attr: leaf
+attr: noreturn
+attr: nothrow
+function: __assert_perror_fail
+attr: leaf
+attr: noreturn
+attr: nothrow
+function: __assert
+attr: leaf
+attr: noreturn
+attr: nothrow
+function: main
+function: __BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i
+Important functions (0): 
+cr Checking for cycles in the call graph.
+cr Done checking for cycles in the call graph.
+Call Graph Paths: 7
+Visited functions: 4
+Visited existing functions: 4
+Finished Building CFA
+No alias analysis done: deferred to the first error found
+cr Checking for cycles in the call graph.
+cr Done checking for cycles in the call graph.
+Call Graph Paths: 7
+Visited functions: 4
+Visited existing functions: 4
+Unknown fun :
+UL> Only trivial lattice enabled
+Initialized Abstraction
+Done adding seed predicates
+
+
+
+********** Now running the model-checker **********
+
+
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+1
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+2
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+3
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+4
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+5
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+6
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+7
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+8
+Now processing tree node:
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+9
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+10
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+11
+Now processing tree node:
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+12
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+13
+Now processing tree node:
+Error candidate found, performing alias analysis...
+Starting the alias analysis
+Finished Building Aliases
+Number of Must aliases: 0
+Finished Building Must Aliases
+Done post-alias-analysis
+back from post_alias_analysis
+Alias analysis completed
+Error found : checking validity.
+counterex. size:9
+block_analyze_trace
+In block_a_t:8
+Op: 0  :0 :: 0: 	 FunctionCall(__BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i()) :: -1
+post-reg: 
+Op: 1  :0 :: 0: 	 Block(Return(0);) :: -1
+post-reg: 
+Op: 2  :-1 :: -1: 	 Skip :: 10
+post-reg: 
+Op: 3  :10 :: 10: 	 Block(i@main = 0;c@main = 0;) :: 12
+post-reg: 
+Op: 4  :12 :: 12: 	 Pred(i@main  >=  1000) :: -1
+post-reg: 
+Op: 5  :17 :: 17: 	 Pred(c@main  <  0) :: -1
+post-reg: 
+Op: 6  :17 :: 17: 	 FunctionCall(__assert_fail(__assertion@__assert_fail = "c>=0",__file@__assert_fail = "/home/spencerxiao/Experiments/tacas17/blast-2.7.1/oopsla13-benchmarks-blast/30.c",__line@__assert_fail = 17,__function@__assert_fail = "main",)) :: -1
+post-reg: 
+Op: 7  :77 :: 77: 	 FunctionCall(__blast_assert()) :: -1
+post-reg: 
+
+
+Starting phase 2
+Cldepth is0
+
+build_block_at_constraint_arrays: start
+Op: 0  :0 :: 0: 	 FunctionCall(__BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i()) :: -1
+post-reg: 
+Op: 1  :0 :: 0: 	 Block(Return(0);) :: -1
+post-reg: 
+Op: 2  :-1 :: -1: 	 Skip :: 10
+post-reg: 
+Op: 3  :10 :: 10: 	 Block(i@main = 0;c@main = 0;) :: 12
+post-reg: 
+Op: 4  :12 :: 12: 	 Pred(i@main  >=  1000) :: -1
+post-reg: 
+Op: 5  :17 :: 17: 	 Pred(c@main  <  0) :: -1
+post-reg: 
+Op: 6  :17 :: 17: 	 FunctionCall(__assert_fail(__assertion@__assert_fail = "c>=0",__file@__assert_fail = "/home/spencerxiao/Experiments/tacas17/blast-2.7.1/oopsla13-benchmarks-blast/30.c",__line@__assert_fail = 17,__function@__assert_fail = "main",)) :: -1
+post-reg: 
+Op: 7  :77 :: 77: 	 FunctionCall(__blast_assert()) :: -1
+post-reg: 
+Loading LV table...
+cons_folder !posn = 7
+cons_folder !posn = 6
+cons_folder !posn = 5
+cons_folder !posn = 4
+cons_folder !posn = 3
+cons_folder !posn = 2
+cons_folder !posn = 1
+cons_folder !posn = 0
+
+
+Starting phase 3
+get_useful_blocks: size =8
+Calling SMT solver for conj of 1 predicates
+Forking SMT sovler process...
+done!
+
+Calling SMT solver for conj of 9 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 3 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 5 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 4 predicates
+Forking CSIsat process with cmdline 'csisatServer -round -int '...
+done!
+
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 9 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 3 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 5 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 4 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 9 predicates
+get_useful_blocks done.
+Conflicting Blocks
+[INF0] 3 : 10: 	 Block(i@main = 0;c@main = 0;)
+[INF0] 4 : 12: 	 Pred(i@main  >=  1000)
+Conflicting Blocks
+[INF1] 3 : 10: 	 Block(i@main = 0;c@main = 0;)
+[INF1] 5 : 17: 	 Pred(c@main  <  0)
+[BAT] Done setting arrays for cutting
+
+
+Starting phase 4
+[BAT] Calling refiner
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+addPred: 0: (gui) adding predicate i@main<=0 to the system
+Calling SMT solver for conj of 1 predicates
+Adding all preds now...
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+-2
+addPred: 1: (gui) adding predicate c@main*-2<=0 to the system
+Calling SMT solver for conj of 1 predicates
+Adding all preds now...
+[BAT] Done refiner
+Non-trivial functions 0
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+14
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+15
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+16
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+17
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+18
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+19
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+20
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+21
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+22
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+23
+Now processing tree node:
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+24
+Now processing tree node:
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+25
+Now processing tree node:
+Error found : checking validity.
+counterex. size:11
+block_analyze_trace
+In block_a_t:10
+Op: 0  :0 :: 0: 	 FunctionCall(__BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i()) :: -1
+post-reg: 
+Op: 1  :0 :: 0: 	 Block(Return(0);) :: -1
+post-reg: 
+Op: 2  :-1 :: -1: 	 Skip :: 10
+post-reg: 
+Op: 3  :10 :: 10: 	 Block(i@main = 0;c@main = 0;) :: 12
+post-reg: 
+Op: 4  :12 :: 12: 	 Pred(i@main  <  1000) :: -1
+post-reg: 
+Op: 5  :13 :: 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;) :: 12
+post-reg: 
+Op: 6  :12 :: 12: 	 Pred(i@main  >=  1000) :: -1
+post-reg: 
+Op: 7  :17 :: 17: 	 Pred(c@main  <  0) :: -1
+post-reg: 
+Op: 8  :17 :: 17: 	 FunctionCall(__assert_fail(__assertion@__assert_fail = "c>=0",__file@__assert_fail = "/home/spencerxiao/Experiments/tacas17/blast-2.7.1/oopsla13-benchmarks-blast/30.c",__line@__assert_fail = 17,__function@__assert_fail = "main",)) :: -1
+post-reg: 
+Op: 9  :77 :: 77: 	 FunctionCall(__blast_assert()) :: -1
+post-reg: 
+
+
+Starting phase 2
+Cldepth is0
+
+build_block_at_constraint_arrays: start
+Op: 0  :0 :: 0: 	 FunctionCall(__BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i()) :: -1
+post-reg: 
+Op: 1  :0 :: 0: 	 Block(Return(0);) :: -1
+post-reg: 
+Op: 2  :-1 :: -1: 	 Skip :: 10
+post-reg: 
+Op: 3  :10 :: 10: 	 Block(i@main = 0;c@main = 0;) :: 12
+post-reg: 
+Op: 4  :12 :: 12: 	 Pred(i@main  <  1000) :: -1
+post-reg: 
+Op: 5  :13 :: 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;) :: 12
+post-reg: 
+Op: 6  :12 :: 12: 	 Pred(i@main  >=  1000) :: -1
+post-reg: 
+Op: 7  :17 :: 17: 	 Pred(c@main  <  0) :: -1
+post-reg: 
+Op: 8  :17 :: 17: 	 FunctionCall(__assert_fail(__assertion@__assert_fail = "c>=0",__file@__assert_fail = "/home/spencerxiao/Experiments/tacas17/blast-2.7.1/oopsla13-benchmarks-blast/30.c",__line@__assert_fail = 17,__function@__assert_fail = "main",)) :: -1
+post-reg: 
+Op: 9  :77 :: 77: 	 FunctionCall(__blast_assert()) :: -1
+post-reg: 
+Loading LV table...
+cons_folder !posn = 9
+cons_folder !posn = 8
+cons_folder !posn = 7
+cons_folder !posn = 6
+cons_folder !posn = 5
+cons_folder !posn = 4
+cons_folder !posn = 3
+cons_folder !posn = 2
+cons_folder !posn = 1
+cons_folder !posn = 0
+
+
+Starting phase 3
+get_useful_blocks: size =10
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 11 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 5 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 3 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 5 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 4 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 11 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 9 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 3 predicates
+Calling SMT solver for conj of 9 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 4 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 5 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 11 predicates
+get_useful_blocks done.
+Conflicting Blocks
+[INF0] 3 : 10: 	 Block(i@main = 0;c@main = 0;)
+[INF0] 5 : 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;)
+[INF0] 7 : 17: 	 Pred(c@main  <  0)
+Conflicting Blocks
+[INF1] 5 : 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;)
+[INF1] 6 : 12: 	 Pred(i@main  >=  1000)
+[BAT] Done setting arrays for cutting
+
+
+Starting phase 4
+[BAT] Calling refiner
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+-2
+-2
+addPred: 2: (gui) adding predicate c@main*-2+i@main*-2<=0 to the system
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+-2
+Calling SMT solver for conj of 1 predicates
+Adding all preds now...
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+2
+addPred: 3: (gui) adding predicate i@main*2<=0 to the system
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+2
+addPred: 4: (gui) adding predicate i@main*2<=2 to the system
+Calling SMT solver for conj of 1 predicates
+Adding all preds now...
+[BAT] Done refiner
+Non-trivial functions 0
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+26
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+27
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+28
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+29
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+30
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+31
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+32
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+33
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+34
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+35
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+36
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+37
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+38
+Now processing tree node:
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+39
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+40
+Now processing tree node:
+Error found : checking validity.
+counterex. size:13
+block_analyze_trace
+In block_a_t:12
+Op: 0  :0 :: 0: 	 FunctionCall(__BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i()) :: -1
+post-reg: 
+Op: 1  :0 :: 0: 	 Block(Return(0);) :: -1
+post-reg: 
+Op: 2  :-1 :: -1: 	 Skip :: 10
+post-reg: 
+Op: 3  :10 :: 10: 	 Block(i@main = 0;c@main = 0;) :: 12
+post-reg: 
+Op: 4  :12 :: 12: 	 Pred(i@main  <  1000) :: -1
+post-reg: 
+Op: 5  :13 :: 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;) :: 12
+post-reg: 
+Op: 6  :12 :: 12: 	 Pred(i@main  <  1000) :: -1
+post-reg: 
+Op: 7  :13 :: 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;) :: 12
+post-reg: 
+Op: 8  :12 :: 12: 	 Pred(i@main  >=  1000) :: -1
+post-reg: 
+Op: 9  :17 :: 17: 	 Pred(c@main  <  0) :: -1
+post-reg: 
+Op: 10  :17 :: 17: 	 FunctionCall(__assert_fail(__assertion@__assert_fail = "c>=0",__file@__assert_fail = "/home/spencerxiao/Experiments/tacas17/blast-2.7.1/oopsla13-benchmarks-blast/30.c",__line@__assert_fail = 17,__function@__assert_fail = "main",)) :: -1
+post-reg: 
+Op: 11  :77 :: 77: 	 FunctionCall(__blast_assert()) :: -1
+post-reg: 
+
+
+Starting phase 2
+Cldepth is0
+
+build_block_at_constraint_arrays: start
+Op: 0  :0 :: 0: 	 FunctionCall(__BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i()) :: -1
+post-reg: 
+Op: 1  :0 :: 0: 	 Block(Return(0);) :: -1
+post-reg: 
+Op: 2  :-1 :: -1: 	 Skip :: 10
+post-reg: 
+Op: 3  :10 :: 10: 	 Block(i@main = 0;c@main = 0;) :: 12
+post-reg: 
+Op: 4  :12 :: 12: 	 Pred(i@main  <  1000) :: -1
+post-reg: 
+Op: 5  :13 :: 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;) :: 12
+post-reg: 
+Op: 6  :12 :: 12: 	 Pred(i@main  <  1000) :: -1
+post-reg: 
+Op: 7  :13 :: 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;) :: 12
+post-reg: 
+Op: 8  :12 :: 12: 	 Pred(i@main  >=  1000) :: -1
+post-reg: 
+Op: 9  :17 :: 17: 	 Pred(c@main  <  0) :: -1
+post-reg: 
+Op: 10  :17 :: 17: 	 FunctionCall(__assert_fail(__assertion@__assert_fail = "c>=0",__file@__assert_fail = "/home/spencerxiao/Experiments/tacas17/blast-2.7.1/oopsla13-benchmarks-blast/30.c",__line@__assert_fail = 17,__function@__assert_fail = "main",)) :: -1
+post-reg: 
+Op: 11  :77 :: 77: 	 FunctionCall(__blast_assert()) :: -1
+post-reg: 
+Loading LV table...
+cons_folder !posn = 11
+cons_folder !posn = 10
+cons_folder !posn = 9
+cons_folder !posn = 8
+cons_folder !posn = 7
+cons_folder !posn = 6
+cons_folder !posn = 5
+cons_folder !posn = 4
+cons_folder !posn = 3
+cons_folder !posn = 2
+cons_folder !posn = 1
+cons_folder !posn = 0
+
+
+Starting phase 3
+get_useful_blocks: size =12
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 13 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 5 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 3 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 5 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 4 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 13 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 11 predicates
+Calling SMT solver for conj of 10 predicates
+Calling SMT solver for conj of 3 predicates
+Calling SMT solver for conj of 11 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 9 predicates
+Calling SMT solver for conj of 10 predicates
+Calling SMT solver for conj of 4 predicates
+Calling SMT solver for conj of 10 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 9 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 5 predicates
+Calling SMT solver for conj of 9 predicates
+Calling SMT solver for conj of 7 predicates
+Calling SMT solver for conj of 8 predicates
+Calling SMT solver for conj of 6 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 13 predicates
+get_useful_blocks done.
+Conflicting Blocks
+[INF0] 3 : 10: 	 Block(i@main = 0;c@main = 0;)
+[INF0] 5 : 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;)
+[INF0] 7 : 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;)
+[INF0] 9 : 17: 	 Pred(c@main  <  0)
+Conflicting Blocks
+[INF1] 7 : 13: 	 Block(c@main = c@main  +  i@main;i@main = i@main  +  1;)
+[INF1] 8 : 12: 	 Pred(i@main  >=  1000)
+[BAT] Done setting arrays for cutting
+
+
+Starting phase 4
+[BAT] Calling refiner
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+-2
+-1
+addPred: 5: (gui) adding predicate i@main*-2+-(c@main)<=0 to the system
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+-1
+-1
+addPred: 6: (gui) adding predicate -(c@main)+-(i@main)<=-1 to the system
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+-1
+addPred: 7: (gui) adding predicate -(c@main)<=-1 to the system
+Calling SMT solver for conj of 1 predicates
+Adding all preds now...
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+addPred: 8: (gui) adding predicate i@main<=1 to the system
+Calling SMT solver for conj of 1 predicates
+Calling SMT solver for conj of 1 predicates
+addPred: 9: (gui) adding predicate i@main<=2 to the system
+Calling SMT solver for conj of 1 predicates
+Adding all preds now...
+[BAT] Done refiner
+Non-trivial functions 0
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+41
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+42
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+43
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+44
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+45
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+46
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+47
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+48
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+49
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+50
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+51
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+52
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+53
+Now processing tree node:
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+Calling SMT solver for conj of 2 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+54
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+55
+Now processing tree node:
+Calling SMT solver for conj of 1 predicates
+No error found at this node
+This node is covered
+
+
+****************************************************************************
+
+Next iteration of model-check's big while-loop
+56
+Now processing tree node:
+No error found at this node
+This node is covered
+Depth of tree: 14
+
+
+No error found.  The system is safe :-)
+
+
+
+Phi Regions:
+
+Done
+
+
+Model checker stats:
+
+Nb iterations of outer while loop: 0
+Nb iterations of reachability: 56
+Nb created nodes: 0
+Nb refinment processes: 3
+Nb refined nodes: 0
+Nb proof tree nodes: 20
+Nb proof tree covered nodes: 6Nb deleted nodes: 0
+
+
+Abstractor stats:
+
+Total number of non-post queries = 1 
+Total number of cached queries = 32 
+Total number of queries = 215 
+Worst-case number of post queries = 306 
+Actual number of post queries = 306 
+NonDC number of post queries = 63 
+Assume post queries = 142 
+Total posts = 33 
+Total assume posts = 17 
+Total foci queries = 0 
+List of predicates: 
+
+Number of predicates =10 
+Maximum number of predicates active together (discounting scope) = 0
+
+Functions visited:
+__BLAST_initialize_/home/spencerxiao/Experiments/tacas17/blast-2.7.1/blast-input/30.c.i , __assert_fail , main , Writing out .abs file: /home/spencerxiao/Experiments/tacas17/blast-2.abs
+Maximum #preds/loc: 10
+Average #preds/loc: 4
+Done writing .abs file
+
+Minor Words : 4067155.
+Major Words : 929131.
+Total size of heap in words : 1282048
+Timings:
+TOTAL                          0.040 s (1)
+  Parse:                         0.004 s (1)
+  read seeds                     0.000 s (1)
+  read alias pairs               0.000 s (1)
+  Build CFA:                     0.000 s (1)
+  Call graph construction           0.000 s (1)
+  modelCheck                     0.000 s (1)
+  read invariants                0.000 s (1)
+  read initial state             0.000 s (1)
+  Kill init                      0.000 s (1)
+  initialize skipfun             0.000 s (2)
+  real model check               0.036 s (1)
+    logging node                   0.000 s (56)
+    Printing region info           0.000 s (56)
+    cap                            0.000 s (56)
+      union                          0.000 s (52)
+      bddAnd                         0.000 s (52)
+      meet                           0.000 s (52)
+    logging region                 0.000 s (62)
+    Covered check:                 0.000 s (53)
+      find                           0.000 s (49)
+      find leq                       0.000 s (16)
+        leq_data_region                0.000 s (24)
+          adr_leq_param                  0.000 s (24)
+            bdd_leq                        0.000 s (24)
+            lattice.leq                    0.000 s (4)
+    second half 2 half 1           0.000 s (38)
+    find_and_rm_all                0.000 s (38)
+      bdd_equiv                      0.000 s (20)
+    no changes, simply add new region           0.000 s (38)
+    get new reg                    0.000 s (55)
+    main post                      0.016 s (55)
+      get_new_data                   0.016 s (51)
+        abstract_data_post             0.016 s (51)
+          post_preds                     0.000 s (51)
+          lattice post                   0.000 s (51)
+          mk_pred_triple ac              0.000 s (40)
+            getPossibleAliases             0.000 s (96)
+              getVarsAndDerefs               0.000 s (96)
+              filter alias candidates           0.000 s (96)
+            getMustAliases                 0.000 s (96)
+              getVarsAndDerefs               0.000 s (96)
+              filter alias candidates           0.000 s (96)
+          mk_pred_triple sp              0.000 s (40)
+          postBdd                        0.016 s (40)
+            _check_Pred_list               0.000 s (13)
+            _assume                        0.000 s (13)
+            _check_pred                    0.004 s (13)
+              simp-a1:                       0.000 s (39)
+                toString                       0.000 s (39)
+                lookup_cache                   0.000 s (39)
+                lookup_cache_add               0.000 s (26)
+              simp-a2:                       0.004 s (39)
+                toString                       0.000 s (39)
+                lookup_cache                   0.000 s (39)
+                lookup_cache_add               0.000 s (26)
+                UNACCOUNTED                    0.004 s (100%)
+            bddForEachCube-post            0.012 s (27)
+              toString                       0.000 s (16)
+              lookup                         0.000 s (16)
+              add                            0.000 s (16)
+              _check_Pred_list               0.000 s (20)
+              _assume                        0.000 s (20)
+              _check_pred                    0.008 s (20)
+                simp-a1:                       0.004 s (56)
+                  toString                       0.004 s (56)
+                  lookup_cache                   0.000 s (56)
+                  lookup_cache_add               0.000 s (55)
+                simp-a2:                       0.004 s (56)
+                  toString                       0.000 s (56)
+                  lookup_cache                   0.000 s (56)
+                  lookup_cache_add               0.000 s (55)
+                  UNACCOUNTED                    0.004 s (100%)
+              UNACCOUNTED                    0.004 s (33%)
+            toString                       0.000 s (8)
+            lookup                         0.000 s (8)
+            add                            0.000 s (4)
+    read alias pairs               0.000 s (1)
+    Alias analysis                 0.000 s (1)
+    Modifies Database              0.000 s (1)
+    Add alias override             0.000 s (1)
+    Remove must aliases            0.000 s (1)
+    check_error                    0.016 s (3)
+      block_analyze_trace            0.016 s (3)
+        make lv_stack                  0.000 s (3)
+        load lv table                  0.004 s (3)
+        Cons folder                    0.000 s (3)
+          block_at_cdp                   0.000 s (30)
+            block_wp                       0.000 s (24)
+              print_fra                      0.000 s (24)
+              update_map                     0.000 s (24)
+              doAssign_list                  0.000 s (24)
+                updating map                   0.000 s (24)
+                convert asgns to preds           0.000 s (24)
+                  lval_map                       0.000 s (48)
+                  Incremental Alias update           0.000 s (9)
+                aliasesOf                      0.000 s (24)
+                  push_deref in aliasesOf           0.000 s (24)
+                wp_closure_fun                 0.000 s (24)
+                lval_map                       0.000 s (24)
+              conjoinL                       0.000 s (24)
+            Incremental Alias update           0.000 s (9)
+        get useful blocks              0.004 s (3)
+          contradiction check            0.000 s (82)
+          UNACCOUNTED                    0.004 s (100%)
+        Interpolant Refine             0.008 s (3)
+          contradiction check            0.004 s (42)
+          CSIsat time                    0.000 s (11)
+          UNACCOUNTED                    0.004 s (49%)
+        cleanup and go                 0.000 s (3)
+    subtree_cut_refinement           0.000 s (3)
+      update_tree_after_refinement[CUT]           0.000 s (3)
+        find_all                       0.000 s (12)
+        find adr_leq                   0.000 s (12)
+        add                            0.000 s (12)
+    print reach tree               0.000 s (1)
+
+
+No error found.  The system is safe :-)
+
+CSIsat stopped.
+SMT solver stopped.
+Checking manager.
+Opening file /home/spencerxiao/Experiments/tacas17/blast-2.bdd
+Calling BddStore

@@ -1,0 +1,38 @@
+MODULE main
+	int x;
+	int y;
+	int z;
+	int k;
+
+	int finish;
+
+	assume(x == 0);
+	assume(y == 0);
+	assume(z == 0);
+	assume(k == 0);
+
+	assume(finish == 0);
+
+	while(*){
+		if(k % 3 == 0){
+			x = x + 1;
+		}
+		else{
+			skip;		
+		}
+
+		y = y + 1;
+		z = z + 1;
+		k = x + y + z;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	finish == 1 && x != y;
+	finish == 1 && y != z;

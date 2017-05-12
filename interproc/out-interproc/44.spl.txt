@@ -1,0 +1,52 @@
+[32mAnnotated program after forward analysis[m
+var flag : int, n : int, i : int, j : int, k : int;
+begin
+  /* [31m(L2 C5)
+     [|n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1|][m */
+  i = 0; /* [31m(L3 C8)
+            [|i=0; n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0; flag=0 mod 1|][m */
+  j = 0; /* [31m(L4 C8)
+            [|j=0; i=0; n=0 mod 1; k=0 mod 1; j=0; i=0; flag=0 mod 1|][m */
+  flag = [-inf; inf]; /* [31m(L5 C16)
+                         [|j=0; i=0; n=0 mod 1; k=0 mod 1; j=0; i=0;
+                           flag=0 mod 1|][m */
+  k = [-inf; inf]; /* [31m(L6 C13)
+                      [|j=0; i=0; n=0 mod 1; k=0 mod 1; j=0; i=0;
+                        flag=0 mod 1|][m */
+  if flag == 1 then
+     /* [31m(L8 C21)
+        [|j=0; i=0; flag-1=0; n=0 mod 1; k=0 mod 1; j=0; i=0; flag-1=0|][m */
+     n = 1; /* [31m(L9 C10)
+               [|n-1=0; j=0; i=0; flag-1=0; n-1=0; k=0 mod 1; j=0; i=0;
+                 flag-1=0|][m */
+  else
+    /* [31m(L10 C6)
+       [|j=0; i=0; n=0 mod 1; k=0 mod 1; j=0; i=0; flag=0 mod 1|][m */
+    n = 2; /* [31m(L11 C10)
+              [|n-2=0; j=0; i=0; n-2=0; k=0 mod 1; j=0; i=0; flag=0 mod 1|][m */
+  endif; /* [31m(L12 C8)
+            [|n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1|][m */
+  while i <= k do
+    /* [31m(L14 C19)
+       [|-i+k>=0; n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1; flag=0 mod 1|][m */
+    i = i +_i,? 1; /* [31m(L15 C16)
+                      [|-i+k+1>=0; n=0 mod 1; k=0 mod 1; j=0 mod 1;
+                        i=0 mod 1; flag=0 mod 1|][m */
+    j = j +_i,? n; /* [31m(L16 C16)
+                      [|-i+k+1>=0; n=0 mod 1; k=0 mod 1; j=0 mod 1;
+                        i=0 mod 1; flag=0 mod 1|][m */
+  done; /* [31m(L17 C7)
+           [|i-k-1>=0; n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1;
+             flag=0 mod 1|][m */
+  if flag == 1 then
+    /* [31m(L19 C21)
+       [|flag-1=0; i-k-1>=0; n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1;
+         flag-1=0|][m */
+    assume i == j; /* [31m(L20 C20)
+                      [|-i+j=0; flag-1=0; i-k-1>=0; n=0 mod 1; k=0 mod 1;
+                        -i+j=0; i=0 mod 1; flag-1=0|][m */
+  endif; /* [31m(L21 C8)
+            [|i-k-1>=0; n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1;
+              flag=0 mod 1|][m */
+end
+

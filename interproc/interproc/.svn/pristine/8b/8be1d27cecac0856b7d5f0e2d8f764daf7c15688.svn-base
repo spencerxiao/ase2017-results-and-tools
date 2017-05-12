@@ -1,0 +1,27 @@
+var i:int,j:int,k:int,l:int,m:int;
+begin
+  i=0;
+  j=100;
+  k=1000;
+  l=10000;
+  m=100000;
+  while i<1000 do
+    i=i+1;
+  done;
+  skip;
+  while j<1000 do
+    j=j+k;
+  done;
+  skip;
+  while k>100 do
+    k=k-j;
+  done;
+  skip;
+  while l>1000 do
+    l=l+k;
+  done;
+  skip;
+  while m>1 do
+    m=m-l;
+  done;
+end

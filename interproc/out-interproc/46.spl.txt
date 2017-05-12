@@ -1,0 +1,48 @@
+[32mAnnotated program after forward analysis[m
+var x : int, y : int, z : int, w : int;
+begin
+  /* [31m(L2 C5) [|z=0 mod 1; y=0 mod 1; x=0 mod 1; w=0 mod 1|][m */
+  x = 0; /* [31m(L3 C8) [|x=0; z=0 mod 1; y=0 mod 1; x=0; w=0 mod 1|][m */
+  y = 0; /* [31m(L4 C8) [|y=0; x=0; z=0 mod 1; y=0; x=0; w=0 mod 1|][m */
+  z = 0; /* [31m(L5 C8) [|z=0; y=0; x=0; z=0; y=0; x=0; w=0 mod 1|][m */
+  w = 1; /* [31m(L6 C8)
+            [|-w+x+1=0; -y+z=0; y>=0; w-1>=0; -y+z=0; y=0 mod 1; -w+x+1=0;
+              w=0 mod 1|][m */
+  while brandom do
+    /* [31m(L8 C20)
+       [|-w+x+1=0; -y+z=0; y>=0; w-1>=0; -y+z=0; y=0 mod 1; -w+x+1=0;
+         w=0 mod 1|][m */
+    if w %_i,? 2 == 1 then
+      /* [31m(L9 C26)
+         [|-w+x+1=0; -y+z=0; y>=0; w-1>=0; -y+z=0; y=0 mod 1; -w+x+1=0;
+           w=0 mod 1|][m */
+      x = x +_i,? 1; /* [31m(L10 C18)
+                        [|-w+x=0; -y+z=0; y>=0; w-1>=0; -y+z=0; y=0 mod 1;
+                          -w+x=0; w=0 mod 1|][m */
+      w = w +_i,? 1; /* [31m(L11 C18)
+                        [|-w+x+1=0; -y+z=0; y>=0; w-2>=0; -y+z=0; y=0 mod 1;
+                          -w+x+1=0; w=0 mod 1|][m */
+    endif; /* [31m(L12 C10)
+              [|-w+x+1=0; -y+z=0; y>=0; w-1>=0; -y+z=0; y=0 mod 1; -w+x+1=0;
+                w=0 mod 1|][m */
+    if z %_i,? 2 == 0 then
+      /* [31m(L14 C26)
+         [|-w+x+1=0; -y+z=0; y>=0; w-1>=0; -y+z=0; y=0 mod 1; -w+x+1=0;
+           w=0 mod 1|][m */
+      y = y +_i,? 1; /* [31m(L15 C18)
+                        [|-w+x+1=0; -y+z+1=0; y-1>=0; w-1>=0; -y+z+1=0;
+                          y=0 mod 1; -w+x+1=0; w=0 mod 1|][m */
+      z = z +_i,? 1; /* [31m(L16 C18)
+                        [|-w+x+1=0; -y+z=0; y-1>=0; w-1>=0; -y+z=0;
+                          y=0 mod 1; -w+x+1=0; w=0 mod 1|][m */
+    endif; /* [31m(L17 C10)
+              [|-w+x+1=0; -y+z=0; y>=0; w-1>=0; -y+z=0; y=0 mod 1; -w+x+1=0;
+                w=0 mod 1|][m */
+  done; /* [31m(L18 C7)
+           [|-w+x+1=0; -y+z=0; y>=0; w-1>=0; -y+z=0; y=0 mod 1; -w+x+1=0;
+             w=0 mod 1|][m */
+  assume x <= 1; /* [31m(L20 C18)
+                    [|-w+x+1=0; -y+z=0; -w+2>=0; y>=0; w-1>=0; -y+z=0;
+                      y=0 mod 1; -w+x+1=0; w=0 mod 1|][m */
+end
+

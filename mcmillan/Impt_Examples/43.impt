@@ -1,0 +1,32 @@
+MODULE main
+	int i;
+	int t;
+	int x;
+	int y;
+
+	int finish;
+
+	assume(x != y);
+	assume(i == 0);
+	assume(t == y);
+
+	assume(finish == 0);
+
+	while(*){
+		if(x > 0){
+			y = y + x;
+		}
+		else{
+			skip;
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && y < t;

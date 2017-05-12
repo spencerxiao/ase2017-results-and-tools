@@ -1,0 +1,25 @@
+IMPORTANT NOTES:
+
+The tools are only tested on a Ubuntu 16.04 x86_64 machine and are not 
+guranteed to be runnable in other platforms.
+
+
+HOW TO RUN THE TOOLS?
+
+For each tool check the "run.sh" script to find the detailed commands for 
+running the tool. Note that the file paths in each script are based on the 
+'pwd' command, thus change to corresponding tool folder before running 
+"bash run.sh". The file "time-toolname.txt" inside each tool folder records
+the time for running each benchmark program. The directory "out-toolname" 
+inside each tool folder contains the tool output in a sub-directory for each 
+benchmark program.
+
+Another note is that the hola tool depends on a specific version of GCC which 
+is too large to be included in this folder and the binary for hola is also 
+large and thus are not included. Please follow the instructions in the script 
+file "hola/hola-setup.txt" to download, build, and run hola.
+
+To repeate the experimental results for FiB's forward analysis, backward analysis, 
+and bidirectional analysis, please provide an option -fd, -bd, and -bi, respecitively 
+for running the script "run-ase17.sh" inside "Fib_Tool" folder, e.g., use command 
+"bash run.sh -bd" to run FiB's backward analysis for the benchmarks.

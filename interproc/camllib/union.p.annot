@@ -1,0 +1,1332 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 119 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 125
+type(
+  int -> ('a, 'b) Hashtbl.t
+)
+ident(
+  def create "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 148 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 126 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 127
+type(
+  int
+)
+ident(
+  def n "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 130 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 146
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 130 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 144
+type(
+  ?random:bool -> int -> ('a, 'b) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 146
+type(
+  int
+)
+ident(
+  int_ref n "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 126 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 127
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 130 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 6 115 146
+call(
+  tail
+)
+type(
+  ('a, 'b) Hashtbl.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 152 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 155
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> unit
+)
+ident(
+  def add "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 191 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 156 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 159
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  def tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 160 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 189
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 160 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 163
+type(
+  'a
+)
+ident(
+  def elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 166 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 189
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 166 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 177
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 178 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 181
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 156 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 159
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 182 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 185
+type(
+  'a
+)
+ident(
+  int_ref elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 160 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 163
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 186 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 189
+type(
+  'a
+)
+ident(
+  int_ref elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 160 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 163
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 166 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 8 148 189
+call(
+  tail
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 195 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 199
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a
+)
+ident(
+  def find "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 942 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 203
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  def tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 42 935 940
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 211
+type(
+  'a
+)
+ident(
+  def element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 216 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 42 935 940
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 220 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 226
+type(
+  'a
+)
+ident(
+  def parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 259 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 42 935 940
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 229 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 241
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 242 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 245
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 203
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 246 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 253
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 211
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 229 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 253
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 262 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 268
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 220 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 226
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 268 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 269
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 269 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 276
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 211
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 262 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 276
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 13 282 286 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 13 282 293
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 211
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 315 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 322
+type(
+  'a
+)
+ident(
+  def parent2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 356 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 41 927 934
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 325 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 337
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 338 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 341
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 203
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 342 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 348
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 220 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 226
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 325 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 348
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 359 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 366
+type(
+  'a
+)
+ident(
+  int_ref parent2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 315 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 322
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 367 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 368
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 369 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 375
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 220 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 226
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 359 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 375
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 17 381 387 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 17 381 393
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 220 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 226
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 453 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 460
+type(
+  'a -> 'a
+)
+ident(
+  def findrec "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 18 394 403 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 41 927 934
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 461 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 468
+type(
+  'a
+)
+ident(
+  def element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 571
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 476 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 482
+type(
+  'a
+)
+ident(
+  def parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 514 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 571
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 485 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 497
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 498 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 501
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 203
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 502 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 509
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 461 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 468
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 485 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 509
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 517 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 523
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 476 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 482
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 523 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 524
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 524 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 531
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 461 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 468
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 517 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 531
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 23 537 540 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 23 537 547
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 461 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 468
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 557 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 564
+type(
+  'a -> 'a
+)
+ident(
+  int_ref findrec "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 453 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 460
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 565 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 571
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 476 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 482
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 557 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 571
+call(
+  tail
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 22 513 514 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 571
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 21 471 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 25 554 571
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 637 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 648
+type(
+  'a -> 'a -> unit
+)
+ident(
+  def compressrec "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 629 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 40 917 926
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 649 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 652
+type(
+  'a
+)
+ident(
+  def res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 653 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 35 811 815
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 653 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 660
+type(
+  'a
+)
+ident(
+  def element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 664 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 35 811 815
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 668 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 674
+type(
+  'a
+)
+ident(
+  def parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 706 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 35 811 815
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 677 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 689
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 690 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 693
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 203
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 694 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 701
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 653 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 660
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 677 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 701
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 715
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 668 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 674
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 716 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 717
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 718 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 725
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 653 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 660
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 725
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 31 731 734 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 31 731 736
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 752 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 767
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 768 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 771
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 203
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 772 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 779
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 653 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 660
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 780 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 783
+type(
+  'a
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 649 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 652
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 752 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 33 749 783
+call(
+  stack
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 34 785 788 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 34 785 799
+type(
+  'a -> 'a -> unit
+)
+ident(
+  int_ref compressrec "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 637 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 648
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 34 785 800 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 34 785 803
+type(
+  'a
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 649 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 652
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 34 785 804 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 34 785 810
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 668 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 674
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 34 785 788 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 34 785 810
+call(
+  tail
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 32 737 743 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 35 811 815
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 30 705 706 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 35 811 815
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 29 663 664 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 35 811 815
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 861 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 864
+type(
+  'a
+)
+ident(
+  def res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 892 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 40 917 926
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 867 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 874
+type(
+  'a -> 'a
+)
+ident(
+  int_ref findrec "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 453 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 20 439 460
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 875 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 882
+type(
+  'a
+)
+ident(
+  int_ref parent2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 315 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 15 307 322
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 867 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 882
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 892 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 903
+type(
+  'a -> 'a -> unit
+)
+ident(
+  int_ref compressrec "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 637 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 648
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 904 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 907
+type(
+  'a
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 861 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 864
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 908 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 915
+type(
+  'a
+)
+ident(
+  int_ref element "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 211
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 892 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 915
+call(
+  stack
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 40 917 923 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 40 917 926
+type(
+  'a
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 861 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 864
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 39 886 892 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 40 917 926
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 38 851 857 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 40 917 926
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 28 623 629 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 40 917 926
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 18 394 403 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 41 927 934
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 16 352 356 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 41 927 934
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 14 294 301 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 42 935 940
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 12 257 259 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 42 935 940
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 11 214 216 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 42 935 940
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 946 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 951
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a -> 'a
+)
+ident(
+  def union "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1093 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 952 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 955
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  def tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 956 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1091
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 956 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 964
+type(
+  'a
+)
+ident(
+  def element1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 965 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1091
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 965 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 973
+type(
+  'a
+)
+ident(
+  def element2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 978 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1091
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 982 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 987
+type(
+  'a
+)
+ident(
+  def root1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1051 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1091
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 990 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 994
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a
+)
+ident(
+  int_ref find "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 195 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 199
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 995 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 998
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 952 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 955
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 999 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 1007
+type(
+  'a
+)
+ident(
+  int_ref element1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 956 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 964
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 990 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 1007
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1018 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1023
+type(
+  'a
+)
+ident(
+  def root2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1051 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1091
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1026 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1030
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a
+)
+ident(
+  int_ref find "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 195 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 199
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1031 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1034
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 952 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 955
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1035 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1043
+type(
+  'a
+)
+ident(
+  int_ref element2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 965 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 973
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1026 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1043
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1051 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1066
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1067 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1070
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 952 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 44 942 955
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1071 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1076
+type(
+  'a
+)
+ident(
+  int_ref root1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 982 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 987
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1077 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1082
+type(
+  'a
+)
+ident(
+  int_ref root2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1018 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1023
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1051 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1082
+call(
+  stack
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1086 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1091
+type(
+  'a
+)
+ident(
+  int_ref root2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1018 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 46 1012 1023
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 48 1049 1051 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1091
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 45 976 978 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 49 1084 1091
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1097 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1104
+type(
+  ('a, 'a) Hashtbl.t -> 'a list list
+)
+ident(
+  def extract "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1105 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1108
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  def tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 52 1111 1113 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 52 1111 1117 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 52 1111 1121
+type(
+  int
+)
+ident(
+  def size "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1212 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1136
+type(
+  int ref
+)
+ident(
+  def size "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1152 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1204
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1139 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1142
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1143 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1144
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1139 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1144
+type(
+  int ref
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1152 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1164
+type(
+  ('a -> 'a -> unit) -> ('a, 'a) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1170 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1173
+type(
+  'a
+)
+ident(
+  def elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1174 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1188
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1174 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1175
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1179 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1183
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1184 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1188
+type(
+  int ref
+)
+ident(
+  int_ref size "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1136
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1179 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1188
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1165 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1189
+type(
+  'a -> 'a -> unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1190 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1193
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1105 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1108
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1152 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1193
+call(
+  stack
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1199 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1200
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1204
+type(
+  int ref
+)
+ident(
+  int_ref size "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1136
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1199 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1204
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 54 1148 1152 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1204
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 53 1124 1128 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 55 1195 1204
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1216 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1220
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  def tbl2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 62 1336 1338 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1231 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1235
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  def tbl2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1265 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 60 1322 1330
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1238 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1252
+type(
+  ?random:bool -> int -> ('a, 'a list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1253 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1257
+type(
+  int
+)
+ident(
+  int_ref size "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 52 1111 1117 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 52 1111 1121
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1238 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1257
+call(
+  stack
+)
+type(
+  ('a, 'a list) Hashtbl.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1265 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1277
+type(
+  ('a -> 'a -> unit) -> ('a, 'a) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1283 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1286
+type(
+  'a
+)
+ident(
+  def elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1287 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1315
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1287 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1288
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1292 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1303
+type(
+  ('a, 'a list) Hashtbl.t -> 'a -> 'a list -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1304 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1308
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  int_ref tbl2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1231 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1235
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1309 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1312
+type(
+  'a
+)
+ident(
+  int_ref elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1283 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1286
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1313 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1315
+type(
+  'a list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1292 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1315
+call(
+  tail
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1278 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1316
+type(
+  'a -> 'a -> unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1317 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1320
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1105 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1108
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1265 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1320
+call(
+  stack
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 60 1322 1326 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 60 1322 1330
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  int_ref tbl2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1231 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1235
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 59 1261 1265 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 60 1322 1330
+type(
+  ('a, 'a list) Hashtbl.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 58 1223 1227 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 60 1322 1330
+type(
+  ('a, 'a list) Hashtbl.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 62 1336 1338 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 62 1336 1350
+type(
+  ('a -> 'a -> unit) -> ('a, 'a) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1366 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1369
+type(
+  'a
+)
+ident(
+  def elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1370 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1508
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1370 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1376
+type(
+  'a
+)
+ident(
+  def parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1508
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1390 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1396
+type(
+  'a
+)
+ident(
+  def parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1424 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1508
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1399 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1403
+type(
+  ('a, 'a) Hashtbl.t -> 'a -> 'a
+)
+ident(
+  int_ref find "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 195 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 10 191 199
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1404 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1407
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1105 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1108
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1408 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1414
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1370 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1376
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1399 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1414
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1428 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1432
+type(
+  'a list
+)
+ident(
+  def list "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1469 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1508
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1435 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1447
+type(
+  ('a, 'a list) Hashtbl.t -> 'a -> 'a list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1448 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1452
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  int_ref tbl2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1216 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1220
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1453 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1459
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1390 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1396
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1435 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1459
+call(
+  stack
+)
+type(
+  'a list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1469 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1484
+type(
+  ('a, 'a list) Hashtbl.t -> 'a -> 'a list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1485 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1489
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  int_ref tbl2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1216 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1220
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1490 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1496
+type(
+  'a
+)
+ident(
+  int_ref parent "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1390 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1396
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1498 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1501
+type(
+  'a
+)
+ident(
+  int_ref elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1366 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1369
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1503 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1507
+type(
+  'a list
+)
+ident(
+  int_ref list "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1428 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1432
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1497 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1508
+type(
+  'a list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1469 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1508
+call(
+  tail
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 65 1418 1424 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1508
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 64 1380 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 66 1463 1508
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 63 1351 1355 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 67 1509 1517
+type(
+  'a -> 'a -> unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 68 1518 1522 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 68 1518 1525
+type(
+  ('a, 'a) Hashtbl.t
+)
+ident(
+  int_ref tbl "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1105 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 51 1093 1108
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 62 1336 1338 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 68 1518 1525
+call(
+  stack
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1533 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1536
+type(
+  'a list list ref
+)
+ident(
+  def res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 70 1549 1551 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1539 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1542
+type(
+  'a list list -> 'a list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1543 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1545
+type(
+  'a list list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1539 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1545
+type(
+  'a list list ref
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 70 1549 1551 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 70 1549 1563
+type(
+  ('a -> 'a list -> unit) -> ('a, 'a list) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1573 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1574
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1575 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1579
+type(
+  'a list
+)
+ident(
+  def list "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1583 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1619
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1586 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1590
+type(
+  'a list
+)
+ident(
+  int_ref list "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1575 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1579
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1590 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1592
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1592 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1594
+type(
+  'a list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1586 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1594
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1600 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1603
+type(
+  'a list list ref
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1533 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1536
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1604 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1606
+type(
+  'a list list ref -> 'a list list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1607 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1611
+type(
+  'a list
+)
+ident(
+  int_ref list "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1575 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1579
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1615 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1616
+type(
+  'a list list ref -> 'a list list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1616 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1619
+type(
+  'a list list ref
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1533 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1536
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1615 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1619
+type(
+  'a list list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1607 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1619
+type(
+  'a list list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1600 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1619
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1583 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1619
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1568 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 71 1564 1620
+type(
+  'a -> 'a list -> unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 72 1621 1625 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 72 1621 1629
+type(
+  ('a, 'a list) Hashtbl.t
+)
+ident(
+  int_ref tbl2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1216 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1220
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 70 1549 1551 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 72 1621 1629
+call(
+  stack
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1633 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1634
+type(
+  'a list list ref -> 'a list list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1634 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+type(
+  'a list list ref
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1533 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1536
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1633 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+type(
+  'a list list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 70 1549 1551 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+type(
+  'a list list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 69 1527 1529 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+type(
+  'a list list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 62 1336 1338 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+type(
+  'a list list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 57 1210 1212 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+type(
+  'a list list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 52 1111 1113 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/union.ml" 73 1631 1637
+type(
+  'a list list
+)

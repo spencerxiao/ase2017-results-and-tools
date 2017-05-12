@@ -1,0 +1,100 @@
+MODULE main
+	int t;
+	int s;
+	int a;
+	int b;
+	int flag;
+	int x;
+	int y;
+
+	int turn;
+	int finish;
+
+	assume(t == 0);
+	assume(s == 0);
+	assume(a == 0);
+	assume(b == 0);
+
+	assume(turn == 0);
+	assume(finish == 0);
+
+	while(turn != 4){
+		if(turn == 0){
+			if(*){
+				turn = 1;
+			}
+			else{
+				turn = 2;
+			}
+		}
+		else{
+			skip;
+		}
+
+		if(turn == 1){
+			a = a + 1;
+			b = b + 1;
+			s = s + a;
+			t = t + b;
+
+			if(flag > 0){
+				t = t + a;
+			}
+			else{
+				skip;
+			}			
+			
+			if(*){
+				turn = 1;
+			}
+			else{
+				turn = 2;
+			}
+		}
+		else{
+			if(turn == 2){
+				x = 1;
+
+				if(flag > 0){
+					x = t - (2 * s) + 2;
+				}
+				else{
+					skip;
+				}
+
+				y = 0;
+				
+				turn = 3;
+			}
+			else{
+				skip;
+			}
+		}
+
+		if(turn == 3){
+			if(y <= x){
+				if(*){
+					y = y + 1;
+				}
+				else{
+					y = y + 2;
+				}
+			}
+			else{
+				turn = 4;
+			}
+		}
+		else{
+			skip;
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && y > 4;

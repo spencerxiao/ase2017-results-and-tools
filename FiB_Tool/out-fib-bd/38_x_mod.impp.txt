@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (((i % 2) != 0) | (x = (2 * y)))
+find an inductive invaraint  based on abstractions
+invariant size: 45
+interp: (let ((.def_36 (+ x (* (- 2) y)))) (let ((.def_180 (<= .def_36 0))) (not (or (and (and .def_180 (= (+ i (* (- 2) (to_int (* (/ 1 2) (to_real (+ i 1)))))) (- 1))) (<= (to_real (+ i (* (- 2) (to_int (* (/ 1 2) (to_real (+ (* 1 i) 1))))))) (to_real (- 1)))) (and (or (<= .def_36 (- 1)) (<= 1 .def_36)) (not (and (not .def_180) (and (not (= (+ i (* (- 2) (to_int (* (/ 1 2) (to_real i))))) 0)) (not (<= 2 .def_36))))))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

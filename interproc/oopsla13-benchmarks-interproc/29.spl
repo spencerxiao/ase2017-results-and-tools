@@ -1,0 +1,26 @@
+var a:int, b:int, c:int, d:int, x:int, y:int;
+begin
+	a = 1;
+	b = 1;
+	c = 2;
+	d = 2;
+	x = 3;
+	y = 3;
+	while (brandom) do
+		x = a +_i c;
+		y = b +_i d;
+		if ((x +_i y) %_i,n 2 == 0) then
+			a = a +_i 1;
+			d = d +_i 1;
+		else
+			a = a -_i 1;
+		endif;
+
+		while (brandom) do 
+			c = c -_i 1;
+			b = b -_i 1;
+		done;
+	done;
+
+	assume((a +_i c) == (b +_i d));
+end

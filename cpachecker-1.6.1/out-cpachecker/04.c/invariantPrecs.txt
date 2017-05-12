@@ -1,0 +1,12 @@
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+
+__VERIFIER_assume N3:
+(assert false)
+
+main N12:
+(assert (or (> |main::y| 0) (<= |main::x| (- 50))))
+
+main N21:
+(assert false)
+

@@ -1,0 +1,11 @@
+(declare-fun |main::i| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::n| () Int)
+(declare-fun |main::flag| () Int)
+
+main N12:
+(assert (let ((.cse9 (- |main::j|))) (let ((.cse8 (<= (+ .cse9 |main::i| 1) 0))) (let ((.cse0 (= |main::flag| 1)) (.cse1 (<= |main::i| (+ |main::j| |main::n| (- 1)))) (.cse2 (<= (+ |main::j| |main::n|) (+ |main::i| 1))) (.cse3 (<= |main::i| |main::j|)) (.cse4 (<= (+ .cse9 |main::i|) 0)) (.cse5 (<= |main::j| |main::i|)) (.cse6 (not .cse8))) (ite (= |main::j| |main::i|) (ite .cse0 (and .cse1 .cse2 .cse3 .cse4 .cse5 .cse6) (ite .cse1 (and (not .cse2) .cse3 .cse4 .cse5 .cse6) (and .cse2 .cse3 .cse4 .cse5 .cse6))) (and (not .cse0) (let ((.cse7 (ite .cse3 (and .cse4 (not .cse5) .cse8) (and (not .cse4) .cse5 .cse6)))) (ite .cse1 .cse7 (and .cse2 .cse7)))))))))
+
+main N23:
+(assert false)
+

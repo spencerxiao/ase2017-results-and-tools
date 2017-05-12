@@ -1,0 +1,15 @@
+IntBool
+
+[main::__CPAchecker_TMP_0]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+ALL
+
+[main::n, main::__CPAchecker_TMP_0, main::i, main::b, __VERIFIER_assume::i, main::a]

@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (x = y)
+find an inductive invaraint  based on abstractions
+invariant size: 39
+interp: (let ((.def_25 (= turn 0))) (and (not (and (not (= x y)) (or (<= 1 (+ x (* (- 1) y))) (<= (+ x (* (- 1) y)) (- 1))))) (and (not (and .def_25 (not (= (+ y (+ (* (- 1) z) k)) 0)))) (not (and (not .def_25) (and (= turn 1) (not (= (+ y (+ (* (- 1) z) (+ (* (- 1) c) k))) 0))))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

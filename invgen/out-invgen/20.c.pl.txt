@@ -1,0 +1,40 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/20.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([28,27,21,18,29,6,4]): pc(main-1-9) pc(main-ret-0) {j>=n,x+y=k,n=<0,y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i}
+[j>=n,x+y=k,n=<0] [y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i]
+path([28,26,24,22,21,18,29,6,4]): pc(main-1-9) pc(main-ret-0) {j>=n,x+y=k,n>=1+0,0=<m,m+1=<n,y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i}
+[j>=n,x+y=k,n>=1+0,0=<m,m+1=<n] [y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i]
+path([25,24,22,21,18,29,6,4]): pc(main-1-9) pc(main-err-0) {j>=n,x+y=k,n>=1+0,0=<m,m>=n,y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i}
+[j>=n,x+y=k,n>=1+0,0=<m,m>=n] [y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i]
+path([23,22,21,18,29,6,4]): pc(main-1-9) pc(main-err-0) {j>=n,x+y=k,n>=1+0,0>=1+m,y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i}
+[j>=n,x+y=k,n>=1+0,0>=1+m] [y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i]
+path([20,18,29,6,4]): pc(main-1-9) pc(main-err-0) {j>=n,x+y>=1+k,y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i}
+[j>=n,x+y>=1+k] [y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i]
+path([19,18,29,6,4]): pc(main-1-9) pc(main-err-0) {j>=n,x+y+1=<k,y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i}
+[j>=n,x+y+1=<k] [y'=y,x'=x,n'=n,m'=m,k'=k,j'=j,i'=i]
+path([17,16,13,12,11,5,4]): pc(main-1-9) pc(main-1-9) {j+1=<n,j>=1+i,y'=y+1,x'=x-1,n'=n,m'=m,k'=k,j'=j+1,i'=i}
+[j+1=<n,j>=1+i] [y'=y+1,x'=x-1,n'=n,m'=m,k'=k,j'=j+1,i'=i]
+path([17,15,14,13,12,11,5,4]): pc(main-1-9) pc(main-1-9) {j+1=<n,j>=1+i,y'=y+1,x'=x-1,n'=n,m'=j,k'=k,j'=j+1,i'=i}
+[j+1=<n,j>=1+i] [y'=y+1,x'=x-1,n'=n,m'=j,k'=k,j'=j+1,i'=i]
+path([17,16,13,12,10,5,4]): pc(main-1-9) pc(main-1-9) {j+1=<n,j+1=<i,y'=y+1,x'=x-1,n'=n,m'=m,k'=k,j'=j+1,i'=i}
+[j+1=<n,j+1=<i] [y'=y+1,x'=x-1,n'=n,m'=m,k'=k,j'=j+1,i'=i]
+path([17,15,14,13,12,10,5,4]): pc(main-1-9) pc(main-1-9) {j+1=<n,j+1=<i,y'=y+1,x'=x-1,n'=n,m'=j,k'=k,j'=j+1,i'=i}
+[j+1=<n,j+1=<i] [y'=y+1,x'=x-1,n'=n,m'=j,k'=k,j'=j+1,i'=i]
+path([17,16,9,8,7,5,4]): pc(main-1-9) pc(main-1-9) {j+1=<n,j=i,y'=y-1,x'=x+1,n'=n,m'=m,k'=k,j'=j+1,i'=i}
+[j+1=<n,j=i] [y'=y-1,x'=x+1,n'=n,m'=m,k'=k,j'=j+1,i'=i]
+path([17,15,14,9,8,7,5,4]): pc(main-1-9) pc(main-1-9) {j+1=<n,j=i,y'=y-1,x'=x+1,n'=n,m'=j,k'=k,j'=j+1,i'=i}
+[j+1=<n,j=i] [y'=y-1,x'=x+1,n'=n,m'=j,k'=k,j'=j+1,i'=i]
+path([3,2,1]): pc(main-0-8) pc(main-1-9) {x+y=k,y'=y,x'=x,n'=n,m'=0,k'=k,j'=0,i'=i}
+[x+y=k] [y'=y,x'=x,n'=n,m'=0,k'=k,j'=0,i'=i]
+
+#Printing Strengthening ==
+#pc(main-1-9): [y= -(x)+k,m-j=<0,m>=0]
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([25,24,22,21,18,29,6,4])..# failed. 
+#=======================================
+#Invariant computation failed.

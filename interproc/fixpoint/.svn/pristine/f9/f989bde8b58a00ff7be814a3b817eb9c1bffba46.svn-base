@@ -1,0 +1,31 @@
+* Version 2.3.2
+
+About
+=====
+Solver for fixpoint equations on a lattice, in the context of static analysis
+and abstrat interpretation.
+
+Required
+========
+OCaml libraries
+  camllib, version 1.3.0 (http://pop-art.inrialpes.fr/~bjeannet/bjeannet-forge/camllib/index.html)
+OCaml system
+
+Recommended:
+============
+graphviz package (for DOT output) (http://www.graphviz.org/)
+
+To configure
+============
+- copy Makefile.config.model into Makefile.config
+- set properly the flags (mainly directories).
+
+To compile the library (with ocamlfind)
+=======================
+
+make all: build the bytecode and native versions of the library
+make install: install the two versions
+make uninstall
+make fixpoint.pdf
+make html (html/*)
+make example.byte (module example.ml)

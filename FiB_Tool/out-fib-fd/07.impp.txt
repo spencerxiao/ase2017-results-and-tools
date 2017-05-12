@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((a + b) = (3 * n))
+find an inductive invaraint based on concrete reachables
+invariant size: 30
+interp: (let ((.def_186 (<= 0 (+ (* 3 n) (+ (* (- 1) a) (* (- 1) b)))))) (let ((.def_197 (<= (+ (* 3 i) (+ (* (- 1) a) (* (- 1) b))) 0))) (let ((.def_498 (and .def_197 (<= 0 (+ (* 3 i) (+ (* (- 1) a) (* (- 1) b))))))) (not (and (and (not (and .def_186 .def_498)) (not (and (and .def_186 .def_197) .def_498))) (not (and (and .def_197 (<= (to_real 0) (to_real (+ (* 3 n) (+ (* (- 1) a) (* (- 1) b)))))) .def_498)))))))
+The assertion is satisfied!
+forward [2] times, backtracks [1] times
+backward [1] times

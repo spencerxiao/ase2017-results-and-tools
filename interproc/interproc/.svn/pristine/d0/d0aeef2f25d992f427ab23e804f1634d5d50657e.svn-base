@@ -1,0 +1,27 @@
+
+proc bubblesort(N:int) returns (res:int) 
+var B:int, J:int, T:int;
+begin
+  if (N<=0) then
+    while(true) do skip; done;
+  else 
+    B = N;
+    while (B>=1) do
+      J=1; T=0;
+      while (J<=B-1) do
+        if brandom then 
+          /* Exchange(J,J+1); */
+          T = J;
+        else 
+          J = J+1;
+        endif;
+      done;
+      B = T;
+    done;
+  endif;
+end
+
+var N:int,res:int;
+begin
+res = bubblesort(N);
+end

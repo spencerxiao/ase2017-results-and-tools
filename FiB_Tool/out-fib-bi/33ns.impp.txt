@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (x = y)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 79
+interp: (let ((.def_25 (= turn 0))) (let ((.def_27 (= x y))) (let ((.def_28 (not .def_25))) (let ((.def_314 (= turn 1))) (let ((.def_432 (not .def_314))) (let ((.def_451 (= turn 2))) (let ((.def_582 (= (+ y (+ (* (- 1) z) (+ (* (- 1) c) k))) 0))) (let ((.def_959 (not (<= 1 (+ x (* (- 1) y)))))) (let ((.def_960 (not (<= (+ x (* (- 1) y)) (- 1))))) (let ((.def_961 (and .def_959 .def_960))) (let ((.def_1000 (not (= (+ y (+ (* (- 1) z) k)) 0)))) (let ((.def_3721 (and .def_28 .def_961))) (not (or (and (or (and (<= (+ x (* (- 1) y)) (- 2)) .def_1000) (and (<= (+ y (+ (* (- 1) z) k)) 0) (and (and (<= 0 (+ y (+ (* (- 1) z) k))) (not (and .def_25 .def_961))) (not (and .def_27 .def_432))))) (not (and .def_25 .def_27))) (and .def_1000 (and (and (and .def_1000 (and (and (and .def_1000 (not (and .def_451 (and .def_432 (and .def_959 (and .def_28 .def_960)))))) (not (and .def_451 (and .def_432 .def_3721)))) (not (and .def_314 (and .def_582 (and .def_960 (and .def_28 .def_959))))))) (and .def_1000 (not (and .def_28 (and .def_432 .def_961))))) (not (and .def_314 (and .def_582 .def_3721)))))))))))))))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

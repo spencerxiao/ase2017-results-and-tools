@@ -1,0 +1,28 @@
+MODULE main
+	int x;
+	int y;
+	int z;
+	int k;
+
+	assume(x == 0);
+	assume(y == 0);
+	assume(z == 0);
+	assume(k == 0);
+
+	while(*){
+		if(k % 3 == 0){
+			x = x + 1;
+		}
+		else{
+			skip;		
+		}
+
+		y = y + 1;
+		z = z + 1;
+		k = x + y + z;
+	}
+
+	assert(x == y);
+	assert(y == z);	
+
+END MODULE

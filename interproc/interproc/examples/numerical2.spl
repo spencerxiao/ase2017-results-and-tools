@@ -1,0 +1,41 @@
+
+
+proc integer() returns ()
+var a:int,b:int,c:int;
+begin
+  a = 5;
+  b = 2;
+  c = a /_i,-oo b;
+  c = a /_i,+oo b;
+  skip;
+  while a<=7 do
+    c = a /_i,-oo b;
+    c = a /_i,+oo b;
+    a = a+1;
+    b = b+1;
+  done;
+end
+
+proc floating() returns (z:real)
+var x:real,y:real;
+begin
+  x = 5;
+  y = 0.1;
+  if brandom then
+    x = x +_f 0.6;
+  endif;
+  z = x + y;
+  z = z - y;
+  z = x +_f y;
+  z = z -_f y;
+  z = x +_d y;
+  z = z -_d y;
+  z = x/_f y;
+  z = x/_d y;
+end
+
+var z:real;
+begin
+  () = integer();
+  z = floating();
+end

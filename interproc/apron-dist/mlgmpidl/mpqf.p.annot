@@ -1,0 +1,1301 @@
+"mpqf.ml" 14 373 377 "mpqf.ml" 14 373 381
+type(
+  t -> Mpq.t
+)
+ident(
+  def _mpq "mpqf.ml" 15 407 407 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 14 373 397 "mpqf.ml" 14 373 406
+type(
+  t -> Mpq.t
+)
+type(
+  t -> Mpq.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"mpqf.ml" 15 407 411 "mpqf.ml" 15 407 416
+type(
+  Mpq.t -> t
+)
+ident(
+  def _mpqf "mpqf.ml" 17 443 443 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 15 407 432 "mpqf.ml" 15 407 441
+type(
+  Mpq.t -> t
+)
+type(
+  Mpq.t -> t
+)
+ident(
+  ext_ref Obj.magic
+)
+"mpqf.ml" 17 443 447 "mpqf.ml" 17 443 453
+type(
+  'a Mpq.tt -> 'b Mpq.tt
+)
+ident(
+  def to_mpq "mpqf.ml" 18 469 469 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 17 443 456 "mpqf.ml" 17 443 468
+type(
+  'a Mpq.tt -> 'b Mpq.tt
+)
+ident(
+  ext_ref Mpq.init_set
+)
+"mpqf.ml" 18 469 473 "mpqf.ml" 18 469 479
+type(
+  'a Mpq.tt -> 'b Mpq.tt
+)
+ident(
+  def of_mpq "mpqf.ml" 20 496 496 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 18 469 482 "mpqf.ml" 18 469 494
+type(
+  'a Mpq.tt -> 'b Mpq.tt
+)
+ident(
+  ext_ref Mpq.init_set
+)
+"mpqf.ml" 20 496 500 "mpqf.ml" 20 496 506
+type(
+  'a Mpz.tt -> 'b Mpq.tt
+)
+ident(
+  def of_mpz "mpqf.ml" 21 524 524 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 20 496 509 "mpqf.ml" 20 496 523
+type(
+  'a Mpz.tt -> 'b Mpq.tt
+)
+ident(
+  ext_ref Mpq.init_set_z
+)
+"mpqf.ml" 21 524 528 "mpqf.ml" 21 524 535
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> 'c Mpq.tt
+)
+ident(
+  def of_mpz2 "mpqf.ml" 23 551 551 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 21 524 538 "mpqf.ml" 21 524 549
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> 'c Mpq.tt
+)
+ident(
+  ext_ref Mpq.of_mpz2
+)
+"mpqf.ml" 23 551 555 "mpqf.ml" 23 551 564
+type(
+  string -> t
+)
+ident(
+  def of_string "mpqf.ml" 24 593 593 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 23 551 565 "mpqf.ml" 23 551 566
+type(
+  string
+)
+ident(
+  def x "mpqf.ml" 23 551 569 "mpqf.ml" 23 551 592
+)
+"mpqf.ml" 23 551 569 "mpqf.ml" 23 551 574
+type(
+  Mpq.t -> t
+)
+ident(
+  int_ref _mpqf "mpqf.ml" 15 407 411 "mpqf.ml" 15 407 416
+)
+"mpqf.ml" 23 551 576 "mpqf.ml" 23 551 589
+type(
+  string -> Mpq.t
+)
+ident(
+  ext_ref Mpq.of_string
+)
+"mpqf.ml" 23 551 590 "mpqf.ml" 23 551 591
+type(
+  string
+)
+ident(
+  int_ref x "mpqf.ml" 23 551 565 "mpqf.ml" 23 551 566
+)
+"mpqf.ml" 23 551 575 "mpqf.ml" 23 551 592
+call(
+  stack
+)
+type(
+  Mpq.t
+)
+"mpqf.ml" 23 551 569 "mpqf.ml" 23 551 592
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 24 593 597 "mpqf.ml" 24 593 605
+type(
+  float -> t
+)
+ident(
+  def of_float "mpqf.ml" 25 633 633 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 24 593 606 "mpqf.ml" 24 593 607
+type(
+  float
+)
+ident(
+  def x "mpqf.ml" 24 593 610 "mpqf.ml" 24 593 632
+)
+"mpqf.ml" 24 593 610 "mpqf.ml" 24 593 615
+type(
+  Mpq.t -> t
+)
+ident(
+  int_ref _mpqf "mpqf.ml" 15 407 411 "mpqf.ml" 15 407 416
+)
+"mpqf.ml" 24 593 617 "mpqf.ml" 24 593 629
+type(
+  float -> Mpq.t
+)
+ident(
+  ext_ref Mpq.of_float
+)
+"mpqf.ml" 24 593 630 "mpqf.ml" 24 593 631
+type(
+  float
+)
+ident(
+  int_ref x "mpqf.ml" 24 593 606 "mpqf.ml" 24 593 607
+)
+"mpqf.ml" 24 593 616 "mpqf.ml" 24 593 632
+call(
+  stack
+)
+type(
+  Mpq.t
+)
+"mpqf.ml" 24 593 610 "mpqf.ml" 24 593 632
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 25 633 637 "mpqf.ml" 25 633 643
+type(
+  int -> t
+)
+ident(
+  def of_int "mpqf.ml" 26 669 669 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 25 633 644 "mpqf.ml" 25 633 645
+type(
+  int
+)
+ident(
+  def x "mpqf.ml" 25 633 648 "mpqf.ml" 25 633 668
+)
+"mpqf.ml" 25 633 648 "mpqf.ml" 25 633 653
+type(
+  Mpq.t -> t
+)
+ident(
+  int_ref _mpqf "mpqf.ml" 15 407 411 "mpqf.ml" 15 407 416
+)
+"mpqf.ml" 25 633 655 "mpqf.ml" 25 633 665
+type(
+  int -> Mpq.t
+)
+ident(
+  ext_ref Mpq.of_int
+)
+"mpqf.ml" 25 633 666 "mpqf.ml" 25 633 667
+type(
+  int
+)
+ident(
+  int_ref x "mpqf.ml" 25 633 644 "mpqf.ml" 25 633 645
+)
+"mpqf.ml" 25 633 654 "mpqf.ml" 25 633 668
+call(
+  stack
+)
+type(
+  Mpq.t
+)
+"mpqf.ml" 25 633 648 "mpqf.ml" 25 633 668
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 26 669 673 "mpqf.ml" 26 669 680
+type(
+  int -> int -> t
+)
+ident(
+  def of_frac "mpqf.ml" 28 712 712 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 26 669 681 "mpqf.ml" 26 669 682
+type(
+  int
+)
+ident(
+  def x "mpqf.ml" 26 669 683 "mpqf.ml" 26 669 710
+)
+"mpqf.ml" 26 669 683 "mpqf.ml" 26 669 684
+type(
+  int
+)
+ident(
+  def y "mpqf.ml" 26 669 687 "mpqf.ml" 26 669 710
+)
+"mpqf.ml" 26 669 687 "mpqf.ml" 26 669 692
+type(
+  Mpq.t -> t
+)
+ident(
+  int_ref _mpqf "mpqf.ml" 15 407 411 "mpqf.ml" 15 407 416
+)
+"mpqf.ml" 26 669 694 "mpqf.ml" 26 669 705
+type(
+  int -> int -> Mpq.t
+)
+ident(
+  ext_ref Mpq.of_frac
+)
+"mpqf.ml" 26 669 706 "mpqf.ml" 26 669 707
+type(
+  int
+)
+ident(
+  int_ref x "mpqf.ml" 26 669 681 "mpqf.ml" 26 669 682
+)
+"mpqf.ml" 26 669 708 "mpqf.ml" 26 669 709
+type(
+  int
+)
+ident(
+  int_ref y "mpqf.ml" 26 669 683 "mpqf.ml" 26 669 684
+)
+"mpqf.ml" 26 669 693 "mpqf.ml" 26 669 710
+call(
+  stack
+)
+type(
+  Mpq.t
+)
+"mpqf.ml" 26 669 687 "mpqf.ml" 26 669 710
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 28 712 716 "mpqf.ml" 28 712 723
+type(
+  Mpzf.t -> 'a Mpz.tt -> 'b Mpq.tt
+)
+ident(
+  def of_mpzf "mpqf.ml" 29 752 752 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 28 712 725 "mpqf.ml" 28 712 726
+type(
+  Mpzf.t
+)
+ident(
+  def z "mpqf.ml" 28 712 737 "mpqf.ml" 28 712 751
+)
+"mpqf.ml" 28 712 737 "mpqf.ml" 28 712 751
+type(
+  'a Mpz.tt -> 'b Mpq.tt
+)
+ident(
+  ext_ref Mpq.init_set_z
+)
+"mpqf.ml" 29 752 756 "mpqf.ml" 29 752 764
+type(
+  Mpzf.t -> Mpzf.t -> 'a Mpz.tt -> 'b Mpz.tt -> 'c Mpq.tt
+)
+ident(
+  def of_mpzf2 "mpqf.ml" 31 806 806 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 29 752 766 "mpqf.ml" 29 752 769
+type(
+  Mpzf.t
+)
+ident(
+  def num "mpqf.ml" 29 752 778 "mpqf.ml" 29 752 804
+)
+"mpqf.ml" 29 752 779 "mpqf.ml" 29 752 782
+type(
+  Mpzf.t
+)
+ident(
+  def den "mpqf.ml" 29 752 793 "mpqf.ml" 29 752 804
+)
+"mpqf.ml" 29 752 793 "mpqf.ml" 29 752 804
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> 'c Mpq.tt
+)
+ident(
+  ext_ref Mpq.of_mpz2
+)
+"mpqf.ml" 31 806 810 "mpqf.ml" 31 806 819
+type(
+  'a Mpq.tt -> string
+)
+ident(
+  def to_string "mpqf.ml" 32 836 836 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 31 806 822 "mpqf.ml" 31 806 835
+type(
+  'a Mpq.tt -> string
+)
+ident(
+  ext_ref Mpq.to_string
+)
+"mpqf.ml" 32 836 840 "mpqf.ml" 32 836 848
+type(
+  'a Mpq.tt -> float
+)
+ident(
+  def to_float "mpqf.ml" 34 865 865 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 32 836 851 "mpqf.ml" 32 836 863
+type(
+  'a Mpq.tt -> float
+)
+ident(
+  ext_ref Mpq.to_float
+)
+"mpqf.ml" 34 865 869 "mpqf.ml" 34 865 874
+type(
+  Format.formatter -> 'a Mpq.tt -> unit
+)
+ident(
+  def print "mpqf.ml" 36 888 888 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 34 865 877 "mpqf.ml" 34 865 886
+type(
+  Format.formatter -> 'a Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.print
+)
+"mpqf.ml" 36 888 892 "mpqf.ml" 36 888 897
+type(
+  (Mpq.t -> 'a -> unit) -> 'a -> t
+)
+ident(
+  def wrap1 "mpqf.ml" 41 978 978 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 36 888 899 "mpqf.ml" 36 888 900
+type(
+  Mpq.t -> 'a -> unit
+)
+ident(
+  def f "mpqf.ml" 36 888 923 "mpqf.ml" 39 965 976
+)
+"mpqf.ml" 36 888 923 "mpqf.ml" 36 888 924
+type(
+  'a
+)
+ident(
+  def t "mpqf.ml" 37 927 929 "mpqf.ml" 39 965 976
+)
+"mpqf.ml" 37 927 933 "mpqf.ml" 37 927 936
+type(
+  Mpq.m Mpq.tt
+)
+ident(
+  def mpq "mpqf.ml" 38 954 956 "mpqf.ml" 39 965 976
+)
+"mpqf.ml" 37 927 939 "mpqf.ml" 37 927 947
+type(
+  unit -> Mpq.m Mpq.tt
+)
+ident(
+  ext_ref Mpq.init
+)
+"mpqf.ml" 37 927 948 "mpqf.ml" 37 927 950
+type(
+  unit
+)
+"mpqf.ml" 37 927 939 "mpqf.ml" 37 927 950
+type(
+  Mpq.m Mpq.tt
+)
+"mpqf.ml" 38 954 956 "mpqf.ml" 38 954 957
+type(
+  Mpq.t -> 'a -> unit
+)
+ident(
+  int_ref f "mpqf.ml" 36 888 899 "mpqf.ml" 36 888 900
+)
+"mpqf.ml" 38 954 958 "mpqf.ml" 38 954 961
+type(
+  Mpq.t
+)
+ident(
+  int_ref mpq "mpqf.ml" 37 927 933 "mpqf.ml" 37 927 936
+)
+"mpqf.ml" 38 954 962 "mpqf.ml" 38 954 963
+type(
+  'a
+)
+ident(
+  int_ref t "mpqf.ml" 36 888 923 "mpqf.ml" 36 888 924
+)
+"mpqf.ml" 38 954 956 "mpqf.ml" 38 954 963
+call(
+  stack
+)
+type(
+  unit
+)
+"mpqf.ml" 39 965 967 "mpqf.ml" 39 965 972
+type(
+  Mpq.t -> t
+)
+ident(
+  int_ref _mpqf "mpqf.ml" 15 407 411 "mpqf.ml" 15 407 416
+)
+"mpqf.ml" 39 965 973 "mpqf.ml" 39 965 976
+type(
+  Mpq.t
+)
+ident(
+  int_ref mpq "mpqf.ml" 37 927 933 "mpqf.ml" 37 927 936
+)
+"mpqf.ml" 39 965 967 "mpqf.ml" 39 965 976
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 38 954 956 "mpqf.ml" 39 965 976
+type(
+  t
+)
+"mpqf.ml" 37 927 929 "mpqf.ml" 39 965 976
+type(
+  t
+)
+"mpqf.ml" 41 978 982 "mpqf.ml" 41 978 987
+type(
+  (Mpq.t -> 'a -> 'b -> unit) -> 'a -> 'b -> t
+)
+ident(
+  def wrap2 "mpqf.ml" 46 1082 1082 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 41 978 989 "mpqf.ml" 41 978 990
+type(
+  Mpq.t -> 'a -> 'b -> unit
+)
+ident(
+  def f "mpqf.ml" 41 978 1019 "mpqf.ml" 44 1069 1080
+)
+"mpqf.ml" 41 978 1019 "mpqf.ml" 41 978 1021
+type(
+  'a
+)
+ident(
+  def t1 "mpqf.ml" 41 978 1022 "mpqf.ml" 44 1069 1080
+)
+"mpqf.ml" 41 978 1022 "mpqf.ml" 41 978 1024
+type(
+  'b
+)
+ident(
+  def t2 "mpqf.ml" 42 1027 1029 "mpqf.ml" 44 1069 1080
+)
+"mpqf.ml" 42 1027 1033 "mpqf.ml" 42 1027 1036
+type(
+  Mpq.m Mpq.tt
+)
+ident(
+  def mpq "mpqf.ml" 43 1054 1056 "mpqf.ml" 44 1069 1080
+)
+"mpqf.ml" 42 1027 1039 "mpqf.ml" 42 1027 1047
+type(
+  unit -> Mpq.m Mpq.tt
+)
+ident(
+  ext_ref Mpq.init
+)
+"mpqf.ml" 42 1027 1048 "mpqf.ml" 42 1027 1050
+type(
+  unit
+)
+"mpqf.ml" 42 1027 1039 "mpqf.ml" 42 1027 1050
+type(
+  Mpq.m Mpq.tt
+)
+"mpqf.ml" 43 1054 1056 "mpqf.ml" 43 1054 1057
+type(
+  Mpq.t -> 'a -> 'b -> unit
+)
+ident(
+  int_ref f "mpqf.ml" 41 978 989 "mpqf.ml" 41 978 990
+)
+"mpqf.ml" 43 1054 1058 "mpqf.ml" 43 1054 1061
+type(
+  Mpq.t
+)
+ident(
+  int_ref mpq "mpqf.ml" 42 1027 1033 "mpqf.ml" 42 1027 1036
+)
+"mpqf.ml" 43 1054 1062 "mpqf.ml" 43 1054 1064
+type(
+  'a
+)
+ident(
+  int_ref t1 "mpqf.ml" 41 978 1019 "mpqf.ml" 41 978 1021
+)
+"mpqf.ml" 43 1054 1065 "mpqf.ml" 43 1054 1067
+type(
+  'b
+)
+ident(
+  int_ref t2 "mpqf.ml" 41 978 1022 "mpqf.ml" 41 978 1024
+)
+"mpqf.ml" 43 1054 1056 "mpqf.ml" 43 1054 1067
+call(
+  stack
+)
+type(
+  unit
+)
+"mpqf.ml" 44 1069 1071 "mpqf.ml" 44 1069 1076
+type(
+  Mpq.t -> t
+)
+ident(
+  int_ref _mpqf "mpqf.ml" 15 407 411 "mpqf.ml" 15 407 416
+)
+"mpqf.ml" 44 1069 1077 "mpqf.ml" 44 1069 1080
+type(
+  Mpq.t
+)
+ident(
+  int_ref mpq "mpqf.ml" 42 1027 1033 "mpqf.ml" 42 1027 1036
+)
+"mpqf.ml" 44 1069 1071 "mpqf.ml" 44 1069 1080
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 43 1054 1056 "mpqf.ml" 44 1069 1080
+type(
+  t
+)
+"mpqf.ml" 42 1027 1029 "mpqf.ml" 44 1069 1080
+type(
+  t
+)
+"mpqf.ml" 46 1082 1086 "mpqf.ml" 46 1082 1089
+type(
+  'a Mpq.tt -> 'b Mpq.tt -> t
+)
+ident(
+  def add "mpqf.ml" 47 1114 1114 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 46 1082 1090 "mpqf.ml" 46 1082 1091
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpqf.ml" 46 1082 1092 "mpqf.ml" 46 1082 1113
+)
+"mpqf.ml" 46 1082 1092 "mpqf.ml" 46 1082 1093
+type(
+  'b Mpq.tt
+)
+ident(
+  def y "mpqf.ml" 46 1082 1096 "mpqf.ml" 46 1082 1113
+)
+"mpqf.ml" 46 1082 1096 "mpqf.ml" 46 1082 1101
+type(
+  (Mpq.t -> 'a Mpq.tt -> 'b Mpq.tt -> unit) -> 'a Mpq.tt -> 'b Mpq.tt -> t
+)
+ident(
+  int_ref wrap2 "mpqf.ml" 41 978 982 "mpqf.ml" 41 978 987
+)
+"mpqf.ml" 46 1082 1102 "mpqf.ml" 46 1082 1109
+type(
+  Mpq.t -> 'a Mpq.tt -> 'b Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.add
+)
+"mpqf.ml" 46 1082 1110 "mpqf.ml" 46 1082 1111
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpqf.ml" 46 1082 1090 "mpqf.ml" 46 1082 1091
+)
+"mpqf.ml" 46 1082 1112 "mpqf.ml" 46 1082 1113
+type(
+  'b Mpq.tt
+)
+ident(
+  int_ref y "mpqf.ml" 46 1082 1092 "mpqf.ml" 46 1082 1093
+)
+"mpqf.ml" 46 1082 1096 "mpqf.ml" 46 1082 1113
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 47 1114 1118 "mpqf.ml" 47 1114 1121
+type(
+  'a Mpq.tt -> 'b Mpq.tt -> t
+)
+ident(
+  def sub "mpqf.ml" 48 1146 1146 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 47 1114 1122 "mpqf.ml" 47 1114 1123
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpqf.ml" 47 1114 1124 "mpqf.ml" 47 1114 1145
+)
+"mpqf.ml" 47 1114 1124 "mpqf.ml" 47 1114 1125
+type(
+  'b Mpq.tt
+)
+ident(
+  def y "mpqf.ml" 47 1114 1128 "mpqf.ml" 47 1114 1145
+)
+"mpqf.ml" 47 1114 1128 "mpqf.ml" 47 1114 1133
+type(
+  (Mpq.t -> 'a Mpq.tt -> 'b Mpq.tt -> unit) -> 'a Mpq.tt -> 'b Mpq.tt -> t
+)
+ident(
+  int_ref wrap2 "mpqf.ml" 41 978 982 "mpqf.ml" 41 978 987
+)
+"mpqf.ml" 47 1114 1134 "mpqf.ml" 47 1114 1141
+type(
+  Mpq.t -> 'a Mpq.tt -> 'b Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.sub
+)
+"mpqf.ml" 47 1114 1142 "mpqf.ml" 47 1114 1143
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpqf.ml" 47 1114 1122 "mpqf.ml" 47 1114 1123
+)
+"mpqf.ml" 47 1114 1144 "mpqf.ml" 47 1114 1145
+type(
+  'b Mpq.tt
+)
+ident(
+  int_ref y "mpqf.ml" 47 1114 1124 "mpqf.ml" 47 1114 1125
+)
+"mpqf.ml" 47 1114 1128 "mpqf.ml" 47 1114 1145
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 48 1146 1150 "mpqf.ml" 48 1146 1153
+type(
+  'a Mpq.tt -> 'b Mpq.tt -> t
+)
+ident(
+  def mul "mpqf.ml" 49 1178 1178 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 48 1146 1154 "mpqf.ml" 48 1146 1155
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpqf.ml" 48 1146 1156 "mpqf.ml" 48 1146 1177
+)
+"mpqf.ml" 48 1146 1156 "mpqf.ml" 48 1146 1157
+type(
+  'b Mpq.tt
+)
+ident(
+  def y "mpqf.ml" 48 1146 1160 "mpqf.ml" 48 1146 1177
+)
+"mpqf.ml" 48 1146 1160 "mpqf.ml" 48 1146 1165
+type(
+  (Mpq.t -> 'a Mpq.tt -> 'b Mpq.tt -> unit) -> 'a Mpq.tt -> 'b Mpq.tt -> t
+)
+ident(
+  int_ref wrap2 "mpqf.ml" 41 978 982 "mpqf.ml" 41 978 987
+)
+"mpqf.ml" 48 1146 1166 "mpqf.ml" 48 1146 1173
+type(
+  Mpq.t -> 'a Mpq.tt -> 'b Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.mul
+)
+"mpqf.ml" 48 1146 1174 "mpqf.ml" 48 1146 1175
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpqf.ml" 48 1146 1154 "mpqf.ml" 48 1146 1155
+)
+"mpqf.ml" 48 1146 1176 "mpqf.ml" 48 1146 1177
+type(
+  'b Mpq.tt
+)
+ident(
+  int_ref y "mpqf.ml" 48 1146 1156 "mpqf.ml" 48 1146 1157
+)
+"mpqf.ml" 48 1146 1160 "mpqf.ml" 48 1146 1177
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 49 1178 1182 "mpqf.ml" 49 1178 1185
+type(
+  'a Mpq.tt -> 'b Mpq.tt -> t
+)
+ident(
+  def div "mpqf.ml" 51 1211 1211 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 49 1178 1186 "mpqf.ml" 49 1178 1187
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpqf.ml" 49 1178 1188 "mpqf.ml" 49 1178 1209
+)
+"mpqf.ml" 49 1178 1188 "mpqf.ml" 49 1178 1189
+type(
+  'b Mpq.tt
+)
+ident(
+  def y "mpqf.ml" 49 1178 1192 "mpqf.ml" 49 1178 1209
+)
+"mpqf.ml" 49 1178 1192 "mpqf.ml" 49 1178 1197
+type(
+  (Mpq.t -> 'a Mpq.tt -> 'b Mpq.tt -> unit) -> 'a Mpq.tt -> 'b Mpq.tt -> t
+)
+ident(
+  int_ref wrap2 "mpqf.ml" 41 978 982 "mpqf.ml" 41 978 987
+)
+"mpqf.ml" 49 1178 1198 "mpqf.ml" 49 1178 1205
+type(
+  Mpq.t -> 'a Mpq.tt -> 'b Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.div
+)
+"mpqf.ml" 49 1178 1206 "mpqf.ml" 49 1178 1207
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpqf.ml" 49 1178 1186 "mpqf.ml" 49 1178 1187
+)
+"mpqf.ml" 49 1178 1208 "mpqf.ml" 49 1178 1209
+type(
+  'b Mpq.tt
+)
+ident(
+  int_ref y "mpqf.ml" 49 1178 1188 "mpqf.ml" 49 1178 1189
+)
+"mpqf.ml" 49 1178 1192 "mpqf.ml" 49 1178 1209
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 51 1211 1215 "mpqf.ml" 51 1211 1218
+type(
+  'a Mpq.tt -> t
+)
+ident(
+  def neg "mpqf.ml" 52 1239 1239 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 51 1211 1219 "mpqf.ml" 51 1211 1220
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpqf.ml" 51 1211 1223 "mpqf.ml" 51 1211 1238
+)
+"mpqf.ml" 51 1211 1223 "mpqf.ml" 51 1211 1228
+type(
+  (Mpq.t -> 'a Mpq.tt -> unit) -> 'a Mpq.tt -> t
+)
+ident(
+  int_ref wrap1 "mpqf.ml" 36 888 892 "mpqf.ml" 36 888 897
+)
+"mpqf.ml" 51 1211 1229 "mpqf.ml" 51 1211 1236
+type(
+  Mpq.t -> 'a Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.neg
+)
+"mpqf.ml" 51 1211 1237 "mpqf.ml" 51 1211 1238
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpqf.ml" 51 1211 1219 "mpqf.ml" 51 1211 1220
+)
+"mpqf.ml" 51 1211 1223 "mpqf.ml" 51 1211 1238
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 52 1239 1243 "mpqf.ml" 52 1239 1246
+type(
+  'a Mpq.tt -> t
+)
+ident(
+  def abs "mpqf.ml" 53 1267 1267 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 52 1239 1247 "mpqf.ml" 52 1239 1248
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpqf.ml" 52 1239 1251 "mpqf.ml" 52 1239 1266
+)
+"mpqf.ml" 52 1239 1251 "mpqf.ml" 52 1239 1256
+type(
+  (Mpq.t -> 'a Mpq.tt -> unit) -> 'a Mpq.tt -> t
+)
+ident(
+  int_ref wrap1 "mpqf.ml" 36 888 892 "mpqf.ml" 36 888 897
+)
+"mpqf.ml" 52 1239 1257 "mpqf.ml" 52 1239 1264
+type(
+  Mpq.t -> 'a Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.abs
+)
+"mpqf.ml" 52 1239 1265 "mpqf.ml" 52 1239 1266
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpqf.ml" 52 1239 1247 "mpqf.ml" 52 1239 1248
+)
+"mpqf.ml" 52 1239 1251 "mpqf.ml" 52 1239 1266
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 53 1267 1271 "mpqf.ml" 53 1267 1274
+type(
+  'a Mpq.tt -> t
+)
+ident(
+  def inv "mpqf.ml" 54 1295 1295 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 53 1267 1275 "mpqf.ml" 53 1267 1276
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpqf.ml" 53 1267 1279 "mpqf.ml" 53 1267 1294
+)
+"mpqf.ml" 53 1267 1279 "mpqf.ml" 53 1267 1284
+type(
+  (Mpq.t -> 'a Mpq.tt -> unit) -> 'a Mpq.tt -> t
+)
+ident(
+  int_ref wrap1 "mpqf.ml" 36 888 892 "mpqf.ml" 36 888 897
+)
+"mpqf.ml" 53 1267 1285 "mpqf.ml" 53 1267 1292
+type(
+  Mpq.t -> 'a Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.inv
+)
+"mpqf.ml" 53 1267 1293 "mpqf.ml" 53 1267 1294
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpqf.ml" 53 1267 1275 "mpqf.ml" 53 1267 1276
+)
+"mpqf.ml" 53 1267 1279 "mpqf.ml" 53 1267 1294
+call(
+  tail
+)
+type(
+  t
+)
+"mpqf.ml" 54 1295 1299 "mpqf.ml" 54 1295 1304
+type(
+  'a Mpq.tt -> 'b Mpq.tt -> bool
+)
+ident(
+  def equal "mpqf.ml" 55 1317 1317 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 54 1295 1307 "mpqf.ml" 54 1295 1316
+type(
+  'a Mpq.tt -> 'b Mpq.tt -> bool
+)
+ident(
+  ext_ref Mpq.equal
+)
+"mpqf.ml" 55 1317 1321 "mpqf.ml" 55 1317 1324
+type(
+  'a Mpq.tt -> 'b Mpq.tt -> int
+)
+ident(
+  def cmp "mpqf.ml" 56 1335 1335 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 55 1317 1327 "mpqf.ml" 55 1317 1334
+type(
+  'a Mpq.tt -> 'b Mpq.tt -> int
+)
+ident(
+  ext_ref Mpq.cmp
+)
+"mpqf.ml" 56 1335 1339 "mpqf.ml" 56 1335 1346
+type(
+  'a Mpq.tt -> int -> int
+)
+ident(
+  def cmp_int "mpqf.ml" 57 1370 1370 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 56 1335 1347 "mpqf.ml" 56 1335 1348
+type(
+  'a Mpq.tt
+)
+ident(
+  def q "mpqf.ml" 56 1335 1349 "mpqf.ml" 56 1335 1369
+)
+"mpqf.ml" 56 1335 1349 "mpqf.ml" 56 1335 1350
+type(
+  int
+)
+ident(
+  def n "mpqf.ml" 56 1335 1353 "mpqf.ml" 56 1335 1369
+)
+"mpqf.ml" 56 1335 1353 "mpqf.ml" 56 1335 1363
+type(
+  'a Mpq.tt -> int -> int -> int
+)
+ident(
+  ext_ref Mpq.cmp_si
+)
+"mpqf.ml" 56 1335 1364 "mpqf.ml" 56 1335 1365
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref q "mpqf.ml" 56 1335 1347 "mpqf.ml" 56 1335 1348
+)
+"mpqf.ml" 56 1335 1366 "mpqf.ml" 56 1335 1367
+type(
+  int
+)
+ident(
+  int_ref n "mpqf.ml" 56 1335 1349 "mpqf.ml" 56 1335 1350
+)
+"mpqf.ml" 56 1335 1368 "mpqf.ml" 56 1335 1369
+type(
+  int
+)
+"mpqf.ml" 56 1335 1353 "mpqf.ml" 56 1335 1369
+type(
+  int
+)
+"mpqf.ml" 57 1370 1374 "mpqf.ml" 57 1370 1382
+type(
+  'a Mpq.tt -> int -> int -> int
+)
+ident(
+  def cmp_frac "mpqf.ml" 58 1396 1396 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 57 1370 1385 "mpqf.ml" 57 1370 1395
+type(
+  'a Mpq.tt -> int -> int -> int
+)
+ident(
+  ext_ref Mpq.cmp_si
+)
+"mpqf.ml" 58 1396 1400 "mpqf.ml" 58 1396 1403
+type(
+  'a Mpq.tt -> int
+)
+ident(
+  def sgn "mpqf.ml" 60 1415 1415 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 58 1396 1406 "mpqf.ml" 58 1396 1413
+type(
+  'a Mpq.tt -> int
+)
+ident(
+  ext_ref Mpq.sgn
+)
+"mpqf.ml" 60 1415 1419 "mpqf.ml" 60 1415 1426
+type(
+  'a Mpq.tt -> Mpzf.t
+)
+ident(
+  def get_num "mpqf.ml" 65 1496 1496 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 60 1415 1427 "mpqf.ml" 60 1415 1428
+type(
+  'a Mpq.tt
+)
+ident(
+  def q "mpqf.ml" 61 1431 1433 "mpqf.ml" 63 1478 1494
+)
+"mpqf.ml" 61 1431 1437 "mpqf.ml" 61 1431 1440
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def num "mpqf.ml" 62 1457 1459 "mpqf.ml" 63 1478 1494
+)
+"mpqf.ml" 61 1431 1443 "mpqf.ml" 61 1431 1451
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpqf.ml" 61 1431 1451 "mpqf.ml" 61 1431 1453
+type(
+  unit
+)
+"mpqf.ml" 61 1431 1443 "mpqf.ml" 61 1431 1453
+type(
+  Mpz.m Mpz.tt
+)
+"mpqf.ml" 62 1457 1459 "mpqf.ml" 62 1457 1470
+type(
+  Mpz.t -> 'a Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.get_num
+)
+"mpqf.ml" 62 1457 1471 "mpqf.ml" 62 1457 1474
+type(
+  Mpz.t
+)
+ident(
+  int_ref num "mpqf.ml" 61 1431 1437 "mpqf.ml" 61 1431 1440
+)
+"mpqf.ml" 62 1457 1475 "mpqf.ml" 62 1457 1476
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref q "mpqf.ml" 60 1415 1427 "mpqf.ml" 60 1415 1428
+)
+"mpqf.ml" 62 1457 1459 "mpqf.ml" 62 1457 1476
+type(
+  unit
+)
+"mpqf.ml" 63 1478 1480 "mpqf.ml" 63 1478 1490
+type(
+  Mpz.t -> Mpzf.t
+)
+ident(
+  ext_ref Mpzf._mpzf
+)
+"mpqf.ml" 63 1478 1491 "mpqf.ml" 63 1478 1494
+type(
+  Mpz.t
+)
+ident(
+  int_ref num "mpqf.ml" 61 1431 1437 "mpqf.ml" 61 1431 1440
+)
+"mpqf.ml" 63 1478 1480 "mpqf.ml" 63 1478 1494
+call(
+  tail
+)
+type(
+  Mpzf.t
+)
+"mpqf.ml" 62 1457 1459 "mpqf.ml" 63 1478 1494
+type(
+  Mpzf.t
+)
+"mpqf.ml" 61 1431 1433 "mpqf.ml" 63 1478 1494
+type(
+  Mpzf.t
+)
+"mpqf.ml" 65 1496 1500 "mpqf.ml" 65 1496 1507
+type(
+  'a Mpq.tt -> Mpzf.t
+)
+ident(
+  def get_den "mpqf.ml" 70 1577 1577 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 65 1496 1508 "mpqf.ml" 65 1496 1509
+type(
+  'a Mpq.tt
+)
+ident(
+  def q "mpqf.ml" 66 1512 1514 "mpqf.ml" 68 1559 1575
+)
+"mpqf.ml" 66 1512 1518 "mpqf.ml" 66 1512 1521
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def den "mpqf.ml" 67 1538 1540 "mpqf.ml" 68 1559 1575
+)
+"mpqf.ml" 66 1512 1524 "mpqf.ml" 66 1512 1532
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpqf.ml" 66 1512 1532 "mpqf.ml" 66 1512 1534
+type(
+  unit
+)
+"mpqf.ml" 66 1512 1524 "mpqf.ml" 66 1512 1534
+type(
+  Mpz.m Mpz.tt
+)
+"mpqf.ml" 67 1538 1540 "mpqf.ml" 67 1538 1551
+type(
+  Mpz.t -> 'a Mpq.tt -> unit
+)
+ident(
+  ext_ref Mpq.get_den
+)
+"mpqf.ml" 67 1538 1552 "mpqf.ml" 67 1538 1555
+type(
+  Mpz.t
+)
+ident(
+  int_ref den "mpqf.ml" 66 1512 1518 "mpqf.ml" 66 1512 1521
+)
+"mpqf.ml" 67 1538 1556 "mpqf.ml" 67 1538 1557
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref q "mpqf.ml" 65 1496 1508 "mpqf.ml" 65 1496 1509
+)
+"mpqf.ml" 67 1538 1540 "mpqf.ml" 67 1538 1557
+type(
+  unit
+)
+"mpqf.ml" 68 1559 1561 "mpqf.ml" 68 1559 1571
+type(
+  Mpz.t -> Mpzf.t
+)
+ident(
+  ext_ref Mpzf._mpzf
+)
+"mpqf.ml" 68 1559 1572 "mpqf.ml" 68 1559 1575
+type(
+  Mpz.t
+)
+ident(
+  int_ref den "mpqf.ml" 66 1512 1518 "mpqf.ml" 66 1512 1521
+)
+"mpqf.ml" 68 1559 1561 "mpqf.ml" 68 1559 1575
+call(
+  tail
+)
+type(
+  Mpzf.t
+)
+"mpqf.ml" 67 1538 1540 "mpqf.ml" 68 1559 1575
+type(
+  Mpzf.t
+)
+"mpqf.ml" 66 1512 1514 "mpqf.ml" 68 1559 1575
+type(
+  Mpzf.t
+)
+"mpqf.ml" 70 1577 1581 "mpqf.ml" 70 1577 1589
+type(
+  'a Mpq.tt -> Mpzf.t * Mpzf.t
+)
+ident(
+  def to_mpzf2 "mpqf.ml" 70 1577 1616 "mpqf.ml" 1 0 -1
+)
+"mpqf.ml" 70 1577 1590 "mpqf.ml" 70 1577 1591
+type(
+  'a Mpq.tt
+)
+ident(
+  def q "mpqf.ml" 70 1577 1594 "mpqf.ml" 70 1577 1616
+)
+"mpqf.ml" 70 1577 1595 "mpqf.ml" 70 1577 1602
+type(
+  'a Mpq.tt -> Mpzf.t
+)
+ident(
+  int_ref get_num "mpqf.ml" 60 1415 1419 "mpqf.ml" 60 1415 1426
+)
+"mpqf.ml" 70 1577 1603 "mpqf.ml" 70 1577 1604
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref q "mpqf.ml" 70 1577 1590 "mpqf.ml" 70 1577 1591
+)
+"mpqf.ml" 70 1577 1595 "mpqf.ml" 70 1577 1604
+call(
+  stack
+)
+type(
+  Mpzf.t
+)
+"mpqf.ml" 70 1577 1606 "mpqf.ml" 70 1577 1613
+type(
+  'a Mpq.tt -> Mpzf.t
+)
+ident(
+  int_ref get_den "mpqf.ml" 65 1496 1500 "mpqf.ml" 65 1496 1507
+)
+"mpqf.ml" 70 1577 1614 "mpqf.ml" 70 1577 1615
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref q "mpqf.ml" 70 1577 1590 "mpqf.ml" 70 1577 1591
+)
+"mpqf.ml" 70 1577 1606 "mpqf.ml" 70 1577 1615
+call(
+  stack
+)
+type(
+  Mpzf.t
+)
+"mpqf.ml" 70 1577 1594 "mpqf.ml" 70 1577 1616
+type(
+  Mpzf.t * Mpzf.t
+)

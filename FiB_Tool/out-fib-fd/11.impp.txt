@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (j = (2 * x))
+find an inductive invaraint based on concrete reachables
+invariant size: 30
+interp: (let ((.def_89 (<= (+ j (* (- 2) x)) 0))) (let ((.def_216 (and (<= (+ (* 2 i) (* (- 1) j)) 0) (<= 0 (+ (* 2 i) (* (- 1) j)))))) (not (and (and (not (and (<= (+ i (* (- 1) x)) (- 1)) .def_216)) (not (and .def_89 (and (<= (to_real (+ (* 2 i) (* (- 1) j))) (to_real 0)) .def_216)))) (not (and .def_89 .def_216))))))
+The assertion is satisfied!
+forward [2] times, backtracks [1] times
+backward [1] times

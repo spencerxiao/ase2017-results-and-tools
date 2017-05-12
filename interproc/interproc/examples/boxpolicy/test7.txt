@@ -1,0 +1,17 @@
+var i:int,j:int,k:int;
+
+begin
+  i=0;
+  k=9;
+  j=-100;
+  while i<=100 do
+    i=i+1;
+    while j<20 do
+      j=i+j;
+    done;
+    k=4;
+    while k<=3 do
+      k=k+1;
+    done;
+  done;
+end

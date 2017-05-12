@@ -1,0 +1,27 @@
+(declare-fun |main::k| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::n| () Int)
+(declare-fun |main::j| () Int)
+
+main:
+(assert (>= |main::k| 0))
+
+__VERIFIER_assume N3:
+(assert (= |__VERIFIER_assume::i| 0))
+(assert (<= 0 (+ |main::n| (- 1))))
+(assert (<= 0 (+ |main::k| (- 2))))
+(assert (<= |main::n| (+ |main::k| (- 1))))
+
+main N18:
+(assert (<= 0 (+ |main::k| (- 2))))
+(assert (>= |main::k| 0))
+(assert (<= 0 (+ |main::k| (- 1))))
+(assert (<= 0 |main::k|))
+(assert (<= |main::n| (+ |main::k| (- 1))))
+(assert (= |main::j| 0))
+(assert (<= |main::n| (+ |main::k| |main::j| (- 1))))
+
+main N29:
+(assert false)
+(assert (>= |main::k| 0))
+

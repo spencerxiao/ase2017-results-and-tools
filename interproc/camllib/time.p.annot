@@ -1,0 +1,580 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 65 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 78
+type(
+  float ref -> (unit -> 'a) -> 'a
+)
+ident(
+  def wrap_duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 323 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 80 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 88
+type(
+  float ref
+)
+ident(
+  def duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 100 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 101 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 102
+type(
+  unit -> 'a
+)
+ident(
+  def f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 115 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 128 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 130
+type(
+  float
+)
+ident(
+  def t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 5 147 149 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 133 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 141
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 141 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 143
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 133 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 143
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 162 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 165
+type(
+  'a
+)
+ident(
+  def res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 179 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 9 228 235
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 168 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 169
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 101 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 102
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 169 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 171
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 168 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 171
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 183 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 185
+type(
+  float
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 206 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 9 228 235
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 188 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 196
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 196 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 198
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 188 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 198
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 206 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 214
+type(
+  float ref
+)
+ident(
+  int_ref duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 80 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 88
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 215 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 217
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 218 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 220
+type(
+  float
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 183 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 185
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 221 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 223
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 224 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 226
+type(
+  float
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 128 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 130
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 218 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 226
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 206 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 226
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 9 228 232 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 9 228 235
+type(
+  'a
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 162 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 165
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 8 202 206 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 9 228 235
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 7 175 179 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 9 228 235
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 6 154 158 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 9 228 235
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 10 236 243 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 10 236 246
+type(
+  exn
+)
+ident(
+  def exn "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 254 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 258 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 260
+type(
+  float
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 263 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 271
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 271 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 273
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 263 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 273
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 289
+type(
+  float ref
+)
+ident(
+  int_ref duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 80 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 3 61 88
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 290 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 292
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 293 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 295
+type(
+  float
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 258 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 260
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 296 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 298
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 299 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 301
+type(
+  float
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 128 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 130
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 293 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 301
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 301
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 307 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 312
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 313 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+type(
+  exn
+)
+ident(
+  int_ref exn "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 10 236 243 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 10 236 246
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 307 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 12 277 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 11 250 254 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 5 147 149 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 4 122 124 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 13 303 316
+type(
+  'a
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 327 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 344
+type(
+  float ref -> (unit -> 'a) -> 'a
+)
+ident(
+  def wrap_duration_add "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 346 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 354
+type(
+  float ref
+)
+ident(
+  def duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 366 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 367 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 368
+type(
+  unit -> 'a
+)
+ident(
+  def f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 381 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 394 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 396
+type(
+  float
+)
+ident(
+  def t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 18 413 415 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 399 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 407
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 407 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 409
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 399 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 409
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 428 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 431
+type(
+  'a
+)
+ident(
+  def res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 445 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 22 509 516
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 434 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 435
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 367 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 368
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 435 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 437
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 434 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 437
+call(
+  stack
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 449 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 451
+type(
+  float
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 22 509 516
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 454 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 462
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 462 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 464
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 454 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 464
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 480
+type(
+  float ref
+)
+ident(
+  int_ref duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 346 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 354
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 481 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 483
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 484 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 485
+type(
+  float ref -> float
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 485 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 493
+type(
+  float ref
+)
+ident(
+  int_ref duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 346 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 354
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 484 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 493
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 494 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 496
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 498 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 500
+type(
+  float
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 449 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 451
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 501 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 503
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 504 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 506
+type(
+  float
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 394 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 396
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 497 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 507
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 484 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 507
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 507
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 22 509 513 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 22 509 516
+type(
+  'a
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 428 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 431
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 21 468 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 22 509 516
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 20 441 445 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 22 509 516
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 19 420 424 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 22 509 516
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 23 517 524 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 23 517 527
+type(
+  exn
+)
+ident(
+  def exn "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 535 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 539 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 541
+type(
+  float
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 562 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 544 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 552
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 552 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 554
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 544 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 554
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 562 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 570
+type(
+  float ref
+)
+ident(
+  int_ref duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 346 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 354
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 571 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 573
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 574 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 575
+type(
+  float ref -> float
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 575 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 583
+type(
+  float ref
+)
+ident(
+  int_ref duration "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 346 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 16 323 354
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 574 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 583
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 584 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 586
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 588 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 590
+type(
+  float
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 539 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 541
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 591 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 593
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 594 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 596
+type(
+  float
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 394 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 396
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 587 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 597
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 574 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 597
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 562 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 597
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 603 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 608
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 609 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+type(
+  exn
+)
+ident(
+  int_ref exn "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 23 517 524 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 23 517 527
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 603 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 25 558 562 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 24 531 535 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 18 413 415 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 17 388 390 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/time.ml" 26 599 612
+type(
+  'a
+)
+type(
+  'a
+)

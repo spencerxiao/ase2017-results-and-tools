@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (y = n)
+find an inductive invaraint  based on abstractions
+invariant size: 56
+interp: (let ((.def_105 (<= n y))) (let ((.def_114 (<= (+ n (* (- 1) y)) (- 1)))) (let ((.def_118 (<= 1 (+ x (* (- 1) y))))) (let ((.def_122 (not .def_114))) (let ((.def_123 (not .def_118))) (let ((.def_146 (<= 1 (+ m (* (- 1) x))))) (let ((.def_151 (not .def_146))) (let ((.def_235 (<= (+ x (* (- 1) y)) (- 1)))) (let ((.def_255 (not .def_235))) (let ((.def_468 (and .def_114 (<= (+ n (* (- 1) x)) (- 1))))) (let ((.def_476 (<= (+ m (* (- 1) x)) (- 1)))) (let ((.def_499 (not (and .def_151 (and .def_255 (not .def_468)))))) (and (not (<= 1 (+ m (* (- 1) y)))) (and (not (and (or .def_105 .def_476) (and (not (and .def_151 (and (and .def_122 .def_123) .def_255))) (and (not (and .def_151 (and .def_123 (and .def_122 .def_255)))) (or (and .def_118 .def_476) (and .def_105 (or .def_146 (and (or .def_235 .def_468) .def_499)))))))) (not (and (<= (+ m (* (- 1) y)) (- 1)) (and .def_235 .def_499)))))))))))))))))
+The assertion is satisfied!
+forward [2] times
+backward [2] times, backtracks [0] times

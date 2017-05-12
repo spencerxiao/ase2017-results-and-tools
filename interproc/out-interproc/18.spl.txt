@@ -1,0 +1,34 @@
+[32mAnnotated program after forward analysis[m
+var flag : int, a : int, b : int, j : int;
+begin
+  /* [31m(L2 C5) [|j=0 mod 1; flag=0 mod 1; b=0 mod 1; a=0 mod 1|][m */
+  b = 0; /* [31m(L3 C8) [|b=0; j=0 mod 1; flag=0 mod 1; b=0; a=0 mod 1|][m */
+  flag = [-inf; inf]; /* [31m(L4 C16)
+                         [|-b+100>=0; b>=0; j=0 mod 1; flag=0 mod 1;
+                           b=0 mod 1; a=0 mod 1|][m */
+  while b < 100 do
+    /* [31m(L5 C20)
+       [|-b+99>=0; b>=0; j=0 mod 1; flag=0 mod 1; b=0 mod 1; a=0 mod 1|][m */
+    if not flag == 0 then
+      /* [31m(L6 C27)
+         [|-b+99>=0; b>=0; j=0 mod 1; flag=0 mod 1; b=0 mod 1; a=0 mod 1|][m */
+      j = j +_i,? 1; /* [31m(L7 C18)
+                        [|-b+99>=0; b>=0; j=0 mod 1; flag=0 mod 1; b=0 mod 1;
+                          a=0 mod 1|][m */
+    endif; /* [31m(L8 C10)
+              [|-b+99>=0; b>=0; j=0 mod 1; flag=0 mod 1; b=0 mod 1; a=0 mod 1|][m */
+    b = b +_i,? 1; /* [31m(L9 C16)
+                      [|-b+100>=0; b-1>=0; j=0 mod 1; flag=0 mod 1;
+                        b=0 mod 1; a=0 mod 1|][m */
+  done; /* [31m(L10 C7)
+           [|b-100=0; j=0 mod 1; flag=0 mod 1; b-100=0; a=0 mod 1|][m */
+  if not flag == 0 then
+    /* [31m(L12 C25)
+       [|b-100=0; j=0 mod 1; flag=0 mod 1; b-100=0; a=0 mod 1|][m */
+    assume j == 100; /* [31m(L13 C22)
+                        [|j-100=0; b-100=0; j-100=0; flag=0 mod 1; b-100=0;
+                          a=0 mod 1|][m */
+  endif; /* [31m(L14 C8)
+            [|b-100=0; j=0 mod 1; flag=0 mod 1; b-100=0; a=0 mod 1|][m */
+end
+

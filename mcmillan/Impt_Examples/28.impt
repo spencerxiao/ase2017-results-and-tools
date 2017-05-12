@@ -1,0 +1,28 @@
+MODULE main
+	int n;
+	int x;
+	int y;
+
+	int finish;
+
+	assume(n == 0);
+	assume(x >= 0);
+	assume(y >= 0);
+	assume(x == y);
+
+	assume(finish == 0);
+
+	while(x != n){
+		x = x - 1;
+		y = y - 1;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && y != n;

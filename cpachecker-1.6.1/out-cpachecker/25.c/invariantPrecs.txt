@@ -1,0 +1,17 @@
+(declare-fun |main::i| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+
+__VERIFIER_assume N3:
+(assert false)
+
+main N14:
+(assert (let ((.cse0 (- |main::x|))) (and (>= |main::i| |main::j|) (<= |main::y| |main::x|) (<= (+ |main::y| .cse0) 0) (<= |main::x| |main::y|) (not (<= (+ |main::y| .cse0 1) 0)) (<= |main::j| |main::i|))))
+
+main N19:
+(assert (let ((.cse0 (- |main::x|))) (and (>= |main::i| |main::j|) (<= |main::y| |main::x|) (<= (+ |main::y| .cse0) 0) (<= |main::x| |main::y|) (not (<= (+ |main::y| .cse0 1) 0)) (<= |main::j| |main::i|))))
+
+main N47:
+(assert false)
+

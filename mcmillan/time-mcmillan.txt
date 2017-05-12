@@ -1,0 +1,192 @@
+run FiB for file 01.impt
+0:01.84 real
+1.79 user
+0.04 sys
+run FiB for file 02x_mod.impt
+0:14.05 real
+13.99 user
+0.06 sys
+run FiB for file 04.impt
+0:00.21 real
+0.21 user
+0.00 sys
+run FiB for file 05.impt
+0:16.54 real
+16.44 user
+0.09 sys
+run FiB for file 06nx.impt
+Command exited with non-zero status 124
+3:20.05 real
+199.52 user
+0.51 sys
+run FiB for file 07.impt
+0:16.22 real
+16.12 user
+0.10 sys
+run FiB for file 08x.impt
+Command exited with non-zero status 124
+3:20.04 real
+199.68 user
+0.34 sys
+run FiB for file 09s.impt
+0:00.20 real
+0.19 user
+0.00 sys
+run FiB for file 10.impt
+0:04.53 real
+4.49 user
+0.04 sys
+run FiB for file 11.impt
+0:00.35 real
+0.34 user
+0.01 sys
+run FiB for file 12nx.impt
+Command exited with non-zero status 124
+3:20.05 real
+199.47 user
+0.53 sys
+run FiB for file 13.impt
+0:00.94 real
+0.92 user
+0.01 sys
+run FiB for file 14.impt
+0:05.67 real
+5.63 user
+0.03 sys
+run FiB for file 15.impt
+0:00.63 real
+0.61 user
+0.02 sys
+run FiB for file 16.impt
+0:00.03 real
+0.03 user
+0.00 sys
+run FiB for file 17nx.impt
+Command exited with non-zero status 124
+3:20.07 real
+199.20 user
+0.85 sys
+run FiB for file 18.impt
+0:00.60 real
+0.58 user
+0.02 sys
+run FiB for file 19x.impt
+0:30.09 real
+29.92 user
+0.16 sys
+run FiB for file 20.impt
+0:05.73 real
+5.68 user
+0.04 sys
+run FiB for file 21x.impt
+Command exited with non-zero status 124
+3:20.04 real
+199.60 user
+0.42 sys
+run FiB for file 22x_mod.impt
+0:21.88 real
+21.61 user
+0.26 sys
+run FiB for file 23.impt
+0:01.60 real
+1.59 user
+0.01 sys
+run FiB for file 25nx.impt
+Command exited with non-zero status 124
+3:20.05 real
+199.45 user
+0.58 sys
+run FiB for file 26nsx_mod.impt
+Command exited with non-zero status 124
+3:20.06 real
+199.54 user
+0.49 sys
+run FiB for file 28.impt
+0:00.26 real
+0.25 user
+0.00 sys
+run FiB for file 29nx_mod.impt
+0:07.41 real
+7.36 user
+0.04 sys
+run FiB for file 30.impt
+0:02.92 real
+2.90 user
+0.01 sys
+run FiB for file 32x.impt
+2:49.97 real
+169.57 user
+0.37 sys
+run FiB for file 33nsx.impt
+0:48.32 real
+48.14 user
+0.17 sys
+run FiB for file 34x.impt
+Command exited with non-zero status 124
+3:20.05 real
+199.51 user
+0.52 sys
+run FiB for file 35.impt
+0:00.06 real
+0.05 user
+0.00 sys
+run FiB for file 36nsx.impt
+Command exited with non-zero status 124
+3:20.05 real
+199.58 user
+0.43 sys
+run FiB for file 37.impt
+0:01.47 real
+1.43 user
+0.03 sys
+run FiB for file 38x_mod.impt
+0:11.78 real
+11.71 user
+0.06 sys
+run FiB for file 40sx.impt
+Command exited with non-zero status 124
+3:20.06 real
+199.30 user
+0.64 sys
+run FiB for file 41.impt
+0:03.84 real
+3.79 user
+0.04 sys
+run FiB for file 42x_mod.impt
+0:16.37 real
+16.25 user
+0.11 sys
+run FiB for file 43.impt
+0:00.07 real
+0.07 user
+0.00 sys
+run FiB for file 44.impt
+0:00.48 real
+0.47 user
+0.00 sys
+run FiB for file 45nsx.impt
+Command exited with non-zero status 124
+3:20.05 real
+199.68 user
+0.35 sys
+run FiB for file 46x_mod.impt
+0:10.62 real
+10.54 user
+0.07 sys
+run FiB for file ccc1x.impt
+1:13.62 real
+73.35 user
+0.26 sys
+run FiB for file ccc2x.impt
+Command exited with non-zero status 124
+3:20.04 real
+198.00 user
+2.02 sys
+run FiB for file ccc.impt
+0:00.34 real
+0.32 user
+0.01 sys
+run FiB for file foo.impt
+0:00.91 real
+0.90 user
+0.00 sys

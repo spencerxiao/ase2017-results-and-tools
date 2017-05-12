@@ -1,0 +1,15 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (a >= -(m))
+find an inductive invaraint based on concrete reachables
+invariant size: 32
+interp: (let ((.def_23 (+ a m))) (let ((.def_24 (<= 0 .def_23))) (let ((.def_285 (<= 1 (+ a j)))) (let ((.def_301 (not (and .def_24 .def_285)))) (not (and (and (not (<= 2 .def_23)) (and (and (not (<= 4 .def_23)) .def_301) (and .def_301 (not (and .def_24 (or .def_285 (<= (+ a j) (- 1)))))))) (not (and (<= j m) (<= 1 .def_23)))))))))
+The assertion is satisfied!
+forward [2] times, backtracks [1] times
+backward [1] times
+verifying assertion: (a <= m)
+find an inductive invaraint based on concrete reachables
+invariant size: 38
+interp: (let ((.def_364 (<= a m))) (let ((.def_370 (<= (+ a (* (- 1) m)) (- 2)))) (let ((.def_441 (<= (+ a (* (- 1) j)) (- 1)))) (let ((.def_463 (not (<= (+ a (* (- 1) m)) (- 4))))) (not (and (and (not .def_370) (and (and (not (and .def_364 .def_441)) .def_463) (and .def_463 (not (and (and (or .def_364 .def_370) (or .def_364 (<= 1 (+ a (* (- 1) j))))) (or .def_441 (<= (+ a (* (- 1) j)) (- 3)))))))) (not (and (<= j m) (<= (+ a (* (- 1) m)) (- 1))))))))))
+The assertion is satisfied!
+forward [2] times, backtracks [1] times
+backward [1] times

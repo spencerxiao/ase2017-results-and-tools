@@ -1,0 +1,3321 @@
+"pSpl_syn.ml" 12 295 299 "pSpl_syn.ml" 12 295 310
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  def print_point "pSpl_syn.ml" 18 386 386 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 12 295 311 "pSpl_syn.ml" 12 295 314
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 12 295 315 "pSpl_syn.ml" 15 359 383
+)
+"pSpl_syn.ml" 12 295 316 "pSpl_syn.ml" 12 295 321
+type(
+  Spl_syn.point
+)
+ident(
+  def point "pSpl_syn.ml" 14 333 335 "pSpl_syn.ml" 15 359 383
+)
+"pSpl_syn.ml" 14 333 335 "pSpl_syn.ml" 14 333 342
+type(
+  Format.formatter ->
+  (int -> int -> unit, Format.formatter, unit) format -> int -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 14 333 343 "pSpl_syn.ml" 14 333 346
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 12 295 311 "pSpl_syn.ml" 12 295 314
+)
+"pSpl_syn.ml" 14 333 347 "pSpl_syn.ml" 14 333 358
+type(
+  (int -> int -> unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 15 359 363 "pSpl_syn.ml" 15 359 368
+type(
+  Spl_syn.point
+)
+ident(
+  int_ref point "pSpl_syn.ml" 12 295 316 "pSpl_syn.ml" 12 295 321
+)
+"pSpl_syn.ml" 15 359 363 "pSpl_syn.ml" 15 359 373
+type(
+  int
+)
+"pSpl_syn.ml" 15 359 374 "pSpl_syn.ml" 15 359 379
+type(
+  Spl_syn.point
+)
+ident(
+  int_ref point "pSpl_syn.ml" 12 295 316 "pSpl_syn.ml" 12 295 321
+)
+"pSpl_syn.ml" 15 359 374 "pSpl_syn.ml" 15 359 383
+type(
+  int
+)
+"pSpl_syn.ml" 14 333 335 "pSpl_syn.ml" 15 359 383
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 18 386 390 "pSpl_syn.ml" 18 386 400
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def print_list "pSpl_syn.ml" 42 980 980 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 19 401 405 "pSpl_syn.ml" 19 401 410
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 19 401 412 "pSpl_syn.ml" 19 401 417
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 20 456 460 "pSpl_syn.ml" 20 456 463
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 20 456 467 "pSpl_syn.ml" 20 456 472
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 21 511 515 "pSpl_syn.ml" 21 511 519
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 21 511 523 "pSpl_syn.ml" 21 511 528
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 22 567 570 "pSpl_syn.ml" 22 567 579
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def print_elt "pSpl_syn.ml" 23 613 615 "pSpl_syn.ml" 40 973 978
+)
+"pSpl_syn.ml" 23 613 616 "pSpl_syn.ml" 23 613 619
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 24 638 640 "pSpl_syn.ml" 40 973 978
+)
+"pSpl_syn.ml" 24 638 641 "pSpl_syn.ml" 24 638 645
+type(
+  'a list
+)
+ident(
+  def list "pSpl_syn.ml" 25 656 658 "pSpl_syn.ml" 40 973 978
+)
+"pSpl_syn.ml" 27 669 674 "pSpl_syn.ml" 27 669 678
+type(
+  'a list
+)
+ident(
+  int_ref list "pSpl_syn.ml" 24 638 641 "pSpl_syn.ml" 24 638 645
+)
+"pSpl_syn.ml" 27 669 678 "pSpl_syn.ml" 27 669 679
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pSpl_syn.ml" 27 669 679 "pSpl_syn.ml" 27 669 681
+type(
+  'a list
+)
+"pSpl_syn.ml" 27 669 674 "pSpl_syn.ml" 27 669 681
+type(
+  bool
+)
+"pSpl_syn.ml" 28 693 697 "pSpl_syn.ml" 28 693 704
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 28 693 705 "pSpl_syn.ml" 28 693 708
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 23 613 616 "pSpl_syn.ml" 23 613 619
+)
+"pSpl_syn.ml" 28 693 709 "pSpl_syn.ml" 28 693 714
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref first "pSpl_syn.ml" 19 401 405 "pSpl_syn.ml" 19 401 410
+)
+"pSpl_syn.ml" 28 693 697 "pSpl_syn.ml" 28 693 714
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 29 716 720 "pSpl_syn.ml" 29 716 727
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 29 716 728 "pSpl_syn.ml" 29 716 731
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 23 613 616 "pSpl_syn.ml" 23 613 619
+)
+"pSpl_syn.ml" 29 716 732 "pSpl_syn.ml" 29 716 736
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref last "pSpl_syn.ml" 21 511 515 "pSpl_syn.ml" 21 511 519
+)
+"pSpl_syn.ml" 29 716 720 "pSpl_syn.ml" 29 716 737
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 27 669 687 "pSpl_syn.ml" 30 738 743
+type(
+  unit
+)
+"pSpl_syn.ml" 32 757 761 "pSpl_syn.ml" 32 757 768
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 32 757 769 "pSpl_syn.ml" 32 757 772
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 23 613 616 "pSpl_syn.ml" 23 613 619
+)
+"pSpl_syn.ml" 32 757 773 "pSpl_syn.ml" 32 757 778
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref first "pSpl_syn.ml" 19 401 405 "pSpl_syn.ml" 19 401 410
+)
+"pSpl_syn.ml" 32 757 761 "pSpl_syn.ml" 32 757 778
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 33 780 792 "pSpl_syn.ml" 33 780 798
+type(
+  'a list -> unit
+)
+ident(
+  def do_sep "pSpl_syn.ml" 33 780 784 "pSpl_syn.ml" 39 951 972
+)
+"pSpl_syn.ml" 34 810 817 "pSpl_syn.ml" 34 810 818
+type(
+  'a
+)
+ident(
+  def e "pSpl_syn.ml" 34 810 823 "pSpl_syn.ml" 34 810 838
+)
+"pSpl_syn.ml" 34 810 816 "pSpl_syn.ml" 34 810 819
+type(
+  'a list
+)
+"pSpl_syn.ml" 34 810 823 "pSpl_syn.ml" 34 810 832
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print_elt "pSpl_syn.ml" 22 567 570 "pSpl_syn.ml" 22 567 579
+)
+"pSpl_syn.ml" 34 810 833 "pSpl_syn.ml" 34 810 836
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 23 613 616 "pSpl_syn.ml" 23 613 619
+)
+"pSpl_syn.ml" 34 810 837 "pSpl_syn.ml" 34 810 838
+type(
+  'a
+)
+ident(
+  int_ref e "pSpl_syn.ml" 34 810 817 "pSpl_syn.ml" 34 810 818
+)
+"pSpl_syn.ml" 34 810 823 "pSpl_syn.ml" 34 810 838
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 35 839 847 "pSpl_syn.ml" 35 839 848
+type(
+  'a
+)
+ident(
+  def e "pSpl_syn.ml" 35 839 855 "pSpl_syn.ml" 35 839 900
+)
+"pSpl_syn.ml" 35 839 850 "pSpl_syn.ml" 35 839 851
+type(
+  'a list
+)
+ident(
+  def l "pSpl_syn.ml" 35 839 855 "pSpl_syn.ml" 35 839 900
+)
+"pSpl_syn.ml" 35 839 847 "pSpl_syn.ml" 35 839 851
+type(
+  'a list
+)
+"pSpl_syn.ml" 35 839 856 "pSpl_syn.ml" 35 839 865
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print_elt "pSpl_syn.ml" 22 567 570 "pSpl_syn.ml" 22 567 579
+)
+"pSpl_syn.ml" 35 839 866 "pSpl_syn.ml" 35 839 869
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 23 613 616 "pSpl_syn.ml" 23 613 619
+)
+"pSpl_syn.ml" 35 839 870 "pSpl_syn.ml" 35 839 871
+type(
+  'a
+)
+ident(
+  int_ref e "pSpl_syn.ml" 35 839 847 "pSpl_syn.ml" 35 839 848
+)
+"pSpl_syn.ml" 35 839 856 "pSpl_syn.ml" 35 839 871
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 35 839 874 "pSpl_syn.ml" 35 839 881
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 35 839 882 "pSpl_syn.ml" 35 839 885
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 23 613 616 "pSpl_syn.ml" 23 613 619
+)
+"pSpl_syn.ml" 35 839 886 "pSpl_syn.ml" 35 839 889
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref sep "pSpl_syn.ml" 20 456 460 "pSpl_syn.ml" 20 456 463
+)
+"pSpl_syn.ml" 35 839 874 "pSpl_syn.ml" 35 839 889
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 35 839 891 "pSpl_syn.ml" 35 839 897
+type(
+  'a list -> unit
+)
+ident(
+  int_ref do_sep "pSpl_syn.ml" 33 780 792 "pSpl_syn.ml" 33 780 798
+)
+"pSpl_syn.ml" 35 839 898 "pSpl_syn.ml" 35 839 899
+type(
+  'a list
+)
+ident(
+  int_ref l "pSpl_syn.ml" 35 839 850 "pSpl_syn.ml" 35 839 851
+)
+"pSpl_syn.ml" 35 839 891 "pSpl_syn.ml" 35 839 899
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 35 839 874 "pSpl_syn.ml" 35 839 899
+type(
+  unit
+)
+"pSpl_syn.ml" 35 839 855 "pSpl_syn.ml" 35 839 900
+type(
+  unit
+)
+"pSpl_syn.ml" 36 901 909 "pSpl_syn.ml" 36 901 911
+type(
+  'a list
+)
+"pSpl_syn.ml" 36 901 915 "pSpl_syn.ml" 36 901 923
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"pSpl_syn.ml" 36 901 924 "pSpl_syn.ml" 36 901 926
+type(
+  string
+)
+"pSpl_syn.ml" 36 901 915 "pSpl_syn.ml" 36 901 926
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 33 780 801 "pSpl_syn.ml" 36 901 926
+type(
+  'a list -> unit
+)
+"pSpl_syn.ml" 38 934 938 "pSpl_syn.ml" 38 934 944
+type(
+  'a list -> unit
+)
+ident(
+  int_ref do_sep "pSpl_syn.ml" 33 780 792 "pSpl_syn.ml" 33 780 798
+)
+"pSpl_syn.ml" 38 934 945 "pSpl_syn.ml" 38 934 949
+type(
+  'a list
+)
+ident(
+  int_ref list "pSpl_syn.ml" 24 638 641 "pSpl_syn.ml" 24 638 645
+)
+"pSpl_syn.ml" 38 934 938 "pSpl_syn.ml" 38 934 949
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 39 951 955 "pSpl_syn.ml" 39 951 962
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 39 951 963 "pSpl_syn.ml" 39 951 966
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 23 613 616 "pSpl_syn.ml" 23 613 619
+)
+"pSpl_syn.ml" 39 951 967 "pSpl_syn.ml" 39 951 971
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref last "pSpl_syn.ml" 21 511 515 "pSpl_syn.ml" 21 511 519
+)
+"pSpl_syn.ml" 39 951 955 "pSpl_syn.ml" 39 951 972
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 38 934 938 "pSpl_syn.ml" 39 951 972
+type(
+  unit
+)
+"pSpl_syn.ml" 33 780 784 "pSpl_syn.ml" 39 951 972
+type(
+  unit
+)
+"pSpl_syn.ml" 31 744 751 "pSpl_syn.ml" 40 973 978
+type(
+  unit
+)
+"pSpl_syn.ml" 27 669 671 "pSpl_syn.ml" 40 973 978
+type(
+  unit
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 42 980 984 "pSpl_syn.ml" 42 980 997
+type(
+  Format.formatter -> Apron.Var.t list -> unit
+)
+ident(
+  def print_poutput "pSpl_syn.ml" 50 1173 1173 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 42 980 998 "pSpl_syn.ml" 42 980 1001
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 42 980 1002 "pSpl_syn.ml" 48 1144 1171
+)
+"pSpl_syn.ml" 42 980 1003 "pSpl_syn.ml" 42 980 1004
+type(
+  Apron.Var.t list
+)
+ident(
+  def l "pSpl_syn.ml" 43 1025 1027 "pSpl_syn.ml" 48 1144 1171
+)
+"pSpl_syn.ml" 43 1025 1033 "pSpl_syn.ml" 43 1025 1034
+type(
+  Apron.Var.t list
+)
+ident(
+  int_ref l "pSpl_syn.ml" 42 980 1003 "pSpl_syn.ml" 42 980 1004
+)
+"pSpl_syn.ml" 44 1040 1045 "pSpl_syn.ml" 44 1040 1046
+type(
+  Apron.Var.t
+)
+ident(
+  def x "pSpl_syn.ml" 44 1040 1051 "pSpl_syn.ml" 44 1040 1072
+)
+"pSpl_syn.ml" 44 1040 1044 "pSpl_syn.ml" 44 1040 1047
+type(
+  Apron.Var.t list
+)
+"pSpl_syn.ml" 44 1040 1051 "pSpl_syn.ml" 44 1040 1066
+type(
+  Format.formatter -> Apron.Var.t -> unit
+)
+ident(
+  ext_ref Apron.Var.print
+)
+"pSpl_syn.ml" 44 1040 1067 "pSpl_syn.ml" 44 1040 1070
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 42 980 998 "pSpl_syn.ml" 42 980 1001
+)
+"pSpl_syn.ml" 44 1040 1071 "pSpl_syn.ml" 44 1040 1072
+type(
+  Apron.Var.t
+)
+ident(
+  int_ref x "pSpl_syn.ml" 44 1040 1045 "pSpl_syn.ml" 44 1040 1046
+)
+"pSpl_syn.ml" 44 1040 1051 "pSpl_syn.ml" 44 1040 1072
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 45 1073 1077 "pSpl_syn.ml" 45 1073 1078
+type(
+  Apron.Var.t list
+)
+"pSpl_syn.ml" 46 1082 1088 "pSpl_syn.ml" 46 1082 1098
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Apron.Var.t -> unit) ->
+  Format.formatter -> Apron.Var.t list -> unit
+)
+ident(
+  int_ref print_list "pSpl_syn.ml" 18 386 390 "pSpl_syn.ml" 18 386 400
+)
+"pSpl_syn.ml" 47 1100 1113 "pSpl_syn.ml" 47 1100 1121
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 47 1100 1127 "pSpl_syn.ml" 47 1100 1131
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 47 1100 1138 "pSpl_syn.ml" 47 1100 1143
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 48 1144 1150 "pSpl_syn.ml" 48 1144 1165
+type(
+  Format.formatter -> Apron.Var.t -> unit
+)
+ident(
+  ext_ref Apron.Var.print
+)
+"pSpl_syn.ml" 48 1144 1166 "pSpl_syn.ml" 48 1144 1169
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 42 980 998 "pSpl_syn.ml" 42 980 1001
+)
+"pSpl_syn.ml" 48 1144 1170 "pSpl_syn.ml" 48 1144 1171
+type(
+  Apron.Var.t list
+)
+ident(
+  int_ref l "pSpl_syn.ml" 42 980 1003 "pSpl_syn.ml" 42 980 1004
+)
+"pSpl_syn.ml" 46 1082 1088 "pSpl_syn.ml" 48 1144 1171
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 43 1025 1027 "pSpl_syn.ml" 48 1144 1171
+type(
+  unit
+)
+"pSpl_syn.ml" 50 1173 1177 "pSpl_syn.ml" 50 1173 1189
+type(
+  Format.formatter -> Apron.Var.t list -> unit
+)
+ident(
+  def print_pinput "pSpl_syn.ml" 57 1301 1301 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 50 1173 1190 "pSpl_syn.ml" 50 1173 1193
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 50 1173 1194 "pSpl_syn.ml" 53 1270 1295
+)
+"pSpl_syn.ml" 50 1173 1195 "pSpl_syn.ml" 50 1173 1196
+type(
+  Apron.Var.t list
+)
+ident(
+  def l "pSpl_syn.ml" 51 1217 1219 "pSpl_syn.ml" 53 1270 1295
+)
+"pSpl_syn.ml" 51 1217 1219 "pSpl_syn.ml" 51 1217 1229
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Apron.Var.t -> unit) ->
+  Format.formatter -> Apron.Var.t list -> unit
+)
+ident(
+  int_ref print_list "pSpl_syn.ml" 18 386 390 "pSpl_syn.ml" 18 386 400
+)
+"pSpl_syn.ml" 52 1230 1241 "pSpl_syn.ml" 52 1230 1248
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 52 1230 1254 "pSpl_syn.ml" 52 1230 1258
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 52 1230 1265 "pSpl_syn.ml" 52 1230 1269
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 53 1270 1274 "pSpl_syn.ml" 53 1270 1289
+type(
+  Format.formatter -> Apron.Var.t -> unit
+)
+ident(
+  ext_ref Apron.Var.print
+)
+"pSpl_syn.ml" 53 1270 1290 "pSpl_syn.ml" 53 1270 1293
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 50 1173 1190 "pSpl_syn.ml" 50 1173 1193
+)
+"pSpl_syn.ml" 53 1270 1294 "pSpl_syn.ml" 53 1270 1295
+type(
+  Apron.Var.t list
+)
+ident(
+  int_ref l "pSpl_syn.ml" 50 1173 1195 "pSpl_syn.ml" 50 1173 1196
+)
+"pSpl_syn.ml" 51 1217 1219 "pSpl_syn.ml" 53 1270 1295
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 57 1301 1305 "pSpl_syn.ml" 57 1301 1314
+type(
+  Format.formatter -> Apron.Var.t -> unit
+)
+ident(
+  def print_var "pSpl_syn.ml" 60 1371 1371 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 57 1301 1315 "pSpl_syn.ml" 57 1301 1318
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 57 1301 1319 "pSpl_syn.ml" 58 1324 1369
+)
+"pSpl_syn.ml" 57 1301 1319 "pSpl_syn.ml" 57 1301 1320
+type(
+  Apron.Var.t
+)
+ident(
+  def x "pSpl_syn.ml" 58 1324 1326 "pSpl_syn.ml" 58 1324 1369
+)
+"pSpl_syn.ml" 58 1324 1326 "pSpl_syn.ml" 58 1324 1341
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 58 1324 1342 "pSpl_syn.ml" 58 1324 1345
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 57 1301 1315 "pSpl_syn.ml" 57 1301 1318
+)
+"pSpl_syn.ml" 58 1324 1347 "pSpl_syn.ml" 58 1324 1366
+type(
+  Apron.Var.t -> string
+)
+ident(
+  ext_ref Apron.Var.to_string
+)
+"pSpl_syn.ml" 58 1324 1367 "pSpl_syn.ml" 58 1324 1368
+type(
+  Apron.Var.t
+)
+ident(
+  int_ref x "pSpl_syn.ml" 57 1301 1319 "pSpl_syn.ml" 57 1301 1320
+)
+"pSpl_syn.ml" 58 1324 1346 "pSpl_syn.ml" 58 1324 1369
+type(
+  string
+)
+"pSpl_syn.ml" 58 1324 1326 "pSpl_syn.ml" 58 1324 1369
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 60 1371 1375 "pSpl_syn.ml" 60 1371 1384
+type(
+  Format.formatter -> Spl_syn.typ -> unit
+)
+ident(
+  def print_typ "pSpl_syn.ml" 67 1489 1489 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 60 1371 1385 "pSpl_syn.ml" 60 1371 1388
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 60 1371 1389 "pSpl_syn.ml" 65 1480 1487
+)
+"pSpl_syn.ml" 60 1371 1389 "pSpl_syn.ml" 60 1371 1390
+type(
+  Spl_syn.typ
+)
+ident(
+  def x "pSpl_syn.ml" 61 1394 1396 "pSpl_syn.ml" 65 1480 1487
+)
+"pSpl_syn.ml" 61 1394 1396 "pSpl_syn.ml" 61 1394 1411
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 61 1394 1412 "pSpl_syn.ml" 61 1394 1415
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 60 1371 1385 "pSpl_syn.ml" 60 1371 1388
+)
+"pSpl_syn.ml" 62 1416 1433 "pSpl_syn.ml" 62 1416 1434
+type(
+  Spl_syn.typ
+)
+ident(
+  int_ref x "pSpl_syn.ml" 60 1371 1389 "pSpl_syn.ml" 60 1371 1390
+)
+"pSpl_syn.ml" 63 1440 1446 "pSpl_syn.ml" 63 1440 1449
+type(
+  Spl_syn.typ
+)
+"pSpl_syn.ml" 63 1440 1453 "pSpl_syn.ml" 63 1440 1458
+type(
+  string
+)
+"pSpl_syn.ml" 64 1459 1465 "pSpl_syn.ml" 64 1459 1469
+type(
+  Spl_syn.typ
+)
+"pSpl_syn.ml" 64 1459 1473 "pSpl_syn.ml" 64 1459 1479
+type(
+  string
+)
+"pSpl_syn.ml" 62 1416 1420 "pSpl_syn.ml" 65 1480 1487
+type(
+  string
+)
+"pSpl_syn.ml" 61 1394 1396 "pSpl_syn.ml" 65 1480 1487
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 67 1489 1493 "pSpl_syn.ml" 67 1489 1504
+type(
+  Format.formatter -> Apron.Texpr1.expr -> unit
+)
+ident(
+  def print_iexpr "pSpl_syn.ml" 69 1532 1532 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 67 1489 1507 "pSpl_syn.ml" 67 1489 1530
+type(
+  Format.formatter -> Apron.Texpr1.expr -> unit
+)
+ident(
+  ext_ref Apron.Texpr1.print_expr
+)
+"pSpl_syn.ml" 69 1532 1536 "pSpl_syn.ml" 69 1532 1549
+type(
+  Format.formatter -> Spl_syn.constyp -> unit
+)
+ident(
+  def print_typcons "pSpl_syn.ml" 79 1728 1728 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 69 1532 1550 "pSpl_syn.ml" 69 1532 1553
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 69 1532 1554 "pSpl_syn.ml" 78 1720 1727
+)
+"pSpl_syn.ml" 69 1532 1555 "pSpl_syn.ml" 69 1532 1558
+type(
+  Spl_syn.constyp
+)
+ident(
+  def typ "pSpl_syn.ml" 70 1570 1572 "pSpl_syn.ml" 78 1720 1727
+)
+"pSpl_syn.ml" 70 1570 1572 "pSpl_syn.ml" 70 1570 1587
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 70 1570 1588 "pSpl_syn.ml" 70 1570 1591
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 69 1532 1550 "pSpl_syn.ml" 69 1532 1553
+)
+"pSpl_syn.ml" 71 1592 1608 "pSpl_syn.ml" 71 1592 1611
+type(
+  Spl_syn.constyp
+)
+ident(
+  int_ref typ "pSpl_syn.ml" 69 1532 1555 "pSpl_syn.ml" 69 1532 1558
+)
+"pSpl_syn.ml" 72 1617 1623 "pSpl_syn.ml" 72 1617 1625
+type(
+  Spl_syn.constyp
+)
+"pSpl_syn.ml" 72 1617 1629 "pSpl_syn.ml" 72 1617 1633
+type(
+  string
+)
+"pSpl_syn.ml" 73 1634 1640 "pSpl_syn.ml" 73 1634 1643
+type(
+  Spl_syn.constyp
+)
+"pSpl_syn.ml" 73 1634 1647 "pSpl_syn.ml" 73 1634 1651
+type(
+  string
+)
+"pSpl_syn.ml" 74 1652 1658 "pSpl_syn.ml" 74 1652 1660
+type(
+  Spl_syn.constyp
+)
+"pSpl_syn.ml" 74 1652 1664 "pSpl_syn.ml" 74 1652 1667
+type(
+  string
+)
+"pSpl_syn.ml" 75 1668 1674 "pSpl_syn.ml" 75 1668 1677
+type(
+  Spl_syn.constyp
+)
+"pSpl_syn.ml" 75 1668 1681 "pSpl_syn.ml" 75 1668 1685
+type(
+  string
+)
+"pSpl_syn.ml" 76 1686 1692 "pSpl_syn.ml" 76 1686 1695
+type(
+  Spl_syn.constyp
+)
+"pSpl_syn.ml" 76 1686 1699 "pSpl_syn.ml" 76 1686 1703
+type(
+  string
+)
+"pSpl_syn.ml" 77 1704 1710 "pSpl_syn.ml" 77 1704 1712
+type(
+  Spl_syn.constyp
+)
+"pSpl_syn.ml" 77 1704 1716 "pSpl_syn.ml" 77 1704 1719
+type(
+  string
+)
+"pSpl_syn.ml" 71 1592 1596 "pSpl_syn.ml" 78 1720 1727
+type(
+  string
+)
+"pSpl_syn.ml" 70 1570 1572 "pSpl_syn.ml" 78 1720 1727
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 79 1728 1732 "pSpl_syn.ml" 79 1728 1742
+type(
+  Format.formatter ->
+  Apron.Texpr1.expr * Spl_syn.constyp * Apron.Texpr1.expr -> unit
+)
+ident(
+  def print_cons "pSpl_syn.ml" 85 1848 1848 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 79 1728 1743 "pSpl_syn.ml" 79 1728 1746
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 79 1728 1747 "pSpl_syn.ml" 83 1828 1846
+)
+"pSpl_syn.ml" 79 1728 1748 "pSpl_syn.ml" 79 1728 1750
+type(
+  Apron.Texpr1.expr
+)
+ident(
+  def e1 "pSpl_syn.ml" 80 1761 1763 "pSpl_syn.ml" 83 1828 1846
+)
+"pSpl_syn.ml" 79 1728 1751 "pSpl_syn.ml" 79 1728 1754
+type(
+  Spl_syn.constyp
+)
+ident(
+  def typ "pSpl_syn.ml" 80 1761 1763 "pSpl_syn.ml" 83 1828 1846
+)
+"pSpl_syn.ml" 79 1728 1755 "pSpl_syn.ml" 79 1728 1757
+type(
+  Apron.Texpr1.expr
+)
+ident(
+  def e2 "pSpl_syn.ml" 80 1761 1763 "pSpl_syn.ml" 83 1828 1846
+)
+"pSpl_syn.ml" 79 1728 1747 "pSpl_syn.ml" 79 1728 1758
+type(
+  Apron.Texpr1.expr * Spl_syn.constyp * Apron.Texpr1.expr
+)
+"pSpl_syn.ml" 80 1761 1763 "pSpl_syn.ml" 80 1761 1770
+type(
+  Format.formatter ->
+  ((Format.formatter -> Apron.Texpr1.expr -> unit) ->
+   Apron.Texpr1.expr ->
+   (Format.formatter -> Spl_syn.constyp -> unit) ->
+   Spl_syn.constyp ->
+   (Format.formatter -> Apron.Texpr1.expr -> unit) ->
+   Apron.Texpr1.expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Apron.Texpr1.expr -> unit) ->
+  Apron.Texpr1.expr ->
+  (Format.formatter -> Spl_syn.constyp -> unit) ->
+  Spl_syn.constyp ->
+  (Format.formatter -> Apron.Texpr1.expr -> unit) ->
+  Apron.Texpr1.expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 80 1761 1771 "pSpl_syn.ml" 80 1761 1774
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 79 1728 1743 "pSpl_syn.ml" 79 1728 1746
+)
+"pSpl_syn.ml" 80 1761 1775 "pSpl_syn.ml" 80 1761 1785
+type(
+  ((Format.formatter -> Apron.Texpr1.expr -> unit) ->
+   Apron.Texpr1.expr ->
+   (Format.formatter -> Spl_syn.constyp -> unit) ->
+   Spl_syn.constyp ->
+   (Format.formatter -> Apron.Texpr1.expr -> unit) ->
+   Apron.Texpr1.expr -> unit, Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 81 1787 1791 "pSpl_syn.ml" 81 1787 1802
+type(
+  Format.formatter -> Apron.Texpr1.expr -> unit
+)
+ident(
+  int_ref print_iexpr "pSpl_syn.ml" 67 1489 1493 "pSpl_syn.ml" 67 1489 1504
+)
+"pSpl_syn.ml" 81 1787 1803 "pSpl_syn.ml" 81 1787 1805
+type(
+  Apron.Texpr1.expr
+)
+ident(
+  int_ref e1 "pSpl_syn.ml" 79 1728 1748 "pSpl_syn.ml" 79 1728 1750
+)
+"pSpl_syn.ml" 82 1806 1810 "pSpl_syn.ml" 82 1806 1823
+type(
+  Format.formatter -> Spl_syn.constyp -> unit
+)
+ident(
+  int_ref print_typcons "pSpl_syn.ml" 69 1532 1536 "pSpl_syn.ml" 69 1532 1549
+)
+"pSpl_syn.ml" 82 1806 1824 "pSpl_syn.ml" 82 1806 1827
+type(
+  Spl_syn.constyp
+)
+ident(
+  int_ref typ "pSpl_syn.ml" 79 1728 1751 "pSpl_syn.ml" 79 1728 1754
+)
+"pSpl_syn.ml" 83 1828 1832 "pSpl_syn.ml" 83 1828 1843
+type(
+  Format.formatter -> Apron.Texpr1.expr -> unit
+)
+ident(
+  int_ref print_iexpr "pSpl_syn.ml" 67 1489 1493 "pSpl_syn.ml" 67 1489 1504
+)
+"pSpl_syn.ml" 83 1828 1844 "pSpl_syn.ml" 83 1828 1846
+type(
+  Apron.Texpr1.expr
+)
+ident(
+  int_ref e2 "pSpl_syn.ml" 79 1728 1755 "pSpl_syn.ml" 79 1728 1757
+)
+"pSpl_syn.ml" 80 1761 1763 "pSpl_syn.ml" 83 1828 1846
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 85 1848 1852 "pSpl_syn.ml" 85 1848 1863
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  def print_bexpr "pSpl_syn.ml" 111 2498 2498 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 85 1848 1864 "pSpl_syn.ml" 85 1848 1867
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 85 1848 1868 "pSpl_syn.ml" 109 2477 2496
+)
+"pSpl_syn.ml" 85 1848 1868 "pSpl_syn.ml" 85 1848 1873
+type(
+  Spl_syn.bexpr
+)
+ident(
+  def bexpr "pSpl_syn.ml" 86 1876 1878 "pSpl_syn.ml" 109 2477 2496
+)
+"pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  def print "pSpl_syn.ml" 86 1876 1878 "pSpl_syn.ml" 109 2477 2496
+)
+"pSpl_syn.ml" 86 1876 1893 "pSpl_syn.ml" 86 1876 1898
+type(
+  int
+)
+ident(
+  def level "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 107 2455 2471
+)
+"pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 86 1876 1910 "pSpl_syn.ml" 107 2455 2471
+)
+"pSpl_syn.ml" 87 1919 1925 "pSpl_syn.ml" 87 1919 1929
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 87 1919 1933 "pSpl_syn.ml" 87 1919 1948
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 87 1919 1949 "pSpl_syn.ml" 87 1919 1952
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 87 1919 1953 "pSpl_syn.ml" 87 1919 1959
+type(
+  string
+)
+"pSpl_syn.ml" 87 1919 1933 "pSpl_syn.ml" 87 1919 1959
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 88 1960 1966 "pSpl_syn.ml" 88 1960 1971
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 88 1960 1975 "pSpl_syn.ml" 88 1960 1990
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 88 1960 1991 "pSpl_syn.ml" 88 1960 1994
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 88 1960 1995 "pSpl_syn.ml" 88 1960 2002
+type(
+  string
+)
+"pSpl_syn.ml" 88 1960 1975 "pSpl_syn.ml" 88 1960 2002
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 89 2003 2009 "pSpl_syn.ml" 89 2003 2016
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 89 2003 2020 "pSpl_syn.ml" 89 2003 2035
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 89 2003 2036 "pSpl_syn.ml" 89 2003 2039
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 89 2003 2040 "pSpl_syn.ml" 89 2003 2049
+type(
+  string
+)
+"pSpl_syn.ml" 89 2003 2020 "pSpl_syn.ml" 89 2003 2049
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 90 2050 2061 "pSpl_syn.ml" 90 2050 2065
+ident(
+  def cons "pSpl_syn.ml" 90 2050 2070 "pSpl_syn.ml" 90 2050 2089
+)
+"pSpl_syn.ml" 90 2050 2060 "pSpl_syn.ml" 90 2050 2066
+type(
+  Spl_syn.cons
+)
+"pSpl_syn.ml" 90 2050 2056 "pSpl_syn.ml" 90 2050 2066
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 90 2050 2070 "pSpl_syn.ml" 90 2050 2080
+type(
+  Format.formatter -> Spl_syn.cons -> unit
+)
+ident(
+  int_ref print_cons "pSpl_syn.ml" 79 1728 1732 "pSpl_syn.ml" 79 1728 1742
+)
+"pSpl_syn.ml" 90 2050 2081 "pSpl_syn.ml" 90 2050 2084
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 90 2050 2085 "pSpl_syn.ml" 90 2050 2089
+type(
+  Spl_syn.cons
+)
+ident(
+  int_ref cons "pSpl_syn.ml" 90 2050 2060 "pSpl_syn.ml" 90 2050 2066
+)
+"pSpl_syn.ml" 90 2050 2070 "pSpl_syn.ml" 90 2050 2089
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 91 2090 2100 "pSpl_syn.ml" 91 2090 2102
+type(
+  Spl_syn.bexpr
+)
+ident(
+  def e1 "pSpl_syn.ml" 92 2110 2111 "pSpl_syn.ml" 97 2223 2253
+)
+"pSpl_syn.ml" 91 2090 2103 "pSpl_syn.ml" 91 2090 2105
+type(
+  Spl_syn.bexpr
+)
+ident(
+  def e2 "pSpl_syn.ml" 92 2110 2111 "pSpl_syn.ml" 97 2223 2253
+)
+"pSpl_syn.ml" 91 2090 2096 "pSpl_syn.ml" 91 2090 2106
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 92 2110 2114 "pSpl_syn.ml" 92 2110 2119
+type(
+  int
+)
+ident(
+  int_ref level "pSpl_syn.ml" 86 1876 1893 "pSpl_syn.ml" 86 1876 1898
+)
+"pSpl_syn.ml" 92 2110 2120 "pSpl_syn.ml" 92 2110 2122
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"pSpl_syn.ml" 92 2110 2123 "pSpl_syn.ml" 92 2110 2124
+type(
+  int
+)
+"pSpl_syn.ml" 92 2110 2114 "pSpl_syn.ml" 92 2110 2124
+type(
+  bool
+)
+"pSpl_syn.ml" 93 2130 2133 "pSpl_syn.ml" 93 2130 2140
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) ->
+  Spl_syn.bexpr ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 93 2130 2141 "pSpl_syn.ml" 93 2130 2144
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 93 2130 2145 "pSpl_syn.ml" 93 2130 2156
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 94 2157 2163 "pSpl_syn.ml" 94 2157 2168
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 94 2157 2169 "pSpl_syn.ml" 94 2157 2170
+type(
+  int
+)
+"pSpl_syn.ml" 94 2157 2162 "pSpl_syn.ml" 94 2157 2171
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 94 2157 2172 "pSpl_syn.ml" 94 2157 2174
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e1 "pSpl_syn.ml" 91 2090 2100 "pSpl_syn.ml" 91 2090 2102
+)
+"pSpl_syn.ml" 94 2157 2176 "pSpl_syn.ml" 94 2157 2181
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 94 2157 2182 "pSpl_syn.ml" 94 2157 2183
+type(
+  int
+)
+"pSpl_syn.ml" 94 2157 2175 "pSpl_syn.ml" 94 2157 2184
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 94 2157 2185 "pSpl_syn.ml" 94 2157 2187
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e2 "pSpl_syn.ml" 91 2090 2103 "pSpl_syn.ml" 91 2090 2105
+)
+"pSpl_syn.ml" 93 2130 2133 "pSpl_syn.ml" 94 2157 2187
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 96 2194 2197 "pSpl_syn.ml" 96 2194 2204
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) ->
+  Spl_syn.bexpr ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 96 2194 2205 "pSpl_syn.ml" 96 2194 2208
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 96 2194 2209 "pSpl_syn.ml" 96 2194 2222
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 97 2223 2229 "pSpl_syn.ml" 97 2223 2234
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 97 2223 2235 "pSpl_syn.ml" 97 2223 2236
+type(
+  int
+)
+"pSpl_syn.ml" 97 2223 2228 "pSpl_syn.ml" 97 2223 2237
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 97 2223 2238 "pSpl_syn.ml" 97 2223 2240
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e1 "pSpl_syn.ml" 91 2090 2100 "pSpl_syn.ml" 91 2090 2102
+)
+"pSpl_syn.ml" 97 2223 2242 "pSpl_syn.ml" 97 2223 2247
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 97 2223 2248 "pSpl_syn.ml" 97 2223 2249
+type(
+  int
+)
+"pSpl_syn.ml" 97 2223 2241 "pSpl_syn.ml" 97 2223 2250
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 97 2223 2251 "pSpl_syn.ml" 97 2223 2253
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e2 "pSpl_syn.ml" 91 2090 2103 "pSpl_syn.ml" 91 2090 2105
+)
+"pSpl_syn.ml" 96 2194 2197 "pSpl_syn.ml" 97 2223 2253
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 92 2110 2111 "pSpl_syn.ml" 97 2223 2253
+type(
+  unit
+)
+"pSpl_syn.ml" 98 2254 2263 "pSpl_syn.ml" 98 2254 2265
+type(
+  Spl_syn.bexpr
+)
+ident(
+  def e1 "pSpl_syn.ml" 99 2273 2274 "pSpl_syn.ml" 104 2384 2414
+)
+"pSpl_syn.ml" 98 2254 2266 "pSpl_syn.ml" 98 2254 2268
+type(
+  Spl_syn.bexpr
+)
+ident(
+  def e2 "pSpl_syn.ml" 99 2273 2274 "pSpl_syn.ml" 104 2384 2414
+)
+"pSpl_syn.ml" 98 2254 2260 "pSpl_syn.ml" 98 2254 2269
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 99 2273 2277 "pSpl_syn.ml" 99 2273 2282
+type(
+  int
+)
+ident(
+  int_ref level "pSpl_syn.ml" 86 1876 1893 "pSpl_syn.ml" 86 1876 1898
+)
+"pSpl_syn.ml" 99 2273 2283 "pSpl_syn.ml" 99 2273 2285
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"pSpl_syn.ml" 99 2273 2286 "pSpl_syn.ml" 99 2273 2287
+type(
+  int
+)
+"pSpl_syn.ml" 99 2273 2277 "pSpl_syn.ml" 99 2273 2287
+type(
+  bool
+)
+"pSpl_syn.ml" 100 2293 2296 "pSpl_syn.ml" 100 2293 2303
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) ->
+  Spl_syn.bexpr ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 100 2293 2304 "pSpl_syn.ml" 100 2293 2307
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 100 2293 2308 "pSpl_syn.ml" 100 2293 2318
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 101 2319 2325 "pSpl_syn.ml" 101 2319 2330
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 101 2319 2331 "pSpl_syn.ml" 101 2319 2332
+type(
+  int
+)
+"pSpl_syn.ml" 101 2319 2324 "pSpl_syn.ml" 101 2319 2333
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 101 2319 2334 "pSpl_syn.ml" 101 2319 2336
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e1 "pSpl_syn.ml" 98 2254 2263 "pSpl_syn.ml" 98 2254 2265
+)
+"pSpl_syn.ml" 101 2319 2338 "pSpl_syn.ml" 101 2319 2343
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 101 2319 2344 "pSpl_syn.ml" 101 2319 2345
+type(
+  int
+)
+"pSpl_syn.ml" 101 2319 2337 "pSpl_syn.ml" 101 2319 2346
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 101 2319 2347 "pSpl_syn.ml" 101 2319 2349
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e2 "pSpl_syn.ml" 98 2254 2266 "pSpl_syn.ml" 98 2254 2268
+)
+"pSpl_syn.ml" 100 2293 2296 "pSpl_syn.ml" 101 2319 2349
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 103 2356 2359 "pSpl_syn.ml" 103 2356 2366
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) ->
+  Spl_syn.bexpr ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 103 2356 2367 "pSpl_syn.ml" 103 2356 2370
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 103 2356 2371 "pSpl_syn.ml" 103 2356 2383
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 104 2384 2390 "pSpl_syn.ml" 104 2384 2395
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 104 2384 2396 "pSpl_syn.ml" 104 2384 2397
+type(
+  int
+)
+"pSpl_syn.ml" 104 2384 2389 "pSpl_syn.ml" 104 2384 2398
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 104 2384 2399 "pSpl_syn.ml" 104 2384 2401
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e1 "pSpl_syn.ml" 98 2254 2263 "pSpl_syn.ml" 98 2254 2265
+)
+"pSpl_syn.ml" 104 2384 2403 "pSpl_syn.ml" 104 2384 2408
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 104 2384 2409 "pSpl_syn.ml" 104 2384 2410
+type(
+  int
+)
+"pSpl_syn.ml" 104 2384 2402 "pSpl_syn.ml" 104 2384 2411
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 104 2384 2412 "pSpl_syn.ml" 104 2384 2414
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e2 "pSpl_syn.ml" 98 2254 2266 "pSpl_syn.ml" 98 2254 2268
+)
+"pSpl_syn.ml" 103 2356 2359 "pSpl_syn.ml" 104 2384 2414
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 99 2273 2274 "pSpl_syn.ml" 104 2384 2414
+type(
+  unit
+)
+"pSpl_syn.ml" 105 2415 2425 "pSpl_syn.ml" 105 2415 2426
+ident(
+  def e "pSpl_syn.ml" 106 2431 2434 "pSpl_syn.ml" 107 2455 2471
+)
+"pSpl_syn.ml" 105 2415 2424 "pSpl_syn.ml" 105 2415 2427
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 105 2415 2421 "pSpl_syn.ml" 105 2415 2427
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 106 2431 2434 "pSpl_syn.ml" 106 2431 2441
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 106 2431 2442 "pSpl_syn.ml" 106 2431 2445
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 86 1876 1904 "pSpl_syn.ml" 86 1876 1907
+)
+"pSpl_syn.ml" 106 2431 2446 "pSpl_syn.ml" 106 2431 2454
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 107 2455 2461 "pSpl_syn.ml" 107 2455 2466
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 107 2455 2467 "pSpl_syn.ml" 107 2455 2468
+type(
+  int
+)
+"pSpl_syn.ml" 107 2455 2460 "pSpl_syn.ml" 107 2455 2469
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 107 2455 2470 "pSpl_syn.ml" 107 2455 2471
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref e "pSpl_syn.ml" 105 2415 2424 "pSpl_syn.ml" 105 2415 2427
+)
+"pSpl_syn.ml" 106 2431 2434 "pSpl_syn.ml" 107 2455 2471
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 86 1876 1910 "pSpl_syn.ml" 107 2455 2471
+type(
+  Spl_syn.bexpr -> unit
+)
+"pSpl_syn.ml" 109 2477 2479 "pSpl_syn.ml" 109 2477 2484
+type(
+  int -> Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print "pSpl_syn.ml" 86 1876 1886 "pSpl_syn.ml" 86 1876 1891
+)
+"pSpl_syn.ml" 109 2477 2485 "pSpl_syn.ml" 109 2477 2486
+type(
+  int
+)
+"pSpl_syn.ml" 109 2477 2487 "pSpl_syn.ml" 109 2477 2490
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 85 1848 1864 "pSpl_syn.ml" 85 1848 1867
+)
+"pSpl_syn.ml" 109 2477 2491 "pSpl_syn.ml" 109 2477 2496
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref bexpr "pSpl_syn.ml" 85 1848 1868 "pSpl_syn.ml" 85 1848 1873
+)
+"pSpl_syn.ml" 109 2477 2479 "pSpl_syn.ml" 109 2477 2496
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 86 1876 1878 "pSpl_syn.ml" 109 2477 2496
+type(
+  unit
+)
+"pSpl_syn.ml" 111 2498 2506 "pSpl_syn.ml" 111 2498 2517
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.instr -> unit
+)
+ident(
+  def print_instr "pSpl_syn.ml" 111 2498 2498 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 112 2519 2521 "pSpl_syn.ml" 112 2519 2534
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  def print_comment "pSpl_syn.ml" 113 2536 2538 "pSpl_syn.ml" 150 3549 3579
+)
+"pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 114 2562 2564 "pSpl_syn.ml" 150 3549 3579
+)
+"pSpl_syn.ml" 114 2562 2565 "pSpl_syn.ml" 114 2562 2570
+type(
+  Spl_syn.instr
+)
+ident(
+  def instr "pSpl_syn.ml" 116 2582 2584 "pSpl_syn.ml" 150 3549 3579
+)
+"pSpl_syn.ml" 116 2582 2596 "pSpl_syn.ml" 116 2582 2601
+type(
+  Spl_syn.instr
+)
+ident(
+  int_ref instr "pSpl_syn.ml" 114 2562 2565 "pSpl_syn.ml" 114 2562 2570
+)
+"pSpl_syn.ml" 116 2582 2596 "pSpl_syn.ml" 116 2582 2613
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 117 2619 2623 "pSpl_syn.ml" 117 2619 2627
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 118 2631 2636 "pSpl_syn.ml" 118 2631 2651
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 118 2631 2652 "pSpl_syn.ml" 118 2631 2655
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 118 2631 2656 "pSpl_syn.ml" 118 2631 2663
+type(
+  string
+)
+"pSpl_syn.ml" 118 2631 2636 "pSpl_syn.ml" 118 2631 2663
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 119 2664 2668 "pSpl_syn.ml" 119 2664 2672
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 120 2676 2681 "pSpl_syn.ml" 120 2676 2696
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 120 2676 2697 "pSpl_syn.ml" 120 2676 2700
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 120 2676 2701 "pSpl_syn.ml" 120 2676 2708
+type(
+  string
+)
+"pSpl_syn.ml" 120 2676 2681 "pSpl_syn.ml" 120 2676 2708
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 121 2709 2713 "pSpl_syn.ml" 121 2709 2717
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 122 2721 2726 "pSpl_syn.ml" 122 2721 2741
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"pSpl_syn.ml" 122 2721 2742 "pSpl_syn.ml" 122 2721 2745
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 122 2721 2746 "pSpl_syn.ml" 122 2721 2753
+type(
+  string
+)
+"pSpl_syn.ml" 122 2721 2726 "pSpl_syn.ml" 122 2721 2753
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 123 2754 2765 "pSpl_syn.ml" 123 2754 2770
+ident(
+  def bexpr "pSpl_syn.ml" 124 2775 2780 "pSpl_syn.ml" 125 2805 2828
+)
+"pSpl_syn.ml" 123 2754 2764 "pSpl_syn.ml" 123 2754 2771
+type(
+  Spl_syn.bexpr
+)
+"pSpl_syn.ml" 123 2754 2758 "pSpl_syn.ml" 123 2754 2771
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 124 2775 2780 "pSpl_syn.ml" 124 2775 2787
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 124 2775 2788 "pSpl_syn.ml" 124 2775 2791
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 124 2775 2792 "pSpl_syn.ml" 124 2775 2804
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) -> Spl_syn.bexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 125 2805 2811 "pSpl_syn.ml" 125 2805 2822
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print_bexpr "pSpl_syn.ml" 85 1848 1852 "pSpl_syn.ml" 85 1848 1863
+)
+"pSpl_syn.ml" 125 2805 2823 "pSpl_syn.ml" 125 2805 2828
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref bexpr "pSpl_syn.ml" 123 2754 2764 "pSpl_syn.ml" 123 2754 2771
+)
+"pSpl_syn.ml" 124 2775 2780 "pSpl_syn.ml" 125 2805 2828
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 126 2829 2841 "pSpl_syn.ml" 126 2829 2844
+type(
+  Apron.Var.t
+)
+ident(
+  def var "pSpl_syn.ml" 127 2856 2862 "pSpl_syn.ml" 129 2911 2934
+)
+"pSpl_syn.ml" 126 2829 2845 "pSpl_syn.ml" 126 2829 2850
+type(
+  Spl_syn.iexpr
+)
+ident(
+  def iexpr "pSpl_syn.ml" 127 2856 2862 "pSpl_syn.ml" 129 2911 2934
+)
+"pSpl_syn.ml" 126 2829 2833 "pSpl_syn.ml" 126 2829 2851
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 127 2856 2862 "pSpl_syn.ml" 127 2856 2869
+type(
+  Format.formatter ->
+  ((Format.formatter -> Apron.Var.t -> unit) ->
+   Apron.Var.t ->
+   (Format.formatter -> Spl_syn.iexpr -> unit) -> Spl_syn.iexpr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Apron.Var.t -> unit) ->
+  Apron.Var.t ->
+  (Format.formatter -> Spl_syn.iexpr -> unit) -> Spl_syn.iexpr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 127 2856 2870 "pSpl_syn.ml" 127 2856 2873
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 127 2856 2874 "pSpl_syn.ml" 127 2856 2884
+type(
+  ((Format.formatter -> Apron.Var.t -> unit) ->
+   Apron.Var.t ->
+   (Format.formatter -> Spl_syn.iexpr -> unit) -> Spl_syn.iexpr -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 128 2885 2891 "pSpl_syn.ml" 128 2885 2906
+type(
+  Format.formatter -> Apron.Var.t -> unit
+)
+ident(
+  ext_ref Apron.Var.print
+)
+"pSpl_syn.ml" 128 2885 2907 "pSpl_syn.ml" 128 2885 2910
+type(
+  Apron.Var.t
+)
+ident(
+  int_ref var "pSpl_syn.ml" 126 2829 2841 "pSpl_syn.ml" 126 2829 2844
+)
+"pSpl_syn.ml" 129 2911 2917 "pSpl_syn.ml" 129 2911 2928
+type(
+  Format.formatter -> Spl_syn.iexpr -> unit
+)
+ident(
+  int_ref print_iexpr "pSpl_syn.ml" 67 1489 1493 "pSpl_syn.ml" 67 1489 1504
+)
+"pSpl_syn.ml" 129 2911 2929 "pSpl_syn.ml" 129 2911 2934
+type(
+  Spl_syn.iexpr
+)
+ident(
+  int_ref iexpr "pSpl_syn.ml" 126 2829 2845 "pSpl_syn.ml" 126 2829 2850
+)
+"pSpl_syn.ml" 127 2856 2862 "pSpl_syn.ml" 129 2911 2934
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 130 2935 2943 "pSpl_syn.ml" 130 2935 2948
+type(
+  Spl_syn.bexpr
+)
+ident(
+  def bexpr "pSpl_syn.ml" 131 2960 2966 "pSpl_syn.ml" 133 3029 3068
+)
+"pSpl_syn.ml" 130 2935 2949 "pSpl_syn.ml" 130 2935 2954
+type(
+  Spl_syn.block
+)
+ident(
+  def block "pSpl_syn.ml" 131 2960 2966 "pSpl_syn.ml" 133 3029 3068
+)
+"pSpl_syn.ml" 130 2935 2939 "pSpl_syn.ml" 130 2935 2955
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 131 2960 2966 "pSpl_syn.ml" 131 2960 2973
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) ->
+  Spl_syn.bexpr ->
+  (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 131 2960 2974 "pSpl_syn.ml" 131 2960 2977
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 131 2960 2978 "pSpl_syn.ml" 131 2960 3004
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 132 3005 3011 "pSpl_syn.ml" 132 3005 3022
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print_bexpr "pSpl_syn.ml" 85 1848 1852 "pSpl_syn.ml" 85 1848 1863
+)
+"pSpl_syn.ml" 132 3005 3023 "pSpl_syn.ml" 132 3005 3028
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref bexpr "pSpl_syn.ml" 130 2935 2943 "pSpl_syn.ml" 130 2935 2948
+)
+"pSpl_syn.ml" 133 3029 3036 "pSpl_syn.ml" 133 3029 3047
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.block -> unit
+)
+ident(
+  int_ref print_block "pSpl_syn.ml" 152 3585 3589 "pSpl_syn.ml" 152 3585 3600
+)
+"pSpl_syn.ml" 133 3029 3048 "pSpl_syn.ml" 133 3029 3061
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 112 2519 2521 "pSpl_syn.ml" 112 2519 2534
+)
+"pSpl_syn.ml" 133 3029 3035 "pSpl_syn.ml" 133 3029 3062
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.block -> unit
+)
+"pSpl_syn.ml" 133 3029 3063 "pSpl_syn.ml" 133 3029 3068
+type(
+  Spl_syn.block
+)
+ident(
+  int_ref block "pSpl_syn.ml" 130 2935 2949 "pSpl_syn.ml" 130 2935 2954
+)
+"pSpl_syn.ml" 131 2960 2966 "pSpl_syn.ml" 133 3029 3068
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 134 3069 3080 "pSpl_syn.ml" 134 3069 3085
+type(
+  Spl_syn.bexpr
+)
+ident(
+  def bexpr "pSpl_syn.ml" 135 3102 3108 "pSpl_syn.ml" 138 3225 3264
+)
+"pSpl_syn.ml" 134 3069 3086 "pSpl_syn.ml" 134 3069 3091
+type(
+  Spl_syn.block
+)
+ident(
+  def bthen "pSpl_syn.ml" 135 3102 3108 "pSpl_syn.ml" 138 3225 3264
+)
+"pSpl_syn.ml" 134 3069 3092 "pSpl_syn.ml" 134 3069 3097
+type(
+  Spl_syn.block
+)
+ident(
+  def belse "pSpl_syn.ml" 135 3102 3108 "pSpl_syn.ml" 138 3225 3264
+)
+"pSpl_syn.ml" 134 3069 3073 "pSpl_syn.ml" 134 3069 3098
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 135 3102 3108 "pSpl_syn.ml" 135 3102 3115
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.block -> unit) ->
+   Spl_syn.block ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) ->
+  Spl_syn.bexpr ->
+  (Format.formatter -> Spl_syn.block -> unit) ->
+  Spl_syn.block ->
+  (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 135 3102 3116 "pSpl_syn.ml" 135 3102 3119
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 135 3102 3120 "pSpl_syn.ml" 135 3102 3159
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.block -> unit) ->
+   Spl_syn.block ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 136 3160 3166 "pSpl_syn.ml" 136 3160 3177
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print_bexpr "pSpl_syn.ml" 85 1848 1852 "pSpl_syn.ml" 85 1848 1863
+)
+"pSpl_syn.ml" 136 3160 3178 "pSpl_syn.ml" 136 3160 3183
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref bexpr "pSpl_syn.ml" 134 3069 3080 "pSpl_syn.ml" 134 3069 3085
+)
+"pSpl_syn.ml" 137 3184 3191 "pSpl_syn.ml" 137 3184 3202
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.block -> unit
+)
+ident(
+  int_ref print_block "pSpl_syn.ml" 152 3585 3589 "pSpl_syn.ml" 152 3585 3600
+)
+"pSpl_syn.ml" 137 3184 3203 "pSpl_syn.ml" 137 3184 3216
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 112 2519 2521 "pSpl_syn.ml" 112 2519 2534
+)
+"pSpl_syn.ml" 137 3184 3190 "pSpl_syn.ml" 137 3184 3217
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.block -> unit
+)
+"pSpl_syn.ml" 137 3184 3218 "pSpl_syn.ml" 137 3184 3223
+type(
+  Spl_syn.block
+)
+ident(
+  int_ref bthen "pSpl_syn.ml" 134 3069 3086 "pSpl_syn.ml" 134 3069 3091
+)
+"pSpl_syn.ml" 138 3225 3232 "pSpl_syn.ml" 138 3225 3243
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.block -> unit
+)
+ident(
+  int_ref print_block "pSpl_syn.ml" 152 3585 3589 "pSpl_syn.ml" 152 3585 3600
+)
+"pSpl_syn.ml" 138 3225 3244 "pSpl_syn.ml" 138 3225 3257
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 112 2519 2521 "pSpl_syn.ml" 112 2519 2534
+)
+"pSpl_syn.ml" 138 3225 3231 "pSpl_syn.ml" 138 3225 3258
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.block -> unit
+)
+"pSpl_syn.ml" 138 3225 3259 "pSpl_syn.ml" 138 3225 3264
+type(
+  Spl_syn.block
+)
+ident(
+  int_ref belse "pSpl_syn.ml" 134 3069 3092 "pSpl_syn.ml" 134 3069 3097
+)
+"pSpl_syn.ml" 135 3102 3108 "pSpl_syn.ml" 138 3225 3264
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 139 3265 3274 "pSpl_syn.ml" 139 3265 3279
+type(
+  Spl_syn.bexpr
+)
+ident(
+  def bexpr "pSpl_syn.ml" 140 3290 3296 "pSpl_syn.ml" 142 3359 3398
+)
+"pSpl_syn.ml" 139 3265 3280 "pSpl_syn.ml" 139 3265 3285
+type(
+  Spl_syn.block
+)
+ident(
+  def block "pSpl_syn.ml" 140 3290 3296 "pSpl_syn.ml" 142 3359 3398
+)
+"pSpl_syn.ml" 139 3265 3269 "pSpl_syn.ml" 139 3265 3286
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 140 3290 3296 "pSpl_syn.ml" 140 3290 3303
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.bexpr -> unit) ->
+  Spl_syn.bexpr ->
+  (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 140 3290 3304 "pSpl_syn.ml" 140 3290 3307
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 140 3290 3308 "pSpl_syn.ml" 140 3290 3334
+type(
+  ((Format.formatter -> Spl_syn.bexpr -> unit) ->
+   Spl_syn.bexpr ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 141 3335 3341 "pSpl_syn.ml" 141 3335 3352
+type(
+  Format.formatter -> Spl_syn.bexpr -> unit
+)
+ident(
+  int_ref print_bexpr "pSpl_syn.ml" 85 1848 1852 "pSpl_syn.ml" 85 1848 1863
+)
+"pSpl_syn.ml" 141 3335 3353 "pSpl_syn.ml" 141 3335 3358
+type(
+  Spl_syn.bexpr
+)
+ident(
+  int_ref bexpr "pSpl_syn.ml" 139 3265 3274 "pSpl_syn.ml" 139 3265 3279
+)
+"pSpl_syn.ml" 142 3359 3366 "pSpl_syn.ml" 142 3359 3377
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.block -> unit
+)
+ident(
+  int_ref print_block "pSpl_syn.ml" 152 3585 3589 "pSpl_syn.ml" 152 3585 3600
+)
+"pSpl_syn.ml" 142 3359 3378 "pSpl_syn.ml" 142 3359 3391
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 112 2519 2521 "pSpl_syn.ml" 112 2519 2534
+)
+"pSpl_syn.ml" 142 3359 3365 "pSpl_syn.ml" 142 3359 3392
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.block -> unit
+)
+"pSpl_syn.ml" 142 3359 3393 "pSpl_syn.ml" 142 3359 3398
+type(
+  Spl_syn.block
+)
+ident(
+  int_ref block "pSpl_syn.ml" 139 3265 3280 "pSpl_syn.ml" 139 3265 3285
+)
+"pSpl_syn.ml" 140 3290 3296 "pSpl_syn.ml" 142 3359 3398
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 143 3399 3408 "pSpl_syn.ml" 143 3399 3412
+type(
+  Spl_syn.var list
+)
+ident(
+  def pout "pSpl_syn.ml" 144 3426 3432 "pSpl_syn.ml" 147 3493 3515
+)
+"pSpl_syn.ml" 143 3399 3414 "pSpl_syn.ml" 143 3399 3416
+type(
+  string
+)
+ident(
+  def id "pSpl_syn.ml" 144 3426 3432 "pSpl_syn.ml" 147 3493 3515
+)
+"pSpl_syn.ml" 143 3399 3418 "pSpl_syn.ml" 143 3399 3421
+type(
+  Spl_syn.var list
+)
+ident(
+  def pin "pSpl_syn.ml" 144 3426 3432 "pSpl_syn.ml" 147 3493 3515
+)
+"pSpl_syn.ml" 143 3399 3403 "pSpl_syn.ml" 143 3399 3422
+type(
+  Spl_syn.instruction
+)
+"pSpl_syn.ml" 144 3426 3432 "pSpl_syn.ml" 144 3426 3439
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.var list -> unit) ->
+   Spl_syn.var list ->
+   string ->
+   (Format.formatter -> Spl_syn.var list -> unit) -> Spl_syn.var list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.var list -> unit) ->
+  Spl_syn.var list ->
+  string ->
+  (Format.formatter -> Spl_syn.var list -> unit) -> Spl_syn.var list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 144 3426 3440 "pSpl_syn.ml" 144 3426 3443
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 144 3426 3444 "pSpl_syn.ml" 144 3426 3458
+type(
+  ((Format.formatter -> Spl_syn.var list -> unit) ->
+   Spl_syn.var list ->
+   string ->
+   (Format.formatter -> Spl_syn.var list -> unit) -> Spl_syn.var list -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 145 3459 3465 "pSpl_syn.ml" 145 3459 3478
+type(
+  Format.formatter -> Spl_syn.var list -> unit
+)
+ident(
+  int_ref print_poutput "pSpl_syn.ml" 42 980 984 "pSpl_syn.ml" 42 980 997
+)
+"pSpl_syn.ml" 145 3459 3479 "pSpl_syn.ml" 145 3459 3483
+type(
+  Spl_syn.var list
+)
+ident(
+  int_ref pout "pSpl_syn.ml" 143 3399 3408 "pSpl_syn.ml" 143 3399 3412
+)
+"pSpl_syn.ml" 146 3484 3490 "pSpl_syn.ml" 146 3484 3492
+type(
+  string
+)
+ident(
+  int_ref id "pSpl_syn.ml" 143 3399 3414 "pSpl_syn.ml" 143 3399 3416
+)
+"pSpl_syn.ml" 147 3493 3499 "pSpl_syn.ml" 147 3493 3511
+type(
+  Format.formatter -> Spl_syn.var list -> unit
+)
+ident(
+  int_ref print_pinput "pSpl_syn.ml" 50 1173 1177 "pSpl_syn.ml" 50 1173 1189
+)
+"pSpl_syn.ml" 147 3493 3512 "pSpl_syn.ml" 147 3493 3515
+type(
+  Spl_syn.var list
+)
+ident(
+  int_ref pin "pSpl_syn.ml" 143 3399 3418 "pSpl_syn.ml" 143 3399 3421
+)
+"pSpl_syn.ml" 144 3426 3432 "pSpl_syn.ml" 147 3493 3515
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 116 2582 2584 "pSpl_syn.ml" 148 3516 3521
+type(
+  unit
+)
+"pSpl_syn.ml" 149 3523 3525 "pSpl_syn.ml" 149 3523 3532
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.point -> unit) -> Spl_syn.point -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.point -> unit) -> Spl_syn.point -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 149 3523 3533 "pSpl_syn.ml" 149 3523 3536
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 113 2536 2539 "pSpl_syn.ml" 113 2536 2542
+)
+"pSpl_syn.ml" 149 3523 3537 "pSpl_syn.ml" 149 3523 3548
+type(
+  ((Format.formatter -> Spl_syn.point -> unit) -> Spl_syn.point -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 150 3549 3553 "pSpl_syn.ml" 150 3549 3566
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 112 2519 2521 "pSpl_syn.ml" 112 2519 2534
+)
+"pSpl_syn.ml" 150 3549 3567 "pSpl_syn.ml" 150 3549 3572
+type(
+  Spl_syn.instr
+)
+ident(
+  int_ref instr "pSpl_syn.ml" 114 2562 2565 "pSpl_syn.ml" 114 2562 2570
+)
+"pSpl_syn.ml" 150 3549 3567 "pSpl_syn.ml" 150 3549 3579
+type(
+  Spl_syn.point
+)
+"pSpl_syn.ml" 149 3523 3525 "pSpl_syn.ml" 150 3549 3579
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 116 2582 2584 "pSpl_syn.ml" 150 3549 3579
+type(
+  unit
+)
+"pSpl_syn.ml" 152 3585 3589 "pSpl_syn.ml" 152 3585 3600
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.block -> unit
+)
+ident(
+  def print_block "pSpl_syn.ml" 111 2498 2498 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 152 3585 3601 "pSpl_syn.ml" 152 3585 3614
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  def print_comment "pSpl_syn.ml" 152 3585 3615 "pSpl_syn.ml" 162 3877 3895
+)
+"pSpl_syn.ml" 152 3585 3615 "pSpl_syn.ml" 152 3585 3618
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 152 3585 3619 "pSpl_syn.ml" 162 3877 3895
+)
+"pSpl_syn.ml" 152 3585 3619 "pSpl_syn.ml" 152 3585 3624
+type(
+  Spl_syn.block
+)
+ident(
+  def block "pSpl_syn.ml" 153 3629 3631 "pSpl_syn.ml" 162 3877 3895
+)
+"pSpl_syn.ml" 153 3629 3631 "pSpl_syn.ml" 153 3629 3638
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.point -> unit) -> Spl_syn.point -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.point -> unit) -> Spl_syn.point -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 153 3629 3639 "pSpl_syn.ml" 153 3629 3642
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 152 3585 3615 "pSpl_syn.ml" 152 3585 3618
+)
+"pSpl_syn.ml" 153 3629 3643 "pSpl_syn.ml" 153 3629 3658
+type(
+  ((Format.formatter -> Spl_syn.point -> unit) -> Spl_syn.point -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 154 3659 3663 "pSpl_syn.ml" 154 3659 3676
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 152 3585 3601 "pSpl_syn.ml" 152 3585 3614
+)
+"pSpl_syn.ml" 154 3659 3677 "pSpl_syn.ml" 154 3659 3682
+type(
+  Spl_syn.block
+)
+ident(
+  int_ref block "pSpl_syn.ml" 152 3585 3619 "pSpl_syn.ml" 152 3585 3624
+)
+"pSpl_syn.ml" 154 3659 3677 "pSpl_syn.ml" 154 3659 3689
+type(
+  Spl_syn.point
+)
+"pSpl_syn.ml" 153 3629 3631 "pSpl_syn.ml" 154 3659 3689
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 156 3694 3708 "pSpl_syn.ml" 156 3694 3713
+type(
+  Spl_syn.block
+)
+ident(
+  int_ref block "pSpl_syn.ml" 152 3585 3619 "pSpl_syn.ml" 152 3585 3624
+)
+"pSpl_syn.ml" 156 3694 3708 "pSpl_syn.ml" 156 3694 3720
+type(
+  Spl_syn.instr list
+)
+"pSpl_syn.ml" 157 3726 3730 "pSpl_syn.ml" 157 3726 3732
+type(
+  Spl_syn.instr list
+)
+"pSpl_syn.ml" 157 3726 3736 "pSpl_syn.ml" 157 3726 3743
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 157 3726 3744 "pSpl_syn.ml" 157 3726 3747
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 152 3585 3615 "pSpl_syn.ml" 152 3585 3618
+)
+"pSpl_syn.ml" 157 3726 3748 "pSpl_syn.ml" 157 3726 3753
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 157 3726 3736 "pSpl_syn.ml" 157 3726 3753
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 158 3754 3758 "pSpl_syn.ml" 158 3754 3759
+type(
+  Spl_syn.instr list
+)
+"pSpl_syn.ml" 159 3763 3769 "pSpl_syn.ml" 159 3763 3779
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Spl_syn.instr -> unit) ->
+  Format.formatter -> Spl_syn.instr list -> unit
+)
+ident(
+  int_ref print_list "pSpl_syn.ml" 18 386 390 "pSpl_syn.ml" 18 386 400
+)
+"pSpl_syn.ml" 159 3763 3787 "pSpl_syn.ml" 159 3763 3796
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 159 3763 3802 "pSpl_syn.ml" 159 3763 3806
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 159 3763 3813 "pSpl_syn.ml" 159 3763 3817
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 160 3819 3826 "pSpl_syn.ml" 160 3819 3837
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.instr -> unit
+)
+ident(
+  int_ref print_instr "pSpl_syn.ml" 111 2498 2506 "pSpl_syn.ml" 111 2498 2517
+)
+"pSpl_syn.ml" 160 3819 3838 "pSpl_syn.ml" 160 3819 3851
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 152 3585 3601 "pSpl_syn.ml" 152 3585 3614
+)
+"pSpl_syn.ml" 160 3819 3825 "pSpl_syn.ml" 160 3819 3852
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.instr -> unit
+)
+"pSpl_syn.ml" 160 3819 3853 "pSpl_syn.ml" 160 3819 3856
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 152 3585 3615 "pSpl_syn.ml" 152 3585 3618
+)
+"pSpl_syn.ml" 160 3819 3857 "pSpl_syn.ml" 160 3819 3862
+type(
+  Spl_syn.block
+)
+ident(
+  int_ref block "pSpl_syn.ml" 152 3585 3619 "pSpl_syn.ml" 152 3585 3624
+)
+"pSpl_syn.ml" 160 3819 3857 "pSpl_syn.ml" 160 3819 3869
+type(
+  Spl_syn.instr list
+)
+"pSpl_syn.ml" 159 3763 3769 "pSpl_syn.ml" 160 3819 3869
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 156 3694 3696 "pSpl_syn.ml" 161 3870 3875
+type(
+  unit
+)
+"pSpl_syn.ml" 162 3877 3879 "pSpl_syn.ml" 162 3877 3886
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 162 3877 3887 "pSpl_syn.ml" 162 3877 3890
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 152 3585 3615 "pSpl_syn.ml" 152 3585 3618
+)
+"pSpl_syn.ml" 162 3877 3891 "pSpl_syn.ml" 162 3877 3895
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 162 3877 3879 "pSpl_syn.ml" 162 3877 3895
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 156 3694 3696 "pSpl_syn.ml" 162 3877 3895
+type(
+  unit
+)
+"pSpl_syn.ml" 153 3629 3631 "pSpl_syn.ml" 162 3877 3895
+type(
+  unit
+)
+"pSpl_syn.ml" 164 3897 3901 "pSpl_syn.ml" 164 3897 3918
+type(
+  Format.formatter -> Apron.Var.t * Spl_syn.typ -> unit
+)
+ident(
+  def print_declaration "pSpl_syn.ml" 169 4002 4002 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 164 3897 3919 "pSpl_syn.ml" 164 3897 3922
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 164 3897 3923 "pSpl_syn.ml" 167 3983 4000
+)
+"pSpl_syn.ml" 164 3897 3924 "pSpl_syn.ml" 164 3897 3927
+type(
+  Apron.Var.t
+)
+ident(
+  def var "pSpl_syn.ml" 165 3935 3937 "pSpl_syn.ml" 167 3983 4000
+)
+"pSpl_syn.ml" 164 3897 3928 "pSpl_syn.ml" 164 3897 3931
+type(
+  Spl_syn.typ
+)
+ident(
+  def typ "pSpl_syn.ml" 165 3935 3937 "pSpl_syn.ml" 167 3983 4000
+)
+"pSpl_syn.ml" 164 3897 3923 "pSpl_syn.ml" 164 3897 3932
+type(
+  Apron.Var.t * Spl_syn.typ
+)
+"pSpl_syn.ml" 165 3935 3937 "pSpl_syn.ml" 165 3935 3944
+type(
+  Format.formatter ->
+  ((Format.formatter -> Apron.Var.t -> unit) ->
+   Apron.Var.t ->
+   (Format.formatter -> Spl_syn.typ -> unit) -> Spl_syn.typ -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Apron.Var.t -> unit) ->
+  Apron.Var.t ->
+  (Format.formatter -> Spl_syn.typ -> unit) -> Spl_syn.typ -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 165 3935 3945 "pSpl_syn.ml" 165 3935 3948
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 164 3897 3919 "pSpl_syn.ml" 164 3897 3922
+)
+"pSpl_syn.ml" 165 3935 3949 "pSpl_syn.ml" 165 3935 3958
+type(
+  ((Format.formatter -> Apron.Var.t -> unit) ->
+   Apron.Var.t ->
+   (Format.formatter -> Spl_syn.typ -> unit) -> Spl_syn.typ -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 166 3959 3963 "pSpl_syn.ml" 166 3959 3978
+type(
+  Format.formatter -> Apron.Var.t -> unit
+)
+ident(
+  ext_ref Apron.Var.print
+)
+"pSpl_syn.ml" 166 3959 3979 "pSpl_syn.ml" 166 3959 3982
+type(
+  Apron.Var.t
+)
+ident(
+  int_ref var "pSpl_syn.ml" 164 3897 3924 "pSpl_syn.ml" 164 3897 3927
+)
+"pSpl_syn.ml" 167 3983 3987 "pSpl_syn.ml" 167 3983 3996
+type(
+  Format.formatter -> Spl_syn.typ -> unit
+)
+ident(
+  int_ref print_typ "pSpl_syn.ml" 60 1371 1375 "pSpl_syn.ml" 60 1371 1384
+)
+"pSpl_syn.ml" 167 3983 3997 "pSpl_syn.ml" 167 3983 4000
+type(
+  Spl_syn.typ
+)
+ident(
+  int_ref typ "pSpl_syn.ml" 164 3897 3928 "pSpl_syn.ml" 164 3897 3931
+)
+"pSpl_syn.ml" 165 3935 3937 "pSpl_syn.ml" 167 3983 4000
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 169 4002 4006 "pSpl_syn.ml" 169 4002 4024
+type(
+  Format.formatter -> (Apron.Var.t * Spl_syn.typ) list -> unit
+)
+ident(
+  def print_declarations "pSpl_syn.ml" 175 4123 4123 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 169 4002 4025 "pSpl_syn.ml" 169 4002 4028
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 169 4002 4029 "pSpl_syn.ml" 171 4089 4119
+)
+"pSpl_syn.ml" 169 4002 4029 "pSpl_syn.ml" 169 4002 4033
+type(
+  (Apron.Var.t * Spl_syn.typ) list
+)
+ident(
+  def list "pSpl_syn.ml" 170 4036 4038 "pSpl_syn.ml" 171 4089 4119
+)
+"pSpl_syn.ml" 170 4036 4038 "pSpl_syn.ml" 170 4036 4048
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Apron.Var.t * Spl_syn.typ -> unit) ->
+  Format.formatter -> (Apron.Var.t * Spl_syn.typ) list -> unit
+)
+ident(
+  int_ref print_list "pSpl_syn.ml" 18 386 390 "pSpl_syn.ml" 18 386 400
+)
+"pSpl_syn.ml" 170 4036 4056 "pSpl_syn.ml" 170 4036 4065
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 170 4036 4071 "pSpl_syn.ml" 170 4036 4076
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 170 4036 4083 "pSpl_syn.ml" 170 4036 4087
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 171 4089 4093 "pSpl_syn.ml" 171 4089 4110
+type(
+  Format.formatter -> Apron.Var.t * Spl_syn.typ -> unit
+)
+ident(
+  int_ref print_declaration "pSpl_syn.ml" 164 3897 3901 "pSpl_syn.ml" 164 3897 3918
+)
+"pSpl_syn.ml" 171 4089 4111 "pSpl_syn.ml" 171 4089 4114
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 169 4002 4025 "pSpl_syn.ml" 169 4002 4028
+)
+"pSpl_syn.ml" 171 4089 4115 "pSpl_syn.ml" 171 4089 4119
+type(
+  (Apron.Var.t * Spl_syn.typ) list
+)
+ident(
+  int_ref list "pSpl_syn.ml" 169 4002 4029 "pSpl_syn.ml" 169 4002 4033
+)
+"pSpl_syn.ml" 170 4036 4038 "pSpl_syn.ml" 171 4089 4119
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 175 4123 4127 "pSpl_syn.ml" 175 4123 4142
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.procedure -> unit
+)
+ident(
+  def print_procedure "pSpl_syn.ml" 189 4614 4614 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 175 4123 4143 "pSpl_syn.ml" 175 4123 4156
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  def print_comment "pSpl_syn.ml" 175 4123 4157 "pSpl_syn.ml" 188 4608 4613
+)
+"pSpl_syn.ml" 175 4123 4157 "pSpl_syn.ml" 175 4123 4160
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 188 4608 4613
+)
+"pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+type(
+  Spl_syn.procedure
+)
+ident(
+  def proc "pSpl_syn.ml" 176 4168 4170 "pSpl_syn.ml" 188 4608 4613
+)
+"pSpl_syn.ml" 176 4168 4173 "pSpl_syn.ml" 176 4168 4177
+type(
+  Spl_syn.procedure
+)
+ident(
+  int_ref proc "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+)
+"pSpl_syn.ml" 176 4168 4173 "pSpl_syn.ml" 176 4168 4183
+type(
+  string
+)
+"pSpl_syn.ml" 176 4168 4183 "pSpl_syn.ml" 176 4168 4184
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"pSpl_syn.ml" 176 4168 4184 "pSpl_syn.ml" 176 4168 4186
+type(
+  string
+)
+"pSpl_syn.ml" 176 4168 4173 "pSpl_syn.ml" 176 4168 4186
+type(
+  bool
+)
+"pSpl_syn.ml" 177 4198 4202 "pSpl_syn.ml" 177 4198 4209
+type(
+  Format.formatter ->
+  ((Format.formatter -> Spl_syn.declaration list -> unit) ->
+   Spl_syn.declaration list ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Spl_syn.declaration list -> unit) ->
+  Spl_syn.declaration list ->
+  (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 177 4198 4210 "pSpl_syn.ml" 177 4198 4213
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 175 4123 4157 "pSpl_syn.ml" 175 4123 4160
+)
+"pSpl_syn.ml" 177 4198 4214 "pSpl_syn.ml" 177 4198 4250
+type(
+  ((Format.formatter -> Spl_syn.declaration list -> unit) ->
+   Spl_syn.declaration list ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 178 4251 4257 "pSpl_syn.ml" 178 4251 4275
+type(
+  Format.formatter -> Spl_syn.declaration list -> unit
+)
+ident(
+  int_ref print_declarations "pSpl_syn.ml" 169 4002 4006 "pSpl_syn.ml" 169 4002 4024
+)
+"pSpl_syn.ml" 178 4251 4276 "pSpl_syn.ml" 178 4251 4280
+type(
+  Spl_syn.procedure
+)
+ident(
+  int_ref proc "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+)
+"pSpl_syn.ml" 178 4251 4276 "pSpl_syn.ml" 178 4251 4287
+type(
+  Spl_syn.declaration list
+)
+"pSpl_syn.ml" 179 4288 4295 "pSpl_syn.ml" 179 4288 4306
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.block -> unit
+)
+ident(
+  int_ref print_block "pSpl_syn.ml" 152 3585 3589 "pSpl_syn.ml" 152 3585 3600
+)
+"pSpl_syn.ml" 179 4288 4307 "pSpl_syn.ml" 179 4288 4320
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 175 4123 4143 "pSpl_syn.ml" 175 4123 4156
+)
+"pSpl_syn.ml" 179 4288 4294 "pSpl_syn.ml" 179 4288 4321
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.block -> unit
+)
+"pSpl_syn.ml" 179 4288 4322 "pSpl_syn.ml" 179 4288 4326
+type(
+  Spl_syn.procedure
+)
+ident(
+  int_ref proc "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+)
+"pSpl_syn.ml" 179 4288 4322 "pSpl_syn.ml" 179 4288 4332
+type(
+  Spl_syn.block
+)
+"pSpl_syn.ml" 176 4168 4192 "pSpl_syn.ml" 180 4333 4338
+call(
+  tail
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 182 4352 4356 "pSpl_syn.ml" 182 4352 4363
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Spl_syn.declaration list -> unit) ->
+   Spl_syn.declaration list ->
+   (Format.formatter -> Spl_syn.declaration list -> unit) ->
+   Spl_syn.declaration list ->
+   (Format.formatter -> Spl_syn.declaration list -> unit) ->
+   Spl_syn.declaration list ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Spl_syn.declaration list -> unit) ->
+  Spl_syn.declaration list ->
+  (Format.formatter -> Spl_syn.declaration list -> unit) ->
+  Spl_syn.declaration list ->
+  (Format.formatter -> Spl_syn.declaration list -> unit) ->
+  Spl_syn.declaration list ->
+  (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"pSpl_syn.ml" 182 4352 4364 "pSpl_syn.ml" 182 4352 4367
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 175 4123 4157 "pSpl_syn.ml" 175 4123 4160
+)
+"pSpl_syn.ml" 182 4352 4368 "pSpl_syn.ml" 182 4352 4433
+type(
+  (string ->
+   (Format.formatter -> Spl_syn.declaration list -> unit) ->
+   Spl_syn.declaration list ->
+   (Format.formatter -> Spl_syn.declaration list -> unit) ->
+   Spl_syn.declaration list ->
+   (Format.formatter -> Spl_syn.declaration list -> unit) ->
+   Spl_syn.declaration list ->
+   (Format.formatter -> Spl_syn.block -> unit) -> Spl_syn.block -> unit,
+   Format.formatter, unit)
+  format
+)
+"pSpl_syn.ml" 183 4434 4440 "pSpl_syn.ml" 183 4434 4444
+type(
+  Spl_syn.procedure
+)
+ident(
+  int_ref proc "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+)
+"pSpl_syn.ml" 183 4434 4440 "pSpl_syn.ml" 183 4434 4450
+type(
+  string
+)
+"pSpl_syn.ml" 184 4451 4457 "pSpl_syn.ml" 184 4451 4475
+type(
+  Format.formatter -> Spl_syn.declaration list -> unit
+)
+ident(
+  int_ref print_declarations "pSpl_syn.ml" 169 4002 4006 "pSpl_syn.ml" 169 4002 4024
+)
+"pSpl_syn.ml" 184 4451 4476 "pSpl_syn.ml" 184 4451 4480
+type(
+  Spl_syn.procedure
+)
+ident(
+  int_ref proc "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+)
+"pSpl_syn.ml" 184 4451 4476 "pSpl_syn.ml" 184 4451 4487
+type(
+  Spl_syn.declaration list
+)
+"pSpl_syn.ml" 185 4488 4494 "pSpl_syn.ml" 185 4488 4512
+type(
+  Format.formatter -> Spl_syn.declaration list -> unit
+)
+ident(
+  int_ref print_declarations "pSpl_syn.ml" 169 4002 4006 "pSpl_syn.ml" 169 4002 4024
+)
+"pSpl_syn.ml" 185 4488 4513 "pSpl_syn.ml" 185 4488 4517
+type(
+  Spl_syn.procedure
+)
+ident(
+  int_ref proc "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+)
+"pSpl_syn.ml" 185 4488 4513 "pSpl_syn.ml" 185 4488 4525
+type(
+  Spl_syn.declaration list
+)
+"pSpl_syn.ml" 186 4526 4532 "pSpl_syn.ml" 186 4526 4550
+type(
+  Format.formatter -> Spl_syn.declaration list -> unit
+)
+ident(
+  int_ref print_declarations "pSpl_syn.ml" 169 4002 4006 "pSpl_syn.ml" 169 4002 4024
+)
+"pSpl_syn.ml" 186 4526 4551 "pSpl_syn.ml" 186 4526 4555
+type(
+  Spl_syn.procedure
+)
+ident(
+  int_ref proc "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+)
+"pSpl_syn.ml" 186 4526 4551 "pSpl_syn.ml" 186 4526 4562
+type(
+  Spl_syn.declaration list
+)
+"pSpl_syn.ml" 187 4563 4570 "pSpl_syn.ml" 187 4563 4581
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.block -> unit
+)
+ident(
+  int_ref print_block "pSpl_syn.ml" 152 3585 3589 "pSpl_syn.ml" 152 3585 3600
+)
+"pSpl_syn.ml" 187 4563 4582 "pSpl_syn.ml" 187 4563 4595
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 175 4123 4143 "pSpl_syn.ml" 175 4123 4156
+)
+"pSpl_syn.ml" 187 4563 4569 "pSpl_syn.ml" 187 4563 4596
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.block -> unit
+)
+"pSpl_syn.ml" 187 4563 4597 "pSpl_syn.ml" 187 4563 4601
+type(
+  Spl_syn.procedure
+)
+ident(
+  int_ref proc "pSpl_syn.ml" 175 4123 4161 "pSpl_syn.ml" 175 4123 4165
+)
+"pSpl_syn.ml" 187 4563 4597 "pSpl_syn.ml" 187 4563 4607
+type(
+  Spl_syn.block
+)
+"pSpl_syn.ml" 181 4339 4346 "pSpl_syn.ml" 188 4608 4613
+call(
+  stack
+)
+type(
+  unit
+)
+"pSpl_syn.ml" 176 4168 4170 "pSpl_syn.ml" 188 4608 4613
+type(
+  unit
+)
+"pSpl_syn.ml" 189 4614 4618 "pSpl_syn.ml" 189 4614 4631
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.program -> unit
+)
+ident(
+  def print_program "pSpl_syn.ml" 193 4750 4769 "pSpl_syn.ml" 1 0 -1
+)
+"pSpl_syn.ml" 189 4614 4632 "pSpl_syn.ml" 189 4614 4645
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  def print_comment "pSpl_syn.ml" 189 4614 4646 "pSpl_syn.ml" 193 4750 4769
+)
+"pSpl_syn.ml" 189 4614 4646 "pSpl_syn.ml" 189 4614 4649
+type(
+  Format.formatter
+)
+ident(
+  def fmt "pSpl_syn.ml" 189 4614 4650 "pSpl_syn.ml" 193 4750 4769
+)
+"pSpl_syn.ml" 189 4614 4650 "pSpl_syn.ml" 189 4614 4654
+type(
+  Spl_syn.program
+)
+ident(
+  def prog "pSpl_syn.ml" 190 4657 4659 "pSpl_syn.ml" 193 4750 4769
+)
+"pSpl_syn.ml" 190 4657 4659 "pSpl_syn.ml" 190 4657 4669
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> Spl_syn.procedure -> unit) ->
+  Format.formatter -> Spl_syn.procedure list -> unit
+)
+ident(
+  int_ref print_list "pSpl_syn.ml" 18 386 390 "pSpl_syn.ml" 18 386 400
+)
+"pSpl_syn.ml" 190 4657 4677 "pSpl_syn.ml" 190 4657 4684
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 190 4657 4690 "pSpl_syn.ml" 190 4657 4694
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 190 4657 4701 "pSpl_syn.ml" 190 4657 4705
+type(
+  (unit, Format.formatter, unit) format
+)
+"pSpl_syn.ml" 191 4706 4711 "pSpl_syn.ml" 191 4706 4726
+type(
+  (Format.formatter -> Spl_syn.point -> unit) ->
+  Format.formatter -> Spl_syn.procedure -> unit
+)
+ident(
+  int_ref print_procedure "pSpl_syn.ml" 175 4123 4127 "pSpl_syn.ml" 175 4123 4142
+)
+"pSpl_syn.ml" 191 4706 4727 "pSpl_syn.ml" 191 4706 4740
+type(
+  Format.formatter -> Spl_syn.point -> unit
+)
+ident(
+  int_ref print_comment "pSpl_syn.ml" 189 4614 4632 "pSpl_syn.ml" 189 4614 4645
+)
+"pSpl_syn.ml" 191 4706 4710 "pSpl_syn.ml" 191 4706 4741
+call(
+  stack
+)
+type(
+  Format.formatter -> Spl_syn.procedure -> unit
+)
+"pSpl_syn.ml" 192 4742 4746 "pSpl_syn.ml" 192 4742 4749
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "pSpl_syn.ml" 189 4614 4646 "pSpl_syn.ml" 189 4614 4649
+)
+"pSpl_syn.ml" 193 4750 4754 "pSpl_syn.ml" 193 4750 4758
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "pSpl_syn.ml" 189 4614 4650 "pSpl_syn.ml" 189 4614 4654
+)
+"pSpl_syn.ml" 193 4750 4754 "pSpl_syn.ml" 193 4750 4769
+type(
+  Spl_syn.procedure list
+)
+"pSpl_syn.ml" 190 4657 4659 "pSpl_syn.ml" 193 4750 4769
+call(
+  tail
+)
+type(
+  unit
+)

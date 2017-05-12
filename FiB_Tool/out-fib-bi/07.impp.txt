@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((a + b) = (3 * n))
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 23
+interp: (let ((.def_203 (not (<= 1 (+ (* 3 i) (+ (* (- 1) a) (* (- 1) b))))))) (and (and .def_203 (not (<= (+ (* 3 n) (+ (* (- 1) a) (* (- 1) b))) (- 1)))) (and .def_203 (not (<= (+ (* 3 i) (+ (* (- 1) a) (* (- 1) b))) (- 1))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

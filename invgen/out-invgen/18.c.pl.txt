@@ -1,0 +1,37 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/18.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([18,17,11,19,5,3]): pc(main-1-11) pc(main-ret-0) {b>=100,flag=0,j'=j,flag'=flag,b'=b}
+[b>=100,flag=0] [j'=j,flag'=flag,b'=b]
+path([18,16,13,11,19,5,3]): pc(main-1-11) pc(main-ret-0) {b>=100,flag>=1+0,j=100,j'=j,flag'=flag,b'=b}
+[b>=100,flag>=1+0,j=100] [j'=j,flag'=flag,b'=b]
+path([15,13,11,19,5,3]): pc(main-1-11) pc(main-err-0) {b>=100,flag>=1+0,j>=1+100,j'=j,flag'=flag,b'=b}
+[b>=100,flag>=1+0,j>=1+100] [j'=j,flag'=flag,b'=b]
+path([14,13,11,19,5,3]): pc(main-1-11) pc(main-err-0) {b>=100,flag>=1+0,j+1=<100,j'=j,flag'=flag,b'=b}
+[b>=100,flag>=1+0,j+1=<100] [j'=j,flag'=flag,b'=b]
+path([18,16,12,11,19,5,3]): pc(main-1-11) pc(main-ret-0) {b>=100,flag+1=<0,j=100,j'=j,flag'=flag,b'=b}
+[b>=100,flag+1=<0,j=100] [j'=j,flag'=flag,b'=b]
+path([15,12,11,19,5,3]): pc(main-1-11) pc(main-err-0) {b>=100,flag+1=<0,j>=1+100,j'=j,flag'=flag,b'=b}
+[b>=100,flag+1=<0,j>=1+100] [j'=j,flag'=flag,b'=b]
+path([14,12,11,19,5,3]): pc(main-1-11) pc(main-err-0) {b>=100,flag+1=<0,j+1=<100,j'=j,flag'=flag,b'=b}
+[b>=100,flag+1=<0,j+1=<100] [j'=j,flag'=flag,b'=b]
+path([10,9,4,3]): pc(main-1-11) pc(main-1-11) {b+1=<100,flag=0,j'=j,flag'=flag,b'=b+1}
+[b+1=<100,flag=0] [j'=j,flag'=flag,b'=b+1]
+path([10,8,7,4,3]): pc(main-1-11) pc(main-1-11) {b+1=<100,flag>=1+0,j'=j+1,flag'=flag,b'=b+1}
+[b+1=<100,flag>=1+0] [j'=j+1,flag'=flag,b'=b+1]
+path([10,8,6,4,3]): pc(main-1-11) pc(main-1-11) {b+1=<100,flag+1=<0,j'=j+1,flag'=flag,b'=b+1}
+[b+1=<100,flag+1=<0] [j'=j+1,flag'=flag,b'=b+1]
+path([2,1]): pc(main-0-11) pc(main-1-11) {j'=0,flag'=flag,b'=0}
+[] [j'=0,flag'=flag,b'=0]
+
+#Printing Strengthening ==
+#pc(main-1-11): [j-b=<0,b=<100,j>=0]
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([15,13,11,19,5,3])..# cleared. 
+#solving for path to error: path([14,13,11,19,5,3])..# failed. 
+#=======================================
+#Invariant computation failed.

@@ -1,0 +1,14 @@
+main::y	4
+__VERIFIER_assume::i	4
+main::__CPAchecker_TMP_4	7
+main::__CPAchecker_TMP_3	4
+main::n	4
+main::__CPAchecker_TMP_2	4
+main::m	4
+main::__CPAchecker_TMP_1	4
+main::__CPAchecker_TMP_0	4
+main::k	4
+main::j	4
+main::i	4
+main::x	4
+main::__CPAchecker_TMP_5	4

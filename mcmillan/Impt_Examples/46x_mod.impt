@@ -1,0 +1,44 @@
+MODULE main
+	int z;
+	int x;
+	int y;
+	int w;
+
+	int finish;
+
+	assume(w == 1);
+	assume(z == 0);
+	assume(x == 0);
+	assume(y == 0);
+
+	assume(finish == 0);
+
+	while(*){
+		if(w % 2 == 1){
+			x = x + 1;
+			w = w + 1;
+		}
+		else{
+			skip;
+		}
+
+		if(z % 2 == 0){
+			y = y + 1;
+			z = z + 1;
+		}
+		else{
+			skip;
+		}
+
+		w = w + 2;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && x > 1;

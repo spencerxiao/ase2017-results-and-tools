@@ -1,0 +1,2124 @@
+"polka.ml" 64 2197 2201 "polka.ml" 64 2197 2217
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_polka "polka.ml" 71 2381 2381 "polka.ml" 1 0 -1
+)
+"polka.ml" 64 2197 2218 "polka.ml" 64 2197 2221
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 65 2224 2226 "polka.ml" 70 2347 2380
+)
+"polka.ml" 65 2224 2230 "polka.ml" 65 2224 2233
+type(
+  string
+)
+ident(
+  def str "polka.ml" 66 2269 2271 "polka.ml" 70 2347 2380
+)
+"polka.ml" 65 2224 2236 "polka.ml" 65 2224 2261
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"polka.ml" 65 2224 2262 "polka.ml" 65 2224 2265
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 64 2197 2218 "polka.ml" 64 2197 2221
+)
+"polka.ml" 65 2224 2236 "polka.ml" 65 2224 2265
+type(
+  string
+)
+"polka.ml" 66 2269 2275 "polka.ml" 66 2269 2278
+type(
+  string
+)
+ident(
+  def str "polka.ml" 70 2347 2349 "polka.ml" 70 2347 2380
+)
+"polka.ml" 67 2281 2289 "polka.ml" 67 2281 2299
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"polka.ml" 67 2281 2300 "polka.ml" 67 2281 2303
+type(
+  string
+)
+ident(
+  int_ref str "polka.ml" 65 2224 2230 "polka.ml" 65 2224 2233
+)
+"polka.ml" 67 2281 2304 "polka.ml" 67 2281 2305
+type(
+  int
+)
+"polka.ml" 67 2281 2306 "polka.ml" 67 2281 2307
+type(
+  int
+)
+"polka.ml" 67 2281 2289 "polka.ml" 67 2281 2307
+call(
+  stack
+)
+type(
+  string
+)
+"polka.ml" 68 2308 2334 "polka.ml" 68 2308 2335
+type(
+  string
+)
+"polka.ml" 68 2308 2317 "polka.ml" 68 2308 2335
+type(
+  exn
+)
+"polka.ml" 68 2308 2339 "polka.ml" 68 2308 2341
+type(
+  string
+)
+"polka.ml" 67 2281 2285 "polka.ml" 68 2308 2341
+type(
+  string
+)
+"polka.ml" 70 2347 2350 "polka.ml" 70 2347 2364
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"polka.ml" 70 2347 2365 "polka.ml" 70 2347 2368
+type(
+  String.t
+)
+ident(
+  int_ref str "polka.ml" 66 2269 2275 "polka.ml" 66 2269 2278
+)
+"polka.ml" 70 2347 2369 "polka.ml" 70 2347 2376
+type(
+  String.t
+)
+"polka.ml" 70 2347 2349 "polka.ml" 70 2347 2377
+call(
+  stack
+)
+type(
+  int
+)
+"polka.ml" 70 2347 2377 "polka.ml" 70 2347 2379
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"polka.ml" 70 2347 2379 "polka.ml" 70 2347 2380
+type(
+  int
+)
+"polka.ml" 70 2347 2349 "polka.ml" 70 2347 2380
+type(
+  bool
+)
+"polka.ml" 66 2269 2271 "polka.ml" 70 2347 2380
+type(
+  bool
+)
+"polka.ml" 65 2224 2226 "polka.ml" 70 2347 2380
+type(
+  bool
+)
+"polka.ml" 71 2381 2385 "polka.ml" 71 2381 2401
+type(
+  'a t Apron.Manager.t -> 'b Apron.Manager.t
+)
+ident(
+  def manager_of_polka "polka.ml" 72 2466 2466 "polka.ml" 1 0 -1
+)
+"polka.ml" 71 2381 2403 "polka.ml" 71 2381 2406
+type(
+  'a t Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 71 2381 2429 "polka.ml" 71 2381 2465
+)
+"polka.ml" 71 2381 2452 "polka.ml" 71 2381 2461
+type(
+  'a t Apron.Manager.t -> 'b Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 71 2381 2462 "polka.ml" 71 2381 2465
+type(
+  'a t Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 71 2381 2403 "polka.ml" 71 2381 2406
+)
+"polka.ml" 71 2381 2452 "polka.ml" 71 2381 2465
+type(
+  'b Apron.Manager.t
+)
+type(
+  'b Apron.Manager.t
+)
+"polka.ml" 72 2466 2470 "polka.ml" 72 2466 2486
+type(
+  'a Apron.Manager.t -> 'b t Apron.Manager.t
+)
+ident(
+  def manager_to_polka "polka.ml" 78 2669 2669 "polka.ml" 1 0 -1
+)
+"polka.ml" 72 2466 2488 "polka.ml" 72 2466 2491
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 72 2466 2512 "polka.ml" 76 2593 2667
+)
+"polka.ml" 73 2537 2542 "polka.ml" 73 2537 2558
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka "polka.ml" 64 2197 2201 "polka.ml" 64 2197 2217
+)
+"polka.ml" 73 2537 2559 "polka.ml" 73 2537 2562
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 72 2466 2488 "polka.ml" 72 2466 2491
+)
+"polka.ml" 73 2537 2542 "polka.ml" 73 2537 2562
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 74 2568 2572 "polka.ml" 74 2568 2581
+type(
+  'a Apron.Manager.t -> 'b t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 74 2568 2582 "polka.ml" 74 2568 2585
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 72 2466 2488 "polka.ml" 72 2466 2491
+)
+"polka.ml" 74 2568 2572 "polka.ml" 74 2568 2585
+type(
+  'b t Apron.Manager.t
+)
+"polka.ml" 76 2593 2597 "polka.ml" 76 2593 2605
+type(
+  string -> 'b t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 76 2593 2606 "polka.ml" 76 2593 2667
+type(
+  string
+)
+"polka.ml" 76 2593 2597 "polka.ml" 76 2593 2667
+call(
+  tail
+)
+type(
+  'b t Apron.Manager.t
+)
+"polka.ml" 73 2537 2539 "polka.ml" 76 2593 2667
+type(
+  'b t Apron.Manager.t
+)
+type(
+  'b t Apron.Manager.t
+)
+"polka.ml" 78 2669 2673 "polka.ml" 78 2669 2695
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_polka_loose "polka.ml" 81 2793 2793 "polka.ml" 1 0 -1
+)
+"polka.ml" 78 2669 2696 "polka.ml" 78 2669 2699
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 79 2702 2704 "polka.ml" 80 2747 2792
+)
+"polka.ml" 79 2702 2708 "polka.ml" 79 2702 2711
+type(
+  string
+)
+ident(
+  def str "polka.ml" 80 2747 2749 "polka.ml" 80 2747 2792
+)
+"polka.ml" 79 2702 2714 "polka.ml" 79 2702 2739
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"polka.ml" 79 2702 2740 "polka.ml" 79 2702 2743
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 78 2669 2696 "polka.ml" 78 2669 2699
+)
+"polka.ml" 79 2702 2714 "polka.ml" 79 2702 2743
+type(
+  string
+)
+"polka.ml" 80 2747 2750 "polka.ml" 80 2747 2764
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"polka.ml" 80 2747 2765 "polka.ml" 80 2747 2768
+type(
+  String.t
+)
+ident(
+  int_ref str "polka.ml" 79 2702 2708 "polka.ml" 79 2702 2711
+)
+"polka.ml" 80 2747 2769 "polka.ml" 80 2747 2788
+type(
+  String.t
+)
+"polka.ml" 80 2747 2749 "polka.ml" 80 2747 2789
+call(
+  stack
+)
+type(
+  int
+)
+"polka.ml" 80 2747 2789 "polka.ml" 80 2747 2791
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"polka.ml" 80 2747 2791 "polka.ml" 80 2747 2792
+type(
+  int
+)
+"polka.ml" 80 2747 2749 "polka.ml" 80 2747 2792
+type(
+  bool
+)
+"polka.ml" 79 2702 2704 "polka.ml" 80 2747 2792
+type(
+  bool
+)
+"polka.ml" 81 2793 2797 "polka.ml" 81 2793 2819
+type(
+  loose t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  def manager_of_polka_loose "polka.ml" 82 2887 2887 "polka.ml" 1 0 -1
+)
+"polka.ml" 81 2793 2821 "polka.ml" 81 2793 2824
+type(
+  loose t Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 81 2793 2850 "polka.ml" 81 2793 2886
+)
+"polka.ml" 81 2793 2873 "polka.ml" 81 2793 2882
+type(
+  loose t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 81 2793 2883 "polka.ml" 81 2793 2886
+type(
+  loose t Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 81 2793 2821 "polka.ml" 81 2793 2824
+)
+"polka.ml" 81 2793 2873 "polka.ml" 81 2793 2886
+type(
+  'a Apron.Manager.t
+)
+type(
+  'a Apron.Manager.t
+)
+"polka.ml" 82 2887 2891 "polka.ml" 82 2887 2913
+type(
+  'a Apron.Manager.t -> loose t Apron.Manager.t
+)
+ident(
+  def manager_to_polka_loose "polka.ml" 88 3117 3117 "polka.ml" 1 0 -1
+)
+"polka.ml" 82 2887 2915 "polka.ml" 82 2887 2918
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 82 2887 2939 "polka.ml" 86 3029 3115
+)
+"polka.ml" 83 2967 2972 "polka.ml" 83 2967 2994
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka_loose "polka.ml" 78 2669 2673 "polka.ml" 78 2669 2695
+)
+"polka.ml" 83 2967 2995 "polka.ml" 83 2967 2998
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 82 2887 2915 "polka.ml" 82 2887 2918
+)
+"polka.ml" 83 2967 2972 "polka.ml" 83 2967 2998
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 84 3004 3008 "polka.ml" 84 3004 3017
+type(
+  'a Apron.Manager.t -> loose t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 84 3004 3018 "polka.ml" 84 3004 3021
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 82 2887 2915 "polka.ml" 82 2887 2918
+)
+"polka.ml" 84 3004 3008 "polka.ml" 84 3004 3021
+type(
+  loose t Apron.Manager.t
+)
+"polka.ml" 86 3029 3033 "polka.ml" 86 3029 3041
+type(
+  string -> loose t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 86 3029 3042 "polka.ml" 86 3029 3115
+type(
+  string
+)
+"polka.ml" 86 3029 3033 "polka.ml" 86 3029 3115
+call(
+  tail
+)
+type(
+  loose t Apron.Manager.t
+)
+"polka.ml" 83 2967 2969 "polka.ml" 86 3029 3115
+type(
+  loose t Apron.Manager.t
+)
+type(
+  loose t Apron.Manager.t
+)
+"polka.ml" 88 3117 3121 "polka.ml" 88 3117 3144
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_polka_strict "polka.ml" 91 3243 3243 "polka.ml" 1 0 -1
+)
+"polka.ml" 88 3117 3145 "polka.ml" 88 3117 3148
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 89 3151 3153 "polka.ml" 90 3196 3242
+)
+"polka.ml" 89 3151 3157 "polka.ml" 89 3151 3160
+type(
+  string
+)
+ident(
+  def str "polka.ml" 90 3196 3198 "polka.ml" 90 3196 3242
+)
+"polka.ml" 89 3151 3163 "polka.ml" 89 3151 3188
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"polka.ml" 89 3151 3189 "polka.ml" 89 3151 3192
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 88 3117 3145 "polka.ml" 88 3117 3148
+)
+"polka.ml" 89 3151 3163 "polka.ml" 89 3151 3192
+type(
+  string
+)
+"polka.ml" 90 3196 3199 "polka.ml" 90 3196 3213
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"polka.ml" 90 3196 3214 "polka.ml" 90 3196 3217
+type(
+  String.t
+)
+ident(
+  int_ref str "polka.ml" 89 3151 3157 "polka.ml" 89 3151 3160
+)
+"polka.ml" 90 3196 3218 "polka.ml" 90 3196 3238
+type(
+  String.t
+)
+"polka.ml" 90 3196 3198 "polka.ml" 90 3196 3239
+call(
+  stack
+)
+type(
+  int
+)
+"polka.ml" 90 3196 3239 "polka.ml" 90 3196 3241
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"polka.ml" 90 3196 3241 "polka.ml" 90 3196 3242
+type(
+  int
+)
+"polka.ml" 90 3196 3198 "polka.ml" 90 3196 3242
+type(
+  bool
+)
+"polka.ml" 89 3151 3153 "polka.ml" 90 3196 3242
+type(
+  bool
+)
+"polka.ml" 91 3243 3247 "polka.ml" 91 3243 3270
+type(
+  strict t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  def manager_of_polka_strict "polka.ml" 92 3339 3339 "polka.ml" 1 0 -1
+)
+"polka.ml" 91 3243 3272 "polka.ml" 91 3243 3275
+type(
+  strict t Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 91 3243 3302 "polka.ml" 91 3243 3338
+)
+"polka.ml" 91 3243 3325 "polka.ml" 91 3243 3334
+type(
+  strict t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 91 3243 3335 "polka.ml" 91 3243 3338
+type(
+  strict t Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 91 3243 3272 "polka.ml" 91 3243 3275
+)
+"polka.ml" 91 3243 3325 "polka.ml" 91 3243 3338
+type(
+  'a Apron.Manager.t
+)
+type(
+  'a Apron.Manager.t
+)
+"polka.ml" 92 3339 3343 "polka.ml" 92 3339 3366
+type(
+  'a Apron.Manager.t -> strict t Apron.Manager.t
+)
+ident(
+  def manager_to_polka_strict "polka.ml" 98 3574 3574 "polka.ml" 1 0 -1
+)
+"polka.ml" 92 3339 3368 "polka.ml" 92 3339 3371
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 92 3339 3392 "polka.ml" 96 3484 3572
+)
+"polka.ml" 93 3421 3426 "polka.ml" 93 3421 3449
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka_strict "polka.ml" 88 3117 3121 "polka.ml" 88 3117 3144
+)
+"polka.ml" 93 3421 3450 "polka.ml" 93 3421 3453
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 92 3339 3368 "polka.ml" 92 3339 3371
+)
+"polka.ml" 93 3421 3426 "polka.ml" 93 3421 3453
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 94 3459 3463 "polka.ml" 94 3459 3472
+type(
+  'a Apron.Manager.t -> strict t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 94 3459 3473 "polka.ml" 94 3459 3476
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 92 3339 3368 "polka.ml" 92 3339 3371
+)
+"polka.ml" 94 3459 3463 "polka.ml" 94 3459 3476
+type(
+  strict t Apron.Manager.t
+)
+"polka.ml" 96 3484 3488 "polka.ml" 96 3484 3496
+type(
+  string -> strict t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 96 3484 3497 "polka.ml" 96 3484 3572
+type(
+  string
+)
+"polka.ml" 96 3484 3488 "polka.ml" 96 3484 3572
+call(
+  tail
+)
+type(
+  strict t Apron.Manager.t
+)
+"polka.ml" 93 3421 3423 "polka.ml" 96 3484 3572
+type(
+  strict t Apron.Manager.t
+)
+type(
+  strict t Apron.Manager.t
+)
+"polka.ml" 98 3574 3578 "polka.ml" 98 3574 3605
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_polka_equalities "polka.ml" 101 3708 3708 "polka.ml" 1 0 -1
+)
+"polka.ml" 98 3574 3606 "polka.ml" 98 3574 3609
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 99 3612 3614 "polka.ml" 100 3657 3707
+)
+"polka.ml" 99 3612 3618 "polka.ml" 99 3612 3621
+type(
+  string
+)
+ident(
+  def str "polka.ml" 100 3657 3659 "polka.ml" 100 3657 3707
+)
+"polka.ml" 99 3612 3624 "polka.ml" 99 3612 3649
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"polka.ml" 99 3612 3650 "polka.ml" 99 3612 3653
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 98 3574 3606 "polka.ml" 98 3574 3609
+)
+"polka.ml" 99 3612 3624 "polka.ml" 99 3612 3653
+type(
+  string
+)
+"polka.ml" 100 3657 3660 "polka.ml" 100 3657 3674
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"polka.ml" 100 3657 3675 "polka.ml" 100 3657 3678
+type(
+  String.t
+)
+ident(
+  int_ref str "polka.ml" 99 3612 3618 "polka.ml" 99 3612 3621
+)
+"polka.ml" 100 3657 3679 "polka.ml" 100 3657 3703
+type(
+  String.t
+)
+"polka.ml" 100 3657 3659 "polka.ml" 100 3657 3704
+call(
+  stack
+)
+type(
+  int
+)
+"polka.ml" 100 3657 3704 "polka.ml" 100 3657 3706
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"polka.ml" 100 3657 3706 "polka.ml" 100 3657 3707
+type(
+  int
+)
+"polka.ml" 100 3657 3659 "polka.ml" 100 3657 3707
+type(
+  bool
+)
+"polka.ml" 99 3612 3614 "polka.ml" 100 3657 3707
+type(
+  bool
+)
+"polka.ml" 101 3708 3712 "polka.ml" 101 3708 3739
+type(
+  equalities t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  def manager_of_polka_equalities "polka.ml" 102 3812 3812 "polka.ml" 1 0 -1
+)
+"polka.ml" 101 3708 3741 "polka.ml" 101 3708 3744
+type(
+  equalities t Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 101 3708 3775 "polka.ml" 101 3708 3811
+)
+"polka.ml" 101 3708 3798 "polka.ml" 101 3708 3807
+type(
+  equalities t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 101 3708 3808 "polka.ml" 101 3708 3811
+type(
+  equalities t Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 101 3708 3741 "polka.ml" 101 3708 3744
+)
+"polka.ml" 101 3708 3798 "polka.ml" 101 3708 3811
+type(
+  'a Apron.Manager.t
+)
+type(
+  'a Apron.Manager.t
+)
+"polka.ml" 102 3812 3816 "polka.ml" 102 3812 3843
+type(
+  'a Apron.Manager.t -> equalities t Apron.Manager.t
+)
+ident(
+  def manager_to_polka_equalities "polka.ml" 108 4068 4068 "polka.ml" 1 0 -1
+)
+"polka.ml" 102 3812 3845 "polka.ml" 102 3812 3848
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "polka.ml" 102 3812 3869 "polka.ml" 106 3969 4066
+)
+"polka.ml" 103 3902 3907 "polka.ml" 103 3902 3934
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka_equalities "polka.ml" 98 3574 3578 "polka.ml" 98 3574 3605
+)
+"polka.ml" 103 3902 3935 "polka.ml" 103 3902 3938
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 102 3812 3845 "polka.ml" 102 3812 3848
+)
+"polka.ml" 103 3902 3907 "polka.ml" 103 3902 3938
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 104 3944 3948 "polka.ml" 104 3944 3957
+type(
+  'a Apron.Manager.t -> equalities t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 104 3944 3958 "polka.ml" 104 3944 3961
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "polka.ml" 102 3812 3845 "polka.ml" 102 3812 3848
+)
+"polka.ml" 104 3944 3948 "polka.ml" 104 3944 3961
+type(
+  equalities t Apron.Manager.t
+)
+"polka.ml" 106 3969 3973 "polka.ml" 106 3969 3981
+type(
+  string -> equalities t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 106 3969 3982 "polka.ml" 106 3969 4066
+type(
+  string
+)
+"polka.ml" 106 3969 3973 "polka.ml" 106 3969 4066
+call(
+  tail
+)
+type(
+  equalities t Apron.Manager.t
+)
+"polka.ml" 103 3902 3904 "polka.ml" 106 3969 4066
+type(
+  equalities t Apron.Manager.t
+)
+type(
+  equalities t Apron.Manager.t
+)
+"polka.ml" 109 4094 4100 "polka.ml" 109 4094 4108
+type(
+  'a Apron.Abstract0.t -> bool
+)
+ident(
+  def is_polka "polka.ml" 111 4166 4168 "polka.ml" 141 5734 5737
+)
+"polka.ml" 109 4094 4109 "polka.ml" 109 4094 4112
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 110 4115 4119 "polka.ml" 110 4115 4165
+)
+"polka.ml" 110 4115 4119 "polka.ml" 110 4115 4135
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka "polka.ml" 64 2197 2201 "polka.ml" 64 2197 2217
+)
+"polka.ml" 110 4115 4137 "polka.ml" 110 4115 4160
+type(
+  'a Apron.Abstract0.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"polka.ml" 110 4115 4161 "polka.ml" 110 4115 4164
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 109 4094 4109 "polka.ml" 109 4094 4112
+)
+"polka.ml" 110 4115 4136 "polka.ml" 110 4115 4165
+type(
+  'a Apron.Manager.t
+)
+"polka.ml" 110 4115 4119 "polka.ml" 110 4115 4165
+call(
+  tail
+)
+type(
+  bool
+)
+"polka.ml" 111 4166 4172 "polka.ml" 111 4166 4186
+type(
+  'b Apron.Abstract0.t -> bool
+)
+ident(
+  def is_polka_loose "polka.ml" 113 4250 4252 "polka.ml" 141 5734 5737
+)
+"polka.ml" 111 4166 4187 "polka.ml" 111 4166 4190
+type(
+  'b Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 112 4193 4197 "polka.ml" 112 4193 4249
+)
+"polka.ml" 112 4193 4197 "polka.ml" 112 4193 4219
+type(
+  'b Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka_loose "polka.ml" 78 2669 2673 "polka.ml" 78 2669 2695
+)
+"polka.ml" 112 4193 4221 "polka.ml" 112 4193 4244
+type(
+  'b Apron.Abstract0.t -> 'b Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"polka.ml" 112 4193 4245 "polka.ml" 112 4193 4248
+type(
+  'b Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 111 4166 4187 "polka.ml" 111 4166 4190
+)
+"polka.ml" 112 4193 4220 "polka.ml" 112 4193 4249
+type(
+  'b Apron.Manager.t
+)
+"polka.ml" 112 4193 4197 "polka.ml" 112 4193 4249
+call(
+  tail
+)
+type(
+  bool
+)
+"polka.ml" 113 4250 4256 "polka.ml" 113 4250 4271
+type(
+  'c Apron.Abstract0.t -> bool
+)
+ident(
+  def is_polka_strict "polka.ml" 115 4329 4331 "polka.ml" 141 5734 5737
+)
+"polka.ml" 113 4250 4272 "polka.ml" 113 4250 4275
+type(
+  'c Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 114 4278 4282 "polka.ml" 114 4278 4328
+)
+"polka.ml" 114 4278 4282 "polka.ml" 114 4278 4298
+type(
+  'c Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka "polka.ml" 64 2197 2201 "polka.ml" 64 2197 2217
+)
+"polka.ml" 114 4278 4300 "polka.ml" 114 4278 4323
+type(
+  'c Apron.Abstract0.t -> 'c Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"polka.ml" 114 4278 4324 "polka.ml" 114 4278 4327
+type(
+  'c Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 113 4250 4272 "polka.ml" 113 4250 4275
+)
+"polka.ml" 114 4278 4299 "polka.ml" 114 4278 4328
+type(
+  'c Apron.Manager.t
+)
+"polka.ml" 114 4278 4282 "polka.ml" 114 4278 4328
+call(
+  tail
+)
+type(
+  bool
+)
+"polka.ml" 115 4329 4335 "polka.ml" 115 4329 4354
+type(
+  'd Apron.Abstract0.t -> bool
+)
+ident(
+  def is_polka_equalities "polka.ml" 117 4423 4425 "polka.ml" 141 5734 5737
+)
+"polka.ml" 115 4329 4355 "polka.ml" 115 4329 4358
+type(
+  'd Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 116 4361 4365 "polka.ml" 116 4361 4422
+)
+"polka.ml" 116 4361 4365 "polka.ml" 116 4361 4392
+type(
+  'd Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka_equalities "polka.ml" 98 3574 3578 "polka.ml" 98 3574 3605
+)
+"polka.ml" 116 4361 4394 "polka.ml" 116 4361 4417
+type(
+  'd Apron.Abstract0.t -> 'd Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"polka.ml" 116 4361 4418 "polka.ml" 116 4361 4421
+type(
+  'd Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 115 4329 4355 "polka.ml" 115 4329 4358
+)
+"polka.ml" 116 4361 4393 "polka.ml" 116 4361 4422
+type(
+  'd Apron.Manager.t
+)
+"polka.ml" 116 4361 4365 "polka.ml" 116 4361 4422
+call(
+  tail
+)
+type(
+  bool
+)
+"polka.ml" 117 4423 4429 "polka.ml" 117 4423 4437
+type(
+  'a0 t Apron.Abstract0.t -> 'b0 Apron.Abstract0.t
+)
+ident(
+  def of_polka "polka.ml" 118 4507 4509 "polka.ml" 141 5734 5737
+)
+"polka.ml" 117 4423 4439 "polka.ml" 117 4423 4442
+type(
+  'a0 t Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 117 4423 4468 "polka.ml" 117 4423 4506
+)
+"polka.ml" 117 4423 4493 "polka.ml" 117 4423 4502
+type(
+  'a0 t Apron.Abstract0.t -> 'b0 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 117 4423 4503 "polka.ml" 117 4423 4506
+type(
+  'a0 t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 117 4423 4439 "polka.ml" 117 4423 4442
+)
+"polka.ml" 117 4423 4493 "polka.ml" 117 4423 4506
+type(
+  'b0 Apron.Abstract0.t
+)
+type(
+  'b0 Apron.Abstract0.t
+)
+"polka.ml" 118 4507 4513 "polka.ml" 118 4507 4527
+type(
+  loose t Apron.Abstract0.t -> 'a1 Apron.Abstract0.t
+)
+ident(
+  def of_polka_loose "polka.ml" 119 4600 4602 "polka.ml" 141 5734 5737
+)
+"polka.ml" 118 4507 4529 "polka.ml" 118 4507 4532
+type(
+  loose t Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 118 4507 4561 "polka.ml" 118 4507 4599
+)
+"polka.ml" 118 4507 4586 "polka.ml" 118 4507 4595
+type(
+  loose t Apron.Abstract0.t -> 'a1 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 118 4507 4596 "polka.ml" 118 4507 4599
+type(
+  loose t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 118 4507 4529 "polka.ml" 118 4507 4532
+)
+"polka.ml" 118 4507 4586 "polka.ml" 118 4507 4599
+type(
+  'a1 Apron.Abstract0.t
+)
+type(
+  'a1 Apron.Abstract0.t
+)
+"polka.ml" 119 4600 4606 "polka.ml" 119 4600 4621
+type(
+  strict t Apron.Abstract0.t -> 'a2 Apron.Abstract0.t
+)
+ident(
+  def of_polka_strict "polka.ml" 120 4695 4697 "polka.ml" 141 5734 5737
+)
+"polka.ml" 119 4600 4623 "polka.ml" 119 4600 4626
+type(
+  strict t Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 119 4600 4656 "polka.ml" 119 4600 4694
+)
+"polka.ml" 119 4600 4681 "polka.ml" 119 4600 4690
+type(
+  strict t Apron.Abstract0.t -> 'a2 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 119 4600 4691 "polka.ml" 119 4600 4694
+type(
+  strict t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 119 4600 4623 "polka.ml" 119 4600 4626
+)
+"polka.ml" 119 4600 4681 "polka.ml" 119 4600 4694
+type(
+  'a2 Apron.Abstract0.t
+)
+type(
+  'a2 Apron.Abstract0.t
+)
+"polka.ml" 120 4695 4701 "polka.ml" 120 4695 4720
+type(
+  equalities t Apron.Abstract0.t -> 'a3 Apron.Abstract0.t
+)
+ident(
+  def of_polka_equalities "polka.ml" 121 4798 4800 "polka.ml" 141 5734 5737
+)
+"polka.ml" 120 4695 4722 "polka.ml" 120 4695 4725
+type(
+  equalities t Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 120 4695 4759 "polka.ml" 120 4695 4797
+)
+"polka.ml" 120 4695 4784 "polka.ml" 120 4695 4793
+type(
+  equalities t Apron.Abstract0.t -> 'a3 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 120 4695 4794 "polka.ml" 120 4695 4797
+type(
+  equalities t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 120 4695 4722 "polka.ml" 120 4695 4725
+)
+"polka.ml" 120 4695 4784 "polka.ml" 120 4695 4797
+type(
+  'a3 Apron.Abstract0.t
+)
+type(
+  'a3 Apron.Abstract0.t
+)
+"polka.ml" 121 4798 4804 "polka.ml" 121 4798 4812
+type(
+  'a4 Apron.Abstract0.t -> 'b1 t Apron.Abstract0.t
+)
+ident(
+  def to_polka "polka.ml" 126 5004 5006 "polka.ml" 141 5734 5737
+)
+"polka.ml" 121 4798 4814 "polka.ml" 121 4798 4817
+type(
+  'a4 Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 121 4798 4840 "polka.ml" 125 4921 5003
+)
+"polka.ml" 122 4867 4874 "polka.ml" 122 4867 4882
+type(
+  'a4 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_polka "polka.ml" 109 4094 4100 "polka.ml" 109 4094 4108
+)
+"polka.ml" 122 4867 4883 "polka.ml" 122 4867 4886
+type(
+  'a4 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 121 4798 4814 "polka.ml" 121 4798 4817
+)
+"polka.ml" 122 4867 4874 "polka.ml" 122 4867 4886
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 123 4892 4898 "polka.ml" 123 4892 4907
+type(
+  'a4 Apron.Abstract0.t -> 'b1 t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 123 4892 4908 "polka.ml" 123 4892 4911
+type(
+  'a4 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 121 4798 4814 "polka.ml" 121 4798 4817
+)
+"polka.ml" 123 4892 4898 "polka.ml" 123 4892 4911
+type(
+  'b1 t Apron.Abstract0.t
+)
+"polka.ml" 125 4921 4927 "polka.ml" 125 4921 4935
+type(
+  string -> 'b1 t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 125 4921 4936 "polka.ml" 125 4921 5003
+type(
+  string
+)
+"polka.ml" 125 4921 4927 "polka.ml" 125 4921 5003
+call(
+  tail
+)
+type(
+  'b1 t Apron.Abstract0.t
+)
+"polka.ml" 122 4867 4871 "polka.ml" 125 4921 5003
+type(
+  'b1 t Apron.Abstract0.t
+)
+type(
+  'b1 t Apron.Abstract0.t
+)
+"polka.ml" 126 5004 5010 "polka.ml" 126 5004 5024
+type(
+  'a5 Apron.Abstract0.t -> loose t Apron.Abstract0.t
+)
+ident(
+  def to_polka_loose "polka.ml" 131 5237 5239 "polka.ml" 141 5734 5737
+)
+"polka.ml" 126 5004 5026 "polka.ml" 126 5004 5029
+type(
+  'a5 Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 126 5004 5052 "polka.ml" 130 5142 5236
+)
+"polka.ml" 127 5082 5089 "polka.ml" 127 5082 5103
+type(
+  'a5 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_polka_loose "polka.ml" 111 4166 4172 "polka.ml" 111 4166 4186
+)
+"polka.ml" 127 5082 5104 "polka.ml" 127 5082 5107
+type(
+  'a5 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 126 5004 5026 "polka.ml" 126 5004 5029
+)
+"polka.ml" 127 5082 5089 "polka.ml" 127 5082 5107
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 128 5113 5119 "polka.ml" 128 5113 5128
+type(
+  'a5 Apron.Abstract0.t -> loose t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 128 5113 5129 "polka.ml" 128 5113 5132
+type(
+  'a5 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 126 5004 5026 "polka.ml" 126 5004 5029
+)
+"polka.ml" 128 5113 5119 "polka.ml" 128 5113 5132
+type(
+  loose t Apron.Abstract0.t
+)
+"polka.ml" 130 5142 5148 "polka.ml" 130 5142 5156
+type(
+  string -> loose t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 130 5142 5157 "polka.ml" 130 5142 5236
+type(
+  string
+)
+"polka.ml" 130 5142 5148 "polka.ml" 130 5142 5236
+call(
+  tail
+)
+type(
+  loose t Apron.Abstract0.t
+)
+"polka.ml" 127 5082 5086 "polka.ml" 130 5142 5236
+type(
+  loose t Apron.Abstract0.t
+)
+type(
+  loose t Apron.Abstract0.t
+)
+"polka.ml" 131 5237 5243 "polka.ml" 131 5237 5258
+type(
+  'a6 Apron.Abstract0.t -> strict t Apron.Abstract0.t
+)
+ident(
+  def to_polka_strict "polka.ml" 136 5475 5477 "polka.ml" 141 5734 5737
+)
+"polka.ml" 131 5237 5260 "polka.ml" 131 5237 5263
+type(
+  'a6 Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 131 5237 5286 "polka.ml" 135 5378 5474
+)
+"polka.ml" 132 5317 5324 "polka.ml" 132 5317 5339
+type(
+  'a6 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_polka_strict "polka.ml" 113 4250 4256 "polka.ml" 113 4250 4271
+)
+"polka.ml" 132 5317 5340 "polka.ml" 132 5317 5343
+type(
+  'a6 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 131 5237 5260 "polka.ml" 131 5237 5263
+)
+"polka.ml" 132 5317 5324 "polka.ml" 132 5317 5343
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 133 5349 5355 "polka.ml" 133 5349 5364
+type(
+  'a6 Apron.Abstract0.t -> strict t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 133 5349 5365 "polka.ml" 133 5349 5368
+type(
+  'a6 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 131 5237 5260 "polka.ml" 131 5237 5263
+)
+"polka.ml" 133 5349 5355 "polka.ml" 133 5349 5368
+type(
+  strict t Apron.Abstract0.t
+)
+"polka.ml" 135 5378 5384 "polka.ml" 135 5378 5392
+type(
+  string -> strict t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 135 5378 5393 "polka.ml" 135 5378 5474
+type(
+  string
+)
+"polka.ml" 135 5378 5384 "polka.ml" 135 5378 5474
+call(
+  tail
+)
+type(
+  strict t Apron.Abstract0.t
+)
+"polka.ml" 132 5317 5321 "polka.ml" 135 5378 5474
+type(
+  strict t Apron.Abstract0.t
+)
+type(
+  strict t Apron.Abstract0.t
+)
+"polka.ml" 136 5475 5481 "polka.ml" 136 5475 5500
+type(
+  'a7 Apron.Abstract0.t -> equalities t Apron.Abstract0.t
+)
+ident(
+  def to_polka_equalities "polka.ml" 140 5628 5733 "polka.ml" 141 5734 5737
+)
+"polka.ml" 136 5475 5502 "polka.ml" 136 5475 5505
+type(
+  'a7 Apron.Abstract0.t
+)
+ident(
+  def abs "polka.ml" 136 5475 5528 "polka.ml" 140 5628 5733
+)
+"polka.ml" 137 5563 5570 "polka.ml" 137 5563 5589
+type(
+  'a7 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_polka_equalities "polka.ml" 115 4329 4335 "polka.ml" 115 4329 4354
+)
+"polka.ml" 137 5563 5590 "polka.ml" 137 5563 5593
+type(
+  'a7 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 136 5475 5502 "polka.ml" 136 5475 5505
+)
+"polka.ml" 137 5563 5570 "polka.ml" 137 5563 5593
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 138 5599 5605 "polka.ml" 138 5599 5614
+type(
+  'a7 Apron.Abstract0.t -> equalities t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 138 5599 5615 "polka.ml" 138 5599 5618
+type(
+  'a7 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "polka.ml" 136 5475 5502 "polka.ml" 136 5475 5505
+)
+"polka.ml" 138 5599 5605 "polka.ml" 138 5599 5618
+type(
+  equalities t Apron.Abstract0.t
+)
+"polka.ml" 140 5628 5634 "polka.ml" 140 5628 5642
+type(
+  string -> equalities t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 140 5628 5643 "polka.ml" 140 5628 5733
+type(
+  string
+)
+"polka.ml" 140 5628 5634 "polka.ml" 140 5628 5733
+call(
+  tail
+)
+type(
+  equalities t Apron.Abstract0.t
+)
+"polka.ml" 137 5563 5567 "polka.ml" 140 5628 5733
+type(
+  equalities t Apron.Abstract0.t
+)
+type(
+  equalities t Apron.Abstract0.t
+)
+"polka.ml" 144 5765 5771 "polka.ml" 144 5765 5779
+type(
+  'a Apron.Abstract1.t -> bool
+)
+ident(
+  def is_polka "polka.ml" 146 5837 5839 "polka.ml" 176 7405 7408
+)
+"polka.ml" 144 5765 5780 "polka.ml" 144 5765 5783
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 145 5786 5790 "polka.ml" 145 5786 5836
+)
+"polka.ml" 145 5786 5790 "polka.ml" 145 5786 5806
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka "polka.ml" 64 2197 2201 "polka.ml" 64 2197 2217
+)
+"polka.ml" 145 5786 5808 "polka.ml" 145 5786 5831
+type(
+  'a Apron.Abstract1.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"polka.ml" 145 5786 5832 "polka.ml" 145 5786 5835
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 144 5765 5780 "polka.ml" 144 5765 5783
+)
+"polka.ml" 145 5786 5807 "polka.ml" 145 5786 5836
+call(
+  stack
+)
+type(
+  'a Apron.Manager.t
+)
+"polka.ml" 145 5786 5790 "polka.ml" 145 5786 5836
+call(
+  tail
+)
+type(
+  bool
+)
+"polka.ml" 146 5837 5843 "polka.ml" 146 5837 5857
+type(
+  'b Apron.Abstract1.t -> bool
+)
+ident(
+  def is_polka_loose "polka.ml" 148 5921 5923 "polka.ml" 176 7405 7408
+)
+"polka.ml" 146 5837 5858 "polka.ml" 146 5837 5861
+type(
+  'b Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 147 5864 5868 "polka.ml" 147 5864 5920
+)
+"polka.ml" 147 5864 5868 "polka.ml" 147 5864 5890
+type(
+  'b Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka_loose "polka.ml" 78 2669 2673 "polka.ml" 78 2669 2695
+)
+"polka.ml" 147 5864 5892 "polka.ml" 147 5864 5915
+type(
+  'b Apron.Abstract1.t -> 'b Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"polka.ml" 147 5864 5916 "polka.ml" 147 5864 5919
+type(
+  'b Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 146 5837 5858 "polka.ml" 146 5837 5861
+)
+"polka.ml" 147 5864 5891 "polka.ml" 147 5864 5920
+call(
+  stack
+)
+type(
+  'b Apron.Manager.t
+)
+"polka.ml" 147 5864 5868 "polka.ml" 147 5864 5920
+call(
+  tail
+)
+type(
+  bool
+)
+"polka.ml" 148 5921 5927 "polka.ml" 148 5921 5942
+type(
+  'c Apron.Abstract1.t -> bool
+)
+ident(
+  def is_polka_strict "polka.ml" 150 6000 6002 "polka.ml" 176 7405 7408
+)
+"polka.ml" 148 5921 5943 "polka.ml" 148 5921 5946
+type(
+  'c Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 149 5949 5953 "polka.ml" 149 5949 5999
+)
+"polka.ml" 149 5949 5953 "polka.ml" 149 5949 5969
+type(
+  'c Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka "polka.ml" 64 2197 2201 "polka.ml" 64 2197 2217
+)
+"polka.ml" 149 5949 5971 "polka.ml" 149 5949 5994
+type(
+  'c Apron.Abstract1.t -> 'c Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"polka.ml" 149 5949 5995 "polka.ml" 149 5949 5998
+type(
+  'c Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 148 5921 5943 "polka.ml" 148 5921 5946
+)
+"polka.ml" 149 5949 5970 "polka.ml" 149 5949 5999
+call(
+  stack
+)
+type(
+  'c Apron.Manager.t
+)
+"polka.ml" 149 5949 5953 "polka.ml" 149 5949 5999
+call(
+  tail
+)
+type(
+  bool
+)
+"polka.ml" 150 6000 6006 "polka.ml" 150 6000 6025
+type(
+  'd Apron.Abstract1.t -> bool
+)
+ident(
+  def is_polka_equalities "polka.ml" 152 6094 6096 "polka.ml" 176 7405 7408
+)
+"polka.ml" 150 6000 6026 "polka.ml" 150 6000 6029
+type(
+  'd Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 151 6032 6036 "polka.ml" 151 6032 6093
+)
+"polka.ml" 151 6032 6036 "polka.ml" 151 6032 6063
+type(
+  'd Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_polka_equalities "polka.ml" 98 3574 3578 "polka.ml" 98 3574 3605
+)
+"polka.ml" 151 6032 6065 "polka.ml" 151 6032 6088
+type(
+  'd Apron.Abstract1.t -> 'd Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"polka.ml" 151 6032 6089 "polka.ml" 151 6032 6092
+type(
+  'd Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 150 6000 6026 "polka.ml" 150 6000 6029
+)
+"polka.ml" 151 6032 6064 "polka.ml" 151 6032 6093
+call(
+  stack
+)
+type(
+  'd Apron.Manager.t
+)
+"polka.ml" 151 6032 6036 "polka.ml" 151 6032 6093
+call(
+  tail
+)
+type(
+  bool
+)
+"polka.ml" 152 6094 6100 "polka.ml" 152 6094 6108
+type(
+  'a0 t Apron.Abstract1.t -> 'b0 Apron.Abstract1.t
+)
+ident(
+  def of_polka "polka.ml" 153 6178 6180 "polka.ml" 176 7405 7408
+)
+"polka.ml" 152 6094 6110 "polka.ml" 152 6094 6113
+type(
+  'a0 t Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 152 6094 6139 "polka.ml" 152 6094 6177
+)
+"polka.ml" 152 6094 6164 "polka.ml" 152 6094 6173
+type(
+  'a0 t Apron.Abstract1.t -> 'b0 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 152 6094 6174 "polka.ml" 152 6094 6177
+type(
+  'a0 t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 152 6094 6110 "polka.ml" 152 6094 6113
+)
+"polka.ml" 152 6094 6164 "polka.ml" 152 6094 6177
+type(
+  'b0 Apron.Abstract1.t
+)
+type(
+  'b0 Apron.Abstract1.t
+)
+"polka.ml" 153 6178 6184 "polka.ml" 153 6178 6198
+type(
+  loose t Apron.Abstract1.t -> 'a1 Apron.Abstract1.t
+)
+ident(
+  def of_polka_loose "polka.ml" 154 6271 6273 "polka.ml" 176 7405 7408
+)
+"polka.ml" 153 6178 6200 "polka.ml" 153 6178 6203
+type(
+  loose t Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 153 6178 6232 "polka.ml" 153 6178 6270
+)
+"polka.ml" 153 6178 6257 "polka.ml" 153 6178 6266
+type(
+  loose t Apron.Abstract1.t -> 'a1 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 153 6178 6267 "polka.ml" 153 6178 6270
+type(
+  loose t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 153 6178 6200 "polka.ml" 153 6178 6203
+)
+"polka.ml" 153 6178 6257 "polka.ml" 153 6178 6270
+type(
+  'a1 Apron.Abstract1.t
+)
+type(
+  'a1 Apron.Abstract1.t
+)
+"polka.ml" 154 6271 6277 "polka.ml" 154 6271 6292
+type(
+  strict t Apron.Abstract1.t -> 'a2 Apron.Abstract1.t
+)
+ident(
+  def of_polka_strict "polka.ml" 155 6366 6368 "polka.ml" 176 7405 7408
+)
+"polka.ml" 154 6271 6294 "polka.ml" 154 6271 6297
+type(
+  strict t Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 154 6271 6327 "polka.ml" 154 6271 6365
+)
+"polka.ml" 154 6271 6352 "polka.ml" 154 6271 6361
+type(
+  strict t Apron.Abstract1.t -> 'a2 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 154 6271 6362 "polka.ml" 154 6271 6365
+type(
+  strict t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 154 6271 6294 "polka.ml" 154 6271 6297
+)
+"polka.ml" 154 6271 6352 "polka.ml" 154 6271 6365
+type(
+  'a2 Apron.Abstract1.t
+)
+type(
+  'a2 Apron.Abstract1.t
+)
+"polka.ml" 155 6366 6372 "polka.ml" 155 6366 6391
+type(
+  equalities t Apron.Abstract1.t -> 'a3 Apron.Abstract1.t
+)
+ident(
+  def of_polka_equalities "polka.ml" 156 6469 6471 "polka.ml" 176 7405 7408
+)
+"polka.ml" 155 6366 6393 "polka.ml" 155 6366 6396
+type(
+  equalities t Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 155 6366 6430 "polka.ml" 155 6366 6468
+)
+"polka.ml" 155 6366 6455 "polka.ml" 155 6366 6464
+type(
+  equalities t Apron.Abstract1.t -> 'a3 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 155 6366 6465 "polka.ml" 155 6366 6468
+type(
+  equalities t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 155 6366 6393 "polka.ml" 155 6366 6396
+)
+"polka.ml" 155 6366 6455 "polka.ml" 155 6366 6468
+type(
+  'a3 Apron.Abstract1.t
+)
+type(
+  'a3 Apron.Abstract1.t
+)
+"polka.ml" 156 6469 6475 "polka.ml" 156 6469 6483
+type(
+  'a4 Apron.Abstract1.t -> 'b1 t Apron.Abstract1.t
+)
+ident(
+  def to_polka "polka.ml" 161 6675 6677 "polka.ml" 176 7405 7408
+)
+"polka.ml" 156 6469 6485 "polka.ml" 156 6469 6488
+type(
+  'a4 Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 156 6469 6511 "polka.ml" 160 6592 6674
+)
+"polka.ml" 157 6538 6545 "polka.ml" 157 6538 6553
+type(
+  'a4 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_polka "polka.ml" 144 5765 5771 "polka.ml" 144 5765 5779
+)
+"polka.ml" 157 6538 6554 "polka.ml" 157 6538 6557
+type(
+  'a4 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 156 6469 6485 "polka.ml" 156 6469 6488
+)
+"polka.ml" 157 6538 6545 "polka.ml" 157 6538 6557
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 158 6563 6569 "polka.ml" 158 6563 6578
+type(
+  'a4 Apron.Abstract1.t -> 'b1 t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 158 6563 6579 "polka.ml" 158 6563 6582
+type(
+  'a4 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 156 6469 6485 "polka.ml" 156 6469 6488
+)
+"polka.ml" 158 6563 6569 "polka.ml" 158 6563 6582
+type(
+  'b1 t Apron.Abstract1.t
+)
+"polka.ml" 160 6592 6598 "polka.ml" 160 6592 6606
+type(
+  string -> 'b1 t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 160 6592 6607 "polka.ml" 160 6592 6674
+type(
+  string
+)
+"polka.ml" 160 6592 6598 "polka.ml" 160 6592 6674
+call(
+  tail
+)
+type(
+  'b1 t Apron.Abstract1.t
+)
+"polka.ml" 157 6538 6542 "polka.ml" 160 6592 6674
+type(
+  'b1 t Apron.Abstract1.t
+)
+type(
+  'b1 t Apron.Abstract1.t
+)
+"polka.ml" 161 6675 6681 "polka.ml" 161 6675 6695
+type(
+  'a5 Apron.Abstract1.t -> loose t Apron.Abstract1.t
+)
+ident(
+  def to_polka_loose "polka.ml" 166 6908 6910 "polka.ml" 176 7405 7408
+)
+"polka.ml" 161 6675 6697 "polka.ml" 161 6675 6700
+type(
+  'a5 Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 161 6675 6723 "polka.ml" 165 6813 6907
+)
+"polka.ml" 162 6753 6760 "polka.ml" 162 6753 6774
+type(
+  'a5 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_polka_loose "polka.ml" 146 5837 5843 "polka.ml" 146 5837 5857
+)
+"polka.ml" 162 6753 6775 "polka.ml" 162 6753 6778
+type(
+  'a5 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 161 6675 6697 "polka.ml" 161 6675 6700
+)
+"polka.ml" 162 6753 6760 "polka.ml" 162 6753 6778
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 163 6784 6790 "polka.ml" 163 6784 6799
+type(
+  'a5 Apron.Abstract1.t -> loose t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 163 6784 6800 "polka.ml" 163 6784 6803
+type(
+  'a5 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 161 6675 6697 "polka.ml" 161 6675 6700
+)
+"polka.ml" 163 6784 6790 "polka.ml" 163 6784 6803
+type(
+  loose t Apron.Abstract1.t
+)
+"polka.ml" 165 6813 6819 "polka.ml" 165 6813 6827
+type(
+  string -> loose t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 165 6813 6828 "polka.ml" 165 6813 6907
+type(
+  string
+)
+"polka.ml" 165 6813 6819 "polka.ml" 165 6813 6907
+call(
+  tail
+)
+type(
+  loose t Apron.Abstract1.t
+)
+"polka.ml" 162 6753 6757 "polka.ml" 165 6813 6907
+type(
+  loose t Apron.Abstract1.t
+)
+type(
+  loose t Apron.Abstract1.t
+)
+"polka.ml" 166 6908 6914 "polka.ml" 166 6908 6929
+type(
+  'a6 Apron.Abstract1.t -> strict t Apron.Abstract1.t
+)
+ident(
+  def to_polka_strict "polka.ml" 171 7146 7148 "polka.ml" 176 7405 7408
+)
+"polka.ml" 166 6908 6931 "polka.ml" 166 6908 6934
+type(
+  'a6 Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 166 6908 6957 "polka.ml" 170 7049 7145
+)
+"polka.ml" 167 6988 6995 "polka.ml" 167 6988 7010
+type(
+  'a6 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_polka_strict "polka.ml" 148 5921 5927 "polka.ml" 148 5921 5942
+)
+"polka.ml" 167 6988 7011 "polka.ml" 167 6988 7014
+type(
+  'a6 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 166 6908 6931 "polka.ml" 166 6908 6934
+)
+"polka.ml" 167 6988 6995 "polka.ml" 167 6988 7014
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 168 7020 7026 "polka.ml" 168 7020 7035
+type(
+  'a6 Apron.Abstract1.t -> strict t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 168 7020 7036 "polka.ml" 168 7020 7039
+type(
+  'a6 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 166 6908 6931 "polka.ml" 166 6908 6934
+)
+"polka.ml" 168 7020 7026 "polka.ml" 168 7020 7039
+type(
+  strict t Apron.Abstract1.t
+)
+"polka.ml" 170 7049 7055 "polka.ml" 170 7049 7063
+type(
+  string -> strict t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 170 7049 7064 "polka.ml" 170 7049 7145
+type(
+  string
+)
+"polka.ml" 170 7049 7055 "polka.ml" 170 7049 7145
+call(
+  tail
+)
+type(
+  strict t Apron.Abstract1.t
+)
+"polka.ml" 167 6988 6992 "polka.ml" 170 7049 7145
+type(
+  strict t Apron.Abstract1.t
+)
+type(
+  strict t Apron.Abstract1.t
+)
+"polka.ml" 171 7146 7152 "polka.ml" 171 7146 7171
+type(
+  'a7 Apron.Abstract1.t -> equalities t Apron.Abstract1.t
+)
+ident(
+  def to_polka_equalities "polka.ml" 175 7299 7404 "polka.ml" 176 7405 7408
+)
+"polka.ml" 171 7146 7173 "polka.ml" 171 7146 7176
+type(
+  'a7 Apron.Abstract1.t
+)
+ident(
+  def abs "polka.ml" 171 7146 7199 "polka.ml" 175 7299 7404
+)
+"polka.ml" 172 7234 7241 "polka.ml" 172 7234 7260
+type(
+  'a7 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_polka_equalities "polka.ml" 150 6000 6006 "polka.ml" 150 6000 6025
+)
+"polka.ml" 172 7234 7261 "polka.ml" 172 7234 7264
+type(
+  'a7 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 171 7146 7173 "polka.ml" 171 7146 7176
+)
+"polka.ml" 172 7234 7241 "polka.ml" 172 7234 7264
+call(
+  stack
+)
+type(
+  bool
+)
+"polka.ml" 173 7270 7276 "polka.ml" 173 7270 7285
+type(
+  'a7 Apron.Abstract1.t -> equalities t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"polka.ml" 173 7270 7286 "polka.ml" 173 7270 7289
+type(
+  'a7 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "polka.ml" 171 7146 7173 "polka.ml" 171 7146 7176
+)
+"polka.ml" 173 7270 7276 "polka.ml" 173 7270 7289
+type(
+  equalities t Apron.Abstract1.t
+)
+"polka.ml" 175 7299 7305 "polka.ml" 175 7299 7313
+type(
+  string -> equalities t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"polka.ml" 175 7299 7314 "polka.ml" 175 7299 7404
+type(
+  string
+)
+"polka.ml" 175 7299 7305 "polka.ml" 175 7299 7404
+call(
+  tail
+)
+type(
+  equalities t Apron.Abstract1.t
+)
+"polka.ml" 172 7234 7238 "polka.ml" 175 7299 7404
+type(
+  equalities t Apron.Abstract1.t
+)
+type(
+  equalities t Apron.Abstract1.t
+)

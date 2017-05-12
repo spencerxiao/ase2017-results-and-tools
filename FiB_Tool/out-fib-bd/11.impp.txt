@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (j = (2 * x))
+find an inductive invaraint  based on abstractions
+invariant size: 20
+interp: (and (not (<= (+ (* 2 i) (* (- 1) j)) (- 1))) (and (not (<= 1 (+ j (* (- 2) x)))) (not (<= 1 (+ (* 2 i) (* (- 1) j))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

@@ -1,0 +1,15 @@
+loop____VERIFIER_assume__4:
+(declare-fun |main::c2| () Int)
+(declare-fun |main::c1| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::n| () Int)
+(assert (let ((.cse0 (= |__VERIFIER_assume::i| 1)) (.cse1 (<= 0 (+ |main::c1| (- 4000)))) (.cse2 (<= 0 (+ |main::c2| (- 2000)))) (.cse3 (distinct 1 0))) (ite (= |__VERIFIER_assume::i| 0) (and (not .cse0) .cse1 .cse2 .cse3) (and (<= 0 (+ |main::n| (- 1))) .cse0 .cse1 .cse2 .cse3))))
+loop__main__26:
+(declare-fun |main::k| () Int)
+(declare-fun |main::i| () Int)
+(declare-fun |main::c2| () Int)
+(declare-fun |main::c1| () Int)
+(declare-fun |main::n| () Int)
+(assert (let ((.cse6 (= (+ |main::i| (- |main::k|)) 0))) (let ((.cse0 (<= 0 (+ |main::n| (- 1)))) (.cse1 (<= 0 (+ |main::c1| (- 4000)))) (.cse2 (<= 0 (+ |main::c2| (- 2000)))) (.cse3 (distinct 1 0)) (.cse4 (not .cse6)) (.cse5 (<= |main::i| (+ |main::k| (- 1999))))) (ite (> |main::k| |main::n|) (and .cse0 .cse1 .cse2 .cse3 .cse4 .cse5) (and .cse0 (ite (= |main::i| 0) (and .cse1 .cse2 .cse3 (ite .cse6 (and (not (<= |main::i| (+ |main::k| (- 3999)))) (not .cse5)) .cse5)) (and .cse1 .cse2 .cse3 .cse4 .cse5)))))))
+loop__main__39:
+(assert false)

@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (x = y)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 62
+interp: (let ((.def_1285 (not (= x y)))) (let ((.def_1294 (<= (+ x (* (- 1) y)) (- 1)))) (let ((.def_1298 (<= 1 (+ x (* (- 1) y))))) (let ((.def_4289 (and .def_1285 .def_1298))) (let ((.def_4294 (and .def_1285 .def_1294))) (let ((.def_4335 (<= (to_real 1) (to_real (+ z (* 2 (to_int (* (/ 1 2) (to_real (+ (* (- 1) z) 1)))))))))) (let ((.def_4352 (and .def_1285 (or .def_4289 .def_4294)))) (not (and (not (and (and (not (<= (to_real 1) (to_real (+ w (* 2 (to_int (* (/ 1 2) (to_real (+ (* (- 1) w) 1))))))))) (not (<= 0 (+ z (* 2 (to_int (* (/ 1 2) (to_real (* (- 1) z))))))))) (not .def_4352))) (or (<= (to_real (+ w (* (- 2) (to_int (* (/ 1 2) (to_real (* 1 w))))))) (to_real 0)) (and (or .def_4289 (and (or .def_4294 .def_4335) (or .def_1294 .def_4335))) (or .def_4335 (and (or .def_1294 .def_1298) .def_4352)))))))))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

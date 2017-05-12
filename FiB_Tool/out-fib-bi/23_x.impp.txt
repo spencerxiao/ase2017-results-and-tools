@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (sum >= 0)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 36
+interp: (let ((.def_99 (not (<= sum (- 1))))) (not (and (not (and .def_99 (and (not (and (<= i (- 1)) (or (<= (+ i sum) (- 1)) (<= (+ (* 2 i) sum) (- 2))))) (not (<= (to_real i) (to_real (- 2))))))) (not (and .def_99 (and (not (<= (to_real (+ (* 3 i) (* (- 1) sum))) (to_real (- 3)))) (not (<= (+ (* 3 i) (* (- 1) sum)) (- 4)))))))))
+The assertion is satisfied!
+forward [6] times, backtrack [3] times
+backward [6] times, backtrack [3] times

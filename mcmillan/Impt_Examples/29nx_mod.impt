@@ -1,0 +1,64 @@
+MODULE main
+	int a;
+	int b;
+	int c;
+	int d;
+	int x;
+	int y;
+
+	int turn;
+	int finish;
+
+	assume(a == 1);
+	assume(b == 1);
+	assume(c == 2);
+	assume(d == 2);
+	assume(x == 3);
+	assume(y == 3);
+
+	assume(turn == 0);
+	assume(finish == 0);
+
+	while(*){
+		if(turn == 0){
+			x = a + c;
+			y = b + d;
+		
+			if((x + y) % 2 == 0){
+				a = a + 1;
+				d = d + 1;
+			}
+			else{
+				a = a - 1;
+			}
+
+			turn = 1;
+		}
+		else{
+			if(turn == 1){
+				c = c - 1;
+				b = b - 1;
+
+				if(*){
+					turn = 1;
+				}
+				else{
+					turn = 0;
+				}
+			}
+			else{
+				skip;
+			}
+		}
+
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && a + c != b + d;

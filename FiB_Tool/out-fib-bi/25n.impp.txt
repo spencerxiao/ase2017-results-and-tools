@@ -1,0 +1,7 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (i >= j)
+find an inductive invaraint in forward interpolation  based on concrete reachables!
+invariant size: 29
+interp: (let ((.def_27 (<= j i))) (let ((.def_93 (= x y))) (let ((.def_343 (<= 1 (+ i (* (- 1) j))))) (let ((.def_1402 (and .def_93 .def_343))) (or (and (or (= turn 0) .def_1402) (or (and .def_27 .def_93) .def_1402)) (and .def_93 (not (and (not .def_343) (and (not .def_27) (not (<= 2 (+ i (* (- 1) j)))))))))))))
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

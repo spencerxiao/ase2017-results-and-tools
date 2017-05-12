@@ -1,0 +1,29 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/30.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([11,10,8,12,5,3]): pc(main-1-12) pc(main-ret-0) {i>=1000,c>=0,i'=i,c'=c}
+[i>=1000,c>=0] [i'=i,c'=c]
+path([9,8,12,5,3]): pc(main-1-12) pc(main-err-0) {i>=1000,c+1=<0,i'=i,c'=c}
+[i>=1000,c+1=<0] [i'=i,c'=c]
+path([7,6,4,3]): pc(main-1-12) pc(main-1-12) {i+1=<1000,i'=i+1,c'=c+i}
+[i+1=<1000] [i'=i+1,c'=c+i]
+path([2,1]): pc(main-0-11) pc(main-1-12) {i'=0,c'=0}
+[] [i'=0,c'=0]
+
+#Printing Strengthening ==
+#pc(main-1-12): [i-c=<1,c>=0,i>=0,i=<1000]
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([9,8,12,5,3])..# cleared. 
+#=========================
+#contributed facts:
+#pc(main-1-12): []
+#=========================
+#unproven: path([11,10,8,12,5,3])
+#=========================
+#Invariant:
+#pc(main-1-12): [c>=0,i>=0]
+#Total Solving time: 0 ms

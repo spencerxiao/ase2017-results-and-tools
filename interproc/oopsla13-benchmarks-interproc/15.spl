@@ -1,0 +1,14 @@
+var n:int, i:int, k:int, j:int;
+begin
+  n = random;
+  k = random;
+  j = 0;  
+  assume (n > 0);
+  assume (k > n);
+
+  while (j < n) do
+    j = j +_i 1;
+    k = k -_i 1;
+  done;
+  assume (k >= 0);
+end

@@ -1,0 +1,25 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::z| () Int)
+(declare-fun |main::w| () Int)
+
+main:
+(assert (= |main::x| |main::y|))
+
+main N7:
+(assert (= |main::z| 0))
+(assert (<= |main::y| |main::x|))
+(assert (<= |main::x| |main::y|))
+(assert (<= 0 (+ |main::w| (- 1))))
+(assert (<= (+ (- |main::x|) |main::y|) 0))
+(assert (<= (+ (- |main::x|) |main::y| 1) 0))
+(assert (= |main::x| |main::y|))
+(assert (<= 0 (+ |main::z| (- 1))))
+(assert (<= |main::w| 0))
+(assert (<= 0 |main::w|))
+(assert (<= (+ |main::w| 1) 0))
+
+main N26:
+(assert false)
+(assert (= |main::x| |main::y|))
+

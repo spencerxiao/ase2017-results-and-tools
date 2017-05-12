@@ -1,0 +1,10 @@
+loop____VERIFIER_assume__5:
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::n| () Int)
+(assert (let ((.cse0 (= |__VERIFIER_assume::i| 0))) (ite (<= 0 |main::n|) (not .cse0) .cse0)))
+loop__main__20:
+(assert true)
+loop__main__26:
+(declare-fun |main::n| () Int)
+(declare-fun |main::z| () Int)
+(assert (not (> |main::z| (* 2 |main::n|))))

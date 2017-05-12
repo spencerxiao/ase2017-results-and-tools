@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((x < 4) | (y > 2))
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 8
+interp: (not (and (<= 4 x) (<= y 2)))
+The assertion is satisfied!
+forward [0] times, backtrack [0] times
+backward [0] times, backtrack [0] times

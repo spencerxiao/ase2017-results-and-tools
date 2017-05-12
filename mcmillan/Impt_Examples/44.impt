@@ -1,0 +1,28 @@
+MODULE main
+	int i;
+	int j;
+	int n;
+	int k;
+
+	int finish;
+
+	assume(n == 1 || n == 2);
+	assume(i == 0);
+	assume(j == 0);
+
+	assume(finish == 0);
+
+	while(i <= k){
+		i = i + 1;
+		j = j + n;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && (n == 1 && i != j);

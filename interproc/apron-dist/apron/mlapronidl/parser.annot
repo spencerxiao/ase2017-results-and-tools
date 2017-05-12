@@ -1,0 +1,3559 @@
+"parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+type(
+  string -> 'a
+)
+ident(
+  def raise_error "parser.ml" 85 2833 2833 "parser.ml" 1 0 -1
+)
+"parser.ml" 82 2716 2732 "parser.ml" 82 2716 2735
+type(
+  string
+)
+ident(
+  def str "parser.ml" 82 2716 2738 "parser.ml" 82 2716 2755
+)
+"parser.ml" 82 2716 2738 "parser.ml" 82 2716 2743
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"parser.ml" 82 2716 2751 "parser.ml" 82 2716 2754
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 82 2716 2732 "parser.ml" 82 2716 2735
+)
+"parser.ml" 82 2716 2744 "parser.ml" 82 2716 2755
+type(
+  exn
+)
+"parser.ml" 82 2716 2738 "parser.ml" 82 2716 2755
+type(
+  'a
+)
+"parser.ml" 88 2940 2948 "parser.ml" 88 2940 2958
+type(
+  (String.t * 'a) list -> unit
+)
+ident(
+  def check_list "parser.ml" 88 2940 2940 "parser.ml" 1 0 -1
+)
+"parser.ml" 89 2970 2975 "parser.ml" 89 2970 2979
+type(
+  String.t
+)
+ident(
+  def var1 "parser.ml" 90 3007 3013 "parser.ml" 96 3203 3216
+)
+"parser.ml" 89 2970 2980 "parser.ml" 89 2970 2981
+type(
+  'a
+)
+"parser.ml" 89 2970 2974 "parser.ml" 89 2970 2982
+type(
+  String.t * 'a
+)
+"parser.ml" 89 2970 2987 "parser.ml" 89 2970 2991
+type(
+  String.t
+)
+ident(
+  def var2 "parser.ml" 90 3007 3013 "parser.ml" 96 3203 3216
+)
+"parser.ml" 89 2970 2992 "parser.ml" 89 2970 2993
+type(
+  'a
+)
+"parser.ml" 89 2970 2986 "parser.ml" 89 2970 2994
+type(
+  String.t * 'a
+)
+"parser.ml" 89 2970 2996 "parser.ml" 89 2970 2997
+type(
+  (String.t * 'a) list
+)
+"parser.ml" 89 2970 2985 "parser.ml" 89 2970 2998
+type(
+  (String.t * 'a) list
+)
+"parser.ml" 89 2970 3002 "parser.ml" 89 2970 3003
+ident(
+  def l "parser.ml" 90 3007 3013 "parser.ml" 96 3203 3216
+)
+"parser.ml" 89 2970 2984 "parser.ml" 89 2970 3004
+type(
+  (String.t * 'a) list
+)
+"parser.ml" 89 2970 2974 "parser.ml" 89 2970 3004
+type(
+  (String.t * 'a) list
+)
+"parser.ml" 90 3007 3017 "parser.ml" 90 3007 3031
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"parser.ml" 90 3007 3032 "parser.ml" 90 3007 3036
+type(
+  String.t
+)
+ident(
+  int_ref var1 "parser.ml" 89 2970 2975 "parser.ml" 89 2970 2979
+)
+"parser.ml" 90 3007 3037 "parser.ml" 90 3007 3041
+type(
+  String.t
+)
+ident(
+  int_ref var2 "parser.ml" 89 2970 2987 "parser.ml" 89 2970 2991
+)
+"parser.ml" 90 3007 3016 "parser.ml" 90 3007 3042
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 90 3007 3042 "parser.ml" 90 3007 3043
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"parser.ml" 90 3007 3043 "parser.ml" 90 3007 3044
+type(
+  int
+)
+"parser.ml" 90 3007 3016 "parser.ml" 90 3007 3044
+type(
+  bool
+)
+"parser.ml" 91 3050 3051 "parser.ml" 91 3050 3056
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"parser.ml" 91 3050 3065 "parser.ml" 91 3050 3079
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 91 3050 3080 "parser.ml" 91 3050 3115
+type(
+  (string -> string, unit, string) format
+)
+"parser.ml" 92 3116 3123 "parser.ml" 92 3116 3127
+type(
+  String.t
+)
+ident(
+  int_ref var1 "parser.ml" 89 2970 2975 "parser.ml" 89 2970 2979
+)
+"parser.ml" 92 3116 3127 "parser.ml" 92 3116 3128
+type(
+  String.t -> String.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"parser.ml" 92 3116 3128 "parser.ml" 92 3116 3130
+type(
+  String.t
+)
+"parser.ml" 92 3116 3123 "parser.ml" 92 3116 3130
+type(
+  bool
+)
+"parser.ml" 93 3131 3139 "parser.ml" 93 3131 3161
+type(
+  string
+)
+"parser.ml" 94 3162 3171 "parser.ml" 94 3162 3182
+type(
+  string
+)
+"parser.ml" 94 3162 3182 "parser.ml" 94 3162 3183
+type(
+  string -> String.t -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"parser.ml" 94 3162 3183 "parser.ml" 94 3162 3187
+type(
+  String.t
+)
+ident(
+  int_ref var1 "parser.ml" 89 2970 2975 "parser.ml" 89 2970 2979
+)
+"parser.ml" 94 3162 3170 "parser.ml" 94 3162 3188
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 92 3116 3119 "parser.ml" 94 3162 3189
+type(
+  string
+)
+"parser.ml" 91 3050 3064 "parser.ml" 94 3162 3190
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 91 3050 3057 "parser.ml" 94 3162 3191
+type(
+  exn
+)
+"parser.ml" 91 3050 3051 "parser.ml" 94 3162 3191
+type(
+  unit
+)
+"parser.ml" 96 3203 3204 "parser.ml" 96 3203 3214
+type(
+  (String.t * 'a) list -> unit
+)
+ident(
+  int_ref check_list "parser.ml" 88 2940 2948 "parser.ml" 88 2940 2958
+)
+"parser.ml" 96 3203 3215 "parser.ml" 96 3203 3216
+type(
+  (String.t * 'a) list
+)
+ident(
+  int_ref l "parser.ml" 89 2970 2984 "parser.ml" 89 2970 3004
+)
+"parser.ml" 96 3203 3204 "parser.ml" 96 3203 3216
+call(
+  tail
+)
+type(
+  unit
+)
+"parser.ml" 90 3007 3013 "parser.ml" 96 3203 3216
+type(
+  unit
+)
+"parser.ml" 97 3217 3221 "parser.ml" 97 3217 3222
+type(
+  (String.t * 'a) list
+)
+"parser.ml" 97 3217 3226 "parser.ml" 97 3217 3228
+type(
+  unit
+)
+"parser.ml" 88 2940 2961 "parser.ml" 97 3217 3228
+type(
+  (String.t * 'a) list -> unit
+)
+"parser.ml" 99 3230 3234 "parser.ml" 99 3230 3253
+type(
+  Environment.t -> (string * Coeff.t) list -> Linexpr1.t
+)
+ident(
+  def linexpr1_of_linexpr "parser.ml" 121 3658 3658 "parser.ml" 1 0 -1
+)
+"parser.ml" 99 3230 3255 "parser.ml" 99 3230 3258
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 99 3230 3274 "parser.ml" 119 3651 3656
+)
+"parser.ml" 99 3230 3275 "parser.ml" 99 3230 3279
+type(
+  (string * Coeff.t) list
+)
+ident(
+  def list "parser.ml" 100 3303 3305 "parser.ml" 119 3651 3656
+)
+"parser.ml" 103 3324 3330 "parser.ml" 103 3324 3334
+type(
+  (String.t * Coeff.t) list
+)
+ident(
+  def list "parser.ml" 108 3425 3427 "parser.ml" 119 3651 3656
+)
+"parser.ml" 104 3337 3341 "parser.ml" 104 3337 3350
+type(
+  (String.t * Coeff.t -> String.t * Coeff.t -> int) ->
+  (String.t * Coeff.t) list -> (String.t * Coeff.t) list
+)
+ident(
+  ext_ref List.sort
+)
+"parser.ml" 105 3351 3363 "parser.ml" 105 3351 3367
+type(
+  String.t
+)
+ident(
+  def var1 "parser.ml" 105 3351 3371 "parser.ml" 105 3351 3407
+)
+"parser.ml" 105 3351 3368 "parser.ml" 105 3351 3369
+type(
+  Coeff.t
+)
+"parser.ml" 105 3351 3362 "parser.ml" 105 3351 3370
+type(
+  String.t * Coeff.t
+)
+"parser.ml" 105 3351 3372 "parser.ml" 105 3351 3376
+type(
+  String.t
+)
+ident(
+  def var2 "parser.ml" 105 3351 3383 "parser.ml" 105 3351 3407
+)
+"parser.ml" 105 3351 3377 "parser.ml" 105 3351 3378
+type(
+  Coeff.t
+)
+"parser.ml" 105 3351 3371 "parser.ml" 105 3351 3379
+type(
+  String.t * Coeff.t
+)
+"parser.ml" 105 3351 3383 "parser.ml" 105 3351 3397
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"parser.ml" 105 3351 3398 "parser.ml" 105 3351 3402
+type(
+  String.t
+)
+ident(
+  int_ref var1 "parser.ml" 105 3351 3363 "parser.ml" 105 3351 3367
+)
+"parser.ml" 105 3351 3403 "parser.ml" 105 3351 3407
+type(
+  String.t
+)
+ident(
+  int_ref var2 "parser.ml" 105 3351 3372 "parser.ml" 105 3351 3376
+)
+"parser.ml" 105 3351 3383 "parser.ml" 105 3351 3407
+call(
+  tail
+)
+type(
+  int
+)
+"parser.ml" 105 3351 3357 "parser.ml" 105 3351 3408
+type(
+  String.t * Coeff.t -> String.t * Coeff.t -> int
+)
+"parser.ml" 106 3409 3415 "parser.ml" 106 3409 3419
+type(
+  (String.t * Coeff.t) list
+)
+ident(
+  int_ref list "parser.ml" 99 3230 3275 "parser.ml" 99 3230 3279
+)
+"parser.ml" 104 3337 3341 "parser.ml" 106 3409 3419
+call(
+  stack
+)
+type(
+  (String.t * Coeff.t) list
+)
+"parser.ml" 108 3425 3427 "parser.ml" 108 3425 3437
+type(
+  (String.t * Coeff.t) list -> unit
+)
+ident(
+  int_ref check_list "parser.ml" 88 2940 2948 "parser.ml" 88 2940 2958
+)
+"parser.ml" 108 3425 3438 "parser.ml" 108 3425 3442
+type(
+  (String.t * Coeff.t) list
+)
+ident(
+  int_ref list "parser.ml" 103 3324 3330 "parser.ml" 103 3324 3334
+)
+"parser.ml" 108 3425 3427 "parser.ml" 108 3425 3442
+call(
+  stack
+)
+type(
+  unit
+)
+"parser.ml" 109 3444 3450 "parser.ml" 109 3444 3453
+type(
+  Linexpr1.t
+)
+ident(
+  def res "parser.ml" 110 3477 3479 "parser.ml" 119 3651 3656
+)
+"parser.ml" 109 3444 3456 "parser.ml" 109 3444 3469
+type(
+  ?sparse:bool -> Environment.t -> Linexpr1.t
+)
+ident(
+  ext_ref Linexpr1.make
+)
+"parser.ml" 109 3444 3470 "parser.ml" 109 3444 3473
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 99 3230 3255 "parser.ml" 99 3230 3258
+)
+"parser.ml" 109 3444 3456 "parser.ml" 109 3444 3473
+call(
+  stack
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 110 3477 3479 "parser.ml" 110 3477 3488
+type(
+  (String.t * Coeff.t -> unit) -> (String.t * Coeff.t) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"parser.ml" 111 3489 3505 "parser.ml" 111 3489 3508
+type(
+  String.t
+)
+ident(
+  def var "parser.ml" 112 3519 3525 "parser.ml" 115 3579 3628
+)
+"parser.ml" 111 3489 3509 "parser.ml" 111 3489 3514
+type(
+  Coeff.t
+)
+ident(
+  def coeff "parser.ml" 112 3519 3525 "parser.ml" 115 3579 3628
+)
+"parser.ml" 111 3489 3504 "parser.ml" 111 3489 3515
+type(
+  String.t * Coeff.t
+)
+"parser.ml" 112 3519 3528 "parser.ml" 112 3519 3531
+type(
+  String.t
+)
+ident(
+  int_ref var "parser.ml" 111 3489 3505 "parser.ml" 111 3489 3508
+)
+"parser.ml" 112 3519 3531 "parser.ml" 112 3519 3532
+type(
+  String.t -> String.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"parser.ml" 112 3519 3532 "parser.ml" 112 3519 3534
+type(
+  String.t
+)
+"parser.ml" 112 3519 3528 "parser.ml" 112 3519 3534
+type(
+  bool
+)
+"parser.ml" 113 3540 3541 "parser.ml" 113 3540 3557
+type(
+  Linexpr1.t -> Coeff.t -> unit
+)
+ident(
+  ext_ref Linexpr1.set_cst
+)
+"parser.ml" 113 3540 3558 "parser.ml" 113 3540 3561
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref res "parser.ml" 109 3444 3450 "parser.ml" 109 3444 3453
+)
+"parser.ml" 113 3540 3562 "parser.ml" 113 3540 3567
+type(
+  Coeff.t
+)
+ident(
+  int_ref coeff "parser.ml" 111 3489 3509 "parser.ml" 111 3489 3514
+)
+"parser.ml" 113 3540 3541 "parser.ml" 113 3540 3567
+call(
+  tail
+)
+type(
+  unit
+)
+"parser.ml" 115 3579 3580 "parser.ml" 115 3579 3598
+type(
+  Linexpr1.t -> Var.t -> Coeff.t -> unit
+)
+ident(
+  ext_ref Linexpr1.set_coeff
+)
+"parser.ml" 115 3579 3599 "parser.ml" 115 3579 3602
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref res "parser.ml" 109 3444 3450 "parser.ml" 109 3444 3453
+)
+"parser.ml" 115 3579 3604 "parser.ml" 115 3579 3617
+type(
+  String.t -> Var.t
+)
+ident(
+  ext_ref Var.of_string
+)
+"parser.ml" 115 3579 3618 "parser.ml" 115 3579 3621
+type(
+  String.t
+)
+ident(
+  int_ref var "parser.ml" 111 3489 3505 "parser.ml" 111 3489 3508
+)
+"parser.ml" 115 3579 3603 "parser.ml" 115 3579 3622
+type(
+  Var.t
+)
+"parser.ml" 115 3579 3623 "parser.ml" 115 3579 3628
+type(
+  Coeff.t
+)
+ident(
+  int_ref coeff "parser.ml" 111 3489 3509 "parser.ml" 111 3489 3514
+)
+"parser.ml" 115 3579 3580 "parser.ml" 115 3579 3628
+type(
+  unit
+)
+"parser.ml" 112 3519 3525 "parser.ml" 115 3579 3628
+type(
+  unit
+)
+"parser.ml" 111 3489 3493 "parser.ml" 116 3629 3637
+type(
+  String.t * Coeff.t -> unit
+)
+"parser.ml" 117 3638 3642 "parser.ml" 117 3638 3646
+type(
+  (String.t * Coeff.t) list
+)
+ident(
+  int_ref list "parser.ml" 103 3324 3330 "parser.ml" 103 3324 3334
+)
+"parser.ml" 110 3477 3479 "parser.ml" 117 3638 3646
+call(
+  stack
+)
+type(
+  unit
+)
+"parser.ml" 119 3651 3653 "parser.ml" 119 3651 3656
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref res "parser.ml" 109 3444 3450 "parser.ml" 109 3444 3453
+)
+"parser.ml" 110 3477 3479 "parser.ml" 119 3651 3656
+type(
+  Linexpr1.t
+)
+"parser.ml" 109 3444 3446 "parser.ml" 119 3651 3656
+type(
+  Linexpr1.t
+)
+"parser.ml" 108 3425 3427 "parser.ml" 119 3651 3656
+type(
+  Linexpr1.t
+)
+"parser.ml" 103 3324 3326 "parser.ml" 119 3651 3656
+type(
+  Linexpr1.t
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 121 3658 3662 "parser.ml" 121 3658 3681
+type(
+  Environment.t -> Lincons0.typ * (string * Coeff.t) list -> Lincons1.t
+)
+ident(
+  def lincons1_of_lincons "parser.ml" 128 3852 3852 "parser.ml" 1 0 -1
+)
+"parser.ml" 121 3658 3683 "parser.ml" 121 3658 3686
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 121 3658 3702 "parser.ml" 126 3800 3850
+)
+"parser.ml" 121 3658 3703 "parser.ml" 121 3658 3710
+type(
+  Lincons0.typ * (string * Coeff.t) list
+)
+ident(
+  def lincons "parser.ml" 122 3749 3751 "parser.ml" 126 3800 3850
+)
+"parser.ml" 125 3770 3777 "parser.ml" 125 3770 3780
+type(
+  Lincons0.typ
+)
+ident(
+  def typ "parser.ml" 126 3800 3802 "parser.ml" 126 3800 3850
+)
+"parser.ml" 125 3770 3781 "parser.ml" 125 3770 3785
+type(
+  (string * Coeff.t) list
+)
+ident(
+  def list "parser.ml" 126 3800 3802 "parser.ml" 126 3800 3850
+)
+"parser.ml" 125 3770 3776 "parser.ml" 125 3770 3786
+type(
+  Lincons0.typ * (string * Coeff.t) list
+)
+"parser.ml" 125 3770 3789 "parser.ml" 125 3770 3796
+type(
+  Lincons0.typ * (string * Coeff.t) list
+)
+ident(
+  int_ref lincons "parser.ml" 121 3658 3703 "parser.ml" 121 3658 3710
+)
+"parser.ml" 126 3800 3802 "parser.ml" 126 3800 3815
+type(
+  Linexpr1.t -> Lincons1.typ -> Lincons1.t
+)
+ident(
+  ext_ref Lincons1.make
+)
+"parser.ml" 126 3800 3817 "parser.ml" 126 3800 3836
+type(
+  Environment.t -> (string * Coeff.t) list -> Linexpr1.t
+)
+ident(
+  int_ref linexpr1_of_linexpr "parser.ml" 99 3230 3234 "parser.ml" 99 3230 3253
+)
+"parser.ml" 126 3800 3837 "parser.ml" 126 3800 3840
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 121 3658 3683 "parser.ml" 121 3658 3686
+)
+"parser.ml" 126 3800 3841 "parser.ml" 126 3800 3845
+type(
+  (string * Coeff.t) list
+)
+ident(
+  int_ref list "parser.ml" 125 3770 3781 "parser.ml" 125 3770 3785
+)
+"parser.ml" 126 3800 3816 "parser.ml" 126 3800 3846
+call(
+  stack
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 126 3800 3847 "parser.ml" 126 3800 3850
+type(
+  Lincons1.typ
+)
+ident(
+  int_ref typ "parser.ml" 125 3770 3777 "parser.ml" 125 3770 3780
+)
+"parser.ml" 126 3800 3802 "parser.ml" 126 3800 3850
+call(
+  tail
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 125 3770 3772 "parser.ml" 126 3800 3850
+type(
+  Lincons1.t
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 128 3852 3856 "parser.ml" 128 3852 3879
+type(
+  Environment.t -> Generator0.typ * (string * Coeff.t) list -> Generator1.t
+)
+ident(
+  def generator1_of_generator "parser.ml" 136 4136 4136 "parser.ml" 1 0 -1
+)
+"parser.ml" 128 3852 3881 "parser.ml" 128 3852 3884
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 128 3852 3900 "parser.ml" 133 4006 4058
+)
+"parser.ml" 128 3852 3901 "parser.ml" 128 3852 3910
+type(
+  Generator0.typ * (string * Coeff.t) list
+)
+ident(
+  def generator "parser.ml" 129 3951 3953 "parser.ml" 133 4006 4058
+)
+"parser.ml" 132 3974 3981 "parser.ml" 132 3974 3984
+type(
+  Generator0.typ
+)
+ident(
+  def typ "parser.ml" 133 4006 4008 "parser.ml" 133 4006 4058
+)
+"parser.ml" 132 3974 3985 "parser.ml" 132 3974 3989
+type(
+  (string * Coeff.t) list
+)
+ident(
+  def list "parser.ml" 133 4006 4008 "parser.ml" 133 4006 4058
+)
+"parser.ml" 132 3974 3980 "parser.ml" 132 3974 3990
+type(
+  Generator0.typ * (string * Coeff.t) list
+)
+"parser.ml" 132 3974 3993 "parser.ml" 132 3974 4002
+type(
+  Generator0.typ * (string * Coeff.t) list
+)
+ident(
+  int_ref generator "parser.ml" 128 3852 3901 "parser.ml" 128 3852 3910
+)
+"parser.ml" 133 4006 4008 "parser.ml" 133 4006 4023
+type(
+  Linexpr1.t -> Generator0.typ -> Generator1.t
+)
+ident(
+  ext_ref Generator1.make
+)
+"parser.ml" 133 4006 4025 "parser.ml" 133 4006 4044
+type(
+  Environment.t -> (string * Coeff.t) list -> Linexpr1.t
+)
+ident(
+  int_ref linexpr1_of_linexpr "parser.ml" 99 3230 3234 "parser.ml" 99 3230 3253
+)
+"parser.ml" 133 4006 4045 "parser.ml" 133 4006 4048
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 128 3852 3881 "parser.ml" 128 3852 3884
+)
+"parser.ml" 133 4006 4049 "parser.ml" 133 4006 4053
+type(
+  (string * Coeff.t) list
+)
+ident(
+  int_ref list "parser.ml" 132 3974 3985 "parser.ml" 132 3974 3989
+)
+"parser.ml" 133 4006 4024 "parser.ml" 133 4006 4054
+call(
+  stack
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 133 4006 4055 "parser.ml" 133 4006 4058
+type(
+  Generator0.typ
+)
+ident(
+  int_ref typ "parser.ml" 132 3974 3981 "parser.ml" 132 3974 3984
+)
+"parser.ml" 133 4006 4008 "parser.ml" 133 4006 4058
+call(
+  tail
+)
+type(
+  Generator1.t
+)
+"parser.ml" 132 3974 3976 "parser.ml" 133 4006 4058
+type(
+  Generator1.t
+)
+type(
+  Generator1.t
+)
+"parser.ml" 139 4257 4261 "parser.ml" 139 4257 4279
+type(
+  Environment.t -> Lexing.lexbuf -> Linexpr1.t
+)
+ident(
+  def linexpr1_of_lexbuf "parser.ml" 146 4430 4430 "parser.ml" 1 0 -1
+)
+"parser.ml" 139 4257 4281 "parser.ml" 139 4257 4284
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 139 4257 4300 "parser.ml" 144 4401 4428
+)
+"parser.ml" 139 4257 4301 "parser.ml" 139 4257 4307
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 140 4323 4325 "parser.ml" 144 4401 4428
+)
+"parser.ml" 143 4344 4350 "parser.ml" 143 4344 4351
+type(
+  (string * Coeff.t) list
+)
+ident(
+  def x "parser.ml" 144 4401 4403 "parser.ml" 144 4401 4428
+)
+"parser.ml" 143 4344 4354 "parser.ml" 143 4344 4374
+type(
+  (Lexing.lexbuf -> Apron_parser.token) ->
+  Lexing.lexbuf -> (string * Coeff.t) list
+)
+ident(
+  ext_ref Apron_parser.linexpr
+)
+"parser.ml" 143 4344 4375 "parser.ml" 143 4344 4390
+type(
+  Lexing.lexbuf -> Apron_parser.token
+)
+ident(
+  ext_ref Apron_lexer.lex
+)
+"parser.ml" 143 4344 4391 "parser.ml" 143 4344 4397
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 139 4257 4301 "parser.ml" 139 4257 4307
+)
+"parser.ml" 143 4344 4354 "parser.ml" 143 4344 4397
+call(
+  stack
+)
+type(
+  (string * Coeff.t) list
+)
+"parser.ml" 144 4401 4403 "parser.ml" 144 4401 4422
+type(
+  Environment.t -> (string * Coeff.t) list -> Linexpr1.t
+)
+ident(
+  int_ref linexpr1_of_linexpr "parser.ml" 99 3230 3234 "parser.ml" 99 3230 3253
+)
+"parser.ml" 144 4401 4423 "parser.ml" 144 4401 4426
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 139 4257 4281 "parser.ml" 139 4257 4284
+)
+"parser.ml" 144 4401 4427 "parser.ml" 144 4401 4428
+type(
+  (string * Coeff.t) list
+)
+ident(
+  int_ref x "parser.ml" 143 4344 4350 "parser.ml" 143 4344 4351
+)
+"parser.ml" 144 4401 4403 "parser.ml" 144 4401 4428
+call(
+  tail
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 143 4344 4346 "parser.ml" 144 4401 4428
+type(
+  Linexpr1.t
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 146 4430 4434 "parser.ml" 146 4430 4452
+type(
+  Environment.t -> Lexing.lexbuf -> Lincons1.t
+)
+ident(
+  def lincons1_of_lexbuf "parser.ml" 153 4603 4603 "parser.ml" 1 0 -1
+)
+"parser.ml" 146 4430 4454 "parser.ml" 146 4430 4457
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 146 4430 4473 "parser.ml" 151 4574 4601
+)
+"parser.ml" 146 4430 4474 "parser.ml" 146 4430 4480
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 147 4496 4498 "parser.ml" 151 4574 4601
+)
+"parser.ml" 150 4517 4523 "parser.ml" 150 4517 4524
+type(
+  Lincons0.typ * (string * Coeff.t) list
+)
+ident(
+  def x "parser.ml" 151 4574 4576 "parser.ml" 151 4574 4601
+)
+"parser.ml" 150 4517 4527 "parser.ml" 150 4517 4547
+type(
+  (Lexing.lexbuf -> Apron_parser.token) ->
+  Lexing.lexbuf -> Lincons0.typ * (string * Coeff.t) list
+)
+ident(
+  ext_ref Apron_parser.lincons
+)
+"parser.ml" 150 4517 4548 "parser.ml" 150 4517 4563
+type(
+  Lexing.lexbuf -> Apron_parser.token
+)
+ident(
+  ext_ref Apron_lexer.lex
+)
+"parser.ml" 150 4517 4564 "parser.ml" 150 4517 4570
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 146 4430 4474 "parser.ml" 146 4430 4480
+)
+"parser.ml" 150 4517 4527 "parser.ml" 150 4517 4570
+call(
+  stack
+)
+type(
+  Lincons0.typ * (string * Coeff.t) list
+)
+"parser.ml" 151 4574 4576 "parser.ml" 151 4574 4595
+type(
+  Environment.t -> Lincons0.typ * (string * Coeff.t) list -> Lincons1.t
+)
+ident(
+  int_ref lincons1_of_lincons "parser.ml" 121 3658 3662 "parser.ml" 121 3658 3681
+)
+"parser.ml" 151 4574 4596 "parser.ml" 151 4574 4599
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 146 4430 4454 "parser.ml" 146 4430 4457
+)
+"parser.ml" 151 4574 4600 "parser.ml" 151 4574 4601
+type(
+  Lincons0.typ * (string * Coeff.t) list
+)
+ident(
+  int_ref x "parser.ml" 150 4517 4523 "parser.ml" 150 4517 4524
+)
+"parser.ml" 151 4574 4576 "parser.ml" 151 4574 4601
+call(
+  tail
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 150 4517 4519 "parser.ml" 151 4574 4601
+type(
+  Lincons1.t
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 153 4603 4607 "parser.ml" 153 4603 4627
+type(
+  Environment.t -> Lexing.lexbuf -> Generator1.t
+)
+ident(
+  def generator1_of_lexbuf "parser.ml" 160 4786 4786 "parser.ml" 1 0 -1
+)
+"parser.ml" 153 4603 4629 "parser.ml" 153 4603 4632
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 153 4603 4648 "parser.ml" 158 4753 4784
+)
+"parser.ml" 153 4603 4649 "parser.ml" 153 4603 4655
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 154 4671 4673 "parser.ml" 158 4753 4784
+)
+"parser.ml" 157 4694 4700 "parser.ml" 157 4694 4701
+type(
+  Generator0.typ * (string * Coeff.t) list
+)
+ident(
+  def x "parser.ml" 158 4753 4755 "parser.ml" 158 4753 4784
+)
+"parser.ml" 157 4694 4704 "parser.ml" 157 4694 4726
+type(
+  (Lexing.lexbuf -> Apron_parser.token) ->
+  Lexing.lexbuf -> Generator0.typ * (string * Coeff.t) list
+)
+ident(
+  ext_ref Apron_parser.generator
+)
+"parser.ml" 157 4694 4727 "parser.ml" 157 4694 4742
+type(
+  Lexing.lexbuf -> Apron_parser.token
+)
+ident(
+  ext_ref Apron_lexer.lex
+)
+"parser.ml" 157 4694 4743 "parser.ml" 157 4694 4749
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 153 4603 4649 "parser.ml" 153 4603 4655
+)
+"parser.ml" 157 4694 4704 "parser.ml" 157 4694 4749
+call(
+  stack
+)
+type(
+  Generator0.typ * (string * Coeff.t) list
+)
+"parser.ml" 158 4753 4755 "parser.ml" 158 4753 4778
+type(
+  Environment.t -> Generator0.typ * (string * Coeff.t) list -> Generator1.t
+)
+ident(
+  int_ref generator1_of_generator "parser.ml" 128 3852 3856 "parser.ml" 128 3852 3879
+)
+"parser.ml" 158 4753 4779 "parser.ml" 158 4753 4782
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 153 4603 4629 "parser.ml" 153 4603 4632
+)
+"parser.ml" 158 4753 4783 "parser.ml" 158 4753 4784
+type(
+  Generator0.typ * (string * Coeff.t) list
+)
+ident(
+  int_ref x "parser.ml" 157 4694 4700 "parser.ml" 157 4694 4701
+)
+"parser.ml" 158 4753 4755 "parser.ml" 158 4753 4784
+call(
+  tail
+)
+type(
+  Generator1.t
+)
+"parser.ml" 157 4694 4696 "parser.ml" 158 4753 4784
+type(
+  Generator1.t
+)
+type(
+  Generator1.t
+)
+"parser.ml" 160 4786 4790 "parser.ml" 160 4786 4810
+type(
+  Lexing.lexbuf -> Texpr1.expr
+)
+ident(
+  def texpr1expr_of_lexbuf "parser.ml" 166 4901 4901 "parser.ml" 1 0 -1
+)
+"parser.ml" 160 4786 4812 "parser.ml" 160 4786 4818
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 161 4834 4836 "parser.ml" 164 4856 4899
+)
+"parser.ml" 164 4856 4858 "parser.ml" 164 4856 4876
+type(
+  (Lexing.lexbuf -> Apron_parser.token) -> Lexing.lexbuf -> Texpr1.expr
+)
+ident(
+  ext_ref Apron_parser.texpr
+)
+"parser.ml" 164 4856 4877 "parser.ml" 164 4856 4892
+type(
+  Lexing.lexbuf -> Apron_parser.token
+)
+ident(
+  ext_ref Apron_lexer.lex
+)
+"parser.ml" 164 4856 4893 "parser.ml" 164 4856 4899
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 160 4786 4812 "parser.ml" 160 4786 4818
+)
+"parser.ml" 164 4856 4858 "parser.ml" 164 4856 4899
+call(
+  tail
+)
+type(
+  Texpr1.expr
+)
+type(
+  Texpr1.expr
+)
+"parser.ml" 166 4901 4905 "parser.ml" 166 4901 4921
+type(
+  Environment.t -> Lexing.lexbuf -> Texpr1.t
+)
+ident(
+  def texpr1_of_lexbuf "parser.ml" 173 5049 5049 "parser.ml" 1 0 -1
+)
+"parser.ml" 166 4901 4923 "parser.ml" 166 4901 4926
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 166 4901 4942 "parser.ml" 171 5025 5047
+)
+"parser.ml" 166 4901 4943 "parser.ml" 166 4901 4949
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 167 4965 4967 "parser.ml" 171 5025 5047
+)
+"parser.ml" 170 4984 4990 "parser.ml" 170 4984 4991
+type(
+  Texpr1.expr
+)
+ident(
+  def x "parser.ml" 171 5025 5027 "parser.ml" 171 5025 5047
+)
+"parser.ml" 170 4984 4994 "parser.ml" 170 4984 5014
+type(
+  Lexing.lexbuf -> Texpr1.expr
+)
+ident(
+  int_ref texpr1expr_of_lexbuf "parser.ml" 160 4786 4790 "parser.ml" 160 4786 4810
+)
+"parser.ml" 170 4984 5015 "parser.ml" 170 4984 5021
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 166 4901 4943 "parser.ml" 166 4901 4949
+)
+"parser.ml" 170 4984 4994 "parser.ml" 170 4984 5021
+call(
+  stack
+)
+type(
+  Texpr1.expr
+)
+"parser.ml" 171 5025 5027 "parser.ml" 171 5025 5041
+type(
+  Environment.t -> Texpr1.expr -> Texpr1.t
+)
+ident(
+  ext_ref Texpr1.of_expr
+)
+"parser.ml" 171 5025 5042 "parser.ml" 171 5025 5045
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 166 4901 4923 "parser.ml" 166 4901 4926
+)
+"parser.ml" 171 5025 5046 "parser.ml" 171 5025 5047
+type(
+  Texpr1.expr
+)
+ident(
+  int_ref x "parser.ml" 170 4984 4990 "parser.ml" 170 4984 4991
+)
+"parser.ml" 171 5025 5027 "parser.ml" 171 5025 5047
+call(
+  tail
+)
+type(
+  Texpr1.t
+)
+"parser.ml" 170 4984 4986 "parser.ml" 171 5025 5047
+type(
+  Texpr1.t
+)
+type(
+  Texpr1.t
+)
+"parser.ml" 173 5049 5053 "parser.ml" 173 5049 5069
+type(
+  Environment.t -> Lexing.lexbuf -> Tcons1.t
+)
+ident(
+  def tcons1_of_lexbuf "parser.ml" 181 5307 5307 "parser.ml" 1 0 -1
+)
+"parser.ml" 173 5049 5071 "parser.ml" 173 5049 5074
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 173 5049 5090 "parser.ml" 178 5191 5229
+)
+"parser.ml" 173 5049 5091 "parser.ml" 173 5049 5097
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 174 5113 5115 "parser.ml" 178 5191 5229
+)
+"parser.ml" 177 5132 5139 "parser.ml" 177 5132 5140
+type(
+  Tcons0.typ
+)
+ident(
+  def t "parser.ml" 178 5191 5193 "parser.ml" 178 5191 5229
+)
+"parser.ml" 177 5132 5141 "parser.ml" 177 5132 5142
+type(
+  Texpr1.expr
+)
+ident(
+  def x "parser.ml" 178 5191 5193 "parser.ml" 178 5191 5229
+)
+"parser.ml" 177 5132 5138 "parser.ml" 177 5132 5143
+type(
+  Tcons0.typ * Texpr1.expr
+)
+"parser.ml" 177 5132 5146 "parser.ml" 177 5132 5164
+type(
+  (Lexing.lexbuf -> Apron_parser.token) ->
+  Lexing.lexbuf -> Tcons0.typ * Texpr1.expr
+)
+ident(
+  ext_ref Apron_parser.tcons
+)
+"parser.ml" 177 5132 5165 "parser.ml" 177 5132 5180
+type(
+  Lexing.lexbuf -> Apron_parser.token
+)
+ident(
+  ext_ref Apron_lexer.lex
+)
+"parser.ml" 177 5132 5181 "parser.ml" 177 5132 5187
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 173 5049 5091 "parser.ml" 173 5049 5097
+)
+"parser.ml" 177 5132 5146 "parser.ml" 177 5132 5187
+call(
+  stack
+)
+type(
+  Tcons0.typ * Texpr1.expr
+)
+"parser.ml" 178 5191 5193 "parser.ml" 178 5191 5204
+type(
+  Texpr1.t -> Tcons1.typ -> Tcons1.t
+)
+ident(
+  ext_ref Tcons1.make
+)
+"parser.ml" 178 5191 5206 "parser.ml" 178 5191 5220
+type(
+  Environment.t -> Texpr1.expr -> Texpr1.t
+)
+ident(
+  ext_ref Texpr1.of_expr
+)
+"parser.ml" 178 5191 5221 "parser.ml" 178 5191 5224
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 173 5049 5071 "parser.ml" 173 5049 5074
+)
+"parser.ml" 178 5191 5225 "parser.ml" 178 5191 5226
+type(
+  Texpr1.expr
+)
+ident(
+  int_ref x "parser.ml" 177 5132 5141 "parser.ml" 177 5132 5142
+)
+"parser.ml" 178 5191 5205 "parser.ml" 178 5191 5227
+call(
+  stack
+)
+type(
+  Texpr1.t
+)
+"parser.ml" 178 5191 5228 "parser.ml" 178 5191 5229
+type(
+  Tcons0.typ
+)
+ident(
+  int_ref t "parser.ml" 177 5132 5139 "parser.ml" 177 5132 5140
+)
+"parser.ml" 178 5191 5193 "parser.ml" 178 5191 5229
+call(
+  tail
+)
+type(
+  Tcons1.t
+)
+"parser.ml" 177 5132 5134 "parser.ml" 178 5191 5229
+type(
+  Tcons1.t
+)
+type(
+  Tcons1.t
+)
+"parser.ml" 184 5429 5433 "parser.ml" 184 5429 5451
+type(
+  Environment.t -> string -> Linexpr1.t
+)
+ident(
+  def linexpr1_of_string "parser.ml" 202 5919 5919 "parser.ml" 1 0 -1
+)
+"parser.ml" 184 5429 5453 "parser.ml" 184 5429 5456
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 184 5429 5472 "parser.ml" 200 5908 5917
+)
+"parser.ml" 184 5429 5473 "parser.ml" 184 5429 5476
+type(
+  string
+)
+ident(
+  def str "parser.ml" 184 5429 5485 "parser.ml" 200 5908 5917
+)
+"parser.ml" 187 5508 5516 "parser.ml" 187 5508 5522
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 188 5551 5555 "parser.ml" 195 5774 5779
+)
+"parser.ml" 187 5508 5525 "parser.ml" 187 5508 5543
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"parser.ml" 187 5508 5544 "parser.ml" 187 5508 5547
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 184 5429 5473 "parser.ml" 184 5429 5476
+)
+"parser.ml" 187 5508 5525 "parser.ml" 187 5508 5547
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"parser.ml" 188 5551 5559 "parser.ml" 188 5551 5577
+type(
+  Environment.t -> Lexing.lexbuf -> Linexpr1.t
+)
+ident(
+  int_ref linexpr1_of_lexbuf "parser.ml" 139 4257 4261 "parser.ml" 139 4257 4279
+)
+"parser.ml" 188 5551 5578 "parser.ml" 188 5551 5581
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 184 5429 5453 "parser.ml" 184 5429 5456
+)
+"parser.ml" 188 5551 5582 "parser.ml" 188 5551 5588
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 187 5508 5516 "parser.ml" 187 5508 5522
+)
+"parser.ml" 188 5551 5559 "parser.ml" 188 5551 5588
+call(
+  stack
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 189 5589 5598 "parser.ml" 189 5589 5617
+type(
+  exn
+)
+"parser.ml" 190 5621 5627 "parser.ml" 190 5621 5638
+type(
+  string -> Linexpr1.t
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 191 5639 5646 "parser.ml" 191 5639 5660
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 192 5661 5662 "parser.ml" 192 5661 5715
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 193 5716 5718 "parser.ml" 193 5716 5737
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"parser.ml" 193 5716 5738 "parser.ml" 193 5716 5744
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 187 5508 5516 "parser.ml" 187 5508 5522
+)
+"parser.ml" 193 5716 5717 "parser.ml" 193 5716 5745
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 194 5746 5748 "parser.ml" 194 5746 5765
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"parser.ml" 194 5746 5766 "parser.ml" 194 5746 5772
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 187 5508 5516 "parser.ml" 187 5508 5522
+)
+"parser.ml" 194 5746 5747 "parser.ml" 194 5746 5773
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 195 5774 5775 "parser.ml" 195 5774 5778
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 184 5429 5473 "parser.ml" 184 5429 5476
+)
+"parser.ml" 191 5639 5645 "parser.ml" 195 5774 5779
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 190 5621 5627 "parser.ml" 195 5774 5779
+call(
+  stack
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 188 5551 5555 "parser.ml" 195 5774 5779
+type(
+  Linexpr1.t
+)
+"parser.ml" 187 5508 5512 "parser.ml" 195 5774 5779
+type(
+  Linexpr1.t
+)
+"parser.ml" 196 5780 5808 "parser.ml" 196 5780 5809
+type(
+  int
+)
+ident(
+  def s "parser.ml" 197 5816 5822 "parser.ml" 200 5908 5917
+)
+"parser.ml" 196 5780 5810 "parser.ml" 196 5780 5811
+type(
+  int
+)
+ident(
+  def e "parser.ml" 197 5816 5822 "parser.ml" 200 5908 5917
+)
+"parser.ml" 196 5780 5789 "parser.ml" 196 5780 5812
+type(
+  exn
+)
+"parser.ml" 197 5816 5822 "parser.ml" 197 5816 5833
+type(
+  string -> Linexpr1.t
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 198 5834 5841 "parser.ml" 198 5834 5855
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 199 5856 5857 "parser.ml" 199 5856 5907
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 200 5908 5909 "parser.ml" 200 5908 5910
+type(
+  int
+)
+ident(
+  int_ref s "parser.ml" 196 5780 5808 "parser.ml" 196 5780 5809
+)
+"parser.ml" 200 5908 5911 "parser.ml" 200 5908 5912
+type(
+  int
+)
+ident(
+  int_ref e "parser.ml" 196 5780 5810 "parser.ml" 196 5780 5811
+)
+"parser.ml" 200 5908 5913 "parser.ml" 200 5908 5916
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 184 5429 5473 "parser.ml" 184 5429 5476
+)
+"parser.ml" 198 5834 5840 "parser.ml" 200 5908 5917
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 197 5816 5822 "parser.ml" 200 5908 5917
+call(
+  tail
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 186 5502 5504 "parser.ml" 200 5908 5917
+type(
+  Linexpr1.t
+)
+type(
+  Linexpr1.t
+)
+"parser.ml" 202 5919 5923 "parser.ml" 202 5919 5941
+type(
+  Environment.t -> string -> Lincons1.t
+)
+ident(
+  def lincons1_of_string "parser.ml" 220 6409 6409 "parser.ml" 1 0 -1
+)
+"parser.ml" 202 5919 5943 "parser.ml" 202 5919 5946
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 202 5919 5962 "parser.ml" 218 6398 6407
+)
+"parser.ml" 202 5919 5963 "parser.ml" 202 5919 5966
+type(
+  string
+)
+ident(
+  def str "parser.ml" 202 5919 5975 "parser.ml" 218 6398 6407
+)
+"parser.ml" 205 5998 6006 "parser.ml" 205 5998 6012
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 206 6041 6045 "parser.ml" 213 6264 6269
+)
+"parser.ml" 205 5998 6015 "parser.ml" 205 5998 6033
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"parser.ml" 205 5998 6034 "parser.ml" 205 5998 6037
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 202 5919 5963 "parser.ml" 202 5919 5966
+)
+"parser.ml" 205 5998 6015 "parser.ml" 205 5998 6037
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"parser.ml" 206 6041 6049 "parser.ml" 206 6041 6067
+type(
+  Environment.t -> Lexing.lexbuf -> Lincons1.t
+)
+ident(
+  int_ref lincons1_of_lexbuf "parser.ml" 146 4430 4434 "parser.ml" 146 4430 4452
+)
+"parser.ml" 206 6041 6068 "parser.ml" 206 6041 6071
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 202 5919 5943 "parser.ml" 202 5919 5946
+)
+"parser.ml" 206 6041 6072 "parser.ml" 206 6041 6078
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 205 5998 6006 "parser.ml" 205 5998 6012
+)
+"parser.ml" 206 6041 6049 "parser.ml" 206 6041 6078
+call(
+  stack
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 207 6079 6088 "parser.ml" 207 6079 6107
+type(
+  exn
+)
+"parser.ml" 208 6111 6117 "parser.ml" 208 6111 6128
+type(
+  string -> Lincons1.t
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 209 6129 6136 "parser.ml" 209 6129 6150
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 210 6151 6152 "parser.ml" 210 6151 6205
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 211 6206 6208 "parser.ml" 211 6206 6227
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"parser.ml" 211 6206 6228 "parser.ml" 211 6206 6234
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 205 5998 6006 "parser.ml" 205 5998 6012
+)
+"parser.ml" 211 6206 6207 "parser.ml" 211 6206 6235
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 212 6236 6238 "parser.ml" 212 6236 6255
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"parser.ml" 212 6236 6256 "parser.ml" 212 6236 6262
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 205 5998 6006 "parser.ml" 205 5998 6012
+)
+"parser.ml" 212 6236 6237 "parser.ml" 212 6236 6263
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 213 6264 6265 "parser.ml" 213 6264 6268
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 202 5919 5963 "parser.ml" 202 5919 5966
+)
+"parser.ml" 209 6129 6135 "parser.ml" 213 6264 6269
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 208 6111 6117 "parser.ml" 213 6264 6269
+call(
+  stack
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 206 6041 6045 "parser.ml" 213 6264 6269
+type(
+  Lincons1.t
+)
+"parser.ml" 205 5998 6002 "parser.ml" 213 6264 6269
+type(
+  Lincons1.t
+)
+"parser.ml" 214 6270 6298 "parser.ml" 214 6270 6299
+type(
+  int
+)
+ident(
+  def s "parser.ml" 215 6306 6312 "parser.ml" 218 6398 6407
+)
+"parser.ml" 214 6270 6300 "parser.ml" 214 6270 6301
+type(
+  int
+)
+ident(
+  def e "parser.ml" 215 6306 6312 "parser.ml" 218 6398 6407
+)
+"parser.ml" 214 6270 6279 "parser.ml" 214 6270 6302
+type(
+  exn
+)
+"parser.ml" 215 6306 6312 "parser.ml" 215 6306 6323
+type(
+  string -> Lincons1.t
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 216 6324 6331 "parser.ml" 216 6324 6345
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 217 6346 6347 "parser.ml" 217 6346 6397
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 218 6398 6399 "parser.ml" 218 6398 6400
+type(
+  int
+)
+ident(
+  int_ref s "parser.ml" 214 6270 6298 "parser.ml" 214 6270 6299
+)
+"parser.ml" 218 6398 6401 "parser.ml" 218 6398 6402
+type(
+  int
+)
+ident(
+  int_ref e "parser.ml" 214 6270 6300 "parser.ml" 214 6270 6301
+)
+"parser.ml" 218 6398 6403 "parser.ml" 218 6398 6406
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 202 5919 5963 "parser.ml" 202 5919 5966
+)
+"parser.ml" 216 6324 6330 "parser.ml" 218 6398 6407
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 215 6306 6312 "parser.ml" 218 6398 6407
+call(
+  tail
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 204 5992 5994 "parser.ml" 218 6398 6407
+type(
+  Lincons1.t
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 220 6409 6413 "parser.ml" 220 6409 6433
+type(
+  Environment.t -> string -> Generator1.t
+)
+ident(
+  def generator1_of_string "parser.ml" 239 6909 6909 "parser.ml" 1 0 -1
+)
+"parser.ml" 220 6409 6435 "parser.ml" 220 6409 6438
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 220 6409 6454 "parser.ml" 237 6898 6907
+)
+"parser.ml" 220 6409 6455 "parser.ml" 220 6409 6458
+type(
+  string
+)
+ident(
+  def str "parser.ml" 220 6409 6467 "parser.ml" 237 6898 6907
+)
+"parser.ml" 223 6492 6500 "parser.ml" 223 6492 6506
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 224 6535 6539 "parser.ml" 232 6765 6770
+)
+"parser.ml" 223 6492 6509 "parser.ml" 223 6492 6527
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"parser.ml" 223 6492 6528 "parser.ml" 223 6492 6531
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 220 6409 6455 "parser.ml" 220 6409 6458
+)
+"parser.ml" 223 6492 6509 "parser.ml" 223 6492 6531
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"parser.ml" 225 6543 6549 "parser.ml" 225 6543 6569
+type(
+  Environment.t -> Lexing.lexbuf -> Generator1.t
+)
+ident(
+  int_ref generator1_of_lexbuf "parser.ml" 153 4603 4607 "parser.ml" 153 4603 4627
+)
+"parser.ml" 225 6543 6570 "parser.ml" 225 6543 6573
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 220 6409 6435 "parser.ml" 220 6409 6438
+)
+"parser.ml" 225 6543 6574 "parser.ml" 225 6543 6580
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 223 6492 6500 "parser.ml" 223 6492 6506
+)
+"parser.ml" 225 6543 6549 "parser.ml" 225 6543 6580
+call(
+  stack
+)
+type(
+  Generator1.t
+)
+"parser.ml" 226 6581 6590 "parser.ml" 226 6581 6609
+type(
+  exn
+)
+"parser.ml" 227 6613 6619 "parser.ml" 227 6613 6630
+type(
+  string -> Generator1.t
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 228 6631 6638 "parser.ml" 228 6631 6652
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 229 6653 6654 "parser.ml" 229 6653 6706
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 230 6707 6709 "parser.ml" 230 6707 6728
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"parser.ml" 230 6707 6729 "parser.ml" 230 6707 6735
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 223 6492 6500 "parser.ml" 223 6492 6506
+)
+"parser.ml" 230 6707 6708 "parser.ml" 230 6707 6736
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 231 6737 6739 "parser.ml" 231 6737 6756
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"parser.ml" 231 6737 6757 "parser.ml" 231 6737 6763
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 223 6492 6500 "parser.ml" 223 6492 6506
+)
+"parser.ml" 231 6737 6738 "parser.ml" 231 6737 6764
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 232 6765 6766 "parser.ml" 232 6765 6769
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 220 6409 6455 "parser.ml" 220 6409 6458
+)
+"parser.ml" 228 6631 6637 "parser.ml" 232 6765 6770
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 227 6613 6619 "parser.ml" 232 6765 6770
+call(
+  stack
+)
+type(
+  Generator1.t
+)
+"parser.ml" 224 6535 6539 "parser.ml" 232 6765 6770
+type(
+  Generator1.t
+)
+"parser.ml" 223 6492 6496 "parser.ml" 232 6765 6770
+type(
+  Generator1.t
+)
+"parser.ml" 233 6771 6799 "parser.ml" 233 6771 6800
+type(
+  int
+)
+ident(
+  def s "parser.ml" 234 6807 6813 "parser.ml" 237 6898 6907
+)
+"parser.ml" 233 6771 6801 "parser.ml" 233 6771 6802
+type(
+  int
+)
+ident(
+  def e "parser.ml" 234 6807 6813 "parser.ml" 237 6898 6907
+)
+"parser.ml" 233 6771 6780 "parser.ml" 233 6771 6803
+type(
+  exn
+)
+"parser.ml" 234 6807 6813 "parser.ml" 234 6807 6824
+type(
+  string -> Generator1.t
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 235 6825 6832 "parser.ml" 235 6825 6846
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 236 6847 6848 "parser.ml" 236 6847 6897
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 237 6898 6899 "parser.ml" 237 6898 6900
+type(
+  int
+)
+ident(
+  int_ref s "parser.ml" 233 6771 6799 "parser.ml" 233 6771 6800
+)
+"parser.ml" 237 6898 6901 "parser.ml" 237 6898 6902
+type(
+  int
+)
+ident(
+  int_ref e "parser.ml" 233 6771 6801 "parser.ml" 233 6771 6802
+)
+"parser.ml" 237 6898 6903 "parser.ml" 237 6898 6906
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 220 6409 6455 "parser.ml" 220 6409 6458
+)
+"parser.ml" 235 6825 6831 "parser.ml" 237 6898 6907
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 234 6807 6813 "parser.ml" 237 6898 6907
+call(
+  tail
+)
+type(
+  Generator1.t
+)
+"parser.ml" 222 6486 6488 "parser.ml" 237 6898 6907
+type(
+  Generator1.t
+)
+type(
+  Generator1.t
+)
+"parser.ml" 239 6909 6913 "parser.ml" 239 6909 6933
+type(
+  string -> Texpr1.expr
+)
+ident(
+  def texpr1expr_of_string "parser.ml" 257 7380 7380 "parser.ml" 1 0 -1
+)
+"parser.ml" 239 6909 6935 "parser.ml" 239 6909 6938
+type(
+  string
+)
+ident(
+  def str "parser.ml" 239 6909 6947 "parser.ml" 255 7369 7378
+)
+"parser.ml" 242 6971 6979 "parser.ml" 242 6971 6985
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 243 7014 7018 "parser.ml" 250 7235 7240
+)
+"parser.ml" 242 6971 6988 "parser.ml" 242 6971 7006
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"parser.ml" 242 6971 7007 "parser.ml" 242 6971 7010
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 239 6909 6935 "parser.ml" 239 6909 6938
+)
+"parser.ml" 242 6971 6988 "parser.ml" 242 6971 7010
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"parser.ml" 243 7014 7022 "parser.ml" 243 7014 7042
+type(
+  Lexing.lexbuf -> Texpr1.expr
+)
+ident(
+  int_ref texpr1expr_of_lexbuf "parser.ml" 160 4786 4790 "parser.ml" 160 4786 4810
+)
+"parser.ml" 243 7014 7043 "parser.ml" 243 7014 7049
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 242 6971 6979 "parser.ml" 242 6971 6985
+)
+"parser.ml" 243 7014 7022 "parser.ml" 243 7014 7049
+call(
+  stack
+)
+type(
+  Texpr1.expr
+)
+"parser.ml" 244 7050 7059 "parser.ml" 244 7050 7078
+type(
+  exn
+)
+"parser.ml" 245 7082 7088 "parser.ml" 245 7082 7099
+type(
+  string -> Texpr1.expr
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 246 7100 7107 "parser.ml" 246 7100 7121
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 247 7122 7123 "parser.ml" 247 7122 7176
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 248 7177 7179 "parser.ml" 248 7177 7198
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"parser.ml" 248 7177 7199 "parser.ml" 248 7177 7205
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 242 6971 6979 "parser.ml" 242 6971 6985
+)
+"parser.ml" 248 7177 7178 "parser.ml" 248 7177 7206
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 249 7207 7209 "parser.ml" 249 7207 7226
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"parser.ml" 249 7207 7227 "parser.ml" 249 7207 7233
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 242 6971 6979 "parser.ml" 242 6971 6985
+)
+"parser.ml" 249 7207 7208 "parser.ml" 249 7207 7234
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 250 7235 7236 "parser.ml" 250 7235 7239
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 239 6909 6935 "parser.ml" 239 6909 6938
+)
+"parser.ml" 246 7100 7106 "parser.ml" 250 7235 7240
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 245 7082 7088 "parser.ml" 250 7235 7240
+call(
+  stack
+)
+type(
+  Texpr1.expr
+)
+"parser.ml" 243 7014 7018 "parser.ml" 250 7235 7240
+type(
+  Texpr1.expr
+)
+"parser.ml" 242 6971 6975 "parser.ml" 250 7235 7240
+type(
+  Texpr1.expr
+)
+"parser.ml" 251 7241 7269 "parser.ml" 251 7241 7270
+type(
+  int
+)
+ident(
+  def s "parser.ml" 252 7277 7283 "parser.ml" 255 7369 7378
+)
+"parser.ml" 251 7241 7271 "parser.ml" 251 7241 7272
+type(
+  int
+)
+ident(
+  def e "parser.ml" 252 7277 7283 "parser.ml" 255 7369 7378
+)
+"parser.ml" 251 7241 7250 "parser.ml" 251 7241 7273
+type(
+  exn
+)
+"parser.ml" 252 7277 7283 "parser.ml" 252 7277 7294
+type(
+  string -> Texpr1.expr
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 253 7295 7302 "parser.ml" 253 7295 7316
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 254 7317 7318 "parser.ml" 254 7317 7368
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 255 7369 7370 "parser.ml" 255 7369 7371
+type(
+  int
+)
+ident(
+  int_ref s "parser.ml" 251 7241 7269 "parser.ml" 251 7241 7270
+)
+"parser.ml" 255 7369 7372 "parser.ml" 255 7369 7373
+type(
+  int
+)
+ident(
+  int_ref e "parser.ml" 251 7241 7271 "parser.ml" 251 7241 7272
+)
+"parser.ml" 255 7369 7374 "parser.ml" 255 7369 7377
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 239 6909 6935 "parser.ml" 239 6909 6938
+)
+"parser.ml" 253 7295 7301 "parser.ml" 255 7369 7378
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 252 7277 7283 "parser.ml" 255 7369 7378
+call(
+  tail
+)
+type(
+  Texpr1.expr
+)
+"parser.ml" 241 6965 6967 "parser.ml" 255 7369 7378
+type(
+  Texpr1.expr
+)
+type(
+  Texpr1.expr
+)
+"parser.ml" 257 7380 7384 "parser.ml" 257 7380 7400
+type(
+  Environment.t -> string -> Texpr1.t
+)
+ident(
+  def texpr1_of_string "parser.ml" 262 7517 7517 "parser.ml" 1 0 -1
+)
+"parser.ml" 257 7380 7402 "parser.ml" 257 7380 7405
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 257 7380 7421 "parser.ml" 260 7490 7515
+)
+"parser.ml" 257 7380 7422 "parser.ml" 257 7380 7425
+type(
+  string
+)
+ident(
+  def str "parser.ml" 257 7380 7434 "parser.ml" 260 7490 7515
+)
+"parser.ml" 259 7449 7455 "parser.ml" 259 7449 7459
+type(
+  Texpr1.expr
+)
+ident(
+  def expr "parser.ml" 260 7490 7492 "parser.ml" 260 7490 7515
+)
+"parser.ml" 259 7449 7462 "parser.ml" 259 7449 7482
+type(
+  string -> Texpr1.expr
+)
+ident(
+  int_ref texpr1expr_of_string "parser.ml" 239 6909 6913 "parser.ml" 239 6909 6933
+)
+"parser.ml" 259 7449 7483 "parser.ml" 259 7449 7486
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 257 7380 7422 "parser.ml" 257 7380 7425
+)
+"parser.ml" 259 7449 7462 "parser.ml" 259 7449 7486
+call(
+  stack
+)
+type(
+  Texpr1.expr
+)
+"parser.ml" 260 7490 7492 "parser.ml" 260 7490 7506
+type(
+  Environment.t -> Texpr1.expr -> Texpr1.t
+)
+ident(
+  ext_ref Texpr1.of_expr
+)
+"parser.ml" 260 7490 7507 "parser.ml" 260 7490 7510
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 257 7380 7402 "parser.ml" 257 7380 7405
+)
+"parser.ml" 260 7490 7511 "parser.ml" 260 7490 7515
+type(
+  Texpr1.expr
+)
+ident(
+  int_ref expr "parser.ml" 259 7449 7455 "parser.ml" 259 7449 7459
+)
+"parser.ml" 260 7490 7492 "parser.ml" 260 7490 7515
+call(
+  tail
+)
+type(
+  Texpr1.t
+)
+"parser.ml" 259 7449 7451 "parser.ml" 260 7490 7515
+type(
+  Texpr1.t
+)
+type(
+  Texpr1.t
+)
+"parser.ml" 262 7517 7521 "parser.ml" 262 7517 7537
+type(
+  Environment.t -> string -> Tcons1.t
+)
+ident(
+  def tcons1_of_string "parser.ml" 280 8001 8001 "parser.ml" 1 0 -1
+)
+"parser.ml" 262 7517 7539 "parser.ml" 262 7517 7542
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 262 7517 7558 "parser.ml" 278 7990 7999
+)
+"parser.ml" 262 7517 7559 "parser.ml" 262 7517 7562
+type(
+  string
+)
+ident(
+  def str "parser.ml" 262 7517 7571 "parser.ml" 278 7990 7999
+)
+"parser.ml" 265 7592 7600 "parser.ml" 265 7592 7606
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 266 7635 7639 "parser.ml" 273 7856 7861
+)
+"parser.ml" 265 7592 7609 "parser.ml" 265 7592 7627
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"parser.ml" 265 7592 7628 "parser.ml" 265 7592 7631
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 262 7517 7559 "parser.ml" 262 7517 7562
+)
+"parser.ml" 265 7592 7609 "parser.ml" 265 7592 7631
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"parser.ml" 266 7635 7643 "parser.ml" 266 7635 7659
+type(
+  Environment.t -> Lexing.lexbuf -> Tcons1.t
+)
+ident(
+  int_ref tcons1_of_lexbuf "parser.ml" 173 5049 5053 "parser.ml" 173 5049 5069
+)
+"parser.ml" 266 7635 7660 "parser.ml" 266 7635 7663
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 262 7517 7539 "parser.ml" 262 7517 7542
+)
+"parser.ml" 266 7635 7664 "parser.ml" 266 7635 7670
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 265 7592 7600 "parser.ml" 265 7592 7606
+)
+"parser.ml" 266 7635 7643 "parser.ml" 266 7635 7670
+call(
+  stack
+)
+type(
+  Tcons1.t
+)
+"parser.ml" 267 7671 7680 "parser.ml" 267 7671 7699
+type(
+  exn
+)
+"parser.ml" 268 7703 7709 "parser.ml" 268 7703 7720
+type(
+  string -> Tcons1.t
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 269 7721 7728 "parser.ml" 269 7721 7742
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 270 7743 7744 "parser.ml" 270 7743 7797
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 271 7798 7800 "parser.ml" 271 7798 7819
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"parser.ml" 271 7798 7820 "parser.ml" 271 7798 7826
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 265 7592 7600 "parser.ml" 265 7592 7606
+)
+"parser.ml" 271 7798 7799 "parser.ml" 271 7798 7827
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 272 7828 7830 "parser.ml" 272 7828 7847
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"parser.ml" 272 7828 7848 "parser.ml" 272 7828 7854
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 265 7592 7600 "parser.ml" 265 7592 7606
+)
+"parser.ml" 272 7828 7829 "parser.ml" 272 7828 7855
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 273 7856 7857 "parser.ml" 273 7856 7860
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 262 7517 7559 "parser.ml" 262 7517 7562
+)
+"parser.ml" 269 7721 7727 "parser.ml" 273 7856 7861
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 268 7703 7709 "parser.ml" 273 7856 7861
+call(
+  stack
+)
+type(
+  Tcons1.t
+)
+"parser.ml" 266 7635 7639 "parser.ml" 273 7856 7861
+type(
+  Tcons1.t
+)
+"parser.ml" 265 7592 7596 "parser.ml" 273 7856 7861
+type(
+  Tcons1.t
+)
+"parser.ml" 274 7862 7890 "parser.ml" 274 7862 7891
+type(
+  int
+)
+ident(
+  def s "parser.ml" 275 7898 7904 "parser.ml" 278 7990 7999
+)
+"parser.ml" 274 7862 7892 "parser.ml" 274 7862 7893
+type(
+  int
+)
+ident(
+  def e "parser.ml" 275 7898 7904 "parser.ml" 278 7990 7999
+)
+"parser.ml" 274 7862 7871 "parser.ml" 274 7862 7894
+type(
+  exn
+)
+"parser.ml" 275 7898 7904 "parser.ml" 275 7898 7915
+type(
+  string -> Tcons1.t
+)
+ident(
+  int_ref raise_error "parser.ml" 82 2716 2720 "parser.ml" 82 2716 2731
+)
+"parser.ml" 276 7916 7923 "parser.ml" 276 7916 7937
+type(
+  (int -> int -> string -> string, unit, string) format ->
+  int -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"parser.ml" 277 7938 7939 "parser.ml" 277 7938 7989
+type(
+  (int -> int -> string -> string, unit, string) format
+)
+"parser.ml" 278 7990 7991 "parser.ml" 278 7990 7992
+type(
+  int
+)
+ident(
+  int_ref s "parser.ml" 274 7862 7890 "parser.ml" 274 7862 7891
+)
+"parser.ml" 278 7990 7993 "parser.ml" 278 7990 7994
+type(
+  int
+)
+ident(
+  int_ref e "parser.ml" 274 7862 7892 "parser.ml" 274 7862 7893
+)
+"parser.ml" 278 7990 7995 "parser.ml" 278 7990 7998
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 262 7517 7559 "parser.ml" 262 7517 7562
+)
+"parser.ml" 276 7916 7922 "parser.ml" 278 7990 7999
+call(
+  stack
+)
+type(
+  string
+)
+"parser.ml" 275 7898 7904 "parser.ml" 278 7990 7999
+call(
+  tail
+)
+type(
+  Tcons1.t
+)
+"parser.ml" 264 7586 7588 "parser.ml" 278 7990 7999
+type(
+  Tcons1.t
+)
+type(
+  Tcons1.t
+)
+"parser.ml" 280 8001 8005 "parser.ml" 280 8001 8024
+type(
+  Environment.t -> string list -> Lincons1.earray
+)
+ident(
+  def lincons1_of_lstring "parser.ml" 297 8339 8339 "parser.ml" 1 0 -1
+)
+"parser.ml" 280 8001 8026 "parser.ml" 280 8001 8029
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 280 8001 8045 "parser.ml" 295 8332 8337
+)
+"parser.ml" 280 8001 8046 "parser.ml" 280 8001 8050
+type(
+  string list
+)
+ident(
+  def lstr "parser.ml" 281 8064 8066 "parser.ml" 295 8332 8337
+)
+"parser.ml" 284 8090 8096 "parser.ml" 284 8090 8102
+type(
+  int
+)
+ident(
+  def length "parser.ml" 285 8125 8127 "parser.ml" 295 8332 8337
+)
+"parser.ml" 284 8090 8105 "parser.ml" 284 8090 8116
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"parser.ml" 284 8090 8117 "parser.ml" 284 8090 8121
+type(
+  string list
+)
+ident(
+  int_ref lstr "parser.ml" 280 8001 8046 "parser.ml" 280 8001 8050
+)
+"parser.ml" 284 8090 8105 "parser.ml" 284 8090 8121
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 285 8125 8131 "parser.ml" 285 8125 8134
+type(
+  Lincons1.earray
+)
+ident(
+  def res "parser.ml" 286 8171 8173 "parser.ml" 295 8332 8337
+)
+"parser.ml" 285 8125 8137 "parser.ml" 285 8125 8156
+type(
+  Environment.t -> int -> Lincons1.earray
+)
+ident(
+  ext_ref Lincons1.array_make
+)
+"parser.ml" 285 8125 8157 "parser.ml" 285 8125 8160
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 280 8001 8026 "parser.ml" 280 8001 8029
+)
+"parser.ml" 285 8125 8161 "parser.ml" 285 8125 8167
+type(
+  int
+)
+ident(
+  int_ref length "parser.ml" 284 8090 8096 "parser.ml" 284 8090 8102
+)
+"parser.ml" 285 8125 8137 "parser.ml" 285 8125 8167
+call(
+  stack
+)
+type(
+  Lincons1.earray
+)
+"parser.ml" 286 8171 8177 "parser.ml" 286 8171 8178
+type(
+  int ref
+)
+ident(
+  def i "parser.ml" 287 8193 8195 "parser.ml" 295 8332 8337
+)
+"parser.ml" 286 8171 8181 "parser.ml" 286 8171 8184
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parser.ml" 286 8171 8185 "parser.ml" 286 8171 8189
+type(
+  int
+)
+"parser.ml" 286 8171 8181 "parser.ml" 286 8171 8189
+type(
+  int ref
+)
+"parser.ml" 287 8193 8195 "parser.ml" 287 8193 8204
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"parser.ml" 288 8205 8214 "parser.ml" 288 8205 8217
+type(
+  string
+)
+ident(
+  def str "parser.ml" 289 8221 8227 "parser.ml" 291 8279 8312
+)
+"parser.ml" 289 8221 8227 "parser.ml" 289 8221 8231
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"parser.ml" 289 8221 8232 "parser.ml" 289 8221 8233
+type(
+  int ref
+)
+ident(
+  int_ref i "parser.ml" 286 8171 8177 "parser.ml" 286 8171 8178
+)
+"parser.ml" 289 8221 8227 "parser.ml" 289 8221 8233
+type(
+  unit
+)
+"parser.ml" 290 8235 8245 "parser.ml" 290 8235 8246
+type(
+  Lincons1.t
+)
+ident(
+  def x "parser.ml" 291 8279 8285 "parser.ml" 291 8279 8312
+)
+"parser.ml" 290 8235 8249 "parser.ml" 290 8235 8267
+type(
+  Environment.t -> string -> Lincons1.t
+)
+ident(
+  int_ref lincons1_of_string "parser.ml" 202 5919 5923 "parser.ml" 202 5919 5941
+)
+"parser.ml" 290 8235 8268 "parser.ml" 290 8235 8271
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 280 8001 8026 "parser.ml" 280 8001 8029
+)
+"parser.ml" 290 8235 8272 "parser.ml" 290 8235 8275
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 288 8205 8214 "parser.ml" 288 8205 8217
+)
+"parser.ml" 290 8235 8249 "parser.ml" 290 8235 8275
+call(
+  stack
+)
+type(
+  Lincons1.t
+)
+"parser.ml" 291 8279 8285 "parser.ml" 291 8279 8303
+type(
+  Lincons1.earray -> int -> Lincons1.t -> unit
+)
+ident(
+  ext_ref Lincons1.array_set
+)
+"parser.ml" 291 8279 8304 "parser.ml" 291 8279 8307
+type(
+  Lincons1.earray
+)
+ident(
+  int_ref res "parser.ml" 285 8125 8131 "parser.ml" 285 8125 8134
+)
+"parser.ml" 291 8279 8308 "parser.ml" 291 8279 8309
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"parser.ml" 291 8279 8309 "parser.ml" 291 8279 8310
+type(
+  int ref
+)
+ident(
+  int_ref i "parser.ml" 286 8171 8177 "parser.ml" 286 8171 8178
+)
+"parser.ml" 291 8279 8308 "parser.ml" 291 8279 8310
+type(
+  int
+)
+"parser.ml" 291 8279 8311 "parser.ml" 291 8279 8312
+type(
+  Lincons1.t
+)
+ident(
+  int_ref x "parser.ml" 290 8235 8245 "parser.ml" 290 8235 8246
+)
+"parser.ml" 291 8279 8285 "parser.ml" 291 8279 8312
+call(
+  tail
+)
+type(
+  unit
+)
+"parser.ml" 290 8235 8241 "parser.ml" 291 8279 8312
+type(
+  unit
+)
+"parser.ml" 289 8221 8227 "parser.ml" 291 8279 8312
+type(
+  unit
+)
+"parser.ml" 288 8205 8209 "parser.ml" 292 8313 8318
+type(
+  string -> unit
+)
+"parser.ml" 293 8319 8323 "parser.ml" 293 8319 8327
+type(
+  string list
+)
+ident(
+  int_ref lstr "parser.ml" 280 8001 8046 "parser.ml" 280 8001 8050
+)
+"parser.ml" 287 8193 8195 "parser.ml" 293 8319 8327
+call(
+  stack
+)
+type(
+  unit
+)
+"parser.ml" 295 8332 8334 "parser.ml" 295 8332 8337
+type(
+  Lincons1.earray
+)
+ident(
+  int_ref res "parser.ml" 285 8125 8131 "parser.ml" 285 8125 8134
+)
+"parser.ml" 287 8193 8195 "parser.ml" 295 8332 8337
+type(
+  Lincons1.earray
+)
+"parser.ml" 286 8171 8173 "parser.ml" 295 8332 8337
+type(
+  Lincons1.earray
+)
+"parser.ml" 285 8125 8127 "parser.ml" 295 8332 8337
+type(
+  Lincons1.earray
+)
+"parser.ml" 284 8090 8092 "parser.ml" 295 8332 8337
+type(
+  Lincons1.earray
+)
+type(
+  Lincons1.earray
+)
+"parser.ml" 297 8339 8343 "parser.ml" 297 8339 8364
+type(
+  Environment.t -> string list -> Generator1.earray
+)
+ident(
+  def generator1_of_lstring "parser.ml" 314 8687 8687 "parser.ml" 1 0 -1
+)
+"parser.ml" 297 8339 8366 "parser.ml" 297 8339 8369
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 297 8339 8385 "parser.ml" 312 8680 8685
+)
+"parser.ml" 297 8339 8386 "parser.ml" 297 8339 8390
+type(
+  string list
+)
+ident(
+  def lstr "parser.ml" 298 8404 8406 "parser.ml" 312 8680 8685
+)
+"parser.ml" 301 8432 8438 "parser.ml" 301 8432 8444
+type(
+  int
+)
+ident(
+  def length "parser.ml" 302 8467 8469 "parser.ml" 312 8680 8685
+)
+"parser.ml" 301 8432 8447 "parser.ml" 301 8432 8458
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"parser.ml" 301 8432 8459 "parser.ml" 301 8432 8463
+type(
+  string list
+)
+ident(
+  int_ref lstr "parser.ml" 297 8339 8386 "parser.ml" 297 8339 8390
+)
+"parser.ml" 301 8432 8447 "parser.ml" 301 8432 8463
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 302 8467 8473 "parser.ml" 302 8467 8476
+type(
+  Generator1.earray
+)
+ident(
+  def res "parser.ml" 303 8515 8517 "parser.ml" 312 8680 8685
+)
+"parser.ml" 302 8467 8479 "parser.ml" 302 8467 8500
+type(
+  Environment.t -> int -> Generator1.earray
+)
+ident(
+  ext_ref Generator1.array_make
+)
+"parser.ml" 302 8467 8501 "parser.ml" 302 8467 8504
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 297 8339 8366 "parser.ml" 297 8339 8369
+)
+"parser.ml" 302 8467 8505 "parser.ml" 302 8467 8511
+type(
+  int
+)
+ident(
+  int_ref length "parser.ml" 301 8432 8438 "parser.ml" 301 8432 8444
+)
+"parser.ml" 302 8467 8479 "parser.ml" 302 8467 8511
+call(
+  stack
+)
+type(
+  Generator1.earray
+)
+"parser.ml" 303 8515 8521 "parser.ml" 303 8515 8522
+type(
+  int ref
+)
+ident(
+  def i "parser.ml" 304 8537 8539 "parser.ml" 312 8680 8685
+)
+"parser.ml" 303 8515 8525 "parser.ml" 303 8515 8528
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parser.ml" 303 8515 8529 "parser.ml" 303 8515 8533
+type(
+  int
+)
+"parser.ml" 303 8515 8525 "parser.ml" 303 8515 8533
+type(
+  int ref
+)
+"parser.ml" 304 8537 8539 "parser.ml" 304 8537 8548
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"parser.ml" 305 8549 8558 "parser.ml" 305 8549 8561
+type(
+  string
+)
+ident(
+  def str "parser.ml" 306 8565 8571 "parser.ml" 308 8625 8660
+)
+"parser.ml" 306 8565 8571 "parser.ml" 306 8565 8575
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"parser.ml" 306 8565 8576 "parser.ml" 306 8565 8577
+type(
+  int ref
+)
+ident(
+  int_ref i "parser.ml" 303 8515 8521 "parser.ml" 303 8515 8522
+)
+"parser.ml" 306 8565 8571 "parser.ml" 306 8565 8577
+type(
+  unit
+)
+"parser.ml" 307 8579 8589 "parser.ml" 307 8579 8590
+type(
+  Generator1.t
+)
+ident(
+  def x "parser.ml" 308 8625 8631 "parser.ml" 308 8625 8660
+)
+"parser.ml" 307 8579 8593 "parser.ml" 307 8579 8613
+type(
+  Environment.t -> string -> Generator1.t
+)
+ident(
+  int_ref generator1_of_string "parser.ml" 220 6409 6413 "parser.ml" 220 6409 6433
+)
+"parser.ml" 307 8579 8614 "parser.ml" 307 8579 8617
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 297 8339 8366 "parser.ml" 297 8339 8369
+)
+"parser.ml" 307 8579 8618 "parser.ml" 307 8579 8621
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 305 8549 8558 "parser.ml" 305 8549 8561
+)
+"parser.ml" 307 8579 8593 "parser.ml" 307 8579 8621
+call(
+  stack
+)
+type(
+  Generator1.t
+)
+"parser.ml" 308 8625 8631 "parser.ml" 308 8625 8651
+type(
+  Generator1.earray -> int -> Generator1.t -> unit
+)
+ident(
+  ext_ref Generator1.array_set
+)
+"parser.ml" 308 8625 8652 "parser.ml" 308 8625 8655
+type(
+  Generator1.earray
+)
+ident(
+  int_ref res "parser.ml" 302 8467 8473 "parser.ml" 302 8467 8476
+)
+"parser.ml" 308 8625 8656 "parser.ml" 308 8625 8657
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"parser.ml" 308 8625 8657 "parser.ml" 308 8625 8658
+type(
+  int ref
+)
+ident(
+  int_ref i "parser.ml" 303 8515 8521 "parser.ml" 303 8515 8522
+)
+"parser.ml" 308 8625 8656 "parser.ml" 308 8625 8658
+type(
+  int
+)
+"parser.ml" 308 8625 8659 "parser.ml" 308 8625 8660
+type(
+  Generator1.t
+)
+ident(
+  int_ref x "parser.ml" 307 8579 8589 "parser.ml" 307 8579 8590
+)
+"parser.ml" 308 8625 8631 "parser.ml" 308 8625 8660
+call(
+  tail
+)
+type(
+  unit
+)
+"parser.ml" 307 8579 8585 "parser.ml" 308 8625 8660
+type(
+  unit
+)
+"parser.ml" 306 8565 8571 "parser.ml" 308 8625 8660
+type(
+  unit
+)
+"parser.ml" 305 8549 8553 "parser.ml" 309 8661 8666
+type(
+  string -> unit
+)
+"parser.ml" 310 8667 8671 "parser.ml" 310 8667 8675
+type(
+  string list
+)
+ident(
+  int_ref lstr "parser.ml" 297 8339 8386 "parser.ml" 297 8339 8390
+)
+"parser.ml" 304 8537 8539 "parser.ml" 310 8667 8675
+call(
+  stack
+)
+type(
+  unit
+)
+"parser.ml" 312 8680 8682 "parser.ml" 312 8680 8685
+type(
+  Generator1.earray
+)
+ident(
+  int_ref res "parser.ml" 302 8467 8473 "parser.ml" 302 8467 8476
+)
+"parser.ml" 304 8537 8539 "parser.ml" 312 8680 8685
+type(
+  Generator1.earray
+)
+"parser.ml" 303 8515 8517 "parser.ml" 312 8680 8685
+type(
+  Generator1.earray
+)
+"parser.ml" 302 8467 8469 "parser.ml" 312 8680 8685
+type(
+  Generator1.earray
+)
+"parser.ml" 301 8432 8434 "parser.ml" 312 8680 8685
+type(
+  Generator1.earray
+)
+type(
+  Generator1.earray
+)
+"parser.ml" 314 8687 8691 "parser.ml" 314 8687 8708
+type(
+  Environment.t -> string list -> Tcons1.earray
+)
+ident(
+  def tcons1_of_lstring "parser.ml" 331 9015 9015 "parser.ml" 1 0 -1
+)
+"parser.ml" 314 8687 8710 "parser.ml" 314 8687 8713
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 314 8687 8729 "parser.ml" 329 9008 9013
+)
+"parser.ml" 314 8687 8730 "parser.ml" 314 8687 8734
+type(
+  string list
+)
+ident(
+  def lstr "parser.ml" 315 8748 8750 "parser.ml" 329 9008 9013
+)
+"parser.ml" 318 8772 8778 "parser.ml" 318 8772 8784
+type(
+  int
+)
+ident(
+  def length "parser.ml" 319 8807 8809 "parser.ml" 329 9008 9013
+)
+"parser.ml" 318 8772 8787 "parser.ml" 318 8772 8798
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"parser.ml" 318 8772 8799 "parser.ml" 318 8772 8803
+type(
+  string list
+)
+ident(
+  int_ref lstr "parser.ml" 314 8687 8730 "parser.ml" 314 8687 8734
+)
+"parser.ml" 318 8772 8787 "parser.ml" 318 8772 8803
+call(
+  stack
+)
+type(
+  int
+)
+"parser.ml" 319 8807 8813 "parser.ml" 319 8807 8816
+type(
+  Tcons1.earray
+)
+ident(
+  def res "parser.ml" 320 8851 8853 "parser.ml" 329 9008 9013
+)
+"parser.ml" 319 8807 8819 "parser.ml" 319 8807 8836
+type(
+  Environment.t -> int -> Tcons1.earray
+)
+ident(
+  ext_ref Tcons1.array_make
+)
+"parser.ml" 319 8807 8837 "parser.ml" 319 8807 8840
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 314 8687 8710 "parser.ml" 314 8687 8713
+)
+"parser.ml" 319 8807 8841 "parser.ml" 319 8807 8847
+type(
+  int
+)
+ident(
+  int_ref length "parser.ml" 318 8772 8778 "parser.ml" 318 8772 8784
+)
+"parser.ml" 319 8807 8819 "parser.ml" 319 8807 8847
+call(
+  stack
+)
+type(
+  Tcons1.earray
+)
+"parser.ml" 320 8851 8857 "parser.ml" 320 8851 8858
+type(
+  int ref
+)
+ident(
+  def i "parser.ml" 321 8873 8875 "parser.ml" 329 9008 9013
+)
+"parser.ml" 320 8851 8861 "parser.ml" 320 8851 8864
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parser.ml" 320 8851 8865 "parser.ml" 320 8851 8869
+type(
+  int
+)
+"parser.ml" 320 8851 8861 "parser.ml" 320 8851 8869
+type(
+  int ref
+)
+"parser.ml" 321 8873 8875 "parser.ml" 321 8873 8884
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"parser.ml" 322 8885 8894 "parser.ml" 322 8885 8897
+type(
+  string
+)
+ident(
+  def str "parser.ml" 323 8901 8907 "parser.ml" 325 8957 8988
+)
+"parser.ml" 323 8901 8907 "parser.ml" 323 8901 8911
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"parser.ml" 323 8901 8912 "parser.ml" 323 8901 8913
+type(
+  int ref
+)
+ident(
+  int_ref i "parser.ml" 320 8851 8857 "parser.ml" 320 8851 8858
+)
+"parser.ml" 323 8901 8907 "parser.ml" 323 8901 8913
+type(
+  unit
+)
+"parser.ml" 324 8915 8925 "parser.ml" 324 8915 8926
+type(
+  Tcons1.t
+)
+ident(
+  def x "parser.ml" 325 8957 8963 "parser.ml" 325 8957 8988
+)
+"parser.ml" 324 8915 8929 "parser.ml" 324 8915 8945
+type(
+  Environment.t -> string -> Tcons1.t
+)
+ident(
+  int_ref tcons1_of_string "parser.ml" 262 7517 7521 "parser.ml" 262 7517 7537
+)
+"parser.ml" 324 8915 8946 "parser.ml" 324 8915 8949
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 314 8687 8710 "parser.ml" 314 8687 8713
+)
+"parser.ml" 324 8915 8950 "parser.ml" 324 8915 8953
+type(
+  string
+)
+ident(
+  int_ref str "parser.ml" 322 8885 8894 "parser.ml" 322 8885 8897
+)
+"parser.ml" 324 8915 8929 "parser.ml" 324 8915 8953
+call(
+  stack
+)
+type(
+  Tcons1.t
+)
+"parser.ml" 325 8957 8963 "parser.ml" 325 8957 8979
+type(
+  Tcons1.earray -> int -> Tcons1.t -> unit
+)
+ident(
+  ext_ref Tcons1.array_set
+)
+"parser.ml" 325 8957 8980 "parser.ml" 325 8957 8983
+type(
+  Tcons1.earray
+)
+ident(
+  int_ref res "parser.ml" 319 8807 8813 "parser.ml" 319 8807 8816
+)
+"parser.ml" 325 8957 8984 "parser.ml" 325 8957 8985
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"parser.ml" 325 8957 8985 "parser.ml" 325 8957 8986
+type(
+  int ref
+)
+ident(
+  int_ref i "parser.ml" 320 8851 8857 "parser.ml" 320 8851 8858
+)
+"parser.ml" 325 8957 8984 "parser.ml" 325 8957 8986
+type(
+  int
+)
+"parser.ml" 325 8957 8987 "parser.ml" 325 8957 8988
+type(
+  Tcons1.t
+)
+ident(
+  int_ref x "parser.ml" 324 8915 8925 "parser.ml" 324 8915 8926
+)
+"parser.ml" 325 8957 8963 "parser.ml" 325 8957 8988
+call(
+  tail
+)
+type(
+  unit
+)
+"parser.ml" 324 8915 8921 "parser.ml" 325 8957 8988
+type(
+  unit
+)
+"parser.ml" 323 8901 8907 "parser.ml" 325 8957 8988
+type(
+  unit
+)
+"parser.ml" 322 8885 8889 "parser.ml" 326 8989 8994
+type(
+  string -> unit
+)
+"parser.ml" 327 8995 8999 "parser.ml" 327 8995 9003
+type(
+  string list
+)
+ident(
+  int_ref lstr "parser.ml" 314 8687 8730 "parser.ml" 314 8687 8734
+)
+"parser.ml" 321 8873 8875 "parser.ml" 327 8995 9003
+call(
+  stack
+)
+type(
+  unit
+)
+"parser.ml" 329 9008 9010 "parser.ml" 329 9008 9013
+type(
+  Tcons1.earray
+)
+ident(
+  int_ref res "parser.ml" 319 8807 8813 "parser.ml" 319 8807 8816
+)
+"parser.ml" 321 8873 8875 "parser.ml" 329 9008 9013
+type(
+  Tcons1.earray
+)
+"parser.ml" 320 8851 8853 "parser.ml" 329 9008 9013
+type(
+  Tcons1.earray
+)
+"parser.ml" 319 8807 8809 "parser.ml" 329 9008 9013
+type(
+  Tcons1.earray
+)
+"parser.ml" 318 8772 8774 "parser.ml" 329 9008 9013
+type(
+  Tcons1.earray
+)
+type(
+  Tcons1.earray
+)
+"parser.ml" 331 9015 9019 "parser.ml" 331 9015 9029
+type(
+  'a Manager.t -> Environment.t -> string list -> 'a Abstract1.t
+)
+ident(
+  def of_lstring "parser.ml" 336 9159 9201 "parser.ml" 1 0 -1
+)
+"parser.ml" 331 9015 9031 "parser.ml" 331 9015 9034
+type(
+  'a Manager.t
+)
+ident(
+  def man "parser.ml" 331 9015 9049 "parser.ml" 336 9159 9201
+)
+"parser.ml" 331 9015 9050 "parser.ml" 331 9015 9053
+type(
+  Environment.t
+)
+ident(
+  def env "parser.ml" 331 9015 9069 "parser.ml" 336 9159 9201
+)
+"parser.ml" 331 9015 9070 "parser.ml" 331 9015 9074
+type(
+  string list
+)
+ident(
+  def lstr "parser.ml" 332 9088 9090 "parser.ml" 336 9159 9201
+)
+"parser.ml" 335 9113 9119 "parser.ml" 335 9113 9124
+type(
+  Lincons1.earray
+)
+ident(
+  def array "parser.ml" 336 9159 9161 "parser.ml" 336 9159 9201
+)
+"parser.ml" 335 9113 9127 "parser.ml" 335 9113 9146
+type(
+  Environment.t -> string list -> Lincons1.earray
+)
+ident(
+  int_ref lincons1_of_lstring "parser.ml" 280 8001 8005 "parser.ml" 280 8001 8024
+)
+"parser.ml" 335 9113 9147 "parser.ml" 335 9113 9150
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 331 9015 9050 "parser.ml" 331 9015 9053
+)
+"parser.ml" 335 9113 9151 "parser.ml" 335 9113 9155
+type(
+  string list
+)
+ident(
+  int_ref lstr "parser.ml" 331 9015 9070 "parser.ml" 331 9015 9074
+)
+"parser.ml" 335 9113 9127 "parser.ml" 335 9113 9155
+call(
+  stack
+)
+type(
+  Lincons1.earray
+)
+"parser.ml" 336 9159 9161 "parser.ml" 336 9159 9187
+type(
+  'a Manager.t -> Environment.t -> Lincons1.earray -> 'a Abstract1.t
+)
+ident(
+  ext_ref Abstract1.of_lincons_array
+)
+"parser.ml" 336 9159 9188 "parser.ml" 336 9159 9191
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "parser.ml" 331 9015 9031 "parser.ml" 331 9015 9034
+)
+"parser.ml" 336 9159 9192 "parser.ml" 336 9159 9195
+type(
+  Environment.t
+)
+ident(
+  int_ref env "parser.ml" 331 9015 9050 "parser.ml" 331 9015 9053
+)
+"parser.ml" 336 9159 9196 "parser.ml" 336 9159 9201
+type(
+  Lincons1.earray
+)
+ident(
+  int_ref array "parser.ml" 335 9113 9119 "parser.ml" 335 9113 9124
+)
+"parser.ml" 336 9159 9161 "parser.ml" 336 9159 9201
+call(
+  tail
+)
+type(
+  'a Abstract1.t
+)
+"parser.ml" 335 9113 9115 "parser.ml" 336 9159 9201
+type(
+  'a Abstract1.t
+)
+type(
+  'a Abstract1.t
+)

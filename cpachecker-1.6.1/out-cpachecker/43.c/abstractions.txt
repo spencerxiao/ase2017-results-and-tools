@@ -1,0 +1,12 @@
+(declare-fun |main::t| () Int)
+(declare-fun |main::y| () Int)
+
+4 (5) @8:
+(assert (>= |main::y| |main::t|))
+
+0 (4) @1:
+(assert true)
+
+5 () @8:
+(assert (>= |main::y| |main::t|))
+

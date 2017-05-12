@@ -1,0 +1,34 @@
+(declare-fun |main::n| () Int)
+(declare-fun |main::b| () Int)
+(declare-fun |main::a| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::i| () Int)
+
+main:
+(assert (= (+ |main::a| |main::b|) (* 3 |main::n|)))
+
+__VERIFIER_assume N3:
+(assert (= |__VERIFIER_assume::i| 0))
+(assert (<= 0 |main::n|))
+
+main N15:
+(assert (<= 0 |main::n|))
+(assert (<= (+ (* 3 |main::n|) (- |main::b|) (- |main::a|) 1) 0))
+(assert (= |main::b| 0))
+(assert (= (+ |main::b| (- |main::i|)) 0))
+(assert (= (+ |main::b| (- |main::a|)) 0))
+(assert (= (+ |main::a| |main::b|) (* 3 |main::n|)))
+(assert (= |main::a| 0))
+(assert (= |main::i| 0))
+(assert (<= (+ |main::b| |main::a|) (* 3 |main::n|)))
+(assert (<= (+ (* (- 3) |main::n|) |main::a| |main::b|) 0))
+(assert (<= (* 3 |main::i|) (+ |main::b| |main::a|)))
+(assert (<= (+ (* (- 3) |main::n|) |main::a| |main::b| 1) 0))
+(assert (<= (+ (* 3 |main::n|) (- |main::a|) (- |main::b|)) 0))
+(assert (<= (+ (* 3 |main::n|) (- |main::a|) (- |main::b|) 1) 0))
+(assert (<= (+ |main::b| |main::a|) (* 3 |main::i|)))
+
+main N30:
+(assert false)
+(assert (= (+ |main::a| |main::b|) (* 3 |main::n|)))
+

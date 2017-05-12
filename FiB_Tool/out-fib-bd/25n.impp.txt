@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (i >= j)
+find an inductive invaraint  based on abstractions
+invariant size: 14
+interp: (and (= x y) (and (<= j i) (not (<= (+ i (* (- 1) j)) (- 2)))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

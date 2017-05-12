@@ -1,0 +1,29 @@
+var i:int, j:int, k:int, a:int, b:int, flag:int;
+begin
+	j = 1;
+	if (not (flag == 0)) then
+		i = 0;
+	else
+		i = 1;
+	endif;
+
+	while(brandom) do 
+		i = i +_i 2;
+		if (i %_i,n 2 == 0) then
+			j = j +_i 2;
+		else 
+			j = j +_i 1;
+		endif;
+	done;
+
+	a = 0;
+	b = 0;
+	while(brandom) do
+		a = a +_i 1;
+		b = j -_i i +_i b;
+	done;
+
+	if (not (flag == 0)) then
+		assume(a == b);
+	endif;
+end

@@ -1,0 +1,24 @@
+mpz.cmi :
+mpq.cmi : mpz.cmi
+mpf.cmi : mpz.cmi mpq.cmi
+mpfr.cmi : mpz.cmi mpq.cmi mpf.cmi
+gmp_random.cmi : mpz.cmi mpfr.cmi mpf.cmi
+mpzf.cmi : mpz.cmi
+mpqf.cmi : mpzf.cmi mpz.cmi mpq.cmi
+mpfrf.cmi : mpz.cmi mpqf.cmi mpq.cmi mpfr.cmi
+mpz.cmo : mpz.cmi
+mpz.cmx : mpz.cmi
+mpq.cmo : mpz.cmi mpq.cmi
+mpq.cmx : mpz.cmx mpq.cmi
+mpf.cmo : mpz.cmi mpq.cmi mpf.cmi
+mpf.cmx : mpz.cmx mpq.cmx mpf.cmi
+mpfr.cmo : mpz.cmi mpq.cmi mpf.cmi mpfr.cmi
+mpfr.cmx : mpz.cmx mpq.cmx mpf.cmx mpfr.cmi
+gmp_random.cmo : mpz.cmi mpfr.cmi mpf.cmi gmp_random.cmi
+gmp_random.cmx : mpz.cmx mpfr.cmx mpf.cmx gmp_random.cmi
+mpzf.cmo : mpz.cmi mpzf.cmi
+mpzf.cmx : mpz.cmx mpzf.cmi
+mpqf.cmo : mpzf.cmi mpz.cmi mpq.cmi mpqf.cmi
+mpqf.cmx : mpzf.cmx mpz.cmx mpq.cmx mpqf.cmi
+mpfrf.cmo : mpfr.cmi mpfrf.cmi
+mpfrf.cmx : mpfr.cmx mpfrf.cmi

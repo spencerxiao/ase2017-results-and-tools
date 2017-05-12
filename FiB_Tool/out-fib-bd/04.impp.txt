@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (y > 0)
+find an inductive invaraint  based on concrete reachables
+invariant size: 7
+interp: (not (and (<= 0 x) (<= y x)))
+The assertion is satisfied!
+forward [0] times
+backward [0] times, backtracks [0] times

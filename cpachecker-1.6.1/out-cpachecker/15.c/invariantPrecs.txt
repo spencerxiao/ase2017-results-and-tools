@@ -1,0 +1,14 @@
+(declare-fun |main::n| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |__VERIFIER_assume::i| () Int)
+(declare-fun |main::j| () Int)
+
+__VERIFIER_assume N3:
+(assert (let ((.cse1 (- 1))) (let ((.cse0 (<= 0 (+ |main::n| .cse1)))) (ite (= |__VERIFIER_assume::i| 0) (or (not .cse0) (not (<= |main::n| (+ |main::k| .cse1)))) .cse0))))
+
+main N18:
+(assert (let ((.cse2 (- 1))) (let ((.cse0 (+ |main::k| .cse2))) (and (>= |main::k| 0) (<= 0 .cse0) (<= 0 |main::k|) (let ((.cse1 (<= |main::n| (+ |main::k| |main::j| .cse2)))) (ite (<= |main::n| .cse0) .cse1 (and (not (= |main::j| 0)) .cse1)))))))
+
+main N29:
+(assert false)
+

@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (k >= 0)
+find an inductive invaraint based on concrete reachables
+invariant size: 16
+interp: (let ((.def_147 (<= (+ n (+ (* (- 1) j) (* (- 1) k))) (- 1)))) (or (and (<= 1 k) .def_147) (and (<= 2 k) .def_147)))
+The assertion is satisfied!
+forward [6] times, backtracks [3] times
+backward [3] times

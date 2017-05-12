@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (y = n)
+find an inductive invaraint based on concrete reachables
+invariant size: 49
+interp: (let ((.def_54 (<= m y))) (let ((.def_104 (<= y n))) (let ((.def_116 (<= x y))) (let ((.def_126 (<= 1 (+ n (* (- 1) y))))) (let ((.def_268 (and .def_116 (<= y x)))) (let ((.def_271 (<= (+ m (* (- 1) x)) (- 1)))) (let ((.def_295 (and .def_104 .def_268))) (let ((.def_425 (<= (+ m (* (- 1) x)) (- 3)))) (let ((.def_672 (not (and .def_271 .def_295)))) (let ((.def_674 (not (and .def_271 (and .def_268 (and .def_116 .def_295)))))) (not (and .def_674 (and (and (and (and (not (and .def_425 (and .def_104 (and .def_116 (and .def_268 .def_425))))) .def_672) .def_674) (and .def_672 .def_674)) (not (and (<= 1 (+ n (* (- 1) x))) (and (and .def_126 (and .def_54 .def_116)) (and (and .def_54 .def_126) (and (<= y m) .def_116))))))))))))))))))
+The assertion is satisfied!
+forward [4] times, backtracks [2] times
+backward [2] times

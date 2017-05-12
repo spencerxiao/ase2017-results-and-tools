@@ -1,0 +1,15 @@
+IntBool
+
+[]
+
+IntEq
+
+[]
+
+IntAdd
+
+[main::n, main::sum, main::i, __VERIFIER_assume::i]
+
+ALL
+
+[main::n, main::sum, main::i, __VERIFIER_assume::i]

@@ -1,0 +1,4 @@
+main::n	4
+main::sum	4
+main::i	4
+__VERIFIER_assume::i	4

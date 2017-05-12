@@ -1,0 +1,26 @@
+
+proc ack(x:int,y:int) returns (res:int) 
+var t:int, t1:int;
+begin
+  assume x>=0 and y>=0;
+  if (x<=0) then /* x<=0 instead of x==0 (more precise) */
+    res = y+1;
+  else
+    if (y<=0) then /* y<=0 instead of x==0 (more precise) */
+      t1 = x-1;
+      t = 1;
+      res = ack(t1,t);
+    else
+      t1 = y-1;
+      t = ack(x,t1);
+      t1 = x-1;
+      res = ack(t1,t);
+    endif ;
+  endif;
+end
+
+var
+a:int, b:int, r:int;
+begin
+r = ack(a,b);
+end

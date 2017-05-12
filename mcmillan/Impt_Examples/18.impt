@@ -1,0 +1,34 @@
+MODULE main
+	int b;
+	int j;
+	int flag;
+	int n;
+
+	int finish;
+
+	assume(j == 0);
+	assume(n > 0);
+	assume(b == 0);
+
+	assume(finish == 0);
+
+	while(b < n){
+		if(flag == 1){
+			j = j + 1;
+		}
+		else{
+			skip;
+		}
+
+		b = b + 1;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && (flag == 1 && j != n);

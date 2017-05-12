@@ -1,0 +1,46 @@
+MODULE main
+	int x;
+	int y;
+	int z;
+	int n;
+	int m;
+
+	int turn;
+	int finish;
+
+	assume(x == m);
+	assume(y == 0);
+	assume(z == 0);
+	assume(n > m);
+	assume(m > 0);
+
+	assume(turn == 0);
+	assume(finish == 0);
+
+	
+	while(x != n){
+		if(y != x){
+			turn = 1;	
+		}
+		else{
+			turn = 0;
+		}
+		
+		if(turn == 1){
+			y = y + 1;
+			z = z + 1;
+		}
+		else{
+			x = x + 1;
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && z != n - 1;

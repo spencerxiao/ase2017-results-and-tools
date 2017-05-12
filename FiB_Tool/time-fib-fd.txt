@@ -1,0 +1,170 @@
+run FiB for file 01.impp
+0:00.07 real
+0.06 user
+0.00 sys
+run FiB for file 02_mod.impp
+0:00.22 real
+0.22 user
+0.00 sys
+run FiB for file 04.impp
+0:00.01 real
+0.00 user
+0.00 sys
+run FiB for file 05_x.impp
+0:00.10 real
+0.09 user
+0.00 sys
+run FiB for file 06n.impp
+0:00.18 real
+0.17 user
+0.01 sys
+run FiB for file 07.impp
+0:00.01 real
+0.01 user
+0.00 sys
+run FiB for file 08.impp
+0:00.00 real
+0.00 user
+0.00 sys
+run FiB for file 09s.impp
+0:00.02 real
+0.01 user
+0.00 sys
+run FiB for file 10.impp
+0:00.01 real
+0.01 user
+0.00 sys
+run FiB for file 11.impp
+0:00.00 real
+0.00 user
+0.00 sys
+run FiB for file 12n_x.impp
+0:01.92 real
+1.92 user
+0.00 sys
+run FiB for file 13.impp
+0:00.02 real
+0.02 user
+0.00 sys
+run FiB for file 14.impp
+0:00.01 real
+0.01 user
+0.00 sys
+run FiB for file 15.impp
+0:00.01 real
+0.00 user
+0.00 sys
+run FiB for file 16.impp
+0:00.00 real
+0.00 user
+0.00 sys
+run FiB for file 17n.impp
+0:00.10 real
+0.09 user
+0.00 sys
+run FiB for file 18.impp
+0:00.02 real
+0.02 user
+0.00 sys
+run FiB for file 19.impp
+0:00.02 real
+0.01 user
+0.00 sys
+run FiB for file 20.impp
+0:00.05 real
+0.05 user
+0.00 sys
+run FiB for file 21.impp
+Command exited with non-zero status 124
+3:20.01 real
+199.76 user
+0.21 sys
+run FiB for file 22_mod.impp
+0:00.27 real
+0.26 user
+0.00 sys
+run FiB for file 23_x.impp
+0:01.93 real
+1.92 user
+0.00 sys
+run FiB for file 25n.impp
+0:00.05 real
+0.05 user
+0.00 sys
+run FiB for file 26ns.impp
+0:00.73 real
+0.72 user
+0.00 sys
+run FiB for file 28.impp
+0:00.00 real
+0.00 user
+0.00 sys
+run FiB for file 29n.impp
+0:00.02 real
+0.01 user
+0.00 sys
+run FiB for file 30_x.impp
+0:00.38 real
+0.37 user
+0.00 sys
+run FiB for file 32.impp
+0:00.18 real
+0.18 user
+0.00 sys
+run FiB for file 32_x.impp
+0:00.12 real
+0.11 user
+0.00 sys
+run FiB for file 33ns.impp
+0:00.16 real
+0.14 user
+0.01 sys
+run FiB for file 34_x_mod.impp
+0:00.63 real
+0.62 user
+0.00 sys
+run FiB for file 35.impp
+0:00.01 real
+0.00 user
+0.00 sys
+run FiB for file 36ns.impp
+Command exited with non-zero status 124
+3:20.00 real
+193.88 user
+6.03 sys
+run FiB for file 37.impp
+0:00.01 real
+0.01 user
+0.00 sys
+run FiB for file 38_x_mod.impp
+0:00.06 real
+0.05 user
+0.00 sys
+run FiB for file 40s.impp
+0:00.06 real
+0.05 user
+0.00 sys
+run FiB for file 41.impp
+0:00.28 real
+0.27 user
+0.00 sys
+run FiB for file 42_mod.impp
+0:00.13 real
+0.12 user
+0.00 sys
+run FiB for file 43.impp
+0:00.00 real
+0.00 user
+0.00 sys
+run FiB for file 44.impp
+0:00.07 real
+0.06 user
+0.00 sys
+run FiB for file 45ns.impp
+0:00.12 real
+0.12 user
+0.00 sys
+run FiB for file 46.impp
+0:00.04 real
+0.04 user
+0.00 sys

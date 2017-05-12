@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((flag != 1) | ((a % 2) = 0))
+find an inductive invaraint  based on abstractions
+invariant size: 55
+interp: (let ((.def_19 (= flag 1))) (let ((.def_997 (<= (to_real 1) (to_real (+ a (* 2 (to_int (* (/ 1 2) (to_real (+ 1 (* (- 1) a))))))))))) (not (or (and .def_19 (and (and (<= (to_real 1) (to_real (+ a (* 2 (to_int (* (/ 1 2) (to_real (+ (* (- 1) a) 1)))))))) (and .def_997 (<= (+ a (* 2 (to_int (* (/ 1 2) (to_real (+ 1 (* (- 1) a))))))) 1))) (and .def_997 (<= (to_real (+ a (* 2 (to_int (* (/ 1 2) (to_real (+ 1 (* (- 1) a)))))))) (to_real 1))))) (and .def_19 (and (and (<= (to_real 1) (to_real (+ x (+ y (* (- 2) (to_int (* (/ 1 2) (to_real (+ x y))))))))) (<= (+ x (+ y (* (- 2) (to_int (* (/ 1 2) (to_real (+ x y))))))) 1)) (and (= (+ x (+ y (* (- 2) (to_int (* (/ 1 2) (to_real (+ x y))))))) 1) (<= (to_real (+ x (+ y (* (- 2) (to_int (* (/ 1 2) (to_real (+ (+ (* 1 y) (* 1 x)) (- 1))))))))) (to_real 1)))))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

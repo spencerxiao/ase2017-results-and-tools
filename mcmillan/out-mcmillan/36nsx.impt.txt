@@ -1,0 +1,14 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool-ase2017/IMP.cgt succesfully
+System Definition: 
+Verifying [((finish = 1) & ((w < z) | (a != b)))]
+step is 4 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 6
+step is 6 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 11
+step is 11 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 22
+step is 22 (MathSAT)
+Interpolating...

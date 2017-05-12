@@ -1,0 +1,439 @@
+"dim.ml" 24 510 514 "dim.ml" 24 510 531
+type(
+  change -> unit
+)
+ident(
+  def change_add_invert "dim.ml" 30 640 640 "dim.ml" 1 0 -1
+)
+"dim.ml" 24 510 532 "dim.ml" 24 510 538
+type(
+  change
+)
+ident(
+  def change "dim.ml" 25 541 543 "dim.ml" 28 632 638
+)
+"dim.ml" 25 541 547 "dim.ml" 25 541 550
+type(
+  int array
+)
+ident(
+  def dim "dim.ml" 26 567 569 "dim.ml" 28 632 638
+)
+"dim.ml" 25 541 553 "dim.ml" 25 541 559
+type(
+  change
+)
+ident(
+  int_ref change "dim.ml" 24 510 532 "dim.ml" 24 510 538
+)
+"dim.ml" 25 541 553 "dim.ml" 25 541 563
+type(
+  int array
+)
+"dim.ml" 26 567 575 "dim.ml" 26 567 576
+type(
+  int
+)
+"dim.ml" 26 567 581 "dim.ml" 26 567 593
+type(
+  int array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"dim.ml" 26 567 594 "dim.ml" 26 567 597
+type(
+  int array
+)
+ident(
+  int_ref dim "dim.ml" 25 541 547 "dim.ml" 25 541 550
+)
+"dim.ml" 26 567 580 "dim.ml" 26 567 598
+type(
+  int
+)
+"dim.ml" 26 567 598 "dim.ml" 26 567 599
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"dim.ml" 26 567 599 "dim.ml" 26 567 600
+type(
+  int
+)
+"dim.ml" 26 567 580 "dim.ml" 26 567 600
+type(
+  int
+)
+"dim.ml" 27 604 608 "dim.ml" 27 604 611
+type(
+  int array
+)
+ident(
+  int_ref dim "dim.ml" 25 541 547 "dim.ml" 25 541 550
+)
+"dim.ml" 27 604 613 "dim.ml" 27 604 614
+type(
+  int
+)
+ident(
+  int_ref i "dim.ml" 26 567 569 "dim.ml" 28 632 638
+)
+"dim.ml" 27 604 619 "dim.ml" 27 604 622
+type(
+  int array
+)
+ident(
+  int_ref dim "dim.ml" 25 541 547 "dim.ml" 25 541 550
+)
+"dim.ml" 27 604 624 "dim.ml" 27 604 625
+type(
+  int
+)
+ident(
+  int_ref i "dim.ml" 26 567 569 "dim.ml" 28 632 638
+)
+"dim.ml" 27 604 619 "dim.ml" 27 604 626
+type(
+  int
+)
+"dim.ml" 27 604 627 "dim.ml" 27 604 628
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"dim.ml" 27 604 629 "dim.ml" 27 604 630
+type(
+  int
+)
+ident(
+  int_ref i "dim.ml" 26 567 569 "dim.ml" 28 632 638
+)
+"dim.ml" 27 604 619 "dim.ml" 27 604 630
+type(
+  int
+)
+"dim.ml" 27 604 608 "dim.ml" 27 604 631
+type(
+  unit
+)
+"dim.ml" 26 567 569 "dim.ml" 28 632 638
+type(
+  unit
+)
+"dim.ml" 25 541 543 "dim.ml" 28 632 638
+type(
+  unit
+)
+"dim.ml" 30 640 644 "dim.ml" 30 640 656
+type(
+  int array -> 'a array -> 'a array
+)
+ident(
+  def perm_compose "dim.ml" 35 798 798 "dim.ml" 1 0 -1
+)
+"dim.ml" 30 640 657 "dim.ml" 30 640 662
+type(
+  int array
+)
+ident(
+  def perm1 "dim.ml" 30 640 663 "dim.ml" 33 748 796
+)
+"dim.ml" 30 640 663 "dim.ml" 30 640 668
+type(
+  'a array
+)
+ident(
+  def perm2 "dim.ml" 31 671 673 "dim.ml" 33 748 796
+)
+"dim.ml" 31 671 677 "dim.ml" 31 671 683
+type(
+  int
+)
+ident(
+  def length "dim.ml" 32 708 710 "dim.ml" 33 748 796
+)
+"dim.ml" 31 671 686 "dim.ml" 31 671 698
+type(
+  int array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"dim.ml" 31 671 699 "dim.ml" 31 671 704
+type(
+  int array
+)
+ident(
+  int_ref perm1 "dim.ml" 30 640 657 "dim.ml" 30 640 662
+)
+"dim.ml" 31 671 686 "dim.ml" 31 671 704
+type(
+  int
+)
+"dim.ml" 32 708 717 "dim.ml" 32 708 723
+type(
+  int
+)
+ident(
+  int_ref length "dim.ml" 31 671 677 "dim.ml" 31 671 683
+)
+"dim.ml" 32 708 723 "dim.ml" 32 708 725
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"dim.ml" 32 708 726 "dim.ml" 32 708 738
+type(
+  'a array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"dim.ml" 32 708 739 "dim.ml" 32 708 744
+type(
+  'a array
+)
+ident(
+  int_ref perm2 "dim.ml" 30 640 663 "dim.ml" 30 640 668
+)
+"dim.ml" 32 708 725 "dim.ml" 32 708 745
+type(
+  int
+)
+"dim.ml" 32 708 716 "dim.ml" 32 708 746
+type(
+  bool
+)
+"dim.ml" 32 708 710 "dim.ml" 32 708 746
+type(
+  unit
+)
+"dim.ml" 33 748 750 "dim.ml" 33 748 760
+type(
+  int -> (int -> 'a) -> 'a array
+)
+ident(
+  ext_ref Array.init
+)
+"dim.ml" 33 748 761 "dim.ml" 33 748 767
+type(
+  int
+)
+ident(
+  int_ref length "dim.ml" 31 671 677 "dim.ml" 31 671 683
+)
+"dim.ml" 33 748 773 "dim.ml" 33 748 774
+type(
+  int
+)
+ident(
+  def i "dim.ml" 33 748 778 "dim.ml" 33 748 795
+)
+"dim.ml" 33 748 778 "dim.ml" 33 748 783
+type(
+  'a array
+)
+ident(
+  int_ref perm2 "dim.ml" 30 640 663 "dim.ml" 30 640 668
+)
+"dim.ml" 33 748 785 "dim.ml" 33 748 790
+type(
+  int array
+)
+ident(
+  int_ref perm1 "dim.ml" 30 640 657 "dim.ml" 30 640 662
+)
+"dim.ml" 33 748 792 "dim.ml" 33 748 793
+type(
+  int
+)
+ident(
+  int_ref i "dim.ml" 33 748 773 "dim.ml" 33 748 774
+)
+"dim.ml" 33 748 785 "dim.ml" 33 748 794
+type(
+  int
+)
+"dim.ml" 33 748 778 "dim.ml" 33 748 795
+type(
+  'a
+)
+"dim.ml" 33 748 768 "dim.ml" 33 748 796
+type(
+  int -> 'a
+)
+"dim.ml" 33 748 750 "dim.ml" 33 748 796
+call(
+  tail
+)
+type(
+  'a array
+)
+"dim.ml" 32 708 710 "dim.ml" 33 748 796
+type(
+  'a array
+)
+"dim.ml" 31 671 673 "dim.ml" 33 748 796
+type(
+  'a array
+)
+"dim.ml" 35 798 802 "dim.ml" 35 798 813
+type(
+  int array -> int array
+)
+ident(
+  def perm_invert "dim.ml" 41 950 955 "dim.ml" 1 0 -1
+)
+"dim.ml" 35 798 814 "dim.ml" 35 798 818
+type(
+  int array
+)
+ident(
+  def perm "dim.ml" 36 821 823 "dim.ml" 41 950 955
+)
+"dim.ml" 36 821 827 "dim.ml" 36 821 833
+type(
+  int
+)
+ident(
+  def length "dim.ml" 37 857 859 "dim.ml" 41 950 955
+)
+"dim.ml" 36 821 836 "dim.ml" 36 821 848
+type(
+  int array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"dim.ml" 36 821 849 "dim.ml" 36 821 853
+type(
+  int array
+)
+ident(
+  int_ref perm "dim.ml" 35 798 814 "dim.ml" 35 798 818
+)
+"dim.ml" 36 821 836 "dim.ml" 36 821 853
+type(
+  int
+)
+"dim.ml" 37 857 863 "dim.ml" 37 857 866
+type(
+  int array
+)
+ident(
+  def res "dim.ml" 38 892 894 "dim.ml" 41 950 955
+)
+"dim.ml" 37 857 869 "dim.ml" 37 857 879
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.make
+)
+"dim.ml" 37 857 880 "dim.ml" 37 857 886
+type(
+  int
+)
+ident(
+  int_ref length "dim.ml" 36 821 827 "dim.ml" 36 821 833
+)
+"dim.ml" 37 857 887 "dim.ml" 37 857 888
+type(
+  int
+)
+"dim.ml" 37 857 869 "dim.ml" 37 857 888
+type(
+  int array
+)
+"dim.ml" 38 892 900 "dim.ml" 38 892 901
+type(
+  int
+)
+"dim.ml" 38 892 905 "dim.ml" 38 892 911
+type(
+  int
+)
+ident(
+  int_ref length "dim.ml" 36 821 827 "dim.ml" 36 821 833
+)
+"dim.ml" 38 892 911 "dim.ml" 38 892 912
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"dim.ml" 38 892 912 "dim.ml" 38 892 913
+type(
+  int
+)
+"dim.ml" 38 892 905 "dim.ml" 38 892 913
+type(
+  int
+)
+"dim.ml" 39 917 921 "dim.ml" 39 917 924
+type(
+  int array
+)
+ident(
+  int_ref res "dim.ml" 37 857 863 "dim.ml" 37 857 866
+)
+"dim.ml" 39 917 926 "dim.ml" 39 917 930
+type(
+  int array
+)
+ident(
+  int_ref perm "dim.ml" 35 798 814 "dim.ml" 35 798 818
+)
+"dim.ml" 39 917 932 "dim.ml" 39 917 933
+type(
+  int
+)
+ident(
+  int_ref i "dim.ml" 38 892 894 "dim.ml" 40 942 948
+)
+"dim.ml" 39 917 926 "dim.ml" 39 917 934
+type(
+  int
+)
+"dim.ml" 39 917 939 "dim.ml" 39 917 940
+type(
+  int
+)
+ident(
+  int_ref i "dim.ml" 38 892 894 "dim.ml" 40 942 948
+)
+"dim.ml" 39 917 921 "dim.ml" 39 917 941
+type(
+  unit
+)
+"dim.ml" 38 892 894 "dim.ml" 40 942 948
+type(
+  unit
+)
+"dim.ml" 41 950 952 "dim.ml" 41 950 955
+type(
+  int array
+)
+ident(
+  int_ref res "dim.ml" 37 857 863 "dim.ml" 37 857 866
+)
+"dim.ml" 38 892 894 "dim.ml" 41 950 955
+type(
+  int array
+)
+"dim.ml" 37 857 859 "dim.ml" 41 950 955
+type(
+  int array
+)
+"dim.ml" 36 821 823 "dim.ml" 41 950 955
+type(
+  int array
+)

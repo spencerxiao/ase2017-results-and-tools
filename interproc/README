@@ -1,0 +1,31 @@
+About
+=====
+Distribution package for INTERPROC, which includes all "non-standard"
+dependencies required by INTERPROC, namely:
+apron,camllib,fixpoint
+
+It makes easier the compilation and installation of these required packages,
+and allows to compile quickly INTERPROC.
+
+Required
+========
+OCaml 3.11 or up (http://www.caml.org)
+Camlidl 1.05 (http://caml.inria.fr/camlidl)
+FINDLIB (http://projects.camlcity.org/projects/findlib.html)
+C  libraries:
+  GMP 3.x.y (http://gmplib.org)
+  MPFR 5.x.y (http://www.mpfr.org/)
+
+To configure
+============
+- copy Makefile.config.model into Makefile.config
+- set properly the flags
+- BY DEFAULT, domains requiring that APRON to be compiled with PPL are
+  DESACTIVATED in Interproc. If you want to activate it, uncomment the
+  last lines of interproc/frontend.ml
+
+To compile and install
+========================
+make rebuild # for APRON, required only once
+make all # make all install for required packages and make all for INTERPROC package
+make install # install INTERPROC

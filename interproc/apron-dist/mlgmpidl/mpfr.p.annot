@@ -1,0 +1,1605 @@
+"mpfr.ml" 135 3733 3737 "mpfr.ml" 135 3733 3744
+type(
+  t -> string -> base:int -> round -> unit
+)
+ident(
+  def set_str "mpfr.ml" 136 3787 3787 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 135 3733 3745 "mpfr.ml" 135 3733 3746
+type(
+  t
+)
+ident(
+  def a "mpfr.ml" 135 3733 3747 "mpfr.ml" 135 3733 3786
+)
+"mpfr.ml" 135 3733 3747 "mpfr.ml" 135 3733 3748
+type(
+  string
+)
+ident(
+  def b "mpfr.ml" 135 3733 3749 "mpfr.ml" 135 3733 3786
+)
+"mpfr.ml" 135 3733 3750 "mpfr.ml" 135 3733 3754
+type(
+  int
+)
+ident(
+  def base "mpfr.ml" 135 3733 3755 "mpfr.ml" 135 3733 3786
+)
+"mpfr.ml" 135 3733 3755 "mpfr.ml" 135 3733 3760
+type(
+  round
+)
+ident(
+  def round "mpfr.ml" 135 3733 3763 "mpfr.ml" 135 3733 3786
+)
+"mpfr.ml" 135 3733 3763 "mpfr.ml" 135 3733 3771
+type(
+  t -> string -> int -> round -> unit
+)
+ident(
+  int_ref _set_str "mpfr.ml" 132 3644 3644 "mpfr.ml" 133 3700 3731
+)
+"mpfr.ml" 135 3733 3772 "mpfr.ml" 135 3733 3773
+type(
+  t
+)
+ident(
+  int_ref a "mpfr.ml" 135 3733 3745 "mpfr.ml" 135 3733 3746
+)
+"mpfr.ml" 135 3733 3774 "mpfr.ml" 135 3733 3775
+type(
+  string
+)
+ident(
+  int_ref b "mpfr.ml" 135 3733 3747 "mpfr.ml" 135 3733 3748
+)
+"mpfr.ml" 135 3733 3776 "mpfr.ml" 135 3733 3780
+type(
+  int
+)
+ident(
+  int_ref base "mpfr.ml" 135 3733 3750 "mpfr.ml" 135 3733 3754
+)
+"mpfr.ml" 135 3733 3781 "mpfr.ml" 135 3733 3786
+type(
+  round
+)
+ident(
+  int_ref round "mpfr.ml" 135 3733 3755 "mpfr.ml" 135 3733 3760
+)
+"mpfr.ml" 135 3733 3763 "mpfr.ml" 135 3733 3786
+type(
+  unit
+)
+"mpfr.ml" 139 3881 3885 "mpfr.ml" 139 3881 3892
+type(
+  t -> string -> base:int -> round -> int * int
+)
+ident(
+  def strtofr "mpfr.ml" 140 3935 3935 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 139 3881 3893 "mpfr.ml" 139 3881 3894
+type(
+  t
+)
+ident(
+  def a "mpfr.ml" 139 3881 3895 "mpfr.ml" 139 3881 3934
+)
+"mpfr.ml" 139 3881 3895 "mpfr.ml" 139 3881 3896
+type(
+  string
+)
+ident(
+  def b "mpfr.ml" 139 3881 3897 "mpfr.ml" 139 3881 3934
+)
+"mpfr.ml" 139 3881 3898 "mpfr.ml" 139 3881 3902
+type(
+  int
+)
+ident(
+  def base "mpfr.ml" 139 3881 3903 "mpfr.ml" 139 3881 3934
+)
+"mpfr.ml" 139 3881 3903 "mpfr.ml" 139 3881 3908
+type(
+  round
+)
+ident(
+  def round "mpfr.ml" 139 3881 3911 "mpfr.ml" 139 3881 3934
+)
+"mpfr.ml" 139 3881 3911 "mpfr.ml" 139 3881 3919
+type(
+  t -> string -> int -> round -> int * int
+)
+ident(
+  int_ref _strtofr "mpfr.ml" 136 3787 3787 "mpfr.ml" 137 3848 3879
+)
+"mpfr.ml" 139 3881 3920 "mpfr.ml" 139 3881 3921
+type(
+  t
+)
+ident(
+  int_ref a "mpfr.ml" 139 3881 3893 "mpfr.ml" 139 3881 3894
+)
+"mpfr.ml" 139 3881 3922 "mpfr.ml" 139 3881 3923
+type(
+  string
+)
+ident(
+  int_ref b "mpfr.ml" 139 3881 3895 "mpfr.ml" 139 3881 3896
+)
+"mpfr.ml" 139 3881 3924 "mpfr.ml" 139 3881 3928
+type(
+  int
+)
+ident(
+  int_ref base "mpfr.ml" 139 3881 3898 "mpfr.ml" 139 3881 3902
+)
+"mpfr.ml" 139 3881 3929 "mpfr.ml" 139 3881 3934
+type(
+  round
+)
+ident(
+  int_ref round "mpfr.ml" 139 3881 3903 "mpfr.ml" 139 3881 3908
+)
+"mpfr.ml" 139 3881 3911 "mpfr.ml" 139 3881 3934
+type(
+  int * int
+)
+"mpfr.ml" 180 5099 5103 "mpfr.ml" 180 5099 5115
+type(
+  string -> base:int -> round -> 'a tt
+)
+ident(
+  def init_set_str "mpfr.ml" 182 5160 5160 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 180 5099 5116 "mpfr.ml" 180 5099 5117
+type(
+  string
+)
+ident(
+  def a "mpfr.ml" 180 5099 5118 "mpfr.ml" 180 5099 5158
+)
+"mpfr.ml" 180 5099 5119 "mpfr.ml" 180 5099 5123
+type(
+  int
+)
+ident(
+  def base "mpfr.ml" 180 5099 5124 "mpfr.ml" 180 5099 5158
+)
+"mpfr.ml" 180 5099 5124 "mpfr.ml" 180 5099 5129
+type(
+  round
+)
+ident(
+  def round "mpfr.ml" 180 5099 5132 "mpfr.ml" 180 5099 5158
+)
+"mpfr.ml" 180 5099 5132 "mpfr.ml" 180 5099 5145
+type(
+  string -> int -> round -> 'a tt
+)
+ident(
+  int_ref _init_set_str "mpfr.ml" 177 5004 5004 "mpfr.ml" 178 5061 5097
+)
+"mpfr.ml" 180 5099 5146 "mpfr.ml" 180 5099 5147
+type(
+  string
+)
+ident(
+  int_ref a "mpfr.ml" 180 5099 5116 "mpfr.ml" 180 5099 5117
+)
+"mpfr.ml" 180 5099 5148 "mpfr.ml" 180 5099 5152
+type(
+  int
+)
+ident(
+  int_ref base "mpfr.ml" 180 5099 5119 "mpfr.ml" 180 5099 5123
+)
+"mpfr.ml" 180 5099 5153 "mpfr.ml" 180 5099 5158
+type(
+  round
+)
+ident(
+  int_ref round "mpfr.ml" 180 5099 5124 "mpfr.ml" 180 5099 5129
+)
+"mpfr.ml" 180 5099 5132 "mpfr.ml" 180 5099 5158
+type(
+  'a tt
+)
+"mpfr.ml" 200 5673 5677 "mpfr.ml" 200 5673 5684
+type(
+  base:int -> digits:int -> 'a tt -> round -> string * int
+)
+ident(
+  def get_str "mpfr.ml" 202 5739 5739 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 200 5673 5686 "mpfr.ml" 200 5673 5690
+type(
+  int
+)
+ident(
+  def base "mpfr.ml" 200 5673 5691 "mpfr.ml" 200 5673 5737
+)
+"mpfr.ml" 200 5673 5692 "mpfr.ml" 200 5673 5698
+type(
+  int
+)
+ident(
+  def digits "mpfr.ml" 200 5673 5699 "mpfr.ml" 200 5673 5737
+)
+"mpfr.ml" 200 5673 5699 "mpfr.ml" 200 5673 5700
+type(
+  'a tt
+)
+ident(
+  def a "mpfr.ml" 200 5673 5701 "mpfr.ml" 200 5673 5737
+)
+"mpfr.ml" 200 5673 5701 "mpfr.ml" 200 5673 5706
+type(
+  round
+)
+ident(
+  def round "mpfr.ml" 200 5673 5709 "mpfr.ml" 200 5673 5737
+)
+"mpfr.ml" 200 5673 5709 "mpfr.ml" 200 5673 5717
+type(
+  int -> int -> 'a tt -> round -> string * int
+)
+ident(
+  int_ref _get_str "mpfr.ml" 197 5575 5575 "mpfr.ml" 198 5640 5671
+)
+"mpfr.ml" 200 5673 5718 "mpfr.ml" 200 5673 5722
+type(
+  int
+)
+ident(
+  int_ref base "mpfr.ml" 200 5673 5686 "mpfr.ml" 200 5673 5690
+)
+"mpfr.ml" 200 5673 5723 "mpfr.ml" 200 5673 5729
+type(
+  int
+)
+ident(
+  int_ref digits "mpfr.ml" 200 5673 5692 "mpfr.ml" 200 5673 5698
+)
+"mpfr.ml" 200 5673 5730 "mpfr.ml" 200 5673 5731
+type(
+  'a tt
+)
+ident(
+  int_ref a "mpfr.ml" 200 5673 5699 "mpfr.ml" 200 5673 5700
+)
+"mpfr.ml" 200 5673 5732 "mpfr.ml" 200 5673 5737
+type(
+  round
+)
+ident(
+  int_ref round "mpfr.ml" 200 5673 5701 "mpfr.ml" 200 5673 5706
+)
+"mpfr.ml" 200 5673 5709 "mpfr.ml" 200 5673 5737
+type(
+  string * int
+)
+"mpfr.ml" 274 7812 7816 "mpfr.ml" 274 7812 7824
+type(
+  t -> 'a tt -> int -> round -> int
+)
+ident(
+  def div_2exp "mpfr.ml" 275 7835 7835 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 274 7812 7827 "mpfr.ml" 274 7812 7834
+type(
+  t -> 'a tt -> int -> round -> int
+)
+ident(
+  int_ref div_2ui "mpfr.ml" 268 7642 7642 "mpfr.ml" 269 7695 7725
+)
+"mpfr.ml" 321 9025 9029 "mpfr.ml" 321 9025 9034
+type(
+  'a tt -> 'b tt -> bits:int -> bool
+)
+ident(
+  def equal "mpfr.ml" 322 9063 9063 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 321 9025 9035 "mpfr.ml" 321 9025 9036
+type(
+  'a tt
+)
+ident(
+  def a "mpfr.ml" 321 9025 9037 "mpfr.ml" 321 9025 9062
+)
+"mpfr.ml" 321 9025 9037 "mpfr.ml" 321 9025 9038
+type(
+  'b tt
+)
+ident(
+  def b "mpfr.ml" 321 9025 9039 "mpfr.ml" 321 9025 9062
+)
+"mpfr.ml" 321 9025 9040 "mpfr.ml" 321 9025 9044
+type(
+  int
+)
+ident(
+  def bits "mpfr.ml" 321 9025 9047 "mpfr.ml" 321 9025 9062
+)
+"mpfr.ml" 321 9025 9047 "mpfr.ml" 321 9025 9053
+type(
+  'a tt -> 'b tt -> int -> bool
+)
+ident(
+  int_ref _equal "mpfr.ml" 318 8946 8946 "mpfr.ml" 319 8994 9023
+)
+"mpfr.ml" 321 9025 9054 "mpfr.ml" 321 9025 9055
+type(
+  'a tt
+)
+ident(
+  int_ref a "mpfr.ml" 321 9025 9035 "mpfr.ml" 321 9025 9036
+)
+"mpfr.ml" 321 9025 9056 "mpfr.ml" 321 9025 9057
+type(
+  'b tt
+)
+ident(
+  int_ref b "mpfr.ml" 321 9025 9037 "mpfr.ml" 321 9025 9038
+)
+"mpfr.ml" 321 9025 9058 "mpfr.ml" 321 9025 9062
+type(
+  int
+)
+ident(
+  int_ref bits "mpfr.ml" 321 9025 9040 "mpfr.ml" 321 9025 9044
+)
+"mpfr.ml" 321 9025 9047 "mpfr.ml" 321 9025 9062
+type(
+  bool
+)
+"mpfr.ml" 546 14573 14577 "mpfr.ml" 546 14573 14586
+type(
+  'a tt -> string
+)
+ident(
+  def to_string "mpfr.ml" 557 14781 14781 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 546 14573 14587 "mpfr.ml" 546 14573 14588
+type(
+  'a tt
+)
+ident(
+  def x "mpfr.ml" 547 14592 14592 "mpfr.ml" 554 14744 14777
+)
+"mpfr.ml" 547 14592 14597 "mpfr.ml" 547 14592 14598
+type(
+  string
+)
+ident(
+  def s "mpfr.ml" 548 14642 14642 "mpfr.ml" 554 14744 14777
+)
+"mpfr.ml" 547 14592 14599 "mpfr.ml" 547 14592 14600
+type(
+  int
+)
+ident(
+  def e "mpfr.ml" 548 14642 14642 "mpfr.ml" 554 14744 14777
+)
+"mpfr.ml" 547 14592 14596 "mpfr.ml" 547 14592 14601
+type(
+  string * int
+)
+"mpfr.ml" 547 14592 14604 "mpfr.ml" 547 14592 14611
+type(
+  base:int -> digits:int -> 'a tt -> round -> string * int
+)
+ident(
+  int_ref get_str "mpfr.ml" 200 5673 5677 "mpfr.ml" 200 5673 5684
+)
+"mpfr.ml" 547 14592 14618 "mpfr.ml" 547 14592 14620
+type(
+  int
+)
+"mpfr.ml" 547 14592 14629 "mpfr.ml" 547 14592 14630
+type(
+  int
+)
+"mpfr.ml" 547 14592 14631 "mpfr.ml" 547 14592 14632
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpfr.ml" 546 14573 14587 "mpfr.ml" 546 14573 14588
+)
+"mpfr.ml" 547 14592 14633 "mpfr.ml" 547 14592 14637
+type(
+  round
+)
+"mpfr.ml" 547 14592 14604 "mpfr.ml" 547 14592 14637
+call(
+  stack
+)
+type(
+  string * int
+)
+"mpfr.ml" 548 14642 14645 "mpfr.ml" 548 14642 14646
+type(
+  string
+)
+ident(
+  int_ref s "mpfr.ml" 547 14592 14597 "mpfr.ml" 547 14592 14598
+)
+"mpfr.ml" 548 14642 14646 "mpfr.ml" 548 14642 14647
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"mpfr.ml" 548 14642 14647 "mpfr.ml" 548 14642 14649
+type(
+  string
+)
+"mpfr.ml" 548 14642 14645 "mpfr.ml" 548 14642 14649
+type(
+  bool
+)
+"mpfr.ml" 549 14651 14656 "mpfr.ml" 549 14651 14660
+type(
+  string
+)
+"mpfr.ml" 550 14662 14670 "mpfr.ml" 550 14662 14671
+type(
+  string
+)
+ident(
+  int_ref s "mpfr.ml" 547 14592 14597 "mpfr.ml" 547 14592 14598
+)
+"mpfr.ml" 550 14662 14673 "mpfr.ml" 550 14662 14674
+type(
+  int
+)
+"mpfr.ml" 550 14662 14670 "mpfr.ml" 550 14662 14675
+type(
+  char
+)
+"mpfr.ml" 550 14662 14676 "mpfr.ml" 550 14662 14677
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"mpfr.ml" 550 14662 14678 "mpfr.ml" 550 14662 14681
+type(
+  char
+)
+"mpfr.ml" 550 14662 14670 "mpfr.ml" 550 14662 14681
+type(
+  bool
+)
+"mpfr.ml" 551 14693 14695 "mpfr.ml" 551 14693 14696
+type(
+  bytes
+)
+ident(
+  int_ref s "mpfr.ml" 547 14592 14597 "mpfr.ml" 547 14592 14598
+)
+"mpfr.ml" 551 14693 14698 "mpfr.ml" 551 14693 14699
+type(
+  int
+)
+"mpfr.ml" 551 14693 14704 "mpfr.ml" 551 14693 14707
+type(
+  char
+)
+"mpfr.ml" 551 14693 14695 "mpfr.ml" 551 14693 14707
+type(
+  unit
+)
+"mpfr.ml" 552 14709 14711 "mpfr.ml" 552 14709 14725
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"mpfr.ml" 552 14709 14726 "mpfr.ml" 552 14709 14735
+type(
+  (string -> int -> string, unit, string) format
+)
+"mpfr.ml" 552 14709 14736 "mpfr.ml" 552 14709 14737
+type(
+  string
+)
+ident(
+  int_ref s "mpfr.ml" 547 14592 14597 "mpfr.ml" 547 14592 14598
+)
+"mpfr.ml" 552 14709 14738 "mpfr.ml" 552 14709 14739
+type(
+  int
+)
+ident(
+  int_ref e "mpfr.ml" 547 14592 14599 "mpfr.ml" 547 14592 14600
+)
+"mpfr.ml" 552 14709 14711 "mpfr.ml" 552 14709 14739
+call(
+  tail
+)
+type(
+  string
+)
+"mpfr.ml" 550 14662 14687 "mpfr.ml" 553 14740 14743
+type(
+  string
+)
+"mpfr.ml" 554 14744 14749 "mpfr.ml" 554 14744 14763
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"mpfr.ml" 554 14744 14764 "mpfr.ml" 554 14744 14773
+type(
+  (string -> int -> string, unit, string) format
+)
+"mpfr.ml" 554 14744 14774 "mpfr.ml" 554 14744 14775
+type(
+  string
+)
+ident(
+  int_ref s "mpfr.ml" 547 14592 14597 "mpfr.ml" 547 14592 14598
+)
+"mpfr.ml" 554 14744 14776 "mpfr.ml" 554 14744 14777
+type(
+  int
+)
+ident(
+  int_ref e "mpfr.ml" 547 14592 14599 "mpfr.ml" 547 14592 14600
+)
+"mpfr.ml" 554 14744 14749 "mpfr.ml" 554 14744 14777
+call(
+  tail
+)
+type(
+  string
+)
+"mpfr.ml" 550 14662 14667 "mpfr.ml" 554 14744 14777
+type(
+  string
+)
+"mpfr.ml" 548 14642 14642 "mpfr.ml" 554 14744 14777
+type(
+  string
+)
+"mpfr.ml" 547 14592 14592 "mpfr.ml" 554 14744 14777
+type(
+  string
+)
+"mpfr.ml" 559 14809 14813 "mpfr.ml" 559 14809 14818
+type(
+  Format.formatter -> 'a tt -> unit
+)
+ident(
+  def print "mpfr.ml" 565 14966 14966 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 559 14809 14819 "mpfr.ml" 559 14809 14822
+type(
+  Format.formatter
+)
+ident(
+  def fmt "mpfr.ml" 559 14809 14823 "mpfr.ml" 563 14926 14963
+)
+"mpfr.ml" 559 14809 14823 "mpfr.ml" 559 14809 14824
+type(
+  'a tt
+)
+ident(
+  def x "mpfr.ml" 560 14828 14828 "mpfr.ml" 563 14926 14963
+)
+"mpfr.ml" 560 14828 14833 "mpfr.ml" 560 14828 14834
+type(
+  string
+)
+ident(
+  def s "mpfr.ml" 561 14878 14878 "mpfr.ml" 563 14926 14963
+)
+"mpfr.ml" 560 14828 14835 "mpfr.ml" 560 14828 14836
+type(
+  int
+)
+ident(
+  def e "mpfr.ml" 561 14878 14878 "mpfr.ml" 563 14926 14963
+)
+"mpfr.ml" 560 14828 14832 "mpfr.ml" 560 14828 14837
+type(
+  string * int
+)
+"mpfr.ml" 560 14828 14840 "mpfr.ml" 560 14828 14847
+type(
+  base:int -> digits:int -> 'a tt -> round -> string * int
+)
+ident(
+  int_ref get_str "mpfr.ml" 200 5673 5677 "mpfr.ml" 200 5673 5684
+)
+"mpfr.ml" 560 14828 14854 "mpfr.ml" 560 14828 14856
+type(
+  int
+)
+"mpfr.ml" 560 14828 14865 "mpfr.ml" 560 14828 14866
+type(
+  int
+)
+"mpfr.ml" 560 14828 14867 "mpfr.ml" 560 14828 14868
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpfr.ml" 559 14809 14823 "mpfr.ml" 559 14809 14824
+)
+"mpfr.ml" 560 14828 14869 "mpfr.ml" 560 14828 14873
+type(
+  round
+)
+"mpfr.ml" 560 14828 14840 "mpfr.ml" 560 14828 14873
+call(
+  stack
+)
+type(
+  string * int
+)
+"mpfr.ml" 561 14878 14881 "mpfr.ml" 561 14878 14882
+type(
+  string
+)
+ident(
+  int_ref s "mpfr.ml" 560 14828 14833 "mpfr.ml" 560 14828 14834
+)
+"mpfr.ml" 561 14878 14882 "mpfr.ml" 561 14878 14883
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"mpfr.ml" 561 14878 14883 "mpfr.ml" 561 14878 14885
+type(
+  string
+)
+"mpfr.ml" 561 14878 14881 "mpfr.ml" 561 14878 14885
+type(
+  bool
+)
+"mpfr.ml" 562 14887 14892 "mpfr.ml" 562 14887 14914
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"mpfr.ml" 562 14887 14915 "mpfr.ml" 562 14887 14918
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "mpfr.ml" 559 14809 14819 "mpfr.ml" 559 14809 14822
+)
+"mpfr.ml" 562 14887 14919 "mpfr.ml" 562 14887 14924
+type(
+  string
+)
+"mpfr.ml" 562 14887 14892 "mpfr.ml" 562 14887 14924
+call(
+  tail
+)
+type(
+  unit
+)
+"mpfr.ml" 563 14926 14931 "mpfr.ml" 563 14926 14945
+type(
+  Format.formatter ->
+  (string -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"mpfr.ml" 563 14926 14946 "mpfr.ml" 563 14926 14949
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "mpfr.ml" 559 14809 14819 "mpfr.ml" 559 14809 14822
+)
+"mpfr.ml" 563 14926 14950 "mpfr.ml" 563 14926 14959
+type(
+  (string -> int -> unit, Format.formatter, unit) format
+)
+"mpfr.ml" 563 14926 14960 "mpfr.ml" 563 14926 14961
+type(
+  string
+)
+ident(
+  int_ref s "mpfr.ml" 560 14828 14833 "mpfr.ml" 560 14828 14834
+)
+"mpfr.ml" 563 14926 14962 "mpfr.ml" 563 14926 14963
+type(
+  int
+)
+ident(
+  int_ref e "mpfr.ml" 560 14828 14835 "mpfr.ml" 560 14828 14836
+)
+"mpfr.ml" 563 14926 14931 "mpfr.ml" 563 14926 14963
+call(
+  tail
+)
+type(
+  unit
+)
+"mpfr.ml" 561 14878 14878 "mpfr.ml" 563 14926 14963
+type(
+  unit
+)
+"mpfr.ml" 560 14828 14828 "mpfr.ml" 563 14926 14963
+type(
+  unit
+)
+"mpfr.ml" 565 14966 14970 "mpfr.ml" 565 14966 14985
+type(
+  round -> string
+)
+ident(
+  def string_of_round "mpfr.ml" 573 15122 15122 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 566 14997 14999 "mpfr.ml" 566 14997 15003
+type(
+  round
+)
+"mpfr.ml" 566 14997 15007 "mpfr.ml" 566 14997 15013
+type(
+  string
+)
+"mpfr.ml" 567 15014 15016 "mpfr.ml" 567 15014 15020
+type(
+  round
+)
+"mpfr.ml" 567 15014 15024 "mpfr.ml" 567 15014 15030
+type(
+  string
+)
+"mpfr.ml" 568 15031 15033 "mpfr.ml" 568 15031 15035
+type(
+  round
+)
+"mpfr.ml" 568 15031 15039 "mpfr.ml" 568 15031 15043
+type(
+  string
+)
+"mpfr.ml" 569 15044 15046 "mpfr.ml" 569 15044 15050
+type(
+  round
+)
+"mpfr.ml" 569 15044 15054 "mpfr.ml" 569 15044 15060
+type(
+  string
+)
+"mpfr.ml" 570 15061 15063 "mpfr.ml" 570 15061 15067
+type(
+  round
+)
+"mpfr.ml" 570 15061 15071 "mpfr.ml" 570 15061 15077
+type(
+  string
+)
+"mpfr.ml" 571 15078 15080 "mpfr.ml" 571 15078 15085
+type(
+  round
+)
+"mpfr.ml" 571 15078 15089 "mpfr.ml" 571 15078 15096
+type(
+  string
+)
+"mpfr.ml" 572 15097 15099 "mpfr.ml" 572 15097 15107
+type(
+  round
+)
+"mpfr.ml" 572 15097 15111 "mpfr.ml" 572 15097 15121
+type(
+  string
+)
+"mpfr.ml" 565 14966 14988 "mpfr.ml" 572 15097 15121
+type(
+  round -> string
+)
+"mpfr.ml" 573 15122 15126 "mpfr.ml" 573 15122 15137
+type(
+  Format.formatter -> round -> unit
+)
+ident(
+  def print_round "mpfr.ml" 575 15194 15194 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 573 15122 15138 "mpfr.ml" 573 15122 15141
+type(
+  Format.formatter
+)
+ident(
+  def fmt "mpfr.ml" 573 15122 15142 "mpfr.ml" 573 15122 15192
+)
+"mpfr.ml" 573 15122 15142 "mpfr.ml" 573 15122 15143
+type(
+  round
+)
+ident(
+  def x "mpfr.ml" 573 15122 15146 "mpfr.ml" 573 15122 15192
+)
+"mpfr.ml" 573 15122 15146 "mpfr.ml" 573 15122 15168
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"mpfr.ml" 573 15122 15169 "mpfr.ml" 573 15122 15172
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "mpfr.ml" 573 15122 15138 "mpfr.ml" 573 15122 15141
+)
+"mpfr.ml" 573 15122 15174 "mpfr.ml" 573 15122 15189
+type(
+  round -> string
+)
+ident(
+  int_ref string_of_round "mpfr.ml" 565 14966 14970 "mpfr.ml" 565 14966 14985
+)
+"mpfr.ml" 573 15122 15190 "mpfr.ml" 573 15122 15191
+type(
+  round
+)
+ident(
+  int_ref x "mpfr.ml" 573 15122 15142 "mpfr.ml" 573 15122 15143
+)
+"mpfr.ml" 573 15122 15173 "mpfr.ml" 573 15122 15192
+call(
+  stack
+)
+type(
+  string
+)
+"mpfr.ml" 573 15122 15146 "mpfr.ml" 573 15122 15192
+call(
+  tail
+)
+type(
+  unit
+)
+"mpfr.ml" 575 15194 15198 "mpfr.ml" 575 15194 15206
+type(
+  ?round:round -> 'a tt -> float
+)
+ident(
+  def to_float "mpfr.ml" 580 15284 15284 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 575 15194 15208 "mpfr.ml" 575 15194 15213
+type(
+  round option
+)
+ident(
+  def round "mpfr.ml" 575 15194 15214 "mpfr.ml" 578 15259 15282
+)
+"mpfr.ml" 575 15194 15214 "mpfr.ml" 575 15194 15215
+type(
+  'a tt
+)
+ident(
+  def x "mpfr.ml" 576 15219 15221 "mpfr.ml" 578 15259 15282
+)
+"mpfr.ml" 576 15219 15227 "mpfr.ml" 576 15219 15232
+type(
+  round option
+)
+ident(
+  int_ref round "mpfr.ml" 575 15194 15208 "mpfr.ml" 575 15194 15213
+)
+"mpfr.ml" 577 15238 15242 "mpfr.ml" 577 15238 15246
+type(
+  round option
+)
+"mpfr.ml" 577 15238 15250 "mpfr.ml" 577 15238 15256
+type(
+  'a tt -> float
+)
+ident(
+  int_ref get_d1 "mpfr.ml" 188 5355 5355 "mpfr.ml" 189 5388 5417
+)
+"mpfr.ml" 577 15238 15257 "mpfr.ml" 577 15238 15258
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpfr.ml" 575 15194 15214 "mpfr.ml" 575 15194 15215
+)
+"mpfr.ml" 577 15238 15250 "mpfr.ml" 577 15238 15258
+type(
+  float
+)
+"mpfr.ml" 578 15259 15268 "mpfr.ml" 578 15259 15269
+type(
+  round
+)
+ident(
+  def r "mpfr.ml" 578 15259 15273 "mpfr.ml" 578 15259 15282
+)
+"mpfr.ml" 578 15259 15263 "mpfr.ml" 578 15259 15269
+type(
+  round option
+)
+"mpfr.ml" 578 15259 15273 "mpfr.ml" 578 15259 15278
+type(
+  'a tt -> round -> float
+)
+ident(
+  int_ref get_d "mpfr.ml" 185 5284 5284 "mpfr.ml" 186 5325 5353
+)
+"mpfr.ml" 578 15259 15279 "mpfr.ml" 578 15259 15280
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpfr.ml" 575 15194 15214 "mpfr.ml" 575 15194 15215
+)
+"mpfr.ml" 578 15259 15281 "mpfr.ml" 578 15259 15282
+type(
+  round
+)
+ident(
+  int_ref r "mpfr.ml" 578 15259 15268 "mpfr.ml" 578 15259 15269
+)
+"mpfr.ml" 578 15259 15273 "mpfr.ml" 578 15259 15282
+type(
+  float
+)
+"mpfr.ml" 576 15219 15221 "mpfr.ml" 578 15259 15282
+type(
+  float
+)
+"mpfr.ml" 580 15284 15288 "mpfr.ml" 580 15284 15294
+type(
+  'a tt -> 'b Mpq.tt
+)
+ident(
+  def to_mpq "mpfr.ml" 586 15431 15431 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 580 15284 15295 "mpfr.ml" 580 15284 15296
+type(
+  'a tt
+)
+ident(
+  def x "mpfr.ml" 581 15300 15303 "mpfr.ml" 584 15407 15429
+)
+"mpfr.ml" 581 15300 15307 "mpfr.ml" 581 15300 15310
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def num "mpfr.ml" 582 15350 15353 "mpfr.ml" 584 15407 15429
+)
+"mpfr.ml" 581 15300 15311 "mpfr.ml" 581 15300 15314
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def den "mpfr.ml" 582 15350 15353 "mpfr.ml" 584 15407 15429
+)
+"mpfr.ml" 581 15300 15307 "mpfr.ml" 581 15300 15314
+type(
+  Mpz.m Mpz.tt * Mpz.m Mpz.tt
+)
+"mpfr.ml" 581 15300 15317 "mpfr.ml" 581 15300 15325
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpfr.ml" 581 15300 15325 "mpfr.ml" 581 15300 15327
+type(
+  unit
+)
+"mpfr.ml" 581 15300 15317 "mpfr.ml" 581 15300 15327
+type(
+  Mpz.m Mpz.tt
+)
+"mpfr.ml" 581 15300 15329 "mpfr.ml" 581 15300 15344
+type(
+  int -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init_set_si
+)
+"mpfr.ml" 581 15300 15345 "mpfr.ml" 581 15300 15346
+type(
+  int
+)
+"mpfr.ml" 581 15300 15329 "mpfr.ml" 581 15300 15346
+type(
+  Mpz.m Mpz.tt
+)
+"mpfr.ml" 581 15300 15317 "mpfr.ml" 581 15300 15346
+type(
+  Mpz.m Mpz.tt * Mpz.m Mpz.tt
+)
+"mpfr.ml" 582 15350 15357 "mpfr.ml" 582 15350 15358
+type(
+  int
+)
+ident(
+  def e "mpfr.ml" 583 15380 15383 "mpfr.ml" 584 15407 15429
+)
+"mpfr.ml" 582 15350 15361 "mpfr.ml" 582 15350 15370
+type(
+  Mpz.t -> 'a tt -> int
+)
+ident(
+  int_ref get_z_exp "mpfr.ml" 191 5419 5419 "mpfr.ml" 192 5462 5494
+)
+"mpfr.ml" 582 15350 15371 "mpfr.ml" 582 15350 15374
+type(
+  Mpz.t
+)
+ident(
+  int_ref num "mpfr.ml" 581 15300 15307 "mpfr.ml" 581 15300 15310
+)
+"mpfr.ml" 582 15350 15375 "mpfr.ml" 582 15350 15376
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpfr.ml" 580 15284 15295 "mpfr.ml" 580 15284 15296
+)
+"mpfr.ml" 582 15350 15361 "mpfr.ml" 582 15350 15376
+type(
+  int
+)
+"mpfr.ml" 583 15380 15383 "mpfr.ml" 583 15380 15395
+type(
+  Mpz.t -> Mpz.m Mpz.tt -> int -> unit
+)
+ident(
+  ext_ref Mpz.mul_2exp
+)
+"mpfr.ml" 583 15380 15396 "mpfr.ml" 583 15380 15399
+type(
+  Mpz.t
+)
+ident(
+  int_ref den "mpfr.ml" 581 15300 15311 "mpfr.ml" 581 15300 15314
+)
+"mpfr.ml" 583 15380 15400 "mpfr.ml" 583 15380 15403
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  int_ref den "mpfr.ml" 581 15300 15311 "mpfr.ml" 581 15300 15314
+)
+"mpfr.ml" 583 15380 15404 "mpfr.ml" 583 15380 15405
+type(
+  int
+)
+ident(
+  int_ref e "mpfr.ml" 582 15350 15357 "mpfr.ml" 582 15350 15358
+)
+"mpfr.ml" 583 15380 15383 "mpfr.ml" 583 15380 15405
+type(
+  unit
+)
+"mpfr.ml" 584 15407 15410 "mpfr.ml" 584 15407 15421
+type(
+  Mpz.m Mpz.tt -> Mpz.m Mpz.tt -> 'b Mpq.tt
+)
+ident(
+  ext_ref Mpq.of_mpz2
+)
+"mpfr.ml" 584 15407 15422 "mpfr.ml" 584 15407 15425
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  int_ref num "mpfr.ml" 581 15300 15307 "mpfr.ml" 581 15300 15310
+)
+"mpfr.ml" 584 15407 15426 "mpfr.ml" 584 15407 15429
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  int_ref den "mpfr.ml" 581 15300 15311 "mpfr.ml" 581 15300 15314
+)
+"mpfr.ml" 584 15407 15410 "mpfr.ml" 584 15407 15429
+call(
+  tail
+)
+type(
+  'b Mpq.tt
+)
+"mpfr.ml" 583 15380 15383 "mpfr.ml" 584 15407 15429
+type(
+  'b Mpq.tt
+)
+"mpfr.ml" 582 15350 15353 "mpfr.ml" 584 15407 15429
+type(
+  'b Mpq.tt
+)
+"mpfr.ml" 581 15300 15303 "mpfr.ml" 584 15407 15429
+type(
+  'b Mpq.tt
+)
+"mpfr.ml" 586 15431 15435 "mpfr.ml" 586 15431 15441
+type(
+  int -> round -> 'a tt
+)
+ident(
+  def of_int "mpfr.ml" 587 15470 15470 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 586 15431 15442 "mpfr.ml" 586 15431 15443
+type(
+  int
+)
+ident(
+  def x "mpfr.ml" 586 15431 15444 "mpfr.ml" 586 15431 15469
+)
+"mpfr.ml" 586 15431 15444 "mpfr.ml" 586 15431 15445
+type(
+  round
+)
+ident(
+  def r "mpfr.ml" 586 15431 15448 "mpfr.ml" 586 15431 15469
+)
+"mpfr.ml" 586 15431 15448 "mpfr.ml" 586 15431 15451
+type(
+  int * 'a tt -> 'a tt
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"mpfr.ml" 586 15431 15453 "mpfr.ml" 586 15431 15464
+type(
+  int -> round -> int * 'a tt
+)
+ident(
+  int_ref init_set_si "mpfr.ml" 162 4557 4557 "mpfr.ml" 163 4608 4642
+)
+"mpfr.ml" 586 15431 15465 "mpfr.ml" 586 15431 15466
+type(
+  int
+)
+ident(
+  int_ref x "mpfr.ml" 586 15431 15442 "mpfr.ml" 586 15431 15443
+)
+"mpfr.ml" 586 15431 15467 "mpfr.ml" 586 15431 15468
+type(
+  round
+)
+ident(
+  int_ref r "mpfr.ml" 586 15431 15444 "mpfr.ml" 586 15431 15445
+)
+"mpfr.ml" 586 15431 15452 "mpfr.ml" 586 15431 15469
+type(
+  int * 'a tt
+)
+"mpfr.ml" 586 15431 15448 "mpfr.ml" 586 15431 15469
+type(
+  'a tt
+)
+"mpfr.ml" 587 15470 15474 "mpfr.ml" 587 15470 15482
+type(
+  float -> round -> 'a tt
+)
+ident(
+  def of_float "mpfr.ml" 588 15510 15510 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 587 15470 15483 "mpfr.ml" 587 15470 15484
+type(
+  float
+)
+ident(
+  def x "mpfr.ml" 587 15470 15485 "mpfr.ml" 587 15470 15509
+)
+"mpfr.ml" 587 15470 15485 "mpfr.ml" 587 15470 15486
+type(
+  round
+)
+ident(
+  def r "mpfr.ml" 587 15470 15489 "mpfr.ml" 587 15470 15509
+)
+"mpfr.ml" 587 15470 15489 "mpfr.ml" 587 15470 15492
+type(
+  int * 'a tt -> 'a tt
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"mpfr.ml" 587 15470 15494 "mpfr.ml" 587 15470 15504
+type(
+  float -> round -> int * 'a tt
+)
+ident(
+  int_ref init_set_d "mpfr.ml" 165 4644 4644 "mpfr.ml" 166 4696 4729
+)
+"mpfr.ml" 587 15470 15505 "mpfr.ml" 587 15470 15506
+type(
+  float
+)
+ident(
+  int_ref x "mpfr.ml" 587 15470 15483 "mpfr.ml" 587 15470 15484
+)
+"mpfr.ml" 587 15470 15507 "mpfr.ml" 587 15470 15508
+type(
+  round
+)
+ident(
+  int_ref r "mpfr.ml" 587 15470 15485 "mpfr.ml" 587 15470 15486
+)
+"mpfr.ml" 587 15470 15493 "mpfr.ml" 587 15470 15509
+type(
+  int * 'a tt
+)
+"mpfr.ml" 587 15470 15489 "mpfr.ml" 587 15470 15509
+type(
+  'a tt
+)
+"mpfr.ml" 588 15510 15514 "mpfr.ml" 588 15510 15520
+type(
+  'a Mpz.tt -> round -> 'b tt
+)
+ident(
+  def of_mpz "mpfr.ml" 589 15548 15548 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 588 15510 15521 "mpfr.ml" 588 15510 15522
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpfr.ml" 588 15510 15523 "mpfr.ml" 588 15510 15547
+)
+"mpfr.ml" 588 15510 15523 "mpfr.ml" 588 15510 15524
+type(
+  round
+)
+ident(
+  def r "mpfr.ml" 588 15510 15527 "mpfr.ml" 588 15510 15547
+)
+"mpfr.ml" 588 15510 15527 "mpfr.ml" 588 15510 15530
+type(
+  int * 'b tt -> 'b tt
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"mpfr.ml" 588 15510 15532 "mpfr.ml" 588 15510 15542
+type(
+  'a Mpz.tt -> round -> int * 'b tt
+)
+ident(
+  int_ref init_set_z "mpfr.ml" 171 4822 4822 "mpfr.ml" 172 4878 4911
+)
+"mpfr.ml" 588 15510 15543 "mpfr.ml" 588 15510 15544
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpfr.ml" 588 15510 15521 "mpfr.ml" 588 15510 15522
+)
+"mpfr.ml" 588 15510 15545 "mpfr.ml" 588 15510 15546
+type(
+  round
+)
+ident(
+  int_ref r "mpfr.ml" 588 15510 15523 "mpfr.ml" 588 15510 15524
+)
+"mpfr.ml" 588 15510 15531 "mpfr.ml" 588 15510 15547
+type(
+  int * 'b tt
+)
+"mpfr.ml" 588 15510 15527 "mpfr.ml" 588 15510 15547
+type(
+  'b tt
+)
+"mpfr.ml" 589 15548 15552 "mpfr.ml" 589 15548 15558
+type(
+  'a Mpq.tt -> round -> 'b tt
+)
+ident(
+  def of_mpq "mpfr.ml" 590 15586 15586 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 589 15548 15559 "mpfr.ml" 589 15548 15560
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "mpfr.ml" 589 15548 15561 "mpfr.ml" 589 15548 15585
+)
+"mpfr.ml" 589 15548 15561 "mpfr.ml" 589 15548 15562
+type(
+  round
+)
+ident(
+  def r "mpfr.ml" 589 15548 15565 "mpfr.ml" 589 15548 15585
+)
+"mpfr.ml" 589 15548 15565 "mpfr.ml" 589 15548 15568
+type(
+  int * 'b tt -> 'b tt
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"mpfr.ml" 589 15548 15570 "mpfr.ml" 589 15548 15580
+type(
+  'a Mpq.tt -> round -> int * 'b tt
+)
+ident(
+  int_ref init_set_q "mpfr.ml" 174 4913 4913 "mpfr.ml" 175 4969 5002
+)
+"mpfr.ml" 589 15548 15581 "mpfr.ml" 589 15548 15582
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "mpfr.ml" 589 15548 15559 "mpfr.ml" 589 15548 15560
+)
+"mpfr.ml" 589 15548 15583 "mpfr.ml" 589 15548 15584
+type(
+  round
+)
+ident(
+  int_ref r "mpfr.ml" 589 15548 15561 "mpfr.ml" 589 15548 15562
+)
+"mpfr.ml" 589 15548 15569 "mpfr.ml" 589 15548 15585
+type(
+  int * 'b tt
+)
+"mpfr.ml" 589 15548 15565 "mpfr.ml" 589 15548 15585
+type(
+  'b tt
+)
+"mpfr.ml" 590 15586 15590 "mpfr.ml" 590 15586 15599
+type(
+  string -> round -> 'a tt
+)
+ident(
+  def of_string "mpfr.ml" 591 15632 15632 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 590 15586 15600 "mpfr.ml" 590 15586 15601
+type(
+  string
+)
+ident(
+  def x "mpfr.ml" 590 15586 15602 "mpfr.ml" 590 15586 15631
+)
+"mpfr.ml" 590 15586 15602 "mpfr.ml" 590 15586 15603
+type(
+  round
+)
+ident(
+  def r "mpfr.ml" 590 15586 15606 "mpfr.ml" 590 15586 15631
+)
+"mpfr.ml" 590 15586 15606 "mpfr.ml" 590 15586 15618
+type(
+  string -> base:int -> round -> 'a tt
+)
+ident(
+  int_ref init_set_str "mpfr.ml" 180 5099 5103 "mpfr.ml" 180 5099 5115
+)
+"mpfr.ml" 590 15586 15619 "mpfr.ml" 590 15586 15620
+type(
+  string
+)
+ident(
+  int_ref x "mpfr.ml" 590 15586 15600 "mpfr.ml" 590 15586 15601
+)
+"mpfr.ml" 590 15586 15627 "mpfr.ml" 590 15586 15629
+type(
+  int
+)
+"mpfr.ml" 590 15586 15630 "mpfr.ml" 590 15586 15631
+type(
+  round
+)
+ident(
+  int_ref r "mpfr.ml" 590 15586 15602 "mpfr.ml" 590 15586 15603
+)
+"mpfr.ml" 590 15586 15606 "mpfr.ml" 590 15586 15631
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpfr.ml" 591 15632 15636 "mpfr.ml" 591 15632 15643
+type(
+  int -> int -> round -> 'a tt
+)
+ident(
+  def of_frac "mpfr.ml" 592 15694 15694 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 591 15632 15644 "mpfr.ml" 591 15632 15645
+type(
+  int
+)
+ident(
+  def n "mpfr.ml" 591 15632 15646 "mpfr.ml" 591 15632 15693
+)
+"mpfr.ml" 591 15632 15646 "mpfr.ml" 591 15632 15647
+type(
+  int
+)
+ident(
+  def d "mpfr.ml" 591 15632 15648 "mpfr.ml" 591 15632 15693
+)
+"mpfr.ml" 591 15632 15648 "mpfr.ml" 591 15632 15649
+type(
+  round
+)
+ident(
+  def r "mpfr.ml" 591 15632 15652 "mpfr.ml" 591 15632 15693
+)
+"mpfr.ml" 591 15632 15656 "mpfr.ml" 591 15632 15659
+type(
+  '_b Mpq.tt
+)
+ident(
+  def mpq "mpfr.ml" 591 15632 15681 "mpfr.ml" 591 15632 15693
+)
+"mpfr.ml" 591 15632 15662 "mpfr.ml" 591 15632 15673
+type(
+  int -> int -> '_b Mpq.tt
+)
+ident(
+  ext_ref Mpq.of_frac
+)
+"mpfr.ml" 591 15632 15674 "mpfr.ml" 591 15632 15675
+type(
+  int
+)
+ident(
+  int_ref n "mpfr.ml" 591 15632 15644 "mpfr.ml" 591 15632 15645
+)
+"mpfr.ml" 591 15632 15676 "mpfr.ml" 591 15632 15677
+type(
+  int
+)
+ident(
+  int_ref d "mpfr.ml" 591 15632 15646 "mpfr.ml" 591 15632 15647
+)
+"mpfr.ml" 591 15632 15662 "mpfr.ml" 591 15632 15677
+call(
+  stack
+)
+type(
+  '_b Mpq.tt
+)
+"mpfr.ml" 591 15632 15681 "mpfr.ml" 591 15632 15687
+type(
+  '_b Mpq.tt -> round -> 'a tt
+)
+ident(
+  int_ref of_mpq "mpfr.ml" 589 15548 15552 "mpfr.ml" 589 15548 15558
+)
+"mpfr.ml" 591 15632 15688 "mpfr.ml" 591 15632 15691
+type(
+  '_b Mpq.tt
+)
+ident(
+  int_ref mpq "mpfr.ml" 591 15632 15656 "mpfr.ml" 591 15632 15659
+)
+"mpfr.ml" 591 15632 15692 "mpfr.ml" 591 15632 15693
+type(
+  round
+)
+ident(
+  int_ref r "mpfr.ml" 591 15632 15648 "mpfr.ml" 591 15632 15649
+)
+"mpfr.ml" 591 15632 15681 "mpfr.ml" 591 15632 15693
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpfr.ml" 591 15632 15652 "mpfr.ml" 591 15632 15693
+type(
+  'a tt
+)
+"mpfr.ml" 592 15694 15698 "mpfr.ml" 592 15694 15705
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> round -> 'c tt
+)
+ident(
+  def of_mpz2 "mpfr.ml" 592 15694 15755 "mpfr.ml" 1 0 -1
+)
+"mpfr.ml" 592 15694 15706 "mpfr.ml" 592 15694 15707
+type(
+  'a Mpz.tt
+)
+ident(
+  def n "mpfr.ml" 592 15694 15708 "mpfr.ml" 592 15694 15755
+)
+"mpfr.ml" 592 15694 15708 "mpfr.ml" 592 15694 15709
+type(
+  'b Mpz.tt
+)
+ident(
+  def d "mpfr.ml" 592 15694 15710 "mpfr.ml" 592 15694 15755
+)
+"mpfr.ml" 592 15694 15710 "mpfr.ml" 592 15694 15711
+type(
+  round
+)
+ident(
+  def r "mpfr.ml" 592 15694 15714 "mpfr.ml" 592 15694 15755
+)
+"mpfr.ml" 592 15694 15718 "mpfr.ml" 592 15694 15721
+type(
+  '_d Mpq.tt
+)
+ident(
+  def mpq "mpfr.ml" 592 15694 15743 "mpfr.ml" 592 15694 15755
+)
+"mpfr.ml" 592 15694 15724 "mpfr.ml" 592 15694 15735
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> '_d Mpq.tt
+)
+ident(
+  ext_ref Mpq.of_mpz2
+)
+"mpfr.ml" 592 15694 15736 "mpfr.ml" 592 15694 15737
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref n "mpfr.ml" 592 15694 15706 "mpfr.ml" 592 15694 15707
+)
+"mpfr.ml" 592 15694 15738 "mpfr.ml" 592 15694 15739
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref d "mpfr.ml" 592 15694 15708 "mpfr.ml" 592 15694 15709
+)
+"mpfr.ml" 592 15694 15724 "mpfr.ml" 592 15694 15739
+call(
+  stack
+)
+type(
+  '_d Mpq.tt
+)
+"mpfr.ml" 592 15694 15743 "mpfr.ml" 592 15694 15749
+type(
+  '_d Mpq.tt -> round -> 'c tt
+)
+ident(
+  int_ref of_mpq "mpfr.ml" 589 15548 15552 "mpfr.ml" 589 15548 15558
+)
+"mpfr.ml" 592 15694 15750 "mpfr.ml" 592 15694 15753
+type(
+  '_d Mpq.tt
+)
+ident(
+  int_ref mpq "mpfr.ml" 592 15694 15718 "mpfr.ml" 592 15694 15721
+)
+"mpfr.ml" 592 15694 15754 "mpfr.ml" 592 15694 15755
+type(
+  round
+)
+ident(
+  int_ref r "mpfr.ml" 592 15694 15710 "mpfr.ml" 592 15694 15711
+)
+"mpfr.ml" 592 15694 15743 "mpfr.ml" 592 15694 15755
+call(
+  tail
+)
+type(
+  'c tt
+)
+"mpfr.ml" 592 15694 15714 "mpfr.ml" 592 15694 15755
+type(
+  'c tt
+)

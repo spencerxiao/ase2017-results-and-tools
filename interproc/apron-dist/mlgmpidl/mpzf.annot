@@ -1,0 +1,1959 @@
+"mpzf.ml" 14 370 374 "mpzf.ml" 14 370 378
+type(
+  t -> Mpz.t
+)
+ident(
+  def _mpz "mpzf.ml" 15 404 404 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 14 370 394 "mpzf.ml" 14 370 403
+type(
+  t -> Mpz.t
+)
+type(
+  t -> Mpz.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"mpzf.ml" 15 404 408 "mpzf.ml" 15 404 413
+type(
+  Mpz.t -> t
+)
+ident(
+  def _mpzf "mpzf.ml" 17 440 440 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 15 404 429 "mpzf.ml" 15 404 438
+type(
+  Mpz.t -> t
+)
+type(
+  Mpz.t -> t
+)
+ident(
+  ext_ref Obj.magic
+)
+"mpzf.ml" 17 440 444 "mpzf.ml" 17 440 450
+type(
+  'a Mpz.tt -> 'b Mpz.tt
+)
+ident(
+  def to_mpz "mpzf.ml" 18 466 466 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 17 440 453 "mpzf.ml" 17 440 465
+type(
+  'a Mpz.tt -> 'b Mpz.tt
+)
+ident(
+  ext_ref Mpz.init_set
+)
+"mpzf.ml" 18 466 470 "mpzf.ml" 18 466 476
+type(
+  'a Mpz.tt -> 'b Mpz.tt
+)
+ident(
+  def of_mpz "mpzf.ml" 20 493 493 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 18 466 479 "mpzf.ml" 18 466 491
+type(
+  'a Mpz.tt -> 'b Mpz.tt
+)
+ident(
+  ext_ref Mpz.init_set
+)
+"mpzf.ml" 20 493 497 "mpzf.ml" 20 493 506
+type(
+  string -> 'a Mpz.tt
+)
+ident(
+  def of_string "mpzf.ml" 21 523 523 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 20 493 509 "mpzf.ml" 20 493 522
+type(
+  string -> 'a Mpz.tt
+)
+ident(
+  ext_ref Mpz.of_string
+)
+"mpzf.ml" 21 523 527 "mpzf.ml" 21 523 535
+type(
+  float -> 'a Mpz.tt
+)
+ident(
+  def of_float "mpzf.ml" 22 551 551 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 21 523 538 "mpzf.ml" 21 523 550
+type(
+  float -> 'a Mpz.tt
+)
+ident(
+  ext_ref Mpz.of_float
+)
+"mpzf.ml" 22 551 555 "mpzf.ml" 22 551 561
+type(
+  int -> 'a Mpz.tt
+)
+ident(
+  def of_int "mpzf.ml" 24 576 576 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 22 551 564 "mpzf.ml" 22 551 574
+type(
+  int -> 'a Mpz.tt
+)
+ident(
+  ext_ref Mpz.of_int
+)
+"mpzf.ml" 24 576 580 "mpzf.ml" 24 576 589
+type(
+  'a Mpz.tt -> string
+)
+ident(
+  def to_string "mpzf.ml" 25 606 606 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 24 576 592 "mpzf.ml" 24 576 605
+type(
+  'a Mpz.tt -> string
+)
+ident(
+  ext_ref Mpz.to_string
+)
+"mpzf.ml" 25 606 610 "mpzf.ml" 25 606 618
+type(
+  'a Mpz.tt -> float
+)
+ident(
+  def to_float "mpzf.ml" 27 635 635 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 25 606 621 "mpzf.ml" 25 606 633
+type(
+  'a Mpz.tt -> float
+)
+ident(
+  ext_ref Mpz.to_float
+)
+"mpzf.ml" 27 635 639 "mpzf.ml" 27 635 644
+type(
+  Format.formatter -> 'a Mpz.tt -> unit
+)
+ident(
+  def print "mpzf.ml" 29 658 658 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 27 635 647 "mpzf.ml" 27 635 656
+type(
+  Format.formatter -> 'a Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.print
+)
+"mpzf.ml" 29 658 662 "mpzf.ml" 29 658 667
+type(
+  (Mpz.m tt -> 'b -> unit) -> 'b -> t
+)
+ident(
+  def wrap1 "mpzf.ml" 33 747 747 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 29 658 669 "mpzf.ml" 29 658 670
+type(
+  Mpz.m tt -> 'b -> unit
+)
+ident(
+  def f "mpzf.ml" 29 658 693 "mpzf.ml" 32 735 746
+)
+"mpzf.ml" 29 658 693 "mpzf.ml" 29 658 694
+type(
+  'b
+)
+ident(
+  def t "mpzf.ml" 30 697 699 "mpzf.ml" 32 735 746
+)
+"mpzf.ml" 30 697 703 "mpzf.ml" 30 697 706
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def mpz "mpzf.ml" 31 724 726 "mpzf.ml" 32 735 746
+)
+"mpzf.ml" 30 697 709 "mpzf.ml" 30 697 717
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpzf.ml" 30 697 718 "mpzf.ml" 30 697 720
+type(
+  unit
+)
+"mpzf.ml" 30 697 709 "mpzf.ml" 30 697 720
+type(
+  Mpz.m Mpz.tt
+)
+"mpzf.ml" 31 724 726 "mpzf.ml" 31 724 727
+type(
+  Mpz.m tt -> 'b -> unit
+)
+ident(
+  int_ref f "mpzf.ml" 29 658 669 "mpzf.ml" 29 658 670
+)
+"mpzf.ml" 31 724 728 "mpzf.ml" 31 724 731
+type(
+  Mpz.m tt
+)
+ident(
+  int_ref mpz "mpzf.ml" 30 697 703 "mpzf.ml" 30 697 706
+)
+"mpzf.ml" 31 724 732 "mpzf.ml" 31 724 733
+type(
+  'b
+)
+ident(
+  int_ref t "mpzf.ml" 29 658 693 "mpzf.ml" 29 658 694
+)
+"mpzf.ml" 31 724 726 "mpzf.ml" 31 724 733
+call(
+  stack
+)
+type(
+  unit
+)
+"mpzf.ml" 32 735 737 "mpzf.ml" 32 735 742
+type(
+  Mpz.t -> t
+)
+ident(
+  int_ref _mpzf "mpzf.ml" 15 404 408 "mpzf.ml" 15 404 413
+)
+"mpzf.ml" 32 735 743 "mpzf.ml" 32 735 746
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz "mpzf.ml" 30 697 703 "mpzf.ml" 30 697 706
+)
+"mpzf.ml" 32 735 737 "mpzf.ml" 32 735 746
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 31 724 726 "mpzf.ml" 32 735 746
+type(
+  t
+)
+"mpzf.ml" 30 697 699 "mpzf.ml" 32 735 746
+type(
+  t
+)
+"mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+type(
+  (Mpz.m tt -> 'b -> 'c -> unit) -> 'b -> 'c -> t
+)
+ident(
+  def wrap2 "mpzf.ml" 37 856 856 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 33 747 758 "mpzf.ml" 33 747 759
+type(
+  Mpz.m tt -> 'b -> 'c -> unit
+)
+ident(
+  def f "mpzf.ml" 33 747 788 "mpzf.ml" 36 842 855
+)
+"mpzf.ml" 33 747 788 "mpzf.ml" 33 747 790
+type(
+  'b
+)
+ident(
+  def t1 "mpzf.ml" 33 747 791 "mpzf.ml" 36 842 855
+)
+"mpzf.ml" 33 747 791 "mpzf.ml" 33 747 793
+type(
+  'c
+)
+ident(
+  def t2 "mpzf.ml" 34 796 800 "mpzf.ml" 36 842 855
+)
+"mpzf.ml" 34 796 804 "mpzf.ml" 34 796 807
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def mpz "mpzf.ml" 35 825 829 "mpzf.ml" 36 842 855
+)
+"mpzf.ml" 34 796 810 "mpzf.ml" 34 796 818
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpzf.ml" 34 796 819 "mpzf.ml" 34 796 821
+type(
+  unit
+)
+"mpzf.ml" 34 796 810 "mpzf.ml" 34 796 821
+type(
+  Mpz.m Mpz.tt
+)
+"mpzf.ml" 35 825 829 "mpzf.ml" 35 825 830
+type(
+  Mpz.m tt -> 'b -> 'c -> unit
+)
+ident(
+  int_ref f "mpzf.ml" 33 747 758 "mpzf.ml" 33 747 759
+)
+"mpzf.ml" 35 825 831 "mpzf.ml" 35 825 834
+type(
+  Mpz.m tt
+)
+ident(
+  int_ref mpz "mpzf.ml" 34 796 804 "mpzf.ml" 34 796 807
+)
+"mpzf.ml" 35 825 835 "mpzf.ml" 35 825 837
+type(
+  'b
+)
+ident(
+  int_ref t1 "mpzf.ml" 33 747 788 "mpzf.ml" 33 747 790
+)
+"mpzf.ml" 35 825 838 "mpzf.ml" 35 825 840
+type(
+  'c
+)
+ident(
+  int_ref t2 "mpzf.ml" 33 747 791 "mpzf.ml" 33 747 793
+)
+"mpzf.ml" 35 825 829 "mpzf.ml" 35 825 840
+call(
+  stack
+)
+type(
+  unit
+)
+"mpzf.ml" 36 842 846 "mpzf.ml" 36 842 851
+type(
+  Mpz.t -> t
+)
+ident(
+  int_ref _mpzf "mpzf.ml" 15 404 408 "mpzf.ml" 15 404 413
+)
+"mpzf.ml" 36 842 852 "mpzf.ml" 36 842 855
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz "mpzf.ml" 34 796 804 "mpzf.ml" 34 796 807
+)
+"mpzf.ml" 36 842 846 "mpzf.ml" 36 842 855
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 35 825 829 "mpzf.ml" 36 842 855
+type(
+  t
+)
+"mpzf.ml" 34 796 800 "mpzf.ml" 36 842 855
+type(
+  t
+)
+"mpzf.ml" 37 856 860 "mpzf.ml" 37 856 866
+type(
+  (Mpz.m tt -> Mpz.m tt -> 'c -> 'd -> unit) -> 'c -> 'd -> t * t
+)
+ident(
+  def wrap22 "mpzf.ml" 43 1020 1020 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 37 856 868 "mpzf.ml" 37 856 869
+type(
+  Mpz.m tt -> Mpz.m tt -> 'c -> 'd -> unit
+)
+ident(
+  def f "mpzf.ml" 37 856 907 "mpzf.ml" 41 992 1018
+)
+"mpzf.ml" 37 856 907 "mpzf.ml" 37 856 909
+type(
+  'c
+)
+ident(
+  def t1 "mpzf.ml" 37 856 910 "mpzf.ml" 41 992 1018
+)
+"mpzf.ml" 37 856 910 "mpzf.ml" 37 856 912
+type(
+  'd
+)
+ident(
+  def t2 "mpzf.ml" 38 915 917 "mpzf.ml" 41 992 1018
+)
+"mpzf.ml" 38 915 921 "mpzf.ml" 38 915 925
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def mpz1 "mpzf.ml" 39 943 945 "mpzf.ml" 41 992 1018
+)
+"mpzf.ml" 38 915 928 "mpzf.ml" 38 915 936
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpzf.ml" 38 915 937 "mpzf.ml" 38 915 939
+type(
+  unit
+)
+"mpzf.ml" 38 915 928 "mpzf.ml" 38 915 939
+type(
+  Mpz.m Mpz.tt
+)
+"mpzf.ml" 39 943 949 "mpzf.ml" 39 943 953
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def mpz2 "mpzf.ml" 40 971 973 "mpzf.ml" 41 992 1018
+)
+"mpzf.ml" 39 943 956 "mpzf.ml" 39 943 964
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpzf.ml" 39 943 965 "mpzf.ml" 39 943 967
+type(
+  unit
+)
+"mpzf.ml" 39 943 956 "mpzf.ml" 39 943 967
+type(
+  Mpz.m Mpz.tt
+)
+"mpzf.ml" 40 971 973 "mpzf.ml" 40 971 974
+type(
+  Mpz.m tt -> Mpz.m tt -> 'c -> 'd -> unit
+)
+ident(
+  int_ref f "mpzf.ml" 37 856 868 "mpzf.ml" 37 856 869
+)
+"mpzf.ml" 40 971 975 "mpzf.ml" 40 971 979
+type(
+  Mpz.m tt
+)
+ident(
+  int_ref mpz1 "mpzf.ml" 38 915 921 "mpzf.ml" 38 915 925
+)
+"mpzf.ml" 40 971 980 "mpzf.ml" 40 971 984
+type(
+  Mpz.m tt
+)
+ident(
+  int_ref mpz2 "mpzf.ml" 39 943 949 "mpzf.ml" 39 943 953
+)
+"mpzf.ml" 40 971 985 "mpzf.ml" 40 971 987
+type(
+  'c
+)
+ident(
+  int_ref t1 "mpzf.ml" 37 856 907 "mpzf.ml" 37 856 909
+)
+"mpzf.ml" 40 971 988 "mpzf.ml" 40 971 990
+type(
+  'd
+)
+ident(
+  int_ref t2 "mpzf.ml" 37 856 910 "mpzf.ml" 37 856 912
+)
+"mpzf.ml" 40 971 973 "mpzf.ml" 40 971 990
+call(
+  stack
+)
+type(
+  unit
+)
+"mpzf.ml" 41 992 995 "mpzf.ml" 41 992 1000
+type(
+  Mpz.t -> t
+)
+ident(
+  int_ref _mpzf "mpzf.ml" 15 404 408 "mpzf.ml" 15 404 413
+)
+"mpzf.ml" 41 992 1001 "mpzf.ml" 41 992 1005
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz1 "mpzf.ml" 38 915 921 "mpzf.ml" 38 915 925
+)
+"mpzf.ml" 41 992 995 "mpzf.ml" 41 992 1005
+call(
+  stack
+)
+type(
+  t
+)
+"mpzf.ml" 41 992 1007 "mpzf.ml" 41 992 1012
+type(
+  Mpz.t -> t
+)
+ident(
+  int_ref _mpzf "mpzf.ml" 15 404 408 "mpzf.ml" 15 404 413
+)
+"mpzf.ml" 41 992 1013 "mpzf.ml" 41 992 1017
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz2 "mpzf.ml" 39 943 949 "mpzf.ml" 39 943 953
+)
+"mpzf.ml" 41 992 1007 "mpzf.ml" 41 992 1017
+call(
+  stack
+)
+type(
+  t
+)
+"mpzf.ml" 41 992 994 "mpzf.ml" 41 992 1018
+type(
+  t * t
+)
+"mpzf.ml" 40 971 973 "mpzf.ml" 41 992 1018
+type(
+  t * t
+)
+"mpzf.ml" 39 943 945 "mpzf.ml" 41 992 1018
+type(
+  t * t
+)
+"mpzf.ml" 38 915 917 "mpzf.ml" 41 992 1018
+type(
+  t * t
+)
+"mpzf.ml" 43 1020 1024 "mpzf.ml" 43 1020 1027
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def add "mpzf.ml" 44 1052 1052 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 43 1020 1028 "mpzf.ml" 43 1020 1029
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 43 1020 1030 "mpzf.ml" 43 1020 1051
+)
+"mpzf.ml" 43 1020 1030 "mpzf.ml" 43 1020 1031
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 43 1020 1034 "mpzf.ml" 43 1020 1051
+)
+"mpzf.ml" 43 1020 1034 "mpzf.ml" 43 1020 1039
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 43 1020 1040 "mpzf.ml" 43 1020 1047
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.add
+)
+"mpzf.ml" 43 1020 1048 "mpzf.ml" 43 1020 1049
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 43 1020 1028 "mpzf.ml" 43 1020 1029
+)
+"mpzf.ml" 43 1020 1050 "mpzf.ml" 43 1020 1051
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 43 1020 1030 "mpzf.ml" 43 1020 1031
+)
+"mpzf.ml" 43 1020 1034 "mpzf.ml" 43 1020 1051
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 44 1052 1056 "mpzf.ml" 44 1052 1063
+type(
+  'a Mpz.tt -> int -> t
+)
+ident(
+  def add_int "mpzf.ml" 51 1176 1176 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 44 1052 1064 "mpzf.ml" 44 1052 1065
+type(
+  'a Mpz.tt
+)
+ident(
+  def z "mpzf.ml" 44 1052 1066 "mpzf.ml" 50 1164 1175
+)
+"mpzf.ml" 44 1052 1066 "mpzf.ml" 44 1052 1067
+type(
+  int
+)
+ident(
+  def n "mpzf.ml" 45 1070 1072 "mpzf.ml" 50 1164 1175
+)
+"mpzf.ml" 45 1070 1076 "mpzf.ml" 45 1070 1079
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def mpz "mpzf.ml" 46 1096 1098 "mpzf.ml" 50 1164 1175
+)
+"mpzf.ml" 45 1070 1082 "mpzf.ml" 45 1070 1090
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpzf.ml" 45 1070 1090 "mpzf.ml" 45 1070 1092
+type(
+  unit
+)
+"mpzf.ml" 45 1070 1082 "mpzf.ml" 45 1070 1092
+type(
+  Mpz.m Mpz.tt
+)
+"mpzf.ml" 46 1096 1101 "mpzf.ml" 46 1096 1102
+type(
+  int
+)
+ident(
+  int_ref n "mpzf.ml" 44 1052 1066 "mpzf.ml" 44 1052 1067
+)
+"mpzf.ml" 46 1096 1102 "mpzf.ml" 46 1096 1103
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"mpzf.ml" 46 1096 1103 "mpzf.ml" 46 1096 1104
+type(
+  int
+)
+"mpzf.ml" 46 1096 1101 "mpzf.ml" 46 1096 1104
+type(
+  bool
+)
+"mpzf.ml" 47 1105 1112 "mpzf.ml" 47 1105 1122
+type(
+  Mpz.t -> 'a Mpz.tt -> int -> unit
+)
+ident(
+  ext_ref Mpz.add_ui
+)
+"mpzf.ml" 47 1105 1123 "mpzf.ml" 47 1105 1126
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz "mpzf.ml" 45 1070 1076 "mpzf.ml" 45 1070 1079
+)
+"mpzf.ml" 47 1105 1127 "mpzf.ml" 47 1105 1128
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref z "mpzf.ml" 44 1052 1064 "mpzf.ml" 44 1052 1065
+)
+"mpzf.ml" 47 1105 1129 "mpzf.ml" 47 1105 1130
+type(
+  int
+)
+ident(
+  int_ref n "mpzf.ml" 44 1052 1066 "mpzf.ml" 44 1052 1067
+)
+"mpzf.ml" 47 1105 1112 "mpzf.ml" 47 1105 1130
+type(
+  unit
+)
+"mpzf.ml" 48 1131 1138 "mpzf.ml" 48 1131 1148
+type(
+  Mpz.t -> 'a Mpz.tt -> int -> unit
+)
+ident(
+  ext_ref Mpz.sub_ui
+)
+"mpzf.ml" 48 1131 1149 "mpzf.ml" 48 1131 1152
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz "mpzf.ml" 45 1070 1076 "mpzf.ml" 45 1070 1079
+)
+"mpzf.ml" 48 1131 1153 "mpzf.ml" 48 1131 1154
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref z "mpzf.ml" 44 1052 1064 "mpzf.ml" 44 1052 1065
+)
+"mpzf.ml" 48 1131 1156 "mpzf.ml" 48 1131 1157
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"mpzf.ml" 48 1131 1157 "mpzf.ml" 48 1131 1158
+type(
+  int
+)
+ident(
+  int_ref n "mpzf.ml" 44 1052 1066 "mpzf.ml" 44 1052 1067
+)
+"mpzf.ml" 48 1131 1155 "mpzf.ml" 48 1131 1159
+type(
+  int
+)
+"mpzf.ml" 48 1131 1138 "mpzf.ml" 48 1131 1159
+type(
+  unit
+)
+"mpzf.ml" 46 1096 1098 "mpzf.ml" 48 1131 1159
+type(
+  unit
+)
+"mpzf.ml" 50 1164 1166 "mpzf.ml" 50 1164 1171
+type(
+  Mpz.t -> t
+)
+ident(
+  int_ref _mpzf "mpzf.ml" 15 404 408 "mpzf.ml" 15 404 413
+)
+"mpzf.ml" 50 1164 1172 "mpzf.ml" 50 1164 1175
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz "mpzf.ml" 45 1070 1076 "mpzf.ml" 45 1070 1079
+)
+"mpzf.ml" 50 1164 1166 "mpzf.ml" 50 1164 1175
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 46 1096 1098 "mpzf.ml" 50 1164 1175
+type(
+  t
+)
+"mpzf.ml" 45 1070 1072 "mpzf.ml" 50 1164 1175
+type(
+  t
+)
+"mpzf.ml" 51 1176 1180 "mpzf.ml" 51 1176 1183
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def sub "mpzf.ml" 52 1208 1208 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 51 1176 1184 "mpzf.ml" 51 1176 1185
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 51 1176 1186 "mpzf.ml" 51 1176 1207
+)
+"mpzf.ml" 51 1176 1186 "mpzf.ml" 51 1176 1187
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 51 1176 1190 "mpzf.ml" 51 1176 1207
+)
+"mpzf.ml" 51 1176 1190 "mpzf.ml" 51 1176 1195
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 51 1176 1196 "mpzf.ml" 51 1176 1203
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.sub
+)
+"mpzf.ml" 51 1176 1204 "mpzf.ml" 51 1176 1205
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 51 1176 1184 "mpzf.ml" 51 1176 1185
+)
+"mpzf.ml" 51 1176 1206 "mpzf.ml" 51 1176 1207
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 51 1176 1186 "mpzf.ml" 51 1176 1187
+)
+"mpzf.ml" 51 1176 1190 "mpzf.ml" 51 1176 1207
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 52 1208 1212 "mpzf.ml" 52 1208 1219
+type(
+  'a Mpz.tt -> int -> t
+)
+ident(
+  def sub_int "mpzf.ml" 59 1332 1332 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 52 1208 1220 "mpzf.ml" 52 1208 1221
+type(
+  'a Mpz.tt
+)
+ident(
+  def z "mpzf.ml" 52 1208 1222 "mpzf.ml" 58 1320 1331
+)
+"mpzf.ml" 52 1208 1222 "mpzf.ml" 52 1208 1223
+type(
+  int
+)
+ident(
+  def n "mpzf.ml" 53 1226 1228 "mpzf.ml" 58 1320 1331
+)
+"mpzf.ml" 53 1226 1232 "mpzf.ml" 53 1226 1235
+type(
+  Mpz.m Mpz.tt
+)
+ident(
+  def mpz "mpzf.ml" 54 1252 1254 "mpzf.ml" 58 1320 1331
+)
+"mpzf.ml" 53 1226 1238 "mpzf.ml" 53 1226 1246
+type(
+  unit -> Mpz.m Mpz.tt
+)
+ident(
+  ext_ref Mpz.init
+)
+"mpzf.ml" 53 1226 1246 "mpzf.ml" 53 1226 1248
+type(
+  unit
+)
+"mpzf.ml" 53 1226 1238 "mpzf.ml" 53 1226 1248
+type(
+  Mpz.m Mpz.tt
+)
+"mpzf.ml" 54 1252 1257 "mpzf.ml" 54 1252 1258
+type(
+  int
+)
+ident(
+  int_ref n "mpzf.ml" 52 1208 1222 "mpzf.ml" 52 1208 1223
+)
+"mpzf.ml" 54 1252 1258 "mpzf.ml" 54 1252 1259
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"mpzf.ml" 54 1252 1259 "mpzf.ml" 54 1252 1260
+type(
+  int
+)
+"mpzf.ml" 54 1252 1257 "mpzf.ml" 54 1252 1260
+type(
+  bool
+)
+"mpzf.ml" 55 1261 1268 "mpzf.ml" 55 1261 1278
+type(
+  Mpz.t -> 'a Mpz.tt -> int -> unit
+)
+ident(
+  ext_ref Mpz.sub_ui
+)
+"mpzf.ml" 55 1261 1279 "mpzf.ml" 55 1261 1282
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz "mpzf.ml" 53 1226 1232 "mpzf.ml" 53 1226 1235
+)
+"mpzf.ml" 55 1261 1283 "mpzf.ml" 55 1261 1284
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref z "mpzf.ml" 52 1208 1220 "mpzf.ml" 52 1208 1221
+)
+"mpzf.ml" 55 1261 1285 "mpzf.ml" 55 1261 1286
+type(
+  int
+)
+ident(
+  int_ref n "mpzf.ml" 52 1208 1222 "mpzf.ml" 52 1208 1223
+)
+"mpzf.ml" 55 1261 1268 "mpzf.ml" 55 1261 1286
+type(
+  unit
+)
+"mpzf.ml" 56 1287 1294 "mpzf.ml" 56 1287 1304
+type(
+  Mpz.t -> 'a Mpz.tt -> int -> unit
+)
+ident(
+  ext_ref Mpz.add_ui
+)
+"mpzf.ml" 56 1287 1305 "mpzf.ml" 56 1287 1308
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz "mpzf.ml" 53 1226 1232 "mpzf.ml" 53 1226 1235
+)
+"mpzf.ml" 56 1287 1309 "mpzf.ml" 56 1287 1310
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref z "mpzf.ml" 52 1208 1220 "mpzf.ml" 52 1208 1221
+)
+"mpzf.ml" 56 1287 1312 "mpzf.ml" 56 1287 1313
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"mpzf.ml" 56 1287 1313 "mpzf.ml" 56 1287 1314
+type(
+  int
+)
+ident(
+  int_ref n "mpzf.ml" 52 1208 1222 "mpzf.ml" 52 1208 1223
+)
+"mpzf.ml" 56 1287 1311 "mpzf.ml" 56 1287 1315
+type(
+  int
+)
+"mpzf.ml" 56 1287 1294 "mpzf.ml" 56 1287 1315
+type(
+  unit
+)
+"mpzf.ml" 54 1252 1254 "mpzf.ml" 56 1287 1315
+type(
+  unit
+)
+"mpzf.ml" 58 1320 1322 "mpzf.ml" 58 1320 1327
+type(
+  Mpz.t -> t
+)
+ident(
+  int_ref _mpzf "mpzf.ml" 15 404 408 "mpzf.ml" 15 404 413
+)
+"mpzf.ml" 58 1320 1328 "mpzf.ml" 58 1320 1331
+type(
+  Mpz.t
+)
+ident(
+  int_ref mpz "mpzf.ml" 53 1226 1232 "mpzf.ml" 53 1226 1235
+)
+"mpzf.ml" 58 1320 1322 "mpzf.ml" 58 1320 1331
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 54 1252 1254 "mpzf.ml" 58 1320 1331
+type(
+  t
+)
+"mpzf.ml" 53 1226 1228 "mpzf.ml" 58 1320 1331
+type(
+  t
+)
+"mpzf.ml" 59 1332 1336 "mpzf.ml" 59 1332 1339
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def mul "mpzf.ml" 60 1364 1364 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 59 1332 1340 "mpzf.ml" 59 1332 1341
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 59 1332 1342 "mpzf.ml" 59 1332 1363
+)
+"mpzf.ml" 59 1332 1342 "mpzf.ml" 59 1332 1343
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 59 1332 1346 "mpzf.ml" 59 1332 1363
+)
+"mpzf.ml" 59 1332 1346 "mpzf.ml" 59 1332 1351
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 59 1332 1352 "mpzf.ml" 59 1332 1359
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.mul
+)
+"mpzf.ml" 59 1332 1360 "mpzf.ml" 59 1332 1361
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 59 1332 1340 "mpzf.ml" 59 1332 1341
+)
+"mpzf.ml" 59 1332 1362 "mpzf.ml" 59 1332 1363
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 59 1332 1342 "mpzf.ml" 59 1332 1343
+)
+"mpzf.ml" 59 1332 1346 "mpzf.ml" 59 1332 1363
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 60 1364 1368 "mpzf.ml" 60 1364 1375
+type(
+  'a Mpz.tt -> int -> t
+)
+ident(
+  def mul_int "mpzf.ml" 61 1403 1403 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 60 1364 1376 "mpzf.ml" 60 1364 1377
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 60 1364 1378 "mpzf.ml" 60 1364 1402
+)
+"mpzf.ml" 60 1364 1378 "mpzf.ml" 60 1364 1379
+type(
+  int
+)
+ident(
+  def y "mpzf.ml" 60 1364 1382 "mpzf.ml" 60 1364 1402
+)
+"mpzf.ml" 60 1364 1382 "mpzf.ml" 60 1364 1387
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> int -> unit) -> 'a Mpz.tt -> int -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 60 1364 1388 "mpzf.ml" 60 1364 1398
+type(
+  Mpz.m tt -> 'a Mpz.tt -> int -> unit
+)
+ident(
+  ext_ref Mpz.mul_si
+)
+"mpzf.ml" 60 1364 1399 "mpzf.ml" 60 1364 1400
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 60 1364 1376 "mpzf.ml" 60 1364 1377
+)
+"mpzf.ml" 60 1364 1401 "mpzf.ml" 60 1364 1402
+type(
+  int
+)
+ident(
+  int_ref y "mpzf.ml" 60 1364 1378 "mpzf.ml" 60 1364 1379
+)
+"mpzf.ml" 60 1364 1382 "mpzf.ml" 60 1364 1402
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 61 1403 1407 "mpzf.ml" 61 1403 1413
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def cdiv_q "mpzf.ml" 62 1441 1441 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 61 1403 1414 "mpzf.ml" 61 1403 1415
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 61 1403 1416 "mpzf.ml" 61 1403 1440
+)
+"mpzf.ml" 61 1403 1416 "mpzf.ml" 61 1403 1417
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 61 1403 1420 "mpzf.ml" 61 1403 1440
+)
+"mpzf.ml" 61 1403 1420 "mpzf.ml" 61 1403 1425
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 61 1403 1426 "mpzf.ml" 61 1403 1436
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.cdiv_q
+)
+"mpzf.ml" 61 1403 1437 "mpzf.ml" 61 1403 1438
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 61 1403 1414 "mpzf.ml" 61 1403 1415
+)
+"mpzf.ml" 61 1403 1439 "mpzf.ml" 61 1403 1440
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 61 1403 1416 "mpzf.ml" 61 1403 1417
+)
+"mpzf.ml" 61 1403 1420 "mpzf.ml" 61 1403 1440
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 62 1441 1445 "mpzf.ml" 62 1441 1451
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def cdiv_r "mpzf.ml" 63 1479 1479 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 62 1441 1452 "mpzf.ml" 62 1441 1453
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 62 1441 1454 "mpzf.ml" 62 1441 1478
+)
+"mpzf.ml" 62 1441 1454 "mpzf.ml" 62 1441 1455
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 62 1441 1458 "mpzf.ml" 62 1441 1478
+)
+"mpzf.ml" 62 1441 1458 "mpzf.ml" 62 1441 1463
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 62 1441 1464 "mpzf.ml" 62 1441 1474
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.cdiv_r
+)
+"mpzf.ml" 62 1441 1475 "mpzf.ml" 62 1441 1476
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 62 1441 1452 "mpzf.ml" 62 1441 1453
+)
+"mpzf.ml" 62 1441 1477 "mpzf.ml" 62 1441 1478
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 62 1441 1454 "mpzf.ml" 62 1441 1455
+)
+"mpzf.ml" 62 1441 1458 "mpzf.ml" 62 1441 1478
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 63 1479 1483 "mpzf.ml" 63 1479 1490
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t * t
+)
+ident(
+  def cdiv_qr "mpzf.ml" 64 1520 1520 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 63 1479 1491 "mpzf.ml" 63 1479 1492
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 63 1479 1493 "mpzf.ml" 63 1479 1519
+)
+"mpzf.ml" 63 1479 1493 "mpzf.ml" 63 1479 1494
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 63 1479 1497 "mpzf.ml" 63 1479 1519
+)
+"mpzf.ml" 63 1479 1497 "mpzf.ml" 63 1479 1503
+type(
+  (Mpz.m tt -> Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) ->
+  'a Mpz.tt -> 'b Mpz.tt -> t * t
+)
+ident(
+  int_ref wrap22 "mpzf.ml" 37 856 860 "mpzf.ml" 37 856 866
+)
+"mpzf.ml" 63 1479 1504 "mpzf.ml" 63 1479 1515
+type(
+  Mpz.m tt -> Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.cdiv_qr
+)
+"mpzf.ml" 63 1479 1516 "mpzf.ml" 63 1479 1517
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 63 1479 1491 "mpzf.ml" 63 1479 1492
+)
+"mpzf.ml" 63 1479 1518 "mpzf.ml" 63 1479 1519
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 63 1479 1493 "mpzf.ml" 63 1479 1494
+)
+"mpzf.ml" 63 1479 1497 "mpzf.ml" 63 1479 1519
+call(
+  tail
+)
+type(
+  t * t
+)
+"mpzf.ml" 64 1520 1524 "mpzf.ml" 64 1520 1530
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def fdiv_q "mpzf.ml" 65 1558 1558 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 64 1520 1531 "mpzf.ml" 64 1520 1532
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 64 1520 1533 "mpzf.ml" 64 1520 1557
+)
+"mpzf.ml" 64 1520 1533 "mpzf.ml" 64 1520 1534
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 64 1520 1537 "mpzf.ml" 64 1520 1557
+)
+"mpzf.ml" 64 1520 1537 "mpzf.ml" 64 1520 1542
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 64 1520 1543 "mpzf.ml" 64 1520 1553
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.fdiv_q
+)
+"mpzf.ml" 64 1520 1554 "mpzf.ml" 64 1520 1555
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 64 1520 1531 "mpzf.ml" 64 1520 1532
+)
+"mpzf.ml" 64 1520 1556 "mpzf.ml" 64 1520 1557
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 64 1520 1533 "mpzf.ml" 64 1520 1534
+)
+"mpzf.ml" 64 1520 1537 "mpzf.ml" 64 1520 1557
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 65 1558 1562 "mpzf.ml" 65 1558 1568
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def fdiv_r "mpzf.ml" 66 1596 1596 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 65 1558 1569 "mpzf.ml" 65 1558 1570
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 65 1558 1571 "mpzf.ml" 65 1558 1595
+)
+"mpzf.ml" 65 1558 1571 "mpzf.ml" 65 1558 1572
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 65 1558 1575 "mpzf.ml" 65 1558 1595
+)
+"mpzf.ml" 65 1558 1575 "mpzf.ml" 65 1558 1580
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 65 1558 1581 "mpzf.ml" 65 1558 1591
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.fdiv_r
+)
+"mpzf.ml" 65 1558 1592 "mpzf.ml" 65 1558 1593
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 65 1558 1569 "mpzf.ml" 65 1558 1570
+)
+"mpzf.ml" 65 1558 1594 "mpzf.ml" 65 1558 1595
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 65 1558 1571 "mpzf.ml" 65 1558 1572
+)
+"mpzf.ml" 65 1558 1575 "mpzf.ml" 65 1558 1595
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 66 1596 1600 "mpzf.ml" 66 1596 1607
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t * t
+)
+ident(
+  def fdiv_qr "mpzf.ml" 67 1637 1637 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 66 1596 1608 "mpzf.ml" 66 1596 1609
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 66 1596 1610 "mpzf.ml" 66 1596 1636
+)
+"mpzf.ml" 66 1596 1610 "mpzf.ml" 66 1596 1611
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 66 1596 1614 "mpzf.ml" 66 1596 1636
+)
+"mpzf.ml" 66 1596 1614 "mpzf.ml" 66 1596 1620
+type(
+  (Mpz.m tt -> Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) ->
+  'a Mpz.tt -> 'b Mpz.tt -> t * t
+)
+ident(
+  int_ref wrap22 "mpzf.ml" 37 856 860 "mpzf.ml" 37 856 866
+)
+"mpzf.ml" 66 1596 1621 "mpzf.ml" 66 1596 1632
+type(
+  Mpz.m tt -> Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.fdiv_qr
+)
+"mpzf.ml" 66 1596 1633 "mpzf.ml" 66 1596 1634
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 66 1596 1608 "mpzf.ml" 66 1596 1609
+)
+"mpzf.ml" 66 1596 1635 "mpzf.ml" 66 1596 1636
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 66 1596 1610 "mpzf.ml" 66 1596 1611
+)
+"mpzf.ml" 66 1596 1614 "mpzf.ml" 66 1596 1636
+call(
+  tail
+)
+type(
+  t * t
+)
+"mpzf.ml" 67 1637 1641 "mpzf.ml" 67 1637 1647
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def tdiv_q "mpzf.ml" 68 1675 1675 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 67 1637 1648 "mpzf.ml" 67 1637 1649
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 67 1637 1650 "mpzf.ml" 67 1637 1674
+)
+"mpzf.ml" 67 1637 1650 "mpzf.ml" 67 1637 1651
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 67 1637 1654 "mpzf.ml" 67 1637 1674
+)
+"mpzf.ml" 67 1637 1654 "mpzf.ml" 67 1637 1659
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 67 1637 1660 "mpzf.ml" 67 1637 1670
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.tdiv_q
+)
+"mpzf.ml" 67 1637 1671 "mpzf.ml" 67 1637 1672
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 67 1637 1648 "mpzf.ml" 67 1637 1649
+)
+"mpzf.ml" 67 1637 1673 "mpzf.ml" 67 1637 1674
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 67 1637 1650 "mpzf.ml" 67 1637 1651
+)
+"mpzf.ml" 67 1637 1654 "mpzf.ml" 67 1637 1674
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 68 1675 1679 "mpzf.ml" 68 1675 1685
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def tdiv_r "mpzf.ml" 69 1713 1713 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 68 1675 1686 "mpzf.ml" 68 1675 1687
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 68 1675 1688 "mpzf.ml" 68 1675 1712
+)
+"mpzf.ml" 68 1675 1688 "mpzf.ml" 68 1675 1689
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 68 1675 1692 "mpzf.ml" 68 1675 1712
+)
+"mpzf.ml" 68 1675 1692 "mpzf.ml" 68 1675 1697
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 68 1675 1698 "mpzf.ml" 68 1675 1708
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.tdiv_r
+)
+"mpzf.ml" 68 1675 1709 "mpzf.ml" 68 1675 1710
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 68 1675 1686 "mpzf.ml" 68 1675 1687
+)
+"mpzf.ml" 68 1675 1711 "mpzf.ml" 68 1675 1712
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 68 1675 1688 "mpzf.ml" 68 1675 1689
+)
+"mpzf.ml" 68 1675 1692 "mpzf.ml" 68 1675 1712
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 69 1713 1717 "mpzf.ml" 69 1713 1724
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t * t
+)
+ident(
+  def tdiv_qr "mpzf.ml" 70 1754 1754 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 69 1713 1725 "mpzf.ml" 69 1713 1726
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 69 1713 1727 "mpzf.ml" 69 1713 1753
+)
+"mpzf.ml" 69 1713 1727 "mpzf.ml" 69 1713 1728
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 69 1713 1731 "mpzf.ml" 69 1713 1753
+)
+"mpzf.ml" 69 1713 1731 "mpzf.ml" 69 1713 1737
+type(
+  (Mpz.m tt -> Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) ->
+  'a Mpz.tt -> 'b Mpz.tt -> t * t
+)
+ident(
+  int_ref wrap22 "mpzf.ml" 37 856 860 "mpzf.ml" 37 856 866
+)
+"mpzf.ml" 69 1713 1738 "mpzf.ml" 69 1713 1749
+type(
+  Mpz.m tt -> Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.tdiv_qr
+)
+"mpzf.ml" 69 1713 1750 "mpzf.ml" 69 1713 1751
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 69 1713 1725 "mpzf.ml" 69 1713 1726
+)
+"mpzf.ml" 69 1713 1752 "mpzf.ml" 69 1713 1753
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 69 1713 1727 "mpzf.ml" 69 1713 1728
+)
+"mpzf.ml" 69 1713 1731 "mpzf.ml" 69 1713 1753
+call(
+  tail
+)
+type(
+  t * t
+)
+"mpzf.ml" 70 1754 1758 "mpzf.ml" 70 1754 1766
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def divexact "mpzf.ml" 71 1796 1796 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 70 1754 1767 "mpzf.ml" 70 1754 1768
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 70 1754 1769 "mpzf.ml" 70 1754 1795
+)
+"mpzf.ml" 70 1754 1769 "mpzf.ml" 70 1754 1770
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 70 1754 1773 "mpzf.ml" 70 1754 1795
+)
+"mpzf.ml" 70 1754 1773 "mpzf.ml" 70 1754 1778
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 70 1754 1779 "mpzf.ml" 70 1754 1791
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.divexact
+)
+"mpzf.ml" 70 1754 1792 "mpzf.ml" 70 1754 1793
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 70 1754 1767 "mpzf.ml" 70 1754 1768
+)
+"mpzf.ml" 70 1754 1794 "mpzf.ml" 70 1754 1795
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 70 1754 1769 "mpzf.ml" 70 1754 1770
+)
+"mpzf.ml" 70 1754 1773 "mpzf.ml" 70 1754 1795
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 71 1796 1800 "mpzf.ml" 71 1796 1804
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def gmod "mpzf.ml" 72 1830 1830 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 71 1796 1805 "mpzf.ml" 71 1796 1806
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 71 1796 1807 "mpzf.ml" 71 1796 1829
+)
+"mpzf.ml" 71 1796 1807 "mpzf.ml" 71 1796 1808
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 71 1796 1811 "mpzf.ml" 71 1796 1829
+)
+"mpzf.ml" 71 1796 1811 "mpzf.ml" 71 1796 1816
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 71 1796 1817 "mpzf.ml" 71 1796 1825
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.gmod
+)
+"mpzf.ml" 71 1796 1826 "mpzf.ml" 71 1796 1827
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 71 1796 1805 "mpzf.ml" 71 1796 1806
+)
+"mpzf.ml" 71 1796 1828 "mpzf.ml" 71 1796 1829
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 71 1796 1807 "mpzf.ml" 71 1796 1808
+)
+"mpzf.ml" 71 1796 1811 "mpzf.ml" 71 1796 1829
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 72 1830 1834 "mpzf.ml" 72 1830 1837
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def gcd "mpzf.ml" 73 1862 1862 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 72 1830 1838 "mpzf.ml" 72 1830 1839
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 72 1830 1840 "mpzf.ml" 72 1830 1861
+)
+"mpzf.ml" 72 1830 1840 "mpzf.ml" 72 1830 1841
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 72 1830 1844 "mpzf.ml" 72 1830 1861
+)
+"mpzf.ml" 72 1830 1844 "mpzf.ml" 72 1830 1849
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 72 1830 1850 "mpzf.ml" 72 1830 1857
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.gcd
+)
+"mpzf.ml" 72 1830 1858 "mpzf.ml" 72 1830 1859
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 72 1830 1838 "mpzf.ml" 72 1830 1839
+)
+"mpzf.ml" 72 1830 1860 "mpzf.ml" 72 1830 1861
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 72 1830 1840 "mpzf.ml" 72 1830 1841
+)
+"mpzf.ml" 72 1830 1844 "mpzf.ml" 72 1830 1861
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 73 1862 1866 "mpzf.ml" 73 1862 1869
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  def lcm "mpzf.ml" 75 1895 1895 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 73 1862 1870 "mpzf.ml" 73 1862 1871
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 73 1862 1872 "mpzf.ml" 73 1862 1893
+)
+"mpzf.ml" 73 1862 1872 "mpzf.ml" 73 1862 1873
+type(
+  'b Mpz.tt
+)
+ident(
+  def y "mpzf.ml" 73 1862 1876 "mpzf.ml" 73 1862 1893
+)
+"mpzf.ml" 73 1862 1876 "mpzf.ml" 73 1862 1881
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit) -> 'a Mpz.tt -> 'b Mpz.tt -> t
+)
+ident(
+  int_ref wrap2 "mpzf.ml" 33 747 751 "mpzf.ml" 33 747 756
+)
+"mpzf.ml" 73 1862 1882 "mpzf.ml" 73 1862 1889
+type(
+  Mpz.m tt -> 'a Mpz.tt -> 'b Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.lcm
+)
+"mpzf.ml" 73 1862 1890 "mpzf.ml" 73 1862 1891
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 73 1862 1870 "mpzf.ml" 73 1862 1871
+)
+"mpzf.ml" 73 1862 1892 "mpzf.ml" 73 1862 1893
+type(
+  'b Mpz.tt
+)
+ident(
+  int_ref y "mpzf.ml" 73 1862 1872 "mpzf.ml" 73 1862 1873
+)
+"mpzf.ml" 73 1862 1876 "mpzf.ml" 73 1862 1893
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 75 1895 1899 "mpzf.ml" 75 1895 1902
+type(
+  'a Mpz.tt -> t
+)
+ident(
+  def neg "mpzf.ml" 76 1923 1923 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 75 1895 1903 "mpzf.ml" 75 1895 1904
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 75 1895 1907 "mpzf.ml" 75 1895 1922
+)
+"mpzf.ml" 75 1895 1907 "mpzf.ml" 75 1895 1912
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> unit) -> 'a Mpz.tt -> t
+)
+ident(
+  int_ref wrap1 "mpzf.ml" 29 658 662 "mpzf.ml" 29 658 667
+)
+"mpzf.ml" 75 1895 1913 "mpzf.ml" 75 1895 1920
+type(
+  Mpz.m tt -> 'a Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.neg
+)
+"mpzf.ml" 75 1895 1921 "mpzf.ml" 75 1895 1922
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 75 1895 1903 "mpzf.ml" 75 1895 1904
+)
+"mpzf.ml" 75 1895 1907 "mpzf.ml" 75 1895 1922
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 76 1923 1927 "mpzf.ml" 76 1923 1930
+type(
+  'a Mpz.tt -> t
+)
+ident(
+  def abs "mpzf.ml" 77 1951 1951 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 76 1923 1931 "mpzf.ml" 76 1923 1932
+type(
+  'a Mpz.tt
+)
+ident(
+  def x "mpzf.ml" 76 1923 1935 "mpzf.ml" 76 1923 1950
+)
+"mpzf.ml" 76 1923 1935 "mpzf.ml" 76 1923 1940
+type(
+  (Mpz.m tt -> 'a Mpz.tt -> unit) -> 'a Mpz.tt -> t
+)
+ident(
+  int_ref wrap1 "mpzf.ml" 29 658 662 "mpzf.ml" 29 658 667
+)
+"mpzf.ml" 76 1923 1941 "mpzf.ml" 76 1923 1948
+type(
+  Mpz.m tt -> 'a Mpz.tt -> unit
+)
+ident(
+  ext_ref Mpz.abs
+)
+"mpzf.ml" 76 1923 1949 "mpzf.ml" 76 1923 1950
+type(
+  'a Mpz.tt
+)
+ident(
+  int_ref x "mpzf.ml" 76 1923 1931 "mpzf.ml" 76 1923 1932
+)
+"mpzf.ml" 76 1923 1935 "mpzf.ml" 76 1923 1950
+call(
+  tail
+)
+type(
+  t
+)
+"mpzf.ml" 77 1951 1955 "mpzf.ml" 77 1951 1958
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> int
+)
+ident(
+  def cmp "mpzf.ml" 78 1969 1969 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 77 1951 1961 "mpzf.ml" 77 1951 1968
+type(
+  'a Mpz.tt -> 'b Mpz.tt -> int
+)
+ident(
+  ext_ref Mpz.cmp
+)
+"mpzf.ml" 78 1969 1973 "mpzf.ml" 78 1969 1980
+type(
+  'a Mpz.tt -> int -> int
+)
+ident(
+  def cmp_int "mpzf.ml" 79 1994 1994 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 78 1969 1983 "mpzf.ml" 78 1969 1993
+type(
+  'a Mpz.tt -> int -> int
+)
+ident(
+  ext_ref Mpz.cmp_si
+)
+"mpzf.ml" 79 1994 1998 "mpzf.ml" 79 1994 2001
+type(
+  'a Mpz.tt -> int
+)
+ident(
+  def sgn "mpzf.ml" 79 1994 2011 "mpzf.ml" 1 0 -1
+)
+"mpzf.ml" 79 1994 2004 "mpzf.ml" 79 1994 2011
+type(
+  'a Mpz.tt -> int
+)
+ident(
+  ext_ref Mpz.sgn
+)

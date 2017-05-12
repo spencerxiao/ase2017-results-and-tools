@@ -1,0 +1,26 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::i| () Int)
+
+main:
+(assert (= |main::x| (* 2 |main::y|)))
+
+main N6:
+(assert (<= |main::i| 0))
+(assert (<= 0 |main::i|))
+(assert (<= |main::i| 1))
+(assert (let ((.cse0 (- |main::i|))) (let ((.cse1 (let ((.cse4 (- 2))) (let ((.cse3 (* .cse4 (div |main::i| 2)))) (let ((.cse2 (+ |main::i| .cse3))) (ite (or (<= .cse0 0) (= .cse2 0)) .cse2 (+ |main::i| .cse3 .cse4))))))) (<= (* 2 (div (+ .cse0 .cse1) 2)) (+ .cse1 (- 1))))))
+(assert (<= (+ (div (let ((.cse0 (- |main::i|))) (+ .cse0 (let ((.cse3 (- 2))) (let ((.cse2 (* .cse3 (div |main::i| 2)))) (let ((.cse1 (+ |main::i| .cse2))) (ite (or (<= .cse0 0) (= .cse1 0)) .cse1 (+ |main::i| .cse2 .cse3))))))) 2) 1) 0))
+(assert (= (let ((.cse2 (- 2))) (let ((.cse1 (* .cse2 (div |main::i| 2)))) (let ((.cse0 (+ |main::i| .cse1))) (ite (or (<= (- |main::i|) 0) (= .cse0 0)) .cse0 (+ |main::i| .cse1 .cse2))))) 0))
+(assert (= |main::x| (* 2 |main::y|)))
+(assert (<= (* 2 |main::y|) |main::x|))
+(assert (<= |main::x| (* 2 |main::y|)))
+(assert (<= (* 2 |main::y|) (+ |main::x| (- 1))))
+(assert (<= |main::x| (+ (* 2 |main::y|) 1)))
+(assert (<= (+ (- |main::x|) (* 2 |main::y|)) 0))
+(assert (<= (+ (- |main::x|) (* 2 |main::y|) 1) 0))
+
+main N24:
+(assert false)
+(assert (= |main::x| (* 2 |main::y|)))
+

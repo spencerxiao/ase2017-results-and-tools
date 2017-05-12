@@ -1,0 +1,20 @@
+
+/* exact semantics:
+   if (n>=101) then n-10 else 91 */
+proc MC(n:int) returns (r:int)
+var t1:int, t2:int;
+begin
+  if (n>100) then
+     r = n-10;
+  else 
+     t1 = n + 8;
+     t2 = MC(t1);
+     r = MC(t2);
+  endif;
+end
+
+var
+a:int, b:int;
+begin
+  b = MC(a);
+end

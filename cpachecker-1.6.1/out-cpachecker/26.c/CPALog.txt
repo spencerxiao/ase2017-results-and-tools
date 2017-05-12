@@ -1,0 +1,16 @@
+2017-05-11 14:02:25:278	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 900s
+
+2017-05-11 14:02:25:300	INFO	CPAchecker.run	CPAchecker 1.6.1 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_101) started
+
+2017-05-11 14:02:25:905	INFO	PredicateCPA:PredicateCPA.<init>	Using predicate analysis with SMTInterpol 2.1-238-g1f06d6a-comp and JFactory 1.21.
+
+2017-05-11 14:02:25:934	INFO	PredicateCPA:InvariantsManager.<init>	No invariants are computed
+
+2017-05-11 14:02:25:973	INFO	PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.
+
+2017-05-11 14:02:25:983	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2017-05-11 14:05:44:935	WARNING	ForceTerminationOnShutdown$1.shutdownRequested	Shutdown requested (The JVM is shutting down, probably because Ctrl+C was pressed.), waiting for termination.
+
+2017-05-11 14:05:44:936	WARNING	ShutdownNotifier.shutdownIfNecessary	Warning: Analysis interrupted (The JVM is shutting down, probably because Ctrl+C was pressed.)
+

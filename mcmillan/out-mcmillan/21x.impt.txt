@@ -1,0 +1,23 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool-ase2017/IMP.cgt succesfully
+System Definition: 
+Verifying [((finish = 1) & (k <= n))]
+step is 4 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 7
+step is 7 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 11
+step is 11 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 18
+step is 18 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 27
+step is 27 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 60
+step is 60 (MathSAT)
+Interpolating...
+ABORT! Increase the number of steps: 105
+step is 105 (MathSAT)
+Interpolating...

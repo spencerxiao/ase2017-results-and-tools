@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (y >= 1)
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 18
+interp: (let ((.def_550 (<= y 0))) (let ((.def_558 (<= (+ x y) 0))) (not (or (and .def_558 (or .def_550 (and (<= 1 y) .def_558))) (and .def_550 (<= (to_real 1) (to_real (+ x (* (- 1) y)))))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

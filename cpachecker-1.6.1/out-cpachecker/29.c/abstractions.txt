@@ -1,0 +1,20 @@
+(declare-fun |main::d| () Int)
+(declare-fun |main::b| () Int)
+(declare-fun |main::c| () Int)
+(declare-fun |main::a| () Int)
+
+7 (9,8) @28:
+(assert (= (+ |main::a| |main::c|) (+ |main::b| |main::d|)))
+
+6 (7) @9:
+(assert (= (+ |main::a| |main::c|) (+ |main::b| |main::d|)))
+
+8 () @28:
+(assert (= (+ |main::a| |main::c|) (+ |main::b| |main::d|)))
+
+9 () @9:
+(assert (= (+ |main::a| |main::c|) (+ |main::b| |main::d|)))
+
+0 (6) @1:
+(assert true)
+

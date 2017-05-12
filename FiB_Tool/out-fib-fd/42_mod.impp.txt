@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((flag != 1) | ((a % 2) = 0))
+find an inductive invaraint based on concrete reachables
+invariant size: 74
+interp: (let ((.def_19 (= flag 1))) (let ((.def_996 (not (<= flag 0)))) (let ((.def_997 (not (<= 2 flag)))) (not (and .def_19 (and .def_996 (and .def_997 (or (and (and (not (and (<= 2 a) (<= a 2))) (not (<= (to_real (+ a (* (- 2) (to_int (* (/ 1 2) (to_real (* 1 a))))))) (to_real 0)))) (not (and (and (<= (to_real (- 4)) (to_real (+ x (+ y (+ (* (- 1) a) (* 2 (to_int (* (/ 1 2) (to_real (+ (* (- 1) y) (* (- 1) x))))))))))) (<= (to_real (+ x (+ y (+ (* (- 1) a) (* (- 2) (to_int (* (/ 1 2) (to_real (+ (* 1 y) (* 1 x)))))))))) (to_real (- 4)))) (<= (to_real 0) (to_real (+ x (+ y (* 2 (to_int (* (/ 1 2) (to_real (+ (* (- 1) y) (* (- 1) x))))))))))))) (and .def_996 (and .def_997 (and .def_19 (not (<= (to_real 0) (to_real (+ x (+ y (+ (* (- 1) a) (* 2 (to_int (* (/ 1 2) (to_real (+ (+ (* 1 a) (* (- 1) y)) (* (- 1) x)))))))))))))))))))))))
+The assertion is satisfied!
+forward [2] times, backtracks [1] times
+backward [1] times

@@ -1,0 +1,34 @@
+MODULE main
+	int a;
+	int j;
+	int m;
+
+	int finish;
+
+	assume(a == 0);
+	assume(m > 0);
+	assume(j == 1);
+	
+	assume(finish == 0);
+
+	while(j <= m){
+		if(*){
+			a = a + 1;
+		}
+		else{
+			a = a - 1;
+		}
+
+		j = j + 1;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	finish == 1 && a < -m;
+	finish == 1 && a > m;	

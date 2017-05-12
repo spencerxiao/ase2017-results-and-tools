@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((flag != 1) | (j = n))
+find an inductive invaraint  based on abstractions
+invariant size: 30
+interp: (let ((.def_23 (= flag 1))) (let ((.def_138 (<= 1 (+ b (* (- 1) j))))) (let ((.def_261 (<= (+ b (* (- 1) j)) (- 1)))) (not (or (and .def_23 .def_261) (and (or (and .def_23 (or .def_138 .def_261)) (and .def_23 (or (<= 1 (+ j (* (- 1) n))) .def_138))) (not (and (not (<= n b)) (and (not .def_138) (not .def_261))))))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

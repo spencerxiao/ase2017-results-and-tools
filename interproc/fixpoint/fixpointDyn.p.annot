@@ -1,0 +1,5582 @@
+"fixpointDyn.ml" 12 329 333 "fixpointDyn.ml" 12 329 343
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> 'vertex -> unit
+)
+ident(
+  def add_vertex "fixpointDyn.ml" 23 636 636 "fixpointDyn.ml" 1 0 -1
+)
+"fixpointDyn.ml" 13 344 349 "fixpointDyn.ml" 13 344 356
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointDyn.ml" 14 398 402 "fixpointDyn.ml" 21 595 634
+)
+"fixpointDyn.ml" 14 398 403 "fixpointDyn.ml" 14 398 408
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  def graph "fixpointDyn.ml" 15 448 452 "fixpointDyn.ml" 21 595 634
+)
+"fixpointDyn.ml" 15 448 453 "fixpointDyn.ml" 15 448 459
+type(
+  'vertex
+)
+ident(
+  def vertex "fixpointDyn.ml" 16 469 473 "fixpointDyn.ml" 21 595 634
+)
+"fixpointDyn.ml" 19 490 496 "fixpointDyn.ml" 19 490 502
+type(
+  'abstract
+)
+ident(
+  def bottom "fixpointDyn.ml" 20 530 532 "fixpointDyn.ml" 21 595 634
+)
+"fixpointDyn.ml" 19 490 505 "fixpointDyn.ml" 19 490 512
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 13 344 349 "fixpointDyn.ml" 13 344 356
+)
+"fixpointDyn.ml" 19 490 505 "fixpointDyn.ml" 19 490 519
+type(
+  'vertex -> 'abstract
+)
+"fixpointDyn.ml" 19 490 520 "fixpointDyn.ml" 19 490 526
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 15 448 453 "fixpointDyn.ml" 15 448 459
+)
+"fixpointDyn.ml" 19 490 505 "fixpointDyn.ml" 19 490 526
+call(
+  stack
+)
+type(
+  'abstract
+)
+"fixpointDyn.ml" 20 530 536 "fixpointDyn.ml" 20 530 540
+type(
+  'abstract FixpointType.attr
+)
+ident(
+  def attr "fixpointDyn.ml" 21 595 597 "fixpointDyn.ml" 21 595 634
+)
+"fixpointDyn.ml" 20 530 553 "fixpointDyn.ml" 20 530 559
+type(
+  'abstract
+)
+ident(
+  int_ref bottom "fixpointDyn.ml" 19 490 496 "fixpointDyn.ml" 19 490 502
+)
+"fixpointDyn.ml" 20 530 568 "fixpointDyn.ml" 20 530 574
+type(
+  'abstract
+)
+ident(
+  int_ref bottom "fixpointDyn.ml" 19 490 496 "fixpointDyn.ml" 19 490 502
+)
+"fixpointDyn.ml" 20 530 584 "fixpointDyn.ml" 20 530 588
+type(
+  bool
+)
+"fixpointDyn.ml" 20 530 543 "fixpointDyn.ml" 20 530 591
+type(
+  'abstract FixpointType.attr
+)
+"fixpointDyn.ml" 21 595 597 "fixpointDyn.ml" 21 595 616
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'vertex -> 'abstract FixpointType.attr -> unit
+)
+ident(
+  ext_ref PSHGraph.add_vertex
+)
+"fixpointDyn.ml" 21 595 617 "fixpointDyn.ml" 21 595 622
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 14 398 403 "fixpointDyn.ml" 14 398 408
+)
+"fixpointDyn.ml" 21 595 623 "fixpointDyn.ml" 21 595 629
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 15 448 453 "fixpointDyn.ml" 15 448 459
+)
+"fixpointDyn.ml" 21 595 630 "fixpointDyn.ml" 21 595 634
+type(
+  'abstract FixpointType.attr
+)
+ident(
+  int_ref attr "fixpointDyn.ml" 20 530 536 "fixpointDyn.ml" 20 530 540
+)
+"fixpointDyn.ml" 21 595 597 "fixpointDyn.ml" 21 595 634
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 20 530 532 "fixpointDyn.ml" 21 595 634
+type(
+  unit
+)
+"fixpointDyn.ml" 19 490 492 "fixpointDyn.ml" 21 595 634
+type(
+  unit
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 23 636 640 "fixpointDyn.ml" 23 636 649
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge -> pred:'vertex array -> succ:'vertex -> bool
+)
+ident(
+  def add_hedge "fixpointDyn.ml" 52 1328 1328 "fixpointDyn.ml" 1 0 -1
+)
+"fixpointDyn.ml" 24 650 655 "fixpointDyn.ml" 24 650 662
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointDyn.ml" 25 704 708 "fixpointDyn.ml" 47 1167 1176
+)
+"fixpointDyn.ml" 25 704 709 "fixpointDyn.ml" 25 704 714
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  def graph "fixpointDyn.ml" 26 754 758 "fixpointDyn.ml" 47 1167 1176
+)
+"fixpointDyn.ml" 26 754 759 "fixpointDyn.ml" 26 754 764
+type(
+  'hedge
+)
+ident(
+  def hedge "fixpointDyn.ml" 27 773 777 "fixpointDyn.ml" 47 1167 1176
+)
+"fixpointDyn.ml" 27 773 779 "fixpointDyn.ml" 27 773 783
+type(
+  'vertex array
+)
+ident(
+  def pred "fixpointDyn.ml" 28 799 803 "fixpointDyn.ml" 47 1167 1176
+)
+"fixpointDyn.ml" 28 799 805 "fixpointDyn.ml" 28 799 809
+type(
+  'vertex
+)
+ident(
+  def succ "fixpointDyn.ml" 29 819 823 "fixpointDyn.ml" 47 1167 1176
+)
+"fixpointDyn.ml" 32 840 849 "fixpointDyn.ml" 32 840 871
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'vertex array -> bool
+)
+ident(
+  ext_ref FixpointStd.is_tvertex
+)
+"fixpointDyn.ml" 32 840 872 "fixpointDyn.ml" 32 840 877
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 25 704 709 "fixpointDyn.ml" 25 704 714
+)
+"fixpointDyn.ml" 32 840 878 "fixpointDyn.ml" 32 840 882
+type(
+  'vertex array
+)
+ident(
+  int_ref pred "fixpointDyn.ml" 27 773 779 "fixpointDyn.ml" 27 773 783
+)
+"fixpointDyn.ml" 32 840 848 "fixpointDyn.ml" 32 840 883
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 32 840 842 "fixpointDyn.ml" 32 840 883
+type(
+  unit
+)
+"fixpointDyn.ml" 33 885 891 "fixpointDyn.ml" 33 885 898
+type(
+  bool
+)
+ident(
+  def newsucc "fixpointDyn.ml" 41 1031 1033 "fixpointDyn.ml" 47 1167 1176
+)
+"fixpointDyn.ml" 34 901 908 "fixpointDyn.ml" 34 901 926
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> 'vertex -> bool
+)
+ident(
+  ext_ref PSHGraph.is_vertex
+)
+"fixpointDyn.ml" 34 901 927 "fixpointDyn.ml" 34 901 932
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 25 704 709 "fixpointDyn.ml" 25 704 714
+)
+"fixpointDyn.ml" 34 901 933 "fixpointDyn.ml" 34 901 937
+type(
+  'vertex
+)
+ident(
+  int_ref succ "fixpointDyn.ml" 28 799 805 "fixpointDyn.ml" 28 799 809
+)
+"fixpointDyn.ml" 34 901 908 "fixpointDyn.ml" 34 901 937
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 35 943 949 "fixpointDyn.ml" 35 943 954
+type(
+  bool
+)
+"fixpointDyn.ml" 37 970 976 "fixpointDyn.ml" 37 970 986
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> 'vertex -> unit
+)
+ident(
+  int_ref add_vertex "fixpointDyn.ml" 12 329 333 "fixpointDyn.ml" 12 329 343
+)
+"fixpointDyn.ml" 37 970 987 "fixpointDyn.ml" 37 970 994
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 24 650 655 "fixpointDyn.ml" 24 650 662
+)
+"fixpointDyn.ml" 37 970 995 "fixpointDyn.ml" 37 970 1000
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 25 704 709 "fixpointDyn.ml" 25 704 714
+)
+"fixpointDyn.ml" 37 970 1001 "fixpointDyn.ml" 37 970 1005
+type(
+  'vertex
+)
+ident(
+  int_ref succ "fixpointDyn.ml" 28 799 805 "fixpointDyn.ml" 28 799 809
+)
+"fixpointDyn.ml" 37 970 976 "fixpointDyn.ml" 37 970 1005
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 38 1007 1013 "fixpointDyn.ml" 38 1007 1017
+type(
+  bool
+)
+"fixpointDyn.ml" 36 955 964 "fixpointDyn.ml" 39 1018 1025
+type(
+  bool
+)
+"fixpointDyn.ml" 34 901 905 "fixpointDyn.ml" 39 1018 1025
+type(
+  bool
+)
+"fixpointDyn.ml" 41 1031 1037 "fixpointDyn.ml" 41 1031 1040
+type(
+  'arc FixpointType.arc
+)
+ident(
+  def arc "fixpointDyn.ml" 46 1108 1110 "fixpointDyn.ml" 47 1167 1176
+)
+"fixpointDyn.ml" 42 1045 1055 "fixpointDyn.ml" 42 1045 1062
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 24 650 655 "fixpointDyn.ml" 24 650 662
+)
+"fixpointDyn.ml" 42 1045 1055 "fixpointDyn.ml" 42 1045 1071
+type(
+  'hedge -> 'arc
+)
+"fixpointDyn.ml" 42 1045 1072 "fixpointDyn.ml" 42 1045 1077
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 26 754 759 "fixpointDyn.ml" 26 754 764
+)
+"fixpointDyn.ml" 42 1045 1055 "fixpointDyn.ml" 42 1045 1077
+call(
+  stack
+)
+type(
+  'arc
+)
+"fixpointDyn.ml" 43 1079 1092 "fixpointDyn.ml" 43 1079 1097
+type(
+  bool
+)
+"fixpointDyn.ml" 41 1031 1043 "fixpointDyn.ml" 44 1099 1102
+type(
+  'arc FixpointType.arc
+)
+"fixpointDyn.ml" 46 1108 1110 "fixpointDyn.ml" 46 1108 1128
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge ->
+  'arc FixpointType.arc -> pred:'vertex array -> succ:'vertex array -> unit
+)
+ident(
+  ext_ref PSHGraph.add_hedge
+)
+"fixpointDyn.ml" 46 1108 1129 "fixpointDyn.ml" 46 1108 1134
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 25 704 709 "fixpointDyn.ml" 25 704 714
+)
+"fixpointDyn.ml" 46 1108 1135 "fixpointDyn.ml" 46 1108 1140
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 26 754 759 "fixpointDyn.ml" 26 754 764
+)
+"fixpointDyn.ml" 46 1108 1141 "fixpointDyn.ml" 46 1108 1144
+type(
+  'arc FixpointType.arc
+)
+ident(
+  int_ref arc "fixpointDyn.ml" 41 1031 1037 "fixpointDyn.ml" 41 1031 1040
+)
+"fixpointDyn.ml" 46 1108 1146 "fixpointDyn.ml" 46 1108 1150
+type(
+  'vertex array
+)
+ident(
+  int_ref pred "fixpointDyn.ml" 27 773 779 "fixpointDyn.ml" 27 773 783
+)
+"fixpointDyn.ml" 46 1108 1159 "fixpointDyn.ml" 46 1108 1163
+type(
+  'vertex
+)
+ident(
+  int_ref succ "fixpointDyn.ml" 28 799 805 "fixpointDyn.ml" 28 799 809
+)
+"fixpointDyn.ml" 46 1108 1157 "fixpointDyn.ml" 46 1108 1165
+type(
+  'vertex array
+)
+"fixpointDyn.ml" 46 1108 1110 "fixpointDyn.ml" 46 1108 1165
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 47 1167 1169 "fixpointDyn.ml" 47 1167 1176
+type(
+  bool
+)
+ident(
+  int_ref newsucc "fixpointDyn.ml" 33 885 891 "fixpointDyn.ml" 33 885 898
+)
+"fixpointDyn.ml" 46 1108 1110 "fixpointDyn.ml" 47 1167 1176
+type(
+  bool
+)
+"fixpointDyn.ml" 41 1031 1033 "fixpointDyn.ml" 47 1167 1176
+type(
+  bool
+)
+"fixpointDyn.ml" 33 885 887 "fixpointDyn.ml" 47 1167 1176
+type(
+  bool
+)
+"fixpointDyn.ml" 32 840 842 "fixpointDyn.ml" 47 1167 1176
+type(
+  bool
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 52 1328 1332 "fixpointDyn.ml" 52 1328 1336
+type(
+  ('vertex, 'hedge) PSHGraph.compare ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge) FixpointType.equation ->
+  'vertex PSette.t -> ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  def init "fixpointDyn.ml" 100 2616 2616 "fixpointDyn.ml" 1 0 -1
+)
+"fixpointDyn.ml" 53 1337 1341 "fixpointDyn.ml" 53 1337 1348
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  def compare "fixpointDyn.ml" 54 1349 1353 "fixpointDyn.ml" 94 2449 2456
+)
+"fixpointDyn.ml" 54 1349 1354 "fixpointDyn.ml" 54 1349 1361
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointDyn.ml" 55 1403 1407 "fixpointDyn.ml" 94 2449 2456
+)
+"fixpointDyn.ml" 55 1403 1408 "fixpointDyn.ml" 55 1403 1416
+type(
+  ('vertex, 'hedge) FixpointType.equation
+)
+ident(
+  def equation "fixpointDyn.ml" 56 1444 1448 "fixpointDyn.ml" 94 2449 2456
+)
+"fixpointDyn.ml" 56 1444 1449 "fixpointDyn.ml" 56 1444 1454
+type(
+  'vertex PSette.t
+)
+ident(
+  def sinit "fixpointDyn.ml" 57 1475 1479 "fixpointDyn.ml" 94 2449 2456
+)
+"fixpointDyn.ml" 60 1529 1535 "fixpointDyn.ml" 60 1529 1542
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  def infodyn "fixpointDyn.ml" 65 1646 1648 "fixpointDyn.ml" 94 2449 2456
+)
+"fixpointDyn.ml" 61 1547 1563 "fixpointDyn.ml" 61 1547 1585
+type(
+  'hedge Hashhe.compare -> int -> ('hedge, 'vertex array * 'vertex) PHashhe.t
+)
+ident(
+  ext_ref PHashhe.create_compare
+)
+"fixpointDyn.ml" 61 1547 1586 "fixpointDyn.ml" 61 1547 1593
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  int_ref compare "fixpointDyn.ml" 53 1337 1341 "fixpointDyn.ml" 53 1337 1348
+)
+"fixpointDyn.ml" 61 1547 1586 "fixpointDyn.ml" 61 1547 1608
+type(
+  'hedge Hashhe.compare
+)
+"fixpointDyn.ml" 61 1547 1609 "fixpointDyn.ml" 61 1547 1610
+type(
+  int
+)
+"fixpointDyn.ml" 61 1547 1563 "fixpointDyn.ml" 61 1547 1610
+call(
+  stack
+)
+type(
+  ('hedge, 'vertex array * 'vertex) PHashhe.t
+)
+"fixpointDyn.ml" 62 1612 1628 "fixpointDyn.ml" 62 1612 1636
+type(
+  ('vertex, 'hedge) FixpointType.equation
+)
+ident(
+  int_ref equation "fixpointDyn.ml" 55 1403 1408 "fixpointDyn.ml" 55 1403 1416
+)
+"fixpointDyn.ml" 60 1529 1545 "fixpointDyn.ml" 63 1637 1640
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+"fixpointDyn.ml" 65 1646 1652 "fixpointDyn.ml" 65 1646 1656
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  def info "fixpointDyn.ml" 75 1959 1961 "fixpointDyn.ml" 94 2449 2456
+)
+"fixpointDyn.ml" 66 1661 1673 "fixpointDyn.ml" 66 1661 1678
+type(
+  'vertex PSette.t
+)
+ident(
+  int_ref sinit "fixpointDyn.ml" 56 1444 1449 "fixpointDyn.ml" 56 1444 1454
+)
+"fixpointDyn.ml" 67 1680 1692 "fixpointDyn.ml" 67 1680 1695
+type(
+  float -> float ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"fixpointDyn.ml" 67 1680 1696 "fixpointDyn.ml" 67 1680 1699
+type(
+  float
+)
+"fixpointDyn.ml" 67 1680 1692 "fixpointDyn.ml" 67 1680 1699
+type(
+  float ref
+)
+"fixpointDyn.ml" 68 1701 1723 "fixpointDyn.ml" 68 1701 1724
+type(
+  int
+)
+"fixpointDyn.ml" 68 1701 1732 "fixpointDyn.ml" 68 1701 1737
+type(
+  bool
+)
+"fixpointDyn.ml" 68 1701 1719 "fixpointDyn.ml" 68 1701 1738
+type(
+  FixpointType.stat_iteration
+)
+"fixpointDyn.ml" 68 1701 1739 "fixpointDyn.ml" 68 1701 1741
+type(
+  (FixpointType.stat_iteration, unit) Ilist.el list
+)
+"fixpointDyn.ml" 68 1701 1718 "fixpointDyn.ml" 68 1701 1742
+type(
+  (FixpointType.stat_iteration, unit) Ilist.t
+)
+"fixpointDyn.ml" 69 1744 1767 "fixpointDyn.ml" 69 1744 1768
+type(
+  int
+)
+"fixpointDyn.ml" 69 1744 1776 "fixpointDyn.ml" 69 1744 1781
+type(
+  bool
+)
+"fixpointDyn.ml" 69 1744 1763 "fixpointDyn.ml" 69 1744 1782
+type(
+  FixpointType.stat_iteration
+)
+"fixpointDyn.ml" 69 1744 1783 "fixpointDyn.ml" 69 1744 1785
+type(
+  (FixpointType.stat_iteration, unit) Ilist.el list
+)
+"fixpointDyn.ml" 69 1744 1762 "fixpointDyn.ml" 69 1744 1786
+type(
+  (FixpointType.stat_iteration, unit) Ilist.t
+)
+"fixpointDyn.ml" 70 1788 1806 "fixpointDyn.ml" 70 1788 1828
+type(
+  'vertex Hashhe.compare -> int -> ('vertex, unit) PHashhe.t
+)
+ident(
+  ext_ref PHashhe.create_compare
+)
+"fixpointDyn.ml" 70 1788 1829 "fixpointDyn.ml" 70 1788 1836
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  int_ref compare "fixpointDyn.ml" 53 1337 1341 "fixpointDyn.ml" 53 1337 1348
+)
+"fixpointDyn.ml" 70 1788 1829 "fixpointDyn.ml" 70 1788 1851
+type(
+  'vertex Hashhe.compare
+)
+"fixpointDyn.ml" 70 1788 1852 "fixpointDyn.ml" 70 1788 1853
+type(
+  int
+)
+"fixpointDyn.ml" 70 1788 1806 "fixpointDyn.ml" 70 1788 1853
+call(
+  stack
+)
+type(
+  ('vertex, unit) PHashhe.t
+)
+"fixpointDyn.ml" 71 1855 1872 "fixpointDyn.ml" 71 1855 1894
+type(
+  'hedge Hashhe.compare -> int -> ('hedge, unit) PHashhe.t
+)
+ident(
+  ext_ref PHashhe.create_compare
+)
+"fixpointDyn.ml" 71 1855 1895 "fixpointDyn.ml" 71 1855 1902
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  int_ref compare "fixpointDyn.ml" 53 1337 1341 "fixpointDyn.ml" 53 1337 1348
+)
+"fixpointDyn.ml" 71 1855 1895 "fixpointDyn.ml" 71 1855 1917
+type(
+  'hedge Hashhe.compare
+)
+"fixpointDyn.ml" 71 1855 1918 "fixpointDyn.ml" 71 1855 1919
+type(
+  int
+)
+"fixpointDyn.ml" 71 1855 1872 "fixpointDyn.ml" 71 1855 1919
+call(
+  stack
+)
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointDyn.ml" 72 1921 1941 "fixpointDyn.ml" 72 1921 1948
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  int_ref infodyn "fixpointDyn.ml" 60 1529 1535 "fixpointDyn.ml" 60 1529 1542
+)
+"fixpointDyn.ml" 72 1921 1936 "fixpointDyn.ml" 72 1921 1948
+type(
+  ('vertex, 'hedge) FixpointType.infodyn option
+)
+"fixpointDyn.ml" 65 1646 1659 "fixpointDyn.ml" 73 1950 1953
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+"fixpointDyn.ml" 75 1959 1965 "fixpointDyn.ml" 75 1959 1970
+type(
+  ('vertex, 'hedge, 'abstract FixpointType.attr, 'arc FixpointType.arc,
+   ('vertex, 'hedge) FixpointType.info)
+  PSHGraph.t
+)
+ident(
+  def graph "fixpointDyn.ml" 76 2008 2010 "fixpointDyn.ml" 94 2449 2456
+)
+"fixpointDyn.ml" 75 1959 1973 "fixpointDyn.ml" 75 1959 1988
+type(
+  ('vertex, 'hedge) PSHGraph.compare ->
+  int ->
+  ('vertex, 'hedge) FixpointType.info ->
+  ('vertex, 'hedge, 'abstract FixpointType.attr, 'arc FixpointType.arc,
+   ('vertex, 'hedge) FixpointType.info)
+  PSHGraph.t
+)
+ident(
+  ext_ref PSHGraph.create
+)
+"fixpointDyn.ml" 75 1959 1989 "fixpointDyn.ml" 75 1959 1996
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  int_ref compare "fixpointDyn.ml" 53 1337 1341 "fixpointDyn.ml" 53 1337 1348
+)
+"fixpointDyn.ml" 75 1959 1997 "fixpointDyn.ml" 75 1959 1999
+type(
+  int
+)
+"fixpointDyn.ml" 75 1959 2000 "fixpointDyn.ml" 75 1959 2004
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 65 1646 1652 "fixpointDyn.ml" 65 1646 1656
+)
+"fixpointDyn.ml" 75 1959 1973 "fixpointDyn.ml" 75 1959 2004
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge, 'abstract FixpointType.attr, 'arc FixpointType.arc,
+   ('vertex, 'hedge) FixpointType.info)
+  PSHGraph.t
+)
+"fixpointDyn.ml" 76 2008 2010 "fixpointDyn.ml" 76 2008 2021
+type(
+  ('vertex -> unit) -> 'vertex PSette.t -> unit
+)
+ident(
+  ext_ref PSette.iter
+)
+"fixpointDyn.ml" 77 2022 2037 "fixpointDyn.ml" 77 2022 2043
+type(
+  'vertex
+)
+ident(
+  def vertex "fixpointDyn.ml" 78 2047 2053 "fixpointDyn.ml" 85 2179 2222
+)
+"fixpointDyn.ml" 78 2047 2057 "fixpointDyn.ml" 78 2047 2062
+type(
+  'abstract
+)
+ident(
+  def reach "fixpointDyn.ml" 79 2097 2103 "fixpointDyn.ml" 85 2179 2222
+)
+"fixpointDyn.ml" 78 2047 2065 "fixpointDyn.ml" 78 2047 2072
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 54 1349 1354 "fixpointDyn.ml" 54 1349 1361
+)
+"fixpointDyn.ml" 78 2047 2065 "fixpointDyn.ml" 78 2047 2086
+type(
+  'vertex -> 'abstract
+)
+"fixpointDyn.ml" 78 2047 2087 "fixpointDyn.ml" 78 2047 2093
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 77 2022 2037 "fixpointDyn.ml" 77 2022 2043
+)
+"fixpointDyn.ml" 78 2047 2065 "fixpointDyn.ml" 78 2047 2093
+call(
+  stack
+)
+type(
+  'abstract
+)
+"fixpointDyn.ml" 79 2097 2107 "fixpointDyn.ml" 79 2097 2111
+type(
+  'abstract FixpointType.attr
+)
+ident(
+  def attr "fixpointDyn.ml" 85 2179 2185 "fixpointDyn.ml" 85 2179 2222
+)
+"fixpointDyn.ml" 80 2116 2125 "fixpointDyn.ml" 80 2116 2130
+type(
+  'abstract
+)
+ident(
+  int_ref reach "fixpointDyn.ml" 78 2047 2057 "fixpointDyn.ml" 78 2047 2062
+)
+"fixpointDyn.ml" 81 2132 2140 "fixpointDyn.ml" 81 2132 2145
+type(
+  'abstract
+)
+ident(
+  int_ref reach "fixpointDyn.ml" 78 2047 2057 "fixpointDyn.ml" 78 2047 2062
+)
+"fixpointDyn.ml" 82 2147 2156 "fixpointDyn.ml" 82 2147 2161
+type(
+  bool
+)
+"fixpointDyn.ml" 79 2097 2114 "fixpointDyn.ml" 83 2162 2169
+type(
+  'abstract FixpointType.attr
+)
+"fixpointDyn.ml" 85 2179 2185 "fixpointDyn.ml" 85 2179 2204
+type(
+  ('vertex, 'hedge, 'abstract FixpointType.attr, 'arc FixpointType.arc,
+   ('vertex, 'hedge) FixpointType.info)
+  PSHGraph.t -> 'vertex -> 'abstract FixpointType.attr -> unit
+)
+ident(
+  ext_ref PSHGraph.add_vertex
+)
+"fixpointDyn.ml" 85 2179 2205 "fixpointDyn.ml" 85 2179 2210
+type(
+  ('vertex, 'hedge, 'abstract FixpointType.attr, 'arc FixpointType.arc,
+   ('vertex, 'hedge) FixpointType.info)
+  PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 75 1959 1965 "fixpointDyn.ml" 75 1959 1970
+)
+"fixpointDyn.ml" 85 2179 2211 "fixpointDyn.ml" 85 2179 2217
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 77 2022 2037 "fixpointDyn.ml" 77 2022 2043
+)
+"fixpointDyn.ml" 85 2179 2218 "fixpointDyn.ml" 85 2179 2222
+type(
+  'abstract FixpointType.attr
+)
+ident(
+  int_ref attr "fixpointDyn.ml" 79 2097 2107 "fixpointDyn.ml" 79 2097 2111
+)
+"fixpointDyn.ml" 85 2179 2185 "fixpointDyn.ml" 85 2179 2222
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 79 2097 2103 "fixpointDyn.ml" 85 2179 2222
+type(
+  unit
+)
+"fixpointDyn.ml" 78 2047 2053 "fixpointDyn.ml" 85 2179 2222
+type(
+  unit
+)
+"fixpointDyn.ml" 77 2022 2026 "fixpointDyn.ml" 86 2223 2231
+type(
+  'vertex -> unit
+)
+"fixpointDyn.ml" 87 2232 2236 "fixpointDyn.ml" 87 2232 2241
+type(
+  'vertex PSette.t
+)
+ident(
+  int_ref sinit "fixpointDyn.ml" 56 1444 1449 "fixpointDyn.ml" 56 1444 1454
+)
+"fixpointDyn.ml" 76 2008 2010 "fixpointDyn.ml" 87 2232 2241
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 89 2246 2248 "fixpointDyn.ml" 89 2246 2259
+type(
+  ('vertex -> unit) -> 'vertex PSette.t -> unit
+)
+ident(
+  ext_ref PSette.iter
+)
+"fixpointDyn.ml" 90 2260 2265 "fixpointDyn.ml" 90 2260 2295
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  hedge:bool -> 'vertex -> unit
+)
+ident(
+  ext_ref FixpointStd.update_workingsets
+)
+"fixpointDyn.ml" 90 2260 2303 "fixpointDyn.ml" 90 2260 2310
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 54 1349 1354 "fixpointDyn.ml" 54 1349 1361
+)
+"fixpointDyn.ml" 90 2260 2303 "fixpointDyn.ml" 90 2260 2321
+type(
+  bool
+)
+"fixpointDyn.ml" 90 2260 2322 "fixpointDyn.ml" 90 2260 2327
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 75 1959 1965 "fixpointDyn.ml" 75 1959 1970
+)
+"fixpointDyn.ml" 90 2260 2264 "fixpointDyn.ml" 90 2260 2328
+call(
+  stack
+)
+type(
+  'vertex -> unit
+)
+"fixpointDyn.ml" 91 2329 2333 "fixpointDyn.ml" 91 2329 2338
+type(
+  'vertex PSette.t
+)
+ident(
+  int_ref sinit "fixpointDyn.ml" 56 1444 1449 "fixpointDyn.ml" 56 1444 1454
+)
+"fixpointDyn.ml" 89 2246 2248 "fixpointDyn.ml" 91 2329 2338
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 93 2343 2348 "fixpointDyn.ml" 93 2343 2355
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 54 1349 1354 "fixpointDyn.ml" 54 1349 1361
+)
+"fixpointDyn.ml" 93 2343 2348 "fixpointDyn.ml" 93 2343 2373
+type(
+  bool
+)
+"fixpointDyn.ml" 93 2343 2379 "fixpointDyn.ml" 93 2343 2386
+type(
+  Format.formatter ->
+  ((Format.formatter ->
+    ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> unit) ->
+   ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter ->
+   ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> unit) ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 93 2343 2387 "fixpointDyn.ml" 93 2343 2394
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 54 1349 1354 "fixpointDyn.ml" 54 1349 1361
+)
+"fixpointDyn.ml" 93 2343 2387 "fixpointDyn.ml" 93 2343 2404
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 93 2343 2405 "fixpointDyn.ml" 93 2343 2413
+type(
+  ((Format.formatter ->
+    ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> unit) ->
+   ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> unit,
+   Format.formatter, unit)
+  format
+)
+"fixpointDyn.ml" 93 2343 2415 "fixpointDyn.ml" 93 2343 2432
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  Format.formatter ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> unit
+)
+ident(
+  ext_ref FixpointType.print_workingsets
+)
+"fixpointDyn.ml" 93 2343 2433 "fixpointDyn.ml" 93 2343 2440
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 54 1349 1354 "fixpointDyn.ml" 54 1349 1361
+)
+"fixpointDyn.ml" 93 2343 2414 "fixpointDyn.ml" 93 2343 2441
+call(
+  stack
+)
+type(
+  Format.formatter ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> unit
+)
+"fixpointDyn.ml" 93 2343 2442 "fixpointDyn.ml" 93 2343 2447
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 75 1959 1965 "fixpointDyn.ml" 75 1959 1970
+)
+"fixpointDyn.ml" 93 2343 2379 "fixpointDyn.ml" 93 2343 2447
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 93 2343 2345 "fixpointDyn.ml" 93 2343 2447
+type(
+  unit
+)
+"fixpointDyn.ml" 94 2449 2451 "fixpointDyn.ml" 94 2449 2456
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 75 1959 1965 "fixpointDyn.ml" 75 1959 1970
+)
+"fixpointDyn.ml" 93 2343 2345 "fixpointDyn.ml" 94 2449 2456
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+"fixpointDyn.ml" 89 2246 2248 "fixpointDyn.ml" 94 2449 2456
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+"fixpointDyn.ml" 76 2008 2010 "fixpointDyn.ml" 94 2449 2456
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+"fixpointDyn.ml" 75 1959 1961 "fixpointDyn.ml" 94 2449 2456
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+"fixpointDyn.ml" 65 1646 1648 "fixpointDyn.ml" 94 2449 2456
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+"fixpointDyn.ml" 60 1529 1531 "fixpointDyn.ml" 94 2449 2456
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+"fixpointDyn.ml" 100 2616 2620 "fixpointDyn.ml" 100 2616 2629
+type(
+  guided:bool ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> bool
+)
+ident(
+  def propagate "fixpointDyn.ml" 225 6424 6424 "fixpointDyn.ml" 1 0 -1
+)
+"fixpointDyn.ml" 101 2630 2636 "fixpointDyn.ml" 101 2630 2642
+type(
+  bool
+)
+ident(
+  def guided "fixpointDyn.ml" 102 2649 2653 "fixpointDyn.ml" 219 6230 6267
+)
+"fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointDyn.ml" 103 2703 2707 "fixpointDyn.ml" 219 6230 6267
+)
+"fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  def graph "fixpointDyn.ml" 104 2753 2757 "fixpointDyn.ml" 219 6230 6267
+)
+"fixpointDyn.ml" 107 2774 2779 "fixpointDyn.ml" 107 2774 2786
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 107 2774 2779 "fixpointDyn.ml" 107 2774 2802
+type(
+  bool
+)
+"fixpointDyn.ml" 108 2814 2818 "fixpointDyn.ml" 108 2814 2825
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 108 2814 2826 "fixpointDyn.ml" 108 2814 2833
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 108 2814 2826 "fixpointDyn.ml" 108 2814 2843
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 108 2814 2844 "fixpointDyn.ml" 108 2814 2861
+type(
+  (unit, Format.formatter, unit) format
+)
+"fixpointDyn.ml" 108 2814 2818 "fixpointDyn.ml" 108 2814 2861
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 109 2863 2870 "fixpointDyn.ml" 109 2863 2877
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 109 2863 2870 "fixpointDyn.ml" 109 2863 2885
+type(
+  Format.formatter option
+)
+"fixpointDyn.ml" 109 2863 2885 "fixpointDyn.ml" 109 2863 2887
+type(
+  Format.formatter option -> Format.formatter option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"fixpointDyn.ml" 109 2863 2887 "fixpointDyn.ml" 109 2863 2891
+type(
+  Format.formatter option
+)
+"fixpointDyn.ml" 109 2863 2870 "fixpointDyn.ml" 109 2863 2891
+type(
+  bool
+)
+"fixpointDyn.ml" 110 2897 2903 "fixpointDyn.ml" 110 2897 2912
+type(
+  ?style:string ->
+  ?titlestyle:string ->
+  ?vertexstyle:string ->
+  ?hedgestyle:string ->
+  ?strategy:('vertex, 'hedge) FixpointType.strategy ->
+  ?vertex:'vertex ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  title:string -> unit
+)
+ident(
+  ext_ref FixpointType.dot_graph
+)
+"fixpointDyn.ml" 110 2897 2913 "fixpointDyn.ml" 110 2897 2920
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 110 2897 2921 "fixpointDyn.ml" 110 2897 2926
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 110 2897 2934 "fixpointDyn.ml" 110 2897 2947
+type(
+  string
+)
+"fixpointDyn.ml" 110 2897 2903 "fixpointDyn.ml" 110 2897 2947
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 109 2863 2867 "fixpointDyn.ml" 111 2948 2953
+type(
+  unit
+)
+"fixpointDyn.ml" 107 2774 2808 "fixpointDyn.ml" 112 2954 2959
+type(
+  unit
+)
+"fixpointDyn.ml" 107 2774 2776 "fixpointDyn.ml" 112 2954 2959
+type(
+  unit
+)
+"fixpointDyn.ml" 113 2961 2967 "fixpointDyn.ml" 113 2961 2971
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  def info "fixpointDyn.ml" 114 2997 2999 "fixpointDyn.ml" 219 6230 6267
+)
+"fixpointDyn.ml" 113 2961 2974 "fixpointDyn.ml" 113 2961 2987
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  ext_ref PSHGraph.info
+)
+"fixpointDyn.ml" 113 2961 2988 "fixpointDyn.ml" 113 2961 2993
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 113 2961 2974 "fixpointDyn.ml" 113 2961 2993
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+"fixpointDyn.ml" 114 2997 3003 "fixpointDyn.ml" 114 2997 3006
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  def dyn "fixpointDyn.ml" 121 3232 3234 "fixpointDyn.ml" 219 6230 6267
+)
+"fixpointDyn.ml" 114 2997 3015 "fixpointDyn.ml" 114 2997 3019
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 113 2961 2967 "fixpointDyn.ml" 113 2961 2971
+)
+"fixpointDyn.ml" 114 2997 3015 "fixpointDyn.ml" 114 2997 3028
+type(
+  ('vertex, 'hedge) FixpointType.infodyn option
+)
+"fixpointDyn.ml" 115 3034 3040 "fixpointDyn.ml" 115 3034 3044
+type(
+  ('vertex, 'hedge) FixpointType.infodyn option
+)
+"fixpointDyn.ml" 115 3034 3048 "fixpointDyn.ml" 115 3034 3056
+type(
+  string -> ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"fixpointDyn.ml" 115 3034 3057 "fixpointDyn.ml" 115 3034 3059
+type(
+  string
+)
+"fixpointDyn.ml" 115 3034 3048 "fixpointDyn.ml" 115 3034 3059
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+"fixpointDyn.ml" 116 3060 3071 "fixpointDyn.ml" 116 3060 3072
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  def x "fixpointDyn.ml" 116 3060 3076 "fixpointDyn.ml" 116 3060 3077
+)
+"fixpointDyn.ml" 116 3060 3066 "fixpointDyn.ml" 116 3060 3072
+type(
+  ('vertex, 'hedge) FixpointType.infodyn option
+)
+"fixpointDyn.ml" 116 3060 3076 "fixpointDyn.ml" 116 3060 3077
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  int_ref x "fixpointDyn.ml" 116 3060 3071 "fixpointDyn.ml" 116 3060 3072
+)
+"fixpointDyn.ml" 114 2997 3009 "fixpointDyn.ml" 116 3060 3077
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+"fixpointDyn.ml" 121 3232 3238 "fixpointDyn.ml" 121 3232 3245
+type(
+  'vertex list ref
+)
+ident(
+  def newsucc "fixpointDyn.ml" 122 3258 3260 "fixpointDyn.ml" 219 6230 6267
+)
+"fixpointDyn.ml" 121 3232 3248 "fixpointDyn.ml" 121 3232 3251
+type(
+  'vertex list -> 'vertex list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"fixpointDyn.ml" 121 3232 3252 "fixpointDyn.ml" 121 3232 3254
+type(
+  'vertex list
+)
+"fixpointDyn.ml" 121 3232 3248 "fixpointDyn.ml" 121 3232 3254
+type(
+  'vertex list ref
+)
+"fixpointDyn.ml" 122 3258 3264 "fixpointDyn.ml" 122 3258 3272
+type(
+  'hedge list ref
+)
+ident(
+  def newhedge "fixpointDyn.ml" 123 3285 3287 "fixpointDyn.ml" 219 6230 6267
+)
+"fixpointDyn.ml" 122 3258 3275 "fixpointDyn.ml" 122 3258 3278
+type(
+  'hedge list -> 'hedge list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"fixpointDyn.ml" 122 3258 3279 "fixpointDyn.ml" 122 3258 3281
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 122 3258 3275 "fixpointDyn.ml" 122 3258 3281
+type(
+  'hedge list ref
+)
+"fixpointDyn.ml" 124 3297 3307 "fixpointDyn.ml" 124 3297 3311
+type(
+  bool
+)
+"fixpointDyn.ml" 125 3315 3324 "fixpointDyn.ml" 125 3315 3331
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 125 3315 3324 "fixpointDyn.ml" 125 3315 3345
+type(
+  bool
+)
+"fixpointDyn.ml" 126 3357 3358 "fixpointDyn.ml" 126 3357 3365
+type(
+  Format.formatter ->
+  ((Format.formatter -> ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit) ->
+   ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit) ->
+  ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 126 3357 3366 "fixpointDyn.ml" 126 3357 3373
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 126 3357 3366 "fixpointDyn.ml" 126 3357 3383
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 126 3357 3384 "fixpointDyn.ml" 126 3357 3417
+type(
+  ((Format.formatter -> ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit) ->
+   ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"fixpointDyn.ml" 127 3418 3422 "fixpointDyn.ml" 127 3418 3435
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  ?firstbind:(unit, Format.formatter, unit) format ->
+  ?sepbind:(unit, Format.formatter, unit) format ->
+  ?lastbind:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'hedge -> unit) ->
+  (Format.formatter -> 'vertex array * 'vertex -> unit) ->
+  Format.formatter -> ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit
+)
+ident(
+  ext_ref PHashhe.print
+)
+"fixpointDyn.ml" 127 3418 3436 "fixpointDyn.ml" 127 3418 3443
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 127 3418 3436 "fixpointDyn.ml" 127 3418 3455
+type(
+  Format.formatter -> 'hedge -> unit
+)
+"fixpointDyn.ml" 127 3418 3461 "fixpointDyn.ml" 127 3418 3464
+type(
+  Format.formatter
+)
+ident(
+  def fmt "fixpointDyn.ml" 127 3418 3465 "fixpointDyn.ml" 127 3418 3471
+)
+"fixpointDyn.ml" 127 3418 3465 "fixpointDyn.ml" 127 3418 3466
+type(
+  'vertex array * 'vertex
+)
+"fixpointDyn.ml" 127 3418 3469 "fixpointDyn.ml" 127 3418 3471
+type(
+  unit
+)
+"fixpointDyn.ml" 127 3418 3456 "fixpointDyn.ml" 127 3418 3472
+type(
+  Format.formatter -> 'vertex array * 'vertex -> unit
+)
+"fixpointDyn.ml" 127 3418 3421 "fixpointDyn.ml" 127 3418 3473
+call(
+  stack
+)
+type(
+  Format.formatter -> ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit
+)
+"fixpointDyn.ml" 127 3418 3474 "fixpointDyn.ml" 127 3418 3477
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  int_ref dyn "fixpointDyn.ml" 114 2997 3003 "fixpointDyn.ml" 114 2997 3006
+)
+"fixpointDyn.ml" 127 3418 3474 "fixpointDyn.ml" 127 3418 3487
+type(
+  ('hedge, 'vertex array * 'vertex) PHashhe.t
+)
+"fixpointDyn.ml" 125 3315 3351 "fixpointDyn.ml" 128 3489 3498
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 125 3315 3321 "fixpointDyn.ml" 128 3489 3498
+type(
+  unit
+)
+"fixpointDyn.ml" 129 3500 3506 "fixpointDyn.ml" 129 3500 3518
+type(
+  ('hedge -> 'vertex array * 'vertex -> unit) ->
+  ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit
+)
+ident(
+  ext_ref PHashhe.iter
+)
+"fixpointDyn.ml" 130 3519 3531 "fixpointDyn.ml" 130 3519 3536
+type(
+  'hedge
+)
+ident(
+  def hedge "fixpointDyn.ml" 130 3519 3537 "fixpointDyn.ml" 145 4116 4122
+)
+"fixpointDyn.ml" 130 3519 3538 "fixpointDyn.ml" 130 3519 3549
+type(
+  'vertex array
+)
+ident(
+  def tpredvertex "fixpointDyn.ml" 131 3565 3568 "fixpointDyn.ml" 145 4116 4122
+)
+"fixpointDyn.ml" 130 3519 3550 "fixpointDyn.ml" 130 3519 3560
+type(
+  'vertex
+)
+ident(
+  def succvertex "fixpointDyn.ml" 131 3565 3568 "fixpointDyn.ml" 145 4116 4122
+)
+"fixpointDyn.ml" 130 3519 3537 "fixpointDyn.ml" 130 3519 3561
+type(
+  'vertex array * 'vertex
+)
+"fixpointDyn.ml" 131 3565 3571 "fixpointDyn.ml" 131 3565 3593
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'vertex array -> bool
+)
+ident(
+  ext_ref FixpointStd.is_tvertex
+)
+"fixpointDyn.ml" 131 3565 3594 "fixpointDyn.ml" 131 3565 3599
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 131 3565 3600 "fixpointDyn.ml" 131 3565 3611
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointDyn.ml" 130 3519 3538 "fixpointDyn.ml" 130 3519 3549
+)
+"fixpointDyn.ml" 131 3565 3571 "fixpointDyn.ml" 131 3565 3611
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 132 3623 3632 "fixpointDyn.ml" 132 3623 3642
+type(
+  bool
+)
+ident(
+  def succ_added "fixpointDyn.ml" 135 3725 3730 "fixpointDyn.ml" 144 4063 4115
+)
+"fixpointDyn.ml" 133 3645 3652 "fixpointDyn.ml" 133 3645 3661
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge -> pred:'vertex array -> succ:'vertex -> bool
+)
+ident(
+  int_ref add_hedge "fixpointDyn.ml" 23 636 640 "fixpointDyn.ml" 23 636 649
+)
+"fixpointDyn.ml" 133 3645 3662 "fixpointDyn.ml" 133 3645 3669
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 133 3645 3670 "fixpointDyn.ml" 133 3645 3675
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 133 3645 3676 "fixpointDyn.ml" 133 3645 3681
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 130 3519 3531 "fixpointDyn.ml" 130 3519 3536
+)
+"fixpointDyn.ml" 133 3645 3688 "fixpointDyn.ml" 133 3645 3699
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointDyn.ml" 130 3519 3538 "fixpointDyn.ml" 130 3519 3549
+)
+"fixpointDyn.ml" 133 3645 3706 "fixpointDyn.ml" 133 3645 3716
+type(
+  'vertex
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 130 3519 3550 "fixpointDyn.ml" 130 3519 3560
+)
+"fixpointDyn.ml" 133 3645 3652 "fixpointDyn.ml" 133 3645 3716
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 135 3725 3733 "fixpointDyn.ml" 135 3725 3740
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 135 3725 3733 "fixpointDyn.ml" 135 3725 3754
+type(
+  bool
+)
+"fixpointDyn.ml" 135 3725 3760 "fixpointDyn.ml" 135 3725 3767
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'vertex array -> unit) ->
+   'vertex array -> (Format.formatter -> 'hedge -> unit) -> 'hedge -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> 'vertex array -> unit) ->
+  'vertex array -> (Format.formatter -> 'hedge -> unit) -> 'hedge -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 135 3725 3768 "fixpointDyn.ml" 135 3725 3775
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 135 3725 3768 "fixpointDyn.ml" 135 3725 3785
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 135 3725 3786 "fixpointDyn.ml" 135 3725 3810
+type(
+  ((Format.formatter -> 'vertex array -> unit) ->
+   'vertex array -> (Format.formatter -> 'hedge -> unit) -> 'hedge -> unit,
+   Format.formatter, unit)
+  format
+)
+"fixpointDyn.ml" 136 3811 3819 "fixpointDyn.ml" 136 3811 3830
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'vertex -> unit) ->
+  Format.formatter -> 'vertex array -> unit
+)
+ident(
+  ext_ref Print.array
+)
+"fixpointDyn.ml" 136 3811 3831 "fixpointDyn.ml" 136 3811 3838
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 136 3811 3831 "fixpointDyn.ml" 136 3811 3851
+type(
+  Format.formatter -> 'vertex -> unit
+)
+"fixpointDyn.ml" 136 3811 3818 "fixpointDyn.ml" 136 3811 3852
+call(
+  stack
+)
+type(
+  Format.formatter -> 'vertex array -> unit
+)
+"fixpointDyn.ml" 136 3811 3853 "fixpointDyn.ml" 136 3811 3864
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointDyn.ml" 130 3519 3538 "fixpointDyn.ml" 130 3519 3549
+)
+"fixpointDyn.ml" 137 3865 3872 "fixpointDyn.ml" 137 3865 3879
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 137 3865 3872 "fixpointDyn.ml" 137 3865 3891
+type(
+  Format.formatter -> 'hedge -> unit
+)
+"fixpointDyn.ml" 137 3865 3892 "fixpointDyn.ml" 137 3865 3897
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 130 3519 3531 "fixpointDyn.ml" 130 3519 3536
+)
+"fixpointDyn.ml" 135 3725 3760 "fixpointDyn.ml" 137 3865 3897
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 135 3725 3730 "fixpointDyn.ml" 137 3865 3897
+type(
+  unit
+)
+"fixpointDyn.ml" 139 3905 3913 "fixpointDyn.ml" 139 3905 3923
+type(
+  bool
+)
+ident(
+  int_ref succ_added "fixpointDyn.ml" 132 3623 3632 "fixpointDyn.ml" 132 3623 3642
+)
+"fixpointDyn.ml" 140 3924 3934 "fixpointDyn.ml" 140 3924 3941
+type(
+  'vertex list ref
+)
+ident(
+  int_ref newsucc "fixpointDyn.ml" 121 3232 3238 "fixpointDyn.ml" 121 3232 3245
+)
+"fixpointDyn.ml" 140 3924 3942 "fixpointDyn.ml" 140 3924 3944
+type(
+  'vertex list ref -> 'vertex list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointDyn.ml" 140 3924 3945 "fixpointDyn.ml" 140 3924 3955
+type(
+  'vertex
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 130 3519 3550 "fixpointDyn.ml" 130 3519 3560
+)
+"fixpointDyn.ml" 140 3924 3959 "fixpointDyn.ml" 140 3924 3960
+type(
+  'vertex list ref -> 'vertex list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 140 3924 3960 "fixpointDyn.ml" 140 3924 3967
+type(
+  'vertex list ref
+)
+ident(
+  int_ref newsucc "fixpointDyn.ml" 121 3232 3238 "fixpointDyn.ml" 121 3232 3245
+)
+"fixpointDyn.ml" 140 3924 3959 "fixpointDyn.ml" 140 3924 3967
+type(
+  'vertex list
+)
+"fixpointDyn.ml" 140 3924 3945 "fixpointDyn.ml" 140 3924 3967
+type(
+  'vertex list
+)
+"fixpointDyn.ml" 140 3924 3934 "fixpointDyn.ml" 140 3924 3967
+type(
+  unit
+)
+"fixpointDyn.ml" 141 3968 3978 "fixpointDyn.ml" 141 3968 3986
+type(
+  'hedge list ref
+)
+ident(
+  int_ref newhedge "fixpointDyn.ml" 122 3258 3264 "fixpointDyn.ml" 122 3258 3272
+)
+"fixpointDyn.ml" 141 3968 3987 "fixpointDyn.ml" 141 3968 3989
+type(
+  'hedge list ref -> 'hedge list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointDyn.ml" 141 3968 3990 "fixpointDyn.ml" 141 3968 3995
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 130 3519 3531 "fixpointDyn.ml" 130 3519 3536
+)
+"fixpointDyn.ml" 141 3968 3999 "fixpointDyn.ml" 141 3968 4000
+type(
+  'hedge list ref -> 'hedge list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 141 3968 4000 "fixpointDyn.ml" 141 3968 4008
+type(
+  'hedge list ref
+)
+ident(
+  int_ref newhedge "fixpointDyn.ml" 122 3258 3264 "fixpointDyn.ml" 122 3258 3272
+)
+"fixpointDyn.ml" 141 3968 3999 "fixpointDyn.ml" 141 3968 4008
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 141 3968 3990 "fixpointDyn.ml" 141 3968 4008
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 141 3968 3978 "fixpointDyn.ml" 141 3968 4008
+type(
+  unit
+)
+"fixpointDyn.ml" 139 3905 3910 "fixpointDyn.ml" 141 3968 4008
+type(
+  unit
+)
+"fixpointDyn.ml" 143 4016 4021 "fixpointDyn.ml" 143 4016 4036
+type(
+  ('hedge, unit) PHashhe.t -> 'hedge -> unit -> unit
+)
+ident(
+  ext_ref PHashhe.replace
+)
+"fixpointDyn.ml" 143 4016 4037 "fixpointDyn.ml" 143 4016 4041
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 113 2961 2967 "fixpointDyn.ml" 113 2961 2971
+)
+"fixpointDyn.ml" 143 4016 4037 "fixpointDyn.ml" 143 4016 4052
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointDyn.ml" 143 4016 4053 "fixpointDyn.ml" 143 4016 4058
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 130 3519 3531 "fixpointDyn.ml" 130 3519 3536
+)
+"fixpointDyn.ml" 143 4016 4059 "fixpointDyn.ml" 143 4016 4061
+type(
+  unit
+)
+"fixpointDyn.ml" 143 4016 4021 "fixpointDyn.ml" 143 4016 4061
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 144 4063 4068 "fixpointDyn.ml" 144 4063 4083
+type(
+  ('vertex, unit) PHashhe.t -> 'vertex -> unit -> unit
+)
+ident(
+  ext_ref PHashhe.replace
+)
+"fixpointDyn.ml" 144 4063 4084 "fixpointDyn.ml" 144 4063 4088
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 113 2961 2967 "fixpointDyn.ml" 113 2961 2971
+)
+"fixpointDyn.ml" 144 4063 4084 "fixpointDyn.ml" 144 4063 4100
+type(
+  ('vertex, unit) PHashhe.t
+)
+"fixpointDyn.ml" 144 4063 4101 "fixpointDyn.ml" 144 4063 4111
+type(
+  'vertex
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 130 3519 3550 "fixpointDyn.ml" 130 3519 3560
+)
+"fixpointDyn.ml" 144 4063 4112 "fixpointDyn.ml" 144 4063 4114
+type(
+  unit
+)
+"fixpointDyn.ml" 144 4063 4068 "fixpointDyn.ml" 144 4063 4115
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 143 4016 4021 "fixpointDyn.ml" 144 4063 4115
+type(
+  unit
+)
+"fixpointDyn.ml" 139 3905 3910 "fixpointDyn.ml" 144 4063 4115
+type(
+  unit
+)
+"fixpointDyn.ml" 135 3725 3730 "fixpointDyn.ml" 144 4063 4115
+type(
+  unit
+)
+"fixpointDyn.ml" 131 3565 3617 "fixpointDyn.ml" 145 4116 4122
+type(
+  unit
+)
+"fixpointDyn.ml" 131 3565 3568 "fixpointDyn.ml" 145 4116 4122
+type(
+  unit
+)
+"fixpointDyn.ml" 130 3519 3520 "fixpointDyn.ml" 146 4123 4128
+type(
+  'hedge -> 'vertex array * 'vertex -> unit
+)
+"fixpointDyn.ml" 147 4129 4130 "fixpointDyn.ml" 147 4129 4133
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  int_ref dyn "fixpointDyn.ml" 114 2997 3003 "fixpointDyn.ml" 114 2997 3006
+)
+"fixpointDyn.ml" 147 4129 4130 "fixpointDyn.ml" 147 4129 4143
+type(
+  ('hedge, 'vertex array * 'vertex) PHashhe.t
+)
+"fixpointDyn.ml" 129 3500 3506 "fixpointDyn.ml" 147 4129 4143
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 149 4152 4158 "fixpointDyn.ml" 149 4152 4171
+type(
+  ('hedge, 'vertex array * 'vertex) PHashhe.t -> unit
+)
+ident(
+  ext_ref PHashhe.clear
+)
+"fixpointDyn.ml" 149 4152 4172 "fixpointDyn.ml" 149 4152 4175
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  int_ref dyn "fixpointDyn.ml" 114 2997 3003 "fixpointDyn.ml" 114 2997 3006
+)
+"fixpointDyn.ml" 149 4152 4172 "fixpointDyn.ml" 149 4152 4185
+type(
+  ('hedge, 'vertex array * 'vertex) PHashhe.t
+)
+"fixpointDyn.ml" 149 4152 4158 "fixpointDyn.ml" 149 4152 4185
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 150 4187 4196 "fixpointDyn.ml" 150 4187 4197
+type(
+  'vertex list ref -> 'vertex list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 150 4187 4197 "fixpointDyn.ml" 150 4187 4204
+type(
+  'vertex list ref
+)
+ident(
+  int_ref newsucc "fixpointDyn.ml" 121 3232 3238 "fixpointDyn.ml" 121 3232 3245
+)
+"fixpointDyn.ml" 150 4187 4196 "fixpointDyn.ml" 150 4187 4204
+type(
+  'vertex list
+)
+"fixpointDyn.ml" 150 4187 4205 "fixpointDyn.ml" 150 4187 4207
+type(
+  'vertex list -> 'vertex list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"fixpointDyn.ml" 150 4187 4208 "fixpointDyn.ml" 150 4187 4210
+type(
+  'vertex list
+)
+"fixpointDyn.ml" 150 4187 4196 "fixpointDyn.ml" 150 4187 4210
+type(
+  bool
+)
+"fixpointDyn.ml" 151 4222 4223 "fixpointDyn.ml" 151 4222 4232
+type(
+  ('vertex -> unit) -> 'vertex list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"fixpointDyn.ml" 152 4233 4247 "fixpointDyn.ml" 152 4233 4253
+type(
+  'vertex
+)
+ident(
+  def vertex "fixpointDyn.ml" 153 4257 4262 "fixpointDyn.ml" 160 4445 4490
+)
+"fixpointDyn.ml" 153 4257 4266 "fixpointDyn.ml" 153 4257 4273
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  def svertex "fixpointDyn.ml" 159 4405 4410 "fixpointDyn.ml" 160 4445 4490
+)
+"fixpointDyn.ml" 154 4278 4294 "fixpointDyn.ml" 154 4278 4300
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 152 4233 4247 "fixpointDyn.ml" 152 4233 4253
+)
+"fixpointDyn.ml" 155 4302 4318 "fixpointDyn.ml" 155 4302 4333
+type(
+  'hedge PSette.t -> 'hedge list
+)
+ident(
+  ext_ref PSette.elements
+)
+"fixpointDyn.ml" 155 4302 4335 "fixpointDyn.ml" 155 4302 4353
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'vertex -> 'hedge PSette.t
+)
+ident(
+  ext_ref PSHGraph.predhedge
+)
+"fixpointDyn.ml" 155 4302 4354 "fixpointDyn.ml" 155 4302 4359
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 155 4302 4360 "fixpointDyn.ml" 155 4302 4366
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 152 4233 4247 "fixpointDyn.ml" 152 4233 4253
+)
+"fixpointDyn.ml" 155 4302 4334 "fixpointDyn.ml" 155 4302 4367
+call(
+  stack
+)
+type(
+  'hedge PSette.t
+)
+"fixpointDyn.ml" 155 4302 4318 "fixpointDyn.ml" 155 4302 4367
+call(
+  stack
+)
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 156 4369 4384 "fixpointDyn.ml" 156 4369 4389
+type(
+  bool
+)
+"fixpointDyn.ml" 153 4257 4276 "fixpointDyn.ml" 157 4390 4396
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+"fixpointDyn.ml" 159 4405 4410 "fixpointDyn.ml" 159 4405 4416
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"fixpointDyn.ml" 159 4405 4418 "fixpointDyn.ml" 159 4405 4444
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  widening:bool -> ('vertex, 'hedge) FixpointType.strategy_vertex -> bool
+)
+ident(
+  ext_ref FixpointStd.process_vertex
+)
+"fixpointDyn.ml" 160 4445 4452 "fixpointDyn.ml" 160 4445 4459
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 160 4445 4460 "fixpointDyn.ml" 160 4445 4465
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 160 4445 4476 "fixpointDyn.ml" 160 4445 4481
+type(
+  bool
+)
+"fixpointDyn.ml" 160 4445 4482 "fixpointDyn.ml" 160 4445 4489
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  int_ref svertex "fixpointDyn.ml" 153 4257 4266 "fixpointDyn.ml" 153 4257 4273
+)
+"fixpointDyn.ml" 159 4405 4417 "fixpointDyn.ml" 160 4445 4490
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 159 4405 4410 "fixpointDyn.ml" 160 4445 4490
+type(
+  unit
+)
+"fixpointDyn.ml" 153 4257 4262 "fixpointDyn.ml" 160 4445 4490
+type(
+  unit
+)
+"fixpointDyn.ml" 152 4233 4236 "fixpointDyn.ml" 161 4491 4498
+type(
+  'vertex -> unit
+)
+"fixpointDyn.ml" 162 4499 4502 "fixpointDyn.ml" 162 4499 4503
+type(
+  'vertex list ref -> 'vertex list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 162 4499 4503 "fixpointDyn.ml" 162 4499 4510
+type(
+  'vertex list ref
+)
+ident(
+  int_ref newsucc "fixpointDyn.ml" 121 3232 3238 "fixpointDyn.ml" 121 3232 3245
+)
+"fixpointDyn.ml" 162 4499 4502 "fixpointDyn.ml" 162 4499 4510
+type(
+  'vertex list
+)
+"fixpointDyn.ml" 151 4222 4223 "fixpointDyn.ml" 162 4499 4510
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 164 4514 4515 "fixpointDyn.ml" 164 4514 4522
+type(
+  'vertex list ref
+)
+ident(
+  int_ref newsucc "fixpointDyn.ml" 121 3232 3238 "fixpointDyn.ml" 121 3232 3245
+)
+"fixpointDyn.ml" 164 4514 4523 "fixpointDyn.ml" 164 4514 4525
+type(
+  'vertex list ref -> 'vertex list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointDyn.ml" 164 4514 4526 "fixpointDyn.ml" 164 4514 4528
+type(
+  'vertex list
+)
+"fixpointDyn.ml" 164 4514 4515 "fixpointDyn.ml" 164 4514 4528
+type(
+  unit
+)
+"fixpointDyn.ml" 150 4187 4216 "fixpointDyn.ml" 165 4529 4538
+type(
+  unit
+)
+"fixpointDyn.ml" 167 4550 4551 "fixpointDyn.ml" 167 4550 4556
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"fixpointDyn.ml" 167 4550 4557 "fixpointDyn.ml" 167 4550 4561
+type(
+  exn
+)
+"fixpointDyn.ml" 167 4550 4551 "fixpointDyn.ml" 167 4550 4561
+type(
+  unit
+)
+"fixpointDyn.ml" 150 4187 4193 "fixpointDyn.ml" 167 4550 4561
+type(
+  unit
+)
+"fixpointDyn.ml" 169 4570 4579 "fixpointDyn.ml" 169 4570 4586
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 169 4570 4579 "fixpointDyn.ml" 169 4570 4600
+type(
+  bool
+)
+"fixpointDyn.ml" 169 4570 4601 "fixpointDyn.ml" 169 4570 4603
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"fixpointDyn.ml" 169 4570 4604 "fixpointDyn.ml" 169 4570 4611
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 169 4570 4604 "fixpointDyn.ml" 169 4570 4619
+type(
+  Format.formatter option
+)
+"fixpointDyn.ml" 169 4570 4619 "fixpointDyn.ml" 169 4570 4621
+type(
+  Format.formatter option -> Format.formatter option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"fixpointDyn.ml" 169 4570 4621 "fixpointDyn.ml" 169 4570 4625
+type(
+  Format.formatter option
+)
+"fixpointDyn.ml" 169 4570 4604 "fixpointDyn.ml" 169 4570 4625
+type(
+  bool
+)
+"fixpointDyn.ml" 169 4570 4579 "fixpointDyn.ml" 169 4570 4625
+type(
+  bool
+)
+"fixpointDyn.ml" 170 4631 4632 "fixpointDyn.ml" 170 4631 4641
+type(
+  ?style:string ->
+  ?titlestyle:string ->
+  ?vertexstyle:string ->
+  ?hedgestyle:string ->
+  ?strategy:('vertex, 'hedge) FixpointType.strategy ->
+  ?vertex:'vertex ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  title:string -> unit
+)
+ident(
+  ext_ref FixpointType.dot_graph
+)
+"fixpointDyn.ml" 170 4631 4642 "fixpointDyn.ml" 170 4631 4649
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 170 4631 4650 "fixpointDyn.ml" 170 4631 4655
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 170 4631 4663 "fixpointDyn.ml" 170 4631 4678
+type(
+  string
+)
+"fixpointDyn.ml" 170 4631 4632 "fixpointDyn.ml" 170 4631 4678
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 169 4570 4576 "fixpointDyn.ml" 170 4631 4678
+type(
+  unit
+)
+"fixpointDyn.ml" 150 4187 4193 "fixpointDyn.ml" 170 4631 4678
+type(
+  unit
+)
+"fixpointDyn.ml" 149 4152 4158 "fixpointDyn.ml" 170 4631 4678
+type(
+  unit
+)
+"fixpointDyn.ml" 129 3500 3506 "fixpointDyn.ml" 170 4631 4678
+type(
+  unit
+)
+"fixpointDyn.ml" 125 3315 3321 "fixpointDyn.ml" 170 4631 4678
+type(
+  unit
+)
+"fixpointDyn.ml" 124 3297 3301 "fixpointDyn.ml" 171 4679 4688
+type(
+  unit
+)
+"fixpointDyn.ml" 172 4689 4696 "fixpointDyn.ml" 172 4689 4700
+type(
+  exn
+)
+"fixpointDyn.ml" 172 4689 4704 "fixpointDyn.ml" 172 4689 4706
+type(
+  unit
+)
+"fixpointDyn.ml" 123 3285 3287 "fixpointDyn.ml" 173 4707 4712
+type(
+  unit
+)
+"fixpointDyn.ml" 177 4859 4864 "fixpointDyn.ml" 177 4859 4870
+type(
+  bool
+)
+ident(
+  int_ref guided "fixpointDyn.ml" 101 2630 2636 "fixpointDyn.ml" 101 2630 2642
+)
+"fixpointDyn.ml" 178 4882 4889 "fixpointDyn.ml" 178 4882 4896
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 178 4882 4889 "fixpointDyn.ml" 178 4882 4910
+type(
+  bool
+)
+"fixpointDyn.ml" 178 4882 4916 "fixpointDyn.ml" 178 4882 4923
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'hedge list -> unit) -> 'hedge list -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> 'hedge list -> unit) -> 'hedge list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 178 4882 4924 "fixpointDyn.ml" 178 4882 4931
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 178 4882 4924 "fixpointDyn.ml" 178 4882 4941
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 178 4882 4942 "fixpointDyn.ml" 178 4882 4961
+type(
+  ((Format.formatter -> 'hedge list -> unit) -> 'hedge list -> unit,
+   Format.formatter, unit)
+  format
+)
+"fixpointDyn.ml" 179 4962 4969 "fixpointDyn.ml" 179 4962 4979
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'hedge -> unit) ->
+  Format.formatter -> 'hedge list -> unit
+)
+ident(
+  ext_ref Print.list
+)
+"fixpointDyn.ml" 179 4962 4980 "fixpointDyn.ml" 179 4962 4987
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 179 4962 4980 "fixpointDyn.ml" 179 4962 4999
+type(
+  Format.formatter -> 'hedge -> unit
+)
+"fixpointDyn.ml" 179 4962 4968 "fixpointDyn.ml" 179 4962 5000
+call(
+  stack
+)
+type(
+  Format.formatter -> 'hedge list -> unit
+)
+"fixpointDyn.ml" 179 4962 5001 "fixpointDyn.ml" 179 4962 5002
+type(
+  'hedge list ref -> 'hedge list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 179 4962 5002 "fixpointDyn.ml" 179 4962 5010
+type(
+  'hedge list ref
+)
+ident(
+  int_ref newhedge "fixpointDyn.ml" 122 3258 3264 "fixpointDyn.ml" 122 3258 3272
+)
+"fixpointDyn.ml" 179 4962 5001 "fixpointDyn.ml" 179 4962 5010
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 178 4882 4916 "fixpointDyn.ml" 179 4962 5010
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 178 4882 4886 "fixpointDyn.ml" 179 4962 5010
+type(
+  unit
+)
+"fixpointDyn.ml" 180 5012 5016 "fixpointDyn.ml" 180 5012 5025
+type(
+  ('hedge -> unit) -> 'hedge list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"fixpointDyn.ml" 181 5026 5043 "fixpointDyn.ml" 181 5026 5048
+type(
+  'hedge
+)
+ident(
+  def hedge "fixpointDyn.ml" 182 5052 5053 "fixpointDyn.ml" 193 5574 5578
+)
+"fixpointDyn.ml" 182 5052 5057 "fixpointDyn.ml" 182 5052 5068
+type(
+  'vertex array
+)
+ident(
+  def tpredvertex "fixpointDyn.ml" 183 5106 5107 "fixpointDyn.ml" 193 5574 5578
+)
+"fixpointDyn.ml" 182 5052 5071 "fixpointDyn.ml" 182 5052 5090
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.predvertex
+)
+"fixpointDyn.ml" 182 5052 5091 "fixpointDyn.ml" 182 5052 5096
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 182 5052 5097 "fixpointDyn.ml" 182 5052 5102
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 181 5026 5043 "fixpointDyn.ml" 181 5026 5048
+)
+"fixpointDyn.ml" 182 5052 5071 "fixpointDyn.ml" 182 5052 5102
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointDyn.ml" 183 5106 5110 "fixpointDyn.ml" 183 5106 5132
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'vertex array -> bool
+)
+ident(
+  ext_ref FixpointStd.is_tvertex
+)
+"fixpointDyn.ml" 183 5106 5133 "fixpointDyn.ml" 183 5106 5138
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 183 5106 5139 "fixpointDyn.ml" 183 5106 5150
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointDyn.ml" 182 5052 5057 "fixpointDyn.ml" 182 5052 5068
+)
+"fixpointDyn.ml" 183 5106 5110 "fixpointDyn.ml" 183 5106 5150
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 184 5162 5169 "fixpointDyn.ml" 184 5162 5173
+type(
+  'vertex array
+)
+ident(
+  def succ "fixpointDyn.ml" 185 5211 5214 "fixpointDyn.ml" 192 5567 5573
+)
+"fixpointDyn.ml" 184 5162 5176 "fixpointDyn.ml" 184 5162 5195
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.succvertex
+)
+"fixpointDyn.ml" 184 5162 5196 "fixpointDyn.ml" 184 5162 5201
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 184 5162 5202 "fixpointDyn.ml" 184 5162 5207
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 181 5026 5043 "fixpointDyn.ml" 181 5026 5048
+)
+"fixpointDyn.ml" 184 5162 5176 "fixpointDyn.ml" 184 5162 5207
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointDyn.ml" 185 5211 5218 "fixpointDyn.ml" 185 5211 5224
+type(
+  'vertex
+)
+ident(
+  def vertex "fixpointDyn.ml" 186 5239 5242 "fixpointDyn.ml" 192 5567 5573
+)
+"fixpointDyn.ml" 185 5211 5227 "fixpointDyn.ml" 185 5211 5231
+type(
+  'vertex array
+)
+ident(
+  int_ref succ "fixpointDyn.ml" 184 5162 5169 "fixpointDyn.ml" 184 5162 5173
+)
+"fixpointDyn.ml" 185 5211 5233 "fixpointDyn.ml" 185 5211 5234
+type(
+  int
+)
+"fixpointDyn.ml" 185 5211 5227 "fixpointDyn.ml" 185 5211 5235
+type(
+  'vertex
+)
+"fixpointDyn.ml" 186 5239 5246 "fixpointDyn.ml" 186 5239 5252
+type(
+  'abstract array
+)
+ident(
+  def treach "fixpointDyn.ml" 187 5321 5324 "fixpointDyn.ml" 192 5567 5573
+)
+"fixpointDyn.ml" 186 5239 5255 "fixpointDyn.ml" 186 5239 5284
+type(
+  descend:bool ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'vertex array -> 'abstract array
+)
+ident(
+  ext_ref FixpointStd.treach_of_tvertex
+)
+"fixpointDyn.ml" 186 5239 5294 "fixpointDyn.ml" 186 5239 5299
+type(
+  bool
+)
+"fixpointDyn.ml" 186 5239 5300 "fixpointDyn.ml" 186 5239 5305
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 186 5239 5306 "fixpointDyn.ml" 186 5239 5317
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointDyn.ml" 182 5052 5057 "fixpointDyn.ml" 182 5052 5068
+)
+"fixpointDyn.ml" 186 5239 5255 "fixpointDyn.ml" 186 5239 5317
+call(
+  stack
+)
+type(
+  'abstract array
+)
+"fixpointDyn.ml" 187 5321 5329 "fixpointDyn.ml" 187 5321 5332
+type(
+  'arc
+)
+ident(
+  def arc "fixpointDyn.ml" 188 5371 5374 "fixpointDyn.ml" 192 5567 5573
+)
+"fixpointDyn.ml" 187 5321 5333 "fixpointDyn.ml" 187 5321 5337
+type(
+  'abstract
+)
+ident(
+  def post "fixpointDyn.ml" 188 5371 5374 "fixpointDyn.ml" 192 5567 5573
+)
+"fixpointDyn.ml" 187 5321 5328 "fixpointDyn.ml" 187 5321 5338
+type(
+  'arc * 'abstract
+)
+"fixpointDyn.ml" 187 5321 5341 "fixpointDyn.ml" 187 5321 5348
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 187 5321 5341 "fixpointDyn.ml" 187 5321 5354
+type(
+  'hedge -> 'abstract array -> 'arc * 'abstract
+)
+"fixpointDyn.ml" 187 5321 5355 "fixpointDyn.ml" 187 5321 5360
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 181 5026 5043 "fixpointDyn.ml" 181 5026 5048
+)
+"fixpointDyn.ml" 187 5321 5361 "fixpointDyn.ml" 187 5321 5367
+type(
+  'abstract array
+)
+ident(
+  int_ref treach "fixpointDyn.ml" 186 5239 5246 "fixpointDyn.ml" 186 5239 5252
+)
+"fixpointDyn.ml" 187 5321 5341 "fixpointDyn.ml" 187 5321 5367
+call(
+  stack
+)
+type(
+  'arc * 'abstract
+)
+"fixpointDyn.ml" 188 5371 5378 "fixpointDyn.ml" 188 5371 5387
+type(
+  'arc FixpointType.arc
+)
+ident(
+  def attrhedge "fixpointDyn.ml" 189 5424 5427 "fixpointDyn.ml" 192 5567 5573
+)
+"fixpointDyn.ml" 188 5371 5390 "fixpointDyn.ml" 188 5371 5408
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge -> 'arc FixpointType.arc
+)
+ident(
+  ext_ref PSHGraph.attrhedge
+)
+"fixpointDyn.ml" 188 5371 5409 "fixpointDyn.ml" 188 5371 5414
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 188 5371 5415 "fixpointDyn.ml" 188 5371 5420
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 181 5026 5043 "fixpointDyn.ml" 181 5026 5048
+)
+"fixpointDyn.ml" 188 5371 5390 "fixpointDyn.ml" 188 5371 5420
+call(
+  stack
+)
+type(
+  'arc FixpointType.arc
+)
+"fixpointDyn.ml" 189 5424 5427 "fixpointDyn.ml" 189 5424 5436
+type(
+  'arc FixpointType.arc
+)
+ident(
+  int_ref attrhedge "fixpointDyn.ml" 188 5371 5378 "fixpointDyn.ml" 188 5371 5387
+)
+"fixpointDyn.ml" 189 5424 5447 "fixpointDyn.ml" 189 5424 5454
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 189 5424 5447 "fixpointDyn.ml" 189 5424 5464
+type(
+  'vertex -> 'abstract -> bool
+)
+"fixpointDyn.ml" 189 5424 5465 "fixpointDyn.ml" 189 5424 5471
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 185 5211 5218 "fixpointDyn.ml" 185 5211 5224
+)
+"fixpointDyn.ml" 189 5424 5472 "fixpointDyn.ml" 189 5424 5476
+type(
+  'abstract
+)
+ident(
+  int_ref post "fixpointDyn.ml" 187 5321 5333 "fixpointDyn.ml" 187 5321 5337
+)
+"fixpointDyn.ml" 189 5424 5447 "fixpointDyn.ml" 189 5424 5476
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 189 5424 5427 "fixpointDyn.ml" 189 5424 5476
+type(
+  unit
+)
+"fixpointDyn.ml" 190 5478 5484 "fixpointDyn.ml" 190 5478 5487
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"fixpointDyn.ml" 190 5478 5488 "fixpointDyn.ml" 190 5478 5497
+type(
+  'arc FixpointType.arc
+)
+ident(
+  int_ref attrhedge "fixpointDyn.ml" 188 5371 5378 "fixpointDyn.ml" 188 5371 5387
+)
+"fixpointDyn.ml" 190 5478 5488 "fixpointDyn.ml" 190 5478 5504
+type(
+  bool
+)
+"fixpointDyn.ml" 190 5478 5484 "fixpointDyn.ml" 190 5478 5504
+type(
+  bool
+)
+"fixpointDyn.ml" 191 5516 5521 "fixpointDyn.ml" 191 5516 5536
+type(
+  ('vertex, unit) PHashhe.t -> 'vertex -> unit -> unit
+)
+ident(
+  ext_ref PHashhe.replace
+)
+"fixpointDyn.ml" 191 5516 5537 "fixpointDyn.ml" 191 5516 5541
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 113 2961 2967 "fixpointDyn.ml" 113 2961 2971
+)
+"fixpointDyn.ml" 191 5516 5537 "fixpointDyn.ml" 191 5516 5553
+type(
+  ('vertex, unit) PHashhe.t
+)
+"fixpointDyn.ml" 191 5516 5554 "fixpointDyn.ml" 191 5516 5558
+type(
+  'vertex array
+)
+ident(
+  int_ref succ "fixpointDyn.ml" 184 5162 5169 "fixpointDyn.ml" 184 5162 5173
+)
+"fixpointDyn.ml" 191 5516 5560 "fixpointDyn.ml" 191 5516 5561
+type(
+  int
+)
+"fixpointDyn.ml" 191 5516 5554 "fixpointDyn.ml" 191 5516 5562
+type(
+  'vertex
+)
+"fixpointDyn.ml" 191 5516 5563 "fixpointDyn.ml" 191 5516 5565
+type(
+  unit
+)
+"fixpointDyn.ml" 190 5478 5510 "fixpointDyn.ml" 192 5567 5573
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 190 5478 5481 "fixpointDyn.ml" 192 5567 5573
+type(
+  unit
+)
+"fixpointDyn.ml" 189 5424 5427 "fixpointDyn.ml" 192 5567 5573
+type(
+  unit
+)
+"fixpointDyn.ml" 188 5371 5374 "fixpointDyn.ml" 192 5567 5573
+type(
+  unit
+)
+"fixpointDyn.ml" 187 5321 5324 "fixpointDyn.ml" 192 5567 5573
+type(
+  unit
+)
+"fixpointDyn.ml" 186 5239 5242 "fixpointDyn.ml" 192 5567 5573
+type(
+  unit
+)
+"fixpointDyn.ml" 185 5211 5214 "fixpointDyn.ml" 192 5567 5573
+type(
+  unit
+)
+"fixpointDyn.ml" 183 5106 5156 "fixpointDyn.ml" 193 5574 5578
+type(
+  unit
+)
+"fixpointDyn.ml" 183 5106 5107 "fixpointDyn.ml" 193 5574 5578
+type(
+  unit
+)
+"fixpointDyn.ml" 182 5052 5053 "fixpointDyn.ml" 193 5574 5578
+type(
+  unit
+)
+"fixpointDyn.ml" 181 5026 5032 "fixpointDyn.ml" 194 5579 5589
+type(
+  'hedge -> unit
+)
+"fixpointDyn.ml" 195 5590 5596 "fixpointDyn.ml" 195 5590 5597
+type(
+  'hedge list ref -> 'hedge list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 195 5590 5597 "fixpointDyn.ml" 195 5590 5605
+type(
+  'hedge list ref
+)
+ident(
+  int_ref newhedge "fixpointDyn.ml" 122 3258 3264 "fixpointDyn.ml" 122 3258 3272
+)
+"fixpointDyn.ml" 195 5590 5596 "fixpointDyn.ml" 195 5590 5605
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 180 5012 5016 "fixpointDyn.ml" 195 5590 5605
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 197 5612 5620 "fixpointDyn.ml" 197 5612 5628
+type(
+  'hedge list
+)
+ident(
+  def toremove "fixpointDyn.ml" 208 5844 5848 "fixpointDyn.ml" 211 5978 6030
+)
+"fixpointDyn.ml" 197 5612 5631 "fixpointDyn.ml" 197 5612 5650
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('hedge ->
+   'arc FixpointType.arc ->
+   pred:'vertex array -> succ:'vertex array -> 'hedge list -> 'hedge list) ->
+  'hedge list -> 'hedge list
+)
+ident(
+  ext_ref PSHGraph.fold_hedge
+)
+"fixpointDyn.ml" 197 5612 5651 "fixpointDyn.ml" 197 5612 5656
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 198 5657 5674 "fixpointDyn.ml" 198 5657 5679
+type(
+  'hedge
+)
+ident(
+  def hedge "fixpointDyn.ml" 198 5657 5680 "fixpointDyn.ml" 204 5805 5816
+)
+"fixpointDyn.ml" 198 5657 5680 "fixpointDyn.ml" 198 5657 5683
+type(
+  'arc FixpointType.arc
+)
+ident(
+  def arc "fixpointDyn.ml" 198 5657 5684 "fixpointDyn.ml" 204 5805 5816
+)
+"fixpointDyn.ml" 198 5657 5685 "fixpointDyn.ml" 198 5657 5689
+type(
+  'vertex array
+)
+ident(
+  def pred "fixpointDyn.ml" 198 5657 5690 "fixpointDyn.ml" 204 5805 5816
+)
+"fixpointDyn.ml" 198 5657 5691 "fixpointDyn.ml" 198 5657 5695
+type(
+  'vertex array
+)
+ident(
+  def succ "fixpointDyn.ml" 198 5657 5696 "fixpointDyn.ml" 204 5805 5816
+)
+"fixpointDyn.ml" 198 5657 5696 "fixpointDyn.ml" 198 5657 5704
+type(
+  'hedge list
+)
+ident(
+  def toremove "fixpointDyn.ml" 199 5708 5709 "fixpointDyn.ml" 204 5805 5816
+)
+"fixpointDyn.ml" 199 5708 5712 "fixpointDyn.ml" 199 5708 5715
+type(
+  'arc FixpointType.arc
+)
+ident(
+  int_ref arc "fixpointDyn.ml" 198 5657 5680 "fixpointDyn.ml" 198 5657 5683
+)
+"fixpointDyn.ml" 199 5708 5712 "fixpointDyn.ml" 199 5708 5722
+type(
+  bool
+)
+"fixpointDyn.ml" 200 5734 5737 "fixpointDyn.ml" 200 5734 5751
+type(
+  ('hedge, unit) PHashhe.t -> 'hedge -> unit
+)
+ident(
+  ext_ref PHashhe.remove
+)
+"fixpointDyn.ml" 200 5734 5752 "fixpointDyn.ml" 200 5734 5756
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 113 2961 2967 "fixpointDyn.ml" 113 2961 2971
+)
+"fixpointDyn.ml" 200 5734 5752 "fixpointDyn.ml" 200 5734 5767
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointDyn.ml" 200 5734 5768 "fixpointDyn.ml" 200 5734 5773
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 198 5657 5674 "fixpointDyn.ml" 198 5657 5679
+)
+"fixpointDyn.ml" 200 5734 5737 "fixpointDyn.ml" 200 5734 5773
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 201 5775 5778 "fixpointDyn.ml" 201 5775 5783
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 198 5657 5674 "fixpointDyn.ml" 198 5657 5679
+)
+"fixpointDyn.ml" 201 5775 5785 "fixpointDyn.ml" 201 5775 5793
+type(
+  'hedge list
+)
+ident(
+  int_ref toremove "fixpointDyn.ml" 198 5657 5696 "fixpointDyn.ml" 198 5657 5704
+)
+"fixpointDyn.ml" 201 5775 5778 "fixpointDyn.ml" 201 5775 5793
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 199 5708 5728 "fixpointDyn.ml" 202 5794 5798
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 204 5805 5808 "fixpointDyn.ml" 204 5805 5816
+type(
+  'hedge list
+)
+ident(
+  int_ref toremove "fixpointDyn.ml" 198 5657 5696 "fixpointDyn.ml" 198 5657 5704
+)
+"fixpointDyn.ml" 199 5708 5709 "fixpointDyn.ml" 204 5805 5816
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 198 5657 5663 "fixpointDyn.ml" 205 5817 5827
+type(
+  'hedge ->
+  'arc FixpointType.arc ->
+  pred:'vertex array -> succ:'vertex array -> 'hedge list -> 'hedge list
+)
+"fixpointDyn.ml" 206 5828 5834 "fixpointDyn.ml" 206 5828 5836
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 197 5612 5631 "fixpointDyn.ml" 206 5828 5836
+call(
+  stack
+)
+type(
+  'hedge list
+)
+"fixpointDyn.ml" 208 5844 5851 "fixpointDyn.ml" 208 5844 5858
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 208 5844 5851 "fixpointDyn.ml" 208 5844 5872
+type(
+  bool
+)
+"fixpointDyn.ml" 208 5844 5878 "fixpointDyn.ml" 208 5844 5885
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'hedge list -> unit) -> 'hedge list -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> 'hedge list -> unit) -> 'hedge list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 208 5844 5886 "fixpointDyn.ml" 208 5844 5893
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 208 5844 5886 "fixpointDyn.ml" 208 5844 5903
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 208 5844 5904 "fixpointDyn.ml" 208 5844 5923
+type(
+  ((Format.formatter -> 'hedge list -> unit) -> 'hedge list -> unit,
+   Format.formatter, unit)
+  format
+)
+"fixpointDyn.ml" 209 5924 5931 "fixpointDyn.ml" 209 5924 5941
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'hedge -> unit) ->
+  Format.formatter -> 'hedge list -> unit
+)
+ident(
+  ext_ref Print.list
+)
+"fixpointDyn.ml" 209 5924 5942 "fixpointDyn.ml" 209 5924 5949
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 209 5924 5942 "fixpointDyn.ml" 209 5924 5961
+type(
+  Format.formatter -> 'hedge -> unit
+)
+"fixpointDyn.ml" 209 5924 5930 "fixpointDyn.ml" 209 5924 5962
+call(
+  stack
+)
+type(
+  Format.formatter -> 'hedge list -> unit
+)
+"fixpointDyn.ml" 209 5924 5963 "fixpointDyn.ml" 209 5924 5971
+type(
+  'hedge list
+)
+ident(
+  int_ref toremove "fixpointDyn.ml" 197 5612 5620 "fixpointDyn.ml" 197 5612 5628
+)
+"fixpointDyn.ml" 208 5844 5878 "fixpointDyn.ml" 209 5924 5971
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 208 5844 5848 "fixpointDyn.ml" 209 5924 5971
+type(
+  unit
+)
+"fixpointDyn.ml" 211 5978 5982 "fixpointDyn.ml" 211 5978 5991
+type(
+  ('hedge -> unit) -> 'hedge list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"fixpointDyn.ml" 211 5978 5993 "fixpointDyn.ml" 211 5978 6014
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> 'hedge -> unit
+)
+ident(
+  ext_ref PSHGraph.remove_hedge
+)
+"fixpointDyn.ml" 211 5978 6015 "fixpointDyn.ml" 211 5978 6020
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 211 5978 5992 "fixpointDyn.ml" 211 5978 6021
+call(
+  stack
+)
+type(
+  'hedge -> unit
+)
+"fixpointDyn.ml" 211 5978 6022 "fixpointDyn.ml" 211 5978 6030
+type(
+  'hedge list
+)
+ident(
+  int_ref toremove "fixpointDyn.ml" 197 5612 5620 "fixpointDyn.ml" 197 5612 5628
+)
+"fixpointDyn.ml" 211 5978 5982 "fixpointDyn.ml" 211 5978 6030
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 208 5844 5848 "fixpointDyn.ml" 211 5978 6030
+type(
+  unit
+)
+"fixpointDyn.ml" 197 5612 5616 "fixpointDyn.ml" 211 5978 6030
+type(
+  unit
+)
+"fixpointDyn.ml" 180 5012 5016 "fixpointDyn.ml" 211 5978 6030
+type(
+  unit
+)
+"fixpointDyn.ml" 177 4859 4876 "fixpointDyn.ml" 212 6031 6036
+type(
+  unit
+)
+"fixpointDyn.ml" 177 4859 4861 "fixpointDyn.ml" 212 6031 6036
+type(
+  unit
+)
+"fixpointDyn.ml" 214 6041 6046 "fixpointDyn.ml" 214 6041 6053
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 214 6041 6046 "fixpointDyn.ml" 214 6041 6069
+type(
+  bool
+)
+"fixpointDyn.ml" 215 6081 6085 "fixpointDyn.ml" 215 6081 6092
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 215 6081 6093 "fixpointDyn.ml" 215 6081 6100
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 215 6081 6093 "fixpointDyn.ml" 215 6081 6110
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 215 6081 6111 "fixpointDyn.ml" 215 6081 6132
+type(
+  (unit, Format.formatter, unit) format
+)
+"fixpointDyn.ml" 215 6081 6085 "fixpointDyn.ml" 215 6081 6132
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 216 6134 6141 "fixpointDyn.ml" 216 6134 6148
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 216 6134 6141 "fixpointDyn.ml" 216 6134 6156
+type(
+  Format.formatter option
+)
+"fixpointDyn.ml" 216 6134 6156 "fixpointDyn.ml" 216 6134 6158
+type(
+  Format.formatter option -> Format.formatter option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"fixpointDyn.ml" 216 6134 6158 "fixpointDyn.ml" 216 6134 6162
+type(
+  Format.formatter option
+)
+"fixpointDyn.ml" 216 6134 6141 "fixpointDyn.ml" 216 6134 6162
+type(
+  bool
+)
+"fixpointDyn.ml" 217 6168 6174 "fixpointDyn.ml" 217 6168 6183
+type(
+  ?style:string ->
+  ?titlestyle:string ->
+  ?vertexstyle:string ->
+  ?hedgestyle:string ->
+  ?strategy:('vertex, 'hedge) FixpointType.strategy ->
+  ?vertex:'vertex ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  title:string -> unit
+)
+ident(
+  ext_ref FixpointType.dot_graph
+)
+"fixpointDyn.ml" 217 6168 6184 "fixpointDyn.ml" 217 6168 6191
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 102 2649 2654 "fixpointDyn.ml" 102 2649 2661
+)
+"fixpointDyn.ml" 217 6168 6192 "fixpointDyn.ml" 217 6168 6197
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 103 2703 2708 "fixpointDyn.ml" 103 2703 2713
+)
+"fixpointDyn.ml" 217 6168 6205 "fixpointDyn.ml" 217 6168 6222
+type(
+  string
+)
+"fixpointDyn.ml" 217 6168 6174 "fixpointDyn.ml" 217 6168 6222
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 216 6134 6138 "fixpointDyn.ml" 217 6168 6222
+type(
+  unit
+)
+"fixpointDyn.ml" 214 6041 6075 "fixpointDyn.ml" 218 6223 6228
+type(
+  unit
+)
+"fixpointDyn.ml" 214 6041 6043 "fixpointDyn.ml" 218 6223 6228
+type(
+  unit
+)
+"fixpointDyn.ml" 219 6230 6233 "fixpointDyn.ml" 219 6230 6247
+type(
+  ('hedge, unit) PHashhe.t -> int
+)
+ident(
+  ext_ref PHashhe.length
+)
+"fixpointDyn.ml" 219 6230 6248 "fixpointDyn.ml" 219 6230 6252
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 113 2961 2967 "fixpointDyn.ml" 113 2961 2971
+)
+"fixpointDyn.ml" 219 6230 6248 "fixpointDyn.ml" 219 6230 6263
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointDyn.ml" 219 6230 6232 "fixpointDyn.ml" 219 6230 6264
+call(
+  stack
+)
+type(
+  int
+)
+"fixpointDyn.ml" 219 6230 6264 "fixpointDyn.ml" 219 6230 6266
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"fixpointDyn.ml" 219 6230 6266 "fixpointDyn.ml" 219 6230 6267
+type(
+  int
+)
+"fixpointDyn.ml" 219 6230 6232 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+"fixpointDyn.ml" 214 6041 6043 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+"fixpointDyn.ml" 177 4859 4861 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+"fixpointDyn.ml" 123 3285 3287 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+"fixpointDyn.ml" 122 3258 3260 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+"fixpointDyn.ml" 121 3232 3234 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+"fixpointDyn.ml" 114 2997 2999 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+"fixpointDyn.ml" 113 2961 2963 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+"fixpointDyn.ml" 107 2774 2776 "fixpointDyn.ml" 219 6230 6267
+type(
+  bool
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 225 6424 6428 "fixpointDyn.ml" 225 6424 6436
+type(
+  guided:bool ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  (('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+   ('vertex, 'hedge) FixpointType.strategy) ->
+  bool
+)
+ident(
+  def fixpoint "fixpointDyn.ml" 257 7251 7251 "fixpointDyn.ml" 1 0 -1
+)
+"fixpointDyn.ml" 226 6437 6443 "fixpointDyn.ml" 226 6437 6449
+type(
+  bool
+)
+ident(
+  def guided "fixpointDyn.ml" 227 6456 6460 "fixpointDyn.ml" 255 7237 7249
+)
+"fixpointDyn.ml" 227 6456 6461 "fixpointDyn.ml" 227 6456 6468
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointDyn.ml" 228 6510 6514 "fixpointDyn.ml" 255 7237 7249
+)
+"fixpointDyn.ml" 228 6510 6515 "fixpointDyn.ml" 228 6510 6520
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  def graph "fixpointDyn.ml" 229 6560 6564 "fixpointDyn.ml" 255 7237 7249
+)
+"fixpointDyn.ml" 229 6560 6564 "fixpointDyn.ml" 229 6560 6577
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  def make_strategy "fixpointDyn.ml" 230 6578 6582 "fixpointDyn.ml" 255 7237 7249
+)
+"fixpointDyn.ml" 233 6599 6605 "fixpointDyn.ml" 233 6599 6609
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  def info "fixpointDyn.ml" 234 6635 6637 "fixpointDyn.ml" 255 7237 7249
+)
+"fixpointDyn.ml" 233 6599 6612 "fixpointDyn.ml" 233 6599 6625
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  ext_ref PSHGraph.info
+)
+"fixpointDyn.ml" 233 6599 6626 "fixpointDyn.ml" 233 6599 6631
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 228 6510 6515 "fixpointDyn.ml" 228 6510 6520
+)
+"fixpointDyn.ml" 233 6599 6612 "fixpointDyn.ml" 233 6599 6631
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+"fixpointDyn.ml" 234 6635 6641 "fixpointDyn.ml" 234 6635 6644
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  def dyn "fixpointDyn.ml" 238 6721 6723 "fixpointDyn.ml" 255 7237 7249
+)
+"fixpointDyn.ml" 234 6635 6653 "fixpointDyn.ml" 234 6635 6657
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 233 6599 6605 "fixpointDyn.ml" 233 6599 6609
+)
+"fixpointDyn.ml" 234 6635 6653 "fixpointDyn.ml" 234 6635 6666
+type(
+  ('vertex, 'hedge) FixpointType.infodyn option
+)
+"fixpointDyn.ml" 235 6672 6678 "fixpointDyn.ml" 235 6672 6682
+type(
+  ('vertex, 'hedge) FixpointType.infodyn option
+)
+"fixpointDyn.ml" 235 6672 6686 "fixpointDyn.ml" 235 6672 6694
+type(
+  string -> ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"fixpointDyn.ml" 235 6672 6695 "fixpointDyn.ml" 235 6672 6697
+type(
+  string
+)
+"fixpointDyn.ml" 235 6672 6686 "fixpointDyn.ml" 235 6672 6697
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+"fixpointDyn.ml" 236 6698 6709 "fixpointDyn.ml" 236 6698 6710
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  def x "fixpointDyn.ml" 236 6698 6714 "fixpointDyn.ml" 236 6698 6715
+)
+"fixpointDyn.ml" 236 6698 6704 "fixpointDyn.ml" 236 6698 6710
+type(
+  ('vertex, 'hedge) FixpointType.infodyn option
+)
+"fixpointDyn.ml" 236 6698 6714 "fixpointDyn.ml" 236 6698 6715
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  int_ref x "fixpointDyn.ml" 236 6698 6709 "fixpointDyn.ml" 236 6698 6710
+)
+"fixpointDyn.ml" 234 6635 6647 "fixpointDyn.ml" 236 6698 6715
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+"fixpointDyn.ml" 238 6721 6727 "fixpointDyn.ml" 238 6721 6733
+type(
+  bool ref
+)
+ident(
+  def change "fixpointDyn.ml" 239 6748 6750 "fixpointDyn.ml" 255 7237 7249
+)
+"fixpointDyn.ml" 238 6721 6736 "fixpointDyn.ml" 238 6721 6739
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"fixpointDyn.ml" 238 6721 6740 "fixpointDyn.ml" 238 6721 6744
+type(
+  bool
+)
+"fixpointDyn.ml" 238 6721 6736 "fixpointDyn.ml" 238 6721 6744
+type(
+  bool ref
+)
+"fixpointDyn.ml" 239 6748 6754 "fixpointDyn.ml" 239 6748 6763
+type(
+  bool ref
+)
+ident(
+  def notstable "fixpointDyn.ml" 240 6778 6780 "fixpointDyn.ml" 255 7237 7249
+)
+"fixpointDyn.ml" 239 6748 6766 "fixpointDyn.ml" 239 6748 6769
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"fixpointDyn.ml" 239 6748 6770 "fixpointDyn.ml" 239 6748 6774
+type(
+  bool
+)
+"fixpointDyn.ml" 239 6748 6766 "fixpointDyn.ml" 239 6748 6774
+type(
+  bool ref
+)
+"fixpointDyn.ml" 240 6778 6786 "fixpointDyn.ml" 240 6778 6787
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 240 6778 6787 "fixpointDyn.ml" 240 6778 6793
+type(
+  bool ref
+)
+ident(
+  int_ref change "fixpointDyn.ml" 238 6721 6727 "fixpointDyn.ml" 238 6721 6733
+)
+"fixpointDyn.ml" 240 6778 6786 "fixpointDyn.ml" 240 6778 6793
+type(
+  bool
+)
+"fixpointDyn.ml" 241 6797 6801 "fixpointDyn.ml" 241 6797 6807
+type(
+  bool ref
+)
+ident(
+  int_ref change "fixpointDyn.ml" 238 6721 6727 "fixpointDyn.ml" 238 6721 6733
+)
+"fixpointDyn.ml" 241 6797 6808 "fixpointDyn.ml" 241 6797 6810
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointDyn.ml" 241 6797 6811 "fixpointDyn.ml" 241 6797 6820
+type(
+  guided:bool ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph -> bool
+)
+ident(
+  int_ref propagate "fixpointDyn.ml" 100 2616 2620 "fixpointDyn.ml" 100 2616 2629
+)
+"fixpointDyn.ml" 241 6797 6821 "fixpointDyn.ml" 241 6797 6828
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 227 6456 6461 "fixpointDyn.ml" 227 6456 6468
+)
+"fixpointDyn.ml" 241 6797 6829 "fixpointDyn.ml" 241 6797 6834
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 228 6510 6515 "fixpointDyn.ml" 228 6510 6520
+)
+"fixpointDyn.ml" 241 6797 6836 "fixpointDyn.ml" 241 6797 6842
+type(
+  bool
+)
+ident(
+  int_ref guided "fixpointDyn.ml" 226 6437 6443 "fixpointDyn.ml" 226 6437 6449
+)
+"fixpointDyn.ml" 241 6797 6811 "fixpointDyn.ml" 241 6797 6842
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 241 6797 6801 "fixpointDyn.ml" 241 6797 6842
+type(
+  unit
+)
+"fixpointDyn.ml" 242 6844 6851 "fixpointDyn.ml" 242 6844 6852
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 242 6844 6852 "fixpointDyn.ml" 242 6844 6858
+type(
+  bool ref
+)
+ident(
+  int_ref change "fixpointDyn.ml" 238 6721 6727 "fixpointDyn.ml" 238 6721 6733
+)
+"fixpointDyn.ml" 242 6844 6851 "fixpointDyn.ml" 242 6844 6858
+type(
+  bool
+)
+"fixpointDyn.ml" 243 6870 6880 "fixpointDyn.ml" 243 6870 6888
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  def strategy "fixpointDyn.ml" 244 6914 6920 "fixpointDyn.ml" 252 7211 7220
+)
+"fixpointDyn.ml" 243 6870 6891 "fixpointDyn.ml" 243 6870 6904
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  int_ref make_strategy "fixpointDyn.ml" 229 6560 6564 "fixpointDyn.ml" 229 6560 6577
+)
+"fixpointDyn.ml" 243 6870 6905 "fixpointDyn.ml" 243 6870 6910
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 228 6510 6515 "fixpointDyn.ml" 228 6510 6520
+)
+"fixpointDyn.ml" 243 6870 6891 "fixpointDyn.ml" 243 6870 6910
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+"fixpointDyn.ml" 244 6914 6925 "fixpointDyn.ml" 244 6914 6932
+type(
+  bool
+)
+ident(
+  def growing "fixpointDyn.ml" 245 7009 7015 "fixpointDyn.ml" 252 7211 7220
+)
+"fixpointDyn.ml" 244 6914 6933 "fixpointDyn.ml" 244 6914 6941
+type(
+  bool
+)
+ident(
+  def reducing "fixpointDyn.ml" 245 7009 7015 "fixpointDyn.ml" 252 7211 7220
+)
+"fixpointDyn.ml" 244 6914 6924 "fixpointDyn.ml" 244 6914 6942
+type(
+  bool * bool
+)
+"fixpointDyn.ml" 244 6914 6945 "fixpointDyn.ml" 244 6914 6982
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy -> bool * bool
+)
+ident(
+  ext_ref FixpointStd.process_toplevel_strategy
+)
+"fixpointDyn.ml" 244 6914 6983 "fixpointDyn.ml" 244 6914 6990
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 227 6456 6461 "fixpointDyn.ml" 227 6456 6468
+)
+"fixpointDyn.ml" 244 6914 6991 "fixpointDyn.ml" 244 6914 6996
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 228 6510 6515 "fixpointDyn.ml" 228 6510 6520
+)
+"fixpointDyn.ml" 244 6914 6997 "fixpointDyn.ml" 244 6914 7005
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  int_ref strategy "fixpointDyn.ml" 243 6870 6880 "fixpointDyn.ml" 243 6870 6888
+)
+"fixpointDyn.ml" 244 6914 6945 "fixpointDyn.ml" 244 6914 7005
+call(
+  stack
+)
+type(
+  bool * bool
+)
+"fixpointDyn.ml" 245 7009 7018 "fixpointDyn.ml" 245 7009 7024
+type(
+  bool
+)
+ident(
+  int_ref guided "fixpointDyn.ml" 226 6437 6443 "fixpointDyn.ml" 226 6437 6449
+)
+"fixpointDyn.ml" 246 7036 7037 "fixpointDyn.ml" 246 7036 7046
+type(
+  bool ref
+)
+ident(
+  int_ref notstable "fixpointDyn.ml" 239 6748 6754 "fixpointDyn.ml" 239 6748 6763
+)
+"fixpointDyn.ml" 246 7036 7047 "fixpointDyn.ml" 246 7036 7049
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointDyn.ml" 246 7036 7050 "fixpointDyn.ml" 246 7036 7058
+type(
+  bool
+)
+ident(
+  int_ref reducing "fixpointDyn.ml" 244 6914 6933 "fixpointDyn.ml" 244 6914 6941
+)
+"fixpointDyn.ml" 246 7036 7037 "fixpointDyn.ml" 246 7036 7058
+type(
+  unit
+)
+"fixpointDyn.ml" 247 7060 7061 "fixpointDyn.ml" 247 7060 7074
+type(
+  ('vertex, unit) PHashhe.t -> unit
+)
+ident(
+  ext_ref PHashhe.clear
+)
+"fixpointDyn.ml" 247 7060 7075 "fixpointDyn.ml" 247 7060 7079
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 233 6599 6605 "fixpointDyn.ml" 233 6599 6609
+)
+"fixpointDyn.ml" 247 7060 7075 "fixpointDyn.ml" 247 7060 7091
+type(
+  ('vertex, unit) PHashhe.t
+)
+"fixpointDyn.ml" 247 7060 7061 "fixpointDyn.ml" 247 7060 7091
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 248 7093 7094 "fixpointDyn.ml" 248 7093 7107
+type(
+  ('hedge, unit) PHashhe.t -> unit
+)
+ident(
+  ext_ref PHashhe.clear
+)
+"fixpointDyn.ml" 248 7093 7108 "fixpointDyn.ml" 248 7093 7112
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 233 6599 6605 "fixpointDyn.ml" 233 6599 6609
+)
+"fixpointDyn.ml" 248 7093 7108 "fixpointDyn.ml" 248 7093 7123
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointDyn.ml" 248 7093 7094 "fixpointDyn.ml" 248 7093 7124
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 247 7060 7061 "fixpointDyn.ml" 248 7093 7124
+type(
+  unit
+)
+"fixpointDyn.ml" 245 7009 7030 "fixpointDyn.ml" 249 7125 7134
+type(
+  unit
+)
+"fixpointDyn.ml" 251 7152 7153 "fixpointDyn.ml" 251 7152 7159
+type(
+  bool ref
+)
+ident(
+  int_ref change "fixpointDyn.ml" 238 6721 6727 "fixpointDyn.ml" 238 6721 6733
+)
+"fixpointDyn.ml" 251 7152 7160 "fixpointDyn.ml" 251 7152 7162
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointDyn.ml" 251 7152 7163 "fixpointDyn.ml" 251 7152 7170
+type(
+  bool
+)
+ident(
+  int_ref growing "fixpointDyn.ml" 244 6914 6925 "fixpointDyn.ml" 244 6914 6932
+)
+"fixpointDyn.ml" 251 7152 7171 "fixpointDyn.ml" 251 7152 7173
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"fixpointDyn.ml" 251 7152 7175 "fixpointDyn.ml" 251 7152 7189
+type(
+  ('hedge, 'vertex array * 'vertex) PHashhe.t -> int
+)
+ident(
+  ext_ref PHashhe.length
+)
+"fixpointDyn.ml" 251 7152 7191 "fixpointDyn.ml" 251 7152 7194
+type(
+  ('vertex, 'hedge) FixpointType.infodyn
+)
+ident(
+  int_ref dyn "fixpointDyn.ml" 234 6635 6641 "fixpointDyn.ml" 234 6635 6644
+)
+"fixpointDyn.ml" 251 7152 7191 "fixpointDyn.ml" 251 7152 7204
+type(
+  ('hedge, 'vertex array * 'vertex) PHashhe.t
+)
+"fixpointDyn.ml" 251 7152 7174 "fixpointDyn.ml" 251 7152 7205
+call(
+  stack
+)
+type(
+  int
+)
+"fixpointDyn.ml" 251 7152 7206 "fixpointDyn.ml" 251 7152 7207
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"fixpointDyn.ml" 251 7152 7208 "fixpointDyn.ml" 251 7152 7209
+type(
+  int
+)
+"fixpointDyn.ml" 251 7152 7174 "fixpointDyn.ml" 251 7152 7209
+type(
+  bool
+)
+"fixpointDyn.ml" 251 7152 7163 "fixpointDyn.ml" 251 7152 7209
+type(
+  bool
+)
+"fixpointDyn.ml" 250 7135 7146 "fixpointDyn.ml" 252 7211 7220
+type(
+  unit
+)
+"fixpointDyn.ml" 245 7009 7015 "fixpointDyn.ml" 252 7211 7220
+type(
+  unit
+)
+"fixpointDyn.ml" 244 6914 6920 "fixpointDyn.ml" 252 7211 7220
+type(
+  unit
+)
+"fixpointDyn.ml" 242 6844 6864 "fixpointDyn.ml" 253 7221 7228
+type(
+  unit
+)
+"fixpointDyn.ml" 242 6844 6848 "fixpointDyn.ml" 253 7221 7228
+type(
+  unit
+)
+"fixpointDyn.ml" 241 6797 6801 "fixpointDyn.ml" 253 7221 7228
+type(
+  unit
+)
+"fixpointDyn.ml" 240 6778 6780 "fixpointDyn.ml" 254 7229 7235
+type(
+  unit
+)
+"fixpointDyn.ml" 255 7237 7239 "fixpointDyn.ml" 255 7237 7240
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointDyn.ml" 255 7237 7240 "fixpointDyn.ml" 255 7237 7249
+type(
+  bool ref
+)
+ident(
+  int_ref notstable "fixpointDyn.ml" 239 6748 6754 "fixpointDyn.ml" 239 6748 6763
+)
+"fixpointDyn.ml" 255 7237 7239 "fixpointDyn.ml" 255 7237 7249
+type(
+  bool
+)
+"fixpointDyn.ml" 240 6778 6780 "fixpointDyn.ml" 255 7237 7249
+type(
+  bool
+)
+"fixpointDyn.ml" 239 6748 6750 "fixpointDyn.ml" 255 7237 7249
+type(
+  bool
+)
+"fixpointDyn.ml" 238 6721 6723 "fixpointDyn.ml" 255 7237 7249
+type(
+  bool
+)
+"fixpointDyn.ml" 234 6635 6637 "fixpointDyn.ml" 255 7237 7249
+type(
+  bool
+)
+"fixpointDyn.ml" 233 6599 6601 "fixpointDyn.ml" 255 7237 7249
+type(
+  bool
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 257 7251 7255 "fixpointDyn.ml" 257 7251 7263
+type(
+  ('vertex, 'hedge) PSHGraph.compare ->
+  guided:bool ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge) FixpointType.equation ->
+  'vertex PSette.t ->
+  (('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+   ('vertex, 'hedge) FixpointType.strategy) ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+ident(
+  def analysis "fixpointDyn.ml" 290 8252 8252 "fixpointDyn.ml" 1 0 -1
+)
+"fixpointDyn.ml" 258 7264 7268 "fixpointDyn.ml" 258 7264 7275
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  def compare "fixpointDyn.ml" 259 7276 7280 "fixpointDyn.ml" 284 8047 8082
+)
+"fixpointDyn.ml" 259 7276 7282 "fixpointDyn.ml" 259 7276 7288
+type(
+  bool
+)
+ident(
+  def guided "fixpointDyn.ml" 260 7295 7299 "fixpointDyn.ml" 284 8047 8082
+)
+"fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointDyn.ml" 261 7349 7353 "fixpointDyn.ml" 284 8047 8082
+)
+"fixpointDyn.ml" 261 7349 7354 "fixpointDyn.ml" 261 7349 7362
+type(
+  ('vertex, 'hedge) FixpointType.equation
+)
+ident(
+  def equation "fixpointDyn.ml" 262 7390 7394 "fixpointDyn.ml" 284 8047 8082
+)
+"fixpointDyn.ml" 262 7390 7395 "fixpointDyn.ml" 262 7390 7400
+type(
+  'vertex PSette.t
+)
+ident(
+  def sinit "fixpointDyn.ml" 263 7419 7423 "fixpointDyn.ml" 284 8047 8082
+)
+"fixpointDyn.ml" 263 7419 7423 "fixpointDyn.ml" 263 7419 7436
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  def make_strategy "fixpointDyn.ml" 264 7437 7441 "fixpointDyn.ml" 284 8047 8082
+)
+"fixpointDyn.ml" 267 7492 7497 "fixpointDyn.ml" 267 7492 7504
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 267 7492 7497 "fixpointDyn.ml" 267 7492 7519
+type(
+  bool
+)
+"fixpointDyn.ml" 268 7531 7535 "fixpointDyn.ml" 268 7531 7542
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 268 7531 7543 "fixpointDyn.ml" 268 7531 7550
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 268 7531 7543 "fixpointDyn.ml" 268 7531 7560
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 268 7531 7561 "fixpointDyn.ml" 268 7531 7580
+type(
+  (unit, Format.formatter, unit) format
+)
+"fixpointDyn.ml" 267 7492 7525 "fixpointDyn.ml" 269 7582 7587
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 267 7492 7494 "fixpointDyn.ml" 269 7582 7587
+type(
+  unit
+)
+"fixpointDyn.ml" 270 7589 7595 "fixpointDyn.ml" 270 7589 7600
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  def graph "fixpointDyn.ml" 271 7642 7644 "fixpointDyn.ml" 284 8047 8082
+)
+"fixpointDyn.ml" 270 7589 7603 "fixpointDyn.ml" 270 7589 7607
+type(
+  ('vertex, 'hedge) PSHGraph.compare ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge) FixpointType.equation ->
+  'vertex PSette.t -> ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref init "fixpointDyn.ml" 52 1328 1332 "fixpointDyn.ml" 52 1328 1336
+)
+"fixpointDyn.ml" 270 7589 7608 "fixpointDyn.ml" 270 7589 7615
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  int_ref compare "fixpointDyn.ml" 258 7264 7268 "fixpointDyn.ml" 258 7264 7275
+)
+"fixpointDyn.ml" 270 7589 7616 "fixpointDyn.ml" 270 7589 7623
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 270 7589 7624 "fixpointDyn.ml" 270 7589 7632
+type(
+  ('vertex, 'hedge) FixpointType.equation
+)
+ident(
+  int_ref equation "fixpointDyn.ml" 261 7349 7354 "fixpointDyn.ml" 261 7349 7362
+)
+"fixpointDyn.ml" 270 7589 7633 "fixpointDyn.ml" 270 7589 7638
+type(
+  'vertex PSette.t
+)
+ident(
+  int_ref sinit "fixpointDyn.ml" 262 7390 7395 "fixpointDyn.ml" 262 7390 7400
+)
+"fixpointDyn.ml" 270 7589 7603 "fixpointDyn.ml" 270 7589 7638
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+"fixpointDyn.ml" 271 7642 7648 "fixpointDyn.ml" 271 7642 7652
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  def info "fixpointDyn.ml" 272 7678 7680 "fixpointDyn.ml" 284 8047 8082
+)
+"fixpointDyn.ml" 271 7642 7655 "fixpointDyn.ml" 271 7642 7668
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  ext_ref PSHGraph.info
+)
+"fixpointDyn.ml" 271 7642 7669 "fixpointDyn.ml" 271 7642 7674
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 270 7589 7595 "fixpointDyn.ml" 270 7589 7600
+)
+"fixpointDyn.ml" 271 7642 7655 "fixpointDyn.ml" 271 7642 7674
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+"fixpointDyn.ml" 272 7678 7683 "fixpointDyn.ml" 272 7678 7686
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"fixpointDyn.ml" 272 7678 7688 "fixpointDyn.ml" 272 7678 7703
+type(
+  'vertex PSette.t -> bool
+)
+ident(
+  ext_ref PSette.is_empty
+)
+"fixpointDyn.ml" 272 7678 7704 "fixpointDyn.ml" 272 7678 7708
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 271 7642 7648 "fixpointDyn.ml" 271 7642 7652
+)
+"fixpointDyn.ml" 272 7678 7704 "fixpointDyn.ml" 272 7678 7714
+type(
+  'vertex PSette.t
+)
+"fixpointDyn.ml" 272 7678 7687 "fixpointDyn.ml" 272 7678 7715
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 272 7678 7683 "fixpointDyn.ml" 272 7678 7715
+type(
+  bool
+)
+"fixpointDyn.ml" 273 7727 7731 "fixpointDyn.ml" 273 7727 7753
+type(
+  float ref -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Time.wrap_duration_add
+)
+"fixpointDyn.ml" 273 7727 7754 "fixpointDyn.ml" 273 7727 7758
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 271 7642 7648 "fixpointDyn.ml" 271 7642 7652
+)
+"fixpointDyn.ml" 273 7727 7754 "fixpointDyn.ml" 273 7727 7764
+type(
+  float ref
+)
+"fixpointDyn.ml" 274 7765 7776 "fixpointDyn.ml" 274 7765 7778
+type(
+  unit
+)
+"fixpointDyn.ml" 274 7765 7782 "fixpointDyn.ml" 274 7765 7788
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"fixpointDyn.ml" 274 7765 7790 "fixpointDyn.ml" 274 7765 7798
+type(
+  guided:bool ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  (('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+   ('vertex, 'hedge) FixpointType.strategy) ->
+  bool
+)
+ident(
+  int_ref fixpoint "fixpointDyn.ml" 225 6424 6428 "fixpointDyn.ml" 225 6424 6436
+)
+"fixpointDyn.ml" 274 7765 7800 "fixpointDyn.ml" 274 7765 7806
+type(
+  bool
+)
+ident(
+  int_ref guided "fixpointDyn.ml" 259 7276 7282 "fixpointDyn.ml" 259 7276 7288
+)
+"fixpointDyn.ml" 274 7765 7807 "fixpointDyn.ml" 274 7765 7814
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 274 7765 7815 "fixpointDyn.ml" 274 7765 7820
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 270 7589 7595 "fixpointDyn.ml" 270 7589 7600
+)
+"fixpointDyn.ml" 274 7765 7821 "fixpointDyn.ml" 274 7765 7834
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  int_ref make_strategy "fixpointDyn.ml" 263 7419 7423 "fixpointDyn.ml" 263 7419 7436
+)
+"fixpointDyn.ml" 274 7765 7789 "fixpointDyn.ml" 274 7765 7835
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 274 7765 7782 "fixpointDyn.ml" 274 7765 7835
+type(
+  unit
+)
+"fixpointDyn.ml" 274 7765 7771 "fixpointDyn.ml" 274 7765 7836
+type(
+  unit -> unit
+)
+"fixpointDyn.ml" 272 7678 7721 "fixpointDyn.ml" 275 7837 7842
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 272 7678 7680 "fixpointDyn.ml" 275 7837 7842
+type(
+  unit
+)
+"fixpointDyn.ml" 276 7844 7849 "fixpointDyn.ml" 276 7844 7856
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 276 7844 7849 "fixpointDyn.ml" 276 7844 7871
+type(
+  bool
+)
+"fixpointDyn.ml" 277 7877 7881 "fixpointDyn.ml" 277 7877 7888
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointDyn.ml" 277 7877 7889 "fixpointDyn.ml" 277 7877 7896
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 277 7877 7889 "fixpointDyn.ml" 277 7877 7906
+type(
+  Format.formatter
+)
+"fixpointDyn.ml" 277 7877 7907 "fixpointDyn.ml" 277 7877 7918
+type(
+  (unit, Format.formatter, unit) format
+)
+"fixpointDyn.ml" 277 7877 7881 "fixpointDyn.ml" 277 7877 7918
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 276 7844 7846 "fixpointDyn.ml" 277 7877 7918
+type(
+  unit
+)
+"fixpointDyn.ml" 279 7923 7928 "fixpointDyn.ml" 279 7923 7935
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 279 7923 7928 "fixpointDyn.ml" 279 7923 7950
+type(
+  bool
+)
+"fixpointDyn.ml" 279 7923 7951 "fixpointDyn.ml" 279 7923 7953
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"fixpointDyn.ml" 279 7923 7954 "fixpointDyn.ml" 279 7923 7961
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 279 7923 7954 "fixpointDyn.ml" 279 7923 7969
+type(
+  Format.formatter option
+)
+"fixpointDyn.ml" 279 7923 7969 "fixpointDyn.ml" 279 7923 7971
+type(
+  Format.formatter option -> Format.formatter option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"fixpointDyn.ml" 279 7923 7971 "fixpointDyn.ml" 279 7923 7975
+type(
+  Format.formatter option
+)
+"fixpointDyn.ml" 279 7923 7954 "fixpointDyn.ml" 279 7923 7975
+type(
+  bool
+)
+"fixpointDyn.ml" 279 7923 7928 "fixpointDyn.ml" 279 7923 7975
+type(
+  bool
+)
+"fixpointDyn.ml" 280 7987 7991 "fixpointDyn.ml" 280 7987 8000
+type(
+  ?style:string ->
+  ?titlestyle:string ->
+  ?vertexstyle:string ->
+  ?hedgestyle:string ->
+  ?strategy:('vertex, 'hedge) FixpointType.strategy ->
+  ?vertex:'vertex ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  title:string -> unit
+)
+ident(
+  ext_ref FixpointType.dot_graph
+)
+"fixpointDyn.ml" 280 7987 8001 "fixpointDyn.ml" 280 7987 8008
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointDyn.ml" 260 7295 7300 "fixpointDyn.ml" 260 7295 7307
+)
+"fixpointDyn.ml" 280 7987 8009 "fixpointDyn.ml" 280 7987 8014
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 270 7589 7595 "fixpointDyn.ml" 270 7589 7600
+)
+"fixpointDyn.ml" 281 8015 8028 "fixpointDyn.ml" 281 8015 8036
+type(
+  string
+)
+"fixpointDyn.ml" 279 7923 7981 "fixpointDyn.ml" 282 8037 8042
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 279 7923 7925 "fixpointDyn.ml" 282 8037 8042
+type(
+  unit
+)
+"fixpointDyn.ml" 284 8047 8049 "fixpointDyn.ml" 284 8047 8076
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+ident(
+  ext_ref FixpointStd.output_of_graph
+)
+"fixpointDyn.ml" 284 8047 8077 "fixpointDyn.ml" 284 8047 8082
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 270 7589 7595 "fixpointDyn.ml" 270 7589 7600
+)
+"fixpointDyn.ml" 284 8047 8049 "fixpointDyn.ml" 284 8047 8082
+call(
+  tail
+)
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointDyn.ml" 279 7923 7925 "fixpointDyn.ml" 284 8047 8082
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointDyn.ml" 276 7844 7846 "fixpointDyn.ml" 284 8047 8082
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointDyn.ml" 272 7678 7680 "fixpointDyn.ml" 284 8047 8082
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointDyn.ml" 271 7642 7644 "fixpointDyn.ml" 284 8047 8082
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointDyn.ml" 270 7589 7591 "fixpointDyn.ml" 284 8047 8082
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointDyn.ml" 267 7492 7494 "fixpointDyn.ml" 284 8047 8082
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointDyn.ml" 290 8252 8256 "fixpointDyn.ml" 290 8252 8273
+type(
+  ?filter:'d ->
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t ->
+  ('vertex, 'hedge) FixpointType.equation
+)
+ident(
+  def equation_of_graph "fixpointDyn.ml" 325 9188 9188 "fixpointDyn.ml" 1 0 -1
+)
+"fixpointDyn.ml" 291 8274 8279 "fixpointDyn.ml" 291 8274 8285
+type(
+  'd option
+)
+ident(
+  def filter "fixpointDyn.ml" 292 8286 8290 "fixpointDyn.ml" 322 9180 9185
+)
+"fixpointDyn.ml" 292 8286 8291 "fixpointDyn.ml" 292 8286 8296
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  def graph "fixpointDyn.ml" 293 8338 8342 "fixpointDyn.ml" 322 9180 9185
+)
+"fixpointDyn.ml" 296 8380 8392 "fixpointDyn.ml" 296 8380 8398
+type(
+  'vertex
+)
+ident(
+  def vertex "fixpointDyn.ml" 297 8402 8406 "fixpointDyn.ml" 321 9172 9179
+)
+"fixpointDyn.ml" 297 8402 8410 "fixpointDyn.ml" 297 8402 8419
+type(
+  'hedge PSette.t
+)
+ident(
+  def succhedge "fixpointDyn.ml" 298 8457 8461 "fixpointDyn.ml" 321 9172 9179
+)
+"fixpointDyn.ml" 297 8402 8422 "fixpointDyn.ml" 297 8402 8440
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t -> 'vertex -> 'hedge PSette.t
+)
+ident(
+  ext_ref PSHGraph.succhedge
+)
+"fixpointDyn.ml" 297 8402 8441 "fixpointDyn.ml" 297 8402 8446
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 292 8286 8291 "fixpointDyn.ml" 292 8286 8296
+)
+"fixpointDyn.ml" 297 8402 8447 "fixpointDyn.ml" 297 8402 8453
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 296 8380 8392 "fixpointDyn.ml" 296 8380 8398
+)
+"fixpointDyn.ml" 297 8402 8422 "fixpointDyn.ml" 297 8402 8453
+call(
+  stack
+)
+type(
+  'hedge PSette.t
+)
+"fixpointDyn.ml" 298 8457 8465 "fixpointDyn.ml" 298 8457 8468
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  def map "fixpointDyn.ml" 321 9172 9176 "fixpointDyn.ml" 321 9172 9179
+)
+"fixpointDyn.ml" 298 8457 8477 "fixpointDyn.ml" 298 8457 8483
+type(
+  'd option
+)
+ident(
+  int_ref filter "fixpointDyn.ml" 291 8274 8279 "fixpointDyn.ml" 291 8274 8285
+)
+"fixpointDyn.ml" 299 8489 8497 "fixpointDyn.ml" 299 8489 8501
+type(
+  'd option
+)
+"fixpointDyn.ml" 300 8505 8508 "fixpointDyn.ml" 300 8505 8523
+type(
+  ('hedge -> 'vertex array * 'vertex) ->
+  'hedge PSette.t -> ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  ext_ref PMappe.mapofset
+)
+"fixpointDyn.ml" 301 8524 8541 "fixpointDyn.ml" 301 8524 8546
+type(
+  'hedge
+)
+ident(
+  def hedge "fixpointDyn.ml" 302 8558 8565 "fixpointDyn.ml" 305 8723 8757
+)
+"fixpointDyn.ml" 302 8558 8569 "fixpointDyn.ml" 302 8558 8579
+type(
+  'vertex array
+)
+ident(
+  def predvertex "fixpointDyn.ml" 303 8617 8624 "fixpointDyn.ml" 305 8723 8757
+)
+"fixpointDyn.ml" 302 8558 8582 "fixpointDyn.ml" 302 8558 8601
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t -> 'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.predvertex
+)
+"fixpointDyn.ml" 302 8558 8602 "fixpointDyn.ml" 302 8558 8607
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 292 8286 8291 "fixpointDyn.ml" 292 8286 8296
+)
+"fixpointDyn.ml" 302 8558 8608 "fixpointDyn.ml" 302 8558 8613
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 301 8524 8541 "fixpointDyn.ml" 301 8524 8546
+)
+"fixpointDyn.ml" 302 8558 8582 "fixpointDyn.ml" 302 8558 8613
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointDyn.ml" 303 8617 8628 "fixpointDyn.ml" 303 8617 8638
+type(
+  'vertex array
+)
+ident(
+  def succvertex "fixpointDyn.ml" 304 8676 8683 "fixpointDyn.ml" 305 8723 8757
+)
+"fixpointDyn.ml" 303 8617 8641 "fixpointDyn.ml" 303 8617 8660
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t -> 'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.succvertex
+)
+"fixpointDyn.ml" 303 8617 8661 "fixpointDyn.ml" 303 8617 8666
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 292 8286 8291 "fixpointDyn.ml" 292 8286 8296
+)
+"fixpointDyn.ml" 303 8617 8667 "fixpointDyn.ml" 303 8617 8672
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 301 8524 8541 "fixpointDyn.ml" 301 8524 8546
+)
+"fixpointDyn.ml" 303 8617 8641 "fixpointDyn.ml" 303 8617 8672
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointDyn.ml" 304 8676 8692 "fixpointDyn.ml" 304 8676 8704
+type(
+  'vertex array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"fixpointDyn.ml" 304 8676 8705 "fixpointDyn.ml" 304 8676 8715
+type(
+  'vertex array
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 303 8617 8628 "fixpointDyn.ml" 303 8617 8638
+)
+"fixpointDyn.ml" 304 8676 8691 "fixpointDyn.ml" 304 8676 8716
+type(
+  int
+)
+"fixpointDyn.ml" 304 8676 8717 "fixpointDyn.ml" 304 8676 8718
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"fixpointDyn.ml" 304 8676 8719 "fixpointDyn.ml" 304 8676 8720
+type(
+  int
+)
+"fixpointDyn.ml" 304 8676 8690 "fixpointDyn.ml" 304 8676 8721
+type(
+  bool
+)
+"fixpointDyn.ml" 304 8676 8683 "fixpointDyn.ml" 304 8676 8721
+type(
+  unit
+)
+"fixpointDyn.ml" 305 8723 8731 "fixpointDyn.ml" 305 8723 8741
+type(
+  'vertex array
+)
+ident(
+  int_ref predvertex "fixpointDyn.ml" 302 8558 8569 "fixpointDyn.ml" 302 8558 8579
+)
+"fixpointDyn.ml" 305 8723 8742 "fixpointDyn.ml" 305 8723 8752
+type(
+  'vertex array
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 303 8617 8628 "fixpointDyn.ml" 303 8617 8638
+)
+"fixpointDyn.ml" 305 8723 8754 "fixpointDyn.ml" 305 8723 8755
+type(
+  int
+)
+"fixpointDyn.ml" 305 8723 8742 "fixpointDyn.ml" 305 8723 8756
+type(
+  'vertex
+)
+"fixpointDyn.ml" 305 8723 8730 "fixpointDyn.ml" 305 8723 8757
+type(
+  'vertex array * 'vertex
+)
+"fixpointDyn.ml" 304 8676 8683 "fixpointDyn.ml" 305 8723 8757
+type(
+  'vertex array * 'vertex
+)
+"fixpointDyn.ml" 303 8617 8624 "fixpointDyn.ml" 305 8723 8757
+type(
+  'vertex array * 'vertex
+)
+"fixpointDyn.ml" 302 8558 8565 "fixpointDyn.ml" 305 8723 8757
+type(
+  'vertex array * 'vertex
+)
+"fixpointDyn.ml" 301 8524 8529 "fixpointDyn.ml" 306 8758 8767
+type(
+  'hedge -> 'vertex array * 'vertex
+)
+"fixpointDyn.ml" 307 8768 8773 "fixpointDyn.ml" 307 8768 8782
+type(
+  'hedge PSette.t
+)
+ident(
+  int_ref succhedge "fixpointDyn.ml" 297 8402 8410 "fixpointDyn.ml" 297 8402 8419
+)
+"fixpointDyn.ml" 300 8505 8508 "fixpointDyn.ml" 307 8768 8782
+call(
+  tail
+)
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 308 8783 8796 "fixpointDyn.ml" 308 8783 8797
+type(
+  'd
+)
+ident(
+  def p "fixpointDyn.ml" 309 8801 8804 "fixpointDyn.ml" 319 9104 9164
+)
+"fixpointDyn.ml" 308 8783 8791 "fixpointDyn.ml" 308 8783 8797
+type(
+  'd option
+)
+"fixpointDyn.ml" 309 8801 8804 "fixpointDyn.ml" 309 8801 8815
+type(
+  ('hedge ->
+   ('hedge, 'vertex array * 'vertex) PMappe.t ->
+   ('hedge, 'vertex array * 'vertex) PMappe.t) ->
+  'hedge PSette.t ->
+  ('hedge, 'vertex array * 'vertex) PMappe.t ->
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  ext_ref PSette.fold
+)
+"fixpointDyn.ml" 310 8816 8833 "fixpointDyn.ml" 310 8816 8838
+type(
+  'hedge
+)
+ident(
+  def hedge "fixpointDyn.ml" 310 8816 8847 "fixpointDyn.ml" 316 9073 9078
+)
+"fixpointDyn.ml" 310 8816 8847 "fixpointDyn.ml" 310 8816 8850
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  def map "fixpointDyn.ml" 311 8854 8861 "fixpointDyn.ml" 316 9073 9078
+)
+"fixpointDyn.ml" 311 8854 8865 "fixpointDyn.ml" 311 8854 8875
+type(
+  'vertex array
+)
+ident(
+  def predvertex "fixpointDyn.ml" 312 8913 8920 "fixpointDyn.ml" 316 9073 9078
+)
+"fixpointDyn.ml" 311 8854 8878 "fixpointDyn.ml" 311 8854 8897
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t -> 'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.predvertex
+)
+"fixpointDyn.ml" 311 8854 8898 "fixpointDyn.ml" 311 8854 8903
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 292 8286 8291 "fixpointDyn.ml" 292 8286 8296
+)
+"fixpointDyn.ml" 311 8854 8904 "fixpointDyn.ml" 311 8854 8909
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 310 8816 8833 "fixpointDyn.ml" 310 8816 8838
+)
+"fixpointDyn.ml" 311 8854 8878 "fixpointDyn.ml" 311 8854 8909
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointDyn.ml" 312 8913 8924 "fixpointDyn.ml" 312 8913 8934
+type(
+  'vertex array
+)
+ident(
+  def succvertex "fixpointDyn.ml" 313 8972 8979 "fixpointDyn.ml" 316 9073 9078
+)
+"fixpointDyn.ml" 312 8913 8937 "fixpointDyn.ml" 312 8913 8956
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t -> 'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.succvertex
+)
+"fixpointDyn.ml" 312 8913 8957 "fixpointDyn.ml" 312 8913 8962
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 292 8286 8291 "fixpointDyn.ml" 292 8286 8296
+)
+"fixpointDyn.ml" 312 8913 8963 "fixpointDyn.ml" 312 8913 8968
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 310 8816 8833 "fixpointDyn.ml" 310 8816 8838
+)
+"fixpointDyn.ml" 312 8913 8937 "fixpointDyn.ml" 312 8913 8968
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointDyn.ml" 313 8972 8988 "fixpointDyn.ml" 313 8972 9000
+type(
+  'vertex array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"fixpointDyn.ml" 313 8972 9001 "fixpointDyn.ml" 313 8972 9011
+type(
+  'vertex array
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 312 8913 8924 "fixpointDyn.ml" 312 8913 8934
+)
+"fixpointDyn.ml" 313 8972 8987 "fixpointDyn.ml" 313 8972 9012
+type(
+  int
+)
+"fixpointDyn.ml" 313 8972 9013 "fixpointDyn.ml" 313 8972 9014
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"fixpointDyn.ml" 313 8972 9015 "fixpointDyn.ml" 313 8972 9016
+type(
+  int
+)
+"fixpointDyn.ml" 313 8972 8986 "fixpointDyn.ml" 313 8972 9017
+type(
+  bool
+)
+"fixpointDyn.ml" 313 8972 8979 "fixpointDyn.ml" 313 8972 9017
+type(
+  unit
+)
+"fixpointDyn.ml" 314 9019 9026 "fixpointDyn.ml" 314 9019 9036
+type(
+  'hedge ->
+  'vertex array * 'vertex ->
+  ('hedge, 'vertex array * 'vertex) PMappe.t ->
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  ext_ref PMappe.add
+)
+"fixpointDyn.ml" 315 9037 9039 "fixpointDyn.ml" 315 9037 9044
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointDyn.ml" 310 8816 8833 "fixpointDyn.ml" 310 8816 8838
+)
+"fixpointDyn.ml" 315 9037 9046 "fixpointDyn.ml" 315 9037 9056
+type(
+  'vertex array
+)
+ident(
+  int_ref predvertex "fixpointDyn.ml" 311 8854 8865 "fixpointDyn.ml" 311 8854 8875
+)
+"fixpointDyn.ml" 315 9037 9057 "fixpointDyn.ml" 315 9037 9067
+type(
+  'vertex array
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 312 8913 8924 "fixpointDyn.ml" 312 8913 8934
+)
+"fixpointDyn.ml" 315 9037 9069 "fixpointDyn.ml" 315 9037 9070
+type(
+  int
+)
+"fixpointDyn.ml" 315 9037 9057 "fixpointDyn.ml" 315 9037 9071
+type(
+  'vertex
+)
+"fixpointDyn.ml" 315 9037 9045 "fixpointDyn.ml" 315 9037 9072
+type(
+  'vertex array * 'vertex
+)
+"fixpointDyn.ml" 316 9073 9075 "fixpointDyn.ml" 316 9073 9078
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  int_ref map "fixpointDyn.ml" 310 8816 8847 "fixpointDyn.ml" 310 8816 8850
+)
+"fixpointDyn.ml" 314 9019 9026 "fixpointDyn.ml" 316 9073 9078
+call(
+  tail
+)
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 313 8972 8979 "fixpointDyn.ml" 316 9073 9078
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 312 8913 8920 "fixpointDyn.ml" 316 9073 9078
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 311 8854 8861 "fixpointDyn.ml" 316 9073 9078
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 310 8816 8821 "fixpointDyn.ml" 317 9079 9088
+type(
+  'hedge ->
+  ('hedge, 'vertex array * 'vertex) PMappe.t ->
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 318 9089 9094 "fixpointDyn.ml" 318 9089 9103
+type(
+  'hedge PSette.t
+)
+ident(
+  int_ref succhedge "fixpointDyn.ml" 297 8402 8410 "fixpointDyn.ml" 297 8402 8419
+)
+"fixpointDyn.ml" 319 9104 9110 "fixpointDyn.ml" 319 9104 9122
+type(
+  ('hedge -> 'hedge -> int) -> ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  ext_ref PMappe.empty
+)
+"fixpointDyn.ml" 319 9104 9123 "fixpointDyn.ml" 319 9104 9128
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 292 8286 8291 "fixpointDyn.ml" 292 8286 8296
+)
+"fixpointDyn.ml" 319 9104 9123 "fixpointDyn.ml" 319 9104 9145
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+"fixpointDyn.ml" 319 9104 9123 "fixpointDyn.ml" 319 9104 9163
+type(
+  'hedge -> 'hedge -> int
+)
+"fixpointDyn.ml" 319 9104 9109 "fixpointDyn.ml" 319 9104 9164
+call(
+  stack
+)
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 309 8801 8804 "fixpointDyn.ml" 319 9104 9164
+call(
+  tail
+)
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 298 8457 8471 "fixpointDyn.ml" 319 9104 9164
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 321 9172 9176 "fixpointDyn.ml" 321 9172 9179
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  int_ref map "fixpointDyn.ml" 298 8457 8465 "fixpointDyn.ml" 298 8457 8468
+)
+"fixpointDyn.ml" 298 8457 8461 "fixpointDyn.ml" 321 9172 9179
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 297 8402 8406 "fixpointDyn.ml" 321 9172 9179
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 296 8380 8382 "fixpointDyn.ml" 322 9180 9185
+type(
+  ('vertex, 'hedge) FixpointType.equation
+)
+type(
+  ('vertex, 'hedge) FixpointType.equation
+)
+"fixpointDyn.ml" 325 9188 9192 "fixpointDyn.ml" 325 9188 9209
+type(
+  ('vertex, 'hedge) PSHGraph.compare ->
+  ?filter:('hedge -> bool) ->
+  make_attrvertex:('vertex -> 'attr) ->
+  make_attrhedge:('hedge -> 'arc) ->
+  info:'info ->
+  ('vertex, 'hedge) FixpointType.equation ->
+  'vertex PSette.t -> ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  def graph_of_equation "fixpointDyn.ml" 368 10338 10345 "fixpointDyn.ml" 1 0 -1
+)
+"fixpointDyn.ml" 326 9210 9214 "fixpointDyn.ml" 326 9210 9221
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  def compare "fixpointDyn.ml" 327 9222 9226 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 327 9222 9227 "fixpointDyn.ml" 327 9222 9233
+type(
+  ('hedge -> bool) option
+)
+ident(
+  def filter "fixpointDyn.ml" 328 9234 9238 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 328 9234 9240 "fixpointDyn.ml" 328 9234 9255
+type(
+  'vertex -> 'attr
+)
+ident(
+  def make_attrvertex "fixpointDyn.ml" 329 9274 9278 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 329 9274 9280 "fixpointDyn.ml" 329 9274 9294
+type(
+  'hedge -> 'arc
+)
+ident(
+  def make_attrhedge "fixpointDyn.ml" 330 9311 9315 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 330 9311 9317 "fixpointDyn.ml" 330 9311 9321
+type(
+  'info
+)
+ident(
+  def info "fixpointDyn.ml" 331 9329 9333 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 331 9329 9334 "fixpointDyn.ml" 331 9329 9342
+type(
+  ('vertex, 'hedge) FixpointType.equation
+)
+ident(
+  def equation "fixpointDyn.ml" 332 9370 9374 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 332 9370 9375 "fixpointDyn.ml" 332 9370 9380
+type(
+  'vertex PSette.t
+)
+ident(
+  def sinit "fixpointDyn.ml" 333 9399 9403 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 336 9463 9469 "fixpointDyn.ml" 336 9463 9474
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  def graph "fixpointDyn.ml" 338 9512 9514 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 336 9463 9477 "fixpointDyn.ml" 336 9463 9492
+type(
+  ('vertex, 'hedge) PSHGraph.compare ->
+  int -> 'info -> ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  ext_ref PSHGraph.create
+)
+"fixpointDyn.ml" 336 9463 9493 "fixpointDyn.ml" 336 9463 9500
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+ident(
+  int_ref compare "fixpointDyn.ml" 326 9210 9214 "fixpointDyn.ml" 326 9210 9221
+)
+"fixpointDyn.ml" 336 9463 9501 "fixpointDyn.ml" 336 9463 9502
+type(
+  int
+)
+"fixpointDyn.ml" 336 9463 9503 "fixpointDyn.ml" 336 9463 9507
+type(
+  'info
+)
+ident(
+  int_ref info "fixpointDyn.ml" 330 9311 9317 "fixpointDyn.ml" 330 9311 9321
+)
+"fixpointDyn.ml" 336 9463 9477 "fixpointDyn.ml" 336 9463 9507
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+"fixpointDyn.ml" 338 9512 9522 "fixpointDyn.ml" 338 9512 9529
+type(
+  'vertex -> unit
+)
+ident(
+  def explore "fixpointDyn.ml" 338 9512 9514 "fixpointDyn.ml" 368 10338 10345
+)
+"fixpointDyn.ml" 338 9512 9530 "fixpointDyn.ml" 338 9512 9536
+type(
+  'vertex
+)
+ident(
+  def vertex "fixpointDyn.ml" 339 9539 9543 "fixpointDyn.ml" 365 10288 10303
+)
+"fixpointDyn.ml" 339 9539 9543 "fixpointDyn.ml" 339 9539 9562
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t ->
+  'vertex -> 'attr -> unit
+)
+ident(
+  ext_ref PSHGraph.add_vertex
+)
+"fixpointDyn.ml" 339 9539 9563 "fixpointDyn.ml" 339 9539 9568
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 336 9463 9469 "fixpointDyn.ml" 336 9463 9474
+)
+"fixpointDyn.ml" 339 9539 9569 "fixpointDyn.ml" 339 9539 9575
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 338 9512 9530 "fixpointDyn.ml" 338 9512 9536
+)
+"fixpointDyn.ml" 339 9539 9577 "fixpointDyn.ml" 339 9539 9592
+type(
+  'vertex -> 'attr
+)
+ident(
+  int_ref make_attrvertex "fixpointDyn.ml" 328 9234 9240 "fixpointDyn.ml" 328 9234 9255
+)
+"fixpointDyn.ml" 339 9539 9593 "fixpointDyn.ml" 339 9539 9599
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 338 9512 9530 "fixpointDyn.ml" 338 9512 9536
+)
+"fixpointDyn.ml" 339 9539 9576 "fixpointDyn.ml" 339 9539 9600
+call(
+  stack
+)
+type(
+  'attr
+)
+"fixpointDyn.ml" 339 9539 9543 "fixpointDyn.ml" 339 9539 9600
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 340 9602 9610 "fixpointDyn.ml" 340 9602 9619
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  def succhedge "fixpointDyn.ml" 341 9641 9645 "fixpointDyn.ml" 365 10288 10303
+)
+"fixpointDyn.ml" 340 9602 9622 "fixpointDyn.ml" 340 9602 9630
+type(
+  ('vertex, 'hedge) FixpointType.equation
+)
+ident(
+  int_ref equation "fixpointDyn.ml" 331 9329 9334 "fixpointDyn.ml" 331 9329 9342
+)
+"fixpointDyn.ml" 340 9602 9631 "fixpointDyn.ml" 340 9602 9637
+type(
+  'vertex
+)
+ident(
+  int_ref vertex "fixpointDyn.ml" 338 9512 9530 "fixpointDyn.ml" 338 9512 9536
+)
+"fixpointDyn.ml" 340 9602 9622 "fixpointDyn.ml" 340 9602 9637
+call(
+  stack
+)
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+"fixpointDyn.ml" 341 9641 9645 "fixpointDyn.ml" 341 9641 9656
+type(
+  ('hedge -> 'vertex array * 'vertex -> unit) ->
+  ('hedge, 'vertex array * 'vertex) PMappe.t -> unit
+)
+ident(
+  ext_ref PMappe.iter
+)
+"fixpointDyn.ml" 342 9657 9674 "fixpointDyn.ml" 342 9657 9683
+type(
+  'hedge
+)
+ident(
+  def succhedge "fixpointDyn.ml" 342 9657 9684 "fixpointDyn.ml" 363 10272 10276
+)
+"fixpointDyn.ml" 342 9657 9685 "fixpointDyn.ml" 342 9657 9696
+type(
+  'vertex array
+)
+ident(
+  def tpredvertex "fixpointDyn.ml" 343 9712 9713 "fixpointDyn.ml" 363 10272 10276
+)
+"fixpointDyn.ml" 342 9657 9697 "fixpointDyn.ml" 342 9657 9707
+type(
+  'vertex
+)
+ident(
+  def succvertex "fixpointDyn.ml" 343 9712 9713 "fixpointDyn.ml" 363 10272 10276
+)
+"fixpointDyn.ml" 342 9657 9684 "fixpointDyn.ml" 342 9657 9708
+type(
+  'vertex array * 'vertex
+)
+"fixpointDyn.ml" 343 9712 9717 "fixpointDyn.ml" 343 9712 9731
+type(
+  bool
+)
+ident(
+  def allpredcreated "fixpointDyn.ml" 350 9875 9876 "fixpointDyn.ml" 363 10272 10276
+)
+"fixpointDyn.ml" 344 9734 9737 "fixpointDyn.ml" 344 9734 9752
+type(
+  (bool -> 'vertex -> bool) -> bool -> 'vertex array -> bool
+)
+ident(
+  ext_ref Array.fold_left
+)
+"fixpointDyn.ml" 345 9753 9769 "fixpointDyn.ml" 345 9753 9772
+type(
+  bool
+)
+ident(
+  def res "fixpointDyn.ml" 345 9753 9773 "fixpointDyn.ml" 346 9787 9838
+)
+"fixpointDyn.ml" 345 9753 9773 "fixpointDyn.ml" 345 9753 9783
+type(
+  'vertex
+)
+ident(
+  def predvertex "fixpointDyn.ml" 346 9787 9794 "fixpointDyn.ml" 346 9787 9838
+)
+"fixpointDyn.ml" 346 9787 9794 "fixpointDyn.ml" 346 9787 9797
+type(
+  bool
+)
+ident(
+  int_ref res "fixpointDyn.ml" 345 9753 9769 "fixpointDyn.ml" 345 9753 9772
+)
+"fixpointDyn.ml" 346 9787 9798 "fixpointDyn.ml" 346 9787 9800
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"fixpointDyn.ml" 346 9787 9802 "fixpointDyn.ml" 346 9787 9820
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t -> 'vertex -> bool
+)
+ident(
+  ext_ref PSHGraph.is_vertex
+)
+"fixpointDyn.ml" 346 9787 9821 "fixpointDyn.ml" 346 9787 9826
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 336 9463 9469 "fixpointDyn.ml" 336 9463 9474
+)
+"fixpointDyn.ml" 346 9787 9827 "fixpointDyn.ml" 346 9787 9837
+type(
+  'vertex
+)
+ident(
+  int_ref predvertex "fixpointDyn.ml" 345 9753 9773 "fixpointDyn.ml" 345 9753 9783
+)
+"fixpointDyn.ml" 346 9787 9801 "fixpointDyn.ml" 346 9787 9838
+call(
+  tail
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 346 9787 9794 "fixpointDyn.ml" 346 9787 9838
+type(
+  bool
+)
+"fixpointDyn.ml" 345 9753 9758 "fixpointDyn.ml" 347 9839 9848
+type(
+  bool -> 'vertex -> bool
+)
+"fixpointDyn.ml" 348 9849 9854 "fixpointDyn.ml" 348 9849 9858
+type(
+  bool
+)
+"fixpointDyn.ml" 348 9849 9859 "fixpointDyn.ml" 348 9849 9870
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointDyn.ml" 342 9657 9685 "fixpointDyn.ml" 342 9657 9696
+)
+"fixpointDyn.ml" 344 9734 9737 "fixpointDyn.ml" 348 9849 9870
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 350 9875 9879 "fixpointDyn.ml" 350 9875 9893
+type(
+  bool
+)
+ident(
+  int_ref allpredcreated "fixpointDyn.ml" 343 9712 9717 "fixpointDyn.ml" 343 9712 9731
+)
+"fixpointDyn.ml" 351 9905 9912 "fixpointDyn.ml" 351 9905 9918
+type(
+  bool
+)
+ident(
+  def takeit "fixpointDyn.ml" 355 9994 9997 "fixpointDyn.ml" 362 10265 10271
+)
+"fixpointDyn.ml" 351 9905 9927 "fixpointDyn.ml" 351 9905 9933
+type(
+  ('hedge -> bool) option
+)
+ident(
+  int_ref filter "fixpointDyn.ml" 327 9222 9227 "fixpointDyn.ml" 327 9222 9233
+)
+"fixpointDyn.ml" 352 9939 9946 "fixpointDyn.ml" 352 9939 9950
+type(
+  ('hedge -> bool) option
+)
+"fixpointDyn.ml" 352 9939 9954 "fixpointDyn.ml" 352 9939 9958
+type(
+  bool
+)
+"fixpointDyn.ml" 353 9959 9971 "fixpointDyn.ml" 353 9959 9972
+type(
+  'hedge -> bool
+)
+ident(
+  def p "fixpointDyn.ml" 353 9959 9976 "fixpointDyn.ml" 353 9959 9987
+)
+"fixpointDyn.ml" 353 9959 9966 "fixpointDyn.ml" 353 9959 9972
+type(
+  ('hedge -> bool) option
+)
+"fixpointDyn.ml" 353 9959 9976 "fixpointDyn.ml" 353 9959 9977
+type(
+  'hedge -> bool
+)
+ident(
+  int_ref p "fixpointDyn.ml" 353 9959 9971 "fixpointDyn.ml" 353 9959 9972
+)
+"fixpointDyn.ml" 353 9959 9978 "fixpointDyn.ml" 353 9959 9987
+type(
+  'hedge
+)
+ident(
+  int_ref succhedge "fixpointDyn.ml" 342 9657 9674 "fixpointDyn.ml" 342 9657 9683
+)
+"fixpointDyn.ml" 353 9959 9976 "fixpointDyn.ml" 353 9959 9987
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 351 9905 9921 "fixpointDyn.ml" 353 9959 9987
+type(
+  bool
+)
+"fixpointDyn.ml" 355 9994 10000 "fixpointDyn.ml" 355 9994 10006
+type(
+  bool
+)
+ident(
+  int_ref takeit "fixpointDyn.ml" 351 9905 9912 "fixpointDyn.ml" 351 9905 9918
+)
+"fixpointDyn.ml" 356 10018 10026 "fixpointDyn.ml" 356 10018 10029
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"fixpointDyn.ml" 356 10018 10031 "fixpointDyn.ml" 356 10018 10049
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t -> 'vertex -> bool
+)
+ident(
+  ext_ref PSHGraph.is_vertex
+)
+"fixpointDyn.ml" 356 10018 10050 "fixpointDyn.ml" 356 10018 10055
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 336 9463 9469 "fixpointDyn.ml" 336 9463 9474
+)
+"fixpointDyn.ml" 356 10018 10056 "fixpointDyn.ml" 356 10018 10066
+type(
+  'vertex
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 342 9657 9697 "fixpointDyn.ml" 342 9657 9707
+)
+"fixpointDyn.ml" 356 10018 10030 "fixpointDyn.ml" 356 10018 10067
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 356 10018 10026 "fixpointDyn.ml" 356 10018 10067
+type(
+  bool
+)
+"fixpointDyn.ml" 357 10073 10080 "fixpointDyn.ml" 357 10073 10087
+type(
+  'vertex -> unit
+)
+ident(
+  int_ref explore "fixpointDyn.ml" 338 9512 9522 "fixpointDyn.ml" 338 9512 9529
+)
+"fixpointDyn.ml" 357 10073 10088 "fixpointDyn.ml" 357 10073 10098
+type(
+  'vertex
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 342 9657 9697 "fixpointDyn.ml" 342 9657 9707
+)
+"fixpointDyn.ml" 357 10073 10080 "fixpointDyn.ml" 357 10073 10098
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 356 10018 10023 "fixpointDyn.ml" 357 10073 10098
+type(
+  unit
+)
+"fixpointDyn.ml" 358 10100 10108 "fixpointDyn.ml" 358 10100 10111
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"fixpointDyn.ml" 358 10100 10113 "fixpointDyn.ml" 358 10100 10130
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t -> 'hedge -> bool
+)
+ident(
+  ext_ref PSHGraph.is_hedge
+)
+"fixpointDyn.ml" 358 10100 10131 "fixpointDyn.ml" 358 10100 10136
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 336 9463 9469 "fixpointDyn.ml" 336 9463 9474
+)
+"fixpointDyn.ml" 358 10100 10137 "fixpointDyn.ml" 358 10100 10146
+type(
+  'hedge
+)
+ident(
+  int_ref succhedge "fixpointDyn.ml" 342 9657 9674 "fixpointDyn.ml" 342 9657 9683
+)
+"fixpointDyn.ml" 358 10100 10112 "fixpointDyn.ml" 358 10100 10147
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointDyn.ml" 358 10100 10108 "fixpointDyn.ml" 358 10100 10147
+type(
+  bool
+)
+"fixpointDyn.ml" 359 10153 10160 "fixpointDyn.ml" 359 10153 10178
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t ->
+  'hedge -> 'arc -> pred:'vertex array -> succ:'vertex array -> unit
+)
+ident(
+  ext_ref PSHGraph.add_hedge
+)
+"fixpointDyn.ml" 359 10153 10179 "fixpointDyn.ml" 359 10153 10184
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 336 9463 9469 "fixpointDyn.ml" 336 9463 9474
+)
+"fixpointDyn.ml" 360 10185 10187 "fixpointDyn.ml" 360 10185 10196
+type(
+  'hedge
+)
+ident(
+  int_ref succhedge "fixpointDyn.ml" 342 9657 9674 "fixpointDyn.ml" 342 9657 9683
+)
+"fixpointDyn.ml" 360 10185 10198 "fixpointDyn.ml" 360 10185 10212
+type(
+  'hedge -> 'arc
+)
+ident(
+  int_ref make_attrhedge "fixpointDyn.ml" 329 9274 9280 "fixpointDyn.ml" 329 9274 9294
+)
+"fixpointDyn.ml" 360 10185 10213 "fixpointDyn.ml" 360 10185 10222
+type(
+  'hedge
+)
+ident(
+  int_ref succhedge "fixpointDyn.ml" 342 9657 9674 "fixpointDyn.ml" 342 9657 9683
+)
+"fixpointDyn.ml" 360 10185 10197 "fixpointDyn.ml" 360 10185 10223
+call(
+  stack
+)
+type(
+  'arc
+)
+"fixpointDyn.ml" 361 10224 10232 "fixpointDyn.ml" 361 10224 10243
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointDyn.ml" 342 9657 9685 "fixpointDyn.ml" 342 9657 9696
+)
+"fixpointDyn.ml" 361 10224 10252 "fixpointDyn.ml" 361 10224 10262
+type(
+  'vertex
+)
+ident(
+  int_ref succvertex "fixpointDyn.ml" 342 9657 9697 "fixpointDyn.ml" 342 9657 9707
+)
+"fixpointDyn.ml" 361 10224 10250 "fixpointDyn.ml" 361 10224 10264
+type(
+  'vertex array
+)
+"fixpointDyn.ml" 359 10153 10160 "fixpointDyn.ml" 361 10224 10264
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 358 10100 10105 "fixpointDyn.ml" 361 10224 10264
+type(
+  unit
+)
+"fixpointDyn.ml" 355 9994 10012 "fixpointDyn.ml" 362 10265 10271
+type(
+  unit
+)
+"fixpointDyn.ml" 355 9994 9997 "fixpointDyn.ml" 362 10265 10271
+type(
+  unit
+)
+"fixpointDyn.ml" 350 9875 9899 "fixpointDyn.ml" 363 10272 10276
+type(
+  unit
+)
+"fixpointDyn.ml" 350 9875 9876 "fixpointDyn.ml" 363 10272 10276
+type(
+  unit
+)
+"fixpointDyn.ml" 343 9712 9713 "fixpointDyn.ml" 363 10272 10276
+type(
+  unit
+)
+"fixpointDyn.ml" 342 9657 9663 "fixpointDyn.ml" 364 10277 10287
+type(
+  'hedge -> 'vertex array * 'vertex -> unit
+)
+"fixpointDyn.ml" 365 10288 10294 "fixpointDyn.ml" 365 10288 10303
+type(
+  ('hedge, 'vertex array * 'vertex) PMappe.t
+)
+ident(
+  int_ref succhedge "fixpointDyn.ml" 340 9602 9610 "fixpointDyn.ml" 340 9602 9619
+)
+"fixpointDyn.ml" 341 9641 9645 "fixpointDyn.ml" 365 10288 10303
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 340 9602 9606 "fixpointDyn.ml" 365 10288 10303
+type(
+  unit
+)
+"fixpointDyn.ml" 339 9539 9543 "fixpointDyn.ml" 365 10288 10303
+type(
+  unit
+)
+"fixpointDyn.ml" 367 10309 10311 "fixpointDyn.ml" 367 10309 10322
+type(
+  ('vertex -> unit) -> 'vertex PSette.t -> unit
+)
+ident(
+  ext_ref PSette.iter
+)
+"fixpointDyn.ml" 367 10309 10323 "fixpointDyn.ml" 367 10309 10330
+type(
+  'vertex -> unit
+)
+ident(
+  int_ref explore "fixpointDyn.ml" 338 9512 9522 "fixpointDyn.ml" 338 9512 9529
+)
+"fixpointDyn.ml" 367 10309 10331 "fixpointDyn.ml" 367 10309 10336
+type(
+  'vertex PSette.t
+)
+ident(
+  int_ref sinit "fixpointDyn.ml" 332 9370 9375 "fixpointDyn.ml" 332 9370 9380
+)
+"fixpointDyn.ml" 367 10309 10311 "fixpointDyn.ml" 367 10309 10336
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointDyn.ml" 368 10338 10340 "fixpointDyn.ml" 368 10338 10345
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+ident(
+  int_ref graph "fixpointDyn.ml" 336 9463 9469 "fixpointDyn.ml" 336 9463 9474
+)
+"fixpointDyn.ml" 367 10309 10311 "fixpointDyn.ml" 368 10338 10345
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+"fixpointDyn.ml" 338 9512 9514 "fixpointDyn.ml" 368 10338 10345
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+"fixpointDyn.ml" 336 9463 9465 "fixpointDyn.ml" 368 10338 10345
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)
+type(
+  ('vertex, 'hedge, 'attr, 'arc, 'info) PSHGraph.t
+)

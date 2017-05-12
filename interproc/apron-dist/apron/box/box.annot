@@ -1,0 +1,1804 @@
+"box.ml" 21 419 423 "box.ml" 21 419 437
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  def manager_is_box "box.ml" 24 521 521 "box.ml" 1 0 -1
+)
+"box.ml" 21 419 438 "box.ml" 21 419 441
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "box.ml" 22 444 446 "box.ml" 23 489 520
+)
+"box.ml" 22 444 450 "box.ml" 22 444 453
+type(
+  string
+)
+ident(
+  def str "box.ml" 23 489 491 "box.ml" 23 489 520
+)
+"box.ml" 22 444 456 "box.ml" 22 444 481
+type(
+  'a Apron.Manager.t -> string
+)
+ident(
+  ext_ref Apron.Manager.get_library
+)
+"box.ml" 22 444 482 "box.ml" 22 444 485
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "box.ml" 21 419 438 "box.ml" 21 419 441
+)
+"box.ml" 22 444 456 "box.ml" 22 444 485
+type(
+  string
+)
+"box.ml" 23 489 492 "box.ml" 23 489 506
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"box.ml" 23 489 507 "box.ml" 23 489 510
+type(
+  String.t
+)
+ident(
+  int_ref str "box.ml" 22 444 450 "box.ml" 22 444 453
+)
+"box.ml" 23 489 511 "box.ml" 23 489 516
+type(
+  String.t
+)
+"box.ml" 23 489 491 "box.ml" 23 489 517
+call(
+  stack
+)
+type(
+  int
+)
+"box.ml" 23 489 517 "box.ml" 23 489 519
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"box.ml" 23 489 519 "box.ml" 23 489 520
+type(
+  int
+)
+"box.ml" 23 489 491 "box.ml" 23 489 520
+type(
+  bool
+)
+"box.ml" 22 444 446 "box.ml" 23 489 520
+type(
+  bool
+)
+"box.ml" 24 521 525 "box.ml" 24 521 539
+type(
+  t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  def manager_of_box "box.ml" 25 601 601 "box.ml" 1 0 -1
+)
+"box.ml" 24 521 541 "box.ml" 24 521 544
+type(
+  t Apron.Manager.t
+)
+ident(
+  def man "box.ml" 24 521 564 "box.ml" 24 521 600
+)
+"box.ml" 24 521 587 "box.ml" 24 521 596
+type(
+  t Apron.Manager.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"box.ml" 24 521 597 "box.ml" 24 521 600
+type(
+  t Apron.Manager.t
+)
+ident(
+  int_ref man "box.ml" 24 521 541 "box.ml" 24 521 544
+)
+"box.ml" 24 521 587 "box.ml" 24 521 600
+type(
+  'a Apron.Manager.t
+)
+type(
+  'a Apron.Manager.t
+)
+"box.ml" 25 601 605 "box.ml" 25 601 619
+type(
+  'a Apron.Manager.t -> t Apron.Manager.t
+)
+ident(
+  def manager_to_box "box.ml" 30 798 798 "box.ml" 1 0 -1
+)
+"box.ml" 25 601 621 "box.ml" 25 601 624
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "box.ml" 25 601 645 "box.ml" 29 721 797
+)
+"box.ml" 26 667 672 "box.ml" 26 667 686
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_box "box.ml" 21 419 423 "box.ml" 21 419 437
+)
+"box.ml" 26 667 687 "box.ml" 26 667 690
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "box.ml" 25 601 621 "box.ml" 25 601 624
+)
+"box.ml" 26 667 672 "box.ml" 26 667 690
+call(
+  stack
+)
+type(
+  bool
+)
+"box.ml" 27 696 700 "box.ml" 27 696 709
+type(
+  'a Apron.Manager.t -> t Apron.Manager.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"box.ml" 27 696 710 "box.ml" 27 696 713
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "box.ml" 25 601 621 "box.ml" 25 601 624
+)
+"box.ml" 27 696 700 "box.ml" 27 696 713
+type(
+  t Apron.Manager.t
+)
+"box.ml" 29 721 725 "box.ml" 29 721 733
+type(
+  string -> t Apron.Manager.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"box.ml" 29 721 734 "box.ml" 29 721 797
+type(
+  string
+)
+"box.ml" 29 721 725 "box.ml" 29 721 797
+call(
+  tail
+)
+type(
+  t Apron.Manager.t
+)
+"box.ml" 26 667 669 "box.ml" 29 721 797
+type(
+  t Apron.Manager.t
+)
+type(
+  t Apron.Manager.t
+)
+"box.ml" 31 824 830 "box.ml" 31 824 836
+type(
+  'a Apron.Abstract0.t -> bool
+)
+ident(
+  def is_box "box.ml" 33 892 894 "box.ml" 39 1156 1159
+)
+"box.ml" 31 824 837 "box.ml" 31 824 840
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  def abs "box.ml" 32 843 847 "box.ml" 32 843 891
+)
+"box.ml" 32 843 847 "box.ml" 32 843 861
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_box "box.ml" 21 419 423 "box.ml" 21 419 437
+)
+"box.ml" 32 843 863 "box.ml" 32 843 886
+type(
+  'a Apron.Abstract0.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract0.manager
+)
+"box.ml" 32 843 887 "box.ml" 32 843 890
+type(
+  'a Apron.Abstract0.t
+)
+ident(
+  int_ref abs "box.ml" 31 824 837 "box.ml" 31 824 840
+)
+"box.ml" 32 843 862 "box.ml" 32 843 891
+type(
+  'a Apron.Manager.t
+)
+"box.ml" 32 843 847 "box.ml" 32 843 891
+call(
+  tail
+)
+type(
+  bool
+)
+"box.ml" 33 892 898 "box.ml" 33 892 904
+type(
+  t Apron.Abstract0.t -> 'a0 Apron.Abstract0.t
+)
+ident(
+  def of_box "box.ml" 34 971 973 "box.ml" 39 1156 1159
+)
+"box.ml" 33 892 906 "box.ml" 33 892 909
+type(
+  t Apron.Abstract0.t
+)
+ident(
+  def abs "box.ml" 33 892 932 "box.ml" 33 892 970
+)
+"box.ml" 33 892 957 "box.ml" 33 892 966
+type(
+  t Apron.Abstract0.t -> 'a0 Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"box.ml" 33 892 967 "box.ml" 33 892 970
+type(
+  t Apron.Abstract0.t
+)
+ident(
+  int_ref abs "box.ml" 33 892 906 "box.ml" 33 892 909
+)
+"box.ml" 33 892 957 "box.ml" 33 892 970
+type(
+  'a0 Apron.Abstract0.t
+)
+type(
+  'a0 Apron.Abstract0.t
+)
+"box.ml" 34 971 977 "box.ml" 34 971 983
+type(
+  'a1 Apron.Abstract0.t -> t Apron.Abstract0.t
+)
+ident(
+  def to_box "box.ml" 38 1081 1155 "box.ml" 39 1156 1159
+)
+"box.ml" 34 971 985 "box.ml" 34 971 988
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  def abs "box.ml" 34 971 1011 "box.ml" 38 1081 1155
+)
+"box.ml" 35 1035 1040 "box.ml" 35 1035 1046
+type(
+  'a1 Apron.Abstract0.t -> bool
+)
+ident(
+  int_ref is_box "box.ml" 31 824 830 "box.ml" 31 824 836
+)
+"box.ml" 35 1035 1047 "box.ml" 35 1035 1050
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "box.ml" 34 971 985 "box.ml" 34 971 988
+)
+"box.ml" 35 1035 1040 "box.ml" 35 1035 1050
+call(
+  stack
+)
+type(
+  bool
+)
+"box.ml" 36 1056 1060 "box.ml" 36 1056 1069
+type(
+  'a1 Apron.Abstract0.t -> t Apron.Abstract0.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"box.ml" 36 1056 1070 "box.ml" 36 1056 1073
+type(
+  'a1 Apron.Abstract0.t
+)
+ident(
+  int_ref abs "box.ml" 34 971 985 "box.ml" 34 971 988
+)
+"box.ml" 36 1056 1060 "box.ml" 36 1056 1073
+type(
+  t Apron.Abstract0.t
+)
+"box.ml" 38 1081 1085 "box.ml" 38 1081 1093
+type(
+  string -> t Apron.Abstract0.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"box.ml" 38 1081 1094 "box.ml" 38 1081 1155
+type(
+  string
+)
+"box.ml" 38 1081 1085 "box.ml" 38 1081 1155
+call(
+  tail
+)
+type(
+  t Apron.Abstract0.t
+)
+"box.ml" 35 1035 1037 "box.ml" 38 1081 1155
+type(
+  t Apron.Abstract0.t
+)
+type(
+  t Apron.Abstract0.t
+)
+"box.ml" 41 1186 1192 "box.ml" 41 1186 1198
+type(
+  'a Apron.Abstract1.t -> bool
+)
+ident(
+  def is_box "box.ml" 43 1254 1256 "box.ml" 49 1518 1521
+)
+"box.ml" 41 1186 1199 "box.ml" 41 1186 1202
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  def abs "box.ml" 42 1205 1209 "box.ml" 42 1205 1253
+)
+"box.ml" 42 1205 1209 "box.ml" 42 1205 1223
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_box "box.ml" 21 419 423 "box.ml" 21 419 437
+)
+"box.ml" 42 1205 1225 "box.ml" 42 1205 1248
+type(
+  'a Apron.Abstract1.t -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Abstract1.manager
+)
+"box.ml" 42 1205 1249 "box.ml" 42 1205 1252
+type(
+  'a Apron.Abstract1.t
+)
+ident(
+  int_ref abs "box.ml" 41 1186 1199 "box.ml" 41 1186 1202
+)
+"box.ml" 42 1205 1224 "box.ml" 42 1205 1253
+call(
+  stack
+)
+type(
+  'a Apron.Manager.t
+)
+"box.ml" 42 1205 1209 "box.ml" 42 1205 1253
+call(
+  tail
+)
+type(
+  bool
+)
+"box.ml" 43 1254 1260 "box.ml" 43 1254 1266
+type(
+  t Apron.Abstract1.t -> 'a0 Apron.Abstract1.t
+)
+ident(
+  def of_box "box.ml" 44 1333 1335 "box.ml" 49 1518 1521
+)
+"box.ml" 43 1254 1268 "box.ml" 43 1254 1271
+type(
+  t Apron.Abstract1.t
+)
+ident(
+  def abs "box.ml" 43 1254 1294 "box.ml" 43 1254 1332
+)
+"box.ml" 43 1254 1319 "box.ml" 43 1254 1328
+type(
+  t Apron.Abstract1.t -> 'a0 Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"box.ml" 43 1254 1329 "box.ml" 43 1254 1332
+type(
+  t Apron.Abstract1.t
+)
+ident(
+  int_ref abs "box.ml" 43 1254 1268 "box.ml" 43 1254 1271
+)
+"box.ml" 43 1254 1319 "box.ml" 43 1254 1332
+type(
+  'a0 Apron.Abstract1.t
+)
+type(
+  'a0 Apron.Abstract1.t
+)
+"box.ml" 44 1333 1339 "box.ml" 44 1333 1345
+type(
+  'a1 Apron.Abstract1.t -> t Apron.Abstract1.t
+)
+ident(
+  def to_box "box.ml" 48 1443 1517 "box.ml" 49 1518 1521
+)
+"box.ml" 44 1333 1347 "box.ml" 44 1333 1350
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  def abs "box.ml" 44 1333 1373 "box.ml" 48 1443 1517
+)
+"box.ml" 45 1397 1402 "box.ml" 45 1397 1408
+type(
+  'a1 Apron.Abstract1.t -> bool
+)
+ident(
+  int_ref is_box "box.ml" 41 1186 1192 "box.ml" 41 1186 1198
+)
+"box.ml" 45 1397 1409 "box.ml" 45 1397 1412
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "box.ml" 44 1333 1347 "box.ml" 44 1333 1350
+)
+"box.ml" 45 1397 1402 "box.ml" 45 1397 1412
+call(
+  stack
+)
+type(
+  bool
+)
+"box.ml" 46 1418 1422 "box.ml" 46 1418 1431
+type(
+  'a1 Apron.Abstract1.t -> t Apron.Abstract1.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"box.ml" 46 1418 1432 "box.ml" 46 1418 1435
+type(
+  'a1 Apron.Abstract1.t
+)
+ident(
+  int_ref abs "box.ml" 44 1333 1347 "box.ml" 44 1333 1350
+)
+"box.ml" 46 1418 1422 "box.ml" 46 1418 1435
+type(
+  t Apron.Abstract1.t
+)
+"box.ml" 48 1443 1447 "box.ml" 48 1443 1455
+type(
+  string -> t Apron.Abstract1.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"box.ml" 48 1443 1456 "box.ml" 48 1443 1517
+type(
+  string
+)
+"box.ml" 48 1443 1447 "box.ml" 48 1443 1517
+call(
+  tail
+)
+type(
+  t Apron.Abstract1.t
+)
+"box.ml" 45 1397 1399 "box.ml" 48 1443 1517
+type(
+  t Apron.Abstract1.t
+)
+type(
+  t Apron.Abstract1.t
+)
+"box.ml" 51 1545 1551 "box.ml" 51 1545 1557
+type(
+  'a Apron.Policy.t -> bool
+)
+ident(
+  def is_box "box.ml" 55 1681 1683 "box.ml" 89 3026 3029
+)
+"box.ml" 51 1545 1558 "box.ml" 51 1545 1559
+type(
+  'a Apron.Policy.t
+)
+ident(
+  def p "box.ml" 52 1562 1566 "box.ml" 54 1658 1680
+)
+"box.ml" 52 1562 1570 "box.ml" 52 1562 1574
+type(
+  'a Apron.Policy.man
+)
+ident(
+  def pman "box.ml" 53 1603 1607 "box.ml" 54 1658 1680
+)
+"box.ml" 52 1562 1577 "box.ml" 52 1562 1597
+type(
+  'a Apron.Policy.t -> 'a Apron.Policy.man
+)
+ident(
+  ext_ref Apron.Policy.manager
+)
+"box.ml" 52 1562 1598 "box.ml" 52 1562 1599
+type(
+  'a Apron.Policy.t
+)
+ident(
+  int_ref p "box.ml" 51 1545 1558 "box.ml" 51 1545 1559
+)
+"box.ml" 52 1562 1577 "box.ml" 52 1562 1599
+type(
+  'a Apron.Policy.man
+)
+"box.ml" 53 1603 1611 "box.ml" 53 1603 1614
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def man "box.ml" 54 1658 1662 "box.ml" 54 1658 1680
+)
+"box.ml" 53 1603 1617 "box.ml" 53 1603 1649
+type(
+  'a Apron.Policy.man -> 'a Apron.Manager.t
+)
+ident(
+  ext_ref Apron.Policy.manager_get_manager
+)
+"box.ml" 53 1603 1650 "box.ml" 53 1603 1654
+type(
+  'a Apron.Policy.man
+)
+ident(
+  int_ref pman "box.ml" 52 1562 1570 "box.ml" 52 1562 1574
+)
+"box.ml" 53 1603 1617 "box.ml" 53 1603 1654
+type(
+  'a Apron.Manager.t
+)
+"box.ml" 54 1658 1662 "box.ml" 54 1658 1676
+type(
+  'a Apron.Manager.t -> bool
+)
+ident(
+  int_ref manager_is_box "box.ml" 21 419 423 "box.ml" 21 419 437
+)
+"box.ml" 54 1658 1677 "box.ml" 54 1658 1680
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref man "box.ml" 53 1603 1611 "box.ml" 53 1603 1614
+)
+"box.ml" 54 1658 1662 "box.ml" 54 1658 1680
+call(
+  tail
+)
+type(
+  bool
+)
+"box.ml" 53 1603 1607 "box.ml" 54 1658 1680
+type(
+  bool
+)
+"box.ml" 52 1562 1566 "box.ml" 54 1658 1680
+type(
+  bool
+)
+"box.ml" 55 1681 1687 "box.ml" 55 1681 1693
+type(
+  t Apron.Policy.t -> 'a0 Apron.Policy.t
+)
+ident(
+  def of_box "box.ml" 56 1750 1752 "box.ml" 89 3026 3029
+)
+"box.ml" 55 1681 1695 "box.ml" 55 1681 1696
+type(
+  t Apron.Policy.t
+)
+ident(
+  def p "box.ml" 55 1681 1716 "box.ml" 55 1681 1749
+)
+"box.ml" 55 1681 1738 "box.ml" 55 1681 1747
+type(
+  t Apron.Policy.t -> 'a0 Apron.Policy.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"box.ml" 55 1681 1748 "box.ml" 55 1681 1749
+type(
+  t Apron.Policy.t
+)
+ident(
+  int_ref p "box.ml" 55 1681 1695 "box.ml" 55 1681 1696
+)
+"box.ml" 55 1681 1738 "box.ml" 55 1681 1749
+type(
+  'a0 Apron.Policy.t
+)
+type(
+  'a0 Apron.Policy.t
+)
+"box.ml" 56 1750 1756 "box.ml" 56 1750 1762
+type(
+  'a1 Apron.Policy.t -> t Apron.Policy.t
+)
+ident(
+  def to_box "box.ml" 61 1928 1930 "box.ml" 89 3026 3029
+)
+"box.ml" 56 1750 1764 "box.ml" 56 1750 1765
+type(
+  'a1 Apron.Policy.t
+)
+ident(
+  def p "box.ml" 56 1750 1785 "box.ml" 60 1854 1927
+)
+"box.ml" 57 1806 1813 "box.ml" 57 1806 1819
+type(
+  'a1 Apron.Policy.t -> bool
+)
+ident(
+  int_ref is_box "box.ml" 51 1545 1551 "box.ml" 51 1545 1557
+)
+"box.ml" 57 1806 1820 "box.ml" 57 1806 1821
+type(
+  'a1 Apron.Policy.t
+)
+ident(
+  int_ref p "box.ml" 56 1750 1764 "box.ml" 56 1750 1765
+)
+"box.ml" 57 1806 1813 "box.ml" 57 1806 1821
+call(
+  stack
+)
+type(
+  bool
+)
+"box.ml" 58 1827 1833 "box.ml" 58 1827 1842
+type(
+  'a1 Apron.Policy.t -> t Apron.Policy.t
+)
+ident(
+  ext_ref Obj.magic
+)
+"box.ml" 58 1827 1843 "box.ml" 58 1827 1844
+type(
+  'a1 Apron.Policy.t
+)
+ident(
+  int_ref p "box.ml" 56 1750 1764 "box.ml" 56 1750 1765
+)
+"box.ml" 58 1827 1833 "box.ml" 58 1827 1844
+type(
+  t Apron.Policy.t
+)
+"box.ml" 60 1854 1860 "box.ml" 60 1854 1868
+type(
+  string -> t Apron.Policy.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"box.ml" 60 1854 1869 "box.ml" 60 1854 1927
+type(
+  string
+)
+"box.ml" 60 1854 1860 "box.ml" 60 1854 1927
+call(
+  tail
+)
+type(
+  t Apron.Policy.t
+)
+"box.ml" 57 1806 1810 "box.ml" 60 1854 1927
+type(
+  t Apron.Policy.t
+)
+type(
+  t Apron.Policy.t
+)
+"box.ml" 61 1928 1934 "box.ml" 61 1928 1939
+type(
+  (int -> string) -> Format.formatter -> 'b Apron.Policy.t -> unit
+)
+ident(
+  def print "box.ml" 87 2835 2837 "box.ml" 89 3026 3029
+)
+"box.ml" 61 1928 1940 "box.ml" 61 1928 1953
+type(
+  int -> string
+)
+ident(
+  def string_of_dim "box.ml" 61 1928 1954 "box.ml" 85 2817 2833
+)
+"box.ml" 61 1928 1954 "box.ml" 61 1928 1957
+type(
+  Format.formatter
+)
+ident(
+  def fmt "box.ml" 61 1928 1958 "box.ml" 85 2817 2833
+)
+"box.ml" 61 1928 1958 "box.ml" 61 1928 1964
+type(
+  'b Apron.Policy.t
+)
+ident(
+  def policy "box.ml" 62 1967 1971 "box.ml" 85 2817 2833
+)
+"box.ml" 62 1967 1975 "box.ml" 62 1967 1979
+type(
+  'b Apron.Policy.man
+)
+ident(
+  def pman "box.ml" 63 2013 2017 "box.ml" 85 2817 2833
+)
+"box.ml" 62 1967 1982 "box.ml" 62 1967 2002
+type(
+  'b Apron.Policy.t -> 'b Apron.Policy.man
+)
+ident(
+  ext_ref Apron.Policy.manager
+)
+"box.ml" 62 1967 2003 "box.ml" 62 1967 2009
+type(
+  'b Apron.Policy.t
+)
+ident(
+  int_ref policy "box.ml" 61 1928 1958 "box.ml" 61 1928 1964
+)
+"box.ml" 62 1967 1982 "box.ml" 62 1967 2009
+type(
+  'b Apron.Policy.man
+)
+"box.ml" 63 2013 2021 "box.ml" 63 2013 2024
+type(
+  string
+)
+ident(
+  def str "box.ml" 64 2065 2069 "box.ml" 85 2817 2833
+)
+"box.ml" 63 2013 2027 "box.ml" 63 2013 2049
+type(
+  'b Apron.Policy.man -> 'b Apron.Policy.t -> string
+)
+ident(
+  ext_ref Apron.Policy.to_string
+)
+"box.ml" 63 2013 2050 "box.ml" 63 2013 2054
+type(
+  'b Apron.Policy.man
+)
+ident(
+  int_ref pman "box.ml" 62 1967 1975 "box.ml" 62 1967 1979
+)
+"box.ml" 63 2013 2055 "box.ml" 63 2013 2061
+type(
+  'b Apron.Policy.t
+)
+ident(
+  int_ref policy "box.ml" 61 1928 1958 "box.ml" 61 1928 1964
+)
+"box.ml" 63 2013 2027 "box.ml" 63 2013 2061
+type(
+  string
+)
+"box.ml" 64 2065 2073 "box.ml" 64 2065 2079
+type(
+  int
+)
+ident(
+  def length "box.ml" 65 2103 2107 "box.ml" 85 2817 2833
+)
+"box.ml" 64 2065 2082 "box.ml" 64 2065 2095
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"box.ml" 64 2065 2096 "box.ml" 64 2065 2099
+type(
+  string
+)
+ident(
+  int_ref str "box.ml" 63 2013 2021 "box.ml" 63 2013 2024
+)
+"box.ml" 64 2065 2082 "box.ml" 64 2065 2099
+type(
+  int
+)
+"box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+type(
+  int ref
+)
+ident(
+  def index "box.ml" 66 2128 2132 "box.ml" 85 2817 2833
+)
+"box.ml" 65 2103 2119 "box.ml" 65 2103 2122
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"box.ml" 65 2103 2123 "box.ml" 65 2103 2124
+type(
+  int
+)
+"box.ml" 65 2103 2119 "box.ml" 65 2103 2124
+type(
+  int ref
+)
+"box.ml" 66 2128 2136 "box.ml" 66 2128 2142
+type(
+  (int * char * char) array list ref
+)
+ident(
+  def policy "box.ml" 67 2155 2159 "box.ml" 85 2817 2833
+)
+"box.ml" 66 2128 2145 "box.ml" 66 2128 2148
+type(
+  (int * char * char) array list -> (int * char * char) array list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"box.ml" 66 2128 2149 "box.ml" 66 2128 2151
+type(
+  (int * char * char) array list
+)
+"box.ml" 66 2128 2145 "box.ml" 66 2128 2151
+type(
+  (int * char * char) array list ref
+)
+"box.ml" 67 2155 2165 "box.ml" 67 2155 2166
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 67 2155 2166 "box.ml" 67 2155 2171
+type(
+  int ref
+)
+ident(
+  int_ref index "box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+)
+"box.ml" 67 2155 2165 "box.ml" 67 2155 2171
+type(
+  int
+)
+"box.ml" 67 2155 2172 "box.ml" 67 2155 2173
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"box.ml" 67 2155 2174 "box.ml" 67 2155 2180
+type(
+  int
+)
+ident(
+  int_ref length "box.ml" 64 2065 2073 "box.ml" 64 2065 2079
+)
+"box.ml" 67 2155 2165 "box.ml" 67 2155 2180
+type(
+  bool
+)
+"box.ml" 68 2184 2194 "box.ml" 68 2184 2204
+type(
+  (int * char * char) list ref
+)
+ident(
+  def policy_one "box.ml" 69 2217 2223 "box.ml" 78 2506 2523
+)
+"box.ml" 68 2184 2207 "box.ml" 68 2184 2210
+type(
+  (int * char * char) list -> (int * char * char) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"box.ml" 68 2184 2211 "box.ml" 68 2184 2213
+type(
+  (int * char * char) list
+)
+"box.ml" 68 2184 2207 "box.ml" 68 2184 2213
+type(
+  (int * char * char) list ref
+)
+"box.ml" 69 2217 2227 "box.ml" 69 2217 2230
+type(
+  int ref
+)
+ident(
+  def dim "box.ml" 70 2242 2248 "box.ml" 78 2506 2523
+)
+"box.ml" 69 2217 2233 "box.ml" 69 2217 2236
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"box.ml" 69 2217 2237 "box.ml" 69 2217 2238
+type(
+  int
+)
+"box.ml" 69 2217 2233 "box.ml" 69 2217 2238
+type(
+  int ref
+)
+"box.ml" 70 2242 2254 "box.ml" 70 2242 2257
+type(
+  string
+)
+ident(
+  int_ref str "box.ml" 63 2013 2021 "box.ml" 63 2013 2024
+)
+"box.ml" 70 2242 2259 "box.ml" 70 2242 2260
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 70 2242 2260 "box.ml" 70 2242 2265
+type(
+  int ref
+)
+ident(
+  int_ref index "box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+)
+"box.ml" 70 2242 2259 "box.ml" 70 2242 2265
+type(
+  int
+)
+"box.ml" 70 2242 2254 "box.ml" 70 2242 2266
+type(
+  char
+)
+"box.ml" 70 2242 2267 "box.ml" 70 2242 2269
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"box.ml" 70 2242 2270 "box.ml" 70 2242 2274
+type(
+  char
+)
+"box.ml" 70 2242 2254 "box.ml" 70 2242 2274
+type(
+  bool
+)
+"box.ml" 71 2278 2283 "box.ml" 71 2278 2286
+type(
+  char
+)
+ident(
+  def inf "box.ml" 71 2278 2305 "box.ml" 75 2416 2426
+)
+"box.ml" 71 2278 2289 "box.ml" 71 2278 2292
+type(
+  string
+)
+ident(
+  int_ref str "box.ml" 63 2013 2021 "box.ml" 63 2013 2024
+)
+"box.ml" 71 2278 2294 "box.ml" 71 2278 2295
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 71 2278 2295 "box.ml" 71 2278 2300
+type(
+  int ref
+)
+ident(
+  int_ref index "box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+)
+"box.ml" 71 2278 2294 "box.ml" 71 2278 2300
+type(
+  int
+)
+"box.ml" 71 2278 2289 "box.ml" 71 2278 2301
+type(
+  char
+)
+"box.ml" 71 2278 2305 "box.ml" 71 2278 2309
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"box.ml" 71 2278 2310 "box.ml" 71 2278 2315
+type(
+  int ref
+)
+ident(
+  int_ref index "box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+)
+"box.ml" 71 2278 2305 "box.ml" 71 2278 2315
+type(
+  unit
+)
+"box.ml" 72 2317 2322 "box.ml" 72 2317 2325
+type(
+  char
+)
+ident(
+  def sup "box.ml" 72 2317 2345 "box.ml" 75 2416 2426
+)
+"box.ml" 72 2317 2328 "box.ml" 72 2317 2331
+type(
+  string
+)
+ident(
+  int_ref str "box.ml" 63 2013 2021 "box.ml" 63 2013 2024
+)
+"box.ml" 72 2317 2333 "box.ml" 72 2317 2334
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 72 2317 2334 "box.ml" 72 2317 2339
+type(
+  int ref
+)
+ident(
+  int_ref index "box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+)
+"box.ml" 72 2317 2333 "box.ml" 72 2317 2339
+type(
+  int
+)
+"box.ml" 72 2317 2328 "box.ml" 72 2317 2341
+type(
+  char
+)
+"box.ml" 72 2317 2345 "box.ml" 72 2317 2349
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"box.ml" 72 2317 2350 "box.ml" 72 2317 2355
+type(
+  int ref
+)
+ident(
+  int_ref index "box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+)
+"box.ml" 72 2317 2345 "box.ml" 72 2317 2355
+type(
+  unit
+)
+"box.ml" 73 2357 2358 "box.ml" 73 2357 2362
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"box.ml" 73 2357 2363 "box.ml" 73 2357 2368
+type(
+  int ref
+)
+ident(
+  int_ref index "box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+)
+"box.ml" 73 2357 2358 "box.ml" 73 2357 2368
+type(
+  unit
+)
+"box.ml" 74 2370 2371 "box.ml" 74 2370 2381
+type(
+  (int * char * char) list ref
+)
+ident(
+  int_ref policy_one "box.ml" 68 2184 2194 "box.ml" 68 2184 2204
+)
+"box.ml" 74 2370 2382 "box.ml" 74 2370 2384
+type(
+  (int * char * char) list ref -> (int * char * char) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"box.ml" 74 2370 2386 "box.ml" 74 2370 2387
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 74 2370 2387 "box.ml" 74 2370 2390
+type(
+  int ref
+)
+ident(
+  int_ref dim "box.ml" 69 2217 2227 "box.ml" 69 2217 2230
+)
+"box.ml" 74 2370 2386 "box.ml" 74 2370 2390
+type(
+  int
+)
+"box.ml" 74 2370 2391 "box.ml" 74 2370 2394
+type(
+  char
+)
+ident(
+  int_ref inf "box.ml" 71 2278 2283 "box.ml" 71 2278 2286
+)
+"box.ml" 74 2370 2395 "box.ml" 74 2370 2398
+type(
+  char
+)
+ident(
+  int_ref sup "box.ml" 72 2317 2322 "box.ml" 72 2317 2325
+)
+"box.ml" 74 2370 2385 "box.ml" 74 2370 2399
+type(
+  int * char * char
+)
+"box.ml" 74 2370 2403 "box.ml" 74 2370 2404
+type(
+  (int * char * char) list ref -> (int * char * char) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 74 2370 2404 "box.ml" 74 2370 2414
+type(
+  (int * char * char) list ref
+)
+ident(
+  int_ref policy_one "box.ml" 68 2184 2194 "box.ml" 68 2184 2204
+)
+"box.ml" 74 2370 2403 "box.ml" 74 2370 2414
+type(
+  (int * char * char) list
+)
+"box.ml" 74 2370 2385 "box.ml" 74 2370 2414
+type(
+  (int * char * char) list
+)
+"box.ml" 74 2370 2371 "box.ml" 74 2370 2414
+type(
+  unit
+)
+"box.ml" 75 2416 2417 "box.ml" 75 2416 2421
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"box.ml" 75 2416 2422 "box.ml" 75 2416 2425
+type(
+  int ref
+)
+ident(
+  int_ref dim "box.ml" 69 2217 2227 "box.ml" 69 2217 2230
+)
+"box.ml" 75 2416 2417 "box.ml" 75 2416 2426
+type(
+  unit
+)
+"box.ml" 74 2370 2371 "box.ml" 75 2416 2426
+type(
+  unit
+)
+"box.ml" 73 2357 2358 "box.ml" 75 2416 2426
+type(
+  unit
+)
+"box.ml" 72 2317 2345 "box.ml" 75 2416 2426
+type(
+  unit
+)
+"box.ml" 72 2317 2318 "box.ml" 75 2416 2426
+type(
+  unit
+)
+"box.ml" 71 2278 2305 "box.ml" 75 2416 2426
+type(
+  unit
+)
+"box.ml" 71 2278 2279 "box.ml" 75 2416 2426
+type(
+  unit
+)
+"box.ml" 70 2242 2248 "box.ml" 76 2427 2437
+type(
+  unit
+)
+"box.ml" 77 2439 2445 "box.ml" 77 2439 2451
+type(
+  (int * char * char) array list ref
+)
+ident(
+  int_ref policy "box.ml" 66 2128 2136 "box.ml" 66 2128 2142
+)
+"box.ml" 77 2439 2452 "box.ml" 77 2439 2454
+type(
+  (int * char * char) array list ref ->
+  (int * char * char) array list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"box.ml" 77 2439 2456 "box.ml" 77 2439 2469
+type(
+  (int * char * char) list -> (int * char * char) array
+)
+ident(
+  ext_ref Array.of_list
+)
+"box.ml" 77 2439 2471 "box.ml" 77 2439 2479
+type(
+  (int * char * char) list -> (int * char * char) list
+)
+ident(
+  ext_ref List.rev
+)
+"box.ml" 77 2439 2480 "box.ml" 77 2439 2481
+type(
+  (int * char * char) list ref -> (int * char * char) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 77 2439 2481 "box.ml" 77 2439 2491
+type(
+  (int * char * char) list ref
+)
+ident(
+  int_ref policy_one "box.ml" 68 2184 2194 "box.ml" 68 2184 2204
+)
+"box.ml" 77 2439 2480 "box.ml" 77 2439 2491
+type(
+  (int * char * char) list
+)
+"box.ml" 77 2439 2470 "box.ml" 77 2439 2492
+call(
+  stack
+)
+type(
+  (int * char * char) list
+)
+"box.ml" 77 2439 2455 "box.ml" 77 2439 2493
+call(
+  stack
+)
+type(
+  (int * char * char) array
+)
+"box.ml" 77 2439 2496 "box.ml" 77 2439 2497
+type(
+  (int * char * char) array list ref -> (int * char * char) array list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 77 2439 2497 "box.ml" 77 2439 2503
+type(
+  (int * char * char) array list ref
+)
+ident(
+  int_ref policy "box.ml" 66 2128 2136 "box.ml" 66 2128 2142
+)
+"box.ml" 77 2439 2495 "box.ml" 77 2439 2504
+type(
+  (int * char * char) array list
+)
+"box.ml" 77 2439 2455 "box.ml" 77 2439 2504
+type(
+  (int * char * char) array list
+)
+"box.ml" 77 2439 2445 "box.ml" 77 2439 2504
+type(
+  unit
+)
+"box.ml" 78 2506 2512 "box.ml" 78 2506 2516
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"box.ml" 78 2506 2517 "box.ml" 78 2506 2522
+type(
+  int ref
+)
+ident(
+  int_ref index "box.ml" 65 2103 2111 "box.ml" 65 2103 2116
+)
+"box.ml" 78 2506 2512 "box.ml" 78 2506 2523
+type(
+  unit
+)
+"box.ml" 77 2439 2445 "box.ml" 78 2506 2523
+type(
+  unit
+)
+"box.ml" 70 2242 2248 "box.ml" 78 2506 2523
+type(
+  unit
+)
+"box.ml" 69 2217 2223 "box.ml" 78 2506 2523
+type(
+  unit
+)
+"box.ml" 68 2184 2190 "box.ml" 78 2506 2523
+type(
+  unit
+)
+"box.ml" 67 2155 2159 "box.ml" 79 2524 2532
+type(
+  unit
+)
+"box.ml" 80 2534 2542 "box.ml" 80 2534 2548
+type(
+  (int * char * char) array array
+)
+ident(
+  def policy "box.ml" 81 2587 2591 "box.ml" 85 2817 2833
+)
+"box.ml" 80 2534 2551 "box.ml" 80 2534 2564
+type(
+  (int * char * char) array list -> (int * char * char) array array
+)
+ident(
+  ext_ref Array.of_list
+)
+"box.ml" 80 2534 2566 "box.ml" 80 2534 2574
+type(
+  (int * char * char) array list -> (int * char * char) array list
+)
+ident(
+  ext_ref List.rev
+)
+"box.ml" 80 2534 2575 "box.ml" 80 2534 2576
+type(
+  (int * char * char) array list ref -> (int * char * char) array list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"box.ml" 80 2534 2576 "box.ml" 80 2534 2582
+type(
+  (int * char * char) array list ref
+)
+ident(
+  int_ref policy "box.ml" 66 2128 2136 "box.ml" 66 2128 2142
+)
+"box.ml" 80 2534 2575 "box.ml" 80 2534 2582
+type(
+  (int * char * char) array list
+)
+"box.ml" 80 2534 2565 "box.ml" 80 2534 2583
+call(
+  stack
+)
+type(
+  (int * char * char) array list
+)
+"box.ml" 80 2534 2551 "box.ml" 80 2534 2583
+call(
+  stack
+)
+type(
+  (int * char * char) array array
+)
+"box.ml" 81 2587 2591 "box.ml" 81 2587 2618
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> (int * char * char) array -> unit) ->
+  Format.formatter -> (int * char * char) array array -> unit
+)
+ident(
+  ext_ref Apron.Abstract0.print_array
+)
+"box.ml" 81 2587 2626 "box.ml" 81 2587 2634
+type(
+  (unit, Format.formatter, unit) format
+)
+"box.ml" 81 2587 2640 "box.ml" 81 2587 2644
+type(
+  (unit, Format.formatter, unit) format
+)
+"box.ml" 81 2587 2651 "box.ml" 81 2587 2656
+type(
+  (unit, Format.formatter, unit) format
+)
+"box.ml" 82 2657 2664 "box.ml" 82 2657 2691
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> int * char * char -> unit) ->
+  Format.formatter -> (int * char * char) array -> unit
+)
+ident(
+  ext_ref Apron.Abstract0.print_array
+)
+"box.ml" 82 2657 2699 "box.ml" 82 2657 2704
+type(
+  (unit, Format.formatter, unit) format
+)
+"box.ml" 82 2657 2710 "box.ml" 82 2657 2715
+type(
+  (unit, Format.formatter, unit) format
+)
+"box.ml" 82 2657 2722 "box.ml" 82 2657 2727
+type(
+  (unit, Format.formatter, unit) format
+)
+"box.ml" 83 2728 2734 "box.ml" 83 2728 2737
+type(
+  Format.formatter
+)
+ident(
+  def fmt "box.ml" 83 2728 2738 "box.ml" 84 2755 2814
+)
+"box.ml" 83 2728 2739 "box.ml" 83 2728 2742
+type(
+  int
+)
+ident(
+  def dim "box.ml" 84 2755 2758 "box.ml" 84 2755 2814
+)
+"box.ml" 83 2728 2743 "box.ml" 83 2728 2746
+type(
+  char
+)
+ident(
+  def inf "box.ml" 84 2755 2758 "box.ml" 84 2755 2814
+)
+"box.ml" 83 2728 2747 "box.ml" 83 2728 2750
+type(
+  char
+)
+ident(
+  def sup "box.ml" 84 2755 2758 "box.ml" 84 2755 2814
+)
+"box.ml" 83 2728 2738 "box.ml" 83 2728 2751
+type(
+  int * char * char
+)
+"box.ml" 84 2755 2758 "box.ml" 84 2755 2772
+type(
+  Format.formatter ->
+  (string -> char -> char -> unit, Format.formatter, unit) format ->
+  string -> char -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"box.ml" 84 2755 2773 "box.ml" 84 2755 2776
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "box.ml" 83 2728 2734 "box.ml" 83 2728 2737
+)
+"box.ml" 84 2755 2777 "box.ml" 84 2755 2786
+type(
+  (string -> char -> char -> unit, Format.formatter, unit) format
+)
+"box.ml" 84 2755 2788 "box.ml" 84 2755 2801
+type(
+  int -> string
+)
+ident(
+  int_ref string_of_dim "box.ml" 61 1928 1940 "box.ml" 61 1928 1953
+)
+"box.ml" 84 2755 2802 "box.ml" 84 2755 2805
+type(
+  int
+)
+ident(
+  int_ref dim "box.ml" 83 2728 2739 "box.ml" 83 2728 2742
+)
+"box.ml" 84 2755 2787 "box.ml" 84 2755 2806
+call(
+  stack
+)
+type(
+  string
+)
+"box.ml" 84 2755 2807 "box.ml" 84 2755 2810
+type(
+  char
+)
+ident(
+  int_ref inf "box.ml" 83 2728 2743 "box.ml" 83 2728 2746
+)
+"box.ml" 84 2755 2811 "box.ml" 84 2755 2814
+type(
+  char
+)
+ident(
+  int_ref sup "box.ml" 83 2728 2747 "box.ml" 83 2728 2750
+)
+"box.ml" 84 2755 2758 "box.ml" 84 2755 2814
+call(
+  tail
+)
+type(
+  unit
+)
+"box.ml" 83 2728 2729 "box.ml" 84 2755 2815
+type(
+  Format.formatter -> int * char * char -> unit
+)
+"box.ml" 82 2657 2663 "box.ml" 84 2755 2816
+call(
+  stack
+)
+type(
+  Format.formatter -> (int * char * char) array -> unit
+)
+"box.ml" 85 2817 2823 "box.ml" 85 2817 2826
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "box.ml" 61 1928 1954 "box.ml" 61 1928 1957
+)
+"box.ml" 85 2817 2827 "box.ml" 85 2817 2833
+type(
+  (int * char * char) array array
+)
+ident(
+  int_ref policy "box.ml" 80 2534 2542 "box.ml" 80 2534 2548
+)
+"box.ml" 81 2587 2591 "box.ml" 85 2817 2833
+call(
+  tail
+)
+type(
+  unit
+)
+"box.ml" 80 2534 2538 "box.ml" 85 2817 2833
+type(
+  unit
+)
+"box.ml" 67 2155 2159 "box.ml" 85 2817 2833
+type(
+  unit
+)
+"box.ml" 66 2128 2132 "box.ml" 85 2817 2833
+type(
+  unit
+)
+"box.ml" 65 2103 2107 "box.ml" 85 2817 2833
+type(
+  unit
+)
+"box.ml" 64 2065 2069 "box.ml" 85 2817 2833
+type(
+  unit
+)
+"box.ml" 63 2013 2017 "box.ml" 85 2817 2833
+type(
+  unit
+)
+"box.ml" 62 1967 1971 "box.ml" 85 2817 2833
+type(
+  unit
+)
+"box.ml" 87 2835 2841 "box.ml" 87 2835 2847
+type(
+  Format.formatter -> 'c Apron.Policy.t -> unit
+)
+ident(
+  def print0 "box.ml" 88 2892 2894 "box.ml" 89 3026 3029
+)
+"box.ml" 87 2835 2848 "box.ml" 87 2835 2851
+type(
+  Format.formatter
+)
+ident(
+  def fmt "box.ml" 87 2835 2852 "box.ml" 87 2835 2891
+)
+"box.ml" 87 2835 2852 "box.ml" 87 2835 2858
+type(
+  'c Apron.Policy.t
+)
+ident(
+  def policy "box.ml" 87 2835 2861 "box.ml" 87 2835 2891
+)
+"box.ml" 87 2835 2861 "box.ml" 87 2835 2866
+type(
+  (int -> string) -> Format.formatter -> 'c Apron.Policy.t -> unit
+)
+ident(
+  int_ref print "box.ml" 61 1928 1934 "box.ml" 61 1928 1939
+)
+"box.ml" 87 2835 2867 "box.ml" 87 2835 2880
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"box.ml" 87 2835 2881 "box.ml" 87 2835 2884
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "box.ml" 87 2835 2848 "box.ml" 87 2835 2851
+)
+"box.ml" 87 2835 2885 "box.ml" 87 2835 2891
+type(
+  'c Apron.Policy.t
+)
+ident(
+  int_ref policy "box.ml" 87 2835 2852 "box.ml" 87 2835 2858
+)
+"box.ml" 87 2835 2861 "box.ml" 87 2835 2891
+call(
+  tail
+)
+type(
+  unit
+)
+"box.ml" 88 2892 2898 "box.ml" 88 2892 2904
+type(
+  Apron.Environment.t -> Format.formatter -> 'd Apron.Policy.t -> unit
+)
+ident(
+  def print1 "box.ml" 88 2892 3025 "box.ml" 89 3026 3029
+)
+"box.ml" 88 2892 2905 "box.ml" 88 2892 2908
+type(
+  Apron.Environment.t
+)
+ident(
+  def env "box.ml" 88 2892 2909 "box.ml" 88 2892 3025
+)
+"box.ml" 88 2892 2909 "box.ml" 88 2892 2912
+type(
+  Format.formatter
+)
+ident(
+  def fmt "box.ml" 88 2892 2913 "box.ml" 88 2892 3025
+)
+"box.ml" 88 2892 2913 "box.ml" 88 2892 2919
+type(
+  'd Apron.Policy.t
+)
+ident(
+  def policy "box.ml" 88 2892 2922 "box.ml" 88 2892 3025
+)
+"box.ml" 88 2892 2922 "box.ml" 88 2892 2927
+type(
+  (Apron.Dim.t -> string) -> Format.formatter -> 'd Apron.Policy.t -> unit
+)
+ident(
+  int_ref print "box.ml" 61 1928 1934 "box.ml" 61 1928 1939
+)
+"box.ml" 88 2892 2933 "box.ml" 88 2892 2936
+type(
+  Apron.Dim.t
+)
+ident(
+  def dim "box.ml" 88 2892 2940 "box.ml" 88 2892 3013
+)
+"box.ml" 88 2892 2944 "box.ml" 88 2892 2947
+type(
+  Apron.Var.t
+)
+ident(
+  def var "box.ml" 88 2892 2990 "box.ml" 88 2892 3013
+)
+"box.ml" 88 2892 2950 "box.ml" 88 2892 2978
+type(
+  Apron.Environment.t -> Apron.Dim.t -> Apron.Var.t
+)
+ident(
+  ext_ref Apron.Environment.var_of_dim
+)
+"box.ml" 88 2892 2979 "box.ml" 88 2892 2982
+type(
+  Apron.Environment.t
+)
+ident(
+  int_ref env "box.ml" 88 2892 2905 "box.ml" 88 2892 2908
+)
+"box.ml" 88 2892 2983 "box.ml" 88 2892 2986
+type(
+  Apron.Dim.t
+)
+ident(
+  int_ref dim "box.ml" 88 2892 2933 "box.ml" 88 2892 2936
+)
+"box.ml" 88 2892 2950 "box.ml" 88 2892 2986
+type(
+  Apron.Var.t
+)
+"box.ml" 88 2892 2990 "box.ml" 88 2892 3009
+type(
+  Apron.Var.t -> string
+)
+ident(
+  ext_ref Apron.Var.to_string
+)
+"box.ml" 88 2892 3010 "box.ml" 88 2892 3013
+type(
+  Apron.Var.t
+)
+ident(
+  int_ref var "box.ml" 88 2892 2944 "box.ml" 88 2892 2947
+)
+"box.ml" 88 2892 2990 "box.ml" 88 2892 3013
+type(
+  string
+)
+"box.ml" 88 2892 2940 "box.ml" 88 2892 3013
+type(
+  string
+)
+"box.ml" 88 2892 2928 "box.ml" 88 2892 3014
+type(
+  Apron.Dim.t -> string
+)
+"box.ml" 88 2892 3015 "box.ml" 88 2892 3018
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "box.ml" 88 2892 2909 "box.ml" 88 2892 2912
+)
+"box.ml" 88 2892 3019 "box.ml" 88 2892 3025
+type(
+  'd Apron.Policy.t
+)
+ident(
+  int_ref policy "box.ml" 88 2892 2913 "box.ml" 88 2892 2919
+)
+"box.ml" 88 2892 2922 "box.ml" 88 2892 3025
+call(
+  tail
+)
+type(
+  unit
+)

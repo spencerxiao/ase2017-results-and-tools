@@ -1,0 +1,20 @@
+var i:int, n:int, a:int, b:int;
+begin
+	n = random;
+	i = 0;
+	a = 0;
+	b = 0;
+	assume (n >= 0);
+	while (i < n) do 
+		if (brandom) then
+			a = a +_i 1;
+			b = b +_i 2; 
+		else 
+			a = a +_i 2;
+			b = b +_i 1;
+		endif;
+		i = i +_i 1;
+	done;
+
+	assume(a +_i b == 3 *_i n);
+end

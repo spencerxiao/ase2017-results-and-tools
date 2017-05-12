@@ -1,0 +1,49 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |main::z| () Int)
+(declare-fun |main::c| () Int)
+
+main:
+(assert (= |main::x| |main::y|))
+
+main N6:
+(assert (<= |main::y| |main::x|))
+(assert (<= |main::x| |main::y|))
+(assert (= |main::z| |main::k|))
+(assert (<= |main::y| 0))
+(assert (<= 0 |main::y|))
+(assert (<= (+ (- |main::x|) |main::y|) 0))
+(assert (<= (+ (- |main::x|) |main::y| 1) 0))
+(assert (= |main::x| |main::y|))
+(assert (<= (+ |main::k| |main::y|) |main::z|))
+(assert (<= |main::z| (+ |main::k| |main::y|)))
+
+main N12:
+(assert (<= |main::y| |main::x|))
+(assert (<= |main::x| |main::y|))
+(assert (= |main::z| |main::k|))
+(assert (<= |main::y| |main::c|))
+(assert (<= (+ |main::y| (- |main::c|)) 0))
+(assert (<= |main::c| |main::y|))
+(assert (<= (+ |main::y| (- |main::c|) 1) 0))
+(assert (= (+ |main::y| (- |main::c|)) 0))
+(assert (<= (+ (- |main::x|) |main::y|) 0))
+(assert (<= (+ (- |main::x|) |main::y| 1) 0))
+(assert (= |main::x| |main::y|))
+(assert (<= (+ |main::k| |main::y|) (+ |main::z| |main::c|)))
+(assert (<= (+ |main::y| |main::k| (- |main::z|) (- |main::c|)) 0))
+(assert (<= (+ |main::z| |main::c|) (+ |main::k| |main::y|)))
+(assert (<= (+ |main::y| |main::k| (- |main::z|) (- |main::c|) 1) 0))
+
+main N38:
+(assert (<= |main::y| |main::x|))
+(assert (<= (+ (- |main::x|) |main::y|) 0))
+(assert (<= |main::x| |main::y|))
+(assert (<= (+ (- |main::x|) |main::y| 1) 0))
+(assert (= |main::x| |main::y|))
+
+main N52:
+(assert false)
+(assert (= |main::x| |main::y|))
+

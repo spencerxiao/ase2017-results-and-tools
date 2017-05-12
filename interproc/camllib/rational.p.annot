@@ -1,0 +1,1858 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 68 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 71
+type(
+  int -> int -> int
+)
+ident(
+  def gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 271 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 73 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 74
+type(
+  int
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 80 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 269
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 81 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 82
+type(
+  int
+)
+ident(
+  def y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 88 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 269
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 135
+type(
+  int -> int -> int
+)
+ident(
+  def gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 124 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 269
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 137 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 138
+type(
+  int
+)
+ident(
+  def a "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 144 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 16 222 229
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 146
+type(
+  int
+)
+ident(
+  def b "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 152 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 16 222 229
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 172 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 173
+type(
+  int
+)
+ident(
+  int_ref a "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 137 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 138
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 173 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 175
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 175 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 176
+type(
+  int
+)
+ident(
+  int_ref b "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 146
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 172 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 176
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 177 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 179
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 180 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 181
+type(
+  int
+)
+ident(
+  int_ref b "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 146
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 181 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 183
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 183 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 184
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 180 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 184
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 171 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 185
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 197 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 200
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 135
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 201 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 202
+type(
+  int
+)
+ident(
+  int_ref b "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 146
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 205
+type(
+  int
+)
+ident(
+  int_ref a "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 137 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 138
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 206 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 209
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 210 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 211
+type(
+  int
+)
+ident(
+  int_ref b "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 146
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 203 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 212
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 197 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 14 191 212
+call(
+  tail
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 16 222 228 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 16 222 229
+type(
+  int
+)
+ident(
+  int_ref a "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 137 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 138
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 13 164 168 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 16 222 229
+type(
+  int
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 240 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 241
+type(
+  int
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 73 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 74
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 241 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 242
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 242 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 243
+type(
+  int
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 81 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 82
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 240 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 243
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 249 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 252
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 135
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 253 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 254
+type(
+  int
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 73 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 74
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 255 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 256
+type(
+  int
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 81 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 82
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 249 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 256
+call(
+  tail
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 262 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 265
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 135
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 266 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 267
+type(
+  int
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 81 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 82
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 268 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 269
+type(
+  int
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 73 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 74
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 262 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 269
+call(
+  tail
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 237 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 269
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 11 122 124 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 18 235 269
+type(
+  int
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 275 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 279
+type(
+  int -> int -> t
+)
+ident(
+  def make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 527 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 284
+type(
+  int
+)
+ident(
+  def num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 290 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 523
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 291 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 294
+type(
+  int
+)
+ident(
+  def den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 300 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 523
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 313 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 316
+type(
+  int
+)
+ident(
+  def num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 464 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 523
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 317 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 320
+type(
+  int
+)
+ident(
+  def den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 464 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 523
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 312 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 321
+type(
+  int * int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 332 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 335
+type(
+  int
+)
+ident(
+  int_ref den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 291 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 335 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 336
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 336 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 337
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 332 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 337
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 343 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 348
+type(
+  exn -> int * int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 367 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 400
+type(
+  string
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 349 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 401
+type(
+  exn
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 343 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 401
+type(
+  int * int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 414 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 417
+type(
+  int
+)
+ident(
+  int_ref den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 291 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 417 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 418
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 418 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 419
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 414 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 419
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 426 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 427
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 427 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 430
+type(
+  int
+)
+ident(
+  int_ref num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 284
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 426 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 430
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 431 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 432
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 432 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 435
+type(
+  int
+)
+ident(
+  int_ref den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 291 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 431 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 435
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 425 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 436
+type(
+  int * int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 24 438 448 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 24 438 451
+type(
+  int
+)
+ident(
+  int_ref num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 284
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 24 438 452 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 24 438 455
+type(
+  int
+)
+ident(
+  int_ref den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 291 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 24 438 447 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 24 438 456
+type(
+  int * int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 23 402 411 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 24 438 456
+type(
+  int * int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 22 325 329 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 24 438 456
+type(
+  int * int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 468 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 469
+type(
+  int
+)
+ident(
+  def g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 495 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 523
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 475
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 68 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 71
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 477 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 480
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 481 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 484
+type(
+  int
+)
+ident(
+  int_ref num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 313 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 476 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 485
+call(
+  stack
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 486 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 489
+type(
+  int
+)
+ident(
+  int_ref den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 317 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 320
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 489
+call(
+  stack
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 503 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 506
+type(
+  int
+)
+ident(
+  int_ref num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 313 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 506 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 507
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 507 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 508
+type(
+  int
+)
+ident(
+  int_ref g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 468 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 469
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 503 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 508
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 516 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 519
+type(
+  int
+)
+ident(
+  int_ref den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 317 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 320
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 519 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 520
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 520 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 521
+type(
+  int
+)
+ident(
+  int_ref g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 468 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 469
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 516 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 521
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 495 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 523
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 26 462 464 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 523
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 21 306 308 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 27 493 523
+type(
+  t
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 531 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 540
+type(
+  t -> string
+)
+ident(
+  def to_string "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 636 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 541 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 542
+type(
+  t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 547 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 634
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 550 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 551
+type(
+  t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 541 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 542
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 550 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 555
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 555 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 556
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 556 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 557
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 550 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 557
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 31 564 568 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 31 564 581
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 31 564 582 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 31 564 583
+type(
+  t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 541 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 542
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 31 564 582 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 31 564 587
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 31 564 568 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 31 564 587
+call(
+  tail
+)
+type(
+  string
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 600 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 614
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 615 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 622
+type(
+  (int -> int -> string, unit, string) format
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 623 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 624
+type(
+  t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 541 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 542
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 623 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 628
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 629 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 630
+type(
+  t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 541 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 542
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 629 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 634
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 600 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 634
+call(
+  tail
+)
+type(
+  string
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 30 545 547 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 33 596 634
+type(
+  string
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 640 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 645
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 700 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 646 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 649
+type(
+  Format.formatter
+)
+ident(
+  def fmt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 650 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 697
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 650 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 651
+type(
+  t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 657 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 697
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 657 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 679
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 680 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 683
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 646 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 649
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 685 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 694
+type(
+  t -> string
+)
+ident(
+  int_ref to_string "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 531 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 29 527 540
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 695 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 696
+type(
+  t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 650 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 35 636 651
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 684 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 697
+call(
+  stack
+)
+type(
+  string
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 657 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 36 655 697
+call(
+  tail
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 704 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 707
+type(
+  t -> t
+)
+ident(
+  def inv "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 887 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 710
+type(
+  t
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 714 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 885
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 725 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 726
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 710
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 725 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 730
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 730 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 731
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 731 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 732
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 725 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 732
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 738 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 743
+type(
+  exn -> t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 762 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 792
+type(
+  string
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 744 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 793
+type(
+  exn
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 738 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 793
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 804 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 805
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 710
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 804 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 809
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 810 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 811
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 812 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 813
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 804 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 813
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 827 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 828
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 828 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 829
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 710
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 828 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 833
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 827 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 833
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 841 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 842
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 842 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 843
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 710
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 842 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 847
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 841 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 847
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 819 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 849
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 865 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 866
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 710
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 865 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 870
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 878 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 879
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 709 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 710
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 878 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 883
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 857 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 885
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 41 794 801 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 885
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 40 720 722 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 42 850 885
+type(
+  t
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 891 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 894
+type(
+  t -> t
+)
+ident(
+  def neg "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 940 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 896 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 897
+type(
+  t
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 901 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 938
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 917 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 918
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 918 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 919
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 896 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 897
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 918 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 923
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 917 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 923
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 931 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 932
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 896 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 44 887 897
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 931 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 936
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 909 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 45 907 938
+type(
+  t
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 944 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 947
+type(
+  t -> t -> t
+)
+ident(
+  def add "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1118 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 949 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 950
+type(
+  t
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 954 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 955 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 956
+type(
+  t
+)
+ident(
+  def y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 960 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 972 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 973
+type(
+  int
+)
+ident(
+  def g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 997 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 976 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 979
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 68 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 71
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 980 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 981
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 949 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 950
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 980 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 985
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 986 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 987
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 955 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 956
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 986 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 991
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 976 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 991
+call(
+  stack
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1001 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1002
+type(
+  int
+)
+ident(
+  def p "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 50 1028 1030 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1006 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1007
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 949 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 950
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1006 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1011
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1012 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1013
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1014 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1015
+type(
+  int
+)
+ident(
+  int_ref g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 972 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 973
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1005 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1016
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1017 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1018
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1019 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1020
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 955 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 956
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1019 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1024
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1005 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1024
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 50 1028 1034 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 50 1028 1037
+type(
+  int
+)
+ident(
+  def den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1047 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 50 1028 1040 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 50 1028 1041
+type(
+  int
+)
+ident(
+  int_ref p "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1001 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 1002
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1051 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1054
+type(
+  int
+)
+ident(
+  def num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1104 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1057 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1058
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 949 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 950
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1057 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1062
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1063 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1064
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1066 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1067
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 955 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 956
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1066 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1071
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1072 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1073
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1074 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1075
+type(
+  int
+)
+ident(
+  int_ref g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 972 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 973
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1065 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1076
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1057 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1076
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1077 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1078
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1079 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1080
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 955 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 956
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1079 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1084
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1085 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1086
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1088 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1089
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 949 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 47 940 950
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1088 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1093
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1094 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1095
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1096 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1097
+type(
+  int
+)
+ident(
+  int_ref g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 972 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 973
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1087 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1098
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1079 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1098
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1057 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1098
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1104 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1108
+type(
+  int -> int -> t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 275 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 279
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1109 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1112
+type(
+  int
+)
+ident(
+  int_ref num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1051 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1054
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1113 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+type(
+  int
+)
+ident(
+  int_ref den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 50 1028 1034 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 50 1028 1037
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1104 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+call(
+  tail
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 51 1045 1047 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 50 1028 1030 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 49 995 997 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 48 966 968 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 52 1102 1116
+type(
+  t
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1122 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1125
+type(
+  t -> t -> t
+)
+ident(
+  def sub "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1300 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1127 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1128
+type(
+  t
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1132 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1133 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1134
+type(
+  t
+)
+ident(
+  def y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1138 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1150 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1151
+type(
+  int
+)
+ident(
+  def g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1175 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1154 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1157
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 68 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 71
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1158 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1159
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1127 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1128
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1158 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1163
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1164 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1165
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1133 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1134
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1164 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1169
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1154 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1169
+call(
+  stack
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1179 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1180
+type(
+  int
+)
+ident(
+  def p "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 57 1206 1208 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1184 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1185
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1127 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1128
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1184 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1189
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1190 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1191
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1192 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1193
+type(
+  int
+)
+ident(
+  int_ref g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1150 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1151
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1183 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1194
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1195 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1196
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1197 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1198
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1133 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1134
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1197 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1202
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1183 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1202
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 57 1206 1212 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 57 1206 1215
+type(
+  int
+)
+ident(
+  def den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1225 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 57 1206 1218 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 57 1206 1219
+type(
+  int
+)
+ident(
+  int_ref p "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1179 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1180
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1229 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1232
+type(
+  int
+)
+ident(
+  def num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1282 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1235 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1236
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1127 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1128
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1235 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1240
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1241 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1242
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1244 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1245
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1133 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1134
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1244 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1249
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1250 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1251
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1252 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1253
+type(
+  int
+)
+ident(
+  int_ref g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1150 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1151
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1243 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1254
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1235 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1254
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1255 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1256
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1257 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1258
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1133 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1134
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1257 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1262
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1263 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1264
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1266 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1267
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1127 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 54 1118 1128
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1266 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1271
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1272 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1273
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1274 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1275
+type(
+  int
+)
+ident(
+  int_ref g "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1150 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1151
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1265 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1276
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1257 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1276
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1235 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1276
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1282 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1286
+type(
+  int -> int -> t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 275 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 20 271 279
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1287 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1290
+type(
+  int
+)
+ident(
+  int_ref num "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1229 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1232
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1291 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+type(
+  int
+)
+ident(
+  int_ref den "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 57 1206 1212 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 57 1206 1215
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1282 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+call(
+  tail
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 58 1223 1225 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 57 1206 1208 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 56 1173 1175 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 55 1144 1146 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 59 1280 1294
+type(
+  t
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1304 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1307
+type(
+  t -> t -> t
+)
+ident(
+  def mul "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1462 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1309 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1310
+type(
+  t
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1314 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 67 1457 1460
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1315 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1316
+type(
+  t
+)
+ident(
+  def y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1320 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 67 1457 1460
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1332 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1334
+type(
+  int
+)
+ident(
+  def gx "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 64 1381 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 67 1457 1460
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1337 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1340
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 68 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 71
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1341 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1342
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1309 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1310
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1341 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1346
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1347 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1348
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1315 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1347 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1352
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1337 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1352
+call(
+  stack
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1360 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1362
+type(
+  int
+)
+ident(
+  def gy "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 64 1381 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 67 1457 1460
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1365 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1368
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 68 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 8 64 71
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1369 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1370
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1315 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1369 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1374
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1375 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1376
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1309 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1310
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1375 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1380
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1365 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1380
+call(
+  stack
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1399 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1400
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1309 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1310
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1399 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1404
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1404 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1405
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1405 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1407
+type(
+  int
+)
+ident(
+  int_ref gx "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1332 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1334
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1398 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1408
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1409 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1410
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1412 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1413
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1315 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1412 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1417
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1417 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1418
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1418 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1420
+type(
+  int
+)
+ident(
+  int_ref gy "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1360 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1362
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1411 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1421
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1398 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 65 1388 1421
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1434 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1435
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1309 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1310
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1434 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1439
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1439 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1440
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1440 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1442
+type(
+  int
+)
+ident(
+  int_ref gy "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1360 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 63 1354 1362
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1433 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1443
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1444 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1445
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1447 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1448
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1315 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1316
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1447 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1452
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1452 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1453
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1453 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1455
+type(
+  int
+)
+ident(
+  int_ref gx "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1332 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1334
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1446 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1456
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1433 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 66 1423 1456
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 64 1381 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 67 1457 1460
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 62 1326 1328 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 67 1457 1460
+type(
+  t
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1466 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1469
+type(
+  t -> t -> t
+)
+ident(
+  def div "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1503 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1471 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1472
+type(
+  t
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1476 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1503
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1477 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1478
+type(
+  t
+)
+ident(
+  def y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1482 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1503
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1490 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1493
+type(
+  t -> t -> t
+)
+ident(
+  int_ref mul "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1304 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 61 1300 1307
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1494 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1495
+type(
+  t
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1471 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1472
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1497 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1500
+type(
+  t -> t
+)
+ident(
+  int_ref inv "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 704 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 39 700 707
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1501 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1502
+type(
+  t
+)
+ident(
+  int_ref y "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1477 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 69 1462 1478
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1496 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1503
+call(
+  stack
+)
+type(
+  t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1490 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/rational.ml" 70 1488 1503
+call(
+  tail
+)
+type(
+  t
+)
+type(
+  t
+)

@@ -1,0 +1,28 @@
+var c1:int, c2:int, n:int, v:int, i:int, j:int, k:int;
+begin
+  c1 = 4000;
+  c2 = 2000;
+  n = random;
+  assume (n > 0);
+  assume (n < 10);
+  v = random;
+  k = 0;
+  i = 0;
+  while (i < n) do
+    i = i +_i 1;
+    j = random;
+    if (j %_i 2 == 0) then
+      v = 0;
+    else
+      v = 1;
+    endif; 
+
+    if (v == 0) then
+      k = k +_i c1;
+    else
+      k = k +_i c2;
+    endif;
+  done;
+
+  assume (k > n);
+end

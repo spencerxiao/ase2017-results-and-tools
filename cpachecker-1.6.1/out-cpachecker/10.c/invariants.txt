@@ -1,0 +1,8 @@
+loop__main__9:
+(declare-fun |main::w| () Int)
+(declare-fun |main::z| () Int)
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+(assert (and (= |main::x| |main::y|) (let ((.cse10 (- |main::x|)) (.cse9 (- 1))) (let ((.cse0 (<= |main::y| |main::x|)) (.cse1 (<= |main::x| |main::y|)) (.cse2 (<= 0 (+ |main::w| .cse9))) (.cse3 (<= (+ .cse10 |main::y|) 0)) (.cse4 (not (<= (+ .cse10 |main::y| 1) 0))) (.cse5 (<= 0 (+ |main::z| .cse9))) (.cse6 (<= |main::w| 0)) (.cse7 (<= 0 |main::w|)) (.cse8 (not (<= (+ |main::w| 1) 0)))) (ite (= |main::z| 0) (and .cse0 .cse1 .cse2 .cse3 .cse4 (not .cse5) (not .cse6) .cse7 .cse8) (and .cse0 .cse1 (not .cse2) .cse3 .cse4 .cse5 .cse6 .cse7 .cse8))))))
+loop__main__22:
+(assert false)

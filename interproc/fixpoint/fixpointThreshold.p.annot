@@ -1,0 +1,1810 @@
+"fixpointThreshold.ml" 19 669 673 "fixpointThreshold.ml" 19 669 695
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager ->
+  ('a, 'b, 'e) parameter -> ('a, 'b, 'e PSette.t, unit) FixpointType.manager
+)
+ident(
+  def make_threshold_manager "fixpointThreshold.ml" 48 1793 1793 "fixpointThreshold.ml" 1 0 -1
+)
+"fixpointThreshold.ml" 20 696 701 "fixpointThreshold.ml" 20 696 708
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager
+)
+ident(
+  def manager "fixpointThreshold.ml" 21 745 749 "fixpointThreshold.ml" 45 1710 1713
+)
+"fixpointThreshold.ml" 21 745 750 "fixpointThreshold.ml" 21 745 759
+type(
+  ('a, 'b, 'e) parameter
+)
+ident(
+  def parameter "fixpointThreshold.ml" 22 782 786 "fixpointThreshold.ml" 45 1710 1713
+)
+"fixpointThreshold.ml" 25 844 848 "fixpointThreshold.ml" 25 844 855
+type(
+  ('a, 'b, 'c, 'd) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointThreshold.ml" 20 696 701 "fixpointThreshold.ml" 20 696 708
+)
+"fixpointThreshold.ml" 26 861 884 "fixpointThreshold.ml" 26 861 885
+type(
+  'a
+)
+"fixpointThreshold.ml" 26 861 889 "fixpointThreshold.ml" 26 861 897
+type(
+  string -> 'e PSette.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"fixpointThreshold.ml" 26 861 898 "fixpointThreshold.ml" 26 861 900
+type(
+  string
+)
+"fixpointThreshold.ml" 26 861 889 "fixpointThreshold.ml" 26 861 900
+call(
+  tail
+)
+type(
+  'e PSette.t
+)
+"fixpointThreshold.ml" 26 861 874 "fixpointThreshold.ml" 26 861 904
+type(
+  'a -> 'e PSette.t
+)
+"fixpointThreshold.ml" 27 906 932 "fixpointThreshold.ml" 27 906 933
+type(
+  'a
+)
+ident(
+  def v "fixpointThreshold.ml" 27 906 934 "fixpointThreshold.ml" 27 906 943
+)
+"fixpointThreshold.ml" 27 906 934 "fixpointThreshold.ml" 27 906 937
+type(
+  'e PSette.t
+)
+ident(
+  def set "fixpointThreshold.ml" 27 906 941 "fixpointThreshold.ml" 27 906 943
+)
+"fixpointThreshold.ml" 27 906 941 "fixpointThreshold.ml" 27 906 943
+type(
+  unit
+)
+"fixpointThreshold.ml" 27 906 922 "fixpointThreshold.ml" 27 906 947
+type(
+  'a -> 'e PSette.t -> unit
+)
+"fixpointThreshold.ml" 28 949 975 "fixpointThreshold.ml" 28 949 976
+type(
+  'a
+)
+ident(
+  def v "fixpointThreshold.ml" 28 949 977 "fixpointThreshold.ml" 28 949 1003
+)
+"fixpointThreshold.ml" 28 949 977 "fixpointThreshold.ml" 28 949 980
+type(
+  'e PSette.t
+)
+ident(
+  def set "fixpointThreshold.ml" 28 949 984 "fixpointThreshold.ml" 28 949 1003
+)
+"fixpointThreshold.ml" 28 949 984 "fixpointThreshold.ml" 28 949 999
+type(
+  'e PSette.t -> bool
+)
+ident(
+  ext_ref PSette.is_empty
+)
+"fixpointThreshold.ml" 28 949 1000 "fixpointThreshold.ml" 28 949 1003
+type(
+  'e PSette.t
+)
+ident(
+  int_ref set "fixpointThreshold.ml" 28 949 977 "fixpointThreshold.ml" 28 949 980
+)
+"fixpointThreshold.ml" 28 949 984 "fixpointThreshold.ml" 28 949 1003
+call(
+  tail
+)
+type(
+  bool
+)
+"fixpointThreshold.ml" 28 949 965 "fixpointThreshold.ml" 28 949 1007
+type(
+  'a -> 'e PSette.t -> bool
+)
+"fixpointThreshold.ml" 29 1009 1032 "fixpointThreshold.ml" 29 1009 1033
+type(
+  'a
+)
+ident(
+  def v "fixpointThreshold.ml" 29 1009 1034 "fixpointThreshold.ml" 29 1009 1070
+)
+"fixpointThreshold.ml" 29 1009 1034 "fixpointThreshold.ml" 29 1009 1038
+type(
+  'e PSette.t
+)
+ident(
+  def set1 "fixpointThreshold.ml" 29 1009 1039 "fixpointThreshold.ml" 29 1009 1070
+)
+"fixpointThreshold.ml" 29 1009 1039 "fixpointThreshold.ml" 29 1009 1043
+type(
+  'e PSette.t
+)
+ident(
+  def set2 "fixpointThreshold.ml" 29 1009 1047 "fixpointThreshold.ml" 29 1009 1070
+)
+"fixpointThreshold.ml" 29 1009 1047 "fixpointThreshold.ml" 29 1009 1060
+type(
+  'e PSette.t -> 'e PSette.t -> bool
+)
+ident(
+  ext_ref PSette.subset
+)
+"fixpointThreshold.ml" 29 1009 1061 "fixpointThreshold.ml" 29 1009 1065
+type(
+  'e PSette.t
+)
+ident(
+  int_ref set1 "fixpointThreshold.ml" 29 1009 1034 "fixpointThreshold.ml" 29 1009 1038
+)
+"fixpointThreshold.ml" 29 1009 1066 "fixpointThreshold.ml" 29 1009 1070
+type(
+  'e PSette.t
+)
+ident(
+  int_ref set2 "fixpointThreshold.ml" 29 1009 1039 "fixpointThreshold.ml" 29 1009 1043
+)
+"fixpointThreshold.ml" 29 1009 1047 "fixpointThreshold.ml" 29 1009 1070
+call(
+  tail
+)
+type(
+  bool
+)
+"fixpointThreshold.ml" 29 1009 1022 "fixpointThreshold.ml" 29 1009 1074
+type(
+  'a -> 'e PSette.t -> 'e PSette.t -> bool
+)
+"fixpointThreshold.ml" 30 1076 1097 "fixpointThreshold.ml" 30 1076 1098
+type(
+  'a
+)
+ident(
+  def v "fixpointThreshold.ml" 30 1076 1099 "fixpointThreshold.ml" 30 1076 1134
+)
+"fixpointThreshold.ml" 30 1076 1099 "fixpointThreshold.ml" 30 1076 1103
+type(
+  'e PSette.t
+)
+ident(
+  def set1 "fixpointThreshold.ml" 30 1076 1104 "fixpointThreshold.ml" 30 1076 1134
+)
+"fixpointThreshold.ml" 30 1076 1104 "fixpointThreshold.ml" 30 1076 1108
+type(
+  'e PSette.t
+)
+ident(
+  def set2 "fixpointThreshold.ml" 30 1076 1112 "fixpointThreshold.ml" 30 1076 1134
+)
+"fixpointThreshold.ml" 30 1076 1112 "fixpointThreshold.ml" 30 1076 1124
+type(
+  'e PSette.t -> 'e PSette.t -> 'e PSette.t
+)
+ident(
+  ext_ref PSette.union
+)
+"fixpointThreshold.ml" 30 1076 1125 "fixpointThreshold.ml" 30 1076 1129
+type(
+  'e PSette.t
+)
+ident(
+  int_ref set1 "fixpointThreshold.ml" 30 1076 1099 "fixpointThreshold.ml" 30 1076 1103
+)
+"fixpointThreshold.ml" 30 1076 1130 "fixpointThreshold.ml" 30 1076 1134
+type(
+  'e PSette.t
+)
+ident(
+  int_ref set2 "fixpointThreshold.ml" 30 1076 1104 "fixpointThreshold.ml" 30 1076 1108
+)
+"fixpointThreshold.ml" 30 1076 1112 "fixpointThreshold.ml" 30 1076 1134
+call(
+  tail
+)
+type(
+  'e PSette.t
+)
+"fixpointThreshold.ml" 30 1076 1087 "fixpointThreshold.ml" 30 1076 1138
+type(
+  'a -> 'e PSette.t -> 'e PSette.t -> 'e PSette.t
+)
+"fixpointThreshold.ml" 32 1156 1172 "fixpointThreshold.ml" 32 1156 1173
+type(
+  'a
+)
+ident(
+  def v "fixpointThreshold.ml" 32 1156 1174 "fixpointThreshold.ml" 35 1214 1254
+)
+"fixpointThreshold.ml" 32 1156 1174 "fixpointThreshold.ml" 32 1156 1178
+type(
+  'e PSette.t list
+)
+ident(
+  def lset "fixpointThreshold.ml" 33 1182 1183 "fixpointThreshold.ml" 35 1214 1254
+)
+"fixpointThreshold.ml" 33 1182 1183 "fixpointThreshold.ml" 33 1182 1197
+type(
+  ('e PSette.t -> 'e PSette.t -> 'e PSette.t) ->
+  'e PSette.t -> 'e PSette.t list -> 'e PSette.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"fixpointThreshold.ml" 34 1198 1201 "fixpointThreshold.ml" 34 1198 1213
+type(
+  'e PSette.t -> 'e PSette.t -> 'e PSette.t
+)
+ident(
+  ext_ref PSette.union
+)
+"fixpointThreshold.ml" 35 1214 1218 "fixpointThreshold.ml" 35 1214 1230
+type(
+  ('e -> 'e -> int) -> 'e PSette.t
+)
+ident(
+  ext_ref PSette.empty
+)
+"fixpointThreshold.ml" 35 1214 1231 "fixpointThreshold.ml" 35 1214 1240
+type(
+  ('a, 'b, 'e) parameter
+)
+ident(
+  int_ref parameter "fixpointThreshold.ml" 21 745 750 "fixpointThreshold.ml" 21 745 759
+)
+"fixpointThreshold.ml" 35 1214 1231 "fixpointThreshold.ml" 35 1214 1248
+type(
+  'e -> 'e -> int
+)
+"fixpointThreshold.ml" 35 1214 1217 "fixpointThreshold.ml" 35 1214 1249
+call(
+  stack
+)
+type(
+  'e PSette.t
+)
+"fixpointThreshold.ml" 35 1214 1250 "fixpointThreshold.ml" 35 1214 1254
+type(
+  'e PSette.t list
+)
+ident(
+  int_ref lset "fixpointThreshold.ml" 32 1156 1174 "fixpointThreshold.ml" 32 1156 1178
+)
+"fixpointThreshold.ml" 33 1182 1183 "fixpointThreshold.ml" 35 1214 1254
+call(
+  tail
+)
+type(
+  'e PSette.t
+)
+"fixpointThreshold.ml" 32 1156 1162 "fixpointThreshold.ml" 36 1255 1264
+type(
+  'a -> 'e PSette.t list -> 'e PSette.t
+)
+"fixpointThreshold.ml" 37 1266 1291 "fixpointThreshold.ml" 37 1266 1292
+type(
+  'a
+)
+ident(
+  def v "fixpointThreshold.ml" 37 1266 1293 "fixpointThreshold.ml" 37 1266 1317
+)
+"fixpointThreshold.ml" 37 1266 1293 "fixpointThreshold.ml" 37 1266 1297
+type(
+  'e PSette.t
+)
+ident(
+  def set1 "fixpointThreshold.ml" 37 1266 1298 "fixpointThreshold.ml" 37 1266 1317
+)
+"fixpointThreshold.ml" 37 1266 1298 "fixpointThreshold.ml" 37 1266 1302
+type(
+  'e PSette.t
+)
+ident(
+  def set2 "fixpointThreshold.ml" 37 1266 1306 "fixpointThreshold.ml" 37 1266 1317
+)
+"fixpointThreshold.ml" 37 1266 1306 "fixpointThreshold.ml" 37 1266 1314
+type(
+  string -> 'e PSette.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"fixpointThreshold.ml" 37 1266 1315 "fixpointThreshold.ml" 37 1266 1317
+type(
+  string
+)
+"fixpointThreshold.ml" 37 1266 1306 "fixpointThreshold.ml" 37 1266 1317
+call(
+  tail
+)
+type(
+  'e PSette.t
+)
+"fixpointThreshold.ml" 37 1266 1281 "fixpointThreshold.ml" 37 1266 1321
+type(
+  'a -> 'e PSette.t -> 'e PSette.t -> 'e PSette.t
+)
+"fixpointThreshold.ml" 38 1323 1350 "fixpointThreshold.ml" 38 1323 1351
+type(
+  'a
+)
+ident(
+  def v "fixpointThreshold.ml" 38 1323 1352 "fixpointThreshold.ml" 38 1323 1386
+)
+"fixpointThreshold.ml" 38 1323 1352 "fixpointThreshold.ml" 38 1323 1356
+type(
+  'e PSette.t
+)
+ident(
+  def set1 "fixpointThreshold.ml" 38 1323 1357 "fixpointThreshold.ml" 38 1323 1386
+)
+"fixpointThreshold.ml" 38 1323 1357 "fixpointThreshold.ml" 38 1323 1361
+type(
+  'e PSette.t
+)
+ident(
+  def set2 "fixpointThreshold.ml" 38 1323 1365 "fixpointThreshold.ml" 38 1323 1386
+)
+"fixpointThreshold.ml" 38 1323 1365 "fixpointThreshold.ml" 38 1323 1376
+type(
+  'e PSette.t -> 'e PSette.t -> 'e PSette.t
+)
+ident(
+  ext_ref PSette.diff
+)
+"fixpointThreshold.ml" 38 1323 1377 "fixpointThreshold.ml" 38 1323 1381
+type(
+  'e PSette.t
+)
+ident(
+  int_ref set1 "fixpointThreshold.ml" 38 1323 1352 "fixpointThreshold.ml" 38 1323 1356
+)
+"fixpointThreshold.ml" 38 1323 1382 "fixpointThreshold.ml" 38 1323 1386
+type(
+  'e PSette.t
+)
+ident(
+  int_ref set2 "fixpointThreshold.ml" 38 1323 1357 "fixpointThreshold.ml" 38 1323 1361
+)
+"fixpointThreshold.ml" 38 1323 1365 "fixpointThreshold.ml" 38 1323 1386
+call(
+  tail
+)
+type(
+  'e PSette.t
+)
+"fixpointThreshold.ml" 38 1323 1339 "fixpointThreshold.ml" 38 1323 1391
+type(
+  'a -> 'e PSette.t -> 'e PSette.t -> 'e PSette.t
+)
+"fixpointThreshold.ml" 38 1323 1335 "fixpointThreshold.ml" 38 1323 1391
+type(
+  ('a -> 'e PSette.t -> 'e PSette.t -> 'e PSette.t) option
+)
+"fixpointThreshold.ml" 39 1393 1413 "fixpointThreshold.ml" 39 1393 1422
+type(
+  ('a, 'b, 'e) parameter
+)
+ident(
+  int_ref parameter "fixpointThreshold.ml" 21 745 750 "fixpointThreshold.ml" 21 745 759
+)
+"fixpointThreshold.ml" 39 1393 1413 "fixpointThreshold.ml" 39 1393 1427
+type(
+  'a -> 'e PSette.t
+)
+"fixpointThreshold.ml" 40 1429 1467 "fixpointThreshold.ml" 40 1429 1468
+type(
+  'b
+)
+ident(
+  def h "fixpointThreshold.ml" 40 1429 1472 "fixpointThreshold.ml" 40 1429 1474
+)
+"fixpointThreshold.ml" 40 1429 1472 "fixpointThreshold.ml" 40 1429 1474
+type(
+  unit
+)
+"fixpointThreshold.ml" 40 1429 1457 "fixpointThreshold.ml" 40 1429 1478
+type(
+  'b -> unit
+)
+"fixpointThreshold.ml" 41 1480 1515 "fixpointThreshold.ml" 41 1480 1516
+type(
+  'b
+)
+ident(
+  def h "fixpointThreshold.ml" 41 1480 1517 "fixpointThreshold.ml" 41 1480 1553
+)
+"fixpointThreshold.ml" 41 1480 1517 "fixpointThreshold.ml" 41 1480 1521
+type(
+  'e PSette.t array
+)
+ident(
+  def tabs "fixpointThreshold.ml" 41 1480 1525 "fixpointThreshold.ml" 41 1480 1553
+)
+"fixpointThreshold.ml" 41 1480 1526 "fixpointThreshold.ml" 41 1480 1528
+type(
+  unit
+)
+"fixpointThreshold.ml" 41 1480 1530 "fixpointThreshold.ml" 41 1480 1539
+type(
+  ('a, 'b, 'e) parameter
+)
+ident(
+  int_ref parameter "fixpointThreshold.ml" 21 745 750 "fixpointThreshold.ml" 21 745 759
+)
+"fixpointThreshold.ml" 41 1480 1530 "fixpointThreshold.ml" 41 1480 1545
+type(
+  'b -> 'e PSette.t array -> 'e PSette.t
+)
+"fixpointThreshold.ml" 41 1480 1546 "fixpointThreshold.ml" 41 1480 1547
+type(
+  'b
+)
+ident(
+  int_ref h "fixpointThreshold.ml" 41 1480 1515 "fixpointThreshold.ml" 41 1480 1516
+)
+"fixpointThreshold.ml" 41 1480 1548 "fixpointThreshold.ml" 41 1480 1552
+type(
+  'e PSette.t array
+)
+ident(
+  int_ref tabs "fixpointThreshold.ml" 41 1480 1517 "fixpointThreshold.ml" 41 1480 1521
+)
+"fixpointThreshold.ml" 41 1480 1530 "fixpointThreshold.ml" 41 1480 1552
+call(
+  stack
+)
+type(
+  'e PSette.t
+)
+"fixpointThreshold.ml" 41 1480 1525 "fixpointThreshold.ml" 41 1480 1553
+type(
+  unit * 'e PSette.t
+)
+"fixpointThreshold.ml" 41 1480 1505 "fixpointThreshold.ml" 41 1480 1557
+type(
+  'b -> 'e PSette.t array -> unit * 'e PSette.t
+)
+"fixpointThreshold.ml" 42 1559 1590 "fixpointThreshold.ml" 42 1559 1593
+type(
+  Format.formatter
+)
+ident(
+  def fmt "fixpointThreshold.ml" 42 1559 1594 "fixpointThreshold.ml" 42 1559 1637
+)
+"fixpointThreshold.ml" 42 1559 1594 "fixpointThreshold.ml" 42 1559 1597
+type(
+  'e PSette.t
+)
+ident(
+  def set "fixpointThreshold.ml" 42 1559 1601 "fixpointThreshold.ml" 42 1559 1637
+)
+"fixpointThreshold.ml" 42 1559 1601 "fixpointThreshold.ml" 42 1559 1613
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'e -> unit) -> Format.formatter -> 'e PSette.t -> unit
+)
+ident(
+  ext_ref PSette.print
+)
+"fixpointThreshold.ml" 42 1559 1614 "fixpointThreshold.ml" 42 1559 1623
+type(
+  ('a, 'b, 'e) parameter
+)
+ident(
+  int_ref parameter "fixpointThreshold.ml" 21 745 750 "fixpointThreshold.ml" 21 745 759
+)
+"fixpointThreshold.ml" 42 1559 1614 "fixpointThreshold.ml" 42 1559 1629
+type(
+  Format.formatter -> 'e -> unit
+)
+"fixpointThreshold.ml" 42 1559 1630 "fixpointThreshold.ml" 42 1559 1633
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "fixpointThreshold.ml" 42 1559 1590 "fixpointThreshold.ml" 42 1559 1593
+)
+"fixpointThreshold.ml" 42 1559 1634 "fixpointThreshold.ml" 42 1559 1637
+type(
+  'e PSette.t
+)
+ident(
+  int_ref set "fixpointThreshold.ml" 42 1559 1594 "fixpointThreshold.ml" 42 1559 1597
+)
+"fixpointThreshold.ml" 42 1559 1601 "fixpointThreshold.ml" 42 1559 1637
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointThreshold.ml" 42 1559 1580 "fixpointThreshold.ml" 42 1559 1641
+type(
+  Format.formatter -> 'e PSette.t -> unit
+)
+"fixpointThreshold.ml" 43 1643 1669 "fixpointThreshold.ml" 43 1643 1672
+type(
+  Format.formatter
+)
+ident(
+  def fmt "fixpointThreshold.ml" 43 1643 1673 "fixpointThreshold.ml" 43 1643 1681
+)
+"fixpointThreshold.ml" 43 1643 1673 "fixpointThreshold.ml" 43 1643 1675
+type(
+  unit
+)
+"fixpointThreshold.ml" 43 1643 1679 "fixpointThreshold.ml" 43 1643 1681
+type(
+  unit
+)
+"fixpointThreshold.ml" 43 1643 1659 "fixpointThreshold.ml" 43 1643 1685
+type(
+  Format.formatter -> unit -> unit
+)
+"fixpointThreshold.ml" 44 1687 1704 "fixpointThreshold.ml" 44 1687 1708
+type(
+  bool
+)
+"fixpointThreshold.ml" 25 844 846 "fixpointThreshold.ml" 45 1710 1713
+type(
+  ('a, 'b, 'e PSette.t, unit) FixpointType.manager
+)
+type(
+  ('a, 'b, 'e PSette.t, unit) FixpointType.manager
+)
+"fixpointThreshold.ml" 51 1913 1917 "fixpointThreshold.ml" 51 1913 1938
+type(
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy -> int -> unit
+)
+ident(
+  def process_main_strategy "fixpointThreshold.ml" 96 3058 3058 "fixpointThreshold.ml" 1 0 -1
+)
+"fixpointThreshold.ml" 52 1939 1944 "fixpointThreshold.ml" 52 1939 1951
+type(
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.manager
+)
+ident(
+  def manager "fixpointThreshold.ml" 53 2006 2010 "fixpointThreshold.ml" 94 3052 3056
+)
+"fixpointThreshold.ml" 53 2006 2011 "fixpointThreshold.ml" 53 2006 2016
+type(
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.graph
+)
+ident(
+  def graph "fixpointThreshold.ml" 54 2069 2073 "fixpointThreshold.ml" 94 3052 3056
+)
+"fixpointThreshold.ml" 54 2069 2075 "fixpointThreshold.ml" 54 2069 2077
+type(
+  FixpointType.strategy_iteration
+)
+ident(
+  def it "fixpointThreshold.ml" 55 2129 2133 "fixpointThreshold.ml" 94 3052 3056
+)
+"fixpointThreshold.ml" 54 2069 2078 "fixpointThreshold.ml" 54 2069 2087
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.el list
+)
+ident(
+  def sstrategy "fixpointThreshold.ml" 55 2129 2133 "fixpointThreshold.ml" 94 3052 3056
+)
+"fixpointThreshold.ml" 54 2069 2074 "fixpointThreshold.ml" 54 2069 2088
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+"fixpointThreshold.ml" 55 2129 2134 "fixpointThreshold.ml" 55 2129 2146
+type(
+  int
+)
+ident(
+  def iteration_nb "fixpointThreshold.ml" 56 2152 2156 "fixpointThreshold.ml" 94 3052 3056
+)
+"fixpointThreshold.ml" 59 2173 2179 "fixpointThreshold.ml" 59 2173 2183
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  def info "fixpointThreshold.ml" 61 2210 2212 "fixpointThreshold.ml" 94 3052 3056
+)
+"fixpointThreshold.ml" 59 2173 2186 "fixpointThreshold.ml" 59 2173 2199
+type(
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  ext_ref PSHGraph.info
+)
+"fixpointThreshold.ml" 59 2173 2200 "fixpointThreshold.ml" 59 2173 2205
+type(
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointThreshold.ml" 53 2006 2011 "fixpointThreshold.ml" 53 2006 2016
+)
+"fixpointThreshold.ml" 59 2173 2186 "fixpointThreshold.ml" 59 2173 2205
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+"fixpointThreshold.ml" 61 2210 2216 "fixpointThreshold.ml" 61 2210 2230
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex -> bool
+)
+ident(
+  def process_vertex "fixpointThreshold.ml" 68 2419 2421 "fixpointThreshold.ml" 94 3052 3056
+)
+"fixpointThreshold.ml" 61 2210 2231 "fixpointThreshold.ml" 61 2210 2246
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  def strategy_vertex "fixpointThreshold.ml" 62 2249 2253 "fixpointThreshold.ml" 65 2401 2412
+)
+"fixpointThreshold.ml" 62 2249 2256 "fixpointThreshold.ml" 62 2249 2267
+type(
+  ('vertex, unit) PHashhe.t -> 'vertex -> bool
+)
+ident(
+  ext_ref PHashhe.mem
+)
+"fixpointThreshold.ml" 62 2249 2268 "fixpointThreshold.ml" 62 2249 2272
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointThreshold.ml" 59 2173 2179 "fixpointThreshold.ml" 59 2173 2183
+)
+"fixpointThreshold.ml" 62 2249 2268 "fixpointThreshold.ml" 62 2249 2284
+type(
+  ('vertex, unit) PHashhe.t
+)
+"fixpointThreshold.ml" 62 2249 2285 "fixpointThreshold.ml" 62 2249 2300
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  int_ref strategy_vertex "fixpointThreshold.ml" 61 2210 2231 "fixpointThreshold.ml" 61 2210 2246
+)
+"fixpointThreshold.ml" 62 2249 2285 "fixpointThreshold.ml" 62 2249 2307
+type(
+  'vertex
+)
+"fixpointThreshold.ml" 62 2249 2256 "fixpointThreshold.ml" 62 2249 2307
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointThreshold.ml" 63 2313 2319 "fixpointThreshold.ml" 63 2313 2345
+type(
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.graph ->
+  widening:bool -> ('vertex, 'hedge) FixpointType.strategy_vertex -> bool
+)
+ident(
+  ext_ref FixpointStd.process_vertex
+)
+"fixpointThreshold.ml" 63 2313 2346 "fixpointThreshold.ml" 63 2313 2353
+type(
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointThreshold.ml" 52 1939 1944 "fixpointThreshold.ml" 52 1939 1951
+)
+"fixpointThreshold.ml" 63 2313 2354 "fixpointThreshold.ml" 63 2313 2359
+type(
+  ('vertex, 'hedge, 'abstract, unit) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointThreshold.ml" 53 2006 2011 "fixpointThreshold.ml" 53 2006 2016
+)
+"fixpointThreshold.ml" 63 2313 2370 "fixpointThreshold.ml" 63 2313 2375
+type(
+  bool
+)
+"fixpointThreshold.ml" 63 2313 2376 "fixpointThreshold.ml" 63 2313 2391
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  int_ref strategy_vertex "fixpointThreshold.ml" 61 2210 2231 "fixpointThreshold.ml" 61 2210 2246
+)
+"fixpointThreshold.ml" 63 2313 2319 "fixpointThreshold.ml" 63 2313 2391
+call(
+  tail
+)
+type(
+  bool
+)
+"fixpointThreshold.ml" 65 2401 2407 "fixpointThreshold.ml" 65 2401 2412
+type(
+  bool
+)
+"fixpointThreshold.ml" 62 2249 2253 "fixpointThreshold.ml" 65 2401 2412
+type(
+  bool
+)
+"fixpointThreshold.ml" 68 2419 2421 "fixpointThreshold.ml" 68 2419 2430
+type(
+  ((FixpointType.strategy_iteration,
+    ('vertex, 'hedge) FixpointType.strategy_vertex)
+   Ilist.el -> unit) ->
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.el list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"fixpointThreshold.ml" 69 2431 2446 "fixpointThreshold.ml" 69 2431 2449
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.el
+)
+ident(
+  def elt "fixpointThreshold.ml" 70 2453 2459 "fixpointThreshold.ml" 90 3019 3024
+)
+"fixpointThreshold.ml" 70 2453 2465 "fixpointThreshold.ml" 70 2453 2468
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.el
+)
+ident(
+  int_ref elt "fixpointThreshold.ml" 69 2431 2446 "fixpointThreshold.ml" 69 2431 2449
+)
+"fixpointThreshold.ml" 71 2474 2494 "fixpointThreshold.ml" 71 2474 2509
+ident(
+  def strategy_vertex "fixpointThreshold.ml" 72 2514 2517 "fixpointThreshold.ml" 72 2514 2556
+)
+"fixpointThreshold.ml" 71 2474 2493 "fixpointThreshold.ml" 71 2474 2510
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+"fixpointThreshold.ml" 71 2474 2482 "fixpointThreshold.ml" 71 2474 2510
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.el
+)
+"fixpointThreshold.ml" 72 2514 2517 "fixpointThreshold.ml" 72 2514 2523
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"fixpointThreshold.ml" 72 2514 2525 "fixpointThreshold.ml" 72 2514 2539
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex -> bool
+)
+ident(
+  int_ref process_vertex "fixpointThreshold.ml" 61 2210 2216 "fixpointThreshold.ml" 61 2210 2230
+)
+"fixpointThreshold.ml" 72 2514 2540 "fixpointThreshold.ml" 72 2514 2555
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  int_ref strategy_vertex "fixpointThreshold.ml" 71 2474 2493 "fixpointThreshold.ml" 71 2474 2510
+)
+"fixpointThreshold.ml" 72 2514 2524 "fixpointThreshold.ml" 72 2514 2556
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointThreshold.ml" 72 2514 2517 "fixpointThreshold.ml" 72 2514 2556
+type(
+  unit
+)
+"fixpointThreshold.ml" 73 2557 2576 "fixpointThreshold.ml" 73 2557 2584
+ident(
+  def strategy "fixpointThreshold.ml" 74 2589 2592 "fixpointThreshold.ml" 90 3019 3024
+)
+"fixpointThreshold.ml" 73 2557 2575 "fixpointThreshold.ml" 73 2557 2585
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+"fixpointThreshold.ml" 73 2557 2565 "fixpointThreshold.ml" 73 2557 2585
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.el
+)
+"fixpointThreshold.ml" 75 2602 2611 "fixpointThreshold.ml" 75 2602 2618
+type(
+  bool ref
+)
+ident(
+  def growing "fixpointThreshold.ml" 76 2634 2639 "fixpointThreshold.ml" 87 2982 2991
+)
+"fixpointThreshold.ml" 75 2602 2621 "fixpointThreshold.ml" 75 2602 2624
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"fixpointThreshold.ml" 75 2602 2625 "fixpointThreshold.ml" 75 2602 2630
+type(
+  bool
+)
+"fixpointThreshold.ml" 75 2602 2621 "fixpointThreshold.ml" 75 2602 2630
+type(
+  bool ref
+)
+"fixpointThreshold.ml" 76 2634 2643 "fixpointThreshold.ml" 76 2634 2654
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+ident(
+  def revstrategy "fixpointThreshold.ml" 77 2679 2684 "fixpointThreshold.ml" 87 2982 2991
+)
+"fixpointThreshold.ml" 76 2634 2657 "fixpointThreshold.ml" 76 2634 2666
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t ->
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+ident(
+  ext_ref Ilist.rev
+)
+"fixpointThreshold.ml" 76 2634 2667 "fixpointThreshold.ml" 76 2634 2675
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+ident(
+  int_ref strategy "fixpointThreshold.ml" 73 2557 2575 "fixpointThreshold.ml" 73 2557 2585
+)
+"fixpointThreshold.ml" 76 2634 2657 "fixpointThreshold.ml" 76 2634 2675
+call(
+  stack
+)
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+"fixpointThreshold.ml" 77 2679 2690 "fixpointThreshold.ml" 77 2679 2691
+type(
+  int
+)
+"fixpointThreshold.ml" 77 2679 2695 "fixpointThreshold.ml" 77 2679 2707
+type(
+  int
+)
+ident(
+  int_ref iteration_nb "fixpointThreshold.ml" 55 2129 2134 "fixpointThreshold.ml" 55 2129 2146
+)
+"fixpointThreshold.ml" 78 2711 2718 "fixpointThreshold.ml" 78 2711 2725
+type(
+  bool ref
+)
+ident(
+  int_ref growing "fixpointThreshold.ml" 75 2602 2611 "fixpointThreshold.ml" 75 2602 2618
+)
+"fixpointThreshold.ml" 78 2711 2726 "fixpointThreshold.ml" 78 2711 2728
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointThreshold.ml" 78 2711 2729 "fixpointThreshold.ml" 78 2711 2734
+type(
+  bool
+)
+"fixpointThreshold.ml" 78 2711 2718 "fixpointThreshold.ml" 78 2711 2734
+type(
+  unit
+)
+"fixpointThreshold.ml" 79 2736 2743 "fixpointThreshold.ml" 79 2736 2753
+type(
+  (bool ->
+   FixpointType.strategy_iteration ->
+   ('vertex, 'hedge) FixpointType.strategy_vertex -> unit) ->
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t -> unit
+)
+ident(
+  ext_ref Ilist.iter
+)
+"fixpointThreshold.ml" 80 2754 2767 "fixpointThreshold.ml" 80 2754 2768
+type(
+  bool
+)
+"fixpointThreshold.ml" 80 2754 2769 "fixpointThreshold.ml" 80 2754 2770
+type(
+  FixpointType.strategy_iteration
+)
+"fixpointThreshold.ml" 80 2754 2771 "fixpointThreshold.ml" 80 2754 2786
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  def strategy_vertex "fixpointThreshold.ml" 81 2790 2794 "fixpointThreshold.ml" 82 2841 2875
+)
+"fixpointThreshold.ml" 81 2790 2798 "fixpointThreshold.ml" 81 2790 2804
+type(
+  bool
+)
+ident(
+  def change "fixpointThreshold.ml" 82 2841 2845 "fixpointThreshold.ml" 82 2841 2875
+)
+"fixpointThreshold.ml" 81 2790 2807 "fixpointThreshold.ml" 81 2790 2821
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex -> bool
+)
+ident(
+  int_ref process_vertex "fixpointThreshold.ml" 61 2210 2216 "fixpointThreshold.ml" 61 2210 2230
+)
+"fixpointThreshold.ml" 81 2790 2822 "fixpointThreshold.ml" 81 2790 2837
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  int_ref strategy_vertex "fixpointThreshold.ml" 80 2754 2771 "fixpointThreshold.ml" 80 2754 2786
+)
+"fixpointThreshold.ml" 81 2790 2807 "fixpointThreshold.ml" 81 2790 2837
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointThreshold.ml" 82 2841 2845 "fixpointThreshold.ml" 82 2841 2852
+type(
+  bool ref
+)
+ident(
+  int_ref growing "fixpointThreshold.ml" 75 2602 2611 "fixpointThreshold.ml" 75 2602 2618
+)
+"fixpointThreshold.ml" 82 2841 2853 "fixpointThreshold.ml" 82 2841 2855
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointThreshold.ml" 82 2841 2856 "fixpointThreshold.ml" 82 2841 2857
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointThreshold.ml" 82 2841 2857 "fixpointThreshold.ml" 82 2841 2864
+type(
+  bool ref
+)
+ident(
+  int_ref growing "fixpointThreshold.ml" 75 2602 2611 "fixpointThreshold.ml" 75 2602 2618
+)
+"fixpointThreshold.ml" 82 2841 2856 "fixpointThreshold.ml" 82 2841 2864
+type(
+  bool
+)
+"fixpointThreshold.ml" 82 2841 2865 "fixpointThreshold.ml" 82 2841 2867
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"fixpointThreshold.ml" 82 2841 2868 "fixpointThreshold.ml" 82 2841 2874
+type(
+  bool
+)
+ident(
+  int_ref change "fixpointThreshold.ml" 81 2790 2798 "fixpointThreshold.ml" 81 2790 2804
+)
+"fixpointThreshold.ml" 82 2841 2856 "fixpointThreshold.ml" 82 2841 2874
+type(
+  bool
+)
+"fixpointThreshold.ml" 82 2841 2845 "fixpointThreshold.ml" 82 2841 2875
+type(
+  unit
+)
+"fixpointThreshold.ml" 81 2790 2794 "fixpointThreshold.ml" 82 2841 2875
+type(
+  unit
+)
+"fixpointThreshold.ml" 80 2754 2756 "fixpointThreshold.ml" 83 2876 2882
+type(
+  bool ->
+  FixpointType.strategy_iteration ->
+  ('vertex, 'hedge) FixpointType.strategy_vertex -> unit
+)
+"fixpointThreshold.ml" 84 2883 2890 "fixpointThreshold.ml" 84 2883 2891
+type(
+  int
+)
+ident(
+  int_ref i "fixpointThreshold.ml" 77 2679 2684 "fixpointThreshold.ml" 87 2982 2991
+)
+"fixpointThreshold.ml" 84 2883 2892 "fixpointThreshold.ml" 84 2883 2895
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"fixpointThreshold.ml" 84 2883 2896 "fixpointThreshold.ml" 84 2883 2897
+type(
+  int
+)
+"fixpointThreshold.ml" 84 2883 2889 "fixpointThreshold.ml" 84 2883 2898
+type(
+  int
+)
+"fixpointThreshold.ml" 84 2883 2898 "fixpointThreshold.ml" 84 2883 2899
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"fixpointThreshold.ml" 84 2883 2899 "fixpointThreshold.ml" 84 2883 2900
+type(
+  int
+)
+"fixpointThreshold.ml" 84 2883 2889 "fixpointThreshold.ml" 84 2883 2900
+type(
+  bool
+)
+"fixpointThreshold.ml" 84 2883 2906 "fixpointThreshold.ml" 84 2883 2914
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+ident(
+  int_ref strategy "fixpointThreshold.ml" 73 2557 2575 "fixpointThreshold.ml" 73 2557 2585
+)
+"fixpointThreshold.ml" 84 2883 2920 "fixpointThreshold.ml" 84 2883 2931
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+ident(
+  int_ref revstrategy "fixpointThreshold.ml" 76 2634 2643 "fixpointThreshold.ml" 76 2634 2654
+)
+"fixpointThreshold.ml" 84 2883 2885 "fixpointThreshold.ml" 84 2883 2932
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+"fixpointThreshold.ml" 79 2736 2743 "fixpointThreshold.ml" 84 2883 2932
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointThreshold.ml" 86 2942 2952 "fixpointThreshold.ml" 86 2942 2955
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"fixpointThreshold.ml" 86 2942 2956 "fixpointThreshold.ml" 86 2942 2957
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointThreshold.ml" 86 2942 2957 "fixpointThreshold.ml" 86 2942 2964
+type(
+  bool ref
+)
+ident(
+  int_ref growing "fixpointThreshold.ml" 75 2602 2611 "fixpointThreshold.ml" 75 2602 2618
+)
+"fixpointThreshold.ml" 86 2942 2956 "fixpointThreshold.ml" 86 2942 2964
+type(
+  bool
+)
+"fixpointThreshold.ml" 86 2942 2952 "fixpointThreshold.ml" 86 2942 2964
+type(
+  bool
+)
+"fixpointThreshold.ml" 86 2942 2970 "fixpointThreshold.ml" 86 2942 2975
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"fixpointThreshold.ml" 86 2942 2976 "fixpointThreshold.ml" 86 2942 2980
+type(
+  exn
+)
+"fixpointThreshold.ml" 86 2942 2970 "fixpointThreshold.ml" 86 2942 2980
+type(
+  unit
+)
+"fixpointThreshold.ml" 86 2942 2949 "fixpointThreshold.ml" 86 2942 2981
+type(
+  unit
+)
+"fixpointThreshold.ml" 79 2736 2743 "fixpointThreshold.ml" 86 2942 2981
+type(
+  unit
+)
+"fixpointThreshold.ml" 78 2711 2718 "fixpointThreshold.ml" 86 2942 2981
+type(
+  unit
+)
+"fixpointThreshold.ml" 77 2679 2684 "fixpointThreshold.ml" 87 2982 2991
+type(
+  unit
+)
+"fixpointThreshold.ml" 76 2634 2639 "fixpointThreshold.ml" 87 2982 2991
+type(
+  unit
+)
+"fixpointThreshold.ml" 75 2602 2607 "fixpointThreshold.ml" 87 2982 2991
+type(
+  unit
+)
+"fixpointThreshold.ml" 88 2992 3000 "fixpointThreshold.ml" 88 2992 3004
+type(
+  exn
+)
+"fixpointThreshold.ml" 88 2992 3008 "fixpointThreshold.ml" 88 2992 3010
+type(
+  unit
+)
+"fixpointThreshold.ml" 74 2589 2592 "fixpointThreshold.ml" 89 3011 3017
+type(
+  unit
+)
+"fixpointThreshold.ml" 90 3019 3022 "fixpointThreshold.ml" 90 3019 3024
+type(
+  unit
+)
+"fixpointThreshold.ml" 74 2589 2592 "fixpointThreshold.ml" 90 3019 3024
+type(
+  unit
+)
+"fixpointThreshold.ml" 70 2453 2459 "fixpointThreshold.ml" 90 3019 3024
+type(
+  unit
+)
+"fixpointThreshold.ml" 69 2431 2435 "fixpointThreshold.ml" 91 3025 3033
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.el -> unit
+)
+"fixpointThreshold.ml" 92 3034 3038 "fixpointThreshold.ml" 92 3034 3047
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.el list
+)
+ident(
+  int_ref sstrategy "fixpointThreshold.ml" 54 2069 2078 "fixpointThreshold.ml" 54 2069 2087
+)
+"fixpointThreshold.ml" 68 2419 2421 "fixpointThreshold.ml" 92 3034 3047
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointThreshold.ml" 94 3052 3054 "fixpointThreshold.ml" 94 3052 3056
+type(
+  unit
+)
+"fixpointThreshold.ml" 68 2419 2421 "fixpointThreshold.ml" 94 3052 3056
+type(
+  unit
+)
+"fixpointThreshold.ml" 61 2210 2212 "fixpointThreshold.ml" 94 3052 3056
+type(
+  unit
+)
+"fixpointThreshold.ml" 59 2173 2175 "fixpointThreshold.ml" 94 3052 3056
+type(
+  unit
+)
+type(
+  unit
+)
+"fixpointThreshold.ml" 96 3058 3062 "fixpointThreshold.ml" 96 3058 3071
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'threshold) parameter ->
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t ->
+  ('vertex, 'hedge) FixpointType.strategy ->
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+ident(
+  def inference "fixpointThreshold.ml" 121 4006 4011 "fixpointThreshold.ml" 1 0 -1
+)
+"fixpointThreshold.ml" 97 3072 3077 "fixpointThreshold.ml" 97 3072 3084
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointThreshold.ml" 98 3142 3146 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 98 3142 3147 "fixpointThreshold.ml" 98 3142 3156
+type(
+  ('vertex, 'hedge, 'threshold) parameter
+)
+ident(
+  def parameter "fixpointThreshold.ml" 99 3196 3200 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 99 3196 3201 "fixpointThreshold.ml" 99 3196 3206
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  def input "fixpointThreshold.ml" 99 3196 3245 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 99 3196 3245 "fixpointThreshold.ml" 99 3196 3253
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  def strategy "fixpointThreshold.ml" 100 3254 3258 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 103 3310 3316 "fixpointThreshold.ml" 103 3310 3323
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.manager
+)
+ident(
+  def manager "fixpointThreshold.ml" 104 3370 3372 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 103 3310 3326 "fixpointThreshold.ml" 103 3310 3348
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'threshold) parameter ->
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.manager
+)
+ident(
+  int_ref make_threshold_manager "fixpointThreshold.ml" 19 669 673 "fixpointThreshold.ml" 19 669 695
+)
+"fixpointThreshold.ml" 103 3310 3349 "fixpointThreshold.ml" 103 3310 3356
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointThreshold.ml" 97 3072 3077 "fixpointThreshold.ml" 97 3072 3084
+)
+"fixpointThreshold.ml" 103 3310 3357 "fixpointThreshold.ml" 103 3310 3366
+type(
+  ('vertex, 'hedge, 'threshold) parameter
+)
+ident(
+  int_ref parameter "fixpointThreshold.ml" 98 3142 3147 "fixpointThreshold.ml" 98 3142 3156
+)
+"fixpointThreshold.ml" 103 3310 3326 "fixpointThreshold.ml" 103 3310 3366
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.manager
+)
+"fixpointThreshold.ml" 104 3370 3376 "fixpointThreshold.ml" 104 3370 3384
+type(
+  'vertex -> 'vertex -> int
+)
+ident(
+  def comparev "fixpointThreshold.ml" 105 3431 3433 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 104 3370 3387 "fixpointThreshold.ml" 104 3370 3392
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref input "fixpointThreshold.ml" 99 3196 3201 "fixpointThreshold.ml" 99 3196 3206
+)
+"fixpointThreshold.ml" 104 3370 3387 "fixpointThreshold.ml" 104 3370 3409
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+"fixpointThreshold.ml" 104 3370 3387 "fixpointThreshold.ml" 104 3370 3427
+type(
+  'vertex -> 'vertex -> int
+)
+"fixpointThreshold.ml" 105 3431 3437 "fixpointThreshold.ml" 105 3431 3442
+type(
+  'vertex Hashhe.compare
+)
+ident(
+  def hashv "fixpointThreshold.ml" 106 3486 3488 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 105 3431 3445 "fixpointThreshold.ml" 105 3431 3450
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref input "fixpointThreshold.ml" 99 3196 3201 "fixpointThreshold.ml" 99 3196 3206
+)
+"fixpointThreshold.ml" 105 3431 3445 "fixpointThreshold.ml" 105 3431 3467
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+"fixpointThreshold.ml" 105 3431 3445 "fixpointThreshold.ml" 105 3431 3482
+type(
+  'vertex Hashhe.compare
+)
+"fixpointThreshold.ml" 106 3486 3493 "fixpointThreshold.ml" 106 3486 3498
+type(
+  'vertex PSette.t
+)
+ident(
+  def sinit "fixpointThreshold.ml" 111 3641 3643 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 107 3519 3523 "fixpointThreshold.ml" 107 3519 3543
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t ->
+  ('vertex ->
+   'a ->
+   pred:'hedge PSette.t ->
+   succ:'hedge PSette.t -> 'vertex PSette.t -> 'vertex PSette.t) ->
+  'vertex PSette.t -> 'vertex PSette.t
+)
+ident(
+  ext_ref PSHGraph.fold_vertex
+)
+"fixpointThreshold.ml" 107 3519 3544 "fixpointThreshold.ml" 107 3519 3549
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref input "fixpointThreshold.ml" 99 3196 3201 "fixpointThreshold.ml" 99 3196 3206
+)
+"fixpointThreshold.ml" 108 3550 3561 "fixpointThreshold.ml" 108 3550 3564
+type(
+  'vertex
+)
+ident(
+  def vtx "fixpointThreshold.ml" 108 3550 3565 "fixpointThreshold.ml" 108 3550 3604
+)
+"fixpointThreshold.ml" 108 3550 3565 "fixpointThreshold.ml" 108 3550 3566
+type(
+  'a
+)
+"fixpointThreshold.ml" 108 3550 3568 "fixpointThreshold.ml" 108 3550 3572
+type(
+  'hedge PSette.t
+)
+ident(
+  def pred "fixpointThreshold.ml" 108 3550 3573 "fixpointThreshold.ml" 108 3550 3604
+)
+"fixpointThreshold.ml" 108 3550 3574 "fixpointThreshold.ml" 108 3550 3578
+type(
+  'hedge PSette.t
+)
+ident(
+  def succ "fixpointThreshold.ml" 108 3550 3579 "fixpointThreshold.ml" 108 3550 3604
+)
+"fixpointThreshold.ml" 108 3550 3579 "fixpointThreshold.ml" 108 3550 3582
+type(
+  'vertex PSette.t
+)
+ident(
+  def set "fixpointThreshold.ml" 108 3550 3586 "fixpointThreshold.ml" 108 3550 3604
+)
+"fixpointThreshold.ml" 108 3550 3586 "fixpointThreshold.ml" 108 3550 3596
+type(
+  'vertex -> 'vertex PSette.t -> 'vertex PSette.t
+)
+ident(
+  ext_ref PSette.add
+)
+"fixpointThreshold.ml" 108 3550 3597 "fixpointThreshold.ml" 108 3550 3600
+type(
+  'vertex
+)
+ident(
+  int_ref vtx "fixpointThreshold.ml" 108 3550 3561 "fixpointThreshold.ml" 108 3550 3564
+)
+"fixpointThreshold.ml" 108 3550 3601 "fixpointThreshold.ml" 108 3550 3604
+type(
+  'vertex PSette.t
+)
+ident(
+  int_ref set "fixpointThreshold.ml" 108 3550 3579 "fixpointThreshold.ml" 108 3550 3582
+)
+"fixpointThreshold.ml" 108 3550 3586 "fixpointThreshold.ml" 108 3550 3604
+call(
+  tail
+)
+type(
+  'vertex PSette.t
+)
+"fixpointThreshold.ml" 108 3550 3556 "fixpointThreshold.ml" 108 3550 3605
+type(
+  'vertex ->
+  'a ->
+  pred:'hedge PSette.t ->
+  succ:'hedge PSette.t -> 'vertex PSette.t -> 'vertex PSette.t
+)
+"fixpointThreshold.ml" 109 3606 3613 "fixpointThreshold.ml" 109 3606 3625
+type(
+  ('vertex -> 'vertex -> int) -> 'vertex PSette.t
+)
+ident(
+  ext_ref PSette.empty
+)
+"fixpointThreshold.ml" 109 3606 3626 "fixpointThreshold.ml" 109 3606 3634
+type(
+  'vertex -> 'vertex -> int
+)
+ident(
+  int_ref comparev "fixpointThreshold.ml" 104 3370 3376 "fixpointThreshold.ml" 104 3370 3384
+)
+"fixpointThreshold.ml" 109 3606 3612 "fixpointThreshold.ml" 109 3606 3635
+call(
+  stack
+)
+type(
+  'vertex PSette.t
+)
+"fixpointThreshold.ml" 107 3519 3523 "fixpointThreshold.ml" 109 3606 3635
+call(
+  stack
+)
+type(
+  'vertex PSette.t
+)
+"fixpointThreshold.ml" 111 3641 3647 "fixpointThreshold.ml" 111 3641 3652
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.graph
+)
+ident(
+  def graph "fixpointThreshold.ml" 112 3695 3697 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 111 3641 3655 "fixpointThreshold.ml" 111 3641 3671
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.manager ->
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t ->
+  'vertex PSette.t ->
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.graph
+)
+ident(
+  ext_ref FixpointStd.init
+)
+"fixpointThreshold.ml" 111 3641 3672 "fixpointThreshold.ml" 111 3641 3679
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointThreshold.ml" 103 3310 3316 "fixpointThreshold.ml" 103 3310 3323
+)
+"fixpointThreshold.ml" 111 3641 3680 "fixpointThreshold.ml" 111 3641 3685
+type(
+  ('vertex, 'hedge, 'a, 'b, 'c) PSHGraph.t
+)
+ident(
+  int_ref input "fixpointThreshold.ml" 99 3196 3201 "fixpointThreshold.ml" 99 3196 3206
+)
+"fixpointThreshold.ml" 111 3641 3686 "fixpointThreshold.ml" 111 3641 3691
+type(
+  'vertex PSette.t
+)
+ident(
+  int_ref sinit "fixpointThreshold.ml" 106 3486 3493 "fixpointThreshold.ml" 106 3486 3498
+)
+"fixpointThreshold.ml" 111 3641 3655 "fixpointThreshold.ml" 111 3641 3691
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.graph
+)
+"fixpointThreshold.ml" 112 3695 3697 "fixpointThreshold.ml" 112 3695 3718
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.manager ->
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy -> int -> unit
+)
+ident(
+  int_ref process_main_strategy "fixpointThreshold.ml" 51 1913 1917 "fixpointThreshold.ml" 51 1913 1938
+)
+"fixpointThreshold.ml" 112 3695 3719 "fixpointThreshold.ml" 112 3695 3726
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointThreshold.ml" 103 3310 3316 "fixpointThreshold.ml" 103 3310 3323
+)
+"fixpointThreshold.ml" 112 3695 3727 "fixpointThreshold.ml" 112 3695 3732
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointThreshold.ml" 111 3641 3647 "fixpointThreshold.ml" 111 3641 3652
+)
+"fixpointThreshold.ml" 112 3695 3733 "fixpointThreshold.ml" 112 3695 3741
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  int_ref strategy "fixpointThreshold.ml" 99 3196 3245 "fixpointThreshold.ml" 99 3196 3253
+)
+"fixpointThreshold.ml" 112 3695 3742 "fixpointThreshold.ml" 112 3695 3751
+type(
+  ('vertex, 'hedge, 'threshold) parameter
+)
+ident(
+  int_ref parameter "fixpointThreshold.ml" 98 3142 3147 "fixpointThreshold.ml" 98 3142 3156
+)
+"fixpointThreshold.ml" 112 3695 3742 "fixpointThreshold.ml" 112 3695 3764
+type(
+  int
+)
+"fixpointThreshold.ml" 112 3695 3697 "fixpointThreshold.ml" 112 3695 3764
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointThreshold.ml" 113 3766 3772 "fixpointThreshold.ml" 113 3766 3775
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+ident(
+  def res "fixpointThreshold.ml" 114 3813 3815 "fixpointThreshold.ml" 121 4006 4011
+)
+"fixpointThreshold.ml" 113 3766 3778 "fixpointThreshold.ml" 113 3766 3800
+type(
+  'vertex Hashhe.compare -> int -> ('vertex, 'threshold PSette.t) PHashhe.t
+)
+ident(
+  ext_ref PHashhe.create_compare
+)
+"fixpointThreshold.ml" 113 3766 3801 "fixpointThreshold.ml" 113 3766 3806
+type(
+  'vertex Hashhe.compare
+)
+ident(
+  int_ref hashv "fixpointThreshold.ml" 105 3431 3437 "fixpointThreshold.ml" 105 3431 3442
+)
+"fixpointThreshold.ml" 113 3766 3807 "fixpointThreshold.ml" 113 3766 3809
+type(
+  int
+)
+"fixpointThreshold.ml" 113 3766 3778 "fixpointThreshold.ml" 113 3766 3809
+call(
+  stack
+)
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+"fixpointThreshold.ml" 114 3813 3815 "fixpointThreshold.ml" 114 3813 3825
+type(
+  (bool ->
+   FixpointType.strategy_iteration ->
+   ('vertex, 'hedge) FixpointType.strategy_vertex -> unit) ->
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t -> unit
+)
+ident(
+  ext_ref Ilist.iter
+)
+"fixpointThreshold.ml" 115 3826 3841 "fixpointThreshold.ml" 115 3826 3842
+type(
+  bool
+)
+"fixpointThreshold.ml" 115 3826 3843 "fixpointThreshold.ml" 115 3826 3844
+type(
+  FixpointType.strategy_iteration
+)
+"fixpointThreshold.ml" 115 3826 3845 "fixpointThreshold.ml" 115 3826 3852
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  def svertex "fixpointThreshold.ml" 116 3856 3862 "fixpointThreshold.ml" 118 3940 3982
+)
+"fixpointThreshold.ml" 116 3856 3865 "fixpointThreshold.ml" 116 3856 3872
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  int_ref svertex "fixpointThreshold.ml" 115 3826 3845 "fixpointThreshold.ml" 115 3826 3852
+)
+"fixpointThreshold.ml" 116 3856 3865 "fixpointThreshold.ml" 116 3856 3878
+type(
+  bool
+)
+"fixpointThreshold.ml" 117 3884 3889 "fixpointThreshold.ml" 117 3884 3893
+type(
+  'threshold PSette.t FixpointType.attr
+)
+ident(
+  def attr "fixpointThreshold.ml" 118 3940 3941 "fixpointThreshold.ml" 118 3940 3982
+)
+"fixpointThreshold.ml" 117 3884 3896 "fixpointThreshold.ml" 117 3884 3915
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.graph ->
+  'vertex -> 'threshold PSette.t FixpointType.attr
+)
+ident(
+  ext_ref PSHGraph.attrvertex
+)
+"fixpointThreshold.ml" 117 3884 3916 "fixpointThreshold.ml" 117 3884 3921
+type(
+  ('vertex, 'hedge, 'threshold PSette.t, unit) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointThreshold.ml" 111 3641 3647 "fixpointThreshold.ml" 111 3641 3652
+)
+"fixpointThreshold.ml" 117 3884 3922 "fixpointThreshold.ml" 117 3884 3929
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  int_ref svertex "fixpointThreshold.ml" 115 3826 3845 "fixpointThreshold.ml" 115 3826 3852
+)
+"fixpointThreshold.ml" 117 3884 3922 "fixpointThreshold.ml" 117 3884 3936
+type(
+  'vertex
+)
+"fixpointThreshold.ml" 117 3884 3896 "fixpointThreshold.ml" 117 3884 3936
+call(
+  stack
+)
+type(
+  'threshold PSette.t FixpointType.attr
+)
+"fixpointThreshold.ml" 118 3940 3941 "fixpointThreshold.ml" 118 3940 3952
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t ->
+  'vertex -> 'threshold PSette.t -> unit
+)
+ident(
+  ext_ref PHashhe.add
+)
+"fixpointThreshold.ml" 118 3940 3953 "fixpointThreshold.ml" 118 3940 3956
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+ident(
+  int_ref res "fixpointThreshold.ml" 113 3766 3772 "fixpointThreshold.ml" 113 3766 3775
+)
+"fixpointThreshold.ml" 118 3940 3957 "fixpointThreshold.ml" 118 3940 3964
+type(
+  ('vertex, 'hedge) FixpointType.strategy_vertex
+)
+ident(
+  int_ref svertex "fixpointThreshold.ml" 115 3826 3845 "fixpointThreshold.ml" 115 3826 3852
+)
+"fixpointThreshold.ml" 118 3940 3957 "fixpointThreshold.ml" 118 3940 3971
+type(
+  'vertex
+)
+"fixpointThreshold.ml" 118 3940 3972 "fixpointThreshold.ml" 118 3940 3976
+type(
+  'threshold PSette.t FixpointType.attr
+)
+ident(
+  int_ref attr "fixpointThreshold.ml" 117 3884 3889 "fixpointThreshold.ml" 117 3884 3893
+)
+"fixpointThreshold.ml" 118 3940 3972 "fixpointThreshold.ml" 118 3940 3982
+type(
+  'threshold PSette.t
+)
+"fixpointThreshold.ml" 118 3940 3941 "fixpointThreshold.ml" 118 3940 3982
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointThreshold.ml" 117 3884 3885 "fixpointThreshold.ml" 118 3940 3982
+type(
+  unit
+)
+"fixpointThreshold.ml" 116 3856 3862 "fixpointThreshold.ml" 118 3940 3982
+type(
+  unit
+)
+"fixpointThreshold.ml" 115 3826 3830 "fixpointThreshold.ml" 119 3983 3991
+type(
+  bool ->
+  FixpointType.strategy_iteration ->
+  ('vertex, 'hedge) FixpointType.strategy_vertex -> unit
+)
+"fixpointThreshold.ml" 120 3992 3996 "fixpointThreshold.ml" 120 3992 4004
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  int_ref strategy "fixpointThreshold.ml" 99 3196 3245 "fixpointThreshold.ml" 99 3196 3253
+)
+"fixpointThreshold.ml" 114 3813 3815 "fixpointThreshold.ml" 120 3992 4004
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointThreshold.ml" 121 4006 4008 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+ident(
+  int_ref res "fixpointThreshold.ml" 113 3766 3772 "fixpointThreshold.ml" 113 3766 3775
+)
+"fixpointThreshold.ml" 114 3813 3815 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+"fixpointThreshold.ml" 113 3766 3768 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+"fixpointThreshold.ml" 112 3695 3697 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+"fixpointThreshold.ml" 111 3641 3643 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+"fixpointThreshold.ml" 106 3486 3488 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+"fixpointThreshold.ml" 105 3431 3433 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+"fixpointThreshold.ml" 104 3370 3372 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+"fixpointThreshold.ml" 103 3310 3312 "fixpointThreshold.ml" 121 4006 4011
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)
+type(
+  ('vertex, 'threshold PSette.t) PHashhe.t
+)

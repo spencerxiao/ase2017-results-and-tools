@@ -1,0 +1,12 @@
+var x:int, n:int;
+begin
+  x = 0;
+  n = random;
+  while (x < n) do
+    x = x +_i 1;
+  done;
+
+  if (n > 0) then
+    assume (x == n);
+  endif;
+end

@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((n <= 0) | ((0 <= m) & (m < n)))
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 20
+interp: (let ((.def_18 (not (<= n 0)))) (not (and .def_18 (or (<= n m) (and (<= m (- 1)) (and .def_18 (<= 1 (+ x (+ (* (- 1) m) (* (- 1) n))))))))))
+The assertion is satisfied!
+forward [0] times, backtrack [0] times
+backward [0] times, backtrack [0] times

@@ -1,0 +1,10 @@
+main::__CPAchecker_TMP_3	0
+main::__CPAchecker_TMP_2	7
+main::flag	7
+main::__CPAchecker_TMP_1	0
+main::__CPAchecker_TMP_0	7
+main::k	7
+main::j	0
+main::i	0
+main::b	0
+main::a	0

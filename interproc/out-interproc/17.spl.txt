@@ -1,0 +1,42 @@
+[32mAnnotated program after forward analysis[m
+var i : int, j : int, k : int, n : int;
+begin
+  /* [31m(L2 C5) [|n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+  k = 1; /* [31m(L3 C7) [|k-1=0; n=0 mod 1; k-1=0; j=0 mod 1; i=0 mod 1|][m */
+  i = 1; /* [31m(L4 C7)
+            [|k-1=0; i-1=0; n=0 mod 1; k-1=0; j=0 mod 1; i-1=0|][m */
+  j = 0; /* [31m(L5 C7)
+            [|-i+j+1=0; -2i+k+2>=0; -i+k>=0; i-1>=0; n=0 mod 1; k=0 mod 1;
+              -i+j+1=0; i=0 mod 1|][m */
+  while i < n do
+    /* [31m(L6 C17)
+       [|-i+j+1=0; -2i+k+2>=0; -i+n-1>=0; -i+k>=0; i-1>=0; n=0 mod 1;
+         k=0 mod 1; -i+j+1=0; i=0 mod 1|][m */
+    j = 0; /* [31m(L7 C8)
+              [|-2i+k+2>=0; -i-j+k>=0; -i+n-1>=0; j>=0; i-j>=0; i-1>=0;
+                n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+    while j < i do
+      /* [31m(L8 C18)
+         [|-2i+k+2>=0; -i-j+k>=0; -i+n-1>=0; j>=0; i-j-1>=0; n=0 mod 1;
+           k=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+      k = i -_i,? j +_i,? k; /* [31m(L9 C21)
+                                [|-3i+j+k+2>=0; -2i+k>=0; -i+n-1>=0; 
+                                  j>=0; i-j-1>=0; n=0 mod 1; k=0 mod 1;
+                                  j=0 mod 1; i=0 mod 1|][m */
+      j = j +_i,? 1; /* [31m(L10 C15)
+                        [|-3i+j+k+1>=0; -2i+k>=0; -i+n-1>=0; j-1>=0; 
+                          i-j>=0; n=0 mod 1; k=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+    done; /* [31m(L11 C7)
+             [|-i+j=0; -2i+k>=0; -i+n-1>=0; i-1>=0; n=0 mod 1; k=0 mod 1;
+               -i+j=0; i=0 mod 1|][m */
+    i = i +_i,? 1; /* [31m(L12 C14)
+                      [|-i+j+1=0; -2i+k+2>=0; -i+n>=0; i-2>=0; n=0 mod 1;
+                        k=0 mod 1; -i+j+1=0; i=0 mod 1|][m */
+  done; /* [31m(L13 C6)
+           [|-i+j+1=0; -2i+k+2>=0; -i+k>=0; i-n>=0; i-1>=0; n=0 mod 1;
+             k=0 mod 1; -i+j+1=0; i=0 mod 1|][m */
+  assume k >= n; /* [31m(L14 C16)
+                    [|-i+j+1=0; -2i+k+2>=0; -i+k>=0; i-n>=0; i-1>=0;
+                      n=0 mod 1; k=0 mod 1; -i+j+1=0; i=0 mod 1|][m */
+end
+

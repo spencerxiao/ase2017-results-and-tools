@@ -1,0 +1,6 @@
+loop__main__7:
+(declare-fun |main::x| () Int)
+(declare-fun |main::y| () Int)
+(assert (and (>= |main::y| 1) (<= 0 (+ |main::y| |main::x| (- 2)))))
+loop__main__15:
+(assert false)

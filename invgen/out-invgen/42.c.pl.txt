@@ -1,0 +1,22 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/42.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([10,8]): pc(main-3-15) pc(main-10-15) {y'=y,x'=x,flag'=flag,a'=a}
+[] [y'=y,x'=x,flag'=flag,a'=a]
+path([17,16,15,9,8]): pc(main-3-15) pc(main-11-26) {flag=0,y'=y+1,x'=x,flag'=flag,a'=x+y+1}
+[flag=0] [y'=y+1,x'=x,flag'=flag,a'=x+y+1]
+path([14,13,12,9,8]): pc(main-3-15) pc(main-11-26) {flag>=1+0,y'=y,x'=x+1,flag'=flag,a'=x+y}
+[flag>=1+0] [y'=y,x'=x+1,flag'=flag,a'=x+y]
+path([14,13,11,9,8]): pc(main-3-15) pc(main-11-26) {flag+1=<0,y'=y,x'=x+1,flag'=flag,a'=x+y}
+[flag+1=<0] [y'=y,x'=x+1,flag'=flag,a'=x+y]
+path([7,6,2,1]): pc(main-0-7) pc(main-3-15) {flag=0,y'=1,x'=1,flag'=flag,a'=1}
+[flag=0] [y'=1,x'=1,flag'=flag,a'=1]
+path([5,4,2,1]): pc(main-0-7) pc(main-3-15) {flag>=1+0,y'=1,x'=1,flag'=flag,a'=0}
+[flag>=1+0] [y'=1,x'=1,flag'=flag,a'=0]
+path([5,3,2,1]): pc(main-0-7) pc(main-3-15) {flag+1=<0,y'=1,x'=1,flag'=flag,a'=0}
+[flag+1=<0] [y'=1,x'=1,flag'=flag,a'=0]
+
+#Printing Strengthening ==
+#=========================

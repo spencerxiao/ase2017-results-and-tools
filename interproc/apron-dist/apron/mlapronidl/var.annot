@@ -1,0 +1,75 @@
+"var.ml" 23 541 545 "var.ml" 23 541 550
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "var.ml" 27 665 665 "var.ml" 1 0 -1
+)
+"var.ml" 23 541 551 "var.ml" 23 541 554
+type(
+  Format.formatter
+)
+ident(
+  def fmt "var.ml" 23 541 555 "var.ml" 23 541 599
+)
+"var.ml" 23 541 555 "var.ml" 23 541 556
+type(
+  t
+)
+ident(
+  def v "var.ml" 23 541 559 "var.ml" 23 541 599
+)
+"var.ml" 23 541 559 "var.ml" 23 541 581
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"var.ml" 23 541 582 "var.ml" 23 541 585
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "var.ml" 23 541 551 "var.ml" 23 541 554
+)
+"var.ml" 23 541 587 "var.ml" 23 541 596
+type(
+  t -> string
+)
+ident(
+  int_ref to_string "var.ml" 16 417 417 "var.ml" 17 450 483
+)
+"var.ml" 23 541 597 "var.ml" 23 541 598
+type(
+  t
+)
+ident(
+  int_ref v "var.ml" 23 541 555 "var.ml" 23 541 556
+)
+"var.ml" 23 541 586 "var.ml" 23 541 599
+type(
+  string
+)
+"var.ml" 23 541 559 "var.ml" 23 541 599
+call(
+  tail
+)
+type(
+  unit
+)
+"var.ml" 29 746 754 "var.ml" 29 746 772
+type(
+  unit -> unit
+)
+ident(
+  int_ref set_var_operations "var.ml" 27 665 665 "var.ml" 27 665 744
+)
+"var.ml" 29 746 773 "var.ml" 29 746 775
+type(
+  unit
+)
+"var.ml" 29 746 754 "var.ml" 29 746 775
+type(
+  unit
+)

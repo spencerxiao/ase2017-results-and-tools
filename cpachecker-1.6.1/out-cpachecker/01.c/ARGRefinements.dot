@@ -1,0 +1,45 @@
+digraph ARG {
+node [style="filled" shape="box" color="white"]
+subgraph cluster_0 {
+label="Refinement 0"
+1 [label="1 @ N18\nmain\n" id="1"]
+4 [fillcolor="cornflowerblue" label="4 @ N5\nmain\nAbstractionState: ABS1: true\n" id="4"]
+11 [fillcolor="orange" label="11 @ N14\nmain\n" id="11"]
+10 [fillcolor="green" label="10 @ N5\nmain\nAbstractionState: ABS2: true\n" id="10"]
+14 [fillcolor="red" label="14 @ N16\nmain\nAbstractionState: ABS3: true\n AutomatonState: ErrorLabelAutomaton: _predefinedState_ERROR\n" id="14"]
+1 -> 4 []
+10 -> 4 [style="dashed" weight="0" label="covered by"]
+4 -> 14 []
+4 -> 10 []
+4 -> 11 []
+}
+0 -> 1
+subgraph cluster_1 {
+label="Refinement 1"
+18 [fillcolor="cornflowerblue" label="18 @ N5\nmain\nAbstractionState: ABS4\n" id="18"]
+31 [fillcolor="orange" label="31 @ N14\nmain\n" id="31"]
+24 [fillcolor="cornflowerblue" label="24 @ N5\nmain\nAbstractionState: ABS5: true\n" id="24"]
+33 [fillcolor="orange" label="33 @ N14\nmain\n" id="33"]
+37 [fillcolor="red" label="37 @ N16\nmain\nAbstractionState: ABS8\n AutomatonState: ErrorLabelAutomaton: _predefinedState_ERROR\n" id="37"]
+30 [fillcolor="green" label="30 @ N5\nmain\nAbstractionState: ABS6: true\n" id="30"]
+18 -> 24 []
+18 -> 31 []
+30 -> 24 [style="dashed" weight="0" label="covered by"]
+24 -> 30 []
+24 -> 37 []
+24 -> 33 []
+}
+0 -> 18
+0 [fillcolor="cornflowerblue" label="0 @ N1\nmain entry\nAbstractionState: ABS0: true\n" id="0"]
+39 [fillcolor="cornflowerblue" label="39 @ N5\nmain\nAbstractionState: ABS9\n" id="39"]
+58 [label="58 @ N0\nmain exit\n" id="58"]
+45 [fillcolor="cornflowerblue" label="45 @ N5\nmain\nAbstractionState: ABS10\n" id="45"]
+51 [fillcolor="green" label="51 @ N5\nmain\nAbstractionState: ABS11\n" id="51"]
+59 [label="59 @ N0\nmain exit\n" id="59"]
+0 -> 39 []
+39 -> 45 []
+39 -> 58 []
+51 -> 45 [style="dashed" weight="0" label="covered by"]
+45 -> 59 []
+45 -> 51 []
+}

@@ -1,0 +1,12 @@
+var x:int, y:int, t1:int, t2:int;
+begin
+	x = 1;
+	y = 1;
+	while(brandom) do
+		t1 = x;
+		t2 = y;
+		x = t1 +_i t2;
+		y = t1 +_i t2;
+	done;
+	assume (y >= 1);
+end

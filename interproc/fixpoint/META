@@ -1,0 +1,6 @@
+description = "Utility Library (including various datatypes)"
+version = "1.2.0"
+requires = "camllib"
+archive(byte) = "fixpoint.cma"
+archive(native) = "fixpoint.cmxa"
+archive(native,gprof) = "fixpoint.p.cmxa"

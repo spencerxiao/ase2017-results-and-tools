@@ -1,0 +1,32 @@
+var x:int, y:int, k:int, i:int, j:int, m:int, n:int;
+begin
+  x = random;
+  y = random;
+  k = random;
+  n = random;
+  
+  assume (x +_i y == k);
+  m = 0;
+  j = 0; 
+  
+  while (j < n) do
+    if (j == i) then
+      x = x +_i 1;
+      y = y -_i 1;
+    else
+      y = y +_i 1;
+      x = x -_i 1;
+    endif;
+
+    if (brandom) then
+      m = j;
+    endif;
+  done;
+
+  assume (x +_i y == k);
+
+  if (n > 0) then
+    assume (m >= 0);
+    assume (m < n);
+  endif;
+end

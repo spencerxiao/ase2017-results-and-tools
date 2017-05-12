@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((flag != 1) | (j = n))
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 28
+interp: (let ((.def_23 (= flag 1))) (let ((.def_138 (<= 1 (+ b (* (- 1) j))))) (let ((.def_178 (<= (+ b (* (- 1) j)) (- 1)))) (not (or (and .def_23 (or .def_138 .def_178)) (and .def_23 (not (and (not (and (<= n b) (or (<= 1 (+ j (* (- 1) n))) .def_138))) (and (not .def_138) (not .def_178))))))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

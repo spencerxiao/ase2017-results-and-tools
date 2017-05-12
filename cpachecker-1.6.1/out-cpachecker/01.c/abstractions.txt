@@ -1,0 +1,15 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+
+0 (9) @1:
+(assert true)
+
+10 (11) @5:
+(assert (let ((.cse0 (- 2))) (and (>= |main::y| 1) (<= 0 (+ |main::y| |main::x| .cse0)) (<= 0 (+ |main::y| .cse0)))))
+
+11 () @5:
+(assert (let ((.cse0 (- 2))) (and (>= |main::y| 1) (<= 0 (+ |main::y| |main::x| .cse0)) (<= 0 (+ |main::y| .cse0)))))
+
+9 (10) @5:
+(assert (let ((.cse0 (- 2))) (and (>= |main::y| 1) (<= 0 (+ |main::y| |main::x| .cse0)) (not (<= 0 (+ |main::y| .cse0))))))
+

@@ -1,0 +1,56 @@
+[32mAnnotated program after forward analysis[m
+var x : int, y : int, z : int, w : int;
+begin
+  /* [31m(L2 C5) [|z=0 mod 1; y=0 mod 1; x=0 mod 1; w=0 mod 1|][m */
+  w = 1; /* [31m(L3 C7) [|w-1=0; z=0 mod 1; y=0 mod 1; x=0 mod 1; w-1=0|][m */
+  x = 0; /* [31m(L4 C7) [|x=0; w-1=0; z=0 mod 1; y=0 mod 1; x=0; w-1=0|][m */
+  y = 0; /* [31m(L5 C7) [|y=0; x=0; w-1=0; z=0 mod 1; y=0; x=0; w-1=0|][m */
+  z = 0; /* [31m(L6 C7)
+            [|-w+z+1=0; -w+x+y+1=0; x>=0; w-x-1>=0; -w+z+1=0; -w+x+y+1=0;
+              x=0 mod 1; w=0 mod 1|][m */
+  while brandom do
+    /* [31m(L7 C18)
+       [|-w+z+1=0; -w+x+y+1=0; x>=0; w-x-1>=0; -w+z+1=0; -w+x+y+1=0;
+         x=0 mod 1; w=0 mod 1|][m */
+    while brandom do
+      /* [31m(L8 C19)
+         [|-w+z+1=0; -w+x+y+1=0; x>=0; w-x-1>=0; -w+z+1=0; -w+x+y+1=0;
+           x=0 mod 1; w=0 mod 1|][m */
+      if w %_i,n 2 == 1 then
+        /* [31m(L9 C26)
+           [|-w+z+1=0; -w+x+y+1=0; x>=0; w-x-1>=0; -w+z+1=0; -w+x+y+1=0;
+             x=0 mod 1; w=0 mod 1|][m */
+        x = x +_i,? 1; /* [31m(L10 C16)
+                          [|-w+z+1=0; -w+x+y=0; x-1>=0; w-x>=0; -w+z+1=0;
+                            -w+x+y=0; x=0 mod 1; w=0 mod 1|][m */
+      endif; /* [31m(L11 C9)
+                [|-w+z+1=0; -w+x+y+1>=0; y>=0; w-x-y>=0; w-y-1>=0; -w+z+1=0;
+                  y=0 mod 1; x=0 mod 1; w=0 mod 1|][m */
+      if z %_i,n 2 == 0 then
+        /* [31m(L13 C25)
+           [|-w+z+1=0; -w+x+y+1>=0; y>=0; w-x-y>=0; w-y-1>=0; -w+z+1=0;
+             y=0 mod 1; x=0 mod 1; w=0 mod 1|][m */
+        y = y +_i,? 1; /* [31m(L14 C16)
+                          [|-w+z+1=0; -w+x+y>=0; y-1>=0; w-x-y+1>=0; 
+                            w-y>=0; -w+z+1=0; y=0 mod 1; x=0 mod 1; w=0 mod 1|][m */
+      endif; /* [31m(L15 C9)
+                [|-w+z+1=0; -w+x+y+1>=0; y>=0; x>=0; w-x-y+1>=0; w-x>=0;
+                  w-y>=0; w-1>=0; -w+z+1=0; y=0 mod 1; x=0 mod 1; w=0 mod 1|][m */
+      z = x +_i,? y; /* [31m(L16 C15)
+                        [|-x-y+z=0; -w+x+y+1>=0; y>=0; x>=0; w-x-y+1>=0;
+                          w-x>=0; w-y>=0; w-1>=0; -x-y+z=0; y=0 mod 1;
+                          x=0 mod 1; w=0 mod 1|][m */
+      w = z +_i,? 1; /* [31m(L17 C15)
+                        [|-w+z+1=0; -w+x+y+1=0; x>=0; w-x-1>=0; -w+z+1=0;
+                          -w+x+y+1=0; x=0 mod 1; w=0 mod 1|][m */
+    done; /* [31m(L18 C7)
+             [|-w+z+1=0; -w+x+y+1=0; x>=0; w-x-1>=0; -w+z+1=0; -w+x+y+1=0;
+               x=0 mod 1; w=0 mod 1|][m */
+  done; /* [31m(L19 C6)
+           [|-w+z+1=0; -w+x+y+1=0; x>=0; w-x-1>=0; -w+z+1=0; -w+x+y+1=0;
+             x=0 mod 1; w=0 mod 1|][m */
+  assume x == y; /* [31m(L20 C14)
+                    [|-w+z+1=0; -w+2y+1=0; -w+2x+1=0; w-1>=0; -w+z+1=0;
+                      -w+x+y+1=0; -w+2x+1=0; w+1=0 mod 2|][m */
+end
+

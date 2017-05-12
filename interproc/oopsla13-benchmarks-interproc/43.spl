@@ -1,0 +1,18 @@
+var x:int, y:int, i:int, t:int;
+begin
+  i = 0;
+  x = random;
+  y = random;
+  t = y;
+  if (x == y) then 
+    halt;
+  endif;
+
+  while (brandom) do
+    if ( x > 0) then
+      y = y +_i x;
+    endif;
+  done;
+
+  assume (y >= t);
+end

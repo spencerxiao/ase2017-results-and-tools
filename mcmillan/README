@@ -1,0 +1,3 @@
+To run the program, use the following command in the directory:
+
+~$./fib -impt -mathsat ./Impt_Examples/xxx.impt

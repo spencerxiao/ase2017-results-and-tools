@@ -1,0 +1,39 @@
+MODULE main
+	int x;
+	int y;
+
+	assume(x == 0);
+	assume(y == 0);
+	
+
+	while(*){
+		if(*) {
+			x = x + 1;
+			y = y + 100;
+		} 
+		else {
+			if(*){
+      				if(x >= 4){
+					x = x + 1;
+					y = y + 1;
+				}
+				else{
+					skip;
+				}
+
+				if(x < 0){
+					y = y - 1;
+				}
+				else{
+					skip;
+				}
+			}
+			else{
+				skip;
+			}
+    		}
+	}
+
+	assert(x < 4 || y > 2);	
+
+END MODULE

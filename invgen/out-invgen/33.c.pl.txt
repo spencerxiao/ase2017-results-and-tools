@@ -1,0 +1,36 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/33.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([27,26,33,23,21]): pc(main-10-27) pc(main-1-10) {z'=k+y,y'=y,x'=x,k'=k,c'=c}
+[] [z'=k+y,y'=y,x'=x,k'=k,c'=c]
+path([25,24,22,21]): pc(main-10-27) pc(main-10-27) {z'=z,y'=y-1,x'=x-1,k'=k,c'=c}
+[] [z'=z,y'=y-1,x'=x-1,k'=k,c'=c]
+path([20,34,10,8]): pc(main-9-13) pc(main-10-27) {z'=z,y'=y,x'=x,k'=k,c'=c}
+[] [z'=z,y'=y,x'=x,k'=k,c'=c]
+path([19,18,17,16,9,8]): pc(main-9-13) pc(main-9-13) {z>=1+(k+y-c),z'=z,y'=y-1,x'=x+1,k'=k,c'=c+1}
+[z>=1+(k+y-c)] [z'=z,y'=y-1,x'=x+1,k'=k,c'=c+1]
+path([19,18,17,15,9,8]): pc(main-9-13) pc(main-9-13) {z+1=<k+y-c,z'=z,y'=y-1,x'=x+1,k'=k,c'=c+1}
+[z+1=<k+y-c] [z'=z,y'=y-1,x'=x+1,k'=k,c'=c+1]
+path([14,13,12,11,9,8]): pc(main-9-13) pc(main-9-13) {z=k+y-c,z'=z,y'=y+1,x'=x+1,k'=k,c'=c+1}
+[z=k+y-c] [z'=z,y'=y+1,x'=x+1,k'=k,c'=c+1]
+path([32,31,28,35,6,4]): pc(main-1-10) pc(main-ret-0) {x=y,z'=z,y'=y,x'=x,k'=k,c'=c}
+[x=y] [z'=z,y'=y,x'=x,k'=k,c'=c]
+path([30,28,35,6,4]): pc(main-1-10) pc(main-err-0) {x>=1+y,z'=z,y'=y,x'=x,k'=k,c'=c}
+[x>=1+y] [z'=z,y'=y,x'=x,k'=k,c'=c]
+path([29,28,35,6,4]): pc(main-1-10) pc(main-err-0) {x+1=<y,z'=z,y'=y,x'=x,k'=k,c'=c}
+[x+1=<y] [z'=z,y'=y,x'=x,k'=k,c'=c]
+path([7,5,4]): pc(main-1-10) pc(main-9-13) {z'=z,y'=y,x'=x,k'=k,c'=0}
+[] [z'=z,y'=y,x'=x,k'=k,c'=0]
+path([3,2,1]): pc(main-0-8) pc(main-1-10) {z'=k,y'=0,x'=0,k'=k,c'=c}
+[] [z'=k,y'=0,x'=0,k'=k,c'=c]
+
+#Printing Strengthening ==
+#pc(main-10-27): [y-x=<0,c>=0]
+#pc(main-9-13): [z-y-k-c=<0,z-y-k+c>=0,z-x-k+c=<0]
+#pc(main-1-10): [z=y+k,y-x=<0]
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([30,28,35,6,4])..

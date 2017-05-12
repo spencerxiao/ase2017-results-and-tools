@@ -1,0 +1,1836 @@
+"apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  def attributes_of_string "apron_lexer.ml" 51 1305 1305 "apron_lexer.ml" 1 0 -1
+)
+"apron_lexer.mll" 16 85 111 "apron_lexer.mll" 16 85 114
+type(
+  int
+)
+ident(
+  def pos "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 56 1275 1280
+)
+"apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "apron_lexer.mll" 17 129 131 "apron_lexer.mll" 56 1275 1280
+)
+"apron_lexer.mll" 17 129 135 "apron_lexer.mll" 17 129 138
+type(
+  string
+)
+ident(
+  def str "apron_lexer.mll" 18 158 160 "apron_lexer.mll" 56 1275 1280
+)
+"apron_lexer.mll" 17 129 141 "apron_lexer.mll" 17 129 147
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"apron_lexer.mll" 17 129 148 "apron_lexer.mll" 17 129 154
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 17 129 141 "apron_lexer.mll" 17 129 154
+call(
+  stack
+)
+type(
+  string
+)
+"apron_lexer.mll" 18 158 164 "apron_lexer.mll" 18 158 170
+type(
+  int
+)
+ident(
+  def length "apron_lexer.mll" 19 202 204 "apron_lexer.mll" 56 1275 1280
+)
+"apron_lexer.mll" 18 158 174 "apron_lexer.mll" 18 158 187
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"apron_lexer.mll" 18 158 188 "apron_lexer.mll" 18 158 191
+type(
+  string
+)
+ident(
+  int_ref str "apron_lexer.mll" 17 129 135 "apron_lexer.mll" 17 129 138
+)
+"apron_lexer.mll" 18 158 173 "apron_lexer.mll" 18 158 192
+type(
+  int
+)
+"apron_lexer.mll" 18 158 193 "apron_lexer.mll" 18 158 194
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"apron_lexer.mll" 18 158 195 "apron_lexer.mll" 18 158 198
+type(
+  int
+)
+ident(
+  int_ref pos "apron_lexer.mll" 16 85 111 "apron_lexer.mll" 16 85 114
+)
+"apron_lexer.mll" 18 158 173 "apron_lexer.mll" 18 158 198
+type(
+  int
+)
+"apron_lexer.mll" 19 202 208 "apron_lexer.mll" 19 202 214
+type(
+  string
+)
+ident(
+  def suffix "apron_lexer.mll" 20 246 248 "apron_lexer.mll" 56 1275 1280
+)
+"apron_lexer.mll" 19 202 217 "apron_lexer.mll" 19 202 227
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"apron_lexer.mll" 19 202 228 "apron_lexer.mll" 19 202 231
+type(
+  string
+)
+ident(
+  int_ref str "apron_lexer.mll" 17 129 135 "apron_lexer.mll" 17 129 138
+)
+"apron_lexer.mll" 19 202 232 "apron_lexer.mll" 19 202 235
+type(
+  int
+)
+ident(
+  int_ref pos "apron_lexer.mll" 16 85 111 "apron_lexer.mll" 16 85 114
+)
+"apron_lexer.mll" 19 202 236 "apron_lexer.mll" 19 202 242
+type(
+  int
+)
+ident(
+  int_ref length "apron_lexer.mll" 18 158 164 "apron_lexer.mll" 18 158 170
+)
+"apron_lexer.mll" 19 202 217 "apron_lexer.mll" 19 202 242
+call(
+  stack
+)
+type(
+  string
+)
+"apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+type(
+  int ref
+)
+ident(
+  def index "apron_lexer.mll" 21 269 271 "apron_lexer.mll" 56 1275 1280
+)
+"apron_lexer.mll" 20 246 260 "apron_lexer.mll" 20 246 263
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"apron_lexer.mll" 20 246 264 "apron_lexer.mll" 20 246 265
+type(
+  int
+)
+"apron_lexer.mll" 20 246 260 "apron_lexer.mll" 20 246 265
+type(
+  int ref
+)
+"apron_lexer.mll" 21 269 274 "apron_lexer.mll" 21 269 280
+type(
+  int
+)
+ident(
+  int_ref length "apron_lexer.mll" 18 158 164 "apron_lexer.mll" 18 158 170
+)
+"apron_lexer.mll" 21 269 280 "apron_lexer.mll" 21 269 281
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"apron_lexer.mll" 21 269 281 "apron_lexer.mll" 21 269 282
+type(
+  int
+)
+"apron_lexer.mll" 21 269 274 "apron_lexer.mll" 21 269 282
+type(
+  bool
+)
+"apron_lexer.mll" 22 288 293 "apron_lexer.mll" 22 288 304
+type(
+  Texpr1.typ
+)
+"apron_lexer.mll" 22 288 306 "apron_lexer.mll" 22 288 316
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 22 288 292 "apron_lexer.mll" 22 288 317
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 24 331 338 "apron_lexer.mll" 24 331 348
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"apron_lexer.mll" 24 331 349 "apron_lexer.mll" 24 331 355
+type(
+  string
+)
+ident(
+  int_ref suffix "apron_lexer.mll" 19 202 208 "apron_lexer.mll" 19 202 214
+)
+"apron_lexer.mll" 24 331 356 "apron_lexer.mll" 24 331 357
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"apron_lexer.mll" 24 331 357 "apron_lexer.mll" 24 331 362
+type(
+  int ref
+)
+ident(
+  int_ref index "apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+)
+"apron_lexer.mll" 24 331 356 "apron_lexer.mll" 24 331 362
+type(
+  int
+)
+"apron_lexer.mll" 24 331 338 "apron_lexer.mll" 24 331 362
+type(
+  char
+)
+"apron_lexer.mll" 24 331 363 "apron_lexer.mll" 24 331 365
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"apron_lexer.mll" 24 331 366 "apron_lexer.mll" 24 331 369
+type(
+  char
+)
+"apron_lexer.mll" 24 331 338 "apron_lexer.mll" 24 331 369
+type(
+  bool
+)
+"apron_lexer.mll" 24 331 370 "apron_lexer.mll" 24 331 372
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"apron_lexer.mll" 24 331 373 "apron_lexer.mll" 24 331 379
+type(
+  int
+)
+ident(
+  int_ref length "apron_lexer.mll" 18 158 164 "apron_lexer.mll" 18 158 170
+)
+"apron_lexer.mll" 24 331 380 "apron_lexer.mll" 24 331 381
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"apron_lexer.mll" 24 331 382 "apron_lexer.mll" 24 331 383
+type(
+  int
+)
+"apron_lexer.mll" 24 331 373 "apron_lexer.mll" 24 331 383
+type(
+  bool
+)
+"apron_lexer.mll" 24 331 338 "apron_lexer.mll" 24 331 383
+type(
+  bool
+)
+"apron_lexer.mll" 25 389 395 "apron_lexer.mll" 25 389 400
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"apron_lexer.mll" 25 389 408 "apron_lexer.mll" 25 389 420
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"apron_lexer.mll" 25 389 421 "apron_lexer.mll" 25 389 427
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 25 389 408 "apron_lexer.mll" 25 389 427
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 25 389 429 "apron_lexer.mll" 25 389 439
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"apron_lexer.mll" 25 389 440 "apron_lexer.mll" 25 389 446
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 25 389 429 "apron_lexer.mll" 25 389 446
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 25 389 401 "apron_lexer.mll" 25 389 448
+type(
+  exn
+)
+"apron_lexer.mll" 25 389 395 "apron_lexer.mll" 25 389 448
+type(
+  unit
+)
+"apron_lexer.mll" 24 331 335 "apron_lexer.mll" 25 389 448
+type(
+  unit
+)
+"apron_lexer.mll" 27 455 459 "apron_lexer.mll" 27 455 463
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"apron_lexer.mll" 27 455 464 "apron_lexer.mll" 27 455 469
+type(
+  int ref
+)
+ident(
+  int_ref index "apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+)
+"apron_lexer.mll" 27 455 459 "apron_lexer.mll" 27 455 469
+type(
+  unit
+)
+"apron_lexer.mll" 28 471 479 "apron_lexer.mll" 28 471 488
+type(
+  Texpr1.typ
+)
+ident(
+  def round_typ "apron_lexer.mll" 37 749 753 "apron_lexer.mll" 55 1267 1274
+)
+"apron_lexer.mll" 29 491 503 "apron_lexer.mll" 29 491 513
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"apron_lexer.mll" 29 491 514 "apron_lexer.mll" 29 491 520
+type(
+  string
+)
+ident(
+  int_ref suffix "apron_lexer.mll" 19 202 208 "apron_lexer.mll" 19 202 214
+)
+"apron_lexer.mll" 29 491 521 "apron_lexer.mll" 29 491 522
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"apron_lexer.mll" 29 491 522 "apron_lexer.mll" 29 491 527
+type(
+  int ref
+)
+ident(
+  int_ref index "apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+)
+"apron_lexer.mll" 29 491 521 "apron_lexer.mll" 29 491 527
+type(
+  int
+)
+"apron_lexer.mll" 29 491 503 "apron_lexer.mll" 29 491 527
+type(
+  char
+)
+"apron_lexer.mll" 30 533 541 "apron_lexer.mll" 30 533 544
+type(
+  char
+)
+"apron_lexer.mll" 30 533 548 "apron_lexer.mll" 30 533 558
+type(
+  Texpr1.typ
+)
+"apron_lexer.mll" 31 559 567 "apron_lexer.mll" 31 559 570
+type(
+  char
+)
+"apron_lexer.mll" 31 559 574 "apron_lexer.mll" 31 559 587
+type(
+  Texpr1.typ
+)
+"apron_lexer.mll" 32 588 596 "apron_lexer.mll" 32 588 599
+type(
+  char
+)
+"apron_lexer.mll" 32 588 603 "apron_lexer.mll" 32 588 616
+type(
+  Texpr1.typ
+)
+"apron_lexer.mll" 33 617 625 "apron_lexer.mll" 33 617 628
+type(
+  char
+)
+"apron_lexer.mll" 33 617 632 "apron_lexer.mll" 33 617 647
+type(
+  Texpr1.typ
+)
+"apron_lexer.mll" 34 648 656 "apron_lexer.mll" 34 648 659
+type(
+  char
+)
+"apron_lexer.mll" 34 648 663 "apron_lexer.mll" 34 648 674
+type(
+  Texpr1.typ
+)
+"apron_lexer.mll" 35 675 683 "apron_lexer.mll" 35 675 684
+type(
+  char
+)
+"apron_lexer.mll" 35 675 688 "apron_lexer.mll" 35 675 693
+type(
+  exn -> Texpr1.typ
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"apron_lexer.mll" 35 675 701 "apron_lexer.mll" 35 675 713
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"apron_lexer.mll" 35 675 714 "apron_lexer.mll" 35 675 720
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 35 675 701 "apron_lexer.mll" 35 675 720
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 35 675 722 "apron_lexer.mll" 35 675 732
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"apron_lexer.mll" 35 675 733 "apron_lexer.mll" 35 675 739
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 35 675 722 "apron_lexer.mll" 35 675 739
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 35 675 694 "apron_lexer.mll" 35 675 741
+type(
+  exn
+)
+"apron_lexer.mll" 35 675 688 "apron_lexer.mll" 35 675 741
+type(
+  Texpr1.typ
+)
+"apron_lexer.mll" 29 491 497 "apron_lexer.mll" 35 675 741
+type(
+  Texpr1.typ
+)
+"apron_lexer.mll" 37 749 756 "apron_lexer.mll" 37 749 762
+type(
+  int
+)
+ident(
+  int_ref length "apron_lexer.mll" 18 158 164 "apron_lexer.mll" 18 158 170
+)
+"apron_lexer.mll" 37 749 763 "apron_lexer.mll" 37 749 764
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"apron_lexer.mll" 37 749 765 "apron_lexer.mll" 37 749 766
+type(
+  int
+)
+"apron_lexer.mll" 37 749 756 "apron_lexer.mll" 37 749 766
+type(
+  bool
+)
+"apron_lexer.mll" 38 772 779 "apron_lexer.mll" 38 772 788
+type(
+  Texpr1.typ
+)
+ident(
+  int_ref round_typ "apron_lexer.mll" 28 471 479 "apron_lexer.mll" 28 471 488
+)
+"apron_lexer.mll" 38 772 790 "apron_lexer.mll" 38 772 800
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 38 772 778 "apron_lexer.mll" 38 772 801
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 40 817 823 "apron_lexer.mll" 40 817 827
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"apron_lexer.mll" 40 817 828 "apron_lexer.mll" 40 817 833
+type(
+  int ref
+)
+ident(
+  int_ref index "apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+)
+"apron_lexer.mll" 40 817 823 "apron_lexer.mll" 40 817 833
+type(
+  unit
+)
+"apron_lexer.mll" 41 835 845 "apron_lexer.mll" 41 835 855
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"apron_lexer.mll" 41 835 856 "apron_lexer.mll" 41 835 862
+type(
+  string
+)
+ident(
+  int_ref suffix "apron_lexer.mll" 19 202 208 "apron_lexer.mll" 19 202 214
+)
+"apron_lexer.mll" 41 835 863 "apron_lexer.mll" 41 835 864
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"apron_lexer.mll" 41 835 864 "apron_lexer.mll" 41 835 869
+type(
+  int ref
+)
+ident(
+  int_ref index "apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+)
+"apron_lexer.mll" 41 835 863 "apron_lexer.mll" 41 835 869
+type(
+  int
+)
+"apron_lexer.mll" 41 835 844 "apron_lexer.mll" 41 835 870
+type(
+  char
+)
+"apron_lexer.mll" 41 835 871 "apron_lexer.mll" 41 835 873
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"apron_lexer.mll" 41 835 874 "apron_lexer.mll" 41 835 877
+type(
+  char
+)
+"apron_lexer.mll" 41 835 844 "apron_lexer.mll" 41 835 877
+type(
+  bool
+)
+"apron_lexer.mll" 41 835 878 "apron_lexer.mll" 41 835 880
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"apron_lexer.mll" 41 835 881 "apron_lexer.mll" 41 835 887
+type(
+  int
+)
+ident(
+  int_ref length "apron_lexer.mll" 18 158 164 "apron_lexer.mll" 18 158 170
+)
+"apron_lexer.mll" 41 835 888 "apron_lexer.mll" 41 835 889
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"apron_lexer.mll" 41 835 890 "apron_lexer.mll" 41 835 891
+type(
+  int
+)
+"apron_lexer.mll" 41 835 881 "apron_lexer.mll" 41 835 891
+type(
+  bool
+)
+"apron_lexer.mll" 41 835 844 "apron_lexer.mll" 41 835 891
+type(
+  bool
+)
+"apron_lexer.mll" 42 897 898 "apron_lexer.mll" 42 897 903
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"apron_lexer.mll" 42 897 911 "apron_lexer.mll" 42 897 923
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"apron_lexer.mll" 42 897 924 "apron_lexer.mll" 42 897 930
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 42 897 911 "apron_lexer.mll" 42 897 930
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 42 897 932 "apron_lexer.mll" 42 897 942
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"apron_lexer.mll" 42 897 943 "apron_lexer.mll" 42 897 949
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 42 897 932 "apron_lexer.mll" 42 897 949
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 42 897 904 "apron_lexer.mll" 42 897 951
+type(
+  exn
+)
+"apron_lexer.mll" 42 897 898 "apron_lexer.mll" 42 897 951
+type(
+  unit
+)
+"apron_lexer.mll" 41 835 841 "apron_lexer.mll" 42 897 951
+type(
+  unit
+)
+"apron_lexer.mll" 44 960 966 "apron_lexer.mll" 44 960 970
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"apron_lexer.mll" 44 960 971 "apron_lexer.mll" 44 960 976
+type(
+  int ref
+)
+ident(
+  int_ref index "apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+)
+"apron_lexer.mll" 44 960 966 "apron_lexer.mll" 44 960 976
+type(
+  unit
+)
+"apron_lexer.mll" 45 978 988 "apron_lexer.mll" 45 978 997
+type(
+  Texpr1.round
+)
+ident(
+  def round_dir "apron_lexer.mll" 54 1238 1244 "apron_lexer.mll" 54 1238 1266
+)
+"apron_lexer.mll" 46 1000 1007 "apron_lexer.mll" 46 1000 1017
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"apron_lexer.mll" 46 1000 1018 "apron_lexer.mll" 46 1000 1024
+type(
+  string
+)
+ident(
+  int_ref suffix "apron_lexer.mll" 19 202 208 "apron_lexer.mll" 19 202 214
+)
+"apron_lexer.mll" 46 1000 1025 "apron_lexer.mll" 46 1000 1026
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"apron_lexer.mll" 46 1000 1026 "apron_lexer.mll" 46 1000 1031
+type(
+  int ref
+)
+ident(
+  int_ref index "apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+)
+"apron_lexer.mll" 46 1000 1025 "apron_lexer.mll" 46 1000 1031
+type(
+  int
+)
+"apron_lexer.mll" 46 1000 1033 "apron_lexer.mll" 46 1000 1039
+type(
+  int
+)
+ident(
+  int_ref length "apron_lexer.mll" 18 158 164 "apron_lexer.mll" 18 158 170
+)
+"apron_lexer.mll" 46 1000 1040 "apron_lexer.mll" 46 1000 1041
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"apron_lexer.mll" 46 1000 1042 "apron_lexer.mll" 46 1000 1043
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"apron_lexer.mll" 46 1000 1043 "apron_lexer.mll" 46 1000 1048
+type(
+  int ref
+)
+ident(
+  int_ref index "apron_lexer.mll" 20 246 252 "apron_lexer.mll" 20 246 257
+)
+"apron_lexer.mll" 46 1000 1042 "apron_lexer.mll" 46 1000 1048
+type(
+  int
+)
+"apron_lexer.mll" 46 1000 1032 "apron_lexer.mll" 46 1000 1049
+type(
+  int
+)
+"apron_lexer.mll" 46 1000 1007 "apron_lexer.mll" 46 1000 1049
+call(
+  stack
+)
+type(
+  string
+)
+"apron_lexer.mll" 47 1055 1058 "apron_lexer.mll" 47 1055 1061
+type(
+  string
+)
+"apron_lexer.mll" 47 1055 1065 "apron_lexer.mll" 47 1055 1076
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 48 1077 1080 "apron_lexer.mll" 48 1077 1083
+type(
+  string
+)
+"apron_lexer.mll" 48 1077 1087 "apron_lexer.mll" 48 1077 1098
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 49 1099 1102 "apron_lexer.mll" 49 1099 1107
+type(
+  string
+)
+"apron_lexer.mll" 49 1099 1111 "apron_lexer.mll" 49 1099 1120
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 50 1121 1124 "apron_lexer.mll" 50 1121 1129
+type(
+  string
+)
+"apron_lexer.mll" 50 1121 1133 "apron_lexer.mll" 50 1121 1144
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 51 1145 1148 "apron_lexer.mll" 51 1145 1151
+type(
+  string
+)
+"apron_lexer.mll" 51 1145 1155 "apron_lexer.mll" 51 1145 1165
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 52 1166 1170 "apron_lexer.mll" 52 1166 1171
+type(
+  string
+)
+"apron_lexer.mll" 52 1166 1175 "apron_lexer.mll" 52 1166 1180
+type(
+  exn -> Texpr1.round
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"apron_lexer.mll" 52 1166 1188 "apron_lexer.mll" 52 1166 1200
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"apron_lexer.mll" 52 1166 1201 "apron_lexer.mll" 52 1166 1207
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 52 1166 1188 "apron_lexer.mll" 52 1166 1207
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 52 1166 1209 "apron_lexer.mll" 52 1166 1219
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"apron_lexer.mll" 52 1166 1220 "apron_lexer.mll" 52 1166 1226
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.mll" 16 85 120 "apron_lexer.mll" 16 85 126
+)
+"apron_lexer.mll" 52 1166 1209 "apron_lexer.mll" 52 1166 1226
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 52 1166 1181 "apron_lexer.mll" 52 1166 1228
+type(
+  exn
+)
+"apron_lexer.mll" 52 1166 1175 "apron_lexer.mll" 52 1166 1228
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 46 1000 1001 "apron_lexer.mll" 52 1166 1228
+type(
+  Texpr1.round
+)
+"apron_lexer.mll" 54 1238 1245 "apron_lexer.mll" 54 1238 1254
+type(
+  Texpr1.typ
+)
+ident(
+  int_ref round_typ "apron_lexer.mll" 28 471 479 "apron_lexer.mll" 28 471 488
+)
+"apron_lexer.mll" 54 1238 1256 "apron_lexer.mll" 54 1238 1265
+type(
+  Texpr1.round
+)
+ident(
+  int_ref round_dir "apron_lexer.mll" 45 978 988 "apron_lexer.mll" 45 978 997
+)
+"apron_lexer.mll" 54 1238 1244 "apron_lexer.mll" 54 1238 1266
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 45 978 984 "apron_lexer.mll" 54 1238 1266
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 44 960 966 "apron_lexer.mll" 54 1238 1266
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 41 835 841 "apron_lexer.mll" 54 1238 1266
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 39 802 811 "apron_lexer.mll" 55 1267 1274
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 37 749 753 "apron_lexer.mll" 55 1267 1274
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 28 471 475 "apron_lexer.mll" 55 1267 1274
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 27 455 459 "apron_lexer.mll" 55 1267 1274
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 23 318 325 "apron_lexer.mll" 56 1275 1280
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 21 269 271 "apron_lexer.mll" 56 1275 1280
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 20 246 248 "apron_lexer.mll" 56 1275 1280
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 19 202 204 "apron_lexer.mll" 56 1275 1280
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 18 158 160 "apron_lexer.mll" 56 1275 1280
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 17 129 131 "apron_lexer.mll" 56 1275 1280
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.ml" 51 1305 1309 "apron_lexer.ml" 51 1305 1327
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "apron_lexer.ml" 692 45060 45060 "apron_lexer.ml" 1 0 -1
+)
+"apron_lexer.ml" 53 1353 1356 "apron_lexer.ml" 67 2333 2386
+type(
+  string
+)
+"apron_lexer.ml" 69 2412 2415 "apron_lexer.ml" 83 3392 3445
+type(
+  string
+)
+"apron_lexer.ml" 85 3471 3474 "apron_lexer.ml" 99 4451 4504
+type(
+  string
+)
+"apron_lexer.ml" 101 4528 4531 "apron_lexer.ml" 388 24618 24679
+type(
+  string
+)
+"apron_lexer.ml" 390 24703 24706 "apron_lexer.ml" 677 44793 44854
+type(
+  string
+)
+"apron_lexer.ml" 679 44882 44885 "apron_lexer.ml" 679 44882 44887
+type(
+  string
+)
+"apron_lexer.ml" 681 44918 44921 "apron_lexer.ml" 681 44918 44923
+type(
+  string
+)
+"apron_lexer.ml" 683 44954 44957 "apron_lexer.ml" 683 44954 44959
+type(
+  string
+)
+"apron_lexer.ml" 685 44988 44991 "apron_lexer.ml" 685 44988 44993
+type(
+  string
+)
+"apron_lexer.ml" 687 45022 45025 "apron_lexer.ml" 687 45022 45027
+type(
+  string
+)
+"apron_lexer.ml" 689 45050 45053 "apron_lexer.ml" 689 45050 45055
+type(
+  string
+)
+"apron_lexer.ml" 51 1305 1330 "apron_lexer.ml" 690 45057 45058
+type(
+  Lexing.lex_tables
+)
+"apron_lexer.ml" 692 45060 45068 "apron_lexer.ml" 692 45060 45071
+type(
+  Lexing.lexbuf -> Apron_parser.token
+)
+ident(
+  def lex "apron_lexer.ml" 692 45060 45060 "apron_lexer.ml" 1 0 -1
+)
+"apron_lexer.ml" 692 45060 45072 "apron_lexer.ml" 692 45060 45078
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "apron_lexer.ml" 693 45081 45085 "apron_lexer.ml" 693 45081 45113
+)
+"apron_lexer.ml" 693 45081 45085 "apron_lexer.ml" 693 45081 45104
+type(
+  Lexing.lexbuf -> int -> Apron_parser.token
+)
+ident(
+  int_ref __ocaml_lex_lex_rec "apron_lexer.ml" 694 45114 45118 "apron_lexer.ml" 694 45114 45137
+)
+"apron_lexer.ml" 693 45081 45105 "apron_lexer.ml" 693 45081 45111
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 692 45060 45072 "apron_lexer.ml" 692 45060 45078
+)
+"apron_lexer.ml" 693 45081 45112 "apron_lexer.ml" 693 45081 45113
+type(
+  int
+)
+"apron_lexer.ml" 693 45081 45085 "apron_lexer.ml" 693 45081 45113
+call(
+  tail
+)
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 694 45114 45118 "apron_lexer.ml" 694 45114 45137
+type(
+  Lexing.lexbuf -> int -> Apron_parser.token
+)
+ident(
+  def __ocaml_lex_lex_rec "apron_lexer.ml" 692 45060 45060 "apron_lexer.ml" 1 0 -1
+)
+"apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "apron_lexer.ml" 694 45114 45145 "apron_lexer.ml" 858 48098 48148
+)
+"apron_lexer.ml" 694 45114 45145 "apron_lexer.ml" 694 45114 45162
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "apron_lexer.ml" 695 45165 45167 "apron_lexer.ml" 858 48098 48148
+)
+"apron_lexer.ml" 695 45165 45173 "apron_lexer.ml" 695 45165 45186
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"apron_lexer.ml" 695 45165 45187 "apron_lexer.ml" 695 45165 45205
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "apron_lexer.ml" 51 1305 1309 "apron_lexer.ml" 51 1305 1327
+)
+"apron_lexer.ml" 695 45165 45206 "apron_lexer.ml" 695 45165 45223
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "apron_lexer.ml" 694 45114 45145 "apron_lexer.ml" 694 45114 45162
+)
+"apron_lexer.ml" 695 45165 45224 "apron_lexer.ml" 695 45165 45230
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.ml" 695 45165 45173 "apron_lexer.ml" 695 45165 45230
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.ml" 696 45236 45244 "apron_lexer.ml" 696 45236 45245
+type(
+  int
+)
+"apron_lexer.mll" 61 45272 45281 "apron_lexer.mll" 61 45272 45291
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 701 45316 45320 "apron_lexer.ml" 701 45316 45321
+type(
+  int
+)
+"apron_lexer.mll" 62 45348 45371 "apron_lexer.mll" 62 45348 45374
+type(
+  Lexing.lexbuf -> Apron_parser.token
+)
+ident(
+  int_ref lex "apron_lexer.ml" 692 45060 45068 "apron_lexer.ml" 692 45060 45071
+)
+"apron_lexer.mll" 62 45348 45375 "apron_lexer.mll" 62 45348 45381
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 62 45348 45369 "apron_lexer.mll" 62 45348 45383
+call(
+  tail
+)
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 706 45408 45412 "apron_lexer.ml" 706 45408 45413
+type(
+  int
+)
+"apron_lexer.mll" 64 45440 45449 "apron_lexer.mll" 64 45440 45464
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 711 45489 45493 "apron_lexer.ml" 711 45489 45494
+type(
+  int
+)
+"apron_lexer.mll" 65 45521 45530 "apron_lexer.mll" 65 45521 45545
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 716 45570 45574 "apron_lexer.ml" 716 45570 45575
+type(
+  int
+)
+"apron_lexer.mll" 66 45602 45611 "apron_lexer.mll" 66 45602 45622
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 721 45647 45651 "apron_lexer.ml" 721 45647 45652
+type(
+  int
+)
+"apron_lexer.mll" 67 45679 45688 "apron_lexer.mll" 67 45679 45699
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 726 45724 45728 "apron_lexer.ml" 726 45724 45729
+type(
+  int
+)
+"apron_lexer.mll" 68 45756 45765 "apron_lexer.mll" 68 45756 45781
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 731 45806 45810 "apron_lexer.ml" 731 45806 45811
+type(
+  int
+)
+"apron_lexer.mll" 70 45838 45847 "apron_lexer.mll" 70 45838 45857
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 736 45882 45886 "apron_lexer.ml" 736 45882 45887
+type(
+  int
+)
+"apron_lexer.mll" 71 45914 45923 "apron_lexer.mll" 71 45914 45936
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 741 45961 45965 "apron_lexer.ml" 741 45961 45966
+type(
+  int
+)
+"apron_lexer.mll" 72 45993 46002 "apron_lexer.mll" 72 45993 46012
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 746 46037 46041 "apron_lexer.ml" 746 46037 46043
+type(
+  int
+)
+"apron_lexer.mll" 73 46070 46079 "apron_lexer.mll" 73 46070 46090
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 751 46115 46119 "apron_lexer.ml" 751 46115 46121
+type(
+  int
+)
+"apron_lexer.mll" 74 46148 46157 "apron_lexer.mll" 74 46148 46170
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 756 46195 46199 "apron_lexer.ml" 756 46195 46201
+type(
+  int
+)
+"apron_lexer.mll" 75 46228 46237 "apron_lexer.mll" 75 46228 46251
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 761 46276 46280 "apron_lexer.ml" 761 46276 46282
+type(
+  int
+)
+"apron_lexer.mll" 79 46309 46322 "apron_lexer.mll" 79 46309 46342
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+)
+"apron_lexer.mll" 79 46309 46343 "apron_lexer.mll" 79 46309 46344
+type(
+  int
+)
+"apron_lexer.mll" 79 46309 46345 "apron_lexer.mll" 79 46309 46351
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 79 46309 46321 "apron_lexer.mll" 79 46309 46352
+call(
+  stack
+)
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 79 46309 46313 "apron_lexer.mll" 79 46309 46354
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 766 46379 46383 "apron_lexer.ml" 766 46379 46385
+type(
+  int
+)
+"apron_lexer.mll" 81 46412 46425 "apron_lexer.mll" 81 46412 46445
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+)
+"apron_lexer.mll" 81 46412 46446 "apron_lexer.mll" 81 46412 46447
+type(
+  int
+)
+"apron_lexer.mll" 81 46412 46448 "apron_lexer.mll" 81 46412 46454
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 81 46412 46424 "apron_lexer.mll" 81 46412 46455
+call(
+  stack
+)
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 81 46412 46416 "apron_lexer.mll" 81 46412 46457
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 771 46482 46486 "apron_lexer.ml" 771 46482 46488
+type(
+  int
+)
+"apron_lexer.mll" 83 46515 46528 "apron_lexer.mll" 83 46515 46548
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+)
+"apron_lexer.mll" 83 46515 46549 "apron_lexer.mll" 83 46515 46550
+type(
+  int
+)
+"apron_lexer.mll" 83 46515 46551 "apron_lexer.mll" 83 46515 46557
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 83 46515 46527 "apron_lexer.mll" 83 46515 46558
+call(
+  stack
+)
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 83 46515 46519 "apron_lexer.mll" 83 46515 46560
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 776 46585 46589 "apron_lexer.ml" 776 46585 46591
+type(
+  int
+)
+"apron_lexer.mll" 85 46618 46631 "apron_lexer.mll" 85 46618 46651
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+)
+"apron_lexer.mll" 85 46618 46652 "apron_lexer.mll" 85 46618 46653
+type(
+  int
+)
+"apron_lexer.mll" 85 46618 46654 "apron_lexer.mll" 85 46618 46660
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 85 46618 46630 "apron_lexer.mll" 85 46618 46661
+call(
+  stack
+)
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 85 46618 46622 "apron_lexer.mll" 85 46618 46663
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 781 46688 46692 "apron_lexer.ml" 781 46688 46694
+type(
+  int
+)
+"apron_lexer.mll" 87 46721 46737 "apron_lexer.mll" 87 46721 46757
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+)
+"apron_lexer.mll" 87 46721 46758 "apron_lexer.mll" 87 46721 46759
+type(
+  int
+)
+"apron_lexer.mll" 87 46721 46760 "apron_lexer.mll" 87 46721 46766
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 87 46721 46736 "apron_lexer.mll" 87 46721 46767
+call(
+  stack
+)
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 87 46721 46725 "apron_lexer.mll" 87 46721 46769
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 786 46794 46798 "apron_lexer.ml" 786 46794 46800
+type(
+  int
+)
+"apron_lexer.mll" 89 46827 46840 "apron_lexer.mll" 89 46827 46860
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+)
+"apron_lexer.mll" 89 46827 46861 "apron_lexer.mll" 89 46827 46862
+type(
+  int
+)
+"apron_lexer.mll" 89 46827 46863 "apron_lexer.mll" 89 46827 46869
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 89 46827 46839 "apron_lexer.mll" 89 46827 46870
+call(
+  stack
+)
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 89 46827 46831 "apron_lexer.mll" 89 46827 46872
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 791 46897 46901 "apron_lexer.ml" 791 46897 46903
+type(
+  int
+)
+"apron_lexer.mll" 91 46930 46944 "apron_lexer.mll" 91 46930 46964
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+)
+"apron_lexer.mll" 91 46930 46965 "apron_lexer.mll" 91 46930 46966
+type(
+  int
+)
+"apron_lexer.mll" 91 46930 46967 "apron_lexer.mll" 91 46930 46973
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 91 46930 46943 "apron_lexer.mll" 91 46930 46974
+call(
+  stack
+)
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 91 46930 46934 "apron_lexer.mll" 91 46930 46976
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 796 47001 47005 "apron_lexer.ml" 796 47001 47007
+type(
+  int
+)
+"apron_lexer.mll" 93 47034 47048 "apron_lexer.mll" 93 47034 47068
+type(
+  int -> Lexing.lexbuf -> Texpr1.typ * Texpr1.round
+)
+ident(
+  int_ref attributes_of_string "apron_lexer.mll" 16 85 89 "apron_lexer.mll" 16 85 109
+)
+"apron_lexer.mll" 93 47034 47069 "apron_lexer.mll" 93 47034 47070
+type(
+  int
+)
+"apron_lexer.mll" 93 47034 47071 "apron_lexer.mll" 93 47034 47077
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 93 47034 47047 "apron_lexer.mll" 93 47034 47078
+call(
+  stack
+)
+type(
+  Texpr1.typ * Texpr1.round
+)
+"apron_lexer.mll" 93 47034 47038 "apron_lexer.mll" 93 47034 47080
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 801 47105 47109 "apron_lexer.ml" 801 47105 47111
+type(
+  int
+)
+"apron_lexer.mll" 96 47138 47145 "apron_lexer.mll" 96 47138 47155
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 806 47180 47184 "apron_lexer.ml" 806 47180 47186
+type(
+  int
+)
+"apron_lexer.mll" 97 47213 47221 "apron_lexer.mll" 97 47213 47231
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 811 47256 47260 "apron_lexer.ml" 811 47256 47262
+type(
+  int
+)
+"apron_lexer.mll" 98 47289 47297 "apron_lexer.mll" 98 47289 47309
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 816 47334 47338 "apron_lexer.ml" 816 47334 47340
+type(
+  int
+)
+"apron_lexer.mll" 99 47367 47376 "apron_lexer.mll" 99 47367 47388
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 821 47413 47417 "apron_lexer.ml" 821 47413 47419
+type(
+  int
+)
+"apron_lexer.mll" 100 47447 47455 "apron_lexer.mll" 100 47447 47464
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 826 47489 47493 "apron_lexer.ml" 826 47489 47495
+type(
+  int
+)
+"apron_lexer.mll" 101 47523 47532 "apron_lexer.mll" 101 47523 47544
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 831 47569 47573 "apron_lexer.ml" 831 47569 47575
+type(
+  int
+)
+"apron_lexer.mll" 104 47607 47615 "apron_lexer.mll" 104 47607 47618
+type(
+  string
+)
+ident(
+  def str "apron_lexer.mll" 105 47638 47642 "apron_lexer.mll" 105 47638 47669
+)
+"apron_lexer.mll" 104 47607 47621 "apron_lexer.mll" 104 47607 47627
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"apron_lexer.mll" 104 47607 47628 "apron_lexer.mll" 104 47607 47634
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 104 47607 47621 "apron_lexer.mll" 104 47607 47634
+call(
+  stack
+)
+type(
+  string
+)
+"apron_lexer.mll" 105 47638 47650 "apron_lexer.mll" 105 47638 47664
+type(
+  string -> Mpqf.t
+)
+ident(
+  ext_ref Mpqf.of_string
+)
+"apron_lexer.mll" 105 47638 47665 "apron_lexer.mll" 105 47638 47668
+type(
+  string
+)
+ident(
+  int_ref str "apron_lexer.mll" 104 47607 47615 "apron_lexer.mll" 104 47607 47618
+)
+"apron_lexer.mll" 105 47638 47649 "apron_lexer.mll" 105 47638 47669
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"apron_lexer.mll" 105 47638 47642 "apron_lexer.mll" 105 47638 47669
+type(
+  Apron_parser.token
+)
+"apron_lexer.mll" 103 47603 47605 "apron_lexer.mll" 106 47670 47673
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 839 47698 47702 "apron_lexer.ml" 839 47698 47704
+type(
+  int
+)
+"apron_lexer.mll" 109 47736 47744 "apron_lexer.mll" 109 47736 47747
+type(
+  string
+)
+ident(
+  def str "apron_lexer.mll" 110 47767 47771 "apron_lexer.mll" 110 47767 47800
+)
+"apron_lexer.mll" 109 47736 47750 "apron_lexer.mll" 109 47736 47756
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"apron_lexer.mll" 109 47736 47757 "apron_lexer.mll" 109 47736 47763
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 109 47736 47750 "apron_lexer.mll" 109 47736 47763
+call(
+  stack
+)
+type(
+  string
+)
+"apron_lexer.mll" 110 47767 47780 "apron_lexer.mll" 110 47767 47795
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"apron_lexer.mll" 110 47767 47796 "apron_lexer.mll" 110 47767 47799
+type(
+  string
+)
+ident(
+  int_ref str "apron_lexer.mll" 109 47736 47744 "apron_lexer.mll" 109 47736 47747
+)
+"apron_lexer.mll" 110 47767 47779 "apron_lexer.mll" 110 47767 47800
+type(
+  float
+)
+"apron_lexer.mll" 110 47767 47771 "apron_lexer.mll" 110 47767 47800
+type(
+  Apron_parser.token
+)
+"apron_lexer.mll" 108 47732 47734 "apron_lexer.mll" 111 47801 47804
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 847 47829 47833 "apron_lexer.ml" 847 47829 47835
+type(
+  int
+)
+"apron_lexer.mll" 116 47863 47877 "apron_lexer.mll" 116 47863 47883
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"apron_lexer.mll" 116 47863 47884 "apron_lexer.mll" 116 47863 47890
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 116 47863 47876 "apron_lexer.mll" 116 47863 47891
+call(
+  stack
+)
+type(
+  string
+)
+"apron_lexer.mll" 116 47863 47867 "apron_lexer.mll" 116 47863 47893
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 852 47918 47922 "apron_lexer.ml" 852 47918 47924
+type(
+  int
+)
+"apron_lexer.mll" 117 47952 47958 "apron_lexer.mll" 117 47952 47963
+type(
+  exn -> Apron_parser.token
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"apron_lexer.mll" 117 47952 47971 "apron_lexer.mll" 117 47952 47983
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"apron_lexer.mll" 117 47952 47984 "apron_lexer.mll" 117 47952 47990
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 117 47952 47971 "apron_lexer.mll" 117 47952 47990
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 117 47952 47992 "apron_lexer.mll" 117 47952 48002
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_end
+)
+"apron_lexer.mll" 117 47952 48003 "apron_lexer.mll" 117 47952 48009
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.mll" 117 47952 47992 "apron_lexer.mll" 117 47952 48009
+call(
+  stack
+)
+type(
+  int
+)
+"apron_lexer.mll" 117 47952 47964 "apron_lexer.mll" 117 47952 48011
+type(
+  exn
+)
+"apron_lexer.mll" 117 47952 47956 "apron_lexer.mll" 117 47952 48013
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 857 48038 48042 "apron_lexer.ml" 857 48038 48059
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "apron_lexer.ml" 857 48038 48063 "apron_lexer.ml" 858 48098 48148
+)
+"apron_lexer.ml" 857 48038 48063 "apron_lexer.ml" 857 48038 48069
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.ml" 857 48038 48063 "apron_lexer.ml" 857 48038 48088
+type(
+  Lexing.lexbuf -> unit
+)
+"apron_lexer.ml" 857 48038 48089 "apron_lexer.ml" 857 48038 48095
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.ml" 857 48038 48063 "apron_lexer.ml" 857 48038 48095
+call(
+  stack
+)
+type(
+  unit
+)
+"apron_lexer.ml" 858 48098 48104 "apron_lexer.ml" 858 48098 48123
+type(
+  Lexing.lexbuf -> int -> Apron_parser.token
+)
+ident(
+  int_ref __ocaml_lex_lex_rec "apron_lexer.ml" 694 45114 45118 "apron_lexer.ml" 694 45114 45137
+)
+"apron_lexer.ml" 858 48098 48124 "apron_lexer.ml" 858 48098 48130
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "apron_lexer.ml" 694 45114 45138 "apron_lexer.ml" 694 45114 45144
+)
+"apron_lexer.ml" 858 48098 48131 "apron_lexer.ml" 858 48098 48148
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "apron_lexer.ml" 857 48038 48042 "apron_lexer.ml" 857 48038 48059
+)
+"apron_lexer.ml" 858 48098 48104 "apron_lexer.ml" 858 48098 48148
+call(
+  tail
+)
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 857 48038 48063 "apron_lexer.ml" 858 48098 48148
+type(
+  Apron_parser.token
+)
+"apron_lexer.ml" 695 45165 45167 "apron_lexer.ml" 858 48098 48148
+type(
+  Apron_parser.token
+)

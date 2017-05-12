@@ -1,0 +1,51 @@
+spl_syn.cmo : spl_syn.cmi
+spl_syn.cmx : spl_syn.cmi
+pSpl_syn.cmo : spl_syn.cmi pSpl_syn.cmi
+pSpl_syn.cmx : spl_syn.cmx pSpl_syn.cmi
+spl_yacc.cmo : spl_syn.cmi spl_yacc.cmi
+spl_yacc.cmx : spl_syn.cmx spl_yacc.cmi
+spl_lex.cmo : spl_yacc.cmi spl_syn.cmi spl_lex.cmi
+spl_lex.cmx : spl_yacc.cmx spl_syn.cmx spl_lex.cmi
+boolexpr.cmo : boolexpr.cmi
+boolexpr.cmx : boolexpr.cmi
+equation.cmo : spl_syn.cmi pSpl_syn.cmi boolexpr.cmi equation.cmi
+equation.cmx : spl_syn.cmx pSpl_syn.cmx boolexpr.cmx equation.cmi
+syn2equation.cmo : spl_syn.cmi equation.cmi boolexpr.cmi syn2equation.cmi
+syn2equation.cmx : spl_syn.cmx equation.cmx boolexpr.cmx syn2equation.cmi
+option.cmo : option.cmi
+option.cmx : option.cmi
+solving.cmo : spl_syn.cmi pSpl_syn.cmi option.cmi equation.cmi boolexpr.cmi \
+    solving.cmi
+solving.cmx : spl_syn.cmx pSpl_syn.cmx option.cmx equation.cmx boolexpr.cmx \
+    solving.cmi
+solvingPolicy.cmo : spl_syn.cmi solving.cmi option.cmi equation.cmi \
+    boolexpr.cmi solvingPolicy.cmi
+solvingPolicy.cmx : spl_syn.cmx solving.cmx option.cmx equation.cmx \
+    boolexpr.cmx solvingPolicy.cmi
+frontend.cmo : syn2equation.cmi spl_yacc.cmi spl_syn.cmi spl_lex.cmi \
+    solvingPolicy.cmi solving.cmi pSpl_syn.cmi option.cmi equation.cmi \
+    frontend.cmi
+frontend.cmx : syn2equation.cmx spl_yacc.cmx spl_syn.cmx spl_lex.cmx \
+    solvingPolicy.cmx solving.cmx pSpl_syn.cmx option.cmx equation.cmx \
+    frontend.cmi
+spl_syn.cmi :
+pSpl_syn.cmi : spl_syn.cmi
+spl_yacc.cmi : spl_syn.cmi
+spl_lex.cmi : spl_yacc.cmi
+boolexpr.cmi :
+equation.cmi : spl_syn.cmi boolexpr.cmi
+syn2equation.cmi : spl_syn.cmi equation.cmi
+option.cmi :
+solving.cmi : spl_syn.cmi equation.cmi boolexpr.cmi
+solvingPolicy.cmi : spl_syn.cmi equation.cmi boolexpr.cmi
+frontend.cmi : spl_syn.cmi equation.cmi
+interproc.cmo : pSpl_syn.cmi option.cmi frontend.cmi interproc.cmi
+interproc.cmx : pSpl_syn.cmx option.cmx frontend.cmx interproc.cmi
+interproc.cmi :
+interprocweb.cmo : option.cmi frontend.cmi interprocweb.cmi
+interprocweb.cmx : option.cmx frontend.cmx interprocweb.cmi
+interprocweb.cmi :
+mainweb.cmo : interprocweb.cmi
+mainweb.cmx : interprocweb.cmx
+mainwebf.cmo : interprocweb.cmi
+mainwebf.cmx : interprocweb.cmx

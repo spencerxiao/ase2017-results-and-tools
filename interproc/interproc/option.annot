@@ -1,0 +1,1940 @@
+"option.ml" 10 290 294 "option.ml" 10 290 307
+type(
+  string ref
+)
+ident(
+  def inputfilename "option.ml" 13 337 337 "option.ml" 1 0 -1
+)
+"option.ml" 10 290 310 "option.ml" 10 290 313
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 10 290 314 "option.ml" 10 290 316
+type(
+  string
+)
+"option.ml" 10 290 310 "option.ml" 10 290 316
+type(
+  string ref
+)
+"option.ml" 13 337 341 "option.ml" 13 337 346
+type(
+  int ref
+)
+ident(
+  def debug "option.ml" 17 435 435 "option.ml" 1 0 -1
+)
+"option.ml" 13 337 349 "option.ml" 13 337 352
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 13 337 353 "option.ml" 13 337 354
+type(
+  int
+)
+"option.ml" 13 337 349 "option.ml" 13 337 354
+type(
+  int ref
+)
+"option.ml" 20 541 545 "option.ml" 20 541 560
+type(
+  int ref
+)
+ident(
+  def iteration_depth "option.ml" 21 569 569 "option.ml" 1 0 -1
+)
+"option.ml" 20 541 563 "option.ml" 20 541 566
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 20 541 567 "option.ml" 20 541 568
+type(
+  int
+)
+"option.ml" 20 541 563 "option.ml" 20 541 568
+type(
+  int ref
+)
+"option.ml" 21 569 573 "option.ml" 21 569 589
+type(
+  bool ref
+)
+ident(
+  def iteration_guided "option.ml" 22 602 602 "option.ml" 1 0 -1
+)
+"option.ml" 21 569 592 "option.ml" 21 569 595
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 21 569 596 "option.ml" 21 569 601
+type(
+  bool
+)
+"option.ml" 21 569 592 "option.ml" 21 569 601
+type(
+  bool ref
+)
+"option.ml" 22 602 606 "option.ml" 22 602 620
+type(
+  int ref
+)
+ident(
+  def widening_start "option.ml" 23 629 629 "option.ml" 1 0 -1
+)
+"option.ml" 22 602 623 "option.ml" 22 602 626
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 22 602 627 "option.ml" 22 602 628
+type(
+  int
+)
+"option.ml" 22 602 623 "option.ml" 22 602 628
+type(
+  int ref
+)
+"option.ml" 23 629 633 "option.ml" 23 629 649
+type(
+  int ref
+)
+ident(
+  def widening_descend "option.ml" 24 658 658 "option.ml" 1 0 -1
+)
+"option.ml" 23 629 652 "option.ml" 23 629 655
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 23 629 656 "option.ml" 23 629 657
+type(
+  int
+)
+"option.ml" 23 629 652 "option.ml" 23 629 657
+type(
+  int ref
+)
+"option.ml" 24 658 662 "option.ml" 24 658 669
+type(
+  Format.formatter option ref
+)
+ident(
+  def dot_fmt "option.ml" 27 760 760 "option.ml" 1 0 -1
+)
+"option.ml" 24 658 672 "option.ml" 24 658 675
+type(
+  Format.formatter option -> Format.formatter option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 24 658 676 "option.ml" 24 658 680
+type(
+  Format.formatter option
+)
+"option.ml" 24 658 672 "option.ml" 24 658 680
+type(
+  Format.formatter option ref
+)
+"option.ml" 36 975 980 "option.ml" 36 975 988
+type(
+  displaytags
+)
+ident(
+  def texttags "option.ml" 42 1072 1072 "option.ml" 1 0 -1
+)
+"option.ml" 37 1006 1018 "option.ml" 37 1006 1020
+type(
+  string
+)
+"option.ml" 38 1022 1034 "option.ml" 38 1022 1036
+type(
+  string
+)
+"option.ml" 39 1038 1050 "option.ml" 39 1038 1052
+type(
+  string
+)
+"option.ml" 40 1054 1066 "option.ml" 40 1054 1068
+type(
+  string
+)
+"option.ml" 36 975 1004 "option.ml" 41 1070 1071
+type(
+  displaytags
+)
+"option.ml" 42 1072 1077 "option.ml" 42 1072 1086
+type(
+  displaytags
+)
+ident(
+  def colortags "option.ml" 48 1203 1203 "option.ml" 1 0 -1
+)
+"option.ml" 43 1104 1117 "option.ml" 43 1104 1127
+type(
+  string
+)
+"option.ml" 44 1129 1143 "option.ml" 44 1129 1153
+type(
+  string
+)
+"option.ml" 45 1155 1167 "option.ml" 45 1155 1177
+type(
+  string
+)
+"option.ml" 46 1179 1191 "option.ml" 46 1179 1199
+type(
+  string
+)
+"option.ml" 42 1072 1102 "option.ml" 47 1201 1202
+type(
+  displaytags
+)
+"option.ml" 48 1203 1208 "option.ml" 48 1203 1216
+type(
+  displaytags
+)
+ident(
+  def htmltags "option.ml" 55 1394 1394 "option.ml" 1 0 -1
+)
+"option.ml" 49 1234 1247 "option.ml" 49 1234 1277
+type(
+  string
+)
+"option.ml" 50 1279 1292 "option.ml" 50 1279 1321
+type(
+  string
+)
+"option.ml" 51 1323 1335 "option.ml" 51 1323 1366
+type(
+  string
+)
+"option.ml" 52 1368 1380 "option.ml" 52 1368 1389
+type(
+  string
+)
+"option.ml" 48 1203 1232 "option.ml" 53 1391 1392
+type(
+  displaytags
+)
+"option.ml" 55 1394 1399 "option.ml" 55 1394 1419
+type(
+  (string * displaytags) list
+)
+ident(
+  def assocnamedisplaytags "option.ml" 61 1532 1532 "option.ml" 1 0 -1
+)
+"option.ml" 57 1457 1462 "option.ml" 57 1457 1468
+type(
+  string
+)
+"option.ml" 57 1457 1469 "option.ml" 57 1457 1477
+type(
+  displaytags
+)
+ident(
+  int_ref texttags "option.ml" 36 975 980 "option.ml" 36 975 988
+)
+"option.ml" 57 1457 1461 "option.ml" 57 1457 1478
+type(
+  string * displaytags
+)
+"option.ml" 58 1480 1485 "option.ml" 58 1480 1492
+type(
+  string
+)
+"option.ml" 58 1480 1493 "option.ml" 58 1480 1502
+type(
+  displaytags
+)
+ident(
+  int_ref colortags "option.ml" 42 1072 1077 "option.ml" 42 1072 1086
+)
+"option.ml" 58 1480 1484 "option.ml" 58 1480 1503
+type(
+  string * displaytags
+)
+"option.ml" 59 1505 1510 "option.ml" 59 1505 1516
+type(
+  string
+)
+"option.ml" 59 1505 1517 "option.ml" 59 1505 1525
+type(
+  displaytags
+)
+ident(
+  int_ref htmltags "option.ml" 48 1203 1208 "option.ml" 48 1203 1216
+)
+"option.ml" 59 1505 1509 "option.ml" 59 1505 1526
+type(
+  string * displaytags
+)
+"option.ml" 56 1453 1455 "option.ml" 60 1528 1531
+type(
+  (string * displaytags) list
+)
+"option.ml" 61 1532 1537 "option.ml" 61 1532 1553
+type(
+  string list
+)
+ident(
+  def lnamedisplaytags "option.ml" 66 1635 1635 "option.ml" 1 0 -1
+)
+"option.ml" 62 1571 1573 "option.ml" 62 1571 1581
+type(
+  (string * displaytags -> string) ->
+  (string * displaytags) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"option.ml" 63 1582 1592 "option.ml" 63 1582 1596
+type(
+  string
+)
+ident(
+  def name "option.ml" 63 1582 1603 "option.ml" 63 1582 1607
+)
+"option.ml" 63 1582 1597 "option.ml" 63 1582 1598
+type(
+  displaytags
+)
+"option.ml" 63 1582 1591 "option.ml" 63 1582 1599
+type(
+  string * displaytags
+)
+"option.ml" 63 1582 1603 "option.ml" 63 1582 1607
+type(
+  string
+)
+ident(
+  int_ref name "option.ml" 63 1582 1592 "option.ml" 63 1582 1596
+)
+"option.ml" 63 1582 1586 "option.ml" 63 1582 1608
+type(
+  string * displaytags -> string
+)
+"option.ml" 64 1609 1613 "option.ml" 64 1609 1633
+type(
+  (string * displaytags) list
+)
+ident(
+  int_ref assocnamedisplaytags "option.ml" 55 1394 1399 "option.ml" 55 1394 1419
+)
+"option.ml" 62 1571 1573 "option.ml" 64 1609 1633
+call(
+  stack
+)
+type(
+  string list
+)
+"option.ml" 66 1635 1639 "option.ml" 66 1635 1650
+type(
+  displaytags ref
+)
+ident(
+  def displaytags "option.ml" 68 1668 1668 "option.ml" 1 0 -1
+)
+"option.ml" 66 1635 1653 "option.ml" 66 1635 1656
+type(
+  displaytags -> displaytags ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 66 1635 1657 "option.ml" 66 1635 1666
+type(
+  displaytags
+)
+ident(
+  int_ref colortags "option.ml" 42 1072 1077 "option.ml" 42 1072 1086
+)
+"option.ml" 66 1635 1653 "option.ml" 66 1635 1666
+type(
+  displaytags ref
+)
+"option.ml" 68 1668 1672 "option.ml" 68 1668 1681
+type(
+  bool ref
+)
+ident(
+  def print_box "option.ml" 73 1888 1888 "option.ml" 1 0 -1
+)
+"option.ml" 68 1668 1684 "option.ml" 68 1668 1687
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 68 1668 1688 "option.ml" 68 1668 1693
+type(
+  bool
+)
+"option.ml" 68 1668 1684 "option.ml" 68 1668 1693
+type(
+  bool ref
+)
+"option.ml" 85 2056 2061 "option.ml" 85 2056 2076
+type(
+  (string * domain) list
+)
+ident(
+  def assocnamedomain "option.ml" 99 2414 2414 "option.ml" 1 0 -1
+)
+"option.ml" 87 2109 2114 "option.ml" 87 2109 2119
+type(
+  string
+)
+"option.ml" 87 2109 2120 "option.ml" 87 2109 2123
+type(
+  domain
+)
+"option.ml" 87 2109 2113 "option.ml" 87 2109 2124
+type(
+  string * domain
+)
+"option.ml" 88 2126 2131 "option.ml" 88 2126 2140
+type(
+  string
+)
+"option.ml" 88 2126 2141 "option.ml" 88 2126 2148
+type(
+  domain
+)
+"option.ml" 88 2126 2130 "option.ml" 88 2126 2149
+type(
+  string * domain
+)
+"option.ml" 89 2151 2156 "option.ml" 89 2151 2163
+type(
+  string
+)
+"option.ml" 89 2151 2164 "option.ml" 89 2151 2174
+type(
+  domain
+)
+"option.ml" 89 2151 2155 "option.ml" 89 2151 2175
+type(
+  string * domain
+)
+"option.ml" 90 2177 2182 "option.ml" 90 2177 2195
+type(
+  string
+)
+"option.ml" 90 2177 2196 "option.ml" 90 2177 2207
+type(
+  domain
+)
+"option.ml" 90 2177 2181 "option.ml" 90 2177 2208
+type(
+  string * domain
+)
+"option.ml" 91 2210 2215 "option.ml" 91 2210 2224
+type(
+  string
+)
+"option.ml" 91 2210 2225 "option.ml" 91 2210 2232
+type(
+  domain
+)
+"option.ml" 91 2210 2214 "option.ml" 91 2210 2233
+type(
+  string * domain
+)
+"option.ml" 92 2235 2240 "option.ml" 92 2235 2253
+type(
+  string
+)
+"option.ml" 92 2235 2254 "option.ml" 92 2235 2265
+type(
+  domain
+)
+"option.ml" 92 2235 2239 "option.ml" 92 2235 2266
+type(
+  string * domain
+)
+"option.ml" 93 2268 2273 "option.ml" 93 2268 2278
+type(
+  string
+)
+"option.ml" 93 2268 2279 "option.ml" 93 2268 2291
+type(
+  domain
+)
+"option.ml" 93 2268 2272 "option.ml" 93 2268 2292
+type(
+  string * domain
+)
+"option.ml" 94 2294 2299 "option.ml" 94 2294 2310
+type(
+  string
+)
+"option.ml" 94 2294 2311 "option.ml" 94 2294 2324
+type(
+  domain
+)
+"option.ml" 94 2294 2298 "option.ml" 94 2294 2325
+type(
+  string * domain
+)
+"option.ml" 95 2327 2332 "option.ml" 95 2327 2341
+type(
+  string
+)
+"option.ml" 95 2327 2342 "option.ml" 95 2327 2349
+type(
+  domain
+)
+"option.ml" 95 2327 2331 "option.ml" 95 2327 2350
+type(
+  string * domain
+)
+"option.ml" 96 2352 2357 "option.ml" 96 2352 2368
+type(
+  string
+)
+"option.ml" 96 2352 2369 "option.ml" 96 2352 2378
+type(
+  domain
+)
+"option.ml" 96 2352 2356 "option.ml" 96 2352 2379
+type(
+  string * domain
+)
+"option.ml" 97 2381 2386 "option.ml" 97 2381 2397
+type(
+  string
+)
+"option.ml" 97 2381 2398 "option.ml" 97 2381 2407
+type(
+  domain
+)
+"option.ml" 97 2381 2385 "option.ml" 97 2381 2408
+type(
+  string * domain
+)
+"option.ml" 86 2105 2107 "option.ml" 98 2410 2413
+type(
+  (string * domain) list
+)
+"option.ml" 99 2414 2419 "option.ml" 99 2414 2430
+type(
+  string list
+)
+ident(
+  def lnamedomain "option.ml" 103 2506 2506 "option.ml" 1 0 -1
+)
+"option.ml" 100 2448 2450 "option.ml" 100 2448 2458
+type(
+  (string * domain -> string) -> (string * domain) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"option.ml" 101 2459 2469 "option.ml" 101 2459 2473
+type(
+  string
+)
+ident(
+  def name "option.ml" 101 2459 2480 "option.ml" 101 2459 2484
+)
+"option.ml" 101 2459 2474 "option.ml" 101 2459 2475
+type(
+  domain
+)
+"option.ml" 101 2459 2468 "option.ml" 101 2459 2476
+type(
+  string * domain
+)
+"option.ml" 101 2459 2480 "option.ml" 101 2459 2484
+type(
+  string
+)
+ident(
+  int_ref name "option.ml" 101 2459 2469 "option.ml" 101 2459 2473
+)
+"option.ml" 101 2459 2463 "option.ml" 101 2459 2485
+type(
+  string * domain -> string
+)
+"option.ml" 102 2486 2490 "option.ml" 102 2486 2505
+type(
+  (string * domain) list
+)
+ident(
+  int_ref assocnamedomain "option.ml" 85 2056 2061 "option.ml" 85 2056 2076
+)
+"option.ml" 100 2448 2450 "option.ml" 102 2486 2505
+call(
+  stack
+)
+type(
+  string list
+)
+"option.ml" 103 2506 2510 "option.ml" 103 2506 2516
+type(
+  domain ref
+)
+ident(
+  def domain "option.ml" 108 2756 2756 "option.ml" 1 0 -1
+)
+"option.ml" 103 2506 2519 "option.ml" 103 2506 2522
+type(
+  domain -> domain ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 103 2506 2523 "option.ml" 103 2506 2533
+type(
+  domain
+)
+"option.ml" 103 2506 2519 "option.ml" 103 2506 2533
+type(
+  domain ref
+)
+"option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+type(
+  analysis list ref
+)
+ident(
+  def analysis "option.ml" 114 2905 2905 "option.ml" 1 0 -1
+)
+"option.ml" 111 2797 2812 "option.ml" 111 2797 2815
+type(
+  analysis list -> analysis list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"option.ml" 111 2797 2817 "option.ml" 111 2797 2824
+type(
+  analysis
+)
+"option.ml" 111 2797 2816 "option.ml" 111 2797 2825
+type(
+  analysis list
+)
+"option.ml" 111 2797 2812 "option.ml" 111 2797 2825
+type(
+  analysis list ref
+)
+"option.ml" 117 3019 3024 "option.ml" 117 3019 3032
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def speclist "option.ml" 213 5670 5675 "option.ml" 1 0 -1
+)
+"option.ml" 118 3072 3074 "option.ml" 118 3072 3083
+type(
+  ?limit:int ->
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Arg.align
+)
+"option.ml" 121 3098 3099 "option.ml" 121 3098 3107
+type(
+  Arg.key
+)
+"option.ml" 122 3109 3121 "option.ml" 122 3109 3128
+type(
+  int ref
+)
+ident(
+  int_ref debug "option.ml" 13 337 341 "option.ml" 13 337 346
+)
+"option.ml" 122 3109 3110 "option.ml" 122 3109 3128
+type(
+  Arg.spec
+)
+"option.ml" 123 3130 3131 "option.ml" 123 3130 3177
+type(
+  Arg.doc
+)
+"option.ml" 120 3090 3096 "option.ml" 124 3178 3185
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 126 3195 3196 "option.ml" 126 3195 3202
+type(
+  Arg.key
+)
+"option.ml" 127 3204 3226 "option.ml" 127 3204 3234
+type(
+  string
+)
+ident(
+  def filename "option.ml" 128 3238 3241 "option.ml" 130 3335 3361
+)
+"option.ml" 128 3238 3245 "option.ml" 128 3238 3252
+type(
+  out_channel
+)
+ident(
+  def dotfile "option.ml" 129 3276 3279 "option.ml" 130 3335 3361
+)
+"option.ml" 128 3238 3255 "option.ml" 128 3238 3263
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"option.ml" 128 3238 3264 "option.ml" 128 3238 3272
+type(
+  string
+)
+ident(
+  int_ref filename "option.ml" 127 3204 3226 "option.ml" 127 3204 3234
+)
+"option.ml" 128 3238 3255 "option.ml" 128 3238 3272
+call(
+  stack
+)
+type(
+  out_channel
+)
+"option.ml" 129 3276 3283 "option.ml" 129 3276 3289
+type(
+  Format.formatter
+)
+ident(
+  def dotfmt "option.ml" 130 3335 3338 "option.ml" 130 3335 3361
+)
+"option.ml" 129 3276 3292 "option.ml" 129 3276 3323
+type(
+  out_channel -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_out_channel
+)
+"option.ml" 129 3276 3324 "option.ml" 129 3276 3331
+type(
+  out_channel
+)
+ident(
+  int_ref dotfile "option.ml" 128 3238 3245 "option.ml" 128 3238 3252
+)
+"option.ml" 129 3276 3292 "option.ml" 129 3276 3331
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"option.ml" 130 3335 3338 "option.ml" 130 3335 3345
+type(
+  Format.formatter option ref
+)
+ident(
+  int_ref dot_fmt "option.ml" 24 658 662 "option.ml" 24 658 669
+)
+"option.ml" 130 3335 3346 "option.ml" 130 3335 3348
+type(
+  Format.formatter option ref -> Format.formatter option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 130 3335 3354 "option.ml" 130 3335 3360
+type(
+  Format.formatter
+)
+ident(
+  int_ref dotfmt "option.ml" 129 3276 3283 "option.ml" 129 3276 3289
+)
+"option.ml" 130 3335 3349 "option.ml" 130 3335 3360
+type(
+  Format.formatter option
+)
+"option.ml" 130 3335 3338 "option.ml" 130 3335 3361
+type(
+  unit
+)
+"option.ml" 129 3276 3279 "option.ml" 130 3335 3361
+type(
+  unit
+)
+"option.ml" 128 3238 3241 "option.ml" 130 3335 3361
+type(
+  unit
+)
+"option.ml" 127 3204 3215 "option.ml" 131 3362 3367
+type(
+  string -> unit
+)
+"option.ml" 127 3204 3205 "option.ml" 131 3362 3367
+type(
+  Arg.spec
+)
+"option.ml" 132 3369 3370 "option.ml" 132 3369 3448
+type(
+  Arg.doc
+)
+"option.ml" 125 3187 3193 "option.ml" 132 3369 3449
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 134 3459 3460 "option.ml" 134 3459 3469
+type(
+  Arg.key
+)
+"option.ml" 136 3484 3487 "option.ml" 136 3484 3498
+type(
+  string list
+)
+ident(
+  int_ref lnamedomain "option.ml" 99 2414 2419 "option.ml" 99 2414 2430
+)
+"option.ml" 137 3500 3513 "option.ml" 137 3500 3517
+type(
+  string
+)
+ident(
+  def name "option.ml" 137 3500 3521 "option.ml" 137 3500 3562
+)
+"option.ml" 137 3500 3521 "option.ml" 137 3500 3527
+type(
+  domain ref
+)
+ident(
+  int_ref domain "option.ml" 103 2506 2510 "option.ml" 103 2506 2516
+)
+"option.ml" 137 3500 3528 "option.ml" 137 3500 3530
+type(
+  domain ref -> domain -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 137 3500 3531 "option.ml" 137 3500 3541
+type(
+  string -> (string * domain) list -> domain
+)
+ident(
+  ext_ref List.assoc
+)
+"option.ml" 137 3500 3542 "option.ml" 137 3500 3546
+type(
+  string
+)
+ident(
+  int_ref name "option.ml" 137 3500 3513 "option.ml" 137 3500 3517
+)
+"option.ml" 137 3500 3547 "option.ml" 137 3500 3562
+type(
+  (string * domain) list
+)
+ident(
+  int_ref assocnamedomain "option.ml" 85 2056 2061 "option.ml" 85 2056 2076
+)
+"option.ml" 137 3500 3531 "option.ml" 137 3500 3562
+call(
+  stack
+)
+type(
+  domain
+)
+"option.ml" 137 3500 3521 "option.ml" 137 3500 3562
+type(
+  unit
+)
+"option.ml" 137 3500 3503 "option.ml" 137 3500 3566
+type(
+  string -> unit
+)
+"option.ml" 135 3471 3472 "option.ml" 138 3567 3569
+type(
+  Arg.spec
+)
+"option.ml" 139 3571 3572 "option.ml" 139 3571 3616
+type(
+  Arg.doc
+)
+"option.ml" 133 3451 3457 "option.ml" 140 3617 3624
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 142 3634 3635 "option.ml" 142 3634 3643
+type(
+  Arg.key
+)
+"option.ml" 143 3645 3664 "option.ml" 143 3645 3665
+type(
+  int
+)
+ident(
+  def n "option.ml" 144 3669 3672 "option.ml" 147 3797 3822
+)
+"option.ml" 144 3669 3675 "option.ml" 144 3669 3676
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 143 3645 3664 "option.ml" 143 3645 3665
+)
+"option.ml" 144 3669 3676 "option.ml" 144 3669 3677
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"option.ml" 144 3669 3677 "option.ml" 144 3669 3678
+type(
+  int
+)
+"option.ml" 144 3669 3675 "option.ml" 144 3669 3678
+type(
+  bool
+)
+"option.ml" 145 3684 3689 "option.ml" 145 3684 3694
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"option.ml" 145 3684 3705 "option.ml" 145 3684 3723
+type(
+  string
+)
+"option.ml" 145 3684 3723 "option.ml" 145 3684 3724
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"option.ml" 145 3684 3725 "option.ml" 145 3684 3738
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"option.ml" 145 3684 3739 "option.ml" 145 3684 3740
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 143 3645 3664 "option.ml" 143 3645 3665
+)
+"option.ml" 145 3684 3724 "option.ml" 145 3684 3741
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 145 3684 3741 "option.ml" 145 3684 3742
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"option.ml" 145 3684 3742 "option.ml" 145 3684 3786
+type(
+  string
+)
+"option.ml" 145 3684 3724 "option.ml" 145 3684 3786
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 145 3684 3704 "option.ml" 145 3684 3787
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 145 3684 3695 "option.ml" 145 3684 3788
+type(
+  exn
+)
+"option.ml" 145 3684 3689 "option.ml" 145 3684 3788
+type(
+  unit
+)
+"option.ml" 147 3797 3802 "option.ml" 147 3797 3817
+type(
+  int ref
+)
+ident(
+  int_ref iteration_depth "option.ml" 20 541 545 "option.ml" 20 541 560
+)
+"option.ml" 147 3797 3818 "option.ml" 147 3797 3820
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 147 3797 3821 "option.ml" 147 3797 3822
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 143 3645 3664 "option.ml" 143 3645 3665
+)
+"option.ml" 147 3797 3802 "option.ml" 147 3797 3822
+type(
+  unit
+)
+"option.ml" 144 3669 3672 "option.ml" 147 3797 3822
+type(
+  unit
+)
+"option.ml" 143 3645 3653 "option.ml" 148 3823 3828
+type(
+  int -> unit
+)
+"option.ml" 143 3645 3646 "option.ml" 148 3823 3828
+type(
+  Arg.spec
+)
+"option.ml" 149 3830 3831 "option.ml" 149 3830 3900
+type(
+  Arg.doc
+)
+"option.ml" 141 3626 3632 "option.ml" 150 3901 3908
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 152 3918 3919 "option.ml" 152 3918 3928
+type(
+  Arg.key
+)
+"option.ml" 153 3930 3950 "option.ml" 153 3930 3951
+type(
+  bool
+)
+ident(
+  def b "option.ml" 153 3930 3955 "option.ml" 153 3930 3976
+)
+"option.ml" 153 3930 3955 "option.ml" 153 3930 3971
+type(
+  bool ref
+)
+ident(
+  int_ref iteration_guided "option.ml" 21 569 573 "option.ml" 21 569 589
+)
+"option.ml" 153 3930 3972 "option.ml" 153 3930 3974
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 153 3930 3975 "option.ml" 153 3930 3976
+type(
+  bool
+)
+ident(
+  int_ref b "option.ml" 153 3930 3950 "option.ml" 153 3930 3951
+)
+"option.ml" 153 3930 3955 "option.ml" 153 3930 3976
+type(
+  unit
+)
+"option.ml" 153 3930 3939 "option.ml" 153 3930 3981
+type(
+  bool -> unit
+)
+"option.ml" 153 3930 3931 "option.ml" 153 3930 3981
+type(
+  Arg.spec
+)
+"option.ml" 154 3983 3984 "option.ml" 154 3983 4055
+type(
+  Arg.doc
+)
+"option.ml" 151 3910 3916 "option.ml" 155 4056 4063
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 157 4073 4074 "option.ml" 157 4073 4085
+type(
+  Arg.key
+)
+"option.ml" 159 4100 4121 "option.ml" 159 4100 4122
+type(
+  int
+)
+ident(
+  def n "option.ml" 160 4126 4131 "option.ml" 163 4300 4326
+)
+"option.ml" 160 4126 4134 "option.ml" 160 4126 4135
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 159 4100 4121 "option.ml" 159 4100 4122
+)
+"option.ml" 160 4126 4135 "option.ml" 160 4126 4136
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"option.ml" 160 4126 4136 "option.ml" 160 4126 4137
+type(
+  int
+)
+"option.ml" 160 4126 4134 "option.ml" 160 4126 4137
+type(
+  bool
+)
+"option.ml" 161 4143 4150 "option.ml" 161 4143 4155
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"option.ml" 161 4143 4166 "option.ml" 161 4143 4184
+type(
+  string
+)
+"option.ml" 161 4143 4184 "option.ml" 161 4143 4185
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"option.ml" 161 4143 4186 "option.ml" 161 4143 4199
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"option.ml" 161 4143 4200 "option.ml" 161 4143 4201
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 159 4100 4121 "option.ml" 159 4100 4122
+)
+"option.ml" 161 4143 4185 "option.ml" 161 4143 4202
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 161 4143 4202 "option.ml" 161 4143 4203
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"option.ml" 161 4143 4203 "option.ml" 161 4143 4287
+type(
+  string
+)
+"option.ml" 161 4143 4185 "option.ml" 161 4143 4287
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 161 4143 4165 "option.ml" 161 4143 4288
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 161 4143 4156 "option.ml" 161 4143 4289
+type(
+  exn
+)
+"option.ml" 161 4143 4150 "option.ml" 161 4143 4289
+type(
+  unit
+)
+"option.ml" 163 4300 4307 "option.ml" 163 4300 4321
+type(
+  int ref
+)
+ident(
+  int_ref widening_start "option.ml" 22 602 606 "option.ml" 22 602 620
+)
+"option.ml" 163 4300 4322 "option.ml" 163 4300 4324
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 163 4300 4325 "option.ml" 163 4300 4326
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 159 4100 4121 "option.ml" 159 4100 4122
+)
+"option.ml" 163 4300 4307 "option.ml" 163 4300 4326
+type(
+  unit
+)
+"option.ml" 160 4126 4131 "option.ml" 163 4300 4326
+type(
+  unit
+)
+"option.ml" 159 4100 4110 "option.ml" 164 4327 4334
+type(
+  int -> unit
+)
+"option.ml" 159 4100 4103 "option.ml" 164 4327 4334
+type(
+  Arg.spec
+)
+"option.ml" 165 4336 4357 "option.ml" 165 4336 4358
+type(
+  int
+)
+ident(
+  def n "option.ml" 166 4362 4367 "option.ml" 169 4532 4560
+)
+"option.ml" 166 4362 4370 "option.ml" 166 4362 4371
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 165 4336 4357 "option.ml" 165 4336 4358
+)
+"option.ml" 166 4362 4371 "option.ml" 166 4362 4372
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"option.ml" 166 4362 4372 "option.ml" 166 4362 4373
+type(
+  int
+)
+"option.ml" 166 4362 4370 "option.ml" 166 4362 4373
+type(
+  bool
+)
+"option.ml" 167 4379 4386 "option.ml" 167 4379 4391
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"option.ml" 167 4379 4402 "option.ml" 167 4379 4420
+type(
+  string
+)
+"option.ml" 167 4379 4420 "option.ml" 167 4379 4421
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"option.ml" 167 4379 4422 "option.ml" 167 4379 4435
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"option.ml" 167 4379 4436 "option.ml" 167 4379 4437
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 165 4336 4357 "option.ml" 165 4336 4358
+)
+"option.ml" 167 4379 4421 "option.ml" 167 4379 4438
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 167 4379 4438 "option.ml" 167 4379 4439
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"option.ml" 167 4379 4439 "option.ml" 167 4379 4519
+type(
+  string
+)
+"option.ml" 167 4379 4421 "option.ml" 167 4379 4519
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 167 4379 4401 "option.ml" 167 4379 4520
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 167 4379 4392 "option.ml" 167 4379 4521
+type(
+  exn
+)
+"option.ml" 167 4379 4386 "option.ml" 167 4379 4521
+type(
+  unit
+)
+"option.ml" 169 4532 4539 "option.ml" 169 4532 4555
+type(
+  int ref
+)
+ident(
+  int_ref widening_descend "option.ml" 23 629 633 "option.ml" 23 629 649
+)
+"option.ml" 169 4532 4556 "option.ml" 169 4532 4558
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 169 4532 4559 "option.ml" 169 4532 4560
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 165 4336 4357 "option.ml" 165 4336 4358
+)
+"option.ml" 169 4532 4539 "option.ml" 169 4532 4560
+type(
+  unit
+)
+"option.ml" 166 4362 4367 "option.ml" 169 4532 4560
+type(
+  unit
+)
+"option.ml" 165 4336 4346 "option.ml" 170 4561 4568
+type(
+  int -> unit
+)
+"option.ml" 165 4336 4339 "option.ml" 170 4561 4568
+type(
+  Arg.spec
+)
+"option.ml" 158 4087 4097 "option.ml" 171 4569 4572
+type(
+  Arg.spec list
+)
+"option.ml" 158 4087 4088 "option.ml" 171 4569 4572
+type(
+  Arg.spec
+)
+"option.ml" 172 4574 4575 "option.ml" 172 4574 4657
+type(
+  Arg.doc
+)
+"option.ml" 156 4065 4071 "option.ml" 173 4658 4665
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 176 4682 4683 "option.ml" 176 4682 4693
+type(
+  Arg.key
+)
+"option.ml" 178 4708 4711 "option.ml" 178 4708 4727
+type(
+  string list
+)
+ident(
+  int_ref lnamedisplaytags "option.ml" 61 1532 1537 "option.ml" 61 1532 1553
+)
+"option.ml" 179 4729 4742 "option.ml" 179 4729 4746
+type(
+  string
+)
+ident(
+  def name "option.ml" 179 4729 4750 "option.ml" 179 4729 4801
+)
+"option.ml" 179 4729 4750 "option.ml" 179 4729 4761
+type(
+  displaytags ref
+)
+ident(
+  int_ref displaytags "option.ml" 66 1635 1639 "option.ml" 66 1635 1650
+)
+"option.ml" 179 4729 4762 "option.ml" 179 4729 4764
+type(
+  displaytags ref -> displaytags -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 179 4729 4765 "option.ml" 179 4729 4775
+type(
+  string -> (string * displaytags) list -> displaytags
+)
+ident(
+  ext_ref List.assoc
+)
+"option.ml" 179 4729 4776 "option.ml" 179 4729 4780
+type(
+  string
+)
+ident(
+  int_ref name "option.ml" 179 4729 4742 "option.ml" 179 4729 4746
+)
+"option.ml" 179 4729 4781 "option.ml" 179 4729 4801
+type(
+  (string * displaytags) list
+)
+ident(
+  int_ref assocnamedisplaytags "option.ml" 55 1394 1399 "option.ml" 55 1394 1419
+)
+"option.ml" 179 4729 4765 "option.ml" 179 4729 4801
+call(
+  stack
+)
+type(
+  displaytags
+)
+"option.ml" 179 4729 4750 "option.ml" 179 4729 4801
+type(
+  unit
+)
+"option.ml" 179 4729 4732 "option.ml" 179 4729 4805
+type(
+  string -> unit
+)
+"option.ml" 177 4695 4696 "option.ml" 180 4806 4808
+type(
+  Arg.spec
+)
+"option.ml" 181 4810 4811 "option.ml" 181 4810 4846
+type(
+  Arg.doc
+)
+"option.ml" 175 4674 4680 "option.ml" 182 4847 4854
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 184 4864 4865 "option.ml" 184 4864 4874
+type(
+  Arg.key
+)
+"option.ml" 185 4876 4889 "option.ml" 185 4876 4890
+type(
+  int
+)
+ident(
+  def n "option.ml" 185 4876 4894 "option.ml" 185 4876 4913
+)
+"option.ml" 185 4876 4894 "option.ml" 185 4876 4911
+type(
+  int -> unit
+)
+ident(
+  ext_ref Format.set_margin
+)
+"option.ml" 185 4876 4912 "option.ml" 185 4876 4913
+type(
+  int
+)
+ident(
+  int_ref n "option.ml" 185 4876 4889 "option.ml" 185 4876 4890
+)
+"option.ml" 185 4876 4894 "option.ml" 185 4876 4913
+call(
+  tail
+)
+type(
+  unit
+)
+"option.ml" 185 4876 4884 "option.ml" 185 4876 4914
+type(
+  int -> unit
+)
+"option.ml" 185 4876 4877 "option.ml" 185 4876 4914
+type(
+  Arg.spec
+)
+"option.ml" 186 4916 4917 "option.ml" 186 4916 4952
+type(
+  Arg.doc
+)
+"option.ml" 183 4856 4862 "option.ml" 187 4953 4960
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 189 4970 4971 "option.ml" 189 4970 4983
+type(
+  Arg.key
+)
+"option.ml" 190 4985 4999 "option.ml" 190 4985 5000
+type(
+  bool
+)
+ident(
+  def b "option.ml" 190 4985 5004 "option.ml" 190 4985 5018
+)
+"option.ml" 190 4985 5004 "option.ml" 190 4985 5013
+type(
+  bool ref
+)
+ident(
+  int_ref print_box "option.ml" 68 1668 1672 "option.ml" 68 1668 1681
+)
+"option.ml" 190 4985 5014 "option.ml" 190 4985 5016
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 190 4985 5017 "option.ml" 190 4985 5018
+type(
+  bool
+)
+ident(
+  int_ref b "option.ml" 190 4985 4999 "option.ml" 190 4985 5000
+)
+"option.ml" 190 4985 5004 "option.ml" 190 4985 5018
+type(
+  unit
+)
+"option.ml" 190 4985 4994 "option.ml" 190 4985 5019
+type(
+  bool -> unit
+)
+"option.ml" 190 4985 4986 "option.ml" 190 4985 5019
+type(
+  Arg.spec
+)
+"option.ml" 191 5021 5022 "option.ml" 191 5021 5078
+type(
+  Arg.doc
+)
+"option.ml" 188 4962 4968 "option.ml" 192 5079 5086
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 194 5096 5097 "option.ml" 194 5096 5108
+type(
+  Arg.key
+)
+"option.ml" 195 5110 5132 "option.ml" 195 5110 5135
+type(
+  string
+)
+ident(
+  def str "option.ml" 196 5139 5142 "option.ml" 209 5521 5567
+)
+"option.ml" 196 5139 5142 "option.ml" 196 5139 5150
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 196 5139 5151 "option.ml" 196 5139 5153
+type(
+  analysis list ref -> analysis list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 196 5139 5154 "option.ml" 196 5139 5156
+type(
+  analysis list
+)
+"option.ml" 196 5139 5142 "option.ml" 196 5139 5156
+type(
+  unit
+)
+"option.ml" 197 5158 5161 "option.ml" 197 5158 5172
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  ext_ref String.iter
+)
+"option.ml" 198 5173 5189 "option.ml" 198 5173 5192
+type(
+  char
+)
+ident(
+  def chr "option.ml" 199 5196 5203 "option.ml" 205 5339 5465
+)
+"option.ml" 199 5196 5209 "option.ml" 199 5196 5212
+type(
+  char
+)
+ident(
+  int_ref chr "option.ml" 198 5173 5189 "option.ml" 198 5173 5192
+)
+"option.ml" 200 5218 5227 "option.ml" 200 5218 5230
+type(
+  char
+)
+"option.ml" 201 5234 5238 "option.ml" 201 5234 5246
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 201 5234 5247 "option.ml" 201 5234 5249
+type(
+  analysis list ref -> analysis list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 201 5234 5250 "option.ml" 201 5234 5257
+type(
+  analysis
+)
+"option.ml" 201 5234 5261 "option.ml" 201 5234 5262
+type(
+  analysis list ref -> analysis list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"option.ml" 201 5234 5262 "option.ml" 201 5234 5270
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 201 5234 5261 "option.ml" 201 5234 5270
+type(
+  analysis list
+)
+"option.ml" 201 5234 5250 "option.ml" 201 5234 5270
+type(
+  analysis list
+)
+"option.ml" 201 5234 5238 "option.ml" 201 5234 5270
+type(
+  unit
+)
+"option.ml" 202 5271 5280 "option.ml" 202 5271 5283
+type(
+  char
+)
+"option.ml" 203 5287 5291 "option.ml" 203 5287 5299
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 203 5287 5300 "option.ml" 203 5287 5302
+type(
+  analysis list ref -> analysis list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 203 5287 5303 "option.ml" 203 5287 5311
+type(
+  analysis
+)
+"option.ml" 203 5287 5315 "option.ml" 203 5287 5316
+type(
+  analysis list ref -> analysis list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"option.ml" 203 5287 5316 "option.ml" 203 5287 5324
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 203 5287 5315 "option.ml" 203 5287 5324
+type(
+  analysis list
+)
+"option.ml" 203 5287 5303 "option.ml" 203 5287 5324
+type(
+  analysis list
+)
+"option.ml" 203 5287 5291 "option.ml" 203 5287 5324
+type(
+  unit
+)
+"option.ml" 204 5325 5334 "option.ml" 204 5325 5335
+type(
+  char
+)
+"option.ml" 205 5339 5343 "option.ml" 205 5339 5348
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"option.ml" 205 5339 5359 "option.ml" 205 5339 5377
+type(
+  string
+)
+"option.ml" 205 5339 5377 "option.ml" 205 5339 5378
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"option.ml" 205 5339 5378 "option.ml" 205 5339 5381
+type(
+  string
+)
+ident(
+  int_ref str "option.ml" 195 5110 5132 "option.ml" 195 5110 5135
+)
+"option.ml" 205 5339 5381 "option.ml" 205 5339 5382
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"option.ml" 205 5339 5382 "option.ml" 205 5339 5463
+type(
+  string
+)
+"option.ml" 205 5339 5378 "option.ml" 205 5339 5463
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 205 5339 5358 "option.ml" 205 5339 5464
+call(
+  stack
+)
+type(
+  string
+)
+"option.ml" 205 5339 5349 "option.ml" 205 5339 5465
+type(
+  exn
+)
+"option.ml" 205 5339 5343 "option.ml" 205 5339 5465
+type(
+  unit
+)
+"option.ml" 199 5196 5203 "option.ml" 205 5339 5465
+type(
+  unit
+)
+"option.ml" 198 5173 5178 "option.ml" 206 5466 5475
+type(
+  char -> unit
+)
+"option.ml" 207 5476 5481 "option.ml" 207 5476 5484
+type(
+  string
+)
+ident(
+  int_ref str "option.ml" 195 5110 5132 "option.ml" 195 5110 5135
+)
+"option.ml" 197 5158 5161 "option.ml" 207 5476 5484
+call(
+  stack
+)
+type(
+  unit
+)
+"option.ml" 208 5486 5489 "option.ml" 208 5486 5497
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 208 5486 5498 "option.ml" 208 5486 5500
+type(
+  analysis list ref -> analysis list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 208 5486 5501 "option.ml" 208 5486 5509
+type(
+  analysis list -> analysis list
+)
+ident(
+  ext_ref List.rev
+)
+"option.ml" 208 5486 5510 "option.ml" 208 5486 5511
+type(
+  analysis list ref -> analysis list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"option.ml" 208 5486 5511 "option.ml" 208 5486 5519
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 208 5486 5510 "option.ml" 208 5486 5519
+type(
+  analysis list
+)
+"option.ml" 208 5486 5501 "option.ml" 208 5486 5519
+call(
+  stack
+)
+type(
+  analysis list
+)
+"option.ml" 208 5486 5489 "option.ml" 208 5486 5519
+type(
+  unit
+)
+"option.ml" 209 5521 5527 "option.ml" 209 5521 5528
+type(
+  analysis list ref -> analysis list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"option.ml" 209 5521 5528 "option.ml" 209 5521 5536
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 209 5521 5527 "option.ml" 209 5521 5536
+type(
+  analysis list
+)
+"option.ml" 209 5521 5536 "option.ml" 209 5521 5537
+type(
+  analysis list -> analysis list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"option.ml" 209 5521 5537 "option.ml" 209 5521 5539
+type(
+  analysis list
+)
+"option.ml" 209 5521 5527 "option.ml" 209 5521 5539
+type(
+  bool
+)
+"option.ml" 209 5521 5545 "option.ml" 209 5521 5553
+type(
+  analysis list ref
+)
+ident(
+  int_ref analysis "option.ml" 111 2797 2801 "option.ml" 111 2797 2809
+)
+"option.ml" 209 5521 5554 "option.ml" 209 5521 5556
+type(
+  analysis list ref -> analysis list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"option.ml" 209 5521 5558 "option.ml" 209 5521 5565
+type(
+  analysis
+)
+"option.ml" 209 5521 5557 "option.ml" 209 5521 5566
+type(
+  analysis list
+)
+"option.ml" 209 5521 5545 "option.ml" 209 5521 5566
+type(
+  unit
+)
+"option.ml" 209 5521 5524 "option.ml" 209 5521 5567
+type(
+  unit
+)
+"option.ml" 208 5486 5489 "option.ml" 209 5521 5567
+type(
+  unit
+)
+"option.ml" 197 5158 5161 "option.ml" 209 5521 5567
+type(
+  unit
+)
+"option.ml" 196 5139 5142 "option.ml" 209 5521 5567
+type(
+  unit
+)
+"option.ml" 195 5110 5121 "option.ml" 210 5568 5573
+type(
+  string -> unit
+)
+"option.ml" 195 5110 5111 "option.ml" 210 5568 5573
+type(
+  Arg.spec
+)
+"option.ml" 211 5575 5576 "option.ml" 211 5575 5661
+type(
+  Arg.doc
+)
+"option.ml" 193 5088 5094 "option.ml" 212 5662 5669
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"option.ml" 119 3084 3088 "option.ml" 213 5670 5675
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"option.ml" 118 3072 3074 "option.ml" 213 5670 5675
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)

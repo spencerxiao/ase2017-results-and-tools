@@ -1,0 +1,24 @@
+MODULE main
+	int x;
+	int n;
+
+	int finish;
+
+	assume(n > 0);
+	assume(x == 0);
+
+	assume(finish == 0);
+
+	while(x < n){
+		x = x + 1;
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && x != n;

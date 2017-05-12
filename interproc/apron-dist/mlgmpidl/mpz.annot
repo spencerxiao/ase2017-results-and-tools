@@ -1,0 +1,778 @@
+"mpz.ml" 53 1691 1695 "mpz.ml" 53 1691 1702
+type(
+  t -> string -> base:int -> unit
+)
+ident(
+  def set_str "mpz.ml" 54 1733 1733 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 53 1691 1703 "mpz.ml" 53 1691 1704
+type(
+  t
+)
+ident(
+  def a "mpz.ml" 53 1691 1705 "mpz.ml" 53 1691 1732
+)
+"mpz.ml" 53 1691 1705 "mpz.ml" 53 1691 1706
+type(
+  string
+)
+ident(
+  def b "mpz.ml" 53 1691 1707 "mpz.ml" 53 1691 1732
+)
+"mpz.ml" 53 1691 1708 "mpz.ml" 53 1691 1712
+type(
+  int
+)
+ident(
+  def base "mpz.ml" 53 1691 1715 "mpz.ml" 53 1691 1732
+)
+"mpz.ml" 53 1691 1715 "mpz.ml" 53 1691 1723
+type(
+  t -> string -> int -> unit
+)
+ident(
+  int_ref _set_str "mpz.ml" 50 1613 1613 "mpz.ml" 51 1660 1689
+)
+"mpz.ml" 53 1691 1724 "mpz.ml" 53 1691 1725
+type(
+  t
+)
+ident(
+  int_ref a "mpz.ml" 53 1691 1703 "mpz.ml" 53 1691 1704
+)
+"mpz.ml" 53 1691 1726 "mpz.ml" 53 1691 1727
+type(
+  string
+)
+ident(
+  int_ref b "mpz.ml" 53 1691 1705 "mpz.ml" 53 1691 1706
+)
+"mpz.ml" 53 1691 1728 "mpz.ml" 53 1691 1732
+type(
+  int
+)
+ident(
+  int_ref base "mpz.ml" 53 1691 1708 "mpz.ml" 53 1691 1712
+)
+"mpz.ml" 53 1691 1715 "mpz.ml" 53 1691 1732
+type(
+  unit
+)
+"mpz.ml" 73 2278 2282 "mpz.ml" 73 2278 2294
+type(
+  string -> base:int -> 'a tt
+)
+ident(
+  def init_set_str "mpz.ml" 75 2327 2327 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 73 2278 2295 "mpz.ml" 73 2278 2296
+type(
+  string
+)
+ident(
+  def a "mpz.ml" 73 2278 2297 "mpz.ml" 73 2278 2325
+)
+"mpz.ml" 73 2278 2298 "mpz.ml" 73 2278 2302
+type(
+  int
+)
+ident(
+  def base "mpz.ml" 73 2278 2305 "mpz.ml" 73 2278 2325
+)
+"mpz.ml" 73 2278 2305 "mpz.ml" 73 2278 2318
+type(
+  string -> int -> 'a tt
+)
+ident(
+  int_ref _init_set_str "mpz.ml" 70 2194 2194 "mpz.ml" 71 2242 2276
+)
+"mpz.ml" 73 2278 2319 "mpz.ml" 73 2278 2320
+type(
+  string
+)
+ident(
+  int_ref a "mpz.ml" 73 2278 2295 "mpz.ml" 73 2278 2296
+)
+"mpz.ml" 73 2278 2321 "mpz.ml" 73 2278 2325
+type(
+  int
+)
+ident(
+  int_ref base "mpz.ml" 73 2278 2298 "mpz.ml" 73 2278 2302
+)
+"mpz.ml" 73 2278 2305 "mpz.ml" 73 2278 2325
+type(
+  'a tt
+)
+"mpz.ml" 93 2795 2799 "mpz.ml" 93 2795 2806
+type(
+  base:int -> 'a tt -> string
+)
+ident(
+  def get_str "mpz.ml" 96 2835 2835 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 93 2795 2808 "mpz.ml" 93 2795 2812
+type(
+  int
+)
+ident(
+  def base "mpz.ml" 93 2795 2813 "mpz.ml" 93 2795 2832
+)
+"mpz.ml" 93 2795 2813 "mpz.ml" 93 2795 2814
+type(
+  'a tt
+)
+ident(
+  def a "mpz.ml" 93 2795 2817 "mpz.ml" 93 2795 2832
+)
+"mpz.ml" 93 2795 2817 "mpz.ml" 93 2795 2825
+type(
+  int -> 'a tt -> string
+)
+ident(
+  int_ref _get_str "mpz.ml" 90 2721 2721 "mpz.ml" 91 2764 2793
+)
+"mpz.ml" 93 2795 2826 "mpz.ml" 93 2795 2830
+type(
+  int
+)
+ident(
+  int_ref base "mpz.ml" 93 2795 2808 "mpz.ml" 93 2795 2812
+)
+"mpz.ml" 93 2795 2831 "mpz.ml" 93 2795 2832
+type(
+  'a tt
+)
+ident(
+  int_ref a "mpz.ml" 93 2795 2813 "mpz.ml" 93 2795 2814
+)
+"mpz.ml" 93 2795 2817 "mpz.ml" 93 2795 2832
+type(
+  string
+)
+"mpz.ml" 100 2956 2960 "mpz.ml" 100 2956 2969
+type(
+  'a tt -> string
+)
+ident(
+  def to_string "mpz.ml" 101 2987 2987 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 100 2956 2970 "mpz.ml" 100 2956 2971
+type(
+  'a tt
+)
+ident(
+  def x "mpz.ml" 100 2956 2974 "mpz.ml" 100 2956 2986
+)
+"mpz.ml" 100 2956 2974 "mpz.ml" 100 2956 2981
+type(
+  base:int -> 'a tt -> string
+)
+ident(
+  int_ref get_str "mpz.ml" 93 2795 2799 "mpz.ml" 93 2795 2806
+)
+"mpz.ml" 100 2956 2982 "mpz.ml" 100 2956 2984
+type(
+  int
+)
+"mpz.ml" 100 2956 2985 "mpz.ml" 100 2956 2986
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpz.ml" 100 2956 2970 "mpz.ml" 100 2956 2971
+)
+"mpz.ml" 100 2956 2974 "mpz.ml" 100 2956 2986
+call(
+  tail
+)
+type(
+  string
+)
+"mpz.ml" 101 2987 2991 "mpz.ml" 101 2987 2999
+type(
+  'a tt -> float
+)
+ident(
+  def to_float "mpz.ml" 102 3008 3008 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 101 2987 3002 "mpz.ml" 101 2987 3007
+type(
+  'a tt -> float
+)
+ident(
+  int_ref get_d "mpz.ml" 84 2585 2585 "mpz.ml" 85 2617 2643
+)
+"mpz.ml" 102 3008 3012 "mpz.ml" 102 3008 3021
+type(
+  string -> 'a tt
+)
+ident(
+  def of_string "mpz.ml" 103 3048 3048 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 102 3008 3022 "mpz.ml" 102 3008 3025
+type(
+  string
+)
+ident(
+  def str "mpz.ml" 102 3008 3028 "mpz.ml" 102 3008 3047
+)
+"mpz.ml" 102 3008 3028 "mpz.ml" 102 3008 3040
+type(
+  string -> base:int -> 'a tt
+)
+ident(
+  int_ref init_set_str "mpz.ml" 73 2278 2282 "mpz.ml" 73 2278 2294
+)
+"mpz.ml" 102 3008 3041 "mpz.ml" 102 3008 3044
+type(
+  string
+)
+ident(
+  int_ref str "mpz.ml" 102 3008 3022 "mpz.ml" 102 3008 3025
+)
+"mpz.ml" 102 3008 3045 "mpz.ml" 102 3008 3047
+type(
+  int
+)
+"mpz.ml" 102 3008 3028 "mpz.ml" 102 3008 3047
+call(
+  tail
+)
+type(
+  'a tt
+)
+"mpz.ml" 103 3048 3052 "mpz.ml" 103 3048 3060
+type(
+  float -> 'a tt
+)
+ident(
+  def of_float "mpz.ml" 104 3074 3074 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 103 3048 3063 "mpz.ml" 103 3048 3073
+type(
+  float -> 'a tt
+)
+ident(
+  int_ref init_set_d "mpz.ml" 67 2124 2124 "mpz.ml" 68 2161 2192
+)
+"mpz.ml" 104 3074 3078 "mpz.ml" 104 3074 3084
+type(
+  int -> 'a tt
+)
+ident(
+  def of_int "mpz.ml" 106 3100 3100 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 104 3074 3087 "mpz.ml" 104 3074 3098
+type(
+  int -> 'a tt
+)
+ident(
+  int_ref init_set_si "mpz.ml" 64 2054 2054 "mpz.ml" 65 2090 2122
+)
+"mpz.ml" 108 3128 3132 "mpz.ml" 108 3128 3137
+type(
+  Format.formatter -> 'a tt -> unit
+)
+ident(
+  def print "mpz.ml" 110 3189 3189 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 108 3128 3138 "mpz.ml" 108 3128 3141
+type(
+  Format.formatter
+)
+ident(
+  def fmt "mpz.ml" 108 3128 3142 "mpz.ml" 108 3128 3187
+)
+"mpz.ml" 108 3128 3142 "mpz.ml" 108 3128 3143
+type(
+  'a tt
+)
+ident(
+  def x "mpz.ml" 108 3128 3146 "mpz.ml" 108 3128 3187
+)
+"mpz.ml" 108 3128 3146 "mpz.ml" 108 3128 3168
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"mpz.ml" 108 3128 3169 "mpz.ml" 108 3128 3172
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "mpz.ml" 108 3128 3138 "mpz.ml" 108 3128 3141
+)
+"mpz.ml" 108 3128 3174 "mpz.ml" 108 3128 3181
+type(
+  base:int -> 'a tt -> string
+)
+ident(
+  int_ref get_str "mpz.ml" 93 2795 2799 "mpz.ml" 93 2795 2806
+)
+"mpz.ml" 108 3128 3182 "mpz.ml" 108 3128 3184
+type(
+  int
+)
+"mpz.ml" 108 3128 3185 "mpz.ml" 108 3128 3186
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpz.ml" 108 3128 3142 "mpz.ml" 108 3128 3143
+)
+"mpz.ml" 108 3128 3173 "mpz.ml" 108 3128 3187
+call(
+  stack
+)
+type(
+  string
+)
+"mpz.ml" 108 3128 3146 "mpz.ml" 108 3128 3187
+call(
+  tail
+)
+type(
+  unit
+)
+"mpz.ml" 299 8412 8416 "mpz.ml" 299 8412 8420
+type(
+  t -> 'a tt -> 'b tt -> modulo:'c tt -> unit
+)
+ident(
+  def powm "mpz.ml" 300 8456 8456 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 299 8412 8421 "mpz.ml" 299 8412 8422
+type(
+  t
+)
+ident(
+  def a "mpz.ml" 299 8412 8423 "mpz.ml" 299 8412 8455
+)
+"mpz.ml" 299 8412 8423 "mpz.ml" 299 8412 8424
+type(
+  'a tt
+)
+ident(
+  def b "mpz.ml" 299 8412 8425 "mpz.ml" 299 8412 8455
+)
+"mpz.ml" 299 8412 8425 "mpz.ml" 299 8412 8426
+type(
+  'b tt
+)
+ident(
+  def c "mpz.ml" 299 8412 8427 "mpz.ml" 299 8412 8455
+)
+"mpz.ml" 299 8412 8428 "mpz.ml" 299 8412 8434
+type(
+  'c tt
+)
+ident(
+  def modulo "mpz.ml" 299 8412 8437 "mpz.ml" 299 8412 8455
+)
+"mpz.ml" 299 8412 8437 "mpz.ml" 299 8412 8442
+type(
+  t -> 'a tt -> 'b tt -> 'c tt -> unit
+)
+ident(
+  int_ref _powm "mpz.ml" 293 8244 8244 "mpz.ml" 294 8298 8324
+)
+"mpz.ml" 299 8412 8443 "mpz.ml" 299 8412 8444
+type(
+  t
+)
+ident(
+  int_ref a "mpz.ml" 299 8412 8421 "mpz.ml" 299 8412 8422
+)
+"mpz.ml" 299 8412 8445 "mpz.ml" 299 8412 8446
+type(
+  'a tt
+)
+ident(
+  int_ref b "mpz.ml" 299 8412 8423 "mpz.ml" 299 8412 8424
+)
+"mpz.ml" 299 8412 8447 "mpz.ml" 299 8412 8448
+type(
+  'b tt
+)
+ident(
+  int_ref c "mpz.ml" 299 8412 8425 "mpz.ml" 299 8412 8426
+)
+"mpz.ml" 299 8412 8449 "mpz.ml" 299 8412 8455
+type(
+  'c tt
+)
+ident(
+  int_ref modulo "mpz.ml" 299 8412 8428 "mpz.ml" 299 8412 8434
+)
+"mpz.ml" 299 8412 8437 "mpz.ml" 299 8412 8455
+type(
+  unit
+)
+"mpz.ml" 300 8456 8460 "mpz.ml" 300 8456 8467
+type(
+  t -> 'a tt -> int -> modulo:'b tt -> unit
+)
+ident(
+  def powm_ui "mpz.ml" 302 8507 8507 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 300 8456 8468 "mpz.ml" 300 8456 8469
+type(
+  t
+)
+ident(
+  def a "mpz.ml" 300 8456 8470 "mpz.ml" 300 8456 8505
+)
+"mpz.ml" 300 8456 8470 "mpz.ml" 300 8456 8471
+type(
+  'a tt
+)
+ident(
+  def b "mpz.ml" 300 8456 8472 "mpz.ml" 300 8456 8505
+)
+"mpz.ml" 300 8456 8472 "mpz.ml" 300 8456 8473
+type(
+  int
+)
+ident(
+  def c "mpz.ml" 300 8456 8474 "mpz.ml" 300 8456 8505
+)
+"mpz.ml" 300 8456 8475 "mpz.ml" 300 8456 8481
+type(
+  'b tt
+)
+ident(
+  def modulo "mpz.ml" 300 8456 8484 "mpz.ml" 300 8456 8505
+)
+"mpz.ml" 300 8456 8484 "mpz.ml" 300 8456 8492
+type(
+  t -> 'a tt -> int -> 'b tt -> unit
+)
+ident(
+  int_ref _powm_ui "mpz.ml" 296 8326 8326 "mpz.ml" 297 8381 8410
+)
+"mpz.ml" 300 8456 8493 "mpz.ml" 300 8456 8494
+type(
+  t
+)
+ident(
+  int_ref a "mpz.ml" 300 8456 8468 "mpz.ml" 300 8456 8469
+)
+"mpz.ml" 300 8456 8495 "mpz.ml" 300 8456 8496
+type(
+  'a tt
+)
+ident(
+  int_ref b "mpz.ml" 300 8456 8470 "mpz.ml" 300 8456 8471
+)
+"mpz.ml" 300 8456 8497 "mpz.ml" 300 8456 8498
+type(
+  int
+)
+ident(
+  int_ref c "mpz.ml" 300 8456 8472 "mpz.ml" 300 8456 8473
+)
+"mpz.ml" 300 8456 8499 "mpz.ml" 300 8456 8505
+type(
+  'b tt
+)
+ident(
+  int_ref modulo "mpz.ml" 300 8456 8475 "mpz.ml" 300 8456 8481
+)
+"mpz.ml" 300 8456 8484 "mpz.ml" 300 8456 8505
+type(
+  unit
+)
+"mpz.ml" 321 8987 8991 "mpz.ml" 321 8987 8998
+type(
+  t -> remainder:t -> 'a tt -> unit
+)
+ident(
+  def sqrtrem "mpz.ml" 322 9039 9039 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 321 8987 8999 "mpz.ml" 321 8987 9000
+type(
+  t
+)
+ident(
+  def a "mpz.ml" 321 8987 9001 "mpz.ml" 321 8987 9038
+)
+"mpz.ml" 321 8987 9002 "mpz.ml" 321 8987 9011
+type(
+  t
+)
+ident(
+  def remainder "mpz.ml" 321 8987 9012 "mpz.ml" 321 8987 9038
+)
+"mpz.ml" 321 8987 9012 "mpz.ml" 321 8987 9013
+type(
+  'a tt
+)
+ident(
+  def b "mpz.ml" 321 8987 9016 "mpz.ml" 321 8987 9038
+)
+"mpz.ml" 321 8987 9016 "mpz.ml" 321 8987 9024
+type(
+  t -> t -> 'a tt -> unit
+)
+ident(
+  int_ref _sqrtrem "mpz.ml" 318 8912 8912 "mpz.ml" 319 8956 8985
+)
+"mpz.ml" 321 8987 9025 "mpz.ml" 321 8987 9026
+type(
+  t
+)
+ident(
+  int_ref a "mpz.ml" 321 8987 8999 "mpz.ml" 321 8987 9000
+)
+"mpz.ml" 321 8987 9027 "mpz.ml" 321 8987 9036
+type(
+  t
+)
+ident(
+  int_ref remainder "mpz.ml" 321 8987 9002 "mpz.ml" 321 8987 9011
+)
+"mpz.ml" 321 8987 9037 "mpz.ml" 321 8987 9038
+type(
+  'a tt
+)
+ident(
+  int_ref b "mpz.ml" 321 8987 9012 "mpz.ml" 321 8987 9013
+)
+"mpz.ml" 321 8987 9016 "mpz.ml" 321 8987 9038
+type(
+  unit
+)
+"mpz.ml" 347 9741 9745 "mpz.ml" 347 9741 9751
+type(
+  gcd:t -> alpha:t -> beta:t -> 'a tt -> 'b tt -> unit
+)
+ident(
+  def gcdext "mpz.ml" 348 9803 9803 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 347 9741 9753 "mpz.ml" 347 9741 9756
+type(
+  t
+)
+ident(
+  def gcd "mpz.ml" 347 9741 9757 "mpz.ml" 347 9741 9802
+)
+"mpz.ml" 347 9741 9758 "mpz.ml" 347 9741 9763
+type(
+  t
+)
+ident(
+  def alpha "mpz.ml" 347 9741 9764 "mpz.ml" 347 9741 9802
+)
+"mpz.ml" 347 9741 9765 "mpz.ml" 347 9741 9769
+type(
+  t
+)
+ident(
+  def beta "mpz.ml" 347 9741 9770 "mpz.ml" 347 9741 9802
+)
+"mpz.ml" 347 9741 9770 "mpz.ml" 347 9741 9771
+type(
+  'a tt
+)
+ident(
+  def a "mpz.ml" 347 9741 9772 "mpz.ml" 347 9741 9802
+)
+"mpz.ml" 347 9741 9772 "mpz.ml" 347 9741 9773
+type(
+  'b tt
+)
+ident(
+  def b "mpz.ml" 347 9741 9776 "mpz.ml" 347 9741 9802
+)
+"mpz.ml" 347 9741 9776 "mpz.ml" 347 9741 9783
+type(
+  t -> t -> t -> 'a tt -> 'b tt -> unit
+)
+ident(
+  int_ref _gcdext "mpz.ml" 344 9654 9654 "mpz.ml" 345 9711 9739
+)
+"mpz.ml" 347 9741 9784 "mpz.ml" 347 9741 9787
+type(
+  t
+)
+ident(
+  int_ref gcd "mpz.ml" 347 9741 9753 "mpz.ml" 347 9741 9756
+)
+"mpz.ml" 347 9741 9788 "mpz.ml" 347 9741 9793
+type(
+  t
+)
+ident(
+  int_ref alpha "mpz.ml" 347 9741 9758 "mpz.ml" 347 9741 9763
+)
+"mpz.ml" 347 9741 9794 "mpz.ml" 347 9741 9798
+type(
+  t
+)
+ident(
+  int_ref beta "mpz.ml" 347 9741 9765 "mpz.ml" 347 9741 9769
+)
+"mpz.ml" 347 9741 9799 "mpz.ml" 347 9741 9800
+type(
+  'a tt
+)
+ident(
+  int_ref a "mpz.ml" 347 9741 9770 "mpz.ml" 347 9741 9771
+)
+"mpz.ml" 347 9741 9801 "mpz.ml" 347 9741 9802
+type(
+  'b tt
+)
+ident(
+  int_ref b "mpz.ml" 347 9741 9772 "mpz.ml" 347 9741 9773
+)
+"mpz.ml" 347 9741 9776 "mpz.ml" 347 9741 9802
+type(
+  unit
+)
+"mpz.ml" 474 13011 13015 "mpz.ml" 474 13011 13021
+type(
+  dest:t ->
+  (int, Bigarray.int32_elt, Bigarray.c_layout) Bigarray.Array1.t ->
+  order:int -> endian:int -> unit
+)
+ident(
+  def import "mpz.ml" 475 13083 13083 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 474 13011 13023 "mpz.ml" 474 13011 13027
+type(
+  t
+)
+ident(
+  def dest "mpz.ml" 474 13011 13028 "mpz.ml" 474 13011 13082
+)
+"mpz.ml" 474 13011 13028 "mpz.ml" 474 13011 13033
+type(
+  (int, Bigarray.int32_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def array "mpz.ml" 474 13011 13034 "mpz.ml" 474 13011 13082
+)
+"mpz.ml" 474 13011 13035 "mpz.ml" 474 13011 13040
+type(
+  int
+)
+ident(
+  def order "mpz.ml" 474 13011 13041 "mpz.ml" 474 13011 13082
+)
+"mpz.ml" 474 13011 13042 "mpz.ml" 474 13011 13048
+type(
+  int
+)
+ident(
+  def endian "mpz.ml" 474 13011 13051 "mpz.ml" 474 13011 13082
+)
+"mpz.ml" 474 13011 13051 "mpz.ml" 474 13011 13058
+type(
+  t ->
+  (int, Bigarray.int32_elt, Bigarray.c_layout) Bigarray.Array1.t ->
+  int -> int -> unit
+)
+ident(
+  int_ref _import "mpz.ml" 468 12737 12737 "mpz.ml" 469 12846 12874
+)
+"mpz.ml" 474 13011 13059 "mpz.ml" 474 13011 13063
+type(
+  t
+)
+ident(
+  int_ref dest "mpz.ml" 474 13011 13023 "mpz.ml" 474 13011 13027
+)
+"mpz.ml" 474 13011 13064 "mpz.ml" 474 13011 13069
+type(
+  (int, Bigarray.int32_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref array "mpz.ml" 474 13011 13028 "mpz.ml" 474 13011 13033
+)
+"mpz.ml" 474 13011 13070 "mpz.ml" 474 13011 13075
+type(
+  int
+)
+ident(
+  int_ref order "mpz.ml" 474 13011 13035 "mpz.ml" 474 13011 13040
+)
+"mpz.ml" 474 13011 13076 "mpz.ml" 474 13011 13082
+type(
+  int
+)
+ident(
+  int_ref endian "mpz.ml" 474 13011 13042 "mpz.ml" 474 13011 13048
+)
+"mpz.ml" 474 13011 13051 "mpz.ml" 474 13011 13082
+type(
+  unit
+)
+"mpz.ml" 475 13083 13087 "mpz.ml" 475 13083 13093
+type(
+  'a tt ->
+  order:int ->
+  endian:int ->
+  (int, Bigarray.int32_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def export "mpz.ml" 478 13138 13138 "mpz.ml" 1 0 -1
+)
+"mpz.ml" 475 13083 13094 "mpz.ml" 475 13083 13095
+type(
+  'a tt
+)
+ident(
+  def x "mpz.ml" 475 13083 13096 "mpz.ml" 475 13083 13135
+)
+"mpz.ml" 475 13083 13097 "mpz.ml" 475 13083 13102
+type(
+  int
+)
+ident(
+  def order "mpz.ml" 475 13083 13103 "mpz.ml" 475 13083 13135
+)
+"mpz.ml" 475 13083 13104 "mpz.ml" 475 13083 13110
+type(
+  int
+)
+ident(
+  def endian "mpz.ml" 475 13083 13113 "mpz.ml" 475 13083 13135
+)
+"mpz.ml" 475 13083 13113 "mpz.ml" 475 13083 13120
+type(
+  'a tt ->
+  int ->
+  int -> (int, Bigarray.int32_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref _export "mpz.ml" 471 12876 12876 "mpz.ml" 472 12981 13009
+)
+"mpz.ml" 475 13083 13121 "mpz.ml" 475 13083 13122
+type(
+  'a tt
+)
+ident(
+  int_ref x "mpz.ml" 475 13083 13094 "mpz.ml" 475 13083 13095
+)
+"mpz.ml" 475 13083 13123 "mpz.ml" 475 13083 13128
+type(
+  int
+)
+ident(
+  int_ref order "mpz.ml" 475 13083 13097 "mpz.ml" 475 13083 13102
+)
+"mpz.ml" 475 13083 13129 "mpz.ml" 475 13083 13135
+type(
+  int
+)
+ident(
+  int_ref endian "mpz.ml" 475 13083 13104 "mpz.ml" 475 13083 13110
+)
+"mpz.ml" 475 13083 13113 "mpz.ml" 475 13083 13135
+type(
+  (int, Bigarray.int32_elt, Bigarray.c_layout) Bigarray.Array1.t
+)

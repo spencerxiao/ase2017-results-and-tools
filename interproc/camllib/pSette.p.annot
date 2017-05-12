@@ -1,0 +1,1662 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  def make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 184 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 140 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 147
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 148 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 182
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 148 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 151
+type(
+  'a Sette.t
+)
+ident(
+  def set "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 154 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 182
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 164 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 171
+type(
+  'a -> 'a -> int
+)
+ident(
+  int_ref compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 140 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 147
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 177 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 180
+type(
+  'a Sette.t
+)
+ident(
+  int_ref set "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 148 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 151
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 154 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 182
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 188 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 193
+type(
+  ('a -> 'a -> int) -> 'a t
+)
+ident(
+  def empty "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 229 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 194 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 201
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 228
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 208
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 209 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 216
+type(
+  'a -> 'a -> int
+)
+ident(
+  int_ref compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 194 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 201
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 217 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 228
+type(
+  'a Sette.t
+)
+ident(
+  ext_ref Sette.empty
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 204 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 9 184 228
+call(
+  tail
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 233 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 241
+type(
+  'a t -> bool
+)
+ident(
+  def is_empty "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 267 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 242 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 243
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 246 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 266
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 246 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 260
+type(
+  'a Sette.t -> bool
+)
+ident(
+  ext_ref Sette.is_empty
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 261 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 262
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 242 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 243
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 261 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 266
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 246 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 10 229 266
+call(
+  tail
+)
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 271 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 280
+type(
+  ('a -> 'a -> int) -> 'a -> 'a t
+)
+ident(
+  def singleton "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 326 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 288
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 289 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 325
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 289 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 290
+type(
+  'a
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 293 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 325
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 293 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 297
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 298 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 305
+type(
+  'a -> 'a -> int
+)
+ident(
+  int_ref compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 288
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 307 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 322
+type(
+  'a -> 'a Sette.t
+)
+ident(
+  ext_ref Sette.singleton
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 323 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 324
+type(
+  'a
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 289 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 290
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 306 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 325
+call(
+  stack
+)
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 293 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 11 267 325
+call(
+  tail
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 330 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 334
+type(
+  ('a -> unit) -> 'a t -> unit
+)
+ident(
+  def iter "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 360 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 335 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 336
+type(
+  'a -> unit
+)
+ident(
+  def f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 337 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 359
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 337 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 338
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 341 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 359
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 341 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 351
+type(
+  ('a -> unit) -> 'a Sette.t -> unit
+)
+ident(
+  ext_ref Sette.iter
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 352 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 353
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 335 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 336
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 354 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 355
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 337 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 338
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 354 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 359
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 341 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 12 326 359
+call(
+  tail
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 364 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 368
+type(
+  ('a -> 'b -> 'b) -> 'a t -> 'b -> 'b
+)
+ident(
+  def fold "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 402 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 369 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 370
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 371 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 401
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 371 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 372
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 373 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 401
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 373 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 376
+type(
+  'b
+)
+ident(
+  def acc "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 379 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 401
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 379 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 389
+type(
+  ('a -> 'b -> 'b) -> 'a Sette.t -> 'b -> 'b
+)
+ident(
+  ext_ref Sette.fold
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 390 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 391
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 369 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 370
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 392 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 393
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 371 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 372
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 392 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 397
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 398 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 401
+type(
+  'b
+)
+ident(
+  int_ref acc "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 373 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 376
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 379 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 13 360 401
+call(
+  tail
+)
+type(
+  'b
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 406 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 413
+type(
+  ('a -> bool) -> 'a t -> bool
+)
+ident(
+  def for_all "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 442 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 414 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 415
+type(
+  'a -> bool
+)
+ident(
+  def f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 416 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 441
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 416 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 417
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 420 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 441
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 420 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 433
+type(
+  ('a -> bool) -> 'a Sette.t -> bool
+)
+ident(
+  ext_ref Sette.for_all
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 434 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 435
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 414 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 415
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 436 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 437
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 416 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 417
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 436 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 441
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 420 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 14 402 441
+call(
+  tail
+)
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 446 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 452
+type(
+  ('a -> bool) -> 'a t -> bool
+)
+ident(
+  def exists "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 480 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 453 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 454
+type(
+  'a -> bool
+)
+ident(
+  def f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 455 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 479
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 455 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 456
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 459 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 479
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 459 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 471
+type(
+  ('a -> bool) -> 'a Sette.t -> bool
+)
+ident(
+  ext_ref Sette.exists
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 473
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 453 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 454
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 474 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 475
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 455 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 456
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 474 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 479
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 459 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 15 442 479
+call(
+  tail
+)
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 484 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 492
+type(
+  'a t -> int
+)
+ident(
+  def cardinal "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 518 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 493 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 494
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 497 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 517
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 497 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 511
+type(
+  'a Sette.t -> int
+)
+ident(
+  ext_ref Sette.cardinal
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 512 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 513
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 493 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 494
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 512 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 517
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 497 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 16 480 517
+call(
+  tail
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 522 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 530
+type(
+  'a t -> 'a list
+)
+ident(
+  def elements "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 556 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 531 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 532
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 535 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 555
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 535 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 549
+type(
+  'a Sette.t -> 'a list
+)
+ident(
+  ext_ref Sette.elements
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 550 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 551
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 531 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 532
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 550 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 555
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 535 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 17 518 555
+call(
+  tail
+)
+type(
+  'a list
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 560 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 567
+type(
+  'a t -> 'a
+)
+ident(
+  def min_elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 592 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 568 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 569
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 572 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 591
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 572 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 585
+type(
+  'a Sette.t -> 'a
+)
+ident(
+  ext_ref Sette.min_elt
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 586 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 587
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 568 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 569
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 586 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 591
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 572 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 591
+call(
+  tail
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 596 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 603
+type(
+  'a t -> 'a
+)
+ident(
+  def max_elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 20 628 628 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 604 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 605
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 608 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 627
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 608 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 621
+type(
+  'a Sette.t -> 'a
+)
+ident(
+  ext_ref Sette.max_elt
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 622 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 623
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 604 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 605
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 622 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 627
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 608 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 19 592 627
+call(
+  tail
+)
+type(
+  'a
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 20 628 632 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 20 628 638
+type(
+  'a t -> 'a
+)
+ident(
+  def choose "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 649 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 20 628 641 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 20 628 648
+type(
+  'a t -> 'a
+)
+ident(
+  int_ref min_elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 560 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 18 556 567
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 653 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 658
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a t -> unit
+)
+ident(
+  def print "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 731 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 660 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 665
+type(
+  (unit, Format.formatter, unit) format option
+)
+ident(
+  def first "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 666 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 730
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 667 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 670
+type(
+  (unit, Format.formatter, unit) format option
+)
+ident(
+  def sep "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 671 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 730
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 672 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 676
+type(
+  (unit, Format.formatter, unit) format option
+)
+ident(
+  def last "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 677 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 730
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 677 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 679
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def px "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 680 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 730
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 680 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 683
+type(
+  Format.formatter
+)
+ident(
+  def fmt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 684 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 730
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 684 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 685
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 688 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 730
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 688 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 699
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a Sette.t -> unit
+)
+ident(
+  ext_ref Sette.print
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 701 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 706
+type(
+  (unit, Format.formatter, unit) format option
+)
+ident(
+  int_ref first "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 660 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 665
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 708 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 711
+type(
+  (unit, Format.formatter, unit) format option
+)
+ident(
+  int_ref sep "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 667 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 670
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 713 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 717
+type(
+  (unit, Format.formatter, unit) format option
+)
+ident(
+  int_ref last "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 672 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 676
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 718 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 720
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref px "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 677 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 679
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 721 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 724
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 680 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 683
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 725 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 726
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 684 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 685
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 725 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 730
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 688 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 21 649 730
+call(
+  tail
+)
+type(
+  unit
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 735 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 738
+type(
+  'a -> 'a t -> 'a t
+)
+ident(
+  def add "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 798 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 739 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 740
+type(
+  'a
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 741 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 797
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 741 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 742
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 745 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 797
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 745 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 749
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 750 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 751
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 741 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 742
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 750 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 759
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 761 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 778
+type(
+  ('a -> 'a -> int) -> 'a -> 'a Sette.t -> 'a Sette.t
+)
+ident(
+  ext_ref Sette.Compare.add
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 779 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 780
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 741 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 742
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 779 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 788
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 789 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 790
+type(
+  'a
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 739 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 740
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 791 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 792
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 741 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 742
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 791 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 796
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 760 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 797
+call(
+  stack
+)
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 745 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 22 731 797
+call(
+  tail
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 802 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 805
+type(
+  'a -> 'a t -> bool
+)
+ident(
+  def mem "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 848 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 806 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 807
+type(
+  'a
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 808 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 847
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 808 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 809
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 812 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 847
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 812 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 829
+type(
+  ('a -> 'a -> int) -> 'a -> 'a Sette.t -> bool
+)
+ident(
+  ext_ref Sette.Compare.mem
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 830 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 831
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 808 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 809
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 830 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 839
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 840 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 841
+type(
+  'a
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 806 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 807
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 842 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 843
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 808 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 809
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 842 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 847
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 812 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 23 798 847
+call(
+  tail
+)
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 852 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 858
+type(
+  'a -> 'a t -> 'a t
+)
+ident(
+  def remove "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 921 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 859 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 860
+type(
+  'a
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 861 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 920
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 861 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 862
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 865 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 920
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 865 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 869
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 870 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 871
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 861 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 862
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 870 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 879
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 881 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 901
+type(
+  ('a -> 'a -> int) -> 'a -> 'a Sette.t -> 'a Sette.t
+)
+ident(
+  ext_ref Sette.Compare.remove
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 902 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 903
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 861 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 862
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 902 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 911
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 912 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 913
+type(
+  'a
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 859 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 860
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 914 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 915
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 861 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 862
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 914 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 919
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 880 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 920
+call(
+  stack
+)
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 865 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 24 848 920
+call(
+  tail
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 925 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 930
+type(
+  'a t -> 'a t -> 'a t
+)
+ident(
+  def union "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1005 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 931 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 933
+type(
+  'a t
+)
+ident(
+  def t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 934 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 1004
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 934 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 936
+type(
+  'a t
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 942 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 1004
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 942 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 946
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 947 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 949
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 931 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 933
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 947 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 957
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 959 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 978
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a Sette.t -> 'a Sette.t
+)
+ident(
+  ext_ref Sette.Compare.union
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 979 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 981
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 931 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 933
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 979 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 989
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 990 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 992
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 931 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 933
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 990 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 996
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 997 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 999
+type(
+  'a t
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 934 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 25 921 936
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 997 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 1003
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 958 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 1004
+call(
+  stack
+)
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 942 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 26 940 1004
+call(
+  tail
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1009 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1014
+type(
+  'a t -> 'a t -> 'a t
+)
+ident(
+  def inter "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1089 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1015 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1017
+type(
+  'a t
+)
+ident(
+  def t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1018 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1088
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1018 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1020
+type(
+  'a t
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1026 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1088
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1026 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1030
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1031 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1033
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1015 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1017
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1031 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1041
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1043 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1062
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a Sette.t -> 'a Sette.t
+)
+ident(
+  ext_ref Sette.Compare.inter
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1063 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1065
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1015 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1017
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1063 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1073
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1074 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1076
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1015 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1017
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1074 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1080
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1081 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1083
+type(
+  'a t
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1018 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 27 1005 1020
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1081 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1087
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1042 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1088
+call(
+  stack
+)
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1026 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 28 1024 1088
+call(
+  tail
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1093 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1097
+type(
+  'a t -> 'a t -> 'a t
+)
+ident(
+  def diff "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1171 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1098 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1100
+type(
+  'a t
+)
+ident(
+  def t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1101 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1170
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1101 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1103
+type(
+  'a t
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1109 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1170
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1109 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1113
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1114 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1116
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1098 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1100
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1114 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1124
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1126 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1144
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a Sette.t -> 'a Sette.t
+)
+ident(
+  ext_ref Sette.Compare.diff
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1147
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1098 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1100
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1145 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1155
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1156 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1158
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1098 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1100
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1156 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1162
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1163 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1165
+type(
+  'a t
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1101 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 29 1089 1103
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1163 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1169
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1125 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1170
+call(
+  stack
+)
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1109 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 30 1107 1170
+call(
+  tail
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1175 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1180
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  def equal "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1236 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1181 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1183
+type(
+  'a t
+)
+ident(
+  def t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1184 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1235
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1184 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1186
+type(
+  'a t
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1191 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1235
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1191 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1210
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a Sette.t -> bool
+)
+ident(
+  ext_ref Sette.Compare.equal
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1211 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1213
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1181 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1183
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1211 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1221
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1222 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1224
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1181 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1183
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1222 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1228
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1229 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1231
+type(
+  'a t
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1184 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 31 1171 1186
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1229 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1235
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1191 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 32 1189 1235
+call(
+  tail
+)
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1240 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1247
+type(
+  'a t -> 'a t -> int
+)
+ident(
+  def compare "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1306 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1248 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1250
+type(
+  'a t
+)
+ident(
+  def t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1251 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1305
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1251 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1253
+type(
+  'a t
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1259 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1305
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1259 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1280
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a Sette.t -> int
+)
+ident(
+  ext_ref Sette.Compare.compare
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1283
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1248 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1250
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1281 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1291
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1292 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1294
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1248 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1250
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1292 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1298
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1299 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1301
+type(
+  'a t
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1251 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 33 1236 1253
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1299 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1305
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1259 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 34 1257 1305
+call(
+  tail
+)
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1310 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1316
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  def subset "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1373 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1317 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1319
+type(
+  'a t
+)
+ident(
+  def t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1320 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1372
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1320 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1322
+type(
+  'a t
+)
+ident(
+  def t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1327 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1372
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1327 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1347
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a Sette.t -> bool
+)
+ident(
+  ext_ref Sette.Compare.subset
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1348 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1350
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1317 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1319
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1348 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1358
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1359 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1361
+type(
+  'a t
+)
+ident(
+  int_ref t1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1317 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1319
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1359 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1365
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1366 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1368
+type(
+  'a t
+)
+ident(
+  int_ref t2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1320 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 35 1306 1322
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1366 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1372
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1327 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 36 1325 1372
+call(
+  tail
+)
+type(
+  bool
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1377 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1383
+type(
+  ('a -> bool) -> 'a t -> 'a t
+)
+ident(
+  def filter "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1449 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1384 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1385
+type(
+  'a -> bool
+)
+ident(
+  def f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1448
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1387
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1393 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1448
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1393 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1397
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1398 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1399
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1387
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1398 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1407
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1409 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1429
+type(
+  ('a -> 'a -> int) -> ('a -> bool) -> 'a Sette.t -> 'a Sette.t
+)
+ident(
+  ext_ref Sette.Compare.filter
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1430 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1431
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1387
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1430 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1439
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1440 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1441
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1384 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1385
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1442 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1443
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1386 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 37 1373 1387
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1442 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1447
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1408 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1448
+call(
+  stack
+)
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1393 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 38 1391 1448
+call(
+  tail
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1453 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1462
+type(
+  ('a -> bool) -> 'a t -> 'a t * 'a t
+)
+ident(
+  def partition "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1579 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1463 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1464
+type(
+  'a -> bool
+)
+ident(
+  def f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1465 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1579
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1465 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1466
+type(
+  'a t
+)
+ident(
+  def t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1579
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1477 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1481
+type(
+  'a Sette.t
+)
+ident(
+  def set1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1537 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1579
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1482 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1486
+type(
+  'a Sette.t
+)
+ident(
+  def set2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1537 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1579
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1476 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1487
+type(
+  'a Sette.t * 'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1490 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1513
+type(
+  ('a -> 'a -> int) -> ('a -> bool) -> 'a Sette.t -> 'a Sette.t * 'a Sette.t
+)
+ident(
+  ext_ref Sette.Compare.partition
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1514 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1515
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1465 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1466
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1514 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1523
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1524 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1525
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1463 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1464
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1526 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1527
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1465 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1466
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1526 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1531
+type(
+  'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1490 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1531
+call(
+  stack
+)
+type(
+  'a Sette.t * 'a Sette.t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1538 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1542
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1543 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1544
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1465 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1466
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1543 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1552
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1553 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1557
+type(
+  'a Sette.t
+)
+ident(
+  int_ref set1 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1477 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1481
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1538 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1557
+call(
+  stack
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1559 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1563
+type(
+  ('a -> 'a -> int) -> 'a Sette.t -> 'a t
+)
+ident(
+  int_ref make "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 135 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 7 131 139
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1564 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1565
+type(
+  'a t
+)
+ident(
+  int_ref t "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1465 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 39 1449 1466
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1564 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1573
+type(
+  'a -> 'a -> int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1574 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1578
+type(
+  'a Sette.t
+)
+ident(
+  int_ref set2 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1482 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1486
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1559 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1578
+call(
+  stack
+)
+type(
+  'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1537 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1579
+type(
+  'a t * 'a t
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 40 1470 1472 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/pSette.ml" 41 1535 1579
+type(
+  'a t * 'a t
+)

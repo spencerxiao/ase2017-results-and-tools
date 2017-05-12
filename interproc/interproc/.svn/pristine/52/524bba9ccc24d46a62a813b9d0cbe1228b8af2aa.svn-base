@@ -1,0 +1,17 @@
+var i:int,j:int;
+begin
+  i=0;
+  j=10;
+  while i<=j do
+    while j>=5 do
+      if i<=2 and i>=2 then
+        i=3;
+      endif;
+      if i<=5 and i>=5 then
+        i=4;
+      endif;
+      j=j-1;
+    done;
+    i=i+1;
+  done;
+end

@@ -1,0 +1,66 @@
+# -*- mode: makefile -*-
+
+include Makefile.build.config
+
+#---------------------------------------
+# Directories
+#---------------------------------------
+
+SRCDIR = $(shell pwd)
+#
+# Installation directory
+#
+PKG-NAME = fixpoint
+
+#---------------------------------------
+# Files
+#---------------------------------------
+
+CAMLLIB_SITE = $(shell ocamlfind query camllib)
+
+MLMODULES = $(shell cat fixpoint.mllib)
+
+FILES_TOINSTALL = \
+	$(MLMODULES:%=%.ml) $(MLMODULES:%=%.mli) \
+	$(MLMODULES:%=%.cmi) fixpoint.cma \
+	$(MLMODULES:%=%.cmx) fixpoint.cmxa fixpoint.a \
+	$(MLMODULES:%=%.p.cmx) fixpoint.p.cmxa fixpoint.p.a
+
+all:
+	$(OCAMLBUILD) all.otarget
+doc:
+	$(OCAMLBUILD) doc.otarget
+
+META: Makefile
+	/bin/rm -f META
+	echo "description = \"Utility Library (including various datatypes)\"" >META
+	echo "version = \"1.3.0\"" >>META
+	echo "archive(byte) = \"fixpoint.cma\"" >>META
+	echo "archive(native) = \"fixpoint.cmxa\"" >>META
+	echo "archive(native,gprof) = \"fixpoint.p.cmxa\"" >>META
+
+install: $(FILES_TOINSTALL)
+	$(OCAMLFIND) remove $(PKG-NAME)
+	$(OCAMLFIND) install $(PKG-NAME) META $(FILES_TOINSTALL:%=_build/%)
+
+uninstall:
+	$(OCAMLFIND) remove $(PKG-NAME)
+
+clean:
+	$(OCAMLBUILD) -clean
+distclean: clean
+	/bin/rm -f TAGS Makefile.depend myocamlbuild
+
+dot: $(MLMODULES:%=%.mli)
+	$(OCAMLDOC) -dot -dot-reduce -o fixpoint.dot $^
+
+homepage: doc
+	hyperlatex index
+	scp -r index.html _build/fixpoint.docdir _build/fixpoint.pdf \
+		avedon:/home/wwwpop-art/people/bjeannet/bjeannet-forge/fixpoint
+	ssh avedon chmod -R ugoa+rx /home/wwwpop-art/people/bjeannet/bjeannet-forge/fixpoint
+
+.PHONY: TAGS
+tags: TAGS
+TAGS: $(MLMODULES:%=%.mli) $(MLMODULES:%=%.ml)
+	ocamltags $^

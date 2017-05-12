@@ -1,0 +1,264 @@
+/* -*- mode: c -*- */
+
+/* This file is part of the MLGmpIDL interface, released under LGPL license
+   with an exception allowing the redistribution of statically linked
+   executables.
+   Please read the COPYING file packaged in the distribution  */
+
+quote(C, "\n\
+#include \"caml/custom.h\"\n\
+#include \"gmp_caml.h\"\n\
+#include <math.h>\n\
+")
+
+import "mpz.idl";
+
+typedef [abstract,c2ml(camlidl_mpq_ptr_c2ml),ml2c(camlidl_mpq_ptr_ml2c)] struct __mpq_struct* mpq_ptr;
+typedef [abstract,c2ml(camlidl_mpq_ptr_c2ml),ml2c(camlidl_mpq_ptr_ml2c)] struct __mpq_struct* mpq_ptrm;
+quote(MLMLI,"(** GMP multi-precision rationals *)\n\n")
+
+quote(MLMLI,"\n\
+type m (** Mutable tag *)\n\
+type f (** Functional (immutable) tag *)\n\
+type t = m tt (** Mutable multi-precision rationals *)\n\
+")
+
+quote(MLMLI,"(** The following operations are mapped as much as possible to their C counterpart. In case of imperative functions (like [set], [add], ...) the first parameter of type [t] is an out-parameter and holds the result when the function returns. For instance, [add x y z] adds the values of [y] and [z] and stores the result in [x].\n\n These functions are as efficient as their C counterpart: they do not imply additional memory allocation, unlike the corresponding functions in the module {!Mpqf}. *)\n\n")
+
+/* OUTOUTOUT is a reserved variable name ! (see Makefile and sedscript_c) */
+
+void mpq_canonicalize (mpq_ptr OP)
+quote(call,"if (mpz_sgn(mpq_denref(OP))) mpq_canonicalize(OP);");
+
+quote(MLI,"\n(** {2 Pretty printing} *)\n")
+quote(MLI,"val print : Format.formatter -> 'a tt -> unit")
+
+quote(MLMLI,"\n(** {2 Initialization and Assignment Functions} *)")
+quote(MLMLI,"(** {{:http://gmplib.org/manual/Initializing-Rationals.html#Initializing-Rationals}C documentation} *)\n")
+
+void mpq_init([out] mpq_ptr OUTOUTOUT);
+void mpq_set(mpq_ptrm ROP, mpq_ptr OP);
+void mpq_set_z (mpq_ptrm ROP, mpz_ptr OP);
+void mpq_set_si (mpq_ptrm ROP, signed long int OP1, unsigned long int OP2)
+     quote(dealloc, "if (OP2) mpq_canonicalize(ROP);");
+void mpq__set_str(mpq_ptrm ROP, [string]char* STR, int BASE)
+  quote(call,"{\n\
+  int n = mpq_set_str(ROP,STR,BASE);\n\
+  if (n){ caml_invalid_argument(\"\"); }\n\
+  if (mpz_sgn(mpq_denref(ROP))) mpq_canonicalize(ROP);\n\
+  }");
+quote(MLI,"val set_str : t -> string -> base:int -> unit")
+quote(ML,"let set_str a b ~base = _set_str a b base")
+
+void mpq_swap (mpq_ptrm ROP1, mpq_ptrm ROP2);
+
+quote(MLI,"(** {2 Additional Initialization and Assignements functions} *)\n")
+quote(MLI,"(** These functions are additions to or renaming of functions offered by the C library. *)\n")
+
+quote(MLI,"val init_set : 'a tt -> 'b tt")
+quote(MLI,"val init_set_z : 'a Mpz.tt -> 'b tt")
+quote(MLI,"val init_set_si : int -> int -> 'a tt")
+quote(MLI,"val init_set_str : string -> base:int -> 'a tt")
+quote(MLI,"val init_set_d : float -> 'a tt")
+
+quote(MLMLI,"\n(** {2 Conversion Functions} *)")
+quote(MLMLI,"(** {{:http://gmplib.org/manual/Rational-Conversions.html#Rational-Conversions}C documentation} *)\n")
+
+double mpq_get_d (mpq_ptr OP)
+;
+/*
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP)))\n\
+  _res = mpq_get_d(OP);\n\
+else {\n\
+  int s = mpq_sgn(OP);\n\
+  assert(s);\n\
+  _res = s>0 ? 1./0. : -1./0.;\n\
+}\n\
+");
+*/
+void mpq_set_d (mpq_ptrm ROP, double OP)
+  ;
+/*
+quote(call,"\n				\
+if (isinf(OP))\n\
+  mpq_set_si(ROP, (OP>0. ? 1 : -1), 0);\n\
+else\n\
+  mpq_set_d(ROP,OP);\n\
+");
+*/
+quote(MLI,"\n(* Replace Mpz.set_q: Mpz.t -> Mpq.t -> unit *)")
+void mpq_get_z(mpz_ptrm ROP, mpq_ptr OP)
+  quote(call,"assert (mpz_sgn(mpq_denref(OP))); mpz_set_q(ROP,OP);");
+
+quote(MLI,"\n(* For set_f: t -> Mpf.t -> unit, see Mpf.get_q *)\n\n")
+/* void mpq_set_f (mpq_ptrm ROP, mpf_ptr OP); */
+
+[string]char* mpq__get_str (int BASE, mpq_ptr OP)
+  quote(call,"_res = mpq_get_str(NULL,BASE,OP);")
+  quote(dealloc,"free(_res);");
+quote(MLI,"val get_str : base:int -> t -> string")
+quote(ML,"let get_str ~base a = _get_str base a")
+
+quote(MLI,"\n(** {2 User Conversions} *)\n")
+
+quote(MLI,"(** These functionss are additions to or renaming of functions offeered by the C library. *)\n")
+
+quote(MLI,"val to_string : 'a tt -> string")
+quote(MLI,"val to_float : 'a tt -> float")
+quote(MLI,"val of_string : string -> 'a tt")
+quote(MLI,"val of_float : float -> 'a tt")
+quote(MLI,"val of_int : int -> 'a tt")
+quote(MLI,"val of_frac : int -> int -> 'a tt")
+quote(MLI,"val of_mpz : 'a Mpz.tt -> 'b tt")
+quote(MLI,"val of_mpz2 : 'a Mpz.tt -> 'b Mpz.tt -> 'c tt")
+
+quote(MLMLI,"\n(** {2 Arithmetic Functions} *)")
+quote(MLMLI,"(** {{:http://gmplib.org/manual/Rational-Arithmetic.html#Rational-Arithmetic}C documentation} *)\n")
+void mpq_add (mpq_ptrm ROP, mpq_ptr OP1, mpq_ptr OP2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0){\n\
+  assert(mpz_sgn(mpq_denref(OP2))==0 ?\n\
+	 mpq_sgn(OP1)==mpq_sgn(OP2) :\n\
+	 1);\n\
+  mpq_set(ROP,OP1);\n\
+}\n\
+else if (mpz_sgn(mpq_denref(OP2))==0){\n\
+  mpq_set(ROP,OP2);\n\
+}\n\
+else {\n\
+  mpq_add(ROP,OP1,OP2);\n\
+}\n\
+");
+void mpq_sub (mpq_ptrm ROP, mpq_ptr OP1, mpq_ptr OP2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0){\n\
+  assert(mpz_sgn(mpq_denref(OP2))==0 ?\n\
+	 mpq_sgn(OP1)==-mpq_sgn(OP2) :\n\
+	 1);\n\
+  mpq_set(ROP,OP1);\n\
+}\n\
+else if (mpz_sgn(mpq_denref(OP2))==0){\n\
+  mpq_neg(ROP,OP2);\n\
+}\n\
+else {\n\
+  mpq_sub(ROP,OP1,OP2);\n\
+}\n\
+");
+void mpq_mul (mpq_ptrm ROP, mpq_ptr OP1, mpq_ptr OP2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0 || mpz_sgn(mpq_denref(OP2))==0){\n\
+  int s = mpq_sgn(OP1)*mpq_sgn(OP2);\n\
+  assert(s);\n\
+  mpq_set_si(ROP,s,0);\n\
+} else {\n\
+  mpq_mul(ROP,OP1,OP2);\n\
+}\n\
+");
+void mpq_mul_2exp (mpq_ptrm ROP, mpq_ptr OP1, unsigned long int OP2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0)\n\
+  mpq_set(ROP,OP1);\n\
+else\n\
+  mpq_mul_2exp(ROP,OP1,OP2);\n\
+");
+void mpq_div (mpq_ptrm ROP, mpq_ptr OP1, mpq_ptr OP2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0){\n\
+  assert(mpz_sgn(mpq_denref(OP2))>0);\n\
+  if (mpq_sgn(OP2)==0)\n\
+    mpq_set(ROP,OP1);\n\
+  else {\n\
+    mpq_set_si(ROP,mpq_sgn(OP1)*mpq_sgn(OP2),0);\n\
+  }\n\
+}\n\
+else if (mpz_sgn(mpq_denref(OP2))==0)\n\
+  mpq_set_ui(ROP,0,1);\n\
+else if (mpq_sgn(OP2)==0){\n\
+  int s = mpq_sgn(OP1);\n\
+  assert(s);\n\
+  mpq_set_si(ROP,s,0);\n\
+}\n\
+else\n\
+  mpq_div(ROP,OP1,OP2);\n\
+");
+void mpq_div_2exp (mpq_ptrm ROP, mpq_ptr OP1, unsigned long int OP2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0)\n\
+  mpq_set(ROP,OP1);\n\
+else\n\
+  mpq_div_2exp(ROP,OP1,OP2);\n\
+");
+void mpq_neg (mpq_ptrm ROP, mpq_ptr OP);
+void mpq_abs (mpq_ptrm ROP, mpq_ptr OP);
+void mpq_inv (mpq_ptrm ROP, mpq_ptr OP)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP))==0)\n\
+  mpq_set_ui(ROP,0,1);\n\
+else if (mpq_sgn(OP)==0)\n\
+  mpq_set_ui(ROP,1,0);\n\
+else\n\
+  mpq_inv(ROP,OP);\n\
+");
+
+quote(MLMLI,"\n(** {2 Comparison Functions} *)")
+quote(MLMLI,"(** {{:http://gmplib.org/manual/Comparing-Rationals.html#Comparing-Rationals}C documentation} *)\n")
+int mpq_cmp (mpq_ptr OP1, mpq_ptr OP2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0){\n\
+  if (mpz_sgn(mpq_denref(OP2))==0){\n\
+    _res = mpq_sgn(OP1)-mpq_sgn(OP2);\n\
+  } else {\n\
+    _res = mpq_sgn(OP1);\n\
+  }\n\
+}\n\
+else if (mpz_sgn(mpq_denref(OP2))==0){\n\
+  _res = -mpq_sgn(OP2);\n\
+}\n\
+else {\n\
+  _res = mpq_cmp(OP1,OP2);\n\
+}\n\
+");
+int mpq_cmp_si (mpq_ptr OP1, long int NUM2, unsigned long int DEN2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0)\n\
+  _res = mpq_sgn(OP1);\n\
+else\n\
+  _res = mpq_cmp_si(OP1,NUM2,DEN2);\n\
+");
+int mpq_sgn (mpq_ptr OP);
+boolean mpq_equal (mpq_ptr OP1, mpq_ptr OP2)
+quote(call,"\n\
+if (mpz_sgn(mpq_denref(OP1))==0 && mpz_sgn(mpq_denref(OP2))==0)\n\
+  _res = mpq_sgn(OP1)==mpq_sgn(OP2);\n\
+else \n\
+  _res = mpq_equal(OP1,OP2);\n\
+");
+
+quote(MLMLI,"\n(** {2 Applying Integer Functions to Rationals} *)")
+quote(MLMLI,"(** {{:http://gmplib.org/manual/Applying-Integer-Functions.html#Applying-Integer-Functions}C documentation} *)\n")
+void mpq_get_num (mpz_ptrm NUMERATOR, mpq_ptr RATIONAL);
+void mpq_get_den (mpz_ptrm DENOMINATOR, mpq_ptr RATIONAL);
+void mpq_set_num (mpq_ptrm RATIONAL, mpz_ptr NUMERATOR);
+void mpq_set_den (mpq_ptrm RATIONAL, mpz_ptr DENOMINATOR);
+
+quote(MLMLI,"\n(** {2 Input and Output Functions: not interfaced} *)\n")
+
+quote(ML,"\n(** {2 Pretty printing} *)\n")
+quote(ML,"let print fmt x = Format.pp_print_string fmt (get_str 10 x)")
+
+quote(ML,"let (_gen : m tt -> 'a tt) = Obj.magic")
+quote(ML,"let init_set x = let y = init() in set y x; _gen y")
+quote(ML,"let init_set_z z = let x = init() in set_z x z; _gen x")
+quote(ML,"let init_set_si n d = let x = init() in set_si x n d; _gen x")
+quote(ML,"let init_set_str str ~base = let x = init() in ignore (set_str x str ~base); _gen x")
+quote(ML,"let init_set_d d = let x = init() in set_d x d; _gen x")
+
+quote(ML,"let to_string x = get_str 10 x")
+quote(ML,"let to_float = get_d")
+quote(ML,"let of_string str = init_set_str str 10")
+quote(ML,"let of_float = init_set_d")
+quote(ML,"let of_int a = init_set_si a 1")
+quote(ML,"let of_frac = init_set_si")
+quote(ML,"let of_mpz = init_set_z")
+quote(ML,"let of_mpz2 num den = let res = init() in set_num res num; set_den res den; canonicalize res; _gen res")

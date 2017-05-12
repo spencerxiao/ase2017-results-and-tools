@@ -1,0 +1,9 @@
+var x:int, y:int;
+begin
+	x = -50;
+	while (x < 0) do
+		x = x +_i y;
+		y = y +_i 1;
+	done;
+	assume( y > 0);
+end

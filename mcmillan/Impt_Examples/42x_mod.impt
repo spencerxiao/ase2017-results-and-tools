@@ -1,0 +1,41 @@
+MODULE main
+	int x;
+	int y;
+	int a;
+	int flag;
+
+	int finish;
+
+	assume(x == 1);
+	assume(y == 1);
+	assume((flag == 1 && a == 0) || (flag != 1 && a == 1));
+
+	assume(finish == 0);
+
+	while(*){
+		if(flag == 1) {
+			a = x + y;
+			x = x + 1;
+		} 
+		else {
+      			a = x + y + 1;
+			y = y + 1;
+    		}
+
+		if(a % 2 == 1){
+			y = y + 1;
+		}
+		else{
+			x = x + 1;
+		}
+	}
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && (flag == 1 && a % 2 != 0);

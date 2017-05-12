@@ -1,0 +1,28 @@
+MODULE main
+	int i;
+	int sum;
+	int n;
+
+	int finish;
+
+	assume(sum == 0);
+	assume(n >= 0);
+	assume(i == 0);
+
+	assume(finish == 0);
+
+	while(i < n){
+		sum = sum + i;
+		i = i + 1;
+	}
+
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && sum < 0;

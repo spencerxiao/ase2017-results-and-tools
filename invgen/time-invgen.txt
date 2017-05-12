@@ -1,0 +1,181 @@
+running invgen for 01.c.pl
+0:00.39 real
+0.02 user
+0.00 sys
+running invgen for 02.c.pl
+Command exited with non-zero status 1
+0:00.17 real
+0.03 user
+0.00 sys
+running invgen for 04.c.pl
+0:00.32 real
+0.02 user
+0.00 sys
+running invgen for 05.c.pl
+0:00.37 real
+0.06 user
+0.00 sys
+running invgen for 06.c.pl
+Command exited with non-zero status 1
+0:00.15 real
+0.02 user
+0.00 sys
+running invgen for 07.c.pl
+0:00.45 real
+0.04 user
+0.00 sys
+running invgen for 08.c.pl
+0:00.39 real
+0.04 user
+0.00 sys
+running invgen for 09.c.pl
+0:00.42 real
+0.06 user
+0.00 sys
+running invgen for 10.c.pl
+Command exited with non-zero status 1
+0:00.14 real
+0.02 user
+0.00 sys
+running invgen for 11.c.pl
+0:00.39 real
+0.04 user
+0.00 sys
+running invgen for 12.c.pl
+Command exited with non-zero status 124
+3:20.00 real
+199.52 user
+0.12 sys
+running invgen for 13.c.pl
+0:00.76 real
+0.49 user
+0.00 sys
+running invgen for 14.c.pl
+0:00.36 real
+0.03 user
+0.00 sys
+running invgen for 15.c.pl
+0:00.34 real
+0.05 user
+0.00 sys
+running invgen for 16.c.pl
+0:00.42 real
+0.06 user
+0.00 sys
+running invgen for 17.c.pl
+0:00.47 real
+0.09 user
+0.00 sys
+running invgen for 18.c.pl
+0:07.65 real
+7.31 user
+0.00 sys
+running invgen for 19.c.pl
+0:00.40 real
+0.13 user
+0.00 sys
+running invgen for 20.c.pl
+0:00.40 real
+0.12 user
+0.00 sys
+running invgen for 21.c.pl
+Command exited with non-zero status 1
+0:00.20 real
+0.02 user
+0.00 sys
+running invgen for 22.c.pl
+Command exited with non-zero status 1
+0:00.24 real
+0.02 user
+0.00 sys
+running invgen for 23.c.pl
+0:00.37 real
+0.04 user
+0.00 sys
+running invgen for 25.c.pl
+0:02.99 real
+2.69 user
+0.00 sys
+running invgen for 26.c.pl
+Command exited with non-zero status 1
+0:00.14 real
+0.01 user
+0.00 sys
+running invgen for 28.c.pl
+0:00.58 real
+0.05 user
+0.00 sys
+running invgen for 29.c.pl
+Command exited with non-zero status 1
+0:00.16 real
+0.03 user
+0.00 sys
+running invgen for 30.c.pl
+0:00.46 real
+0.03 user
+0.00 sys
+running invgen for 32.c.pl
+Command exited with non-zero status 1
+0:00.18 real
+0.02 user
+0.00 sys
+running invgen for 33.c.pl
+Command exited with non-zero status 124
+3:20.00 real
+199.73 user
+0.00 sys
+running invgen for 34.c.pl
+Command exited with non-zero status 1
+0:00.14 real
+0.01 user
+0.00 sys
+running invgen for 35.c.pl
+0:00.36 real
+0.04 user
+0.00 sys
+running invgen for 36.c.pl
+Command exited with non-zero status 1
+0:00.20 real
+0.03 user
+0.00 sys
+running invgen for 37.c.pl
+0:00.47 real
+0.06 user
+0.00 sys
+running invgen for 38.c.pl
+Command exited with non-zero status 1
+0:00.16 real
+0.03 user
+0.00 sys
+running invgen for 40.c.pl
+Command exited with non-zero status 1
+0:00.20 real
+0.04 user
+0.00 sys
+running invgen for 41.c.pl
+0:00.50 real
+0.04 user
+0.00 sys
+running invgen for 42.c.pl
+Command exited with non-zero status 1
+0:00.17 real
+0.03 user
+0.00 sys
+running invgen for 43.c.pl
+0:00.38 real
+0.04 user
+0.00 sys
+running invgen for 44.c.pl
+0:00.49 real
+0.18 user
+0.00 sys
+running invgen for 45.c.pl
+Command exited with non-zero status 1
+0:00.22 real
+0.05 user
+0.00 sys
+running invgen for 46.c.pl
+Command exited with non-zero status 1
+0:00.18 real
+0.02 user
+0.00 sys

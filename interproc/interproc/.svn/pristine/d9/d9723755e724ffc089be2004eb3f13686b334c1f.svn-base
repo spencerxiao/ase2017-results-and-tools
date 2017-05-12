@@ -1,0 +1,17 @@
+var i:int,j:int;
+begin
+  i=0;
+  j=100;
+  while i<=j do
+    while j>=50 do
+      if i<=20 and i>=20 then
+        i=30;
+      endif;
+      if i<=50 and i>=50 then
+        i=40;
+      endif;
+      j=j-1;
+    done;
+    i=i+1;
+  done;
+end

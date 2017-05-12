@@ -1,0 +1,14 @@
+[32mAnnotated program after forward analysis[m
+var i : int, c : int;
+begin
+  /* [31m(L2 C5) [|i=0 mod 1; c=0 mod 1|][m */
+  i = 0; /* [31m(L3 C8) [|i=0; i=0; c=0 mod 1|][m */
+  c = 0; /* [31m(L4 C8) [|-i+1000>=0; i=0 mod 1; c=0 mod 1|][m */
+  while i < 1000 do
+    /* [31m(L6 C21) [|-i+999>=0; i=0 mod 1; c=0 mod 1|][m */
+    c = c +_i,? i; /* [31m(L7 C16) [|-i+999>=0; i=0 mod 1; c=0 mod 1|][m */
+    i = i +_i,? 1; /* [31m(L8 C16) [|-i+1000>=0; i=0 mod 1; c=0 mod 1|][m */
+  done; /* [31m(L9 C7) [|i-1000=0; i-1000=0; c=0 mod 1|][m */
+  assume c >= 0; /* [31m(L11 C18) [|i-1000=0; c>=0; i-1000=0; c=0 mod 1|][m */
+end
+

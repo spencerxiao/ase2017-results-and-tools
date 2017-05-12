@@ -1,0 +1,3259 @@
+"frontend.ml" 16 432 436 "frontend.ml" 16 432 448
+type(
+  Format.formatter -> Lexing.lexbuf -> Spl_syn.program
+)
+ident(
+  def parse_lexbuf "frontend.ml" 53 1456 1456 "frontend.ml" 1 0 -1
+)
+"frontend.ml" 17 449 452 "frontend.ml" 17 449 455
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend.ml" 18 474 476 "frontend.ml" 50 1370 1376
+)
+"frontend.ml" 18 474 477 "frontend.ml" 18 474 483
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "frontend.ml" 19 499 501 "frontend.ml" 50 1370 1376
+)
+"frontend.ml" 22 525 531 "frontend.ml" 22 525 535
+type(
+  Spl_syn.program
+)
+ident(
+  def prog "frontend.ml" 50 1370 1372 "frontend.ml" 50 1370 1376
+)
+"frontend.ml" 24 546 552 "frontend.ml" 24 546 568
+type(
+  (Lexing.lexbuf -> Spl_yacc.token) -> Lexing.lexbuf -> Spl_syn.program
+)
+ident(
+  ext_ref Spl_yacc.program
+)
+"frontend.ml" 24 546 569 "frontend.ml" 24 546 582
+type(
+  Lexing.lexbuf -> Spl_yacc.token
+)
+ident(
+  ext_ref Spl_lex.token
+)
+"frontend.ml" 24 546 583 "frontend.ml" 24 546 589
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "frontend.ml" 18 474 477 "frontend.ml" 18 474 483
+)
+"frontend.ml" 24 546 552 "frontend.ml" 24 546 589
+call(
+  stack
+)
+type(
+  Spl_syn.program
+)
+"frontend.ml" 26 599 605 "frontend.ml" 26 599 624
+type(
+  exn
+)
+"frontend.ml" 27 628 633 "frontend.ml" 27 628 639
+type(
+  Lexing.position
+)
+ident(
+  def startp "frontend.ml" 30 714 715 "frontend.ml" 37 976 988
+)
+"frontend.ml" 27 628 642 "frontend.ml" 27 628 663
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"frontend.ml" 27 628 664 "frontend.ml" 27 628 670
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "frontend.ml" 18 474 477 "frontend.ml" 18 474 483
+)
+"frontend.ml" 27 628 642 "frontend.ml" 27 628 670
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"frontend.ml" 28 671 676 "frontend.ml" 28 671 680
+type(
+  Lexing.position
+)
+ident(
+  def endp "frontend.ml" 30 714 715 "frontend.ml" 37 976 988
+)
+"frontend.ml" 28 671 683 "frontend.ml" 28 671 702
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"frontend.ml" 28 671 703 "frontend.ml" 28 671 709
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "frontend.ml" 18 474 477 "frontend.ml" 18 474 483
+)
+"frontend.ml" 28 671 683 "frontend.ml" 28 671 709
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"frontend.ml" 30 714 715 "frontend.ml" 30 714 729
+type(
+  Format.formatter ->
+  (string -> int -> int -> int -> string -> unit, Format.formatter, unit)
+  format -> string -> int -> int -> int -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend.ml" 30 714 730 "frontend.ml" 30 714 733
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 17 449 452 "frontend.ml" 17 449 455
+)
+"frontend.ml" 31 734 737 "frontend.ml" 31 734 795
+type(
+  (string -> int -> int -> int -> string -> unit, Format.formatter, unit)
+  format
+)
+"frontend.ml" 32 796 799 "frontend.ml" 32 796 805
+type(
+  Lexing.position
+)
+ident(
+  int_ref startp "frontend.ml" 27 628 633 "frontend.ml" 27 628 639
+)
+"frontend.ml" 32 796 799 "frontend.ml" 32 796 822
+type(
+  string
+)
+"frontend.ml" 33 823 826 "frontend.ml" 33 823 832
+type(
+  Lexing.position
+)
+ident(
+  int_ref startp "frontend.ml" 27 628 633 "frontend.ml" 27 628 639
+)
+"frontend.ml" 33 823 826 "frontend.ml" 33 823 848
+type(
+  int
+)
+"frontend.ml" 34 849 853 "frontend.ml" 34 849 859
+type(
+  Lexing.position
+)
+ident(
+  int_ref startp "frontend.ml" 27 628 633 "frontend.ml" 27 628 639
+)
+"frontend.ml" 34 849 853 "frontend.ml" 34 849 875
+type(
+  int
+)
+"frontend.ml" 34 849 876 "frontend.ml" 34 849 877
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend.ml" 34 849 878 "frontend.ml" 34 849 884
+type(
+  Lexing.position
+)
+ident(
+  int_ref startp "frontend.ml" 27 628 633 "frontend.ml" 27 628 639
+)
+"frontend.ml" 34 849 878 "frontend.ml" 34 849 899
+type(
+  int
+)
+"frontend.ml" 34 849 852 "frontend.ml" 34 849 900
+type(
+  int
+)
+"frontend.ml" 35 901 905 "frontend.ml" 35 901 909
+type(
+  Lexing.position
+)
+ident(
+  int_ref endp "frontend.ml" 28 671 676 "frontend.ml" 28 671 680
+)
+"frontend.ml" 35 901 905 "frontend.ml" 35 901 925
+type(
+  int
+)
+"frontend.ml" 35 901 926 "frontend.ml" 35 901 927
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend.ml" 35 901 928 "frontend.ml" 35 901 932
+type(
+  Lexing.position
+)
+ident(
+  int_ref endp "frontend.ml" 28 671 676 "frontend.ml" 28 671 680
+)
+"frontend.ml" 35 901 928 "frontend.ml" 35 901 947
+type(
+  int
+)
+"frontend.ml" 35 901 904 "frontend.ml" 35 901 948
+type(
+  int
+)
+"frontend.ml" 36 949 953 "frontend.ml" 36 949 966
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"frontend.ml" 36 949 967 "frontend.ml" 36 949 973
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "frontend.ml" 18 474 477 "frontend.ml" 18 474 483
+)
+"frontend.ml" 36 949 952 "frontend.ml" 36 949 974
+call(
+  stack
+)
+type(
+  string
+)
+"frontend.ml" 30 714 715 "frontend.ml" 36 949 974
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 37 976 977 "frontend.ml" 37 976 982
+type(
+  exn -> Spl_syn.program
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"frontend.ml" 37 976 983 "frontend.ml" 37 976 987
+type(
+  exn
+)
+"frontend.ml" 37 976 977 "frontend.ml" 37 976 988
+type(
+  Spl_syn.program
+)
+"frontend.ml" 30 714 715 "frontend.ml" 37 976 988
+type(
+  Spl_syn.program
+)
+"frontend.ml" 27 628 629 "frontend.ml" 37 976 988
+type(
+  Spl_syn.program
+)
+"frontend.ml" 38 989 995 "frontend.ml" 38 989 1008
+type(
+  exn
+)
+"frontend.ml" 39 1012 1017 "frontend.ml" 39 1012 1023
+type(
+  Lexing.position
+)
+ident(
+  def startp "frontend.ml" 42 1098 1099 "frontend.ml" 48 1353 1364
+)
+"frontend.ml" 39 1012 1026 "frontend.ml" 39 1012 1047
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"frontend.ml" 39 1012 1048 "frontend.ml" 39 1012 1054
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "frontend.ml" 18 474 477 "frontend.ml" 18 474 483
+)
+"frontend.ml" 39 1012 1026 "frontend.ml" 39 1012 1054
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"frontend.ml" 40 1055 1060 "frontend.ml" 40 1055 1064
+type(
+  Lexing.position
+)
+ident(
+  def endp "frontend.ml" 42 1098 1099 "frontend.ml" 48 1353 1364
+)
+"frontend.ml" 40 1055 1067 "frontend.ml" 40 1055 1086
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"frontend.ml" 40 1055 1087 "frontend.ml" 40 1055 1093
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "frontend.ml" 18 474 477 "frontend.ml" 18 474 483
+)
+"frontend.ml" 40 1055 1067 "frontend.ml" 40 1055 1093
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"frontend.ml" 42 1098 1099 "frontend.ml" 42 1098 1113
+type(
+  Format.formatter ->
+  (string -> int -> int -> int -> string -> unit, Format.formatter, unit)
+  format -> string -> int -> int -> int -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend.ml" 42 1098 1114 "frontend.ml" 42 1098 1117
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 17 449 452 "frontend.ml" 17 449 455
+)
+"frontend.ml" 42 1098 1118 "frontend.ml" 42 1098 1172
+type(
+  (string -> int -> int -> int -> string -> unit, Format.formatter, unit)
+  format
+)
+"frontend.ml" 43 1173 1176 "frontend.ml" 43 1173 1182
+type(
+  Lexing.position
+)
+ident(
+  int_ref startp "frontend.ml" 39 1012 1017 "frontend.ml" 39 1012 1023
+)
+"frontend.ml" 43 1173 1176 "frontend.ml" 43 1173 1199
+type(
+  string
+)
+"frontend.ml" 44 1200 1203 "frontend.ml" 44 1200 1209
+type(
+  Lexing.position
+)
+ident(
+  int_ref startp "frontend.ml" 39 1012 1017 "frontend.ml" 39 1012 1023
+)
+"frontend.ml" 44 1200 1203 "frontend.ml" 44 1200 1225
+type(
+  int
+)
+"frontend.ml" 45 1226 1230 "frontend.ml" 45 1226 1236
+type(
+  Lexing.position
+)
+ident(
+  int_ref startp "frontend.ml" 39 1012 1017 "frontend.ml" 39 1012 1023
+)
+"frontend.ml" 45 1226 1230 "frontend.ml" 45 1226 1252
+type(
+  int
+)
+"frontend.ml" 45 1226 1253 "frontend.ml" 45 1226 1254
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend.ml" 45 1226 1255 "frontend.ml" 45 1226 1261
+type(
+  Lexing.position
+)
+ident(
+  int_ref startp "frontend.ml" 39 1012 1017 "frontend.ml" 39 1012 1023
+)
+"frontend.ml" 45 1226 1255 "frontend.ml" 45 1226 1276
+type(
+  int
+)
+"frontend.ml" 45 1226 1229 "frontend.ml" 45 1226 1277
+type(
+  int
+)
+"frontend.ml" 46 1278 1282 "frontend.ml" 46 1278 1286
+type(
+  Lexing.position
+)
+ident(
+  int_ref endp "frontend.ml" 40 1055 1060 "frontend.ml" 40 1055 1064
+)
+"frontend.ml" 46 1278 1282 "frontend.ml" 46 1278 1302
+type(
+  int
+)
+"frontend.ml" 46 1278 1303 "frontend.ml" 46 1278 1304
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend.ml" 46 1278 1305 "frontend.ml" 46 1278 1309
+type(
+  Lexing.position
+)
+ident(
+  int_ref endp "frontend.ml" 40 1055 1060 "frontend.ml" 40 1055 1064
+)
+"frontend.ml" 46 1278 1305 "frontend.ml" 46 1278 1324
+type(
+  int
+)
+"frontend.ml" 46 1278 1281 "frontend.ml" 46 1278 1325
+type(
+  int
+)
+"frontend.ml" 47 1326 1330 "frontend.ml" 47 1326 1343
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"frontend.ml" 47 1326 1344 "frontend.ml" 47 1326 1350
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "frontend.ml" 18 474 477 "frontend.ml" 18 474 483
+)
+"frontend.ml" 47 1326 1329 "frontend.ml" 47 1326 1351
+call(
+  stack
+)
+type(
+  string
+)
+"frontend.ml" 42 1098 1099 "frontend.ml" 47 1326 1351
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 48 1353 1354 "frontend.ml" 48 1353 1359
+type(
+  exn -> Spl_syn.program
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"frontend.ml" 48 1353 1360 "frontend.ml" 48 1353 1364
+type(
+  exn
+)
+"frontend.ml" 48 1353 1354 "frontend.ml" 48 1353 1364
+type(
+  Spl_syn.program
+)
+"frontend.ml" 42 1098 1099 "frontend.ml" 48 1353 1364
+type(
+  Spl_syn.program
+)
+"frontend.ml" 39 1012 1013 "frontend.ml" 48 1353 1364
+type(
+  Spl_syn.program
+)
+"frontend.ml" 23 538 542 "frontend.ml" 48 1353 1364
+type(
+  Spl_syn.program
+)
+"frontend.ml" 50 1370 1372 "frontend.ml" 50 1370 1376
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 22 525 531 "frontend.ml" 22 525 535
+)
+"frontend.ml" 22 525 527 "frontend.ml" 50 1370 1376
+type(
+  Spl_syn.program
+)
+type(
+  Spl_syn.program
+)
+"frontend.ml" 56 1584 1588 "frontend.ml" 56 1584 1600
+type(
+  Format.formatter -> Spl_syn.program -> Equation.graph * Equation.graph
+)
+ident(
+  def build_graphs "frontend.ml" 90 2583 2583 "frontend.ml" 1 0 -1
+)
+"frontend.ml" 57 1601 1604 "frontend.ml" 57 1601 1607
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend.ml" 58 1626 1628 "frontend.ml" 88 2564 2581
+)
+"frontend.ml" 58 1626 1629 "frontend.ml" 58 1626 1633
+type(
+  Spl_syn.program
+)
+ident(
+  def prog "frontend.ml" 59 1651 1653 "frontend.ml" 88 2564 2581
+)
+"frontend.ml" 63 1748 1755 "frontend.ml" 63 1748 1761
+type(
+  Equation.graph
+)
+ident(
+  def fgraph "frontend.ml" 64 1814 1816 "frontend.ml" 88 2564 2581
+)
+"frontend.ml" 63 1748 1780 "frontend.ml" 63 1748 1805
+type(
+  Spl_syn.program -> Equation.graph
+)
+ident(
+  ext_ref Syn2equation.Forward.make
+)
+"frontend.ml" 63 1748 1806 "frontend.ml" 63 1748 1810
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 58 1626 1629 "frontend.ml" 58 1626 1633
+)
+"frontend.ml" 63 1748 1780 "frontend.ml" 63 1748 1810
+call(
+  stack
+)
+type(
+  Equation.graph
+)
+"frontend.ml" 64 1814 1819 "frontend.ml" 64 1814 1820
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 64 1814 1820 "frontend.ml" 64 1814 1825
+type(
+  int ref
+)
+ident(
+  ext_ref Option.debug
+)
+"frontend.ml" 64 1814 1819 "frontend.ml" 64 1814 1825
+type(
+  int
+)
+"frontend.ml" 64 1814 1825 "frontend.ml" 64 1814 1826
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"frontend.ml" 64 1814 1826 "frontend.ml" 64 1814 1827
+type(
+  int
+)
+"frontend.ml" 64 1814 1819 "frontend.ml" 64 1814 1827
+type(
+  bool
+)
+"frontend.ml" 65 1833 1837 "frontend.ml" 65 1833 1844
+type(
+  Format.formatter ->
+  (string ->
+   string ->
+   (Format.formatter -> Equation.graph -> unit) -> Equation.graph -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  string ->
+  (Format.formatter -> Equation.graph -> unit) -> Equation.graph -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend.ml" 65 1833 1845 "frontend.ml" 65 1833 1848
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 57 1601 1604 "frontend.ml" 57 1601 1607
+)
+"frontend.ml" 65 1833 1849 "frontend.ml" 65 1833 1892
+type(
+  (string ->
+   string ->
+   (Format.formatter -> Equation.graph -> unit) -> Equation.graph -> unit,
+   Format.formatter, unit)
+  format
+)
+"frontend.ml" 66 1893 1900 "frontend.ml" 66 1893 1901
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 66 1893 1901 "frontend.ml" 66 1893 1919
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 66 1893 1899 "frontend.ml" 66 1893 1920
+type(
+  Option.displaytags
+)
+"frontend.ml" 66 1893 1899 "frontend.ml" 66 1893 1930
+type(
+  string
+)
+"frontend.ml" 66 1893 1932 "frontend.ml" 66 1893 1933
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 66 1893 1933 "frontend.ml" 66 1893 1951
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 66 1893 1931 "frontend.ml" 66 1893 1952
+type(
+  Option.displaytags
+)
+"frontend.ml" 66 1893 1931 "frontend.ml" 66 1893 1962
+type(
+  string
+)
+"frontend.ml" 67 1963 1970 "frontend.ml" 67 1963 1984
+type(
+  (Format.formatter -> Equation.vertex -> unit) ->
+  (Format.formatter -> Equation.hedge -> unit) ->
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Equation.transfer -> unit) ->
+  (Format.formatter -> Equation.info -> unit) ->
+  Format.formatter -> Equation.graph -> unit
+)
+ident(
+  ext_ref PSHGraph.print
+)
+"frontend.ml" 68 1985 1986 "frontend.ml" 68 1985 2006
+type(
+  Format.formatter -> Equation.vertex -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_point
+)
+"frontend.ml" 69 2007 2008 "frontend.ml" 69 2007 2020
+type(
+  Format.formatter -> Equation.hedge -> unit
+)
+ident(
+  ext_ref Format.pp_print_int
+)
+"frontend.ml" 70 2021 2027 "frontend.ml" 70 2021 2030
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend.ml" 70 2021 2031 "frontend.ml" 70 2021 2061
+)
+"frontend.ml" 70 2021 2031 "frontend.ml" 70 2021 2033
+type(
+  unit
+)
+"frontend.ml" 70 2021 2037 "frontend.ml" 70 2021 2052
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend.ml" 70 2021 2053 "frontend.ml" 70 2021 2056
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 70 2021 2027 "frontend.ml" 70 2021 2030
+)
+"frontend.ml" 70 2021 2057 "frontend.ml" 70 2021 2061
+type(
+  string
+)
+"frontend.ml" 70 2021 2037 "frontend.ml" 70 2021 2061
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 70 2021 2022 "frontend.ml" 70 2021 2062
+type(
+  Format.formatter -> unit -> unit
+)
+"frontend.ml" 71 2063 2064 "frontend.ml" 71 2063 2087
+type(
+  Format.formatter -> Equation.transfer -> unit
+)
+ident(
+  ext_ref Equation.print_transfer
+)
+"frontend.ml" 72 2088 2089 "frontend.ml" 72 2088 2108
+type(
+  Format.formatter -> Equation.info -> unit
+)
+ident(
+  ext_ref Equation.print_info
+)
+"frontend.ml" 67 1963 1969 "frontend.ml" 72 2088 2109
+call(
+  stack
+)
+type(
+  Format.formatter -> Equation.graph -> unit
+)
+"frontend.ml" 73 2110 2116 "frontend.ml" 73 2110 2122
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 63 1748 1755 "frontend.ml" 63 1748 1761
+)
+"frontend.ml" 65 1833 1837 "frontend.ml" 73 2110 2122
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 64 1814 1816 "frontend.ml" 73 2110 2122
+type(
+  unit
+)
+"frontend.ml" 76 2183 2190 "frontend.ml" 76 2183 2196
+type(
+  Equation.graph
+)
+ident(
+  def bgraph "frontend.ml" 77 2250 2252 "frontend.ml" 88 2564 2581
+)
+"frontend.ml" 76 2183 2215 "frontend.ml" 76 2183 2241
+type(
+  Spl_syn.program -> Equation.graph
+)
+ident(
+  ext_ref Syn2equation.Backward.make
+)
+"frontend.ml" 76 2183 2242 "frontend.ml" 76 2183 2246
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 58 1626 1629 "frontend.ml" 58 1626 1633
+)
+"frontend.ml" 76 2183 2215 "frontend.ml" 76 2183 2246
+call(
+  stack
+)
+type(
+  Equation.graph
+)
+"frontend.ml" 77 2250 2255 "frontend.ml" 77 2250 2256
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 77 2250 2256 "frontend.ml" 77 2250 2261
+type(
+  int ref
+)
+ident(
+  ext_ref Option.debug
+)
+"frontend.ml" 77 2250 2255 "frontend.ml" 77 2250 2261
+type(
+  int
+)
+"frontend.ml" 77 2250 2261 "frontend.ml" 77 2250 2262
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"frontend.ml" 77 2250 2262 "frontend.ml" 77 2250 2263
+type(
+  int
+)
+"frontend.ml" 77 2250 2255 "frontend.ml" 77 2250 2263
+type(
+  bool
+)
+"frontend.ml" 78 2269 2273 "frontend.ml" 78 2269 2280
+type(
+  Format.formatter ->
+  (string ->
+   string ->
+   (Format.formatter -> Equation.graph -> unit) -> Equation.graph -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  string ->
+  (Format.formatter -> Equation.graph -> unit) -> Equation.graph -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend.ml" 78 2269 2281 "frontend.ml" 78 2269 2284
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 57 1601 1604 "frontend.ml" 57 1601 1607
+)
+"frontend.ml" 78 2269 2285 "frontend.ml" 78 2269 2329
+type(
+  (string ->
+   string ->
+   (Format.formatter -> Equation.graph -> unit) -> Equation.graph -> unit,
+   Format.formatter, unit)
+  format
+)
+"frontend.ml" 79 2330 2337 "frontend.ml" 79 2330 2338
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 79 2330 2338 "frontend.ml" 79 2330 2356
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 79 2330 2336 "frontend.ml" 79 2330 2357
+type(
+  Option.displaytags
+)
+"frontend.ml" 79 2330 2336 "frontend.ml" 79 2330 2367
+type(
+  string
+)
+"frontend.ml" 79 2330 2369 "frontend.ml" 79 2330 2370
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 79 2330 2370 "frontend.ml" 79 2330 2388
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 79 2330 2368 "frontend.ml" 79 2330 2389
+type(
+  Option.displaytags
+)
+"frontend.ml" 79 2330 2368 "frontend.ml" 79 2330 2399
+type(
+  string
+)
+"frontend.ml" 80 2400 2407 "frontend.ml" 80 2400 2421
+type(
+  (Format.formatter -> Equation.vertex -> unit) ->
+  (Format.formatter -> Equation.hedge -> unit) ->
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Equation.transfer -> unit) ->
+  (Format.formatter -> Equation.info -> unit) ->
+  Format.formatter -> Equation.graph -> unit
+)
+ident(
+  ext_ref PSHGraph.print
+)
+"frontend.ml" 81 2422 2423 "frontend.ml" 81 2422 2443
+type(
+  Format.formatter -> Equation.vertex -> unit
+)
+ident(
+  ext_ref PSpl_syn.print_point
+)
+"frontend.ml" 82 2444 2445 "frontend.ml" 82 2444 2457
+type(
+  Format.formatter -> Equation.hedge -> unit
+)
+ident(
+  ext_ref Format.pp_print_int
+)
+"frontend.ml" 83 2458 2464 "frontend.ml" 83 2458 2467
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend.ml" 83 2458 2468 "frontend.ml" 83 2458 2498
+)
+"frontend.ml" 83 2458 2468 "frontend.ml" 83 2458 2470
+type(
+  unit
+)
+"frontend.ml" 83 2458 2474 "frontend.ml" 83 2458 2489
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend.ml" 83 2458 2490 "frontend.ml" 83 2458 2493
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 83 2458 2464 "frontend.ml" 83 2458 2467
+)
+"frontend.ml" 83 2458 2494 "frontend.ml" 83 2458 2498
+type(
+  string
+)
+"frontend.ml" 83 2458 2474 "frontend.ml" 83 2458 2498
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 83 2458 2459 "frontend.ml" 83 2458 2499
+type(
+  Format.formatter -> unit -> unit
+)
+"frontend.ml" 84 2500 2501 "frontend.ml" 84 2500 2524
+type(
+  Format.formatter -> Equation.transfer -> unit
+)
+ident(
+  ext_ref Equation.print_transfer
+)
+"frontend.ml" 85 2525 2526 "frontend.ml" 85 2525 2545
+type(
+  Format.formatter -> Equation.info -> unit
+)
+ident(
+  ext_ref Equation.print_info
+)
+"frontend.ml" 80 2400 2406 "frontend.ml" 85 2525 2546
+call(
+  stack
+)
+type(
+  Format.formatter -> Equation.graph -> unit
+)
+"frontend.ml" 86 2547 2553 "frontend.ml" 86 2547 2559
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 76 2183 2190 "frontend.ml" 76 2183 2196
+)
+"frontend.ml" 78 2269 2273 "frontend.ml" 86 2547 2559
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 77 2250 2252 "frontend.ml" 86 2547 2559
+type(
+  unit
+)
+"frontend.ml" 88 2564 2567 "frontend.ml" 88 2564 2573
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 63 1748 1755 "frontend.ml" 63 1748 1761
+)
+"frontend.ml" 88 2564 2574 "frontend.ml" 88 2564 2580
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 76 2183 2190 "frontend.ml" 76 2183 2196
+)
+"frontend.ml" 88 2564 2566 "frontend.ml" 88 2564 2581
+type(
+  Equation.graph * Equation.graph
+)
+"frontend.ml" 77 2250 2252 "frontend.ml" 88 2564 2581
+type(
+  Equation.graph * Equation.graph
+)
+"frontend.ml" 76 2183 2185 "frontend.ml" 88 2564 2581
+type(
+  Equation.graph * Equation.graph
+)
+"frontend.ml" 64 1814 1816 "frontend.ml" 88 2564 2581
+type(
+  Equation.graph * Equation.graph
+)
+"frontend.ml" 63 1748 1750 "frontend.ml" 88 2564 2581
+type(
+  Equation.graph * Equation.graph
+)
+type(
+  Equation.graph * Equation.graph
+)
+"frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph -> Equation.graph -> 'a Apron.Manager.t -> unit
+)
+ident(
+  def compute_and_display "frontend.ml" 137 3672 3672 "frontend.ml" 1 0 -1
+)
+"frontend.ml" 91 2607 2610 "frontend.ml" 91 2607 2613
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend.ml" 92 2632 2634 "frontend.ml" 135 3666 3670
+)
+"frontend.ml" 92 2632 2635 "frontend.ml" 92 2632 2639
+type(
+  Spl_syn.program
+)
+ident(
+  def prog "frontend.ml" 93 2657 2659 "frontend.ml" 135 3666 3670
+)
+"frontend.ml" 93 2657 2660 "frontend.ml" 93 2657 2666
+type(
+  Equation.graph
+)
+ident(
+  def fgraph "frontend.ml" 93 2657 2683 "frontend.ml" 135 3666 3670
+)
+"frontend.ml" 93 2657 2684 "frontend.ml" 93 2657 2690
+type(
+  Equation.graph
+)
+ident(
+  def bgraph "frontend.ml" 94 2707 2709 "frontend.ml" 135 3666 3670
+)
+"frontend.ml" 94 2707 2710 "frontend.ml" 94 2707 2717
+type(
+  'a Apron.Manager.t
+)
+ident(
+  def manager "frontend.ml" 95 2738 2740 "frontend.ml" 135 3666 3670
+)
+"frontend.ml" 99 2759 2764 "frontend.ml" 99 2759 2772
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref
+)
+ident(
+  def previous "frontend.ml" 106 2893 2895 "frontend.ml" 135 3666 3670
+)
+"frontend.ml" 104 2875 2879 "frontend.ml" 104 2875 2882
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ->
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"frontend.ml" 104 2875 2883 "frontend.ml" 104 2875 2887
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option
+)
+"frontend.ml" 104 2875 2879 "frontend.ml" 104 2875 2887
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref
+)
+"frontend.ml" 106 2893 2895 "frontend.ml" 106 2893 2904
+type(
+  (Option.analysis -> unit) -> Option.analysis list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"frontend.ml" 107 2905 2920 "frontend.ml" 107 2905 2921
+type(
+  Option.analysis
+)
+ident(
+  def t "frontend.ml" 109 2949 2955 "frontend.ml" 131 3612 3638
+)
+"frontend.ml" 109 2949 2959 "frontend.ml" 109 2949 2961
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  def fp "frontend.ml" 130 3572 3578 "frontend.ml" 131 3612 3638
+)
+"frontend.ml" 110 2964 2977 "frontend.ml" 110 2964 2978
+type(
+  Option.analysis
+)
+ident(
+  int_ref t "frontend.ml" 107 2905 2920 "frontend.ml" 107 2905 2921
+)
+"frontend.ml" 111 2984 2987 "frontend.ml" 111 2984 2994
+type(
+  Option.analysis
+)
+"frontend.ml" 112 2998 3007 "frontend.ml" 112 2998 3009
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  def fp "frontend.ml" 115 3105 3110 "frontend.ml" 118 3249 3256
+)
+"frontend.ml" 113 3012 3019 "frontend.ml" 113 3012 3042
+type(
+  fmt:Format.formatter ->
+  Equation.graph ->
+  output:(Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+         option ->
+  'a Apron.Manager.t ->
+  debug:int ->
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  ext_ref Solving.Forward.compute
+)
+"frontend.ml" 113 3012 3044 "frontend.ml" 113 3012 3047
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 91 2607 2610 "frontend.ml" 91 2607 2613
+)
+"frontend.ml" 113 3012 3048 "frontend.ml" 113 3012 3054
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 93 2657 2660 "frontend.ml" 93 2657 2666
+)
+"frontend.ml" 113 3012 3064 "frontend.ml" 113 3012 3065
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref ->
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 113 3012 3065 "frontend.ml" 113 3012 3073
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref
+)
+ident(
+  int_ref previous "frontend.ml" 99 2759 2764 "frontend.ml" 99 2759 2772
+)
+"frontend.ml" 113 3012 3063 "frontend.ml" 113 3012 3074
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option
+)
+"frontend.ml" 113 3012 3075 "frontend.ml" 113 3012 3082
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref manager "frontend.ml" 94 2707 2710 "frontend.ml" 94 2707 2717
+)
+"frontend.ml" 113 3012 3090 "frontend.ml" 113 3012 3091
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 113 3012 3091 "frontend.ml" 113 3012 3096
+type(
+  int ref
+)
+ident(
+  ext_ref Option.debug
+)
+"frontend.ml" 113 3012 3090 "frontend.ml" 113 3012 3096
+type(
+  int
+)
+"frontend.ml" 113 3012 3019 "frontend.ml" 113 3012 3096
+call(
+  stack
+)
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+"frontend.ml" 115 3105 3110 "frontend.ml" 115 3105 3117
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend.ml" 115 3105 3118 "frontend.ml" 115 3105 3121
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 91 2607 2610 "frontend.ml" 91 2607 2613
+)
+"frontend.ml" 115 3105 3122 "frontend.ml" 115 3105 3170
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"frontend.ml" 116 3171 3179 "frontend.ml" 116 3171 3180
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 116 3171 3180 "frontend.ml" 116 3171 3198
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 116 3171 3178 "frontend.ml" 116 3171 3199
+type(
+  Option.displaytags
+)
+"frontend.ml" 116 3171 3178 "frontend.ml" 116 3171 3209
+type(
+  string
+)
+"frontend.ml" 116 3171 3211 "frontend.ml" 116 3171 3212
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 116 3171 3212 "frontend.ml" 116 3171 3230
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 116 3171 3210 "frontend.ml" 116 3171 3231
+type(
+  Option.displaytags
+)
+"frontend.ml" 116 3171 3210 "frontend.ml" 116 3171 3241
+type(
+  string
+)
+"frontend.ml" 115 3105 3110 "frontend.ml" 116 3171 3241
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 118 3249 3254 "frontend.ml" 118 3249 3256
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  int_ref fp "frontend.ml" 112 2998 3007 "frontend.ml" 112 2998 3009
+)
+"frontend.ml" 115 3105 3110 "frontend.ml" 118 3249 3256
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+"frontend.ml" 112 2998 3003 "frontend.ml" 118 3249 3256
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+"frontend.ml" 119 3257 3260 "frontend.ml" 119 3257 3268
+type(
+  Option.analysis
+)
+"frontend.ml" 120 3272 3281 "frontend.ml" 120 3272 3283
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  def fp "frontend.ml" 123 3385 3390 "frontend.ml" 126 3530 3537
+)
+"frontend.ml" 121 3286 3293 "frontend.ml" 121 3286 3317
+type(
+  fmt:Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph ->
+  output:(Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+         option ->
+  'a Apron.Manager.t ->
+  debug:int ->
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  ext_ref Solving.Backward.compute
+)
+"frontend.ml" 121 3286 3319 "frontend.ml" 121 3286 3322
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 91 2607 2610 "frontend.ml" 91 2607 2613
+)
+"frontend.ml" 121 3286 3323 "frontend.ml" 121 3286 3327
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 92 2632 2635 "frontend.ml" 92 2632 2639
+)
+"frontend.ml" 121 3286 3328 "frontend.ml" 121 3286 3334
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 93 2657 2684 "frontend.ml" 93 2657 2690
+)
+"frontend.ml" 121 3286 3344 "frontend.ml" 121 3286 3345
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref ->
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 121 3286 3345 "frontend.ml" 121 3286 3353
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref
+)
+ident(
+  int_ref previous "frontend.ml" 99 2759 2764 "frontend.ml" 99 2759 2772
+)
+"frontend.ml" 121 3286 3343 "frontend.ml" 121 3286 3354
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option
+)
+"frontend.ml" 121 3286 3355 "frontend.ml" 121 3286 3362
+type(
+  'a Apron.Manager.t
+)
+ident(
+  int_ref manager "frontend.ml" 94 2707 2710 "frontend.ml" 94 2707 2717
+)
+"frontend.ml" 121 3286 3370 "frontend.ml" 121 3286 3371
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 121 3286 3371 "frontend.ml" 121 3286 3376
+type(
+  int ref
+)
+ident(
+  ext_ref Option.debug
+)
+"frontend.ml" 121 3286 3370 "frontend.ml" 121 3286 3376
+type(
+  int
+)
+"frontend.ml" 121 3286 3293 "frontend.ml" 121 3286 3376
+call(
+  stack
+)
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+"frontend.ml" 123 3385 3390 "frontend.ml" 123 3385 3397
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend.ml" 123 3385 3398 "frontend.ml" 123 3385 3401
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 91 2607 2610 "frontend.ml" 91 2607 2613
+)
+"frontend.ml" 123 3385 3402 "frontend.ml" 123 3385 3451
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"frontend.ml" 124 3452 3460 "frontend.ml" 124 3452 3461
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 124 3452 3461 "frontend.ml" 124 3452 3479
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 124 3452 3459 "frontend.ml" 124 3452 3480
+type(
+  Option.displaytags
+)
+"frontend.ml" 124 3452 3459 "frontend.ml" 124 3452 3490
+type(
+  string
+)
+"frontend.ml" 124 3452 3492 "frontend.ml" 124 3452 3493
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 124 3452 3493 "frontend.ml" 124 3452 3511
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 124 3452 3491 "frontend.ml" 124 3452 3512
+type(
+  Option.displaytags
+)
+"frontend.ml" 124 3452 3491 "frontend.ml" 124 3452 3522
+type(
+  string
+)
+"frontend.ml" 123 3385 3390 "frontend.ml" 124 3452 3522
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 126 3530 3535 "frontend.ml" 126 3530 3537
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  int_ref fp "frontend.ml" 120 3272 3281 "frontend.ml" 120 3272 3283
+)
+"frontend.ml" 123 3385 3390 "frontend.ml" 126 3530 3537
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+"frontend.ml" 120 3272 3277 "frontend.ml" 126 3530 3537
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+"frontend.ml" 110 2964 2965 "frontend.ml" 127 3538 3542
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+"frontend.ml" 130 3572 3578 "frontend.ml" 130 3572 3598
+type(
+  Spl_syn.program ->
+  Format.formatter ->
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output -> unit
+)
+ident(
+  ext_ref Solving.print_output
+)
+"frontend.ml" 130 3572 3599 "frontend.ml" 130 3572 3603
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 92 2632 2635 "frontend.ml" 92 2632 2639
+)
+"frontend.ml" 130 3572 3604 "frontend.ml" 130 3572 3607
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 91 2607 2610 "frontend.ml" 91 2607 2613
+)
+"frontend.ml" 130 3572 3608 "frontend.ml" 130 3572 3610
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  int_ref fp "frontend.ml" 109 2949 2959 "frontend.ml" 109 2949 2961
+)
+"frontend.ml" 130 3572 3578 "frontend.ml" 130 3572 3610
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 131 3612 3618 "frontend.ml" 131 3612 3626
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref
+)
+ident(
+  int_ref previous "frontend.ml" 99 2759 2764 "frontend.ml" 99 2759 2772
+)
+"frontend.ml" 131 3612 3627 "frontend.ml" 131 3612 3629
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref ->
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ->
+  unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"frontend.ml" 131 3612 3635 "frontend.ml" 131 3612 3637
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output
+)
+ident(
+  int_ref fp "frontend.ml" 109 2949 2959 "frontend.ml" 109 2949 2961
+)
+"frontend.ml" 131 3612 3630 "frontend.ml" 131 3612 3637
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option
+)
+"frontend.ml" 131 3612 3618 "frontend.ml" 131 3612 3638
+type(
+  unit
+)
+"frontend.ml" 130 3572 3578 "frontend.ml" 131 3612 3638
+type(
+  unit
+)
+"frontend.ml" 109 2949 2955 "frontend.ml" 131 3612 3638
+type(
+  unit
+)
+"frontend.ml" 107 2905 2909 "frontend.ml" 132 3639 3647
+type(
+  Option.analysis -> unit
+)
+"frontend.ml" 133 3648 3652 "frontend.ml" 133 3648 3653
+type(
+  Option.analysis list ref -> Option.analysis list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 133 3648 3653 "frontend.ml" 133 3648 3661
+type(
+  Option.analysis list ref
+)
+ident(
+  ext_ref Option.analysis
+)
+"frontend.ml" 133 3648 3652 "frontend.ml" 133 3648 3661
+type(
+  Option.analysis list
+)
+"frontend.ml" 106 2893 2895 "frontend.ml" 133 3648 3661
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 135 3666 3668 "frontend.ml" 135 3666 3670
+type(
+  unit
+)
+"frontend.ml" 106 2893 2895 "frontend.ml" 135 3666 3670
+type(
+  unit
+)
+"frontend.ml" 98 2753 2755 "frontend.ml" 135 3666 3670
+type(
+  unit
+)
+type(
+  unit
+)
+"frontend.ml" 137 3672 3676 "frontend.ml" 137 3672 3702
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph -> Equation.graph -> 'a Apron.Policy.man -> unit
+)
+ident(
+  def compute_and_display_policy "frontend.ml" 184 4789 4789 "frontend.ml" 1 0 -1
+)
+"frontend.ml" 138 3703 3706 "frontend.ml" 138 3703 3709
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend.ml" 139 3728 3730 "frontend.ml" 182 4783 4787
+)
+"frontend.ml" 139 3728 3731 "frontend.ml" 139 3728 3735
+type(
+  Spl_syn.program
+)
+ident(
+  def prog "frontend.ml" 140 3753 3755 "frontend.ml" 182 4783 4787
+)
+"frontend.ml" 140 3753 3756 "frontend.ml" 140 3753 3762
+type(
+  Equation.graph
+)
+ident(
+  def fgraph "frontend.ml" 140 3753 3779 "frontend.ml" 182 4783 4787
+)
+"frontend.ml" 140 3753 3780 "frontend.ml" 140 3753 3786
+type(
+  Equation.graph
+)
+ident(
+  def bgraph "frontend.ml" 141 3803 3805 "frontend.ml" 182 4783 4787
+)
+"frontend.ml" 141 3803 3806 "frontend.ml" 141 3803 3814
+type(
+  'a Apron.Policy.man
+)
+ident(
+  def pmanager "frontend.ml" 142 3836 3838 "frontend.ml" 182 4783 4787
+)
+"frontend.ml" 146 3857 3862 "frontend.ml" 146 3857 3870
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option ref
+)
+ident(
+  def previous "frontend.ml" 153 3991 3993 "frontend.ml" 182 4783 4787
+)
+"frontend.ml" 151 3973 3977 "frontend.ml" 151 3973 3980
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ->
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"frontend.ml" 151 3973 3981 "frontend.ml" 151 3973 3985
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option
+)
+"frontend.ml" 151 3973 3977 "frontend.ml" 151 3973 3985
+type(
+  (Spl_syn.point, int, 'a Apron.Abstract1.t, unit) Fixpoint.output option ref
+)
+"frontend.ml" 153 3991 3993 "frontend.ml" 153 3991 4002
+type(
+  (Option.analysis -> unit) -> Option.analysis list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"frontend.ml" 154 4003 4018 "frontend.ml" 154 4003 4019
+type(
+  Option.analysis
+)
+ident(
+  def t "frontend.ml" 156 4047 4053 "frontend.ml" 178 4729 4755
+)
+"frontend.ml" 156 4047 4057 "frontend.ml" 156 4047 4059
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  def fp "frontend.ml" 177 4689 4695 "frontend.ml" 178 4729 4755
+)
+"frontend.ml" 157 4062 4075 "frontend.ml" 157 4062 4076
+type(
+  Option.analysis
+)
+ident(
+  int_ref t "frontend.ml" 154 4003 4018 "frontend.ml" 154 4003 4019
+)
+"frontend.ml" 158 4082 4085 "frontend.ml" 158 4082 4092
+type(
+  Option.analysis
+)
+"frontend.ml" 159 4096 4105 "frontend.ml" 159 4096 4107
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  def fp "frontend.ml" 162 4215 4220 "frontend.ml" 165 4359 4366
+)
+"frontend.ml" 160 4110 4117 "frontend.ml" 160 4110 4146
+type(
+  fmt:Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph ->
+  output:(Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+         Fixpoint.output option ->
+  'a Apron.Policy.man ->
+  debug:int ->
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  ext_ref SolvingPolicy.Forward.compute
+)
+"frontend.ml" 160 4110 4148 "frontend.ml" 160 4110 4151
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 138 3703 3706 "frontend.ml" 138 3703 3709
+)
+"frontend.ml" 160 4110 4152 "frontend.ml" 160 4110 4156
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 139 3728 3731 "frontend.ml" 139 3728 3735
+)
+"frontend.ml" 160 4110 4157 "frontend.ml" 160 4110 4163
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 140 3753 3756 "frontend.ml" 140 3753 3762
+)
+"frontend.ml" 160 4110 4173 "frontend.ml" 160 4110 4174
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option ref ->
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 160 4110 4174 "frontend.ml" 160 4110 4182
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option ref
+)
+ident(
+  int_ref previous "frontend.ml" 146 3857 3862 "frontend.ml" 146 3857 3870
+)
+"frontend.ml" 160 4110 4172 "frontend.ml" 160 4110 4183
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option
+)
+"frontend.ml" 160 4110 4184 "frontend.ml" 160 4110 4192
+type(
+  'a Apron.Policy.man
+)
+ident(
+  int_ref pmanager "frontend.ml" 141 3803 3806 "frontend.ml" 141 3803 3814
+)
+"frontend.ml" 160 4110 4200 "frontend.ml" 160 4110 4201
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 160 4110 4201 "frontend.ml" 160 4110 4206
+type(
+  int ref
+)
+ident(
+  ext_ref Option.debug
+)
+"frontend.ml" 160 4110 4200 "frontend.ml" 160 4110 4206
+type(
+  int
+)
+"frontend.ml" 160 4110 4117 "frontend.ml" 160 4110 4206
+call(
+  stack
+)
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+"frontend.ml" 162 4215 4220 "frontend.ml" 162 4215 4227
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend.ml" 162 4215 4228 "frontend.ml" 162 4215 4231
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 138 3703 3706 "frontend.ml" 138 3703 3709
+)
+"frontend.ml" 162 4215 4232 "frontend.ml" 162 4215 4280
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"frontend.ml" 163 4281 4289 "frontend.ml" 163 4281 4290
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 163 4281 4290 "frontend.ml" 163 4281 4308
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 163 4281 4288 "frontend.ml" 163 4281 4309
+type(
+  Option.displaytags
+)
+"frontend.ml" 163 4281 4288 "frontend.ml" 163 4281 4319
+type(
+  string
+)
+"frontend.ml" 163 4281 4321 "frontend.ml" 163 4281 4322
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 163 4281 4322 "frontend.ml" 163 4281 4340
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 163 4281 4320 "frontend.ml" 163 4281 4341
+type(
+  Option.displaytags
+)
+"frontend.ml" 163 4281 4320 "frontend.ml" 163 4281 4351
+type(
+  string
+)
+"frontend.ml" 162 4215 4220 "frontend.ml" 163 4281 4351
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 165 4359 4364 "frontend.ml" 165 4359 4366
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  int_ref fp "frontend.ml" 159 4096 4105 "frontend.ml" 159 4096 4107
+)
+"frontend.ml" 162 4215 4220 "frontend.ml" 165 4359 4366
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+"frontend.ml" 159 4096 4101 "frontend.ml" 165 4359 4366
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+"frontend.ml" 166 4367 4370 "frontend.ml" 166 4367 4378
+type(
+  Option.analysis
+)
+"frontend.ml" 167 4382 4391 "frontend.ml" 167 4382 4393
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  def fp "frontend.ml" 170 4502 4507 "frontend.ml" 173 4647 4654
+)
+"frontend.ml" 168 4396 4403 "frontend.ml" 168 4396 4433
+type(
+  fmt:Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph ->
+  output:(Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+         Fixpoint.output option ->
+  'a Apron.Policy.man ->
+  debug:int ->
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  ext_ref SolvingPolicy.Backward.compute
+)
+"frontend.ml" 168 4396 4435 "frontend.ml" 168 4396 4438
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 138 3703 3706 "frontend.ml" 138 3703 3709
+)
+"frontend.ml" 168 4396 4439 "frontend.ml" 168 4396 4443
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 139 3728 3731 "frontend.ml" 139 3728 3735
+)
+"frontend.ml" 168 4396 4444 "frontend.ml" 168 4396 4450
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 140 3753 3780 "frontend.ml" 140 3753 3786
+)
+"frontend.ml" 168 4396 4460 "frontend.ml" 168 4396 4461
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option ref ->
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 168 4396 4461 "frontend.ml" 168 4396 4469
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option ref
+)
+ident(
+  int_ref previous "frontend.ml" 146 3857 3862 "frontend.ml" 146 3857 3870
+)
+"frontend.ml" 168 4396 4459 "frontend.ml" 168 4396 4470
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option
+)
+"frontend.ml" 168 4396 4471 "frontend.ml" 168 4396 4479
+type(
+  'a Apron.Policy.man
+)
+ident(
+  int_ref pmanager "frontend.ml" 141 3803 3806 "frontend.ml" 141 3803 3814
+)
+"frontend.ml" 168 4396 4487 "frontend.ml" 168 4396 4488
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 168 4396 4488 "frontend.ml" 168 4396 4493
+type(
+  int ref
+)
+ident(
+  ext_ref Option.debug
+)
+"frontend.ml" 168 4396 4487 "frontend.ml" 168 4396 4493
+type(
+  int
+)
+"frontend.ml" 168 4396 4403 "frontend.ml" 168 4396 4493
+call(
+  stack
+)
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+"frontend.ml" 170 4502 4507 "frontend.ml" 170 4502 4514
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend.ml" 170 4502 4515 "frontend.ml" 170 4502 4518
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 138 3703 3706 "frontend.ml" 138 3703 3709
+)
+"frontend.ml" 170 4502 4519 "frontend.ml" 170 4502 4568
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"frontend.ml" 171 4569 4577 "frontend.ml" 171 4569 4578
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 171 4569 4578 "frontend.ml" 171 4569 4596
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 171 4569 4576 "frontend.ml" 171 4569 4597
+type(
+  Option.displaytags
+)
+"frontend.ml" 171 4569 4576 "frontend.ml" 171 4569 4607
+type(
+  string
+)
+"frontend.ml" 171 4569 4609 "frontend.ml" 171 4569 4610
+type(
+  Option.displaytags ref -> Option.displaytags
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 171 4569 4610 "frontend.ml" 171 4569 4628
+type(
+  Option.displaytags ref
+)
+ident(
+  ext_ref Option.displaytags
+)
+"frontend.ml" 171 4569 4608 "frontend.ml" 171 4569 4629
+type(
+  Option.displaytags
+)
+"frontend.ml" 171 4569 4608 "frontend.ml" 171 4569 4639
+type(
+  string
+)
+"frontend.ml" 170 4502 4507 "frontend.ml" 171 4569 4639
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 173 4647 4652 "frontend.ml" 173 4647 4654
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  int_ref fp "frontend.ml" 167 4382 4391 "frontend.ml" 167 4382 4393
+)
+"frontend.ml" 170 4502 4507 "frontend.ml" 173 4647 4654
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+"frontend.ml" 167 4382 4387 "frontend.ml" 173 4647 4654
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+"frontend.ml" 157 4062 4063 "frontend.ml" 174 4655 4659
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+"frontend.ml" 177 4689 4695 "frontend.ml" 177 4689 4715
+type(
+  Spl_syn.program ->
+  Format.formatter ->
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output -> unit
+)
+ident(
+  ext_ref Solving.print_output
+)
+"frontend.ml" 177 4689 4716 "frontend.ml" 177 4689 4720
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 139 3728 3731 "frontend.ml" 139 3728 3735
+)
+"frontend.ml" 177 4689 4721 "frontend.ml" 177 4689 4724
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 138 3703 3706 "frontend.ml" 138 3703 3709
+)
+"frontend.ml" 177 4689 4725 "frontend.ml" 177 4689 4727
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  int_ref fp "frontend.ml" 156 4047 4057 "frontend.ml" 156 4047 4059
+)
+"frontend.ml" 177 4689 4695 "frontend.ml" 177 4689 4727
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 178 4729 4735 "frontend.ml" 178 4729 4743
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option ref
+)
+ident(
+  int_ref previous "frontend.ml" 146 3857 3862 "frontend.ml" 146 3857 3870
+)
+"frontend.ml" 178 4729 4744 "frontend.ml" 178 4729 4746
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option ref ->
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"frontend.ml" 178 4729 4752 "frontend.ml" 178 4729 4754
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output
+)
+ident(
+  int_ref fp "frontend.ml" 156 4047 4057 "frontend.ml" 156 4047 4059
+)
+"frontend.ml" 178 4729 4747 "frontend.ml" 178 4729 4754
+type(
+  (Equation.vertex, Equation.hedge, 'a Apron.Abstract1.t, unit)
+  Fixpoint.output option
+)
+"frontend.ml" 178 4729 4735 "frontend.ml" 178 4729 4755
+type(
+  unit
+)
+"frontend.ml" 177 4689 4695 "frontend.ml" 178 4729 4755
+type(
+  unit
+)
+"frontend.ml" 156 4047 4053 "frontend.ml" 178 4729 4755
+type(
+  unit
+)
+"frontend.ml" 154 4003 4007 "frontend.ml" 179 4756 4764
+type(
+  Option.analysis -> unit
+)
+"frontend.ml" 180 4765 4769 "frontend.ml" 180 4765 4770
+type(
+  Option.analysis list ref -> Option.analysis list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 180 4765 4770 "frontend.ml" 180 4765 4778
+type(
+  Option.analysis list ref
+)
+ident(
+  ext_ref Option.analysis
+)
+"frontend.ml" 180 4765 4769 "frontend.ml" 180 4765 4778
+type(
+  Option.analysis list
+)
+"frontend.ml" 153 3991 3993 "frontend.ml" 180 4765 4778
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend.ml" 182 4783 4785 "frontend.ml" 182 4783 4787
+type(
+  unit
+)
+"frontend.ml" 153 3991 3993 "frontend.ml" 182 4783 4787
+type(
+  unit
+)
+"frontend.ml" 145 3851 3853 "frontend.ml" 182 4783 4787
+type(
+  unit
+)
+type(
+  unit
+)
+"frontend.ml" 184 4789 4793 "frontend.ml" 184 4789 4812
+type(
+  Format.formatter -> Spl_syn.program -> unit
+)
+ident(
+  def analyze_and_display "frontend.ml" 243 6846 6851 "frontend.ml" 1 0 -1
+)
+"frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend.ml" 186 4840 4844 "frontend.ml" 243 6846 6851
+)
+"frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+type(
+  Spl_syn.program
+)
+ident(
+  def prog "frontend.ml" 187 4867 4871 "frontend.ml" 243 6846 6851
+)
+"frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+type(
+  Equation.graph
+)
+ident(
+  def fgraph "frontend.ml" 192 4964 4966 "frontend.ml" 243 6846 6851
+)
+"frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+type(
+  Equation.graph
+)
+ident(
+  def bgraph "frontend.ml" 192 4964 4966 "frontend.ml" 243 6846 6851
+)
+"frontend.ml" 190 4888 4894 "frontend.ml" 190 4888 4909
+type(
+  Equation.graph * Equation.graph
+)
+"frontend.ml" 190 4888 4912 "frontend.ml" 190 4888 4924
+type(
+  Format.formatter -> Spl_syn.program -> Equation.graph * Equation.graph
+)
+ident(
+  int_ref build_graphs "frontend.ml" 56 1584 1588 "frontend.ml" 56 1584 1600
+)
+"frontend.ml" 190 4888 4925 "frontend.ml" 190 4888 4928
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 190 4888 4929 "frontend.ml" 190 4888 4933
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 190 4888 4912 "frontend.ml" 190 4888 4933
+call(
+  stack
+)
+type(
+  Equation.graph * Equation.graph
+)
+"frontend.ml" 192 4964 4978 "frontend.ml" 192 4964 4979
+type(
+  Option.domain ref -> Option.domain
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"frontend.ml" 192 4964 4979 "frontend.ml" 192 4964 4985
+type(
+  Option.domain ref
+)
+ident(
+  ext_ref Option.domain
+)
+"frontend.ml" 192 4964 4978 "frontend.ml" 192 4964 4985
+type(
+  Option.domain
+)
+"frontend.ml" 193 4991 4995 "frontend.ml" 193 4991 4998
+type(
+  Option.domain
+)
+"frontend.ml" 194 5002 5008 "frontend.ml" 194 5002 5027
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph -> Equation.graph -> Box.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 194 5002 5028 "frontend.ml" 194 5002 5031
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 194 5002 5032 "frontend.ml" 194 5002 5036
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 194 5002 5037 "frontend.ml" 194 5002 5043
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 194 5002 5044 "frontend.ml" 194 5002 5050
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 195 5051 5053 "frontend.ml" 195 5051 5070
+type(
+  unit -> Box.t Apron.Manager.t
+)
+ident(
+  ext_ref Box.manager_alloc
+)
+"frontend.ml" 195 5051 5071 "frontend.ml" 195 5051 5073
+type(
+  unit
+)
+"frontend.ml" 195 5051 5052 "frontend.ml" 195 5051 5074
+type(
+  Box.t Apron.Manager.t
+)
+"frontend.ml" 194 5002 5008 "frontend.ml" 195 5051 5074
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 196 5075 5079 "frontend.ml" 196 5075 5088
+type(
+  Option.domain
+)
+"frontend.ml" 197 5092 5102 "frontend.ml" 197 5092 5105
+type(
+  Box.t Apron.Manager.t
+)
+ident(
+  def man "frontend.ml" 198 5132 5138 "frontend.ml" 202 5426 5457
+)
+"frontend.ml" 197 5092 5108 "frontend.ml" 197 5092 5125
+type(
+  unit -> Box.t Apron.Manager.t
+)
+ident(
+  ext_ref Box.manager_alloc
+)
+"frontend.ml" 197 5092 5126 "frontend.ml" 197 5092 5128
+type(
+  unit
+)
+"frontend.ml" 197 5092 5108 "frontend.ml" 197 5092 5128
+type(
+  Box.t Apron.Manager.t
+)
+"frontend.ml" 198 5132 5142 "frontend.ml" 198 5132 5148
+type(
+  Apron.Manager.funopt
+)
+ident(
+  def funopt "frontend.ml" 199 5222 5228 "frontend.ml" 202 5426 5457
+)
+"frontend.ml" 198 5132 5151 "frontend.ml" 198 5132 5175
+type(
+  Box.t Apron.Manager.t -> Apron.Manager.funid -> Apron.Manager.funopt
+)
+ident(
+  ext_ref Apron.Manager.get_funopt
+)
+"frontend.ml" 198 5132 5176 "frontend.ml" 198 5132 5179
+type(
+  Box.t Apron.Manager.t
+)
+ident(
+  int_ref man "frontend.ml" 197 5092 5102 "frontend.ml" 197 5092 5105
+)
+"frontend.ml" 198 5132 5180 "frontend.ml" 198 5132 5218
+type(
+  Apron.Manager.funid
+)
+"frontend.ml" 198 5132 5151 "frontend.ml" 198 5132 5218
+type(
+  Apron.Manager.funopt
+)
+"frontend.ml" 199 5222 5232 "frontend.ml" 199 5222 5238
+type(
+  Apron.Manager.funopt
+)
+ident(
+  def funopt "frontend.ml" 200 5288 5294 "frontend.ml" 202 5426 5457
+)
+"frontend.ml" 199 5222 5243 "frontend.ml" 199 5222 5249
+type(
+  Apron.Manager.funopt
+)
+ident(
+  int_ref funopt "frontend.ml" 198 5132 5142 "frontend.ml" 198 5132 5148
+)
+"frontend.ml" 199 5222 5281 "frontend.ml" 199 5222 5282
+type(
+  int
+)
+"frontend.ml" 199 5222 5241 "frontend.ml" 199 5222 5284
+type(
+  Apron.Manager.funopt
+)
+"frontend.ml" 200 5288 5294 "frontend.ml" 200 5288 5318
+type(
+  Box.t Apron.Manager.t ->
+  Apron.Manager.funid -> Apron.Manager.funopt -> unit
+)
+ident(
+  ext_ref Apron.Manager.set_funopt
+)
+"frontend.ml" 200 5288 5319 "frontend.ml" 200 5288 5322
+type(
+  Box.t Apron.Manager.t
+)
+ident(
+  int_ref man "frontend.ml" 197 5092 5102 "frontend.ml" 197 5092 5105
+)
+"frontend.ml" 200 5288 5323 "frontend.ml" 200 5288 5361
+type(
+  Apron.Manager.funid
+)
+"frontend.ml" 200 5288 5362 "frontend.ml" 200 5288 5368
+type(
+  Apron.Manager.funopt
+)
+ident(
+  int_ref funopt "frontend.ml" 199 5222 5232 "frontend.ml" 199 5222 5238
+)
+"frontend.ml" 200 5288 5294 "frontend.ml" 200 5288 5368
+type(
+  unit
+)
+"frontend.ml" 201 5370 5376 "frontend.ml" 201 5370 5402
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph -> Equation.graph -> Box.t Apron.Policy.man -> unit
+)
+ident(
+  int_ref compute_and_display_policy "frontend.ml" 137 3672 3676 "frontend.ml" 137 3672 3702
+)
+"frontend.ml" 201 5370 5403 "frontend.ml" 201 5370 5406
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 201 5370 5407 "frontend.ml" 201 5370 5411
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 201 5370 5412 "frontend.ml" 201 5370 5418
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 201 5370 5419 "frontend.ml" 201 5370 5425
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 202 5426 5428 "frontend.ml" 202 5426 5452
+type(
+  Box.t Apron.Manager.t -> Box.t Apron.Policy.man
+)
+ident(
+  ext_ref Box.policy_manager_alloc
+)
+"frontend.ml" 202 5426 5453 "frontend.ml" 202 5426 5456
+type(
+  Box.t Apron.Manager.t
+)
+ident(
+  int_ref man "frontend.ml" 197 5092 5102 "frontend.ml" 197 5092 5105
+)
+"frontend.ml" 202 5426 5427 "frontend.ml" 202 5426 5457
+type(
+  Box.t Apron.Policy.man
+)
+"frontend.ml" 201 5370 5376 "frontend.ml" 202 5426 5457
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 200 5288 5294 "frontend.ml" 202 5426 5457
+type(
+  unit
+)
+"frontend.ml" 199 5222 5228 "frontend.ml" 202 5426 5457
+type(
+  unit
+)
+"frontend.ml" 198 5132 5138 "frontend.ml" 202 5426 5457
+type(
+  unit
+)
+"frontend.ml" 197 5092 5098 "frontend.ml" 202 5426 5457
+type(
+  unit
+)
+"frontend.ml" 203 5458 5462 "frontend.ml" 203 5458 5469
+type(
+  Option.domain
+)
+"frontend.ml" 204 5473 5479 "frontend.ml" 204 5473 5498
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph -> Equation.graph -> Oct.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 204 5473 5499 "frontend.ml" 204 5473 5502
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 204 5473 5503 "frontend.ml" 204 5473 5507
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 204 5473 5508 "frontend.ml" 204 5473 5514
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 204 5473 5515 "frontend.ml" 204 5473 5521
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 205 5522 5524 "frontend.ml" 205 5522 5541
+type(
+  unit -> Oct.t Apron.Manager.t
+)
+ident(
+  ext_ref Oct.manager_alloc
+)
+"frontend.ml" 205 5522 5542 "frontend.ml" 205 5522 5544
+type(
+  unit
+)
+"frontend.ml" 205 5522 5523 "frontend.ml" 205 5522 5545
+type(
+  Oct.t Apron.Manager.t
+)
+"frontend.ml" 204 5473 5479 "frontend.ml" 205 5522 5545
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 206 5546 5550 "frontend.ml" 206 5546 5560
+type(
+  Option.domain
+)
+"frontend.ml" 207 5564 5570 "frontend.ml" 207 5564 5589
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph ->
+  Equation.graph -> Polka.loose Polka.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 207 5564 5590 "frontend.ml" 207 5564 5593
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 207 5564 5594 "frontend.ml" 207 5564 5598
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 207 5564 5599 "frontend.ml" 207 5564 5605
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 207 5564 5606 "frontend.ml" 207 5564 5612
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 208 5613 5619 "frontend.ml" 208 5613 5622
+type(
+  Polka.loose Polka.t Apron.Manager.t
+)
+ident(
+  def man "frontend.ml" 214 5889 5890 "frontend.ml" 214 5889 5893
+)
+"frontend.ml" 208 5613 5625 "frontend.ml" 208 5613 5650
+type(
+  unit -> Polka.loose Polka.t Apron.Manager.t
+)
+ident(
+  ext_ref Polka.manager_alloc_loose
+)
+"frontend.ml" 208 5613 5651 "frontend.ml" 208 5613 5653
+type(
+  unit
+)
+"frontend.ml" 208 5613 5625 "frontend.ml" 208 5613 5653
+type(
+  Polka.loose Polka.t Apron.Manager.t
+)
+"frontend.ml" 214 5889 5890 "frontend.ml" 214 5889 5893
+type(
+  Polka.loose Polka.t Apron.Manager.t
+)
+ident(
+  int_ref man "frontend.ml" 208 5613 5619 "frontend.ml" 208 5613 5622
+)
+"frontend.ml" 208 5613 5614 "frontend.ml" 215 5894 5896
+type(
+  Polka.loose Polka.t Apron.Manager.t
+)
+"frontend.ml" 207 5564 5570 "frontend.ml" 215 5894 5896
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 216 5897 5901 "frontend.ml" 216 5897 5912
+type(
+  Option.domain
+)
+"frontend.ml" 217 5916 5922 "frontend.ml" 217 5916 5941
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph ->
+  Equation.graph -> Polka.strict Polka.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 217 5916 5942 "frontend.ml" 217 5916 5945
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 217 5916 5946 "frontend.ml" 217 5916 5950
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 217 5916 5951 "frontend.ml" 217 5916 5957
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 217 5916 5958 "frontend.ml" 217 5916 5964
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 218 5965 5967 "frontend.ml" 218 5965 5993
+type(
+  unit -> Polka.strict Polka.t Apron.Manager.t
+)
+ident(
+  ext_ref Polka.manager_alloc_strict
+)
+"frontend.ml" 218 5965 5994 "frontend.ml" 218 5965 5996
+type(
+  unit
+)
+"frontend.ml" 218 5965 5966 "frontend.ml" 218 5965 5997
+type(
+  Polka.strict Polka.t Apron.Manager.t
+)
+"frontend.ml" 217 5916 5922 "frontend.ml" 218 5965 5997
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 219 5998 6002 "frontend.ml" 219 5998 6009
+type(
+  Option.domain
+)
+"frontend.ml" 220 6013 6019 "frontend.ml" 220 6013 6038
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph ->
+  Equation.graph -> Polka.equalities Polka.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 220 6013 6039 "frontend.ml" 220 6013 6042
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 220 6013 6043 "frontend.ml" 220 6013 6047
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 220 6013 6048 "frontend.ml" 220 6013 6054
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 220 6013 6055 "frontend.ml" 220 6013 6061
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 221 6062 6064 "frontend.ml" 221 6062 6094
+type(
+  unit -> Polka.equalities Polka.t Apron.Manager.t
+)
+ident(
+  ext_ref Polka.manager_alloc_equalities
+)
+"frontend.ml" 221 6062 6095 "frontend.ml" 221 6062 6097
+type(
+  unit
+)
+"frontend.ml" 221 6062 6063 "frontend.ml" 221 6062 6098
+type(
+  Polka.equalities Polka.t Apron.Manager.t
+)
+"frontend.ml" 220 6013 6019 "frontend.ml" 221 6062 6098
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 222 6099 6103 "frontend.ml" 222 6099 6114
+type(
+  Option.domain
+)
+"frontend.ml" 223 6118 6124 "frontend.ml" 223 6118 6143
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph -> Equation.graph -> T1p.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 223 6118 6144 "frontend.ml" 223 6118 6147
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 223 6118 6148 "frontend.ml" 223 6118 6152
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 223 6118 6153 "frontend.ml" 223 6118 6159
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 223 6118 6160 "frontend.ml" 223 6118 6166
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 224 6167 6169 "frontend.ml" 224 6167 6186
+type(
+  unit -> T1p.t Apron.Manager.t
+)
+ident(
+  ext_ref T1p.manager_alloc
+)
+"frontend.ml" 224 6167 6187 "frontend.ml" 224 6167 6189
+type(
+  unit
+)
+"frontend.ml" 224 6167 6168 "frontend.ml" 224 6167 6190
+type(
+  T1p.t Apron.Manager.t
+)
+"frontend.ml" 223 6118 6124 "frontend.ml" 224 6167 6190
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 226 6192 6196 "frontend.ml" 226 6192 6208
+type(
+  Option.domain
+)
+"frontend.ml" 227 6212 6218 "frontend.ml" 227 6212 6237
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph -> Equation.graph -> Ppl.loose Ppl.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 227 6212 6238 "frontend.ml" 227 6212 6241
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 227 6212 6242 "frontend.ml" 227 6212 6246
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 227 6212 6247 "frontend.ml" 227 6212 6253
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 227 6212 6254 "frontend.ml" 227 6212 6260
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 228 6261 6263 "frontend.ml" 228 6261 6286
+type(
+  unit -> Ppl.loose Ppl.t Apron.Manager.t
+)
+ident(
+  ext_ref Ppl.manager_alloc_loose
+)
+"frontend.ml" 228 6261 6287 "frontend.ml" 228 6261 6289
+type(
+  unit
+)
+"frontend.ml" 228 6261 6262 "frontend.ml" 228 6261 6290
+type(
+  Ppl.loose Ppl.t Apron.Manager.t
+)
+"frontend.ml" 227 6212 6218 "frontend.ml" 228 6261 6290
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 229 6291 6295 "frontend.ml" 229 6291 6308
+type(
+  Option.domain
+)
+"frontend.ml" 230 6312 6318 "frontend.ml" 230 6312 6337
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph ->
+  Equation.graph -> Ppl.strict Ppl.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 230 6312 6338 "frontend.ml" 230 6312 6341
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 230 6312 6342 "frontend.ml" 230 6312 6346
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 230 6312 6347 "frontend.ml" 230 6312 6353
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 230 6312 6354 "frontend.ml" 230 6312 6360
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 231 6361 6363 "frontend.ml" 231 6361 6387
+type(
+  unit -> Ppl.strict Ppl.t Apron.Manager.t
+)
+ident(
+  ext_ref Ppl.manager_alloc_strict
+)
+"frontend.ml" 231 6361 6388 "frontend.ml" 231 6361 6390
+type(
+  unit
+)
+"frontend.ml" 231 6361 6362 "frontend.ml" 231 6361 6391
+type(
+  Ppl.strict Ppl.t Apron.Manager.t
+)
+"frontend.ml" 230 6312 6318 "frontend.ml" 231 6361 6391
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 232 6392 6396 "frontend.ml" 232 6392 6403
+type(
+  Option.domain
+)
+"frontend.ml" 233 6407 6413 "frontend.ml" 233 6407 6432
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph -> Equation.graph -> Ppl.grid Ppl.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 233 6407 6433 "frontend.ml" 233 6407 6436
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 233 6407 6437 "frontend.ml" 233 6407 6441
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 233 6407 6442 "frontend.ml" 233 6407 6448
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 233 6407 6449 "frontend.ml" 233 6407 6455
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 234 6456 6458 "frontend.ml" 234 6456 6480
+type(
+  unit -> Ppl.grid Ppl.t Apron.Manager.t
+)
+ident(
+  ext_ref Ppl.manager_alloc_grid
+)
+"frontend.ml" 234 6456 6481 "frontend.ml" 234 6456 6483
+type(
+  unit
+)
+"frontend.ml" 234 6456 6457 "frontend.ml" 234 6456 6484
+type(
+  Ppl.grid Ppl.t Apron.Manager.t
+)
+"frontend.ml" 233 6407 6413 "frontend.ml" 234 6456 6484
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 235 6485 6489 "frontend.ml" 235 6485 6498
+type(
+  Option.domain
+)
+"frontend.ml" 236 6502 6512 "frontend.ml" 236 6502 6516
+type(
+  Polka.loose Polka.t Apron.Manager.t
+)
+ident(
+  def man1 "frontend.ml" 237 6551 6557 "frontend.ml" 239 6646 6682
+)
+"frontend.ml" 236 6502 6519 "frontend.ml" 236 6502 6544
+type(
+  unit -> Polka.loose Polka.t Apron.Manager.t
+)
+ident(
+  ext_ref Polka.manager_alloc_loose
+)
+"frontend.ml" 236 6502 6545 "frontend.ml" 236 6502 6547
+type(
+  unit
+)
+"frontend.ml" 236 6502 6519 "frontend.ml" 236 6502 6547
+type(
+  Polka.loose Polka.t Apron.Manager.t
+)
+"frontend.ml" 237 6551 6561 "frontend.ml" 237 6551 6565
+type(
+  Ppl.grid Ppl.t Apron.Manager.t
+)
+ident(
+  def man2 "frontend.ml" 238 6597 6603 "frontend.ml" 239 6646 6682
+)
+"frontend.ml" 237 6551 6568 "frontend.ml" 237 6551 6590
+type(
+  unit -> Ppl.grid Ppl.t Apron.Manager.t
+)
+ident(
+  ext_ref Ppl.manager_alloc_grid
+)
+"frontend.ml" 237 6551 6591 "frontend.ml" 237 6551 6593
+type(
+  unit
+)
+"frontend.ml" 237 6551 6568 "frontend.ml" 237 6551 6593
+type(
+  Ppl.grid Ppl.t Apron.Manager.t
+)
+"frontend.ml" 238 6597 6603 "frontend.ml" 238 6597 6622
+type(
+  Format.formatter ->
+  Spl_syn.program ->
+  Equation.graph ->
+  Equation.graph -> Polka.loose PolkaGrid.t Apron.Manager.t -> unit
+)
+ident(
+  int_ref compute_and_display "frontend.ml" 90 2583 2587 "frontend.ml" 90 2583 2606
+)
+"frontend.ml" 238 6597 6623 "frontend.ml" 238 6597 6626
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend.ml" 185 4813 4818 "frontend.ml" 185 4813 4821
+)
+"frontend.ml" 238 6597 6627 "frontend.ml" 238 6597 6631
+type(
+  Spl_syn.program
+)
+ident(
+  int_ref prog "frontend.ml" 186 4840 4845 "frontend.ml" 186 4840 4849
+)
+"frontend.ml" 238 6597 6632 "frontend.ml" 238 6597 6638
+type(
+  Equation.graph
+)
+ident(
+  int_ref fgraph "frontend.ml" 190 4888 4895 "frontend.ml" 190 4888 4901
+)
+"frontend.ml" 238 6597 6639 "frontend.ml" 238 6597 6645
+type(
+  Equation.graph
+)
+ident(
+  int_ref bgraph "frontend.ml" 190 4888 4902 "frontend.ml" 190 4888 4908
+)
+"frontend.ml" 239 6646 6648 "frontend.ml" 239 6646 6671
+type(
+  Polka.loose Polka.t Apron.Manager.t ->
+  Ppl.grid Ppl.t Apron.Manager.t -> Polka.loose PolkaGrid.t Apron.Manager.t
+)
+ident(
+  ext_ref PolkaGrid.manager_alloc
+)
+"frontend.ml" 239 6646 6672 "frontend.ml" 239 6646 6676
+type(
+  Polka.loose Polka.t Apron.Manager.t
+)
+ident(
+  int_ref man1 "frontend.ml" 236 6502 6512 "frontend.ml" 236 6502 6516
+)
+"frontend.ml" 239 6646 6677 "frontend.ml" 239 6646 6681
+type(
+  Ppl.grid Ppl.t Apron.Manager.t
+)
+ident(
+  int_ref man2 "frontend.ml" 237 6551 6561 "frontend.ml" 237 6551 6565
+)
+"frontend.ml" 239 6646 6647 "frontend.ml" 239 6646 6682
+type(
+  Polka.loose PolkaGrid.t Apron.Manager.t
+)
+"frontend.ml" 238 6597 6603 "frontend.ml" 239 6646 6682
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend.ml" 237 6551 6557 "frontend.ml" 239 6646 6682
+type(
+  unit
+)
+"frontend.ml" 236 6502 6508 "frontend.ml" 239 6646 6682
+type(
+  unit
+)
+"frontend.ml" 241 6684 6688 "frontend.ml" 241 6684 6689
+type(
+  Option.domain
+)
+"frontend.ml" 242 6692 6696 "frontend.ml" 242 6692 6704
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"frontend.ml" 242 6692 6705 "frontend.ml" 242 6692 6845
+type(
+  string
+)
+"frontend.ml" 242 6692 6696 "frontend.ml" 242 6692 6845
+type(
+  unit
+)
+"frontend.ml" 192 4964 4966 "frontend.ml" 243 6846 6851
+type(
+  unit
+)
+"frontend.ml" 190 4888 4890 "frontend.ml" 243 6846 6851
+type(
+  unit
+)
+type(
+  unit
+)

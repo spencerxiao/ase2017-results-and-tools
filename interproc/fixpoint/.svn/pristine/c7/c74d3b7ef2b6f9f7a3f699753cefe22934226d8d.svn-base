@@ -1,0 +1,80 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{hyperlatex}
+\usepackage{xspace}
+%\usepackage{frames}
+\W\htmlcss{style.css}
+\W\htmltitle{Fixpoint}
+\W\htmlpanel{0}
+\setcounter{htmlautomenu}{1}
+\setcounter{htmldepth}{1}
+
+\newcommand{\ocaml}{\xlink{OCaml}{http://www.caml.org}\xspace}
+\newcommand{\camlmod}[1]{\xlink{#1}{html/#1.html}\xspace}
+
+\title{Fixpoint}
+\date{}
+\author{}
+
+\begin{document}
+
+%\xmlattributes*{img}{align="left"}
+%\xlink{\htmlimg{http://devel.inria.fr/logo_inria.png}{INRIA}}{http://www.inria.fr}
+
+\xlink{Up}{../index.html}
+\par
+
+\maketitle
+
+\section{About}
+
+Fixpoint is an \ocaml library implementing a generic fixpoint
+engine. The interface is parameterized by the abstract domain on
+which fixpoint computations are performed.
+
+A short presentation in \xlink{french}{presentation-fixpoint.pdf}
+
+The fixpoint solver library is composed of several modules.
+\begin{itemize}
+\item \camlmod{Fixpoint}: this is the only module to look at for a
+  normal user.
+\item \xlink{example.ml}{example.ml}: example of use of the library;
+\item \camlmod{FixpointType}: defines the various types and
+  associated printing functions (including for the DOT output);
+\item \camlmod{FixpointStd}: implements the Kleene-Bourdoncle
+  iteration technique \cite{bourdoncle93} (combined with
+  working-set algorithm) for solving equations described
+  explicitly by an hypergraph, and offers base functions for the
+  more sophisticated techniques;
+\item \camlmod{FixpointGuided}: implements the Gopan-Reps guided
+  iteration technique \cite{GopanReps07} for equations described
+  explicitly by an hypergraph;
+\item \camlmod{FixpointDyn}: exploits an implicit description
+  (under the form if a successor function) of the equation graph,
+  which is then explored dynamically by alternating propagation
+  phase (to detect newly non-empty variables) and
+  upto-convergence-iteration phase.
+\item \camlmod{FixpointThreshold}: implements the threshold inference algorithm of \cite{LJG11}.
+\end{itemize}
+
+\section{License}
+
+LGPL license (GNU Library General Public License).
+
+\section{Download}
+Current version: 2.3.2
+\begin{itemize}
+\item \xlink{Subversion repository: Fixpoint alone}{http://gforge.inria.fr/plugins/scmsvn/viewcvs.php/pkg/fixpoint/?root=bjeannet} (see \xlink{Up}{../index.html} for the organisation of the repository)
+\item \xlink{Subversion repository: Fixpoint together with dependency camllib}{http://gforge.inria.fr/plugins/scmsvn/viewcvs.php/dist/fixpoint-dist/?root=bjeannet} (see \xlink{Up}{../index.html} for the organisation of the repository)
+\end{itemize}
+
+\section{Documentation}
+\begin{itemize}
+\item \xlink{PDF}{fixpoint.pdf} with a small introduction
+\item \xlink{On-line}{html/index.html}
+\item \xlink{Example file}{example.ml}
+\end{itemize}
+
+\bibliography{bib.bib,mybib.bib}
+\bibliographystyle{alpha}
+\end{document}

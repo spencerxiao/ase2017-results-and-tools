@@ -1,0 +1,45 @@
+[32mAnnotated program after forward analysis[m
+var x : int, y : int, i : int, n : int;
+begin
+  /* [31m(L2 C5) [|y=0 mod 1; x=0 mod 1; n=0 mod 1; i=0 mod 1|][m */
+  x = 0; /* [31m(L3 C8) [|x=0; y=0 mod 1; x=0; n=0 mod 1; i=0 mod 1|][m */
+  y = 0; /* [31m(L4 C8) [|y=0; x=0; y=0; x=0; n=0 mod 1; i=0 mod 1|][m */
+  i = 0; /* [31m(L5 C8) [|y=0; x=0; i=0; y=0; x=0; n=0 mod 1; i=0|][m */
+  n = [-inf; inf]; /* [31m(L6 C13)
+                      [|-i+x=0; y>=0; i-y>=0; y=0 mod 1; -i+x=0; n=0 mod 1;
+                        i=0 mod 1|][m */
+  while i < n do
+    /* [31m(L7 C18)
+       [|-i+x=0; -i+n-1>=0; y>=0; i-y>=0; y=0 mod 1; -i+x=0; n=0 mod 1;
+         i=0 mod 1|][m */
+    i = i +_i,? 1; /* [31m(L8 C16)
+                      [|-i+x+1=0; -i+n>=0; y>=0; i-y-1>=0; y=0 mod 1;
+                        -i+x+1=0; n=0 mod 1; i=0 mod 1|][m */
+    x = x +_i,? 1; /* [31m(L9 C16)
+                      [|-i+x=0; -i+n>=0; y>=0; i-y-1>=0; y=0 mod 1; -i+x=0;
+                        n=0 mod 1; i=0 mod 1|][m */
+    if i %_i,? 2 == 0 then
+      /* [31m(L10 C26)
+         [|-i+x=0; -i+n>=0; y>=0; i-y-1>=0; y=0 mod 1; -i+x=0; n=0 mod 1;
+           i=0 mod 1|][m */
+      y = y +_i,? 1; /* [31m(L11 C18)
+                        [|-i+x=0; -i+n>=0; y-1>=0; i-y>=0; y=0 mod 1; 
+                          -i+x=0; n=0 mod 1; i=0 mod 1|][m */
+    endif; /* [31m(L12 C10)
+              [|-i+x=0; -i+n>=0; y>=0; i-y>=0; i-1>=0; y=0 mod 1; -i+x=0;
+                n=0 mod 1; i=0 mod 1|][m */
+  done; /* [31m(L13 C7)
+           [|-i+x=0; y>=0; i-n>=0; i-y>=0; y=0 mod 1; -i+x=0; n=0 mod 1;
+             i=0 mod 1|][m */
+  if i %_i,? 2 == 0 then
+    /* [31m(L15 C24)
+       [|-i+x=0; y>=0; i-n>=0; i-y>=0; y=0 mod 1; -i+x=0; n=0 mod 1;
+         i=0 mod 1|][m */
+    assume x == 2 *_i,? y; /* [31m(L16 C26)
+                              [|-i+2y=0; -i+x=0; i-n>=0; i>=0; -i+2y=0;
+                                -i+x=0; 2n=0 mod 2; i=0 mod 2|][m */
+  endif; /* [31m(L17 C8)
+            [|-i+x=0; y>=0; i-n>=0; i-y>=0; y=0 mod 1; -i+x=0; n=0 mod 1;
+              i=0 mod 1|][m */
+end
+

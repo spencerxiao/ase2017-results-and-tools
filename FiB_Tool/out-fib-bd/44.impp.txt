@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((n != 1) | (i = j))
+find an inductive invaraint  based on concrete reachables
+invariant size: 9
+interp: (not (and (= n 1) (not (= i j))))
+The assertion is satisfied!
+forward [0] times
+backward [0] times, backtracks [0] times

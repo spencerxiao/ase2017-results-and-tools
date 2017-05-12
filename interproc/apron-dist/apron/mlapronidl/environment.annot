@@ -1,0 +1,712 @@
+"environment.ml" 72 2119 2123 "environment.ml" 72 2119 2128
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "environment.ml" 101 2935 2938 "environment.ml" 1 0 -1
+)
+"environment.ml" 73 2129 2131 "environment.ml" 73 2129 2136
+type(
+  (unit, Format.formatter, unit) format
+)
+"environment.ml" 73 2129 2138 "environment.ml" 73 2129 2144
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"environment.ml" 74 2183 2185 "environment.ml" 74 2183 2188
+type(
+  (unit, Format.formatter, unit) format
+)
+"environment.ml" 74 2183 2192 "environment.ml" 74 2183 2197
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"environment.ml" 75 2236 2238 "environment.ml" 75 2236 2242
+type(
+  (unit, Format.formatter, unit) format
+)
+"environment.ml" 75 2236 2246 "environment.ml" 75 2236 2252
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+"environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+type(
+  Format.formatter
+)
+ident(
+  def fmt "environment.ml" 77 2314 2314 "environment.ml" 101 2935 2938
+)
+"environment.ml" 77 2314 2315 "environment.ml" 77 2314 2318
+type(
+  t
+)
+ident(
+  def env "environment.ml" 78 2323 2323 "environment.ml" 101 2935 2938
+)
+"environment.ml" 80 2332 2336 "environment.ml" 80 2332 2339
+type(
+  Dim.dimension
+)
+ident(
+  def dim "environment.ml" 81 2359 2359 "environment.ml" 101 2935 2938
+)
+"environment.ml" 80 2332 2342 "environment.ml" 80 2332 2351
+type(
+  t -> Dim.dimension
+)
+ident(
+  int_ref dimension "environment.ml" 48 1476 1476 "environment.ml" 49 1516 1565
+)
+"environment.ml" 80 2332 2352 "environment.ml" 80 2332 2355
+type(
+  t
+)
+ident(
+  int_ref env "environment.ml" 77 2314 2315 "environment.ml" 77 2314 2318
+)
+"environment.ml" 80 2332 2342 "environment.ml" 80 2332 2355
+type(
+  Dim.dimension
+)
+"environment.ml" 81 2359 2362 "environment.ml" 81 2359 2365
+type(
+  Dim.dimension
+)
+ident(
+  int_ref dim "environment.ml" 80 2332 2336 "environment.ml" 80 2332 2339
+)
+"environment.ml" 81 2359 2362 "environment.ml" 81 2359 2374
+type(
+  int
+)
+"environment.ml" 81 2359 2374 "environment.ml" 81 2359 2375
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"environment.ml" 81 2359 2375 "environment.ml" 81 2359 2378
+type(
+  Dim.dimension
+)
+ident(
+  int_ref dim "environment.ml" 80 2332 2336 "environment.ml" 80 2332 2339
+)
+"environment.ml" 81 2359 2375 "environment.ml" 81 2359 2388
+type(
+  int
+)
+"environment.ml" 81 2359 2362 "environment.ml" 81 2359 2388
+type(
+  int
+)
+"environment.ml" 81 2359 2388 "environment.ml" 81 2359 2389
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"environment.ml" 81 2359 2389 "environment.ml" 81 2359 2390
+type(
+  int
+)
+"environment.ml" 81 2359 2362 "environment.ml" 81 2359 2390
+type(
+  bool
+)
+"environment.ml" 82 2402 2402 "environment.ml" 82 2402 2416
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"environment.ml" 82 2402 2417 "environment.ml" 82 2402 2420
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+)
+"environment.ml" 82 2402 2421 "environment.ml" 82 2402 2426
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref first "environment.ml" 73 2129 2131 "environment.ml" 73 2129 2136
+)
+"environment.ml" 82 2402 2402 "environment.ml" 82 2402 2426
+call(
+  stack
+)
+type(
+  unit
+)
+"environment.ml" 83 2428 2428 "environment.ml" 83 2428 2442
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"environment.ml" 83 2428 2443 "environment.ml" 83 2428 2446
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+)
+"environment.ml" 83 2428 2447 "environment.ml" 83 2428 2451
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref last "environment.ml" 75 2236 2238 "environment.ml" 75 2236 2242
+)
+"environment.ml" 83 2428 2428 "environment.ml" 83 2428 2452
+call(
+  tail
+)
+type(
+  unit
+)
+"environment.ml" 81 2359 2396 "environment.ml" 84 2453 2456
+type(
+  unit
+)
+"environment.ml" 86 2468 2468 "environment.ml" 86 2468 2482
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"environment.ml" 86 2468 2483 "environment.ml" 86 2468 2486
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+)
+"environment.ml" 86 2468 2487 "environment.ml" 86 2468 2492
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref first "environment.ml" 73 2129 2131 "environment.ml" 73 2129 2136
+)
+"environment.ml" 86 2468 2468 "environment.ml" 86 2468 2492
+call(
+  stack
+)
+type(
+  unit
+)
+"environment.ml" 87 2494 2498 "environment.ml" 87 2494 2503
+type(
+  bool ref
+)
+ident(
+  def first "environment.ml" 88 2518 2518 "environment.ml" 100 2910 2934
+)
+"environment.ml" 87 2494 2506 "environment.ml" 87 2494 2509
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"environment.ml" 87 2494 2510 "environment.ml" 87 2494 2514
+type(
+  bool
+)
+"environment.ml" 87 2494 2506 "environment.ml" 87 2494 2514
+type(
+  bool ref
+)
+"environment.ml" 88 2518 2524 "environment.ml" 88 2518 2525
+type(
+  int
+)
+"environment.ml" 88 2518 2529 "environment.ml" 88 2518 2533
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"environment.ml" 88 2518 2534 "environment.ml" 88 2518 2537
+type(
+  Dim.dimension
+)
+ident(
+  int_ref dim "environment.ml" 80 2332 2336 "environment.ml" 80 2332 2339
+)
+"environment.ml" 88 2518 2534 "environment.ml" 88 2518 2546
+type(
+  int
+)
+"environment.ml" 88 2518 2529 "environment.ml" 88 2518 2546
+type(
+  int
+)
+"environment.ml" 89 2550 2554 "environment.ml" 89 2550 2557
+type(
+  Var.t
+)
+ident(
+  def var "environment.ml" 90 2580 2580 "environment.ml" 92 2671 2692
+)
+"environment.ml" 89 2550 2560 "environment.ml" 89 2550 2570
+type(
+  t -> Dim.t -> Var.t
+)
+ident(
+  int_ref var_of_dim "environment.ml" 63 1913 1913 "environment.ml" 64 1955 2005
+)
+"environment.ml" 89 2550 2571 "environment.ml" 89 2550 2574
+type(
+  t
+)
+ident(
+  int_ref env "environment.ml" 77 2314 2315 "environment.ml" 77 2314 2318
+)
+"environment.ml" 89 2550 2575 "environment.ml" 89 2550 2576
+type(
+  Dim.t
+)
+ident(
+  int_ref i "environment.ml" 88 2518 2518 "environment.ml" 93 2693 2697
+)
+"environment.ml" 89 2550 2560 "environment.ml" 89 2550 2576
+type(
+  Var.t
+)
+"environment.ml" 90 2580 2583 "environment.ml" 90 2580 2584
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"environment.ml" 90 2580 2584 "environment.ml" 90 2580 2589
+type(
+  bool ref
+)
+ident(
+  int_ref first "environment.ml" 87 2494 2498 "environment.ml" 87 2494 2503
+)
+"environment.ml" 90 2580 2583 "environment.ml" 90 2580 2589
+type(
+  bool
+)
+"environment.ml" 90 2580 2595 "environment.ml" 90 2580 2600
+type(
+  bool ref
+)
+ident(
+  int_ref first "environment.ml" 87 2494 2498 "environment.ml" 87 2494 2503
+)
+"environment.ml" 90 2580 2601 "environment.ml" 90 2580 2603
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"environment.ml" 90 2580 2604 "environment.ml" 90 2580 2609
+type(
+  bool
+)
+"environment.ml" 90 2580 2595 "environment.ml" 90 2580 2609
+type(
+  unit
+)
+"environment.ml" 90 2580 2615 "environment.ml" 90 2580 2629
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"environment.ml" 90 2580 2630 "environment.ml" 90 2580 2633
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+)
+"environment.ml" 90 2580 2634 "environment.ml" 90 2580 2637
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref sep "environment.ml" 74 2183 2185 "environment.ml" 74 2183 2188
+)
+"environment.ml" 90 2580 2615 "environment.ml" 90 2580 2637
+call(
+  stack
+)
+type(
+  unit
+)
+"environment.ml" 90 2580 2580 "environment.ml" 90 2580 2637
+type(
+  unit
+)
+"environment.ml" 91 2639 2639 "environment.ml" 91 2639 2653
+type(
+  Format.formatter ->
+  (Dim.t -> string -> unit, Format.formatter, unit) format ->
+  Dim.t -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"environment.ml" 91 2639 2654 "environment.ml" 91 2639 2657
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+)
+"environment.ml" 91 2639 2658 "environment.ml" 91 2639 2670
+type(
+  (Dim.t -> string -> unit, Format.formatter, unit) format
+)
+"environment.ml" 92 2671 2671 "environment.ml" 92 2671 2672
+type(
+  Dim.t
+)
+ident(
+  int_ref i "environment.ml" 88 2518 2518 "environment.ml" 93 2693 2697
+)
+"environment.ml" 92 2671 2674 "environment.ml" 92 2671 2687
+type(
+  Var.t -> string
+)
+ident(
+  ext_ref Var.to_string
+)
+"environment.ml" 92 2671 2688 "environment.ml" 92 2671 2691
+type(
+  Var.t
+)
+ident(
+  int_ref var "environment.ml" 89 2550 2554 "environment.ml" 89 2550 2557
+)
+"environment.ml" 92 2671 2673 "environment.ml" 92 2671 2692
+type(
+  string
+)
+"environment.ml" 91 2639 2639 "environment.ml" 92 2671 2692
+call(
+  stack
+)
+type(
+  unit
+)
+"environment.ml" 90 2580 2580 "environment.ml" 92 2671 2692
+type(
+  unit
+)
+"environment.ml" 89 2550 2550 "environment.ml" 92 2671 2692
+type(
+  unit
+)
+"environment.ml" 88 2518 2518 "environment.ml" 93 2693 2697
+type(
+  unit
+)
+"environment.ml" 94 2699 2705 "environment.ml" 94 2699 2708
+type(
+  Dim.dimension
+)
+ident(
+  int_ref dim "environment.ml" 80 2332 2336 "environment.ml" 80 2332 2339
+)
+"environment.ml" 94 2699 2705 "environment.ml" 94 2699 2717
+type(
+  int
+)
+"environment.ml" 94 2699 2721 "environment.ml" 94 2699 2724
+type(
+  Dim.dimension
+)
+ident(
+  int_ref dim "environment.ml" 80 2332 2336 "environment.ml" 80 2332 2339
+)
+"environment.ml" 94 2699 2721 "environment.ml" 94 2699 2733
+type(
+  int
+)
+"environment.ml" 94 2699 2734 "environment.ml" 94 2699 2735
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"environment.ml" 94 2699 2737 "environment.ml" 94 2699 2741
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"environment.ml" 94 2699 2742 "environment.ml" 94 2699 2745
+type(
+  Dim.dimension
+)
+ident(
+  int_ref dim "environment.ml" 80 2332 2336 "environment.ml" 80 2332 2339
+)
+"environment.ml" 94 2699 2742 "environment.ml" 94 2699 2755
+type(
+  int
+)
+"environment.ml" 94 2699 2736 "environment.ml" 94 2699 2756
+type(
+  int
+)
+"environment.ml" 94 2699 2721 "environment.ml" 94 2699 2756
+type(
+  int
+)
+"environment.ml" 95 2760 2764 "environment.ml" 95 2760 2767
+type(
+  Var.t
+)
+ident(
+  def var "environment.ml" 96 2790 2790 "environment.ml" 98 2882 2903
+)
+"environment.ml" 95 2760 2770 "environment.ml" 95 2760 2780
+type(
+  t -> Dim.t -> Var.t
+)
+ident(
+  int_ref var_of_dim "environment.ml" 63 1913 1913 "environment.ml" 64 1955 2005
+)
+"environment.ml" 95 2760 2781 "environment.ml" 95 2760 2784
+type(
+  t
+)
+ident(
+  int_ref env "environment.ml" 77 2314 2315 "environment.ml" 77 2314 2318
+)
+"environment.ml" 95 2760 2785 "environment.ml" 95 2760 2786
+type(
+  Dim.t
+)
+ident(
+  int_ref i "environment.ml" 94 2699 2699 "environment.ml" 99 2904 2908
+)
+"environment.ml" 95 2760 2770 "environment.ml" 95 2760 2786
+type(
+  Var.t
+)
+"environment.ml" 96 2790 2793 "environment.ml" 96 2790 2794
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"environment.ml" 96 2790 2794 "environment.ml" 96 2790 2799
+type(
+  bool ref
+)
+ident(
+  int_ref first "environment.ml" 87 2494 2498 "environment.ml" 87 2494 2503
+)
+"environment.ml" 96 2790 2793 "environment.ml" 96 2790 2799
+type(
+  bool
+)
+"environment.ml" 96 2790 2805 "environment.ml" 96 2790 2810
+type(
+  bool ref
+)
+ident(
+  int_ref first "environment.ml" 87 2494 2498 "environment.ml" 87 2494 2503
+)
+"environment.ml" 96 2790 2811 "environment.ml" 96 2790 2813
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"environment.ml" 96 2790 2814 "environment.ml" 96 2790 2819
+type(
+  bool
+)
+"environment.ml" 96 2790 2805 "environment.ml" 96 2790 2819
+type(
+  unit
+)
+"environment.ml" 96 2790 2825 "environment.ml" 96 2790 2839
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"environment.ml" 96 2790 2840 "environment.ml" 96 2790 2843
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+)
+"environment.ml" 96 2790 2844 "environment.ml" 96 2790 2847
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref sep "environment.ml" 74 2183 2185 "environment.ml" 74 2183 2188
+)
+"environment.ml" 96 2790 2825 "environment.ml" 96 2790 2847
+call(
+  stack
+)
+type(
+  unit
+)
+"environment.ml" 96 2790 2790 "environment.ml" 96 2790 2847
+type(
+  unit
+)
+"environment.ml" 97 2849 2849 "environment.ml" 97 2849 2863
+type(
+  Format.formatter ->
+  (Dim.t -> string -> unit, Format.formatter, unit) format ->
+  Dim.t -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"environment.ml" 97 2849 2864 "environment.ml" 97 2849 2867
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+)
+"environment.ml" 97 2849 2868 "environment.ml" 97 2849 2881
+type(
+  (Dim.t -> string -> unit, Format.formatter, unit) format
+)
+"environment.ml" 98 2882 2882 "environment.ml" 98 2882 2883
+type(
+  Dim.t
+)
+ident(
+  int_ref i "environment.ml" 94 2699 2699 "environment.ml" 99 2904 2908
+)
+"environment.ml" 98 2882 2885 "environment.ml" 98 2882 2898
+type(
+  Var.t -> string
+)
+ident(
+  ext_ref Var.to_string
+)
+"environment.ml" 98 2882 2899 "environment.ml" 98 2882 2902
+type(
+  Var.t
+)
+ident(
+  int_ref var "environment.ml" 95 2760 2764 "environment.ml" 95 2760 2767
+)
+"environment.ml" 98 2882 2884 "environment.ml" 98 2882 2903
+type(
+  string
+)
+"environment.ml" 97 2849 2849 "environment.ml" 98 2882 2903
+call(
+  stack
+)
+type(
+  unit
+)
+"environment.ml" 96 2790 2790 "environment.ml" 98 2882 2903
+type(
+  unit
+)
+"environment.ml" 95 2760 2760 "environment.ml" 98 2882 2903
+type(
+  unit
+)
+"environment.ml" 94 2699 2699 "environment.ml" 99 2904 2908
+type(
+  unit
+)
+"environment.ml" 100 2910 2910 "environment.ml" 100 2910 2924
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"environment.ml" 100 2910 2925 "environment.ml" 100 2910 2928
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "environment.ml" 76 2291 2292 "environment.ml" 76 2291 2295
+)
+"environment.ml" 100 2910 2929 "environment.ml" 100 2910 2933
+type(
+  (unit, Format.formatter, unit) format
+)
+ident(
+  int_ref last "environment.ml" 75 2236 2238 "environment.ml" 75 2236 2242
+)
+"environment.ml" 100 2910 2910 "environment.ml" 100 2910 2934
+call(
+  tail
+)
+type(
+  unit
+)
+"environment.ml" 94 2699 2699 "environment.ml" 100 2910 2934
+type(
+  unit
+)
+"environment.ml" 88 2518 2518 "environment.ml" 100 2910 2934
+type(
+  unit
+)
+"environment.ml" 87 2494 2494 "environment.ml" 100 2910 2934
+type(
+  unit
+)
+"environment.ml" 85 2457 2462 "environment.ml" 101 2935 2938
+type(
+  unit
+)
+"environment.ml" 81 2359 2359 "environment.ml" 101 2935 2938
+type(
+  unit
+)
+"environment.ml" 80 2332 2332 "environment.ml" 101 2935 2938
+type(
+  unit
+)
+type(
+  unit
+)

@@ -1,0 +1,18 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/32.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([6,4]): pc(main-1-15) pc(main-8-15) {n>=2*k,n'=n,k'=k,j'=j,i'=i,b'=b}
+[n>=2*k] [n'=n,k'=k,j'=j,i'=i,b'=b]
+path([11,10,5,4]): pc(main-1-15) pc(main-9-15) {n+1=<2*k,b=0,n'=n,k'=k,j'=j+1,i'=i,b'=b}
+[n+1=<2*k,b=0] [n'=n,k'=k,j'=j+1,i'=i,b'=b]
+path([9,8,5,4]): pc(main-1-15) pc(main-9-15) {n+1=<2*k,b>=1+0,n'=n,k'=k,j'=j,i'=i+1,b'=b}
+[n+1=<2*k,b>=1+0] [n'=n,k'=k,j'=j,i'=i+1,b'=b]
+path([9,7,5,4]): pc(main-1-15) pc(main-9-15) {n+1=<2*k,b+1=<0,n'=n,k'=k,j'=j,i'=i+1,b'=b}
+[n+1=<2*k,b+1=<0] [n'=n,k'=k,j'=j,i'=i+1,b'=b]
+path([3,2,1]): pc(main-0-15) pc(main-1-15) {n'=0,k'=100,j'=j,i'=j,b'=b}
+[] [n'=0,k'=100,j'=j,i'=j,b'=b]
+
+#Printing Strengthening ==
+#=========================

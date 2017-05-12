@@ -1,0 +1,14 @@
+TN:
+SF:/home/spencerxiao/Experiments/tacas17/cpachecker-1.6.1/benchmarks/18.c
+FN:5,main
+#FN:19
+FNDA:1,main
+DA:16,0
+DA:6,1
+DA:7,1
+DA:9,146
+DA:10,96
+DA:11,48
+DA:14,96
+DA:15,96
+end_of_record

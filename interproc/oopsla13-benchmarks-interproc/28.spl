@@ -1,0 +1,18 @@
+var x:int, y:int, n:int;
+begin
+  x = 0;
+  y = 0;
+  n = 0;
+
+  while (brandom) do
+    x = x +_i 1;
+    y = y +_i 1;
+  done;
+
+  while (not x == n) do
+    x = x -_i 1;
+    y = y -_i 1;
+  done;
+
+  assume (y == n);
+end

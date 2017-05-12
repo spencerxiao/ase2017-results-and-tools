@@ -1,0 +1,30 @@
+2017-05-11 14:16:56:339	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 900s
+
+2017-05-11 14:16:56:360	INFO	CPAchecker.run	CPAchecker 1.6.1 (Java HotSpot(TM) 64-Bit Server VM 1.8.0_101) started
+
+2017-05-11 14:16:56:660	WARNING	CheckBindingVisitor.visit	Undefined function assume found, first called in line 17
+
+2017-05-11 14:16:56:915	INFO	PredicateCPA:PredicateCPA.<init>	Using predicate analysis with SMTInterpol 2.1-238-g1f06d6a-comp and JFactory 1.21.
+
+2017-05-11 14:16:56:942	INFO	PredicateCPA:InvariantsManager.<init>	No invariants are computed
+
+2017-05-11 14:16:56:980	INFO	PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.
+
+2017-05-11 14:16:56:989	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2017-05-11 14:16:57:020	WARNING	PredicateCPA:CtoFormulaConverter.getReturnType	line 17: Return type of function assume is void, but result is used as type int: assume(k >= 0);
+
+2017-05-11 14:16:57:020	INFO	PredicateCPA:ExpressionToFormulaVisitor.visit	Assuming external function assume to be a pure function.
+
+2017-05-11 14:16:57:020	WARNING	PredicateCPA:ExpressionToFormulaVisitor.visit	Cannot get declaration of function assume, ignoring calls to it.
+
+2017-05-11 14:16:57:224	INFO	CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2017-05-11 14:16:57:228	INFO	CounterexampleCheck:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 900s
+
+2017-05-11 14:16:57:230	INFO	CounterexampleCheck:EclipseParsers.getClassLoader	Repeated loading of Eclipse source parser
+
+2017-05-11 14:16:57:395	INFO	CounterexampleCheckAlgorithm.checkCounterexample	Error path found and confirmed by counterexample check with CPACHECKER.
+
+2017-05-11 14:16:57:395	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

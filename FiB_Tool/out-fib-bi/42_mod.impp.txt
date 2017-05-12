@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: ((flag != 1) | ((a % 2) = 0))
+find an inductive invaraint in backward interpolation  based on concrete reachables!
+invariant size: 72
+interp: (not (and (= flag 1) (and (or (and (<= (to_real (+ x (+ y (+ (* (- 1) a) (+ (* 2 (to_int (* (/ 1 2) (to_real a)))) (* (- 2) (to_int (* (/ 1 2) (to_real (+ (* 1 y) (* 1 x))))))))))) (to_real (- 1))) (<= (to_real (- 1)) (to_real (+ x (+ y (+ (* (- 1) a) (+ (* 2 (to_int (* (/ 1 2) (to_real a)))) (* 2 (to_int (* (/ 1 2) (to_real (+ (* (- 1) y) (* (- 1) x))))))))))))) (<= (to_real (+ x (+ y (* (- 2) (to_int (* (/ 1 2) (to_real (+ (+ (* 1 y) (* 1 x)) (- 1))))))))) (to_real 1))) (and (or (and (<= (+ a (* (- 2) (to_int (* (/ 1 2) (to_real a))))) 1) (<= (to_real 1) (to_real (+ a (* (- 2) (to_int (* (/ 1 2) (to_real a)))))))) (and (<= (to_real 1) (to_real (+ x (+ y (* (- 2) (to_int (* (/ 1 2) (to_real (+ x y))))))))) (<= (+ x (+ y (* (- 2) (to_int (* (/ 1 2) (to_real (+ x y))))))) 1))) (or (<= (to_real 1) (to_real (+ a (* 2 (to_int (* (/ 1 2) (to_real (+ (* (- 1) a) 1)))))))) (= (+ x (+ y (* (- 2) (to_int (* (/ 1 2) (to_real (+ x y))))))) 1))))))
+The assertion is satisfied!
+forward [2] times, backtrack [1] times
+backward [2] times, backtrack [1] times

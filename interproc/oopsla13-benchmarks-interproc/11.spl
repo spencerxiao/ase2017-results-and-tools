@@ -1,0 +1,13 @@
+var i:int, j:int, x:int;
+begin
+  i = 0;
+  j = 0;
+  x = 100;
+
+  while (i < x) do
+    j = j +_i 2;
+    i = i +_i 1;
+  done;
+  
+  assume (j == 2 *_i x);
+end

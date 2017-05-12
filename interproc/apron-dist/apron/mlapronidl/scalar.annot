@@ -1,0 +1,2663 @@
+"scalar.ml" 15 497 501 "scalar.ml" 15 497 507
+type(
+  'a Mpq.tt -> t
+)
+ident(
+  def of_mpq "scalar.ml" 16 533 533 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 15 497 508 "scalar.ml" 15 497 509
+type(
+  'a Mpq.tt
+)
+ident(
+  def x "scalar.ml" 15 497 512 "scalar.ml" 15 497 532
+)
+"scalar.ml" 15 497 518 "scalar.ml" 15 497 529
+type(
+  'a Mpq.tt -> Mpqf.t
+)
+ident(
+  ext_ref Mpqf.of_mpq
+)
+"scalar.ml" 15 497 530 "scalar.ml" 15 497 531
+type(
+  'a Mpq.tt
+)
+ident(
+  int_ref x "scalar.ml" 15 497 508 "scalar.ml" 15 497 509
+)
+"scalar.ml" 15 497 517 "scalar.ml" 15 497 532
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 15 497 512 "scalar.ml" 15 497 532
+type(
+  t
+)
+"scalar.ml" 16 533 537 "scalar.ml" 16 533 544
+type(
+  Mpqf.t -> t
+)
+ident(
+  def of_mpqf "scalar.ml" 17 556 556 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 16 533 545 "scalar.ml" 16 533 546
+type(
+  Mpqf.t
+)
+ident(
+  def x "scalar.ml" 16 533 549 "scalar.ml" 16 533 555
+)
+"scalar.ml" 16 533 554 "scalar.ml" 16 533 555
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 16 533 545 "scalar.ml" 16 533 546
+)
+"scalar.ml" 16 533 549 "scalar.ml" 16 533 555
+type(
+  t
+)
+"scalar.ml" 17 556 560 "scalar.ml" 17 556 567
+type(
+  'a Mpfr.tt -> t
+)
+ident(
+  def of_mpfr "scalar.ml" 18 596 596 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 17 556 568 "scalar.ml" 17 556 569
+type(
+  'a Mpfr.tt
+)
+ident(
+  def x "scalar.ml" 17 556 572 "scalar.ml" 17 556 595
+)
+"scalar.ml" 17 556 579 "scalar.ml" 17 556 592
+type(
+  'a Mpfr.tt -> Mpfrf.t
+)
+ident(
+  ext_ref Mpfrf.of_mpfr
+)
+"scalar.ml" 17 556 593 "scalar.ml" 17 556 594
+type(
+  'a Mpfr.tt
+)
+ident(
+  int_ref x "scalar.ml" 17 556 568 "scalar.ml" 17 556 569
+)
+"scalar.ml" 17 556 578 "scalar.ml" 17 556 595
+call(
+  stack
+)
+type(
+  Mpfrf.t
+)
+"scalar.ml" 17 556 572 "scalar.ml" 17 556 595
+type(
+  t
+)
+"scalar.ml" 18 596 600 "scalar.ml" 18 596 608
+type(
+  Mpfrf.t -> t
+)
+ident(
+  def of_mpfrf "scalar.ml" 19 621 621 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 18 596 609 "scalar.ml" 18 596 610
+type(
+  Mpfrf.t
+)
+ident(
+  def x "scalar.ml" 18 596 613 "scalar.ml" 18 596 620
+)
+"scalar.ml" 18 596 619 "scalar.ml" 18 596 620
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 18 596 609 "scalar.ml" 18 596 610
+)
+"scalar.ml" 18 596 613 "scalar.ml" 18 596 620
+type(
+  t
+)
+"scalar.ml" 19 621 625 "scalar.ml" 19 621 631
+type(
+  int -> t
+)
+ident(
+  def of_int "scalar.ml" 20 656 656 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 19 621 632 "scalar.ml" 19 621 633
+type(
+  int
+)
+ident(
+  def x "scalar.ml" 19 621 636 "scalar.ml" 19 621 655
+)
+"scalar.ml" 19 621 641 "scalar.ml" 19 621 652
+type(
+  int -> Mpqf.t
+)
+ident(
+  ext_ref Mpqf.of_int
+)
+"scalar.ml" 19 621 653 "scalar.ml" 19 621 654
+type(
+  int
+)
+ident(
+  int_ref x "scalar.ml" 19 621 632 "scalar.ml" 19 621 633
+)
+"scalar.ml" 19 621 640 "scalar.ml" 19 621 655
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 19 621 636 "scalar.ml" 19 621 655
+type(
+  t
+)
+"scalar.ml" 20 656 660 "scalar.ml" 20 656 667
+type(
+  int -> int -> t
+)
+ident(
+  def of_frac "scalar.ml" 21 697 697 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 20 656 668 "scalar.ml" 20 656 669
+type(
+  int
+)
+ident(
+  def x "scalar.ml" 20 656 670 "scalar.ml" 20 656 696
+)
+"scalar.ml" 20 656 670 "scalar.ml" 20 656 671
+type(
+  int
+)
+ident(
+  def y "scalar.ml" 20 656 674 "scalar.ml" 20 656 696
+)
+"scalar.ml" 20 656 679 "scalar.ml" 20 656 691
+type(
+  int -> int -> Mpqf.t
+)
+ident(
+  ext_ref Mpqf.of_frac
+)
+"scalar.ml" 20 656 692 "scalar.ml" 20 656 693
+type(
+  int
+)
+ident(
+  int_ref x "scalar.ml" 20 656 668 "scalar.ml" 20 656 669
+)
+"scalar.ml" 20 656 694 "scalar.ml" 20 656 695
+type(
+  int
+)
+ident(
+  int_ref y "scalar.ml" 20 656 670 "scalar.ml" 20 656 671
+)
+"scalar.ml" 20 656 678 "scalar.ml" 20 656 696
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 20 656 674 "scalar.ml" 20 656 696
+type(
+  t
+)
+"scalar.ml" 21 697 701 "scalar.ml" 21 697 709
+type(
+  float -> t
+)
+ident(
+  def of_float "scalar.ml" 22 723 723 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 21 697 710 "scalar.ml" 21 697 711
+type(
+  float
+)
+ident(
+  def x "scalar.ml" 21 697 714 "scalar.ml" 21 697 722
+)
+"scalar.ml" 21 697 719 "scalar.ml" 21 697 722
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 21 697 710 "scalar.ml" 21 697 711
+)
+"scalar.ml" 21 697 714 "scalar.ml" 21 697 722
+type(
+  t
+)
+"scalar.ml" 22 723 727 "scalar.ml" 22 723 735
+type(
+  int -> t
+)
+ident(
+  def of_infty "scalar.ml" 26 844 844 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 22 723 736 "scalar.ml" 22 723 737
+type(
+  int
+)
+ident(
+  def s "scalar.ml" 23 741 741 "scalar.ml" 25 828 843
+)
+"scalar.ml" 23 741 744 "scalar.ml" 23 741 745
+type(
+  int
+)
+ident(
+  int_ref s "scalar.ml" 22 723 736 "scalar.ml" 22 723 737
+)
+"scalar.ml" 23 741 745 "scalar.ml" 23 741 746
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"scalar.ml" 23 741 746 "scalar.ml" 23 741 747
+type(
+  int
+)
+"scalar.ml" 23 741 744 "scalar.ml" 23 741 747
+type(
+  bool
+)
+"scalar.ml" 23 741 758 "scalar.ml" 23 741 779
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.infinity
+)
+"scalar.ml" 23 741 753 "scalar.ml" 23 741 779
+type(
+  t
+)
+"scalar.ml" 24 780 788 "scalar.ml" 24 780 789
+type(
+  int
+)
+ident(
+  int_ref s "scalar.ml" 22 723 736 "scalar.ml" 22 723 737
+)
+"scalar.ml" 24 780 789 "scalar.ml" 24 780 790
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"scalar.ml" 24 780 790 "scalar.ml" 24 780 791
+type(
+  int
+)
+"scalar.ml" 24 780 788 "scalar.ml" 24 780 791
+type(
+  bool
+)
+"scalar.ml" 24 780 802 "scalar.ml" 24 780 827
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.neg_infinity
+)
+"scalar.ml" 24 780 797 "scalar.ml" 24 780 827
+type(
+  t
+)
+"scalar.ml" 25 828 838 "scalar.ml" 25 828 843
+type(
+  float
+)
+"scalar.ml" 25 828 833 "scalar.ml" 25 828 843
+type(
+  t
+)
+"scalar.ml" 24 780 785 "scalar.ml" 25 828 843
+type(
+  t
+)
+"scalar.ml" 23 741 741 "scalar.ml" 25 828 843
+type(
+  t
+)
+"scalar.ml" 26 844 848 "scalar.ml" 26 844 856
+type(
+  t -> int
+)
+ident(
+  def is_infty "scalar.ml" 44 1236 1236 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 26 844 857 "scalar.ml" 26 844 863
+type(
+  t
+)
+ident(
+  def scalar "scalar.ml" 27 866 866 "scalar.ml" 43 1229 1235
+)
+"scalar.ml" 27 866 872 "scalar.ml" 27 866 878
+type(
+  t
+)
+ident(
+  int_ref scalar "scalar.ml" 26 844 857 "scalar.ml" 26 844 863
+)
+"scalar.ml" 28 884 891 "scalar.ml" 28 884 892
+type(
+  Mpqf.t
+)
+ident(
+  def x "scalar.ml" 29 896 896 "scalar.ml" 35 1058 1061
+)
+"scalar.ml" 28 884 886 "scalar.ml" 28 884 892
+type(
+  t
+)
+"scalar.ml" 29 896 900 "scalar.ml" 29 896 901
+type(
+  Mpzf.t
+)
+ident(
+  def z "scalar.ml" 30 922 922 "scalar.ml" 35 1058 1061
+)
+"scalar.ml" 29 896 904 "scalar.ml" 29 896 916
+type(
+  Mpqf.t -> Mpzf.t
+)
+ident(
+  ext_ref Mpqf.get_den
+)
+"scalar.ml" 29 896 917 "scalar.ml" 29 896 918
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 28 884 891 "scalar.ml" 28 884 892
+)
+"scalar.ml" 29 896 904 "scalar.ml" 29 896 918
+call(
+  stack
+)
+type(
+  Mpzf.t
+)
+"scalar.ml" 30 922 925 "scalar.ml" 30 922 933
+type(
+  Mpz.f Mpzf.tt -> int
+)
+ident(
+  ext_ref Mpzf.sgn
+)
+"scalar.ml" 30 922 934 "scalar.ml" 30 922 935
+type(
+  Mpzf.t
+)
+ident(
+  int_ref z "scalar.ml" 29 896 900 "scalar.ml" 29 896 901
+)
+"scalar.ml" 30 922 925 "scalar.ml" 30 922 935
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 30 922 936 "scalar.ml" 30 922 938
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"scalar.ml" 30 922 939 "scalar.ml" 30 922 940
+type(
+  int
+)
+"scalar.ml" 30 922 925 "scalar.ml" 30 922 940
+type(
+  bool
+)
+"scalar.ml" 30 922 946 "scalar.ml" 30 922 947
+type(
+  int
+)
+"scalar.ml" 32 959 963 "scalar.ml" 32 959 964
+type(
+  Mpzf.t
+)
+ident(
+  def z "scalar.ml" 33 985 985 "scalar.ml" 34 1009 1057
+)
+"scalar.ml" 32 959 967 "scalar.ml" 32 959 979
+type(
+  Mpqf.t -> Mpzf.t
+)
+ident(
+  ext_ref Mpqf.get_num
+)
+"scalar.ml" 32 959 980 "scalar.ml" 32 959 981
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 28 884 891 "scalar.ml" 28 884 892
+)
+"scalar.ml" 32 959 967 "scalar.ml" 32 959 981
+call(
+  stack
+)
+type(
+  Mpzf.t
+)
+"scalar.ml" 33 985 989 "scalar.ml" 33 985 992
+type(
+  int
+)
+ident(
+  def sgn "scalar.ml" 34 1009 1009 "scalar.ml" 34 1009 1057
+)
+"scalar.ml" 33 985 995 "scalar.ml" 33 985 1003
+type(
+  Mpz.f Mpzf.tt -> int
+)
+ident(
+  ext_ref Mpzf.sgn
+)
+"scalar.ml" 33 985 1004 "scalar.ml" 33 985 1005
+type(
+  Mpzf.t
+)
+ident(
+  int_ref z "scalar.ml" 32 959 963 "scalar.ml" 32 959 964
+)
+"scalar.ml" 33 985 995 "scalar.ml" 33 985 1005
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 34 1009 1012 "scalar.ml" 34 1009 1015
+type(
+  int
+)
+ident(
+  int_ref sgn "scalar.ml" 33 985 989 "scalar.ml" 33 985 992
+)
+"scalar.ml" 34 1009 1016 "scalar.ml" 34 1009 1017
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"scalar.ml" 34 1009 1018 "scalar.ml" 34 1009 1019
+type(
+  int
+)
+"scalar.ml" 34 1009 1012 "scalar.ml" 34 1009 1019
+type(
+  bool
+)
+"scalar.ml" 34 1009 1025 "scalar.ml" 34 1009 1026
+type(
+  int
+)
+"scalar.ml" 34 1009 1035 "scalar.ml" 34 1009 1038
+type(
+  int
+)
+ident(
+  int_ref sgn "scalar.ml" 33 985 989 "scalar.ml" 33 985 992
+)
+"scalar.ml" 34 1009 1039 "scalar.ml" 34 1009 1040
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"scalar.ml" 34 1009 1041 "scalar.ml" 34 1009 1042
+type(
+  int
+)
+"scalar.ml" 34 1009 1035 "scalar.ml" 34 1009 1042
+type(
+  bool
+)
+"scalar.ml" 34 1009 1048 "scalar.ml" 34 1009 1050
+type(
+  int
+)
+"scalar.ml" 34 1009 1056 "scalar.ml" 34 1009 1057
+type(
+  int
+)
+"scalar.ml" 34 1009 1032 "scalar.ml" 34 1009 1057
+type(
+  int
+)
+"scalar.ml" 34 1009 1009 "scalar.ml" 34 1009 1057
+type(
+  int
+)
+"scalar.ml" 33 985 985 "scalar.ml" 34 1009 1057
+type(
+  int
+)
+"scalar.ml" 31 948 953 "scalar.ml" 35 1058 1061
+type(
+  int
+)
+"scalar.ml" 30 922 922 "scalar.ml" 35 1058 1061
+type(
+  int
+)
+"scalar.ml" 29 896 896 "scalar.ml" 35 1058 1061
+type(
+  int
+)
+"scalar.ml" 36 1062 1070 "scalar.ml" 36 1062 1071
+type(
+  Mpfrf.t
+)
+ident(
+  def x "scalar.ml" 37 1075 1075 "scalar.ml" 39 1131 1137
+)
+"scalar.ml" 36 1062 1064 "scalar.ml" 36 1062 1071
+type(
+  t
+)
+"scalar.ml" 37 1075 1078 "scalar.ml" 37 1075 1089
+type(
+  Mpfr.f Mpfrf.tt -> bool
+)
+ident(
+  ext_ref Mpfrf.inf_p
+)
+"scalar.ml" 37 1075 1090 "scalar.ml" 37 1075 1091
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 36 1062 1070 "scalar.ml" 36 1062 1071
+)
+"scalar.ml" 37 1075 1078 "scalar.ml" 37 1075 1091
+call(
+  stack
+)
+type(
+  bool
+)
+"scalar.ml" 38 1097 1100 "scalar.ml" 38 1097 1109
+type(
+  Mpfr.f Mpfrf.tt -> int
+)
+ident(
+  ext_ref Mpfrf.sgn
+)
+"scalar.ml" 38 1097 1110 "scalar.ml" 38 1097 1111
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 36 1062 1070 "scalar.ml" 36 1062 1071
+)
+"scalar.ml" 38 1097 1100 "scalar.ml" 38 1097 1111
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 38 1097 1112 "scalar.ml" 38 1097 1113
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"scalar.ml" 38 1097 1114 "scalar.ml" 38 1097 1115
+type(
+  int
+)
+"scalar.ml" 38 1097 1100 "scalar.ml" 38 1097 1115
+type(
+  bool
+)
+"scalar.ml" 38 1097 1121 "scalar.ml" 38 1097 1122
+type(
+  int
+)
+"scalar.ml" 38 1097 1128 "scalar.ml" 38 1097 1130
+type(
+  int
+)
+"scalar.ml" 38 1097 1097 "scalar.ml" 38 1097 1130
+type(
+  int
+)
+"scalar.ml" 39 1131 1136 "scalar.ml" 39 1131 1137
+type(
+  int
+)
+"scalar.ml" 37 1075 1075 "scalar.ml" 39 1131 1137
+type(
+  int
+)
+"scalar.ml" 40 1138 1146 "scalar.ml" 40 1138 1147
+type(
+  float
+)
+ident(
+  def x "scalar.ml" 41 1151 1151 "scalar.ml" 43 1229 1235
+)
+"scalar.ml" 40 1138 1140 "scalar.ml" 40 1138 1147
+type(
+  t
+)
+"scalar.ml" 41 1151 1154 "scalar.ml" 41 1151 1155
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 40 1138 1146 "scalar.ml" 40 1138 1147
+)
+"scalar.ml" 41 1151 1156 "scalar.ml" 41 1151 1157
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"scalar.ml" 41 1151 1158 "scalar.ml" 41 1151 1177
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.infinity
+)
+"scalar.ml" 41 1151 1154 "scalar.ml" 41 1151 1177
+type(
+  bool
+)
+"scalar.ml" 41 1151 1183 "scalar.ml" 41 1151 1184
+type(
+  int
+)
+"scalar.ml" 42 1185 1193 "scalar.ml" 42 1185 1194
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 40 1138 1146 "scalar.ml" 40 1138 1147
+)
+"scalar.ml" 42 1185 1195 "scalar.ml" 42 1185 1196
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"scalar.ml" 42 1185 1197 "scalar.ml" 42 1185 1220
+type(
+  float
+)
+ident(
+  ext_ref Pervasives.neg_infinity
+)
+"scalar.ml" 42 1185 1193 "scalar.ml" 42 1185 1220
+type(
+  bool
+)
+"scalar.ml" 42 1185 1226 "scalar.ml" 42 1185 1228
+type(
+  int
+)
+"scalar.ml" 43 1229 1234 "scalar.ml" 43 1229 1235
+type(
+  int
+)
+"scalar.ml" 42 1185 1190 "scalar.ml" 43 1229 1235
+type(
+  int
+)
+"scalar.ml" 41 1151 1151 "scalar.ml" 43 1229 1235
+type(
+  int
+)
+"scalar.ml" 27 866 866 "scalar.ml" 43 1229 1235
+type(
+  int
+)
+"scalar.ml" 44 1236 1240 "scalar.ml" 44 1236 1243
+type(
+  t -> int
+)
+ident(
+  def sgn "scalar.ml" 49 1388 1388 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 44 1236 1244 "scalar.ml" 44 1236 1250
+type(
+  t
+)
+ident(
+  def scalar "scalar.ml" 45 1253 1253 "scalar.ml" 48 1319 1387
+)
+"scalar.ml" 45 1253 1259 "scalar.ml" 45 1253 1265
+type(
+  t
+)
+ident(
+  int_ref scalar "scalar.ml" 44 1236 1244 "scalar.ml" 44 1236 1250
+)
+"scalar.ml" 46 1271 1278 "scalar.ml" 46 1271 1279
+type(
+  Mpqf.t
+)
+ident(
+  def x "scalar.ml" 46 1271 1283 "scalar.ml" 46 1271 1293
+)
+"scalar.ml" 46 1271 1273 "scalar.ml" 46 1271 1279
+type(
+  t
+)
+"scalar.ml" 46 1271 1283 "scalar.ml" 46 1271 1291
+type(
+  Mpq.f Mpqf.tt -> int
+)
+ident(
+  ext_ref Mpqf.sgn
+)
+"scalar.ml" 46 1271 1292 "scalar.ml" 46 1271 1293
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 46 1271 1278 "scalar.ml" 46 1271 1279
+)
+"scalar.ml" 46 1271 1283 "scalar.ml" 46 1271 1293
+call(
+  tail
+)
+type(
+  int
+)
+"scalar.ml" 47 1294 1302 "scalar.ml" 47 1294 1303
+type(
+  Mpfrf.t
+)
+ident(
+  def x "scalar.ml" 47 1294 1307 "scalar.ml" 47 1294 1318
+)
+"scalar.ml" 47 1294 1296 "scalar.ml" 47 1294 1303
+type(
+  t
+)
+"scalar.ml" 47 1294 1307 "scalar.ml" 47 1294 1316
+type(
+  Mpfr.f Mpfrf.tt -> int
+)
+ident(
+  ext_ref Mpfrf.sgn
+)
+"scalar.ml" 47 1294 1317 "scalar.ml" 47 1294 1318
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 47 1294 1302 "scalar.ml" 47 1294 1303
+)
+"scalar.ml" 47 1294 1307 "scalar.ml" 47 1294 1318
+call(
+  tail
+)
+type(
+  int
+)
+"scalar.ml" 48 1319 1327 "scalar.ml" 48 1319 1328
+type(
+  float
+)
+ident(
+  def x "scalar.ml" 48 1319 1332 "scalar.ml" 48 1319 1387
+)
+"scalar.ml" 48 1319 1321 "scalar.ml" 48 1319 1328
+type(
+  t
+)
+"scalar.ml" 48 1319 1335 "scalar.ml" 48 1319 1336
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 48 1319 1327 "scalar.ml" 48 1319 1328
+)
+"scalar.ml" 48 1319 1337 "scalar.ml" 48 1319 1338
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"scalar.ml" 48 1319 1339 "scalar.ml" 48 1319 1342
+type(
+  float
+)
+"scalar.ml" 48 1319 1342 "scalar.ml" 48 1319 1344
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"scalar.ml" 48 1319 1344 "scalar.ml" 48 1319 1347
+type(
+  float
+)
+"scalar.ml" 48 1319 1339 "scalar.ml" 48 1319 1347
+type(
+  float
+)
+"scalar.ml" 48 1319 1335 "scalar.ml" 48 1319 1347
+type(
+  bool
+)
+"scalar.ml" 48 1319 1353 "scalar.ml" 48 1319 1354
+type(
+  int
+)
+"scalar.ml" 48 1319 1363 "scalar.ml" 48 1319 1364
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 48 1319 1327 "scalar.ml" 48 1319 1328
+)
+"scalar.ml" 48 1319 1365 "scalar.ml" 48 1319 1366
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"scalar.ml" 48 1319 1367 "scalar.ml" 48 1319 1372
+type(
+  float
+)
+"scalar.ml" 48 1319 1363 "scalar.ml" 48 1319 1372
+type(
+  bool
+)
+"scalar.ml" 48 1319 1378 "scalar.ml" 48 1319 1380
+type(
+  int
+)
+"scalar.ml" 48 1319 1386 "scalar.ml" 48 1319 1387
+type(
+  int
+)
+"scalar.ml" 48 1319 1360 "scalar.ml" 48 1319 1387
+type(
+  int
+)
+"scalar.ml" 48 1319 1332 "scalar.ml" 48 1319 1387
+type(
+  int
+)
+"scalar.ml" 45 1253 1253 "scalar.ml" 48 1319 1387
+type(
+  int
+)
+"scalar.ml" 49 1388 1392 "scalar.ml" 49 1388 1399
+type(
+  t -> Mpqf.t
+)
+ident(
+  def to_mpqf "scalar.ml" 53 1483 1483 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 50 1411 1418 "scalar.ml" 50 1411 1419
+type(
+  Mpqf.t
+)
+ident(
+  def x "scalar.ml" 50 1411 1423 "scalar.ml" 50 1411 1424
+)
+"scalar.ml" 50 1411 1413 "scalar.ml" 50 1411 1419
+type(
+  t
+)
+"scalar.ml" 50 1411 1423 "scalar.ml" 50 1411 1424
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 50 1411 1418 "scalar.ml" 50 1411 1419
+)
+"scalar.ml" 51 1425 1433 "scalar.ml" 51 1425 1434
+type(
+  Mpfrf.t
+)
+ident(
+  def x "scalar.ml" 51 1425 1438 "scalar.ml" 51 1425 1453
+)
+"scalar.ml" 51 1425 1427 "scalar.ml" 51 1425 1434
+type(
+  t
+)
+"scalar.ml" 51 1425 1438 "scalar.ml" 51 1425 1451
+type(
+  Mpfrf.t -> Mpqf.t
+)
+ident(
+  ext_ref Mpfrf.to_mpqf
+)
+"scalar.ml" 51 1425 1452 "scalar.ml" 51 1425 1453
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 51 1425 1433 "scalar.ml" 51 1425 1434
+)
+"scalar.ml" 51 1425 1438 "scalar.ml" 51 1425 1453
+call(
+  tail
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 52 1454 1462 "scalar.ml" 52 1454 1463
+type(
+  float
+)
+ident(
+  def x "scalar.ml" 52 1454 1467 "scalar.ml" 52 1454 1482
+)
+"scalar.ml" 52 1454 1456 "scalar.ml" 52 1454 1463
+type(
+  t
+)
+"scalar.ml" 52 1454 1467 "scalar.ml" 52 1454 1480
+type(
+  float -> Mpqf.t
+)
+ident(
+  ext_ref Mpqf.of_float
+)
+"scalar.ml" 52 1454 1481 "scalar.ml" 52 1454 1482
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 52 1454 1462 "scalar.ml" 52 1454 1463
+)
+"scalar.ml" 52 1454 1467 "scalar.ml" 52 1454 1482
+call(
+  tail
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 49 1388 1402 "scalar.ml" 52 1454 1482
+type(
+  t -> Mpqf.t
+)
+"scalar.ml" 53 1483 1487 "scalar.ml" 53 1483 1490
+type(
+  t -> t -> int
+)
+ident(
+  def cmp "scalar.ml" 66 1841 1841 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 53 1483 1491 "scalar.ml" 53 1483 1493
+type(
+  t
+)
+ident(
+  def c1 "scalar.ml" 53 1483 1494 "scalar.ml" 65 1837 1840
+)
+"scalar.ml" 53 1483 1494 "scalar.ml" 53 1483 1496
+type(
+  t
+)
+ident(
+  def c2 "scalar.ml" 54 1499 1499 "scalar.ml" 65 1837 1840
+)
+"scalar.ml" 54 1499 1503 "scalar.ml" 54 1499 1505
+type(
+  int
+)
+ident(
+  def s1 "scalar.ml" 55 1523 1523 "scalar.ml" 65 1837 1840
+)
+"scalar.ml" 54 1499 1508 "scalar.ml" 54 1499 1516
+type(
+  t -> int
+)
+ident(
+  int_ref is_infty "scalar.ml" 26 844 848 "scalar.ml" 26 844 856
+)
+"scalar.ml" 54 1499 1517 "scalar.ml" 54 1499 1519
+type(
+  t
+)
+ident(
+  int_ref c1 "scalar.ml" 53 1483 1491 "scalar.ml" 53 1483 1493
+)
+"scalar.ml" 54 1499 1508 "scalar.ml" 54 1499 1519
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 55 1523 1527 "scalar.ml" 55 1523 1529
+type(
+  int
+)
+ident(
+  def s2 "scalar.ml" 56 1547 1547 "scalar.ml" 65 1837 1840
+)
+"scalar.ml" 55 1523 1532 "scalar.ml" 55 1523 1540
+type(
+  t -> int
+)
+ident(
+  int_ref is_infty "scalar.ml" 26 844 848 "scalar.ml" 26 844 856
+)
+"scalar.ml" 55 1523 1541 "scalar.ml" 55 1523 1543
+type(
+  t
+)
+ident(
+  int_ref c2 "scalar.ml" 53 1483 1494 "scalar.ml" 53 1483 1496
+)
+"scalar.ml" 55 1523 1532 "scalar.ml" 55 1523 1543
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 56 1547 1550 "scalar.ml" 56 1547 1552
+type(
+  int
+)
+ident(
+  int_ref s1 "scalar.ml" 54 1499 1503 "scalar.ml" 54 1499 1505
+)
+"scalar.ml" 56 1547 1552 "scalar.ml" 56 1547 1553
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"scalar.ml" 56 1547 1553 "scalar.ml" 56 1547 1555
+type(
+  int
+)
+ident(
+  int_ref s2 "scalar.ml" 55 1523 1527 "scalar.ml" 55 1523 1529
+)
+"scalar.ml" 56 1547 1550 "scalar.ml" 56 1547 1555
+type(
+  bool
+)
+"scalar.ml" 56 1547 1561 "scalar.ml" 56 1547 1562
+type(
+  int
+)
+"scalar.ml" 57 1563 1571 "scalar.ml" 57 1563 1573
+type(
+  int
+)
+ident(
+  int_ref s1 "scalar.ml" 54 1499 1503 "scalar.ml" 54 1499 1505
+)
+"scalar.ml" 57 1563 1573 "scalar.ml" 57 1563 1574
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"scalar.ml" 57 1563 1574 "scalar.ml" 57 1563 1576
+type(
+  int
+)
+ident(
+  int_ref s2 "scalar.ml" 55 1523 1527 "scalar.ml" 55 1523 1529
+)
+"scalar.ml" 57 1563 1571 "scalar.ml" 57 1563 1576
+type(
+  bool
+)
+"scalar.ml" 57 1563 1582 "scalar.ml" 57 1563 1584
+type(
+  int
+)
+"scalar.ml" 58 1585 1593 "scalar.ml" 58 1585 1595
+type(
+  int
+)
+ident(
+  int_ref s1 "scalar.ml" 54 1499 1503 "scalar.ml" 54 1499 1505
+)
+"scalar.ml" 58 1585 1596 "scalar.ml" 58 1585 1598
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"scalar.ml" 58 1585 1599 "scalar.ml" 58 1585 1600
+type(
+  int
+)
+"scalar.ml" 58 1585 1593 "scalar.ml" 58 1585 1600
+type(
+  bool
+)
+"scalar.ml" 58 1585 1606 "scalar.ml" 58 1585 1607
+type(
+  int
+)
+"scalar.ml" 60 1619 1626 "scalar.ml" 60 1619 1628
+type(
+  t
+)
+ident(
+  int_ref c1 "scalar.ml" 53 1483 1491 "scalar.ml" 53 1483 1493
+)
+"scalar.ml" 60 1619 1629 "scalar.ml" 60 1619 1631
+type(
+  t
+)
+ident(
+  int_ref c2 "scalar.ml" 53 1483 1494 "scalar.ml" 53 1483 1496
+)
+"scalar.ml" 60 1619 1625 "scalar.ml" 60 1619 1632
+type(
+  t * t
+)
+"scalar.ml" 61 1638 1646 "scalar.ml" 61 1638 1648
+type(
+  Mpqf.t
+)
+ident(
+  def x1 "scalar.ml" 61 1638 1662 "scalar.ml" 61 1638 1676
+)
+"scalar.ml" 61 1638 1641 "scalar.ml" 61 1638 1648
+type(
+  t
+)
+"scalar.ml" 61 1638 1655 "scalar.ml" 61 1638 1657
+type(
+  Mpqf.t
+)
+ident(
+  def x2 "scalar.ml" 61 1638 1662 "scalar.ml" 61 1638 1676
+)
+"scalar.ml" 61 1638 1650 "scalar.ml" 61 1638 1657
+type(
+  t
+)
+"scalar.ml" 61 1638 1640 "scalar.ml" 61 1638 1658
+type(
+  t * t
+)
+"scalar.ml" 61 1638 1662 "scalar.ml" 61 1638 1670
+type(
+  Mpq.f Mpqf.tt -> Mpq.f Mpqf.tt -> int
+)
+ident(
+  ext_ref Mpqf.cmp
+)
+"scalar.ml" 61 1638 1671 "scalar.ml" 61 1638 1673
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x1 "scalar.ml" 61 1638 1646 "scalar.ml" 61 1638 1648
+)
+"scalar.ml" 61 1638 1674 "scalar.ml" 61 1638 1676
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x2 "scalar.ml" 61 1638 1655 "scalar.ml" 61 1638 1657
+)
+"scalar.ml" 61 1638 1662 "scalar.ml" 61 1638 1676
+call(
+  tail
+)
+type(
+  int
+)
+"scalar.ml" 62 1677 1686 "scalar.ml" 62 1677 1688
+type(
+  Mpfrf.t
+)
+ident(
+  def x1 "scalar.ml" 62 1677 1703 "scalar.ml" 62 1677 1718
+)
+"scalar.ml" 62 1677 1680 "scalar.ml" 62 1677 1688
+type(
+  t
+)
+"scalar.ml" 62 1677 1696 "scalar.ml" 62 1677 1698
+type(
+  Mpfrf.t
+)
+ident(
+  def x2 "scalar.ml" 62 1677 1703 "scalar.ml" 62 1677 1718
+)
+"scalar.ml" 62 1677 1690 "scalar.ml" 62 1677 1698
+type(
+  t
+)
+"scalar.ml" 62 1677 1679 "scalar.ml" 62 1677 1699
+type(
+  t * t
+)
+"scalar.ml" 62 1677 1703 "scalar.ml" 62 1677 1712
+type(
+  Mpfr.f Mpfrf.tt -> Mpfr.f Mpfrf.tt -> int
+)
+ident(
+  ext_ref Mpfrf.cmp
+)
+"scalar.ml" 62 1677 1713 "scalar.ml" 62 1677 1715
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x1 "scalar.ml" 62 1677 1686 "scalar.ml" 62 1677 1688
+)
+"scalar.ml" 62 1677 1716 "scalar.ml" 62 1677 1718
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x2 "scalar.ml" 62 1677 1696 "scalar.ml" 62 1677 1698
+)
+"scalar.ml" 62 1677 1703 "scalar.ml" 62 1677 1718
+call(
+  tail
+)
+type(
+  int
+)
+"scalar.ml" 63 1719 1728 "scalar.ml" 63 1719 1730
+type(
+  float
+)
+ident(
+  def x1 "scalar.ml" 63 1719 1745 "scalar.ml" 63 1719 1789
+)
+"scalar.ml" 63 1719 1722 "scalar.ml" 63 1719 1730
+type(
+  t
+)
+"scalar.ml" 63 1719 1738 "scalar.ml" 63 1719 1740
+type(
+  float
+)
+ident(
+  def x2 "scalar.ml" 63 1719 1745 "scalar.ml" 63 1719 1789
+)
+"scalar.ml" 63 1719 1732 "scalar.ml" 63 1719 1740
+type(
+  t
+)
+"scalar.ml" 63 1719 1721 "scalar.ml" 63 1719 1741
+type(
+  t * t
+)
+"scalar.ml" 63 1719 1748 "scalar.ml" 63 1719 1750
+type(
+  float
+)
+ident(
+  int_ref x1 "scalar.ml" 63 1719 1728 "scalar.ml" 63 1719 1730
+)
+"scalar.ml" 63 1719 1750 "scalar.ml" 63 1719 1751
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"scalar.ml" 63 1719 1751 "scalar.ml" 63 1719 1753
+type(
+  float
+)
+ident(
+  int_ref x2 "scalar.ml" 63 1719 1738 "scalar.ml" 63 1719 1740
+)
+"scalar.ml" 63 1719 1748 "scalar.ml" 63 1719 1753
+type(
+  bool
+)
+"scalar.ml" 63 1719 1759 "scalar.ml" 63 1719 1760
+type(
+  int
+)
+"scalar.ml" 63 1719 1769 "scalar.ml" 63 1719 1771
+type(
+  float
+)
+ident(
+  int_ref x1 "scalar.ml" 63 1719 1728 "scalar.ml" 63 1719 1730
+)
+"scalar.ml" 63 1719 1771 "scalar.ml" 63 1719 1772
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"scalar.ml" 63 1719 1772 "scalar.ml" 63 1719 1774
+type(
+  float
+)
+ident(
+  int_ref x2 "scalar.ml" 63 1719 1738 "scalar.ml" 63 1719 1740
+)
+"scalar.ml" 63 1719 1769 "scalar.ml" 63 1719 1774
+type(
+  bool
+)
+"scalar.ml" 63 1719 1780 "scalar.ml" 63 1719 1782
+type(
+  int
+)
+"scalar.ml" 63 1719 1788 "scalar.ml" 63 1719 1789
+type(
+  int
+)
+"scalar.ml" 63 1719 1766 "scalar.ml" 63 1719 1789
+type(
+  int
+)
+"scalar.ml" 63 1719 1745 "scalar.ml" 63 1719 1789
+type(
+  int
+)
+"scalar.ml" 64 1790 1792 "scalar.ml" 64 1790 1794
+type(
+  t
+)
+ident(
+  def x1 "scalar.ml" 64 1790 1802 "scalar.ml" 64 1790 1836
+)
+"scalar.ml" 64 1790 1796 "scalar.ml" 64 1790 1798
+type(
+  t
+)
+ident(
+  def x2 "scalar.ml" 64 1790 1802 "scalar.ml" 64 1790 1836
+)
+"scalar.ml" 64 1790 1792 "scalar.ml" 64 1790 1798
+type(
+  t * t
+)
+"scalar.ml" 64 1790 1802 "scalar.ml" 64 1790 1810
+type(
+  Mpq.f Mpqf.tt -> Mpq.f Mpqf.tt -> int
+)
+ident(
+  ext_ref Mpqf.cmp
+)
+"scalar.ml" 64 1790 1812 "scalar.ml" 64 1790 1819
+type(
+  t -> Mpqf.t
+)
+ident(
+  int_ref to_mpqf "scalar.ml" 49 1388 1392 "scalar.ml" 49 1388 1399
+)
+"scalar.ml" 64 1790 1820 "scalar.ml" 64 1790 1822
+type(
+  t
+)
+ident(
+  int_ref x1 "scalar.ml" 64 1790 1792 "scalar.ml" 64 1790 1794
+)
+"scalar.ml" 64 1790 1811 "scalar.ml" 64 1790 1823
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 64 1790 1825 "scalar.ml" 64 1790 1832
+type(
+  t -> Mpqf.t
+)
+ident(
+  int_ref to_mpqf "scalar.ml" 49 1388 1392 "scalar.ml" 49 1388 1399
+)
+"scalar.ml" 64 1790 1833 "scalar.ml" 64 1790 1835
+type(
+  t
+)
+ident(
+  int_ref x2 "scalar.ml" 64 1790 1796 "scalar.ml" 64 1790 1798
+)
+"scalar.ml" 64 1790 1824 "scalar.ml" 64 1790 1836
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 64 1790 1802 "scalar.ml" 64 1790 1836
+call(
+  tail
+)
+type(
+  int
+)
+"scalar.ml" 59 1608 1613 "scalar.ml" 65 1837 1840
+type(
+  int
+)
+"scalar.ml" 58 1585 1590 "scalar.ml" 65 1837 1840
+type(
+  int
+)
+"scalar.ml" 57 1563 1568 "scalar.ml" 65 1837 1840
+type(
+  int
+)
+"scalar.ml" 56 1547 1547 "scalar.ml" 65 1837 1840
+type(
+  int
+)
+"scalar.ml" 55 1523 1523 "scalar.ml" 65 1837 1840
+type(
+  int
+)
+"scalar.ml" 54 1499 1499 "scalar.ml" 65 1837 1840
+type(
+  int
+)
+"scalar.ml" 66 1841 1845 "scalar.ml" 66 1841 1850
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "scalar.ml" 78 2156 2156 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 66 1841 1851 "scalar.ml" 66 1841 1853
+type(
+  t
+)
+ident(
+  def c1 "scalar.ml" 66 1841 1854 "scalar.ml" 77 2152 2155
+)
+"scalar.ml" 66 1841 1854 "scalar.ml" 66 1841 1856
+type(
+  t
+)
+ident(
+  def c2 "scalar.ml" 67 1859 1859 "scalar.ml" 77 2152 2155
+)
+"scalar.ml" 67 1859 1863 "scalar.ml" 67 1859 1865
+type(
+  int
+)
+ident(
+  def s1 "scalar.ml" 68 1883 1883 "scalar.ml" 77 2152 2155
+)
+"scalar.ml" 67 1859 1868 "scalar.ml" 67 1859 1876
+type(
+  t -> int
+)
+ident(
+  int_ref is_infty "scalar.ml" 26 844 848 "scalar.ml" 26 844 856
+)
+"scalar.ml" 67 1859 1877 "scalar.ml" 67 1859 1879
+type(
+  t
+)
+ident(
+  int_ref c1 "scalar.ml" 66 1841 1851 "scalar.ml" 66 1841 1853
+)
+"scalar.ml" 67 1859 1868 "scalar.ml" 67 1859 1879
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 68 1883 1887 "scalar.ml" 68 1883 1889
+type(
+  int
+)
+ident(
+  def s2 "scalar.ml" 69 1907 1907 "scalar.ml" 77 2152 2155
+)
+"scalar.ml" 68 1883 1892 "scalar.ml" 68 1883 1900
+type(
+  t -> int
+)
+ident(
+  int_ref is_infty "scalar.ml" 26 844 848 "scalar.ml" 26 844 856
+)
+"scalar.ml" 68 1883 1901 "scalar.ml" 68 1883 1903
+type(
+  t
+)
+ident(
+  int_ref c2 "scalar.ml" 66 1841 1854 "scalar.ml" 66 1841 1856
+)
+"scalar.ml" 68 1883 1892 "scalar.ml" 68 1883 1903
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 69 1907 1910 "scalar.ml" 69 1907 1912
+type(
+  int
+)
+ident(
+  int_ref s1 "scalar.ml" 67 1859 1863 "scalar.ml" 67 1859 1865
+)
+"scalar.ml" 69 1907 1912 "scalar.ml" 69 1907 1914
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"scalar.ml" 69 1907 1914 "scalar.ml" 69 1907 1916
+type(
+  int
+)
+ident(
+  int_ref s2 "scalar.ml" 68 1883 1887 "scalar.ml" 68 1883 1889
+)
+"scalar.ml" 69 1907 1910 "scalar.ml" 69 1907 1916
+type(
+  bool
+)
+"scalar.ml" 69 1907 1922 "scalar.ml" 69 1907 1927
+type(
+  bool
+)
+"scalar.ml" 70 1928 1936 "scalar.ml" 70 1928 1938
+type(
+  int
+)
+ident(
+  int_ref s1 "scalar.ml" 67 1859 1863 "scalar.ml" 67 1859 1865
+)
+"scalar.ml" 70 1928 1938 "scalar.ml" 70 1928 1940
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"scalar.ml" 70 1928 1940 "scalar.ml" 70 1928 1941
+type(
+  int
+)
+"scalar.ml" 70 1928 1936 "scalar.ml" 70 1928 1941
+type(
+  bool
+)
+"scalar.ml" 70 1928 1947 "scalar.ml" 70 1928 1951
+type(
+  bool
+)
+"scalar.ml" 72 1963 1970 "scalar.ml" 72 1963 1972
+type(
+  t
+)
+ident(
+  int_ref c1 "scalar.ml" 66 1841 1851 "scalar.ml" 66 1841 1853
+)
+"scalar.ml" 72 1963 1973 "scalar.ml" 72 1963 1975
+type(
+  t
+)
+ident(
+  int_ref c2 "scalar.ml" 66 1841 1854 "scalar.ml" 66 1841 1856
+)
+"scalar.ml" 72 1963 1969 "scalar.ml" 72 1963 1976
+type(
+  t * t
+)
+"scalar.ml" 73 1982 1990 "scalar.ml" 73 1982 1992
+type(
+  Mpqf.t
+)
+ident(
+  def x1 "scalar.ml" 73 1982 2006 "scalar.ml" 73 1982 2022
+)
+"scalar.ml" 73 1982 1985 "scalar.ml" 73 1982 1992
+type(
+  t
+)
+"scalar.ml" 73 1982 1999 "scalar.ml" 73 1982 2001
+type(
+  Mpqf.t
+)
+ident(
+  def x2 "scalar.ml" 73 1982 2006 "scalar.ml" 73 1982 2022
+)
+"scalar.ml" 73 1982 1994 "scalar.ml" 73 1982 2001
+type(
+  t
+)
+"scalar.ml" 73 1982 1984 "scalar.ml" 73 1982 2002
+type(
+  t * t
+)
+"scalar.ml" 73 1982 2006 "scalar.ml" 73 1982 2016
+type(
+  Mpq.f Mpqf.tt -> Mpq.f Mpqf.tt -> bool
+)
+ident(
+  ext_ref Mpqf.equal
+)
+"scalar.ml" 73 1982 2017 "scalar.ml" 73 1982 2019
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x1 "scalar.ml" 73 1982 1990 "scalar.ml" 73 1982 1992
+)
+"scalar.ml" 73 1982 2020 "scalar.ml" 73 1982 2022
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x2 "scalar.ml" 73 1982 1999 "scalar.ml" 73 1982 2001
+)
+"scalar.ml" 73 1982 2006 "scalar.ml" 73 1982 2022
+call(
+  tail
+)
+type(
+  bool
+)
+"scalar.ml" 74 2023 2032 "scalar.ml" 74 2023 2034
+type(
+  Mpfrf.t
+)
+ident(
+  def x1 "scalar.ml" 74 2023 2049 "scalar.ml" 74 2023 2068
+)
+"scalar.ml" 74 2023 2026 "scalar.ml" 74 2023 2034
+type(
+  t
+)
+"scalar.ml" 74 2023 2042 "scalar.ml" 74 2023 2044
+type(
+  Mpfrf.t
+)
+ident(
+  def x2 "scalar.ml" 74 2023 2049 "scalar.ml" 74 2023 2068
+)
+"scalar.ml" 74 2023 2036 "scalar.ml" 74 2023 2044
+type(
+  t
+)
+"scalar.ml" 74 2023 2025 "scalar.ml" 74 2023 2045
+type(
+  t * t
+)
+"scalar.ml" 74 2023 2049 "scalar.ml" 74 2023 2058
+type(
+  Mpfr.f Mpfrf.tt -> Mpfr.f Mpfrf.tt -> int
+)
+ident(
+  ext_ref Mpfrf.cmp
+)
+"scalar.ml" 74 2023 2059 "scalar.ml" 74 2023 2061
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x1 "scalar.ml" 74 2023 2032 "scalar.ml" 74 2023 2034
+)
+"scalar.ml" 74 2023 2062 "scalar.ml" 74 2023 2064
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x2 "scalar.ml" 74 2023 2042 "scalar.ml" 74 2023 2044
+)
+"scalar.ml" 74 2023 2049 "scalar.ml" 74 2023 2064
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 74 2023 2065 "scalar.ml" 74 2023 2066
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"scalar.ml" 74 2023 2067 "scalar.ml" 74 2023 2068
+type(
+  int
+)
+"scalar.ml" 74 2023 2049 "scalar.ml" 74 2023 2068
+type(
+  bool
+)
+"scalar.ml" 75 2069 2078 "scalar.ml" 75 2069 2080
+type(
+  float
+)
+ident(
+  def x1 "scalar.ml" 75 2069 2095 "scalar.ml" 75 2069 2102
+)
+"scalar.ml" 75 2069 2072 "scalar.ml" 75 2069 2080
+type(
+  t
+)
+"scalar.ml" 75 2069 2088 "scalar.ml" 75 2069 2090
+type(
+  float
+)
+ident(
+  def x2 "scalar.ml" 75 2069 2095 "scalar.ml" 75 2069 2102
+)
+"scalar.ml" 75 2069 2082 "scalar.ml" 75 2069 2090
+type(
+  t
+)
+"scalar.ml" 75 2069 2071 "scalar.ml" 75 2069 2091
+type(
+  t * t
+)
+"scalar.ml" 75 2069 2095 "scalar.ml" 75 2069 2097
+type(
+  float
+)
+ident(
+  int_ref x1 "scalar.ml" 75 2069 2078 "scalar.ml" 75 2069 2080
+)
+"scalar.ml" 75 2069 2098 "scalar.ml" 75 2069 2099
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"scalar.ml" 75 2069 2100 "scalar.ml" 75 2069 2102
+type(
+  float
+)
+ident(
+  int_ref x2 "scalar.ml" 75 2069 2088 "scalar.ml" 75 2069 2090
+)
+"scalar.ml" 75 2069 2095 "scalar.ml" 75 2069 2102
+type(
+  bool
+)
+"scalar.ml" 76 2103 2105 "scalar.ml" 76 2103 2107
+type(
+  t
+)
+ident(
+  def x1 "scalar.ml" 76 2103 2115 "scalar.ml" 76 2103 2151
+)
+"scalar.ml" 76 2103 2109 "scalar.ml" 76 2103 2111
+type(
+  t
+)
+ident(
+  def x2 "scalar.ml" 76 2103 2115 "scalar.ml" 76 2103 2151
+)
+"scalar.ml" 76 2103 2105 "scalar.ml" 76 2103 2111
+type(
+  t * t
+)
+"scalar.ml" 76 2103 2115 "scalar.ml" 76 2103 2125
+type(
+  Mpq.f Mpqf.tt -> Mpq.f Mpqf.tt -> bool
+)
+ident(
+  ext_ref Mpqf.equal
+)
+"scalar.ml" 76 2103 2127 "scalar.ml" 76 2103 2134
+type(
+  t -> Mpqf.t
+)
+ident(
+  int_ref to_mpqf "scalar.ml" 49 1388 1392 "scalar.ml" 49 1388 1399
+)
+"scalar.ml" 76 2103 2135 "scalar.ml" 76 2103 2137
+type(
+  t
+)
+ident(
+  int_ref x1 "scalar.ml" 76 2103 2105 "scalar.ml" 76 2103 2107
+)
+"scalar.ml" 76 2103 2126 "scalar.ml" 76 2103 2138
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 76 2103 2140 "scalar.ml" 76 2103 2147
+type(
+  t -> Mpqf.t
+)
+ident(
+  int_ref to_mpqf "scalar.ml" 49 1388 1392 "scalar.ml" 49 1388 1399
+)
+"scalar.ml" 76 2103 2148 "scalar.ml" 76 2103 2150
+type(
+  t
+)
+ident(
+  int_ref x2 "scalar.ml" 76 2103 2109 "scalar.ml" 76 2103 2111
+)
+"scalar.ml" 76 2103 2139 "scalar.ml" 76 2103 2151
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 76 2103 2115 "scalar.ml" 76 2103 2151
+call(
+  tail
+)
+type(
+  bool
+)
+"scalar.ml" 71 1952 1957 "scalar.ml" 77 2152 2155
+type(
+  bool
+)
+"scalar.ml" 70 1928 1933 "scalar.ml" 77 2152 2155
+type(
+  bool
+)
+"scalar.ml" 69 1907 1907 "scalar.ml" 77 2152 2155
+type(
+  bool
+)
+"scalar.ml" 68 1883 1883 "scalar.ml" 77 2152 2155
+type(
+  bool
+)
+"scalar.ml" 67 1859 1859 "scalar.ml" 77 2152 2155
+type(
+  bool
+)
+"scalar.ml" 78 2156 2160 "scalar.ml" 78 2156 2167
+type(
+  t -> int -> int
+)
+ident(
+  def cmp_int "scalar.ml" 83 2308 2308 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 78 2156 2168 "scalar.ml" 78 2156 2174
+type(
+  t
+)
+ident(
+  def scalar "scalar.ml" 78 2156 2175 "scalar.ml" 82 2257 2307
+)
+"scalar.ml" 78 2156 2175 "scalar.ml" 78 2156 2176
+type(
+  int
+)
+ident(
+  def n "scalar.ml" 79 2179 2179 "scalar.ml" 82 2257 2307
+)
+"scalar.ml" 79 2179 2185 "scalar.ml" 79 2179 2191
+type(
+  t
+)
+ident(
+  int_ref scalar "scalar.ml" 78 2156 2168 "scalar.ml" 78 2156 2174
+)
+"scalar.ml" 80 2197 2204 "scalar.ml" 80 2197 2205
+type(
+  Mpqf.t
+)
+ident(
+  def x "scalar.ml" 80 2197 2209 "scalar.ml" 80 2197 2225
+)
+"scalar.ml" 80 2197 2199 "scalar.ml" 80 2197 2205
+type(
+  t
+)
+"scalar.ml" 80 2197 2209 "scalar.ml" 80 2197 2221
+type(
+  Mpq.f Mpqf.tt -> int -> int
+)
+ident(
+  ext_ref Mpqf.cmp_int
+)
+"scalar.ml" 80 2197 2222 "scalar.ml" 80 2197 2223
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 80 2197 2204 "scalar.ml" 80 2197 2205
+)
+"scalar.ml" 80 2197 2224 "scalar.ml" 80 2197 2225
+type(
+  int
+)
+ident(
+  int_ref n "scalar.ml" 78 2156 2175 "scalar.ml" 78 2156 2176
+)
+"scalar.ml" 80 2197 2209 "scalar.ml" 80 2197 2225
+call(
+  tail
+)
+type(
+  int
+)
+"scalar.ml" 81 2226 2234 "scalar.ml" 81 2226 2235
+type(
+  Mpfrf.t
+)
+ident(
+  def x "scalar.ml" 81 2226 2239 "scalar.ml" 81 2226 2256
+)
+"scalar.ml" 81 2226 2228 "scalar.ml" 81 2226 2235
+type(
+  t
+)
+"scalar.ml" 81 2226 2239 "scalar.ml" 81 2226 2252
+type(
+  Mpfr.f Mpfrf.tt -> int -> int
+)
+ident(
+  ext_ref Mpfrf.cmp_int
+)
+"scalar.ml" 81 2226 2253 "scalar.ml" 81 2226 2254
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 81 2226 2234 "scalar.ml" 81 2226 2235
+)
+"scalar.ml" 81 2226 2255 "scalar.ml" 81 2226 2256
+type(
+  int
+)
+ident(
+  int_ref n "scalar.ml" 78 2156 2175 "scalar.ml" 78 2156 2176
+)
+"scalar.ml" 81 2226 2239 "scalar.ml" 81 2226 2256
+call(
+  tail
+)
+type(
+  int
+)
+"scalar.ml" 82 2257 2265 "scalar.ml" 82 2257 2266
+type(
+  float
+)
+ident(
+  def x "scalar.ml" 82 2257 2270 "scalar.ml" 82 2257 2307
+)
+"scalar.ml" 82 2257 2259 "scalar.ml" 82 2257 2266
+type(
+  t
+)
+"scalar.ml" 82 2257 2270 "scalar.ml" 82 2257 2288
+type(
+  float -> float -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"scalar.ml" 82 2257 2289 "scalar.ml" 82 2257 2290
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 82 2257 2265 "scalar.ml" 82 2257 2266
+)
+"scalar.ml" 82 2257 2292 "scalar.ml" 82 2257 2304
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"scalar.ml" 82 2257 2305 "scalar.ml" 82 2257 2306
+type(
+  int
+)
+ident(
+  int_ref n "scalar.ml" 78 2156 2175 "scalar.ml" 78 2156 2176
+)
+"scalar.ml" 82 2257 2291 "scalar.ml" 82 2257 2307
+type(
+  float
+)
+"scalar.ml" 82 2257 2270 "scalar.ml" 82 2257 2307
+type(
+  int
+)
+"scalar.ml" 79 2179 2179 "scalar.ml" 82 2257 2307
+type(
+  int
+)
+"scalar.ml" 83 2308 2312 "scalar.ml" 83 2308 2321
+type(
+  t -> int -> bool
+)
+ident(
+  def equal_int "scalar.ml" 88 2451 2451 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 83 2308 2322 "scalar.ml" 83 2308 2328
+type(
+  t
+)
+ident(
+  def scalar "scalar.ml" 83 2308 2329 "scalar.ml" 87 2419 2450
+)
+"scalar.ml" 83 2308 2329 "scalar.ml" 83 2308 2330
+type(
+  int
+)
+ident(
+  def n "scalar.ml" 84 2333 2333 "scalar.ml" 87 2419 2450
+)
+"scalar.ml" 84 2333 2339 "scalar.ml" 84 2333 2345
+type(
+  t
+)
+ident(
+  int_ref scalar "scalar.ml" 83 2308 2322 "scalar.ml" 83 2308 2328
+)
+"scalar.ml" 85 2351 2358 "scalar.ml" 85 2351 2359
+type(
+  Mpqf.t
+)
+ident(
+  def x "scalar.ml" 85 2351 2363 "scalar.ml" 85 2351 2383
+)
+"scalar.ml" 85 2351 2353 "scalar.ml" 85 2351 2359
+type(
+  t
+)
+"scalar.ml" 85 2351 2364 "scalar.ml" 85 2351 2376
+type(
+  Mpq.f Mpqf.tt -> int -> int
+)
+ident(
+  ext_ref Mpqf.cmp_int
+)
+"scalar.ml" 85 2351 2377 "scalar.ml" 85 2351 2378
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 85 2351 2358 "scalar.ml" 85 2351 2359
+)
+"scalar.ml" 85 2351 2379 "scalar.ml" 85 2351 2380
+type(
+  int
+)
+ident(
+  int_ref n "scalar.ml" 83 2308 2329 "scalar.ml" 83 2308 2330
+)
+"scalar.ml" 85 2351 2363 "scalar.ml" 85 2351 2381
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 85 2351 2381 "scalar.ml" 85 2351 2382
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"scalar.ml" 85 2351 2382 "scalar.ml" 85 2351 2383
+type(
+  int
+)
+"scalar.ml" 85 2351 2363 "scalar.ml" 85 2351 2383
+type(
+  bool
+)
+"scalar.ml" 86 2384 2392 "scalar.ml" 86 2384 2393
+type(
+  Mpfrf.t
+)
+ident(
+  def x "scalar.ml" 86 2384 2397 "scalar.ml" 86 2384 2418
+)
+"scalar.ml" 86 2384 2386 "scalar.ml" 86 2384 2393
+type(
+  t
+)
+"scalar.ml" 86 2384 2398 "scalar.ml" 86 2384 2411
+type(
+  Mpfr.f Mpfrf.tt -> int -> int
+)
+ident(
+  ext_ref Mpfrf.cmp_int
+)
+"scalar.ml" 86 2384 2412 "scalar.ml" 86 2384 2413
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 86 2384 2392 "scalar.ml" 86 2384 2393
+)
+"scalar.ml" 86 2384 2414 "scalar.ml" 86 2384 2415
+type(
+  int
+)
+ident(
+  int_ref n "scalar.ml" 83 2308 2329 "scalar.ml" 83 2308 2330
+)
+"scalar.ml" 86 2384 2397 "scalar.ml" 86 2384 2416
+call(
+  stack
+)
+type(
+  int
+)
+"scalar.ml" 86 2384 2416 "scalar.ml" 86 2384 2417
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"scalar.ml" 86 2384 2417 "scalar.ml" 86 2384 2418
+type(
+  int
+)
+"scalar.ml" 86 2384 2397 "scalar.ml" 86 2384 2418
+type(
+  bool
+)
+"scalar.ml" 87 2419 2427 "scalar.ml" 87 2419 2428
+type(
+  float
+)
+ident(
+  def x "scalar.ml" 87 2419 2432 "scalar.ml" 87 2419 2450
+)
+"scalar.ml" 87 2419 2421 "scalar.ml" 87 2419 2428
+type(
+  t
+)
+"scalar.ml" 87 2419 2432 "scalar.ml" 87 2419 2433
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 87 2419 2427 "scalar.ml" 87 2419 2428
+)
+"scalar.ml" 87 2419 2433 "scalar.ml" 87 2419 2434
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"scalar.ml" 87 2419 2435 "scalar.ml" 87 2419 2447
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"scalar.ml" 87 2419 2448 "scalar.ml" 87 2419 2449
+type(
+  int
+)
+ident(
+  int_ref n "scalar.ml" 83 2308 2329 "scalar.ml" 83 2308 2330
+)
+"scalar.ml" 87 2419 2434 "scalar.ml" 87 2419 2450
+type(
+  float
+)
+"scalar.ml" 87 2419 2432 "scalar.ml" 87 2419 2450
+type(
+  bool
+)
+"scalar.ml" 84 2333 2333 "scalar.ml" 87 2419 2450
+type(
+  bool
+)
+"scalar.ml" 88 2451 2455 "scalar.ml" 88 2451 2458
+type(
+  t -> t
+)
+ident(
+  def neg "scalar.ml" 96 2652 2652 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 88 2451 2459 "scalar.ml" 88 2451 2465
+type(
+  t
+)
+ident(
+  def scalar "scalar.ml" 89 2468 2468 "scalar.ml" 95 2621 2651
+)
+"scalar.ml" 89 2468 2474 "scalar.ml" 89 2468 2480
+type(
+  t
+)
+ident(
+  int_ref scalar "scalar.ml" 88 2451 2459 "scalar.ml" 88 2451 2465
+)
+"scalar.ml" 90 2486 2493 "scalar.ml" 90 2486 2494
+type(
+  Mpqf.t
+)
+ident(
+  def x "scalar.ml" 90 2486 2498 "scalar.ml" 90 2486 2514
+)
+"scalar.ml" 90 2486 2488 "scalar.ml" 90 2486 2494
+type(
+  t
+)
+"scalar.ml" 90 2486 2503 "scalar.ml" 90 2486 2511
+type(
+  Mpq.f Mpqf.tt -> Mpqf.t
+)
+ident(
+  ext_ref Mpqf.neg
+)
+"scalar.ml" 90 2486 2512 "scalar.ml" 90 2486 2513
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 90 2486 2493 "scalar.ml" 90 2486 2494
+)
+"scalar.ml" 90 2486 2502 "scalar.ml" 90 2486 2514
+call(
+  stack
+)
+type(
+  Mpqf.t
+)
+"scalar.ml" 90 2486 2498 "scalar.ml" 90 2486 2514
+type(
+  t
+)
+"scalar.ml" 91 2515 2523 "scalar.ml" 91 2515 2524
+type(
+  Mpfrf.t
+)
+ident(
+  def x "scalar.ml" 92 2528 2528 "scalar.ml" 94 2599 2620
+)
+"scalar.ml" 91 2515 2517 "scalar.ml" 91 2515 2524
+type(
+  t
+)
+"scalar.ml" 92 2528 2532 "scalar.ml" 92 2528 2533
+type(
+  Mpfr.m Mpfr.tt
+)
+ident(
+  def y "scalar.ml" 93 2568 2568 "scalar.ml" 94 2599 2620
+)
+"scalar.ml" 92 2528 2536 "scalar.ml" 92 2528 2546
+type(
+  int -> Mpfr.m Mpfr.tt
+)
+ident(
+  ext_ref Mpfr.init2
+)
+"scalar.ml" 92 2528 2548 "scalar.ml" 92 2528 2561
+type(
+  Mpfrf.t -> int
+)
+ident(
+  ext_ref Mpfr.get_prec
+)
+"scalar.ml" 92 2528 2562 "scalar.ml" 92 2528 2563
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 91 2515 2523 "scalar.ml" 91 2515 2524
+)
+"scalar.ml" 92 2528 2547 "scalar.ml" 92 2528 2564
+type(
+  int
+)
+"scalar.ml" 92 2528 2536 "scalar.ml" 92 2528 2564
+type(
+  Mpfr.m Mpfr.tt
+)
+"scalar.ml" 93 2568 2568 "scalar.ml" 93 2568 2574
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"scalar.ml" 93 2568 2576 "scalar.ml" 93 2568 2584
+type(
+  Mpfr.t -> Mpfrf.t -> Mpfr.round -> int
+)
+ident(
+  ext_ref Mpfr.neg
+)
+"scalar.ml" 93 2568 2585 "scalar.ml" 93 2568 2586
+type(
+  Mpfr.t
+)
+ident(
+  int_ref y "scalar.ml" 92 2528 2532 "scalar.ml" 92 2528 2533
+)
+"scalar.ml" 93 2568 2587 "scalar.ml" 93 2568 2588
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 91 2515 2523 "scalar.ml" 91 2515 2524
+)
+"scalar.ml" 93 2568 2589 "scalar.ml" 93 2568 2596
+type(
+  Mpfr.round
+)
+"scalar.ml" 93 2568 2575 "scalar.ml" 93 2568 2597
+type(
+  int
+)
+"scalar.ml" 93 2568 2568 "scalar.ml" 93 2568 2597
+type(
+  unit
+)
+"scalar.ml" 94 2599 2605 "scalar.ml" 94 2599 2617
+type(
+  Mpfr.t -> Mpfrf.t
+)
+ident(
+  ext_ref Mpfrf._mpfrf
+)
+"scalar.ml" 94 2599 2618 "scalar.ml" 94 2599 2619
+type(
+  Mpfr.t
+)
+ident(
+  int_ref y "scalar.ml" 92 2528 2532 "scalar.ml" 92 2528 2533
+)
+"scalar.ml" 94 2599 2604 "scalar.ml" 94 2599 2620
+call(
+  stack
+)
+type(
+  Mpfrf.t
+)
+"scalar.ml" 94 2599 2599 "scalar.ml" 94 2599 2620
+type(
+  t
+)
+"scalar.ml" 93 2568 2568 "scalar.ml" 94 2599 2620
+type(
+  t
+)
+"scalar.ml" 92 2528 2528 "scalar.ml" 94 2599 2620
+type(
+  t
+)
+"scalar.ml" 95 2621 2635 "scalar.ml" 95 2621 2636
+type(
+  float
+)
+ident(
+  def x "scalar.ml" 95 2621 2640 "scalar.ml" 95 2621 2651
+)
+"scalar.ml" 95 2621 2629 "scalar.ml" 95 2621 2636
+type(
+  t
+)
+"scalar.ml" 95 2621 2646 "scalar.ml" 95 2621 2648
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.( ~-. )
+)
+"scalar.ml" 95 2621 2649 "scalar.ml" 95 2621 2650
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 95 2621 2635 "scalar.ml" 95 2621 2636
+)
+"scalar.ml" 95 2621 2645 "scalar.ml" 95 2621 2651
+type(
+  float
+)
+"scalar.ml" 95 2621 2640 "scalar.ml" 95 2621 2651
+type(
+  t
+)
+"scalar.ml" 89 2468 2468 "scalar.ml" 95 2621 2651
+type(
+  t
+)
+"scalar.ml" 96 2652 2656 "scalar.ml" 96 2652 2665
+type(
+  t -> string
+)
+ident(
+  def to_string "scalar.ml" 101 2784 2784 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 96 2652 2666 "scalar.ml" 96 2652 2672
+type(
+  t
+)
+ident(
+  def scalar "scalar.ml" 97 2675 2675 "scalar.ml" 100 2753 2783
+)
+"scalar.ml" 97 2675 2681 "scalar.ml" 97 2675 2687
+type(
+  t
+)
+ident(
+  int_ref scalar "scalar.ml" 96 2652 2666 "scalar.ml" 96 2652 2672
+)
+"scalar.ml" 98 2693 2700 "scalar.ml" 98 2693 2701
+type(
+  Mpqf.t
+)
+ident(
+  def x "scalar.ml" 98 2693 2705 "scalar.ml" 98 2693 2721
+)
+"scalar.ml" 98 2693 2695 "scalar.ml" 98 2693 2701
+type(
+  t
+)
+"scalar.ml" 98 2693 2705 "scalar.ml" 98 2693 2719
+type(
+  Mpq.f Mpqf.tt -> string
+)
+ident(
+  ext_ref Mpqf.to_string
+)
+"scalar.ml" 98 2693 2720 "scalar.ml" 98 2693 2721
+type(
+  Mpqf.t
+)
+ident(
+  int_ref x "scalar.ml" 98 2693 2700 "scalar.ml" 98 2693 2701
+)
+"scalar.ml" 98 2693 2705 "scalar.ml" 98 2693 2721
+call(
+  tail
+)
+type(
+  string
+)
+"scalar.ml" 99 2722 2730 "scalar.ml" 99 2722 2731
+type(
+  Mpfrf.t
+)
+ident(
+  def x "scalar.ml" 99 2722 2735 "scalar.ml" 99 2722 2752
+)
+"scalar.ml" 99 2722 2724 "scalar.ml" 99 2722 2731
+type(
+  t
+)
+"scalar.ml" 99 2722 2735 "scalar.ml" 99 2722 2750
+type(
+  Mpfrf.t -> string
+)
+ident(
+  ext_ref Mpfrf.to_string
+)
+"scalar.ml" 99 2722 2751 "scalar.ml" 99 2722 2752
+type(
+  Mpfrf.t
+)
+ident(
+  int_ref x "scalar.ml" 99 2722 2730 "scalar.ml" 99 2722 2731
+)
+"scalar.ml" 99 2722 2735 "scalar.ml" 99 2722 2752
+call(
+  tail
+)
+type(
+  string
+)
+"scalar.ml" 100 2753 2761 "scalar.ml" 100 2753 2762
+type(
+  float
+)
+ident(
+  def x "scalar.ml" 100 2753 2766 "scalar.ml" 100 2753 2783
+)
+"scalar.ml" 100 2753 2755 "scalar.ml" 100 2753 2762
+type(
+  t
+)
+"scalar.ml" 100 2753 2766 "scalar.ml" 100 2753 2781
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"scalar.ml" 100 2753 2782 "scalar.ml" 100 2753 2783
+type(
+  float
+)
+ident(
+  int_ref x "scalar.ml" 100 2753 2761 "scalar.ml" 100 2753 2762
+)
+"scalar.ml" 100 2753 2766 "scalar.ml" 100 2753 2783
+call(
+  tail
+)
+type(
+  string
+)
+"scalar.ml" 97 2675 2675 "scalar.ml" 100 2753 2783
+type(
+  string
+)
+"scalar.ml" 101 2784 2788 "scalar.ml" 101 2784 2793
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "scalar.ml" 102 2807 2852 "scalar.ml" 1 0 -1
+)
+"scalar.ml" 101 2784 2794 "scalar.ml" 101 2784 2797
+type(
+  Format.formatter
+)
+ident(
+  def fmt "scalar.ml" 101 2784 2798 "scalar.ml" 102 2807 2852
+)
+"scalar.ml" 101 2784 2798 "scalar.ml" 101 2784 2804
+type(
+  t
+)
+ident(
+  def scalar "scalar.ml" 102 2807 2807 "scalar.ml" 102 2807 2852
+)
+"scalar.ml" 102 2807 2807 "scalar.ml" 102 2807 2829
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"scalar.ml" 102 2807 2830 "scalar.ml" 102 2807 2833
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "scalar.ml" 101 2784 2794 "scalar.ml" 101 2784 2797
+)
+"scalar.ml" 102 2807 2835 "scalar.ml" 102 2807 2844
+type(
+  t -> string
+)
+ident(
+  int_ref to_string "scalar.ml" 96 2652 2656 "scalar.ml" 96 2652 2665
+)
+"scalar.ml" 102 2807 2845 "scalar.ml" 102 2807 2851
+type(
+  t
+)
+ident(
+  int_ref scalar "scalar.ml" 101 2784 2798 "scalar.ml" 101 2784 2804
+)
+"scalar.ml" 102 2807 2834 "scalar.ml" 102 2807 2852
+call(
+  stack
+)
+type(
+  string
+)
+"scalar.ml" 102 2807 2807 "scalar.ml" 102 2807 2852
+call(
+  tail
+)
+type(
+  unit
+)

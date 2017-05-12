@@ -1,0 +1,35 @@
+(declare-fun |main::i| () Int)
+(declare-fun |main::k| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::n| () Int)
+
+34 (37) @10:
+(assert (let ((.cse6 (- 1))) (let ((.cse3 (+ |main::k| .cse6)) (.cse5 (+ |main::i| .cse6))) (let ((.cse0 (<= 0 .cse5)) (.cse1 (<= |main::j| .cse5)) (.cse2 (<= |main::j| .cse3)) (.cse4 (<= |main::j| (+ |main::i| (- 2))))) (ite (>= |main::k| |main::n|) (and .cse0 .cse1 .cse2 (<= |main::i| .cse3) .cse4) (and .cse0 .cse1 .cse2 .cse4))))))
+
+39 (40,41) @10:
+(assert (let ((.cse4 (- 1))) (let ((.cse0 (+ |main::i| .cse4))) (and (<= 0 .cse0) (let ((.cse3 (+ |main::k| .cse4))) (let ((.cse1 (<= |main::j| .cse3)) (.cse2 (<= |main::i| .cse3))) (ite (<= |main::j| .cse0) (and .cse1 .cse2) (and .cse1 .cse2 (not (<= |main::j| (+ |main::i| (- 2))))))))))))
+
+0 (27) @1:
+(assert true)
+
+29 (31) @10:
+(assert (let ((.cse6 (- 1))) (let ((.cse3 (+ |main::k| .cse6)) (.cse5 (+ |main::i| .cse6))) (let ((.cse0 (<= 0 .cse5)) (.cse1 (<= |main::j| .cse5)) (.cse2 (<= |main::j| .cse3)) (.cse4 (not (<= |main::j| (+ |main::i| (- 2)))))) (ite (>= |main::k| |main::n|) (and .cse0 .cse1 .cse2 (<= |main::i| .cse3) .cse4) (and .cse0 .cse1 .cse2 .cse4))))))
+
+32 (34) @6:
+(assert (let ((.cse0 (- 1))) (and (<= |main::i| |main::k|) (<= 0 (+ |main::i| .cse0)) (<= 0 (+ |main::k| .cse0)) (<= 0 (+ |main::i| (- 2))))))
+
+37 (39) @10:
+(assert (let ((.cse2 (- 1))) (let ((.cse0 (+ |main::i| .cse2)) (.cse1 (+ |main::k| .cse2))) (and (<= 0 .cse0) (<= |main::j| .cse0) (<= |main::j| .cse1) (<= |main::i| .cse1)))))
+
+41 () @10:
+(assert (let ((.cse4 (- 1))) (let ((.cse0 (+ |main::i| .cse4))) (and (<= 0 .cse0) (let ((.cse3 (+ |main::k| .cse4))) (let ((.cse1 (<= |main::j| .cse3)) (.cse2 (<= |main::i| .cse3))) (ite (<= |main::j| .cse0) (and .cse1 .cse2) (and .cse1 .cse2 (not (<= |main::j| (+ |main::i| (- 2))))))))))))
+
+27 (29) @6:
+(assert (let ((.cse0 (- 1))) (and (<= |main::i| |main::k|) (<= 0 (+ |main::i| .cse0)) (<= 0 (+ |main::k| .cse0)) (not (<= 0 (+ |main::i| (- 2)))))))
+
+31 (32) @10:
+(assert (let ((.cse2 (- 1))) (let ((.cse0 (+ |main::i| .cse2)) (.cse1 (+ |main::k| .cse2))) (and (<= 0 .cse0) (not (<= |main::j| .cse0)) (<= |main::j| .cse1) (<= |main::i| .cse1) (not (<= |main::j| (+ |main::i| (- 2))))))))
+
+40 () @6:
+(assert (let ((.cse0 (- 1))) (and (<= |main::i| |main::k|) (<= 0 (+ |main::i| .cse0)) (<= 0 (+ |main::k| .cse0)) (<= 0 (+ |main::i| (- 2))))))
+

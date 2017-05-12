@@ -1,0 +1,14 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+
+main:
+(assert (> |main::y| 0))
+
+main N12:
+(assert (<= |main::x| (- 50)))
+(assert (> |main::y| 0))
+
+main N21:
+(assert false)
+(assert (> |main::y| 0))
+

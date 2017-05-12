@@ -1,0 +1,32 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/44.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([21,20,14,22,11,9]): pc(main-6-23) pc(main-ret-0) {i>=1+k,flag>=1+1,n'=n,k'=k,j'=j,i'=i,flag'=flag}
+[i>=1+k,flag>=1+1] [n'=n,k'=k,j'=j,i'=i,flag'=flag]
+path([21,19,14,22,11,9]): pc(main-6-23) pc(main-ret-0) {i>=1+k,flag+1=<1,n'=n,k'=k,j'=j,i'=i,flag'=flag}
+[i>=1+k,flag+1=<1] [n'=n,k'=k,j'=j,i'=i,flag'=flag]
+path([21,18,15,14,22,11,9]): pc(main-6-23) pc(main-ret-0) {i>=1+k,flag=1,j=i,n'=n,k'=k,j'=j,i'=i,flag'=flag}
+[i>=1+k,flag=1,j=i] [n'=n,k'=k,j'=j,i'=i,flag'=flag]
+path([17,15,14,22,11,9]): pc(main-6-23) pc(main-err-0) {i>=1+k,flag=1,j>=1+i,n'=n,k'=k,j'=j,i'=i,flag'=flag}
+[i>=1+k,flag=1,j>=1+i] [n'=n,k'=k,j'=j,i'=i,flag'=flag]
+path([16,15,14,22,11,9]): pc(main-6-23) pc(main-err-0) {i>=1+k,flag=1,j+1=<i,n'=n,k'=k,j'=j,i'=i,flag'=flag}
+[i>=1+k,flag=1,j+1=<i] [n'=n,k'=k,j'=j,i'=i,flag'=flag]
+path([13,12,10,9]): pc(main-6-23) pc(main-6-23) {i=<k,n'=n,k'=k,j'=j+n,i'=i+1,flag'=flag}
+[i=<k] [n'=n,k'=k,j'=j+n,i'=i+1,flag'=flag]
+path([8,7,6,2,1]): pc(main-0-11) pc(main-6-23) {flag>=1+1,n'=2,k'=k,j'=0,i'=0,flag'=flag}
+[flag>=1+1] [n'=2,k'=k,j'=0,i'=0,flag'=flag]
+path([8,7,5,2,1]): pc(main-0-11) pc(main-6-23) {flag+1=<1,n'=2,k'=k,j'=0,i'=0,flag'=flag}
+[flag+1=<1] [n'=2,k'=k,j'=0,i'=0,flag'=flag]
+path([8,4,3,2,1]): pc(main-0-11) pc(main-6-23) {flag=1,n'=1,k'=k,j'=0,i'=0,flag'=flag}
+[flag=1] [n'=1,k'=k,j'=0,i'=0,flag'=flag]
+
+#Printing Strengthening ==
+#pc(main-6-23): [n>=1,n=<2,j-i>=0,i>=0]
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([17,15,14,22,11,9])..# failed. 
+#=======================================
+#Invariant computation failed.

@@ -1,0 +1,23 @@
+(declare-fun |main::k| () Int)
+(declare-fun |main::j| () Int)
+(declare-fun |main::flag| () Int)
+
+main:
+(assert (= |main::j| (+ (* 2 |main::k|) 2)))
+
+main N5:
+(assert (<= (* 2 |main::k|) (+ |main::j| (- 2))))
+(assert (<= |main::j| (+ (* 2 |main::k|) 2)))
+(assert (<= 0 |main::k|))
+(assert (<= |main::k| 0))
+(assert (<= (+ (- |main::j|) (* 2 |main::k|) 2) 0))
+(assert (<= (+ (- |main::j|) (* 2 |main::k|) 3) 0))
+(assert (<= (- |main::k|) 0))
+(assert (<= (+ (- |main::k|) 1) 0))
+(assert (= |main::j| (+ (* 2 |main::k|) 2)))
+(assert (= |main::flag| 0))
+
+main N20:
+(assert false)
+(assert (= |main::j| (+ (* 2 |main::k|) 2)))
+

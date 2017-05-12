@@ -1,0 +1,1201 @@
+"boolexpr.ml" 19 511 515 "boolexpr.ml" 19 511 520
+type(
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a t -> unit
+)
+ident(
+  def print "boolexpr.ml" 27 777 777 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 19 511 521 "boolexpr.ml" 19 511 530
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def print_elt "boolexpr.ml" 19 511 531 "boolexpr.ml" 24 697 713
+)
+"boolexpr.ml" 19 511 531 "boolexpr.ml" 19 511 534
+type(
+  Format.formatter
+)
+ident(
+  def fmt "boolexpr.ml" 19 511 537 "boolexpr.ml" 24 697 713
+)
+"boolexpr.ml" 20 546 550 "boolexpr.ml" 20 546 554
+type(
+  'a t
+)
+"boolexpr.ml" 20 546 558 "boolexpr.ml" 20 546 573
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"boolexpr.ml" 20 546 574 "boolexpr.ml" 20 546 577
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "boolexpr.ml" 19 511 531 "boolexpr.ml" 19 511 534
+)
+"boolexpr.ml" 20 546 578 "boolexpr.ml" 20 546 584
+type(
+  string
+)
+"boolexpr.ml" 20 546 558 "boolexpr.ml" 20 546 584
+call(
+  tail
+)
+type(
+  unit
+)
+"boolexpr.ml" 21 585 593 "boolexpr.ml" 21 585 597
+type(
+  'a list
+)
+"boolexpr.ml" 21 585 589 "boolexpr.ml" 21 585 597
+type(
+  'a t
+)
+"boolexpr.ml" 21 585 601 "boolexpr.ml" 21 585 616
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"boolexpr.ml" 21 585 617 "boolexpr.ml" 21 585 620
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "boolexpr.ml" 19 511 531 "boolexpr.ml" 19 511 534
+)
+"boolexpr.ml" 21 585 621 "boolexpr.ml" 21 585 628
+type(
+  string
+)
+"boolexpr.ml" 21 585 601 "boolexpr.ml" 21 585 628
+call(
+  tail
+)
+type(
+  unit
+)
+"boolexpr.ml" 22 629 638 "boolexpr.ml" 22 629 639
+ident(
+  def l "boolexpr.ml" 23 644 650 "boolexpr.ml" 24 697 713
+)
+"boolexpr.ml" 22 629 637 "boolexpr.ml" 22 629 640
+type(
+  'a list
+)
+"boolexpr.ml" 22 629 633 "boolexpr.ml" 22 629 640
+type(
+  'a t
+)
+"boolexpr.ml" 23 644 650 "boolexpr.ml" 23 644 660
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a list -> unit
+)
+ident(
+  ext_ref Print.list
+)
+"boolexpr.ml" 23 644 668 "boolexpr.ml" 23 644 672
+type(
+  (unit, Format.formatter, unit) format
+)
+"boolexpr.ml" 23 644 678 "boolexpr.ml" 23 644 685
+type(
+  (unit, Format.formatter, unit) format
+)
+"boolexpr.ml" 23 644 692 "boolexpr.ml" 23 644 696
+type(
+  (unit, Format.formatter, unit) format
+)
+"boolexpr.ml" 24 697 698 "boolexpr.ml" 24 697 707
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print_elt "boolexpr.ml" 19 511 521 "boolexpr.ml" 19 511 530
+)
+"boolexpr.ml" 24 697 708 "boolexpr.ml" 24 697 711
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "boolexpr.ml" 19 511 531 "boolexpr.ml" 19 511 534
+)
+"boolexpr.ml" 24 697 712 "boolexpr.ml" 24 697 713
+type(
+  'a list
+)
+ident(
+  int_ref l "boolexpr.ml" 22 629 637 "boolexpr.ml" 22 629 640
+)
+"boolexpr.ml" 23 644 650 "boolexpr.ml" 24 697 713
+call(
+  tail
+)
+type(
+  unit
+)
+"boolexpr.ml" 19 511 537 "boolexpr.ml" 24 697 713
+type(
+  'a t -> unit
+)
+"boolexpr.ml" 27 777 781 "boolexpr.ml" 27 777 784
+type(
+  ('a -> 'b) -> 'a t -> 'b t
+)
+ident(
+  def map "boolexpr.ml" 31 888 888 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 27 777 786 "boolexpr.ml" 27 777 787
+type(
+  'a -> 'b
+)
+ident(
+  def f "boolexpr.ml" 27 777 798 "boolexpr.ml" 30 854 887
+)
+"boolexpr.ml" 27 777 799 "boolexpr.ml" 27 777 803
+type(
+  'a t
+)
+ident(
+  def expr "boolexpr.ml" 27 777 810 "boolexpr.ml" 30 854 887
+)
+"boolexpr.ml" 28 819 827 "boolexpr.ml" 28 819 831
+type(
+  'a t
+)
+ident(
+  int_ref expr "boolexpr.ml" 27 777 799 "boolexpr.ml" 27 777 803
+)
+"boolexpr.ml" 29 837 841 "boolexpr.ml" 29 837 845
+type(
+  'a t
+)
+"boolexpr.ml" 29 837 849 "boolexpr.ml" 29 837 853
+type(
+  'b t
+)
+"boolexpr.ml" 30 854 863 "boolexpr.ml" 30 854 864
+ident(
+  def l "boolexpr.ml" 30 854 869 "boolexpr.ml" 30 854 887
+)
+"boolexpr.ml" 30 854 862 "boolexpr.ml" 30 854 865
+type(
+  'a list
+)
+"boolexpr.ml" 30 854 858 "boolexpr.ml" 30 854 865
+type(
+  'a t
+)
+"boolexpr.ml" 30 854 874 "boolexpr.ml" 30 854 882
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  ext_ref List.map
+)
+"boolexpr.ml" 30 854 883 "boolexpr.ml" 30 854 884
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "boolexpr.ml" 27 777 786 "boolexpr.ml" 27 777 787
+)
+"boolexpr.ml" 30 854 885 "boolexpr.ml" 30 854 886
+type(
+  'a list
+)
+ident(
+  int_ref l "boolexpr.ml" 30 854 862 "boolexpr.ml" 30 854 865
+)
+"boolexpr.ml" 30 854 873 "boolexpr.ml" 30 854 887
+call(
+  stack
+)
+type(
+  'b list
+)
+"boolexpr.ml" 30 854 869 "boolexpr.ml" 30 854 887
+type(
+  'b t
+)
+"boolexpr.ml" 28 819 821 "boolexpr.ml" 30 854 887
+type(
+  'b t
+)
+type(
+  'b t
+)
+"boolexpr.ml" 31 888 892 "boolexpr.ml" 31 888 896
+type(
+  ('a -> 'b -> 'c) -> 'a t -> 'b t -> 'c t
+)
+ident(
+  def map2 "boolexpr.ml" 36 1101 1101 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 31 888 898 "boolexpr.ml" 31 888 899
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "boolexpr.ml" 31 888 916 "boolexpr.ml" 35 1051 1100
+)
+"boolexpr.ml" 31 888 917 "boolexpr.ml" 31 888 922
+type(
+  'a t
+)
+ident(
+  def expr1 "boolexpr.ml" 31 888 929 "boolexpr.ml" 35 1051 1100
+)
+"boolexpr.ml" 31 888 930 "boolexpr.ml" 31 888 935
+type(
+  'b t
+)
+ident(
+  def expr2 "boolexpr.ml" 31 888 942 "boolexpr.ml" 35 1051 1100
+)
+"boolexpr.ml" 32 951 960 "boolexpr.ml" 32 951 965
+type(
+  'a t
+)
+ident(
+  int_ref expr1 "boolexpr.ml" 31 888 917 "boolexpr.ml" 31 888 922
+)
+"boolexpr.ml" 32 951 966 "boolexpr.ml" 32 951 971
+type(
+  'b t
+)
+ident(
+  int_ref expr2 "boolexpr.ml" 31 888 930 "boolexpr.ml" 31 888 935
+)
+"boolexpr.ml" 32 951 959 "boolexpr.ml" 32 951 972
+type(
+  'a t * 'b t
+)
+"boolexpr.ml" 33 978 982 "boolexpr.ml" 33 978 986
+type(
+  'a t
+)
+"boolexpr.ml" 33 978 987 "boolexpr.ml" 33 978 991
+type(
+  'b t
+)
+"boolexpr.ml" 33 978 982 "boolexpr.ml" 33 978 991
+type(
+  'a t * 'b t
+)
+"boolexpr.ml" 33 978 995 "boolexpr.ml" 33 978 999
+type(
+  'c t
+)
+"boolexpr.ml" 34 1000 1010 "boolexpr.ml" 34 1000 1012
+type(
+  'a list
+)
+ident(
+  def l1 "boolexpr.ml" 34 1000 1027 "boolexpr.ml" 34 1000 1050
+)
+"boolexpr.ml" 34 1000 1004 "boolexpr.ml" 34 1000 1013
+type(
+  'a t
+)
+"boolexpr.ml" 34 1000 1020 "boolexpr.ml" 34 1000 1022
+type(
+  'b list
+)
+ident(
+  def l2 "boolexpr.ml" 34 1000 1027 "boolexpr.ml" 34 1000 1050
+)
+"boolexpr.ml" 34 1000 1014 "boolexpr.ml" 34 1000 1023
+type(
+  'b t
+)
+"boolexpr.ml" 34 1000 1004 "boolexpr.ml" 34 1000 1023
+type(
+  'a t * 'b t
+)
+"boolexpr.ml" 34 1000 1032 "boolexpr.ml" 34 1000 1041
+type(
+  ('a -> 'b -> 'c) -> 'a list -> 'b list -> 'c list
+)
+ident(
+  ext_ref List.map2
+)
+"boolexpr.ml" 34 1000 1042 "boolexpr.ml" 34 1000 1043
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "boolexpr.ml" 31 888 898 "boolexpr.ml" 31 888 899
+)
+"boolexpr.ml" 34 1000 1044 "boolexpr.ml" 34 1000 1046
+type(
+  'a list
+)
+ident(
+  int_ref l1 "boolexpr.ml" 34 1000 1010 "boolexpr.ml" 34 1000 1012
+)
+"boolexpr.ml" 34 1000 1047 "boolexpr.ml" 34 1000 1049
+type(
+  'b list
+)
+ident(
+  int_ref l2 "boolexpr.ml" 34 1000 1020 "boolexpr.ml" 34 1000 1022
+)
+"boolexpr.ml" 34 1000 1031 "boolexpr.ml" 34 1000 1050
+call(
+  stack
+)
+type(
+  'c list
+)
+"boolexpr.ml" 34 1000 1027 "boolexpr.ml" 34 1000 1050
+type(
+  'c t
+)
+"boolexpr.ml" 35 1051 1055 "boolexpr.ml" 35 1051 1056
+type(
+  'a t * 'b t
+)
+"boolexpr.ml" 35 1051 1060 "boolexpr.ml" 35 1051 1065
+type(
+  exn -> 'c t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"boolexpr.ml" 35 1051 1084 "boolexpr.ml" 35 1051 1099
+type(
+  string
+)
+"boolexpr.ml" 35 1051 1066 "boolexpr.ml" 35 1051 1100
+type(
+  exn
+)
+"boolexpr.ml" 35 1051 1060 "boolexpr.ml" 35 1051 1100
+type(
+  'c t
+)
+"boolexpr.ml" 32 951 953 "boolexpr.ml" 35 1051 1100
+type(
+  'c t
+)
+type(
+  'c t
+)
+"boolexpr.ml" 36 1101 1109 "boolexpr.ml" 36 1101 1114
+type(
+  ('a -> 'b -> 'c -> 'a) -> 'a -> 'b t -> 'c t -> 'a
+)
+ident(
+  def fold2 "boolexpr.ml" 36 1101 1101 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 36 1101 1115 "boolexpr.ml" 36 1101 1116
+type(
+  'a -> 'b -> 'c -> 'a
+)
+ident(
+  def f "boolexpr.ml" 36 1101 1117 "boolexpr.ml" 40 1226 1262
+)
+"boolexpr.ml" 36 1101 1117 "boolexpr.ml" 36 1101 1120
+type(
+  'a
+)
+ident(
+  def res "boolexpr.ml" 36 1101 1121 "boolexpr.ml" 40 1226 1262
+)
+"boolexpr.ml" 36 1101 1121 "boolexpr.ml" 36 1101 1123
+type(
+  'b t
+)
+ident(
+  def e1 "boolexpr.ml" 36 1101 1124 "boolexpr.ml" 40 1226 1262
+)
+"boolexpr.ml" 36 1101 1124 "boolexpr.ml" 36 1101 1126
+type(
+  'c t
+)
+ident(
+  def e2 "boolexpr.ml" 37 1129 1131 "boolexpr.ml" 40 1226 1262
+)
+"boolexpr.ml" 37 1129 1138 "boolexpr.ml" 37 1129 1140
+type(
+  'b t
+)
+ident(
+  int_ref e1 "boolexpr.ml" 36 1101 1121 "boolexpr.ml" 36 1101 1123
+)
+"boolexpr.ml" 37 1129 1141 "boolexpr.ml" 37 1129 1143
+type(
+  'c t
+)
+ident(
+  int_ref e2 "boolexpr.ml" 36 1101 1124 "boolexpr.ml" 36 1101 1126
+)
+"boolexpr.ml" 37 1129 1137 "boolexpr.ml" 37 1129 1144
+type(
+  'b t * 'c t
+)
+"boolexpr.ml" 38 1150 1154 "boolexpr.ml" 38 1150 1158
+type(
+  'b t
+)
+"boolexpr.ml" 38 1150 1159 "boolexpr.ml" 38 1150 1163
+type(
+  'c t
+)
+"boolexpr.ml" 38 1150 1154 "boolexpr.ml" 38 1150 1163
+type(
+  'b t * 'c t
+)
+"boolexpr.ml" 38 1150 1167 "boolexpr.ml" 38 1150 1170
+type(
+  'a
+)
+ident(
+  int_ref res "boolexpr.ml" 36 1101 1117 "boolexpr.ml" 36 1101 1120
+)
+"boolexpr.ml" 39 1171 1181 "boolexpr.ml" 39 1171 1183
+type(
+  'b list
+)
+ident(
+  def l1 "boolexpr.ml" 39 1171 1198 "boolexpr.ml" 39 1171 1225
+)
+"boolexpr.ml" 39 1171 1175 "boolexpr.ml" 39 1171 1184
+type(
+  'b t
+)
+"boolexpr.ml" 39 1171 1191 "boolexpr.ml" 39 1171 1193
+type(
+  'c list
+)
+ident(
+  def l2 "boolexpr.ml" 39 1171 1198 "boolexpr.ml" 39 1171 1225
+)
+"boolexpr.ml" 39 1171 1185 "boolexpr.ml" 39 1171 1194
+type(
+  'c t
+)
+"boolexpr.ml" 39 1171 1175 "boolexpr.ml" 39 1171 1194
+type(
+  'b t * 'c t
+)
+"boolexpr.ml" 39 1171 1198 "boolexpr.ml" 39 1171 1213
+type(
+  ('a -> 'b -> 'c -> 'a) -> 'a -> 'b list -> 'c list -> 'a
+)
+ident(
+  ext_ref List.fold_left2
+)
+"boolexpr.ml" 39 1171 1214 "boolexpr.ml" 39 1171 1215
+type(
+  'a -> 'b -> 'c -> 'a
+)
+ident(
+  int_ref f "boolexpr.ml" 36 1101 1115 "boolexpr.ml" 36 1101 1116
+)
+"boolexpr.ml" 39 1171 1216 "boolexpr.ml" 39 1171 1219
+type(
+  'a
+)
+ident(
+  int_ref res "boolexpr.ml" 36 1101 1117 "boolexpr.ml" 36 1101 1120
+)
+"boolexpr.ml" 39 1171 1220 "boolexpr.ml" 39 1171 1222
+type(
+  'b list
+)
+ident(
+  int_ref l1 "boolexpr.ml" 39 1171 1181 "boolexpr.ml" 39 1171 1183
+)
+"boolexpr.ml" 39 1171 1223 "boolexpr.ml" 39 1171 1225
+type(
+  'c list
+)
+ident(
+  int_ref l2 "boolexpr.ml" 39 1171 1191 "boolexpr.ml" 39 1171 1193
+)
+"boolexpr.ml" 39 1171 1198 "boolexpr.ml" 39 1171 1225
+call(
+  tail
+)
+type(
+  'a
+)
+"boolexpr.ml" 40 1226 1230 "boolexpr.ml" 40 1226 1231
+type(
+  'b t * 'c t
+)
+"boolexpr.ml" 40 1226 1235 "boolexpr.ml" 40 1226 1240
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"boolexpr.ml" 40 1226 1259 "boolexpr.ml" 40 1226 1261
+type(
+  string
+)
+"boolexpr.ml" 40 1226 1241 "boolexpr.ml" 40 1226 1262
+type(
+  exn
+)
+"boolexpr.ml" 40 1226 1235 "boolexpr.ml" 40 1226 1262
+type(
+  'a
+)
+"boolexpr.ml" 37 1129 1131 "boolexpr.ml" 40 1226 1262
+type(
+  'a
+)
+"boolexpr.ml" 46 1467 1471 "boolexpr.ml" 46 1467 1479
+type(
+  'a -> 'b t
+)
+ident(
+  def make_cst "boolexpr.ml" 49 1518 1518 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 46 1467 1480 "boolexpr.ml" 46 1467 1481
+type(
+  'a
+)
+ident(
+  def b "boolexpr.ml" 47 1484 1486 "boolexpr.ml" 47 1484 1516
+)
+"boolexpr.ml" 47 1484 1489 "boolexpr.ml" 47 1484 1493
+type(
+  bool
+)
+"boolexpr.ml" 47 1484 1499 "boolexpr.ml" 47 1484 1503
+type(
+  'b t
+)
+"boolexpr.ml" 47 1484 1514 "boolexpr.ml" 47 1484 1516
+type(
+  'b list
+)
+"boolexpr.ml" 47 1484 1509 "boolexpr.ml" 47 1484 1516
+type(
+  'b t
+)
+"boolexpr.ml" 47 1484 1486 "boolexpr.ml" 47 1484 1516
+type(
+  'b t
+)
+"boolexpr.ml" 49 1518 1522 "boolexpr.ml" 49 1518 1538
+type(
+  'a -> 'a t
+)
+ident(
+  def make_conjunction "boolexpr.ml" 51 1560 1560 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 49 1518 1539 "boolexpr.ml" 49 1518 1543
+type(
+  'a
+)
+ident(
+  def conj "boolexpr.ml" 49 1518 1546 "boolexpr.ml" 49 1518 1558
+)
+"boolexpr.ml" 49 1518 1552 "boolexpr.ml" 49 1518 1556
+type(
+  'a
+)
+ident(
+  int_ref conj "boolexpr.ml" 49 1518 1539 "boolexpr.ml" 49 1518 1543
+)
+"boolexpr.ml" 49 1518 1550 "boolexpr.ml" 49 1518 1558
+type(
+  'a list
+)
+"boolexpr.ml" 49 1518 1546 "boolexpr.ml" 49 1518 1558
+type(
+  'a t
+)
+"boolexpr.ml" 51 1560 1564 "boolexpr.ml" 51 1560 1571
+type(
+  'a t -> 'a t -> 'a t
+)
+ident(
+  def make_or "boolexpr.ml" 55 1672 1672 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 51 1560 1572 "boolexpr.ml" 51 1560 1574
+type(
+  'a t
+)
+ident(
+  def e1 "boolexpr.ml" 51 1560 1575 "boolexpr.ml" 53 1631 1670
+)
+"boolexpr.ml" 51 1560 1575 "boolexpr.ml" 51 1560 1577
+type(
+  'a t
+)
+ident(
+  def e2 "boolexpr.ml" 51 1560 1580 "boolexpr.ml" 53 1631 1670
+)
+"boolexpr.ml" 51 1560 1587 "boolexpr.ml" 51 1560 1589
+type(
+  'a t
+)
+ident(
+  int_ref e1 "boolexpr.ml" 51 1560 1572 "boolexpr.ml" 51 1560 1574
+)
+"boolexpr.ml" 51 1560 1590 "boolexpr.ml" 51 1560 1592
+type(
+  'a t
+)
+ident(
+  int_ref e2 "boolexpr.ml" 51 1560 1575 "boolexpr.ml" 51 1560 1577
+)
+"boolexpr.ml" 51 1560 1586 "boolexpr.ml" 51 1560 1593
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 52 1599 1604 "boolexpr.ml" 52 1599 1608
+type(
+  'a t
+)
+"boolexpr.ml" 52 1599 1609 "boolexpr.ml" 52 1599 1610
+type(
+  'a t
+)
+ident(
+  def x "boolexpr.ml" 52 1599 1626 "boolexpr.ml" 52 1599 1630
+)
+"boolexpr.ml" 52 1599 1603 "boolexpr.ml" 52 1599 1611
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 52 1599 1615 "boolexpr.ml" 52 1599 1616
+type(
+  'a t
+)
+ident(
+  def x "boolexpr.ml" 52 1599 1626 "boolexpr.ml" 52 1599 1630
+)
+"boolexpr.ml" 52 1599 1617 "boolexpr.ml" 52 1599 1621
+type(
+  'a t
+)
+"boolexpr.ml" 52 1599 1614 "boolexpr.ml" 52 1599 1622
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 52 1599 1603 "boolexpr.ml" 52 1599 1622
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 52 1599 1626 "boolexpr.ml" 52 1599 1630
+type(
+  'a t
+)
+"boolexpr.ml" 53 1631 1641 "boolexpr.ml" 53 1631 1643
+ident(
+  def l1 "boolexpr.ml" 53 1631 1659 "boolexpr.ml" 53 1631 1670
+)
+"boolexpr.ml" 53 1631 1640 "boolexpr.ml" 53 1631 1644
+type(
+  'a list
+)
+"boolexpr.ml" 53 1631 1636 "boolexpr.ml" 53 1631 1644
+type(
+  'a t
+)
+"boolexpr.ml" 53 1631 1651 "boolexpr.ml" 53 1631 1653
+ident(
+  def l2 "boolexpr.ml" 53 1631 1659 "boolexpr.ml" 53 1631 1670
+)
+"boolexpr.ml" 53 1631 1650 "boolexpr.ml" 53 1631 1654
+type(
+  'a list
+)
+"boolexpr.ml" 53 1631 1646 "boolexpr.ml" 53 1631 1654
+type(
+  'a t
+)
+"boolexpr.ml" 53 1631 1635 "boolexpr.ml" 53 1631 1655
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 53 1631 1664 "boolexpr.ml" 53 1631 1666
+type(
+  'a list
+)
+ident(
+  int_ref l1 "boolexpr.ml" 53 1631 1640 "boolexpr.ml" 53 1631 1644
+)
+"boolexpr.ml" 53 1631 1666 "boolexpr.ml" 53 1631 1667
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"boolexpr.ml" 53 1631 1667 "boolexpr.ml" 53 1631 1669
+type(
+  'a list
+)
+ident(
+  int_ref l2 "boolexpr.ml" 53 1631 1650 "boolexpr.ml" 53 1631 1654
+)
+"boolexpr.ml" 53 1631 1663 "boolexpr.ml" 53 1631 1670
+call(
+  stack
+)
+type(
+  'a list
+)
+"boolexpr.ml" 53 1631 1659 "boolexpr.ml" 53 1631 1670
+type(
+  'a t
+)
+"boolexpr.ml" 51 1560 1580 "boolexpr.ml" 53 1631 1670
+type(
+  'a t
+)
+"boolexpr.ml" 55 1672 1676 "boolexpr.ml" 55 1672 1684
+type(
+  cand:('a -> 'a -> 'a t) -> 'a t -> 'a t -> 'a t
+)
+ident(
+  def make_and "boolexpr.ml" 69 1973 1973 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 55 1672 1686 "boolexpr.ml" 55 1672 1690
+type(
+  'a -> 'a -> 'a t
+)
+ident(
+  def cand "boolexpr.ml" 55 1672 1691 "boolexpr.ml" 67 1958 1971
+)
+"boolexpr.ml" 55 1672 1691 "boolexpr.ml" 55 1672 1693
+type(
+  'a t
+)
+ident(
+  def e1 "boolexpr.ml" 55 1672 1694 "boolexpr.ml" 67 1958 1971
+)
+"boolexpr.ml" 55 1672 1694 "boolexpr.ml" 55 1672 1696
+type(
+  'a t
+)
+ident(
+  def e2 "boolexpr.ml" 55 1672 1699 "boolexpr.ml" 67 1958 1971
+)
+"boolexpr.ml" 55 1672 1706 "boolexpr.ml" 55 1672 1708
+type(
+  'a t
+)
+ident(
+  int_ref e1 "boolexpr.ml" 55 1672 1691 "boolexpr.ml" 55 1672 1693
+)
+"boolexpr.ml" 55 1672 1709 "boolexpr.ml" 55 1672 1711
+type(
+  'a t
+)
+ident(
+  int_ref e2 "boolexpr.ml" 55 1672 1694 "boolexpr.ml" 55 1672 1696
+)
+"boolexpr.ml" 55 1672 1705 "boolexpr.ml" 55 1672 1712
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 56 1718 1723 "boolexpr.ml" 56 1718 1727
+type(
+  'a t
+)
+"boolexpr.ml" 56 1718 1728 "boolexpr.ml" 56 1718 1729
+type(
+  'a t
+)
+ident(
+  def x "boolexpr.ml" 56 1718 1745 "boolexpr.ml" 56 1718 1746
+)
+"boolexpr.ml" 56 1718 1722 "boolexpr.ml" 56 1718 1730
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 56 1718 1734 "boolexpr.ml" 56 1718 1735
+type(
+  'a t
+)
+ident(
+  def x "boolexpr.ml" 56 1718 1745 "boolexpr.ml" 56 1718 1746
+)
+"boolexpr.ml" 56 1718 1736 "boolexpr.ml" 56 1718 1740
+type(
+  'a t
+)
+"boolexpr.ml" 56 1718 1733 "boolexpr.ml" 56 1718 1741
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 56 1718 1722 "boolexpr.ml" 56 1718 1741
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 56 1718 1745 "boolexpr.ml" 56 1718 1746
+type(
+  'a t
+)
+ident(
+  int_ref x "boolexpr.ml" 56 1718 1728 "boolexpr.ml" 56 1718 1729
+)
+"boolexpr.ml" 57 1747 1757 "boolexpr.ml" 57 1747 1759
+ident(
+  def l1 "boolexpr.ml" 58 1775 1781 "boolexpr.ml" 67 1958 1971
+)
+"boolexpr.ml" 57 1747 1756 "boolexpr.ml" 57 1747 1760
+type(
+  'a list
+)
+"boolexpr.ml" 57 1747 1752 "boolexpr.ml" 57 1747 1760
+type(
+  'a t
+)
+"boolexpr.ml" 57 1747 1767 "boolexpr.ml" 57 1747 1769
+ident(
+  def l2 "boolexpr.ml" 58 1775 1781 "boolexpr.ml" 67 1958 1971
+)
+"boolexpr.ml" 57 1747 1766 "boolexpr.ml" 57 1747 1770
+type(
+  'a list
+)
+"boolexpr.ml" 57 1747 1762 "boolexpr.ml" 57 1747 1770
+type(
+  'a t
+)
+"boolexpr.ml" 57 1747 1751 "boolexpr.ml" 57 1747 1771
+type(
+  'a t * 'a t
+)
+"boolexpr.ml" 58 1775 1781 "boolexpr.ml" 58 1775 1795
+type(
+  ('a t -> 'a -> 'a t) -> 'a t -> 'a list -> 'a t
+)
+ident(
+  ext_ref List.fold_left
+)
+"boolexpr.ml" 59 1796 1808 "boolexpr.ml" 59 1796 1811
+type(
+  'a t
+)
+ident(
+  def res "boolexpr.ml" 59 1796 1812 "boolexpr.ml" 65 1940 1951
+)
+"boolexpr.ml" 59 1796 1812 "boolexpr.ml" 59 1796 1817
+type(
+  'a
+)
+ident(
+  def conj1 "boolexpr.ml" 60 1821 1824 "boolexpr.ml" 65 1940 1951
+)
+"boolexpr.ml" 60 1821 1824 "boolexpr.ml" 60 1821 1838
+type(
+  ('a t -> 'a -> 'a t) -> 'a t -> 'a list -> 'a t
+)
+ident(
+  ext_ref List.fold_left
+)
+"boolexpr.ml" 61 1839 1855 "boolexpr.ml" 61 1839 1858
+type(
+  'a t
+)
+ident(
+  def res "boolexpr.ml" 61 1839 1859 "boolexpr.ml" 63 1906 1929
+)
+"boolexpr.ml" 61 1839 1859 "boolexpr.ml" 61 1839 1864
+type(
+  'a
+)
+ident(
+  def conj2 "boolexpr.ml" 62 1868 1875 "boolexpr.ml" 63 1906 1929
+)
+"boolexpr.ml" 62 1868 1879 "boolexpr.ml" 62 1868 1883
+type(
+  'a t
+)
+ident(
+  def conj "boolexpr.ml" 63 1906 1913 "boolexpr.ml" 63 1906 1929
+)
+"boolexpr.ml" 62 1868 1886 "boolexpr.ml" 62 1868 1890
+type(
+  'a -> 'a -> 'a t
+)
+ident(
+  int_ref cand "boolexpr.ml" 55 1672 1686 "boolexpr.ml" 55 1672 1690
+)
+"boolexpr.ml" 62 1868 1891 "boolexpr.ml" 62 1868 1896
+type(
+  'a
+)
+ident(
+  int_ref conj1 "boolexpr.ml" 59 1796 1812 "boolexpr.ml" 59 1796 1817
+)
+"boolexpr.ml" 62 1868 1897 "boolexpr.ml" 62 1868 1902
+type(
+  'a
+)
+ident(
+  int_ref conj2 "boolexpr.ml" 61 1839 1859 "boolexpr.ml" 61 1839 1864
+)
+"boolexpr.ml" 62 1868 1886 "boolexpr.ml" 62 1868 1902
+call(
+  stack
+)
+type(
+  'a t
+)
+"boolexpr.ml" 63 1906 1913 "boolexpr.ml" 63 1906 1920
+type(
+  'a t -> 'a t -> 'a t
+)
+ident(
+  int_ref make_or "boolexpr.ml" 51 1560 1564 "boolexpr.ml" 51 1560 1571
+)
+"boolexpr.ml" 63 1906 1921 "boolexpr.ml" 63 1906 1924
+type(
+  'a t
+)
+ident(
+  int_ref res "boolexpr.ml" 61 1839 1855 "boolexpr.ml" 61 1839 1858
+)
+"boolexpr.ml" 63 1906 1925 "boolexpr.ml" 63 1906 1929
+type(
+  'a t
+)
+ident(
+  int_ref conj "boolexpr.ml" 62 1868 1879 "boolexpr.ml" 62 1868 1883
+)
+"boolexpr.ml" 63 1906 1913 "boolexpr.ml" 63 1906 1929
+call(
+  tail
+)
+type(
+  'a t
+)
+"boolexpr.ml" 62 1868 1875 "boolexpr.ml" 63 1906 1929
+type(
+  'a t
+)
+"boolexpr.ml" 61 1839 1844 "boolexpr.ml" 64 1930 1939
+type(
+  'a t -> 'a -> 'a t
+)
+"boolexpr.ml" 65 1940 1945 "boolexpr.ml" 65 1940 1948
+type(
+  'a t
+)
+ident(
+  int_ref res "boolexpr.ml" 59 1796 1808 "boolexpr.ml" 59 1796 1811
+)
+"boolexpr.ml" 65 1940 1949 "boolexpr.ml" 65 1940 1951
+type(
+  'a list
+)
+ident(
+  int_ref l2 "boolexpr.ml" 57 1747 1766 "boolexpr.ml" 57 1747 1770
+)
+"boolexpr.ml" 60 1821 1824 "boolexpr.ml" 65 1940 1951
+call(
+  tail
+)
+type(
+  'a t
+)
+"boolexpr.ml" 59 1796 1797 "boolexpr.ml" 66 1952 1957
+type(
+  'a t -> 'a -> 'a t
+)
+"boolexpr.ml" 67 1958 1965 "boolexpr.ml" 67 1958 1967
+type(
+  'a list
+)
+"boolexpr.ml" 67 1958 1959 "boolexpr.ml" 67 1958 1968
+type(
+  'a t
+)
+"boolexpr.ml" 67 1958 1969 "boolexpr.ml" 67 1958 1971
+type(
+  'a list
+)
+ident(
+  int_ref l1 "boolexpr.ml" 57 1747 1756 "boolexpr.ml" 57 1747 1760
+)
+"boolexpr.ml" 58 1775 1781 "boolexpr.ml" 67 1958 1971
+call(
+  tail
+)
+type(
+  'a t
+)
+"boolexpr.ml" 55 1672 1699 "boolexpr.ml" 67 1958 1971
+type(
+  'a t
+)
+"boolexpr.ml" 69 1973 1981 "boolexpr.ml" 69 1973 1989
+type(
+  cand:('a -> 'a -> 'a t) -> cnegate:('a -> 'a t) -> 'a t -> 'a t
+)
+ident(
+  def make_not "boolexpr.ml" 69 1973 1973 "boolexpr.ml" 1 0 -1
+)
+"boolexpr.ml" 69 1973 1991 "boolexpr.ml" 69 1973 1995
+type(
+  'a -> 'a -> 'a t
+)
+ident(
+  def cand "boolexpr.ml" 69 1973 1996 "boolexpr.ml" 77 2181 2188
+)
+"boolexpr.ml" 69 1973 1997 "boolexpr.ml" 69 1973 2004
+type(
+  'a -> 'a t
+)
+ident(
+  def cnegate "boolexpr.ml" 69 1973 2005 "boolexpr.ml" 77 2181 2188
+)
+"boolexpr.ml" 69 1973 2006 "boolexpr.ml" 69 1973 2010
+type(
+  'a t
+)
+ident(
+  def expr "boolexpr.ml" 69 1973 2017 "boolexpr.ml" 77 2181 2188
+)
+"boolexpr.ml" 70 2026 2034 "boolexpr.ml" 70 2026 2038
+type(
+  'a t
+)
+ident(
+  int_ref expr "boolexpr.ml" 69 1973 2006 "boolexpr.ml" 69 1973 2010
+)
+"boolexpr.ml" 71 2044 2048 "boolexpr.ml" 71 2044 2052
+type(
+  'a t
+)
+"boolexpr.ml" 71 2044 2060 "boolexpr.ml" 71 2044 2064
+type(
+  'a list
+)
+"boolexpr.ml" 71 2044 2056 "boolexpr.ml" 71 2044 2064
+type(
+  'a t
+)
+"boolexpr.ml" 72 2065 2074 "boolexpr.ml" 72 2065 2075
+ident(
+  def l "boolexpr.ml" 73 2080 2086 "boolexpr.ml" 77 2181 2188
+)
+"boolexpr.ml" 72 2065 2073 "boolexpr.ml" 72 2065 2076
+type(
+  'a list
+)
+"boolexpr.ml" 72 2065 2069 "boolexpr.ml" 72 2065 2076
+type(
+  'a t
+)
+"boolexpr.ml" 73 2080 2086 "boolexpr.ml" 73 2080 2100
+type(
+  ('a t -> 'a -> 'a t) -> 'a t -> 'a list -> 'a t
+)
+ident(
+  ext_ref List.fold_left
+)
+"boolexpr.ml" 74 2101 2113 "boolexpr.ml" 74 2101 2116
+type(
+  'a t
+)
+ident(
+  def res "boolexpr.ml" 74 2101 2117 "boolexpr.ml" 75 2132 2174
+)
+"boolexpr.ml" 74 2101 2117 "boolexpr.ml" 74 2101 2128
+type(
+  'a
+)
+ident(
+  def conjunction "boolexpr.ml" 75 2132 2135 "boolexpr.ml" 75 2132 2174
+)
+"boolexpr.ml" 75 2132 2135 "boolexpr.ml" 75 2132 2143
+type(
+  cand:('a -> 'a -> 'a t) -> 'a t -> 'a t -> 'a t
+)
+ident(
+  int_ref make_and "boolexpr.ml" 55 1672 1676 "boolexpr.ml" 55 1672 1684
+)
+"boolexpr.ml" 75 2132 2144 "boolexpr.ml" 75 2132 2148
+type(
+  'a -> 'a -> 'a t
+)
+ident(
+  int_ref cand "boolexpr.ml" 69 1973 1991 "boolexpr.ml" 69 1973 1995
+)
+"boolexpr.ml" 75 2132 2149 "boolexpr.ml" 75 2132 2152
+type(
+  'a t
+)
+ident(
+  int_ref res "boolexpr.ml" 74 2101 2113 "boolexpr.ml" 74 2101 2116
+)
+"boolexpr.ml" 75 2132 2154 "boolexpr.ml" 75 2132 2161
+type(
+  'a -> 'a t
+)
+ident(
+  int_ref cnegate "boolexpr.ml" 69 1973 1997 "boolexpr.ml" 69 1973 2004
+)
+"boolexpr.ml" 75 2132 2162 "boolexpr.ml" 75 2132 2173
+type(
+  'a
+)
+ident(
+  int_ref conjunction "boolexpr.ml" 74 2101 2117 "boolexpr.ml" 74 2101 2128
+)
+"boolexpr.ml" 75 2132 2153 "boolexpr.ml" 75 2132 2174
+call(
+  stack
+)
+type(
+  'a t
+)
+"boolexpr.ml" 75 2132 2135 "boolexpr.ml" 75 2132 2174
+call(
+  tail
+)
+type(
+  'a t
+)
+"boolexpr.ml" 74 2101 2102 "boolexpr.ml" 76 2175 2180
+type(
+  'a t -> 'a -> 'a t
+)
+"boolexpr.ml" 77 2181 2182 "boolexpr.ml" 77 2181 2186
+type(
+  'a t
+)
+"boolexpr.ml" 77 2181 2187 "boolexpr.ml" 77 2181 2188
+type(
+  'a list
+)
+ident(
+  int_ref l "boolexpr.ml" 72 2065 2073 "boolexpr.ml" 72 2065 2076
+)
+"boolexpr.ml" 73 2080 2086 "boolexpr.ml" 77 2181 2188
+call(
+  tail
+)
+type(
+  'a t
+)
+"boolexpr.ml" 70 2026 2028 "boolexpr.ml" 77 2181 2188
+type(
+  'a t
+)
+type(
+  'a t
+)

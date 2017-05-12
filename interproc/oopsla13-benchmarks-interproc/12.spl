@@ -1,0 +1,32 @@
+var t:int, s:int, a:int, b:int, x:int, y:int, flag:int;
+begin
+	t = 0;
+	s = 0;
+	a = 0;
+	b = 0;
+	while(brandom) do
+		a = a +_i 1;
+		b = b +_i 1;
+		s = s +_i a;
+		t = t +_i b;
+		if (not (flag == 0)) then
+			t = t +_i a;
+		endif;
+	done;
+
+	x = 1;
+	if (not (flag == 0)) then 
+		x = t -_i 2 *_i s +_i 2;
+	endif;
+
+	y = 0;
+	while (y <= x) do
+		if (brandom) then
+			y = y +_i 1;
+		else 
+			y = y +_i 2;
+		endif;
+	done;
+
+	assume(y <= 4);
+end

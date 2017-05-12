@@ -1,0 +1,40 @@
+INVGEN 0.1
+{agupta,rybal}@mpi-sws.mpg.de
+reading input from frontend-out/16.c.pl...done.
+creating straight line code between cutpoints...done.
+
+path([16,15,9,17,6,3]): pc(main-1-12) pc(main-ret-0) {x=0,i>=1+j,y'=y,x'=x,j'=j,i'=i}
+[x=0,i>=1+j] [y'=y,x'=x,j'=j,i'=i]
+path([16,14,9,17,6,3]): pc(main-1-12) pc(main-ret-0) {x=0,i+1=<j,y'=y,x'=x,j'=j,i'=i}
+[x=0,i+1=<j] [y'=y,x'=x,j'=j,i'=i]
+path([16,13,10,9,17,6,3]): pc(main-1-12) pc(main-ret-0) {x=0,i=j,y=0,y'=y,x'=x,j'=j,i'=i}
+[x=0,i=j,y=0] [y'=y,x'=x,j'=j,i'=i]
+path([12,10,9,17,6,3]): pc(main-1-12) pc(main-err-0) {x=0,i=j,y>=1+0,y'=y,x'=x,j'=j,i'=i}
+[x=0,i=j,y>=1+0] [y'=y,x'=x,j'=j,i'=i]
+path([11,10,9,17,6,3]): pc(main-1-12) pc(main-err-0) {x=0,i=j,y+1=<0,y'=y,x'=x,j'=j,i'=i}
+[x=0,i=j,y+1=<0] [y'=y,x'=x,j'=j,i'=i]
+path([8,7,5,3]): pc(main-1-12) pc(main-1-12) {x>=1+0,y'=y-1,x'=x-1,j'=j,i'=i}
+[x>=1+0] [y'=y-1,x'=x-1,j'=j,i'=i]
+path([8,7,4,3]): pc(main-1-12) pc(main-1-12) {x+1=<0,y'=y-1,x'=x-1,j'=j,i'=i}
+[x+1=<0] [y'=y-1,x'=x-1,j'=j,i'=i]
+path([2,1]): pc(main-0-10) pc(main-1-12) {y'=j,x'=i,j'=j,i'=i}
+[] [y'=j,x'=i,j'=j,i'=i]
+
+#Printing Strengthening ==
+#pc(main-1-12): [y=x+j-i,x-i=<0]
+#=========================
+#Start Tracing for depth 0...#.. done in 0 ms
+#=========================
+#solving for path to error: path([12,10,9,17,6,3])..# cleared. 
+#solving for path to error: path([11,10,9,17,6,3])..# cleared. 
+#=========================
+#contributed facts:
+#pc(main-1-12): []
+#=========================
+#unproven: path([16,15,9,17,6,3])
+#unproven: path([16,14,9,17,6,3])
+#unproven: path([16,13,10,9,17,6,3])
+#=========================
+#Invariant:
+#pc(main-1-12): [y=x+j-i]
+#Total Solving time: 20 ms

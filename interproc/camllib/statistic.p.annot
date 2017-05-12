@@ -1,0 +1,346 @@
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 42 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 44
+type(
+  float -> float
+)
+ident(
+  def sq "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 57 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 45 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 46
+type(
+  float
+)
+ident(
+  def x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 49 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 55
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 49 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 50
+type(
+  float
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 45 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 46
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 51 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 53
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 54 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 55
+type(
+  float
+)
+ident(
+  int_ref x "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 45 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 46
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 49 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 55
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 61 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 65
+type(
+  float array -> float
+)
+ident(
+  def mean "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 143 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 66 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 69
+type(
+  float array
+)
+ident(
+  def tab "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 74 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 141
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 75 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 90
+type(
+  (float -> float -> float) -> float -> float array -> float
+)
+ident(
+  ext_ref Array.fold_left
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 91 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 95
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 96 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 99
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 100 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 103
+type(
+  float array
+)
+ident(
+  int_ref tab "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 66 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 69
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 74 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 104
+call(
+  stack
+)
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 105 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 107
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 109 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 121
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 123 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 135
+type(
+  float array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 136 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 139
+type(
+  float array
+)
+ident(
+  int_ref tab "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 66 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 5 57 69
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 122 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 140
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 108 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 141
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 74 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 6 72 141
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 147 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 155
+type(
+  float -> float array -> float
+)
+ident(
+  def variance "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 289 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 156 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 160
+type(
+  float
+)
+ident(
+  def mean "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 161 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 287
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 161 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 164
+type(
+  float array
+)
+ident(
+  def tab "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 9 168 170 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 287
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 9 168 171 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 9 168 186
+type(
+  (float -> float -> float) -> float -> float array -> float
+)
+ident(
+  ext_ref Array.fold_left
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 196 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 199
+type(
+  float
+)
+ident(
+  def res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 232
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 203
+type(
+  float
+)
+ident(
+  def elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 207 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 232
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 207 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 210
+type(
+  float
+)
+ident(
+  int_ref res "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 196 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 199
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 211 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 213
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 215 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 217
+type(
+  float -> float
+)
+ident(
+  int_ref sq "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 42 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 3 38 44
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 219 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 222
+type(
+  float
+)
+ident(
+  int_ref elt "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 200 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 203
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 223 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 225
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 226 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 230
+type(
+  float
+)
+ident(
+  int_ref mean "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 156 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 160
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 218 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 231
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 214 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 232
+call(
+  stack
+)
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 207 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 232
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 191 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 10 187 233
+type(
+  float -> float -> float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 11 234 238 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 11 234 241
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 11 234 242 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 11 234 245
+type(
+  float array
+)
+ident(
+  int_ref tab "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 161 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 164
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 9 168 170 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 11 234 246
+call(
+  stack
+)
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 12 247 249 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 12 247 251
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 255 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 267
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 269 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 281
+type(
+  float array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 282 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 285
+type(
+  float array
+)
+ident(
+  int_ref tab "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 161 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 164
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 268 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 286
+type(
+  int
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 254 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 287
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 9 168 170 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 13 252 287
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 293 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 306
+type(
+  float -> float array -> float
+)
+ident(
+  def std_deviation "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 344 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 1 0 -1
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 307 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 311
+type(
+  float
+)
+ident(
+  def mean "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 312 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 344
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 312 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 315
+type(
+  float array
+)
+ident(
+  def tab "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 320 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 344
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 320 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 324
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sqrt
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 326 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 334
+type(
+  float -> float array -> float
+)
+ident(
+  int_ref variance "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 147 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 8 143 155
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 335 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 339
+type(
+  float
+)
+ident(
+  int_ref mean "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 307 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 311
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 340 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 343
+type(
+  float array
+)
+ident(
+  int_ref tab "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 312 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 15 289 315
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 325 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 344
+call(
+  stack
+)
+type(
+  float
+)
+"/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 320 "/home/spencerxiao/Experiments/tacas17/interproc/camllib/statistic.ml" 16 318 344
+type(
+  float
+)

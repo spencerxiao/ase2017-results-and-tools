@@ -1,0 +1,16 @@
+var x:int, m:int, n:int;
+begin
+  x = 0;
+  m = 0;
+  n = random;
+  while (x < n) do
+    if (brandom) then
+      m = x;
+    endif;
+    x = x +_i 1;
+  done;
+
+  if (n > 0) then
+    assume (0 <= m and m < n);
+  endif;
+end

@@ -1,0 +1,2050 @@
+"abstract1.ml" 22 924 928 "abstract1.ml" 22 924 932
+type(
+  'a Manager.t -> 'a t -> 'a t
+)
+ident(
+  def copy "abstract1.ml" 23 1001 1001 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 22 924 933 "abstract1.ml" 22 924 936
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 22 924 937 "abstract1.ml" 22 924 1000
+)
+"abstract1.ml" 22 924 937 "abstract1.ml" 22 924 938
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 22 924 941 "abstract1.ml" 22 924 1000
+)
+"abstract1.ml" 22 924 955 "abstract1.ml" 22 924 969
+type(
+  'a Manager.t -> 'a Abstract0.t -> 'a Abstract0.t
+)
+ident(
+  ext_ref Abstract0.copy
+)
+"abstract1.ml" 22 924 970 "abstract1.ml" 22 924 973
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 22 924 933 "abstract1.ml" 22 924 936
+)
+"abstract1.ml" 22 924 974 "abstract1.ml" 22 924 975
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 22 924 937 "abstract1.ml" 22 924 938
+)
+"abstract1.ml" 22 924 974 "abstract1.ml" 22 924 985
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 22 924 955 "abstract1.ml" 22 924 985
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 22 924 993 "abstract1.ml" 22 924 994
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 22 924 937 "abstract1.ml" 22 924 938
+)
+"abstract1.ml" 22 924 993 "abstract1.ml" 22 924 998
+type(
+  Environment.t
+)
+"abstract1.ml" 22 924 941 "abstract1.ml" 22 924 1000
+type(
+  'a t
+)
+"abstract1.ml" 23 1001 1005 "abstract1.ml" 23 1001 1009
+type(
+  'a Manager.t -> 'a t -> int
+)
+ident(
+  def size "abstract1.ml" 26 1117 1117 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 23 1001 1010 "abstract1.ml" 23 1001 1013
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 23 1001 1014 "abstract1.ml" 23 1001 1048
+)
+"abstract1.ml" 23 1001 1014 "abstract1.ml" 23 1001 1015
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 23 1001 1018 "abstract1.ml" 23 1001 1048
+)
+"abstract1.ml" 23 1001 1018 "abstract1.ml" 23 1001 1032
+type(
+  'a Manager.t -> 'a Abstract0.t -> int
+)
+ident(
+  ext_ref Abstract0.size
+)
+"abstract1.ml" 23 1001 1033 "abstract1.ml" 23 1001 1036
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 23 1001 1010 "abstract1.ml" 23 1001 1013
+)
+"abstract1.ml" 23 1001 1037 "abstract1.ml" 23 1001 1038
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 23 1001 1014 "abstract1.ml" 23 1001 1015
+)
+"abstract1.ml" 23 1001 1037 "abstract1.ml" 23 1001 1048
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 23 1001 1018 "abstract1.ml" 23 1001 1048
+type(
+  int
+)
+"abstract1.ml" 29 1231 1235 "abstract1.ml" 29 1231 1243
+type(
+  'a Manager.t -> 'a t -> unit
+)
+ident(
+  def minimize "abstract1.ml" 30 1287 1287 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 29 1231 1244 "abstract1.ml" 29 1231 1247
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 29 1231 1248 "abstract1.ml" 29 1231 1286
+)
+"abstract1.ml" 29 1231 1248 "abstract1.ml" 29 1231 1249
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 29 1231 1252 "abstract1.ml" 29 1231 1286
+)
+"abstract1.ml" 29 1231 1252 "abstract1.ml" 29 1231 1270
+type(
+  'a Manager.t -> 'a Abstract0.t -> unit
+)
+ident(
+  ext_ref Abstract0.minimize
+)
+"abstract1.ml" 29 1231 1271 "abstract1.ml" 29 1231 1274
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 29 1231 1244 "abstract1.ml" 29 1231 1247
+)
+"abstract1.ml" 29 1231 1275 "abstract1.ml" 29 1231 1276
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 29 1231 1248 "abstract1.ml" 29 1231 1249
+)
+"abstract1.ml" 29 1231 1275 "abstract1.ml" 29 1231 1286
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 29 1231 1252 "abstract1.ml" 29 1231 1286
+type(
+  unit
+)
+"abstract1.ml" 30 1287 1291 "abstract1.ml" 30 1287 1303
+type(
+  'a Manager.t -> 'a t -> unit
+)
+ident(
+  def canonicalize "abstract1.ml" 31 1351 1351 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 30 1287 1304 "abstract1.ml" 30 1287 1307
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 30 1287 1308 "abstract1.ml" 30 1287 1350
+)
+"abstract1.ml" 30 1287 1308 "abstract1.ml" 30 1287 1309
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 30 1287 1312 "abstract1.ml" 30 1287 1350
+)
+"abstract1.ml" 30 1287 1312 "abstract1.ml" 30 1287 1334
+type(
+  'a Manager.t -> 'a Abstract0.t -> unit
+)
+ident(
+  ext_ref Abstract0.canonicalize
+)
+"abstract1.ml" 30 1287 1335 "abstract1.ml" 30 1287 1338
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 30 1287 1304 "abstract1.ml" 30 1287 1307
+)
+"abstract1.ml" 30 1287 1339 "abstract1.ml" 30 1287 1340
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 30 1287 1308 "abstract1.ml" 30 1287 1309
+)
+"abstract1.ml" 30 1287 1339 "abstract1.ml" 30 1287 1350
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 30 1287 1312 "abstract1.ml" 30 1287 1350
+type(
+  unit
+)
+"abstract1.ml" 31 1351 1355 "abstract1.ml" 31 1351 1359
+type(
+  'a Manager.t -> 'a t -> int
+)
+ident(
+  def hash "abstract1.ml" 32 1428 1428 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 31 1351 1360 "abstract1.ml" 31 1351 1363
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 31 1351 1364 "abstract1.ml" 31 1351 1427
+)
+"abstract1.ml" 31 1351 1364 "abstract1.ml" 31 1351 1365
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 31 1351 1368 "abstract1.ml" 31 1351 1427
+)
+"abstract1.ml" 31 1351 1368 "abstract1.ml" 31 1351 1369
+type(
+  int
+)
+"abstract1.ml" 31 1351 1369 "abstract1.ml" 31 1351 1370
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"abstract1.ml" 31 1351 1371 "abstract1.ml" 31 1351 1387
+type(
+  Environment.t -> int
+)
+ident(
+  ext_ref Environment.hash
+)
+"abstract1.ml" 31 1351 1388 "abstract1.ml" 31 1351 1389
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 31 1351 1364 "abstract1.ml" 31 1351 1365
+)
+"abstract1.ml" 31 1351 1388 "abstract1.ml" 31 1351 1393
+type(
+  Environment.t
+)
+"abstract1.ml" 31 1351 1370 "abstract1.ml" 31 1351 1394
+type(
+  int
+)
+"abstract1.ml" 31 1351 1368 "abstract1.ml" 31 1351 1394
+type(
+  int
+)
+"abstract1.ml" 31 1351 1395 "abstract1.ml" 31 1351 1396
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"abstract1.ml" 31 1351 1397 "abstract1.ml" 31 1351 1411
+type(
+  'a Manager.t -> 'a Abstract0.t -> int
+)
+ident(
+  ext_ref Abstract0.hash
+)
+"abstract1.ml" 31 1351 1412 "abstract1.ml" 31 1351 1415
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 31 1351 1360 "abstract1.ml" 31 1351 1363
+)
+"abstract1.ml" 31 1351 1416 "abstract1.ml" 31 1351 1417
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 31 1351 1364 "abstract1.ml" 31 1351 1365
+)
+"abstract1.ml" 31 1351 1416 "abstract1.ml" 31 1351 1427
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 31 1351 1397 "abstract1.ml" 31 1351 1427
+type(
+  int
+)
+"abstract1.ml" 31 1351 1368 "abstract1.ml" 31 1351 1427
+type(
+  int
+)
+"abstract1.ml" 32 1428 1432 "abstract1.ml" 32 1428 1443
+type(
+  'a Manager.t -> 'a t -> int -> unit
+)
+ident(
+  def approximate "abstract1.ml" 37 1649 1649 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 32 1428 1444 "abstract1.ml" 32 1428 1447
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 32 1428 1448 "abstract1.ml" 32 1428 1493
+)
+"abstract1.ml" 32 1428 1448 "abstract1.ml" 32 1428 1449
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 32 1428 1450 "abstract1.ml" 32 1428 1493
+)
+"abstract1.ml" 32 1428 1450 "abstract1.ml" 32 1428 1451
+type(
+  int
+)
+ident(
+  def n "abstract1.ml" 32 1428 1454 "abstract1.ml" 32 1428 1493
+)
+"abstract1.ml" 32 1428 1454 "abstract1.ml" 32 1428 1475
+type(
+  'a Manager.t -> 'a Abstract0.t -> int -> unit
+)
+ident(
+  ext_ref Abstract0.approximate
+)
+"abstract1.ml" 32 1428 1476 "abstract1.ml" 32 1428 1479
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 32 1428 1444 "abstract1.ml" 32 1428 1447
+)
+"abstract1.ml" 32 1428 1480 "abstract1.ml" 32 1428 1481
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 32 1428 1448 "abstract1.ml" 32 1428 1449
+)
+"abstract1.ml" 32 1428 1480 "abstract1.ml" 32 1428 1491
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 32 1428 1492 "abstract1.ml" 32 1428 1493
+type(
+  int
+)
+ident(
+  int_ref n "abstract1.ml" 32 1428 1450 "abstract1.ml" 32 1428 1451
+)
+"abstract1.ml" 32 1428 1454 "abstract1.ml" 32 1428 1493
+type(
+  unit
+)
+"abstract1.ml" 64 2767 2771 "abstract1.ml" 64 2767 2778
+type(
+  'a t -> 'a Manager.t
+)
+ident(
+  def manager "abstract1.ml" 65 2813 2813 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 64 2767 2779 "abstract1.ml" 64 2767 2780
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 64 2767 2783 "abstract1.ml" 64 2767 2812
+)
+"abstract1.ml" 64 2767 2783 "abstract1.ml" 64 2767 2800
+type(
+  'a Abstract0.t -> 'a Manager.t
+)
+ident(
+  ext_ref Abstract0.manager
+)
+"abstract1.ml" 64 2767 2801 "abstract1.ml" 64 2767 2802
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 64 2767 2779 "abstract1.ml" 64 2767 2780
+)
+"abstract1.ml" 64 2767 2801 "abstract1.ml" 64 2767 2812
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 64 2767 2783 "abstract1.ml" 64 2767 2812
+type(
+  'a Manager.t
+)
+"abstract1.ml" 65 2813 2817 "abstract1.ml" 65 2813 2820
+type(
+  'a t -> Environment.t
+)
+ident(
+  def env "abstract1.ml" 66 2831 2831 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 65 2813 2821 "abstract1.ml" 65 2813 2822
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 65 2813 2825 "abstract1.ml" 65 2813 2830
+)
+"abstract1.ml" 65 2813 2825 "abstract1.ml" 65 2813 2826
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 65 2813 2821 "abstract1.ml" 65 2813 2822
+)
+"abstract1.ml" 65 2813 2825 "abstract1.ml" 65 2813 2830
+type(
+  Environment.t
+)
+"abstract1.ml" 66 2831 2835 "abstract1.ml" 66 2831 2844
+type(
+  'a t -> 'a Abstract0.t
+)
+ident(
+  def abstract0 "abstract1.ml" 69 2929 2929 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 66 2831 2845 "abstract1.ml" 66 2831 2846
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 66 2831 2849 "abstract1.ml" 66 2831 2860
+)
+"abstract1.ml" 66 2831 2849 "abstract1.ml" 66 2831 2850
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 66 2831 2845 "abstract1.ml" 66 2831 2846
+)
+"abstract1.ml" 66 2831 2849 "abstract1.ml" 66 2831 2860
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 73 3015 3019 "abstract1.ml" 73 3015 3028
+type(
+  'a Manager.t -> 'a t -> bool
+)
+ident(
+  def is_bottom "abstract1.ml" 74 3073 3073 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 73 3015 3029 "abstract1.ml" 73 3015 3032
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 73 3015 3033 "abstract1.ml" 73 3015 3072
+)
+"abstract1.ml" 73 3015 3033 "abstract1.ml" 73 3015 3034
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 73 3015 3037 "abstract1.ml" 73 3015 3072
+)
+"abstract1.ml" 73 3015 3037 "abstract1.ml" 73 3015 3056
+type(
+  'a Manager.t -> 'a Abstract0.t -> bool
+)
+ident(
+  ext_ref Abstract0.is_bottom
+)
+"abstract1.ml" 73 3015 3057 "abstract1.ml" 73 3015 3060
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 73 3015 3029 "abstract1.ml" 73 3015 3032
+)
+"abstract1.ml" 73 3015 3061 "abstract1.ml" 73 3015 3062
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 73 3015 3033 "abstract1.ml" 73 3015 3034
+)
+"abstract1.ml" 73 3015 3061 "abstract1.ml" 73 3015 3072
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 73 3015 3037 "abstract1.ml" 73 3015 3072
+type(
+  bool
+)
+"abstract1.ml" 74 3073 3077 "abstract1.ml" 74 3073 3083
+type(
+  'a Manager.t -> 'a t -> bool
+)
+ident(
+  def is_top "abstract1.ml" 76 3126 3126 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 74 3073 3084 "abstract1.ml" 74 3073 3087
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 74 3073 3088 "abstract1.ml" 74 3073 3124
+)
+"abstract1.ml" 74 3073 3088 "abstract1.ml" 74 3073 3089
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 74 3073 3092 "abstract1.ml" 74 3073 3124
+)
+"abstract1.ml" 74 3073 3092 "abstract1.ml" 74 3073 3108
+type(
+  'a Manager.t -> 'a Abstract0.t -> bool
+)
+ident(
+  ext_ref Abstract0.is_top
+)
+"abstract1.ml" 74 3073 3109 "abstract1.ml" 74 3073 3112
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 74 3073 3084 "abstract1.ml" 74 3073 3087
+)
+"abstract1.ml" 74 3073 3113 "abstract1.ml" 74 3073 3114
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 74 3073 3088 "abstract1.ml" 74 3073 3089
+)
+"abstract1.ml" 74 3073 3113 "abstract1.ml" 74 3073 3124
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 74 3073 3092 "abstract1.ml" 74 3073 3124
+type(
+  bool
+)
+"abstract1.ml" 108 4348 4352 "abstract1.ml" 108 4348 4368
+type(
+  'a Manager.t -> 'a t -> Lincons1.earray
+)
+ident(
+  def to_lincons_array "abstract1.ml" 112 4478 4478 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 108 4348 4369 "abstract1.ml" 108 4348 4372
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 108 4348 4373 "abstract1.ml" 111 4476 4477
+)
+"abstract1.ml" 108 4348 4373 "abstract1.ml" 108 4348 4374
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 108 4348 4377 "abstract1.ml" 111 4476 4477
+)
+"abstract1.ml" 109 4379 4405 "abstract1.ml" 109 4379 4431
+type(
+  'a Manager.t -> 'a Abstract0.t -> Lincons0.t array
+)
+ident(
+  ext_ref Abstract0.to_lincons_array
+)
+"abstract1.ml" 109 4379 4432 "abstract1.ml" 109 4379 4435
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 108 4348 4369 "abstract1.ml" 108 4348 4372
+)
+"abstract1.ml" 109 4379 4436 "abstract1.ml" 109 4379 4437
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 108 4348 4373 "abstract1.ml" 108 4348 4374
+)
+"abstract1.ml" 109 4379 4436 "abstract1.ml" 109 4379 4447
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 109 4379 4405 "abstract1.ml" 109 4379 4447
+type(
+  Lincons0.t array
+)
+"abstract1.ml" 110 4449 4470 "abstract1.ml" 110 4449 4471
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 108 4348 4373 "abstract1.ml" 108 4348 4374
+)
+"abstract1.ml" 110 4449 4470 "abstract1.ml" 110 4449 4475
+type(
+  Environment.t
+)
+"abstract1.ml" 108 4348 4377 "abstract1.ml" 111 4476 4477
+type(
+  Lincons1.earray
+)
+"abstract1.ml" 112 4478 4482 "abstract1.ml" 112 4478 4496
+type(
+  'a Manager.t -> 'a t -> Tcons1.earray
+)
+ident(
+  def to_tcons_array "abstract1.ml" 116 4598 4598 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 112 4478 4497 "abstract1.ml" 112 4478 4500
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 112 4478 4501 "abstract1.ml" 115 4596 4597
+)
+"abstract1.ml" 112 4478 4501 "abstract1.ml" 112 4478 4502
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 112 4478 4505 "abstract1.ml" 115 4596 4597
+)
+"abstract1.ml" 113 4507 4529 "abstract1.ml" 113 4507 4553
+type(
+  'a Manager.t -> 'a Abstract0.t -> Tcons0.t array
+)
+ident(
+  ext_ref Abstract0.to_tcons_array
+)
+"abstract1.ml" 113 4507 4554 "abstract1.ml" 113 4507 4557
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 112 4478 4497 "abstract1.ml" 112 4478 4500
+)
+"abstract1.ml" 113 4507 4558 "abstract1.ml" 113 4507 4559
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 112 4478 4501 "abstract1.ml" 112 4478 4502
+)
+"abstract1.ml" 113 4507 4558 "abstract1.ml" 113 4507 4569
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 113 4507 4529 "abstract1.ml" 113 4507 4569
+type(
+  Tcons0.t array
+)
+"abstract1.ml" 114 4571 4590 "abstract1.ml" 114 4571 4591
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 112 4478 4501 "abstract1.ml" 112 4478 4502
+)
+"abstract1.ml" 114 4571 4590 "abstract1.ml" 114 4571 4595
+type(
+  Environment.t
+)
+"abstract1.ml" 112 4478 4505 "abstract1.ml" 115 4596 4597
+type(
+  Tcons1.earray
+)
+"abstract1.ml" 116 4598 4602 "abstract1.ml" 116 4598 4620
+type(
+  'a Manager.t -> 'a t -> Generator1.earray
+)
+ident(
+  def to_generator_array "abstract1.ml" 120 4738 4738 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 116 4598 4621 "abstract1.ml" 116 4598 4624
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 116 4598 4625 "abstract1.ml" 119 4736 4737
+)
+"abstract1.ml" 116 4598 4625 "abstract1.ml" 116 4598 4626
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 116 4598 4629 "abstract1.ml" 119 4736 4737
+)
+"abstract1.ml" 117 4631 4661 "abstract1.ml" 117 4631 4689
+type(
+  'a Manager.t -> 'a Abstract0.t -> Generator0.t array
+)
+ident(
+  ext_ref Abstract0.to_generator_array
+)
+"abstract1.ml" 117 4631 4690 "abstract1.ml" 117 4631 4693
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 116 4598 4621 "abstract1.ml" 116 4598 4624
+)
+"abstract1.ml" 117 4631 4694 "abstract1.ml" 117 4631 4695
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 116 4598 4625 "abstract1.ml" 116 4598 4626
+)
+"abstract1.ml" 117 4631 4694 "abstract1.ml" 117 4631 4705
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 117 4631 4661 "abstract1.ml" 117 4631 4705
+type(
+  Generator0.t array
+)
+"abstract1.ml" 118 4707 4730 "abstract1.ml" 118 4707 4731
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 116 4598 4625 "abstract1.ml" 116 4598 4626
+)
+"abstract1.ml" 118 4707 4730 "abstract1.ml" 118 4707 4735
+type(
+  Environment.t
+)
+"abstract1.ml" 116 4598 4629 "abstract1.ml" 119 4736 4737
+type(
+  Generator1.earray
+)
+"abstract1.ml" 120 4738 4742 "abstract1.ml" 120 4738 4748
+type(
+  'a Manager.t -> 'a t -> box1
+)
+ident(
+  def to_box "abstract1.ml" 126 4907 4907 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 120 4738 4749 "abstract1.ml" 120 4738 4752
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 120 4738 4753 "abstract1.ml" 123 4827 4828
+)
+"abstract1.ml" 120 4738 4753 "abstract1.ml" 120 4738 4754
+type(
+  'a t
+)
+ident(
+  def x "abstract1.ml" 120 4738 4757 "abstract1.ml" 123 4827 4828
+)
+"abstract1.ml" 121 4759 4776 "abstract1.ml" 121 4759 4792
+type(
+  'a Manager.t -> 'a Abstract0.t -> Interval.t array
+)
+ident(
+  ext_ref Abstract0.to_box
+)
+"abstract1.ml" 121 4759 4793 "abstract1.ml" 121 4759 4796
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 120 4738 4749 "abstract1.ml" 120 4738 4752
+)
+"abstract1.ml" 121 4759 4797 "abstract1.ml" 121 4759 4798
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 120 4738 4753 "abstract1.ml" 120 4738 4754
+)
+"abstract1.ml" 121 4759 4797 "abstract1.ml" 121 4759 4808
+type(
+  'a Abstract0.t
+)
+"abstract1.ml" 121 4759 4776 "abstract1.ml" 121 4759 4808
+type(
+  Interval.t array
+)
+"abstract1.ml" 122 4810 4821 "abstract1.ml" 122 4810 4822
+type(
+  'a t
+)
+ident(
+  int_ref x "abstract1.ml" 120 4738 4753 "abstract1.ml" 120 4738 4754
+)
+"abstract1.ml" 122 4810 4821 "abstract1.ml" 122 4810 4826
+type(
+  Environment.t
+)
+"abstract1.ml" 120 4738 4757 "abstract1.ml" 123 4827 4828
+type(
+  box1
+)
+"abstract1.ml" 268 11159 11163 "abstract1.ml" 268 11159 11179
+type(
+  'a Manager.t -> Environment.t -> Lincons1.earray -> 'a t
+)
+ident(
+  def of_lincons_array "abstract1.ml" 272 11264 11264 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 268 11159 11180 "abstract1.ml" 268 11159 11183
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 268 11159 11184 "abstract1.ml" 271 11260 11263
+)
+"abstract1.ml" 268 11159 11184 "abstract1.ml" 268 11159 11187
+type(
+  Environment.t
+)
+ident(
+  def env "abstract1.ml" 268 11159 11188 "abstract1.ml" 271 11260 11263
+)
+"abstract1.ml" 268 11159 11188 "abstract1.ml" 268 11159 11193
+type(
+  Lincons1.earray
+)
+ident(
+  def array "abstract1.ml" 269 11196 11196 "abstract1.ml" 271 11260 11263
+)
+"abstract1.ml" 269 11196 11200 "abstract1.ml" 269 11196 11203
+type(
+  'a t
+)
+ident(
+  def res "abstract1.ml" 270 11221 11221 "abstract1.ml" 271 11260 11263
+)
+"abstract1.ml" 269 11196 11206 "abstract1.ml" 269 11196 11209
+type(
+  'a Manager.t -> Environment.t -> 'a t
+)
+ident(
+  int_ref top "abstract1.ml" 53 2381 2381 "abstract1.ml" 54 2434 2473
+)
+"abstract1.ml" 269 11196 11210 "abstract1.ml" 269 11196 11213
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 268 11159 11180 "abstract1.ml" 268 11159 11183
+)
+"abstract1.ml" 269 11196 11214 "abstract1.ml" 269 11196 11217
+type(
+  Environment.t
+)
+ident(
+  int_ref env "abstract1.ml" 268 11159 11184 "abstract1.ml" 268 11159 11187
+)
+"abstract1.ml" 269 11196 11206 "abstract1.ml" 269 11196 11217
+type(
+  'a t
+)
+"abstract1.ml" 270 11221 11221 "abstract1.ml" 270 11221 11244
+type(
+  'a Manager.t -> 'a t -> Lincons1.earray -> unit
+)
+ident(
+  int_ref meet_lincons_array_with "abstract1.ml" 156 6059 6059 "abstract1.ml" 157 6142 6201
+)
+"abstract1.ml" 270 11221 11245 "abstract1.ml" 270 11221 11248
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 268 11159 11180 "abstract1.ml" 268 11159 11183
+)
+"abstract1.ml" 270 11221 11249 "abstract1.ml" 270 11221 11252
+type(
+  'a t
+)
+ident(
+  int_ref res "abstract1.ml" 269 11196 11200 "abstract1.ml" 269 11196 11203
+)
+"abstract1.ml" 270 11221 11253 "abstract1.ml" 270 11221 11258
+type(
+  Lincons1.earray
+)
+ident(
+  int_ref array "abstract1.ml" 268 11159 11188 "abstract1.ml" 268 11159 11193
+)
+"abstract1.ml" 270 11221 11221 "abstract1.ml" 270 11221 11258
+type(
+  unit
+)
+"abstract1.ml" 271 11260 11260 "abstract1.ml" 271 11260 11263
+type(
+  'a t
+)
+ident(
+  int_ref res "abstract1.ml" 269 11196 11200 "abstract1.ml" 269 11196 11203
+)
+"abstract1.ml" 270 11221 11221 "abstract1.ml" 271 11260 11263
+type(
+  'a t
+)
+"abstract1.ml" 269 11196 11196 "abstract1.ml" 271 11260 11263
+type(
+  'a t
+)
+"abstract1.ml" 272 11264 11268 "abstract1.ml" 272 11264 11282
+type(
+  'a Manager.t -> Environment.t -> Tcons1.earray -> 'a t
+)
+ident(
+  def of_tcons_array "abstract1.ml" 276 11365 11365 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 272 11264 11283 "abstract1.ml" 272 11264 11286
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 272 11264 11287 "abstract1.ml" 275 11361 11364
+)
+"abstract1.ml" 272 11264 11287 "abstract1.ml" 272 11264 11290
+type(
+  Environment.t
+)
+ident(
+  def env "abstract1.ml" 272 11264 11291 "abstract1.ml" 275 11361 11364
+)
+"abstract1.ml" 272 11264 11291 "abstract1.ml" 272 11264 11296
+type(
+  Tcons1.earray
+)
+ident(
+  def array "abstract1.ml" 273 11299 11299 "abstract1.ml" 275 11361 11364
+)
+"abstract1.ml" 273 11299 11303 "abstract1.ml" 273 11299 11306
+type(
+  'a t
+)
+ident(
+  def res "abstract1.ml" 274 11324 11324 "abstract1.ml" 275 11361 11364
+)
+"abstract1.ml" 273 11299 11309 "abstract1.ml" 273 11299 11312
+type(
+  'a Manager.t -> Environment.t -> 'a t
+)
+ident(
+  int_ref top "abstract1.ml" 53 2381 2381 "abstract1.ml" 54 2434 2473
+)
+"abstract1.ml" 273 11299 11313 "abstract1.ml" 273 11299 11316
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 272 11264 11283 "abstract1.ml" 272 11264 11286
+)
+"abstract1.ml" 273 11299 11317 "abstract1.ml" 273 11299 11320
+type(
+  Environment.t
+)
+ident(
+  int_ref env "abstract1.ml" 272 11264 11287 "abstract1.ml" 272 11264 11290
+)
+"abstract1.ml" 273 11299 11309 "abstract1.ml" 273 11299 11320
+type(
+  'a t
+)
+"abstract1.ml" 274 11324 11324 "abstract1.ml" 274 11324 11345
+type(
+  'a Manager.t -> 'a t -> Tcons1.earray -> unit
+)
+ident(
+  int_ref meet_tcons_array_with "abstract1.ml" 159 6203 6203 "abstract1.ml" 160 6282 6339
+)
+"abstract1.ml" 274 11324 11346 "abstract1.ml" 274 11324 11349
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 272 11264 11283 "abstract1.ml" 272 11264 11286
+)
+"abstract1.ml" 274 11324 11350 "abstract1.ml" 274 11324 11353
+type(
+  'a t
+)
+ident(
+  int_ref res "abstract1.ml" 273 11299 11303 "abstract1.ml" 273 11299 11306
+)
+"abstract1.ml" 274 11324 11354 "abstract1.ml" 274 11324 11359
+type(
+  Tcons1.earray
+)
+ident(
+  int_ref array "abstract1.ml" 272 11264 11291 "abstract1.ml" 272 11264 11296
+)
+"abstract1.ml" 274 11324 11324 "abstract1.ml" 274 11324 11359
+type(
+  unit
+)
+"abstract1.ml" 275 11361 11361 "abstract1.ml" 275 11361 11364
+type(
+  'a t
+)
+ident(
+  int_ref res "abstract1.ml" 273 11299 11303 "abstract1.ml" 273 11299 11306
+)
+"abstract1.ml" 274 11324 11324 "abstract1.ml" 275 11361 11364
+type(
+  'a t
+)
+"abstract1.ml" 273 11299 11299 "abstract1.ml" 275 11361 11364
+type(
+  'a t
+)
+"abstract1.ml" 276 11365 11369 "abstract1.ml" 276 11365 11383
+type(
+  'a Manager.t -> 'a t -> Var.t -> Linexpr1.t -> 'a t option -> 'a t
+)
+ident(
+  def assign_linexpr "abstract1.ml" 278 11461 11461 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 276 11365 11384 "abstract1.ml" 276 11365 11387
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 276 11365 11388 "abstract1.ml" 277 11409 11460
+)
+"abstract1.ml" 276 11365 11388 "abstract1.ml" 276 11365 11391
+type(
+  'a t
+)
+ident(
+  def abs "abstract1.ml" 276 11365 11392 "abstract1.ml" 277 11409 11460
+)
+"abstract1.ml" 276 11365 11392 "abstract1.ml" 276 11365 11395
+type(
+  Var.t
+)
+ident(
+  def dim "abstract1.ml" 276 11365 11396 "abstract1.ml" 277 11409 11460
+)
+"abstract1.ml" 276 11365 11396 "abstract1.ml" 276 11365 11400
+type(
+  Linexpr1.t
+)
+ident(
+  def expr "abstract1.ml" 276 11365 11401 "abstract1.ml" 277 11409 11460
+)
+"abstract1.ml" 276 11365 11401 "abstract1.ml" 276 11365 11406
+type(
+  'a t option
+)
+ident(
+  def odest "abstract1.ml" 277 11409 11409 "abstract1.ml" 277 11409 11460
+)
+"abstract1.ml" 277 11409 11409 "abstract1.ml" 277 11409 11429
+type(
+  'a Manager.t ->
+  'a t -> Var.t array -> Linexpr1.t array -> 'a t option -> 'a t
+)
+ident(
+  int_ref assign_linexpr_array "abstract1.ml" 172 6758 6758 "abstract1.ml" 173 6869 6925
+)
+"abstract1.ml" 277 11409 11430 "abstract1.ml" 277 11409 11433
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 276 11365 11384 "abstract1.ml" 276 11365 11387
+)
+"abstract1.ml" 277 11409 11434 "abstract1.ml" 277 11409 11437
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract1.ml" 276 11365 11388 "abstract1.ml" 276 11365 11391
+)
+"abstract1.ml" 277 11409 11440 "abstract1.ml" 277 11409 11443
+type(
+  Var.t
+)
+ident(
+  int_ref dim "abstract1.ml" 276 11365 11392 "abstract1.ml" 276 11365 11395
+)
+"abstract1.ml" 277 11409 11438 "abstract1.ml" 277 11409 11445
+type(
+  Var.t array
+)
+"abstract1.ml" 277 11409 11448 "abstract1.ml" 277 11409 11452
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref expr "abstract1.ml" 276 11365 11396 "abstract1.ml" 276 11365 11400
+)
+"abstract1.ml" 277 11409 11446 "abstract1.ml" 277 11409 11454
+type(
+  Linexpr1.t array
+)
+"abstract1.ml" 277 11409 11455 "abstract1.ml" 277 11409 11460
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract1.ml" 276 11365 11401 "abstract1.ml" 276 11365 11406
+)
+"abstract1.ml" 277 11409 11409 "abstract1.ml" 277 11409 11460
+type(
+  'a t
+)
+"abstract1.ml" 278 11461 11465 "abstract1.ml" 278 11461 11477
+type(
+  'a Manager.t -> 'a t -> Var.t -> Texpr1.t -> 'a t option -> 'a t
+)
+ident(
+  def assign_texpr "abstract1.ml" 280 11553 11553 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 278 11461 11478 "abstract1.ml" 278 11461 11481
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 278 11461 11482 "abstract1.ml" 279 11503 11552
+)
+"abstract1.ml" 278 11461 11482 "abstract1.ml" 278 11461 11485
+type(
+  'a t
+)
+ident(
+  def abs "abstract1.ml" 278 11461 11486 "abstract1.ml" 279 11503 11552
+)
+"abstract1.ml" 278 11461 11486 "abstract1.ml" 278 11461 11489
+type(
+  Var.t
+)
+ident(
+  def dim "abstract1.ml" 278 11461 11490 "abstract1.ml" 279 11503 11552
+)
+"abstract1.ml" 278 11461 11490 "abstract1.ml" 278 11461 11494
+type(
+  Texpr1.t
+)
+ident(
+  def expr "abstract1.ml" 278 11461 11495 "abstract1.ml" 279 11503 11552
+)
+"abstract1.ml" 278 11461 11495 "abstract1.ml" 278 11461 11500
+type(
+  'a t option
+)
+ident(
+  def odest "abstract1.ml" 279 11503 11503 "abstract1.ml" 279 11503 11552
+)
+"abstract1.ml" 279 11503 11503 "abstract1.ml" 279 11503 11521
+type(
+  'a Manager.t ->
+  'a t -> Var.t array -> Texpr1.t array -> 'a t option -> 'a t
+)
+ident(
+  int_ref assign_texpr_array "abstract1.ml" 178 7104 7104 "abstract1.ml" 179 7211 7265
+)
+"abstract1.ml" 279 11503 11522 "abstract1.ml" 279 11503 11525
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 278 11461 11478 "abstract1.ml" 278 11461 11481
+)
+"abstract1.ml" 279 11503 11526 "abstract1.ml" 279 11503 11529
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract1.ml" 278 11461 11482 "abstract1.ml" 278 11461 11485
+)
+"abstract1.ml" 279 11503 11532 "abstract1.ml" 279 11503 11535
+type(
+  Var.t
+)
+ident(
+  int_ref dim "abstract1.ml" 278 11461 11486 "abstract1.ml" 278 11461 11489
+)
+"abstract1.ml" 279 11503 11530 "abstract1.ml" 279 11503 11537
+type(
+  Var.t array
+)
+"abstract1.ml" 279 11503 11540 "abstract1.ml" 279 11503 11544
+type(
+  Texpr1.t
+)
+ident(
+  int_ref expr "abstract1.ml" 278 11461 11490 "abstract1.ml" 278 11461 11494
+)
+"abstract1.ml" 279 11503 11538 "abstract1.ml" 279 11503 11546
+type(
+  Texpr1.t array
+)
+"abstract1.ml" 279 11503 11547 "abstract1.ml" 279 11503 11552
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract1.ml" 278 11461 11495 "abstract1.ml" 278 11461 11500
+)
+"abstract1.ml" 279 11503 11503 "abstract1.ml" 279 11503 11552
+type(
+  'a t
+)
+"abstract1.ml" 280 11553 11557 "abstract1.ml" 280 11553 11575
+type(
+  'a Manager.t -> 'a t -> Var.t -> Linexpr1.t -> 'a t option -> 'a t
+)
+ident(
+  def substitute_linexpr "abstract1.ml" 282 11657 11657 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 280 11553 11576 "abstract1.ml" 280 11553 11579
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 280 11553 11580 "abstract1.ml" 281 11601 11656
+)
+"abstract1.ml" 280 11553 11580 "abstract1.ml" 280 11553 11583
+type(
+  'a t
+)
+ident(
+  def abs "abstract1.ml" 280 11553 11584 "abstract1.ml" 281 11601 11656
+)
+"abstract1.ml" 280 11553 11584 "abstract1.ml" 280 11553 11587
+type(
+  Var.t
+)
+ident(
+  def dim "abstract1.ml" 280 11553 11588 "abstract1.ml" 281 11601 11656
+)
+"abstract1.ml" 280 11553 11588 "abstract1.ml" 280 11553 11592
+type(
+  Linexpr1.t
+)
+ident(
+  def expr "abstract1.ml" 280 11553 11593 "abstract1.ml" 281 11601 11656
+)
+"abstract1.ml" 280 11553 11593 "abstract1.ml" 280 11553 11598
+type(
+  'a t option
+)
+ident(
+  def odest "abstract1.ml" 281 11601 11601 "abstract1.ml" 281 11601 11656
+)
+"abstract1.ml" 281 11601 11601 "abstract1.ml" 281 11601 11625
+type(
+  'a Manager.t ->
+  'a t -> Var.t array -> Linexpr1.t array -> 'a t option -> 'a t
+)
+ident(
+  int_ref substitute_linexpr_array "abstract1.ml" 175 6927 6927 "abstract1.ml" 176 7042 7102
+)
+"abstract1.ml" 281 11601 11626 "abstract1.ml" 281 11601 11629
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 280 11553 11576 "abstract1.ml" 280 11553 11579
+)
+"abstract1.ml" 281 11601 11630 "abstract1.ml" 281 11601 11633
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract1.ml" 280 11553 11580 "abstract1.ml" 280 11553 11583
+)
+"abstract1.ml" 281 11601 11636 "abstract1.ml" 281 11601 11639
+type(
+  Var.t
+)
+ident(
+  int_ref dim "abstract1.ml" 280 11553 11584 "abstract1.ml" 280 11553 11587
+)
+"abstract1.ml" 281 11601 11634 "abstract1.ml" 281 11601 11641
+type(
+  Var.t array
+)
+"abstract1.ml" 281 11601 11644 "abstract1.ml" 281 11601 11648
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref expr "abstract1.ml" 280 11553 11588 "abstract1.ml" 280 11553 11592
+)
+"abstract1.ml" 281 11601 11642 "abstract1.ml" 281 11601 11650
+type(
+  Linexpr1.t array
+)
+"abstract1.ml" 281 11601 11651 "abstract1.ml" 281 11601 11656
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract1.ml" 280 11553 11593 "abstract1.ml" 280 11553 11598
+)
+"abstract1.ml" 281 11601 11601 "abstract1.ml" 281 11601 11656
+type(
+  'a t
+)
+"abstract1.ml" 282 11657 11661 "abstract1.ml" 282 11657 11677
+type(
+  'a Manager.t -> 'a t -> Var.t -> Texpr1.t -> 'a t option -> 'a t
+)
+ident(
+  def substitute_texpr "abstract1.ml" 284 11757 11757 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 282 11657 11678 "abstract1.ml" 282 11657 11681
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 282 11657 11682 "abstract1.ml" 283 11703 11756
+)
+"abstract1.ml" 282 11657 11682 "abstract1.ml" 282 11657 11685
+type(
+  'a t
+)
+ident(
+  def abs "abstract1.ml" 282 11657 11686 "abstract1.ml" 283 11703 11756
+)
+"abstract1.ml" 282 11657 11686 "abstract1.ml" 282 11657 11689
+type(
+  Var.t
+)
+ident(
+  def dim "abstract1.ml" 282 11657 11690 "abstract1.ml" 283 11703 11756
+)
+"abstract1.ml" 282 11657 11690 "abstract1.ml" 282 11657 11694
+type(
+  Texpr1.t
+)
+ident(
+  def expr "abstract1.ml" 282 11657 11695 "abstract1.ml" 283 11703 11756
+)
+"abstract1.ml" 282 11657 11695 "abstract1.ml" 282 11657 11700
+type(
+  'a t option
+)
+ident(
+  def odest "abstract1.ml" 283 11703 11703 "abstract1.ml" 283 11703 11756
+)
+"abstract1.ml" 283 11703 11703 "abstract1.ml" 283 11703 11725
+type(
+  'a Manager.t ->
+  'a t -> Var.t array -> Texpr1.t array -> 'a t option -> 'a t
+)
+ident(
+  int_ref substitute_texpr_array "abstract1.ml" 181 7267 7267 "abstract1.ml" 182 7378 7436
+)
+"abstract1.ml" 283 11703 11726 "abstract1.ml" 283 11703 11729
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 282 11657 11678 "abstract1.ml" 282 11657 11681
+)
+"abstract1.ml" 283 11703 11730 "abstract1.ml" 283 11703 11733
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract1.ml" 282 11657 11682 "abstract1.ml" 282 11657 11685
+)
+"abstract1.ml" 283 11703 11736 "abstract1.ml" 283 11703 11739
+type(
+  Var.t
+)
+ident(
+  int_ref dim "abstract1.ml" 282 11657 11686 "abstract1.ml" 282 11657 11689
+)
+"abstract1.ml" 283 11703 11734 "abstract1.ml" 283 11703 11741
+type(
+  Var.t array
+)
+"abstract1.ml" 283 11703 11744 "abstract1.ml" 283 11703 11748
+type(
+  Texpr1.t
+)
+ident(
+  int_ref expr "abstract1.ml" 282 11657 11690 "abstract1.ml" 282 11657 11694
+)
+"abstract1.ml" 283 11703 11742 "abstract1.ml" 283 11703 11750
+type(
+  Texpr1.t array
+)
+"abstract1.ml" 283 11703 11751 "abstract1.ml" 283 11703 11756
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract1.ml" 282 11657 11695 "abstract1.ml" 282 11657 11700
+)
+"abstract1.ml" 283 11703 11703 "abstract1.ml" 283 11703 11756
+type(
+  'a t
+)
+"abstract1.ml" 284 11757 11761 "abstract1.ml" 284 11757 11780
+type(
+  'a Manager.t -> 'a t -> Var.t -> Linexpr1.t -> 'a t option -> unit
+)
+ident(
+  def assign_linexpr_with "abstract1.ml" 286 11863 11863 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 284 11757 11781 "abstract1.ml" 284 11757 11784
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 284 11757 11785 "abstract1.ml" 285 11806 11862
+)
+"abstract1.ml" 284 11757 11785 "abstract1.ml" 284 11757 11788
+type(
+  'a t
+)
+ident(
+  def abs "abstract1.ml" 284 11757 11789 "abstract1.ml" 285 11806 11862
+)
+"abstract1.ml" 284 11757 11789 "abstract1.ml" 284 11757 11792
+type(
+  Var.t
+)
+ident(
+  def dim "abstract1.ml" 284 11757 11793 "abstract1.ml" 285 11806 11862
+)
+"abstract1.ml" 284 11757 11793 "abstract1.ml" 284 11757 11797
+type(
+  Linexpr1.t
+)
+ident(
+  def expr "abstract1.ml" 284 11757 11798 "abstract1.ml" 285 11806 11862
+)
+"abstract1.ml" 284 11757 11798 "abstract1.ml" 284 11757 11803
+type(
+  'a t option
+)
+ident(
+  def odest "abstract1.ml" 285 11806 11806 "abstract1.ml" 285 11806 11862
+)
+"abstract1.ml" 285 11806 11806 "abstract1.ml" 285 11806 11831
+type(
+  'a Manager.t ->
+  'a t -> Var.t array -> Linexpr1.t array -> 'a t option -> unit
+)
+ident(
+  int_ref assign_linexpr_array_with "abstract1.ml" 184 7438 7438 "abstract1.ml" 185 7554 7615
+)
+"abstract1.ml" 285 11806 11832 "abstract1.ml" 285 11806 11835
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 284 11757 11781 "abstract1.ml" 284 11757 11784
+)
+"abstract1.ml" 285 11806 11836 "abstract1.ml" 285 11806 11839
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract1.ml" 284 11757 11785 "abstract1.ml" 284 11757 11788
+)
+"abstract1.ml" 285 11806 11842 "abstract1.ml" 285 11806 11845
+type(
+  Var.t
+)
+ident(
+  int_ref dim "abstract1.ml" 284 11757 11789 "abstract1.ml" 284 11757 11792
+)
+"abstract1.ml" 285 11806 11840 "abstract1.ml" 285 11806 11847
+type(
+  Var.t array
+)
+"abstract1.ml" 285 11806 11850 "abstract1.ml" 285 11806 11854
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref expr "abstract1.ml" 284 11757 11793 "abstract1.ml" 284 11757 11797
+)
+"abstract1.ml" 285 11806 11848 "abstract1.ml" 285 11806 11856
+type(
+  Linexpr1.t array
+)
+"abstract1.ml" 285 11806 11857 "abstract1.ml" 285 11806 11862
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract1.ml" 284 11757 11798 "abstract1.ml" 284 11757 11803
+)
+"abstract1.ml" 285 11806 11806 "abstract1.ml" 285 11806 11862
+type(
+  unit
+)
+"abstract1.ml" 286 11863 11867 "abstract1.ml" 286 11863 11884
+type(
+  'a Manager.t -> 'a t -> Var.t -> Texpr1.t -> 'a t option -> unit
+)
+ident(
+  def assign_texpr_with "abstract1.ml" 288 11965 11965 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 286 11863 11885 "abstract1.ml" 286 11863 11888
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 286 11863 11889 "abstract1.ml" 287 11910 11964
+)
+"abstract1.ml" 286 11863 11889 "abstract1.ml" 286 11863 11892
+type(
+  'a t
+)
+ident(
+  def abs "abstract1.ml" 286 11863 11893 "abstract1.ml" 287 11910 11964
+)
+"abstract1.ml" 286 11863 11893 "abstract1.ml" 286 11863 11896
+type(
+  Var.t
+)
+ident(
+  def dim "abstract1.ml" 286 11863 11897 "abstract1.ml" 287 11910 11964
+)
+"abstract1.ml" 286 11863 11897 "abstract1.ml" 286 11863 11901
+type(
+  Texpr1.t
+)
+ident(
+  def expr "abstract1.ml" 286 11863 11902 "abstract1.ml" 287 11910 11964
+)
+"abstract1.ml" 286 11863 11902 "abstract1.ml" 286 11863 11907
+type(
+  'a t option
+)
+ident(
+  def odest "abstract1.ml" 287 11910 11910 "abstract1.ml" 287 11910 11964
+)
+"abstract1.ml" 287 11910 11910 "abstract1.ml" 287 11910 11933
+type(
+  'a Manager.t ->
+  'a t -> Var.t array -> Texpr1.t array -> 'a t option -> unit
+)
+ident(
+  int_ref assign_texpr_array_with "abstract1.ml" 190 7804 7804 "abstract1.ml" 191 7916 7975
+)
+"abstract1.ml" 287 11910 11934 "abstract1.ml" 287 11910 11937
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 286 11863 11885 "abstract1.ml" 286 11863 11888
+)
+"abstract1.ml" 287 11910 11938 "abstract1.ml" 287 11910 11941
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract1.ml" 286 11863 11889 "abstract1.ml" 286 11863 11892
+)
+"abstract1.ml" 287 11910 11944 "abstract1.ml" 287 11910 11947
+type(
+  Var.t
+)
+ident(
+  int_ref dim "abstract1.ml" 286 11863 11893 "abstract1.ml" 286 11863 11896
+)
+"abstract1.ml" 287 11910 11942 "abstract1.ml" 287 11910 11949
+type(
+  Var.t array
+)
+"abstract1.ml" 287 11910 11952 "abstract1.ml" 287 11910 11956
+type(
+  Texpr1.t
+)
+ident(
+  int_ref expr "abstract1.ml" 286 11863 11897 "abstract1.ml" 286 11863 11901
+)
+"abstract1.ml" 287 11910 11950 "abstract1.ml" 287 11910 11958
+type(
+  Texpr1.t array
+)
+"abstract1.ml" 287 11910 11959 "abstract1.ml" 287 11910 11964
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract1.ml" 286 11863 11902 "abstract1.ml" 286 11863 11907
+)
+"abstract1.ml" 287 11910 11910 "abstract1.ml" 287 11910 11964
+type(
+  unit
+)
+"abstract1.ml" 288 11965 11969 "abstract1.ml" 288 11965 11992
+type(
+  'a Manager.t -> 'a t -> Var.t -> Linexpr1.t -> 'a t option -> unit
+)
+ident(
+  def substitute_linexpr_with "abstract1.ml" 290 12079 12079 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 288 11965 11993 "abstract1.ml" 288 11965 11996
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 288 11965 11997 "abstract1.ml" 289 12018 12078
+)
+"abstract1.ml" 288 11965 11997 "abstract1.ml" 288 11965 12000
+type(
+  'a t
+)
+ident(
+  def abs "abstract1.ml" 288 11965 12001 "abstract1.ml" 289 12018 12078
+)
+"abstract1.ml" 288 11965 12001 "abstract1.ml" 288 11965 12004
+type(
+  Var.t
+)
+ident(
+  def dim "abstract1.ml" 288 11965 12005 "abstract1.ml" 289 12018 12078
+)
+"abstract1.ml" 288 11965 12005 "abstract1.ml" 288 11965 12009
+type(
+  Linexpr1.t
+)
+ident(
+  def expr "abstract1.ml" 288 11965 12010 "abstract1.ml" 289 12018 12078
+)
+"abstract1.ml" 288 11965 12010 "abstract1.ml" 288 11965 12015
+type(
+  'a t option
+)
+ident(
+  def odest "abstract1.ml" 289 12018 12018 "abstract1.ml" 289 12018 12078
+)
+"abstract1.ml" 289 12018 12018 "abstract1.ml" 289 12018 12047
+type(
+  'a Manager.t ->
+  'a t -> Var.t array -> Linexpr1.t array -> 'a t option -> unit
+)
+ident(
+  int_ref substitute_linexpr_array_with "abstract1.ml" 187 7617 7617 "abstract1.ml" 188 7737 7802
+)
+"abstract1.ml" 289 12018 12048 "abstract1.ml" 289 12018 12051
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 288 11965 11993 "abstract1.ml" 288 11965 11996
+)
+"abstract1.ml" 289 12018 12052 "abstract1.ml" 289 12018 12055
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract1.ml" 288 11965 11997 "abstract1.ml" 288 11965 12000
+)
+"abstract1.ml" 289 12018 12058 "abstract1.ml" 289 12018 12061
+type(
+  Var.t
+)
+ident(
+  int_ref dim "abstract1.ml" 288 11965 12001 "abstract1.ml" 288 11965 12004
+)
+"abstract1.ml" 289 12018 12056 "abstract1.ml" 289 12018 12063
+type(
+  Var.t array
+)
+"abstract1.ml" 289 12018 12066 "abstract1.ml" 289 12018 12070
+type(
+  Linexpr1.t
+)
+ident(
+  int_ref expr "abstract1.ml" 288 11965 12005 "abstract1.ml" 288 11965 12009
+)
+"abstract1.ml" 289 12018 12064 "abstract1.ml" 289 12018 12072
+type(
+  Linexpr1.t array
+)
+"abstract1.ml" 289 12018 12073 "abstract1.ml" 289 12018 12078
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract1.ml" 288 11965 12010 "abstract1.ml" 288 11965 12015
+)
+"abstract1.ml" 289 12018 12018 "abstract1.ml" 289 12018 12078
+type(
+  unit
+)
+"abstract1.ml" 290 12079 12083 "abstract1.ml" 290 12079 12104
+type(
+  'a Manager.t -> 'a t -> Var.t -> Texpr1.t -> 'a t option -> unit
+)
+ident(
+  def substitute_texpr_with "abstract1.ml" 293 12190 12190 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 290 12079 12105 "abstract1.ml" 290 12079 12108
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 290 12079 12109 "abstract1.ml" 291 12130 12188
+)
+"abstract1.ml" 290 12079 12109 "abstract1.ml" 290 12079 12112
+type(
+  'a t
+)
+ident(
+  def abs "abstract1.ml" 290 12079 12113 "abstract1.ml" 291 12130 12188
+)
+"abstract1.ml" 290 12079 12113 "abstract1.ml" 290 12079 12116
+type(
+  Var.t
+)
+ident(
+  def dim "abstract1.ml" 290 12079 12117 "abstract1.ml" 291 12130 12188
+)
+"abstract1.ml" 290 12079 12117 "abstract1.ml" 290 12079 12121
+type(
+  Texpr1.t
+)
+ident(
+  def expr "abstract1.ml" 290 12079 12122 "abstract1.ml" 291 12130 12188
+)
+"abstract1.ml" 290 12079 12122 "abstract1.ml" 290 12079 12127
+type(
+  'a t option
+)
+ident(
+  def odest "abstract1.ml" 291 12130 12130 "abstract1.ml" 291 12130 12188
+)
+"abstract1.ml" 291 12130 12130 "abstract1.ml" 291 12130 12157
+type(
+  'a Manager.t ->
+  'a t -> Var.t array -> Texpr1.t array -> 'a t option -> unit
+)
+ident(
+  int_ref substitute_texpr_array_with "abstract1.ml" 193 7977 7977 "abstract1.ml" 194 8093 8156
+)
+"abstract1.ml" 291 12130 12158 "abstract1.ml" 291 12130 12161
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 290 12079 12105 "abstract1.ml" 290 12079 12108
+)
+"abstract1.ml" 291 12130 12162 "abstract1.ml" 291 12130 12165
+type(
+  'a t
+)
+ident(
+  int_ref abs "abstract1.ml" 290 12079 12109 "abstract1.ml" 290 12079 12112
+)
+"abstract1.ml" 291 12130 12168 "abstract1.ml" 291 12130 12171
+type(
+  Var.t
+)
+ident(
+  int_ref dim "abstract1.ml" 290 12079 12113 "abstract1.ml" 290 12079 12116
+)
+"abstract1.ml" 291 12130 12166 "abstract1.ml" 291 12130 12173
+type(
+  Var.t array
+)
+"abstract1.ml" 291 12130 12176 "abstract1.ml" 291 12130 12180
+type(
+  Texpr1.t
+)
+ident(
+  int_ref expr "abstract1.ml" 290 12079 12117 "abstract1.ml" 290 12079 12121
+)
+"abstract1.ml" 291 12130 12174 "abstract1.ml" 291 12130 12182
+type(
+  Texpr1.t array
+)
+"abstract1.ml" 291 12130 12183 "abstract1.ml" 291 12130 12188
+type(
+  'a t option
+)
+ident(
+  int_ref odest "abstract1.ml" 290 12079 12122 "abstract1.ml" 290 12079 12127
+)
+"abstract1.ml" 291 12130 12130 "abstract1.ml" 291 12130 12188
+type(
+  unit
+)
+"abstract1.ml" 300 12395 12399 "abstract1.ml" 300 12395 12404
+type(
+  Format.formatter -> 'a t -> unit
+)
+ident(
+  def print "abstract1.ml" 309 12632 12635 "abstract1.ml" 1 0 -1
+)
+"abstract1.ml" 300 12395 12405 "abstract1.ml" 300 12395 12408
+type(
+  Format.formatter
+)
+ident(
+  def fmt "abstract1.ml" 300 12395 12409 "abstract1.ml" 309 12632 12635
+)
+"abstract1.ml" 300 12395 12409 "abstract1.ml" 300 12395 12410
+type(
+  'a t
+)
+ident(
+  def a "abstract1.ml" 301 12413 12413 "abstract1.ml" 309 12632 12635
+)
+"abstract1.ml" 301 12413 12417 "abstract1.ml" 301 12413 12420
+type(
+  'a Manager.t
+)
+ident(
+  def man "abstract1.ml" 302 12436 12436 "abstract1.ml" 309 12632 12635
+)
+"abstract1.ml" 301 12413 12423 "abstract1.ml" 301 12413 12430
+type(
+  'a t -> 'a Manager.t
+)
+ident(
+  int_ref manager "abstract1.ml" 64 2767 2771 "abstract1.ml" 64 2767 2778
+)
+"abstract1.ml" 301 12413 12431 "abstract1.ml" 301 12413 12432
+type(
+  'a t
+)
+ident(
+  int_ref a "abstract1.ml" 300 12395 12409 "abstract1.ml" 300 12395 12410
+)
+"abstract1.ml" 301 12413 12423 "abstract1.ml" 301 12413 12432
+call(
+  stack
+)
+type(
+  'a Manager.t
+)
+"abstract1.ml" 302 12436 12439 "abstract1.ml" 302 12436 12448
+type(
+  'a Manager.t -> 'a t -> bool
+)
+ident(
+  int_ref is_bottom "abstract1.ml" 73 3015 3019 "abstract1.ml" 73 3015 3028
+)
+"abstract1.ml" 302 12436 12449 "abstract1.ml" 302 12436 12452
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 301 12413 12417 "abstract1.ml" 301 12413 12420
+)
+"abstract1.ml" 302 12436 12453 "abstract1.ml" 302 12436 12454
+type(
+  'a t
+)
+ident(
+  int_ref a "abstract1.ml" 300 12395 12409 "abstract1.ml" 300 12395 12410
+)
+"abstract1.ml" 302 12436 12439 "abstract1.ml" 302 12436 12454
+call(
+  stack
+)
+type(
+  bool
+)
+"abstract1.ml" 303 12460 12460 "abstract1.ml" 303 12460 12482
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"abstract1.ml" 303 12460 12483 "abstract1.ml" 303 12460 12486
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract1.ml" 300 12395 12405 "abstract1.ml" 300 12395 12408
+)
+"abstract1.ml" 303 12460 12487 "abstract1.ml" 303 12460 12495
+type(
+  string
+)
+"abstract1.ml" 303 12460 12460 "abstract1.ml" 303 12460 12495
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract1.ml" 304 12496 12504 "abstract1.ml" 304 12496 12510
+type(
+  'a Manager.t -> 'a t -> bool
+)
+ident(
+  int_ref is_top "abstract1.ml" 74 3073 3077 "abstract1.ml" 74 3073 3083
+)
+"abstract1.ml" 304 12496 12511 "abstract1.ml" 304 12496 12514
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 301 12413 12417 "abstract1.ml" 301 12413 12420
+)
+"abstract1.ml" 304 12496 12515 "abstract1.ml" 304 12496 12516
+type(
+  'a t
+)
+ident(
+  int_ref a "abstract1.ml" 300 12395 12409 "abstract1.ml" 300 12395 12410
+)
+"abstract1.ml" 304 12496 12504 "abstract1.ml" 304 12496 12516
+call(
+  stack
+)
+type(
+  bool
+)
+"abstract1.ml" 305 12522 12522 "abstract1.ml" 305 12522 12544
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"abstract1.ml" 305 12522 12545 "abstract1.ml" 305 12522 12548
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract1.ml" 300 12395 12405 "abstract1.ml" 300 12395 12408
+)
+"abstract1.ml" 305 12522 12549 "abstract1.ml" 305 12522 12554
+type(
+  string
+)
+"abstract1.ml" 305 12522 12522 "abstract1.ml" 305 12522 12554
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract1.ml" 307 12566 12570 "abstract1.ml" 307 12566 12573
+type(
+  Lincons1.earray
+)
+ident(
+  def tab "abstract1.ml" 308 12602 12602 "abstract1.ml" 308 12602 12631
+)
+"abstract1.ml" 307 12566 12576 "abstract1.ml" 307 12566 12592
+type(
+  'a Manager.t -> 'a t -> Lincons1.earray
+)
+ident(
+  int_ref to_lincons_array "abstract1.ml" 108 4348 4352 "abstract1.ml" 108 4348 4368
+)
+"abstract1.ml" 307 12566 12593 "abstract1.ml" 307 12566 12596
+type(
+  'a Manager.t
+)
+ident(
+  int_ref man "abstract1.ml" 301 12413 12417 "abstract1.ml" 301 12413 12420
+)
+"abstract1.ml" 307 12566 12597 "abstract1.ml" 307 12566 12598
+type(
+  'a t
+)
+ident(
+  int_ref a "abstract1.ml" 300 12395 12409 "abstract1.ml" 300 12395 12410
+)
+"abstract1.ml" 307 12566 12576 "abstract1.ml" 307 12566 12598
+call(
+  stack
+)
+type(
+  Lincons1.earray
+)
+"abstract1.ml" 308 12602 12602 "abstract1.ml" 308 12602 12622
+type(
+  ?first:(unit, Format.formatter, unit) format ->
+  ?sep:(unit, Format.formatter, unit) format ->
+  ?last:(unit, Format.formatter, unit) format ->
+  Format.formatter -> Lincons1.earray -> unit
+)
+ident(
+  ext_ref Lincons1.array_print
+)
+"abstract1.ml" 308 12602 12623 "abstract1.ml" 308 12602 12626
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "abstract1.ml" 300 12395 12405 "abstract1.ml" 300 12395 12408
+)
+"abstract1.ml" 308 12602 12627 "abstract1.ml" 308 12602 12630
+type(
+  Lincons1.earray
+)
+ident(
+  int_ref tab "abstract1.ml" 307 12566 12570 "abstract1.ml" 307 12566 12573
+)
+"abstract1.ml" 308 12602 12602 "abstract1.ml" 308 12602 12631
+call(
+  tail
+)
+type(
+  unit
+)
+"abstract1.ml" 306 12555 12560 "abstract1.ml" 309 12632 12635
+type(
+  unit
+)
+"abstract1.ml" 304 12496 12501 "abstract1.ml" 309 12632 12635
+type(
+  unit
+)
+"abstract1.ml" 302 12436 12436 "abstract1.ml" 309 12632 12635
+type(
+  unit
+)
+"abstract1.ml" 301 12413 12413 "abstract1.ml" 309 12632 12635
+type(
+  unit
+)

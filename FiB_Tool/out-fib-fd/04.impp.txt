@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (y > 0)
+find an inductive invaraint based on abstractions
+invariant size: 20
+interp: (not (and (not (<= (+ x (* (- 1) y)) (- 51))) (and (not (and (<= x (- 50)) (<= (+ x y) (- 50)))) (not (<= 3 y)))))
+The assertion is satisfied!
+forward [1] times, backtracks [0] times
+backward [1] times

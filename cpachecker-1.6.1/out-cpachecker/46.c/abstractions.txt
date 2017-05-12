@@ -1,0 +1,15 @@
+(declare-fun |main::w| () Int)
+(declare-fun |main::x| () Int)
+
+16 (17) @7:
+(assert (and (<= |main::x| 1) (<= |main::x| 0) (<= 0 (+ |main::w| (- 1))) (<= |main::w| 1) (not (<= 0 (+ |main::w| (- 2)))) (<= |main::w| 2)))
+
+18 () @7:
+(assert (and (<= |main::x| 1) (<= 0 (+ |main::w| (- 1))) (not (<= |main::w| 1)) (<= 0 (+ |main::w| (- 2))) (<= |main::w| 2)))
+
+17 (18) @7:
+(assert (and (<= |main::x| 1) (<= 0 (+ |main::w| (- 1))) (not (<= |main::w| 1)) (<= 0 (+ |main::w| (- 2))) (<= |main::w| 2)))
+
+0 (16) @1:
+(assert true)
+

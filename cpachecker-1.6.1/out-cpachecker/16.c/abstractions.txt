@@ -1,0 +1,20 @@
+(declare-fun |main::y| () Int)
+(declare-fun |main::x| () Int)
+(declare-fun |main::i| () Int)
+(declare-fun |main::j| () Int)
+
+0 (9) @1:
+(assert true)
+
+11 (13) @5:
+(assert (let ((.cse14 (- |main::y|))) (let ((.cse12 (<= (+ .cse14 1) 0)) (.cse9 (<= |main::y| |main::x|)) (.cse11 (= (+ |main::y| (- |main::x|)) 0)) (.cse10 (= |main::y| |main::x|))) (let ((.cse0 (not (= |main::y| |main::j|))) (.cse1 (not (= |main::x| |main::i|))) (.cse2 (distinct |main::j| |main::i|)) (.cse3 (not .cse10)) (.cse4 (not .cse11)) (.cse7 (not .cse9)) (.cse5 (<= |main::x| |main::y|)) (.cse6 (<= .cse14 0)) (.cse8 (not .cse12))) (ite (= |main::y| 0) (and .cse0 .cse1 (ite .cse2 (and .cse3 .cse4 (ite .cse5 (and .cse6 .cse7 .cse8) (and .cse6 .cse9 .cse8))) (and .cse10 .cse11 .cse5 .cse6 .cse9 .cse8))) (and .cse0 .cse1 (let ((.cse13 (ite .cse6 (and .cse9 .cse12) (and .cse9 .cse8)))) (ite .cse2 (and .cse3 .cse4 (ite .cse5 (ite .cse6 (and .cse7 .cse12) (and .cse7 .cse8)) .cse13)) (and .cse10 .cse11 .cse5 .cse13)))))))))
+
+15 () @5:
+(assert (let ((.cse20 (- |main::y|))) (let ((.cse19 (<= (+ .cse20 1) 0)) (.cse12 (<= |main::y| |main::x|)) (.cse9 (= (+ |main::y| (- |main::x|)) 0)) (.cse8 (= |main::y| |main::x|))) (let ((.cse0 (= |main::y| |main::j|)) (.cse1 (= |main::x| |main::i|)) (.cse4 (distinct |main::j| |main::i|)) (.cse5 (not .cse8)) (.cse6 (not .cse9)) (.cse10 (<= |main::x| |main::y|)) (.cse14 (not .cse12)) (.cse11 (<= .cse20 0)) (.cse13 (not .cse19))) (ite (= |main::y| 0) (let ((.cse7 (ite .cse10 (and .cse11 .cse14 .cse13) (and .cse11 .cse12 .cse13)))) (let ((.cse3 (and .cse4 .cse5 .cse6 .cse7)) (.cse2 (ite .cse4 (and .cse5 .cse6 .cse7) (and .cse8 .cse9 .cse10 .cse11 .cse12 .cse13)))) (ite .cse0 (ite .cse1 .cse2 .cse3) (ite .cse1 .cse3 .cse2)))) (let ((.cse18 (ite .cse11 (and .cse12 .cse19) (and .cse12 .cse13)))) (let ((.cse17 (ite .cse10 (ite .cse11 (and .cse14 .cse19) (and .cse14 .cse13)) .cse18))) (let ((.cse16 (and .cse4 .cse5 .cse6 .cse17)) (.cse15 (ite .cse4 (and .cse5 .cse6 .cse17) (and .cse8 .cse9 .cse10 .cse18)))) (ite .cse0 (ite .cse1 .cse15 .cse16) (ite .cse1 .cse16 .cse15))))))))))
+
+9 (11) @5:
+(assert (let ((.cse14 (- |main::y|))) (let ((.cse12 (<= (+ .cse14 1) 0)) (.cse9 (<= |main::y| |main::x|)) (.cse11 (= (+ |main::y| (- |main::x|)) 0)) (.cse10 (= |main::y| |main::x|))) (let ((.cse0 (= |main::y| |main::j|)) (.cse1 (= |main::x| |main::i|)) (.cse2 (distinct |main::j| |main::i|)) (.cse3 (not .cse10)) (.cse4 (not .cse11)) (.cse7 (not .cse9)) (.cse5 (<= |main::x| |main::y|)) (.cse6 (<= .cse14 0)) (.cse8 (not .cse12))) (ite (= |main::y| 0) (and .cse0 .cse1 (ite .cse2 (and .cse3 .cse4 (ite .cse5 (and .cse6 .cse7 .cse8) (and .cse6 .cse9 .cse8))) (and .cse10 .cse11 .cse5 .cse6 .cse9 .cse8))) (and .cse0 .cse1 (let ((.cse13 (ite .cse6 (and .cse9 .cse12) (and .cse9 .cse8)))) (ite .cse2 (and .cse3 .cse4 (ite .cse5 (ite .cse6 (and .cse7 .cse12) (and .cse7 .cse8)) .cse13)) (and .cse10 .cse11 .cse5 .cse13)))))))))
+
+13 (15) @5:
+(assert (let ((.cse20 (- |main::y|))) (let ((.cse19 (<= (+ .cse20 1) 0)) (.cse12 (<= |main::y| |main::x|)) (.cse9 (= (+ |main::y| (- |main::x|)) 0)) (.cse8 (= |main::y| |main::x|))) (let ((.cse0 (= |main::y| |main::j|)) (.cse1 (= |main::x| |main::i|)) (.cse4 (distinct |main::j| |main::i|)) (.cse5 (not .cse8)) (.cse6 (not .cse9)) (.cse10 (<= |main::x| |main::y|)) (.cse14 (not .cse12)) (.cse11 (<= .cse20 0)) (.cse13 (not .cse19))) (ite (= |main::y| 0) (let ((.cse7 (ite .cse10 (and .cse11 .cse14 .cse13) (and .cse11 .cse12 .cse13)))) (let ((.cse3 (and .cse4 .cse5 .cse6 .cse7)) (.cse2 (ite .cse4 (and .cse5 .cse6 .cse7) (and .cse8 .cse9 .cse10 .cse11 .cse12 .cse13)))) (ite .cse0 (ite .cse1 .cse2 .cse3) (ite .cse1 .cse3 .cse2)))) (let ((.cse18 (ite .cse11 (and .cse12 .cse19) (and .cse12 .cse13)))) (let ((.cse17 (ite .cse10 (ite .cse11 (and .cse14 .cse19) (and .cse14 .cse13)) .cse18))) (let ((.cse16 (and .cse4 .cse5 .cse6 .cse17)) (.cse15 (ite .cse4 (and .cse5 .cse6 .cse17) (and .cse8 .cse9 .cse10 .cse18)))) (ite .cse0 (ite .cse1 .cse15 .cse16) (ite .cse1 .cse16 .cse15))))))))))
+

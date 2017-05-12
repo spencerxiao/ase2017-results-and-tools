@@ -1,0 +1,32 @@
+[32mAnnotated program after forward analysis[m
+var i : int, j : int, x : int, y : int;
+begin
+  /* [31m(L2 C5) [|y=0 mod 1; x=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+  i = [-inf; inf]; /* [31m(L3 C13)
+                      [|y=0 mod 1; x=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+  j = [-inf; inf]; /* [31m(L4 C13)
+                      [|y=0 mod 1; x=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+  x = i; /* [31m(L6 C8)
+            [|-i+x=0; y=0 mod 1; -i+x=0; j=0 mod 1; i=0 mod 1|][m */
+  y = j; /* [31m(L7 C8)
+            [|i-j-x+y=0; i-x>=0; i-j-x+y=0; x=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+  while not x == 0 do
+    /* [31m(L9 C23)
+       [|i-j-x+y=0; i-x>=0; i-j-x+y=0; x=0 mod 1; j=0 mod 1; i=0 mod 1|][m */
+    x = x -_i,? 1; /* [31m(L10 C16)
+                      [|i-j-x+y-1=0; i-x-1>=0; i-j-x+y-1=0; x=0 mod 1;
+                        j=0 mod 1; i=0 mod 1|][m */
+    y = y -_i,? 1; /* [31m(L11 C16)
+                      [|i-j-x+y=0; i-x-1>=0; i-j-x+y=0; x=0 mod 1; j=0 mod 1;
+                        i=0 mod 1|][m */
+  done; /* [31m(L12 C7)
+           [|x=0; i-j+y=0; i>=0; i-j+y=0; x=0; j=0 mod 1; i=0 mod 1|][m */
+  if x == j then
+    /* [31m(L14 C18)
+       [|x=0; j=0; i+y=0; i>=0; i+y=0; x=0; j=0; i=0 mod 1|][m */
+    assume y == 0; /* [31m(L15 C20)
+                      [|y=0; x=0; j=0; i=0; y=0; x=0; j=0; i=0|][m */
+  endif; /* [31m(L16 C8)
+            [|x=0; i-j+y=0; i>=0; i-j+y=0; x=0; j=0 mod 1; i=0 mod 1|][m */
+end
+

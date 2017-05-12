@@ -1,0 +1,271 @@
+"generator0.ml" 19 387 391 "generator0.ml" 19 387 404
+type(
+  typ -> string
+)
+ident(
+  def string_of_typ "generator0.ml" 26 509 509 "generator0.ml" 1 0 -1
+)
+"generator0.ml" 20 416 418 "generator0.ml" 20 416 422
+type(
+  typ
+)
+"generator0.ml" 20 416 426 "generator0.ml" 20 416 431
+type(
+  string
+)
+"generator0.ml" 21 432 434 "generator0.ml" 21 432 437
+type(
+  typ
+)
+"generator0.ml" 21 432 441 "generator0.ml" 21 432 446
+type(
+  string
+)
+"generator0.ml" 22 447 449 "generator0.ml" 22 447 455
+type(
+  typ
+)
+"generator0.ml" 22 447 459 "generator0.ml" 22 447 464
+type(
+  string
+)
+"generator0.ml" 23 465 467 "generator0.ml" 23 465 474
+type(
+  typ
+)
+"generator0.ml" 23 465 478 "generator0.ml" 23 465 486
+type(
+  string
+)
+"generator0.ml" 24 487 489 "generator0.ml" 24 487 495
+type(
+  typ
+)
+"generator0.ml" 24 487 499 "generator0.ml" 24 487 507
+type(
+  string
+)
+"generator0.ml" 19 387 407 "generator0.ml" 24 487 507
+type(
+  typ -> string
+)
+"generator0.ml" 26 509 513 "generator0.ml" 26 509 518
+type(
+  (Dim.t -> string) -> Format.formatter -> t -> unit
+)
+ident(
+  def print "generator0.ml" 30 628 628 "generator0.ml" 1 0 -1
+)
+"generator0.ml" 26 509 519 "generator0.ml" 26 509 524
+type(
+  Dim.t -> string
+)
+ident(
+  def assoc "generator0.ml" 26 509 525 "generator0.ml" 29 625 627
+)
+"generator0.ml" 26 509 525 "generator0.ml" 26 509 528
+type(
+  Format.formatter
+)
+ident(
+  def fmt "generator0.ml" 26 509 529 "generator0.ml" 29 625 627
+)
+"generator0.ml" 26 509 529 "generator0.ml" 26 509 532
+type(
+  t
+)
+ident(
+  def gen "generator0.ml" 27 536 536 "generator0.ml" 29 625 627
+)
+"generator0.ml" 27 536 536 "generator0.ml" 27 536 550
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"generator0.ml" 27 536 551 "generator0.ml" 27 536 554
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "generator0.ml" 26 509 525 "generator0.ml" 26 509 528
+)
+"generator0.ml" 27 536 555 "generator0.ml" 27 536 560
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"generator0.ml" 27 536 562 "generator0.ml" 27 536 575
+type(
+  typ -> string
+)
+ident(
+  int_ref string_of_typ "generator0.ml" 19 387 391 "generator0.ml" 19 387 404
+)
+"generator0.ml" 27 536 576 "generator0.ml" 27 536 579
+type(
+  t
+)
+ident(
+  int_ref gen "generator0.ml" 26 509 529 "generator0.ml" 26 509 532
+)
+"generator0.ml" 27 536 576 "generator0.ml" 27 536 583
+type(
+  typ
+)
+"generator0.ml" 27 536 561 "generator0.ml" 27 536 584
+call(
+  stack
+)
+type(
+  string
+)
+"generator0.ml" 27 536 536 "generator0.ml" 27 536 584
+call(
+  stack
+)
+type(
+  unit
+)
+"generator0.ml" 28 586 586 "generator0.ml" 28 586 600
+type(
+  (Dim.t -> string) -> Format.formatter -> Linexpr0.t -> unit
+)
+ident(
+  ext_ref Linexpr0.print
+)
+"generator0.ml" 28 586 601 "generator0.ml" 28 586 606
+type(
+  Dim.t -> string
+)
+ident(
+  int_ref assoc "generator0.ml" 26 509 519 "generator0.ml" 26 509 524
+)
+"generator0.ml" 28 586 607 "generator0.ml" 28 586 610
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "generator0.ml" 26 509 525 "generator0.ml" 26 509 528
+)
+"generator0.ml" 28 586 611 "generator0.ml" 28 586 614
+type(
+  t
+)
+ident(
+  int_ref gen "generator0.ml" 26 509 529 "generator0.ml" 26 509 532
+)
+"generator0.ml" 28 586 611 "generator0.ml" 28 586 623
+type(
+  Linexpr0.t
+)
+"generator0.ml" 28 586 586 "generator0.ml" 28 586 623
+call(
+  stack
+)
+type(
+  unit
+)
+"generator0.ml" 29 625 625 "generator0.ml" 29 625 627
+type(
+  unit
+)
+"generator0.ml" 28 586 586 "generator0.ml" 29 625 627
+type(
+  unit
+)
+"generator0.ml" 27 536 536 "generator0.ml" 29 625 627
+type(
+  unit
+)
+"generator0.ml" 30 628 632 "generator0.ml" 30 628 636
+type(
+  Linexpr0.t -> typ -> t
+)
+ident(
+  def make "generator0.ml" 33 680 680 "generator0.ml" 1 0 -1
+)
+"generator0.ml" 30 628 637 "generator0.ml" 30 628 641
+type(
+  Linexpr0.t
+)
+ident(
+  def expr "generator0.ml" 30 628 642 "generator0.ml" 32 678 679
+)
+"generator0.ml" 30 628 642 "generator0.ml" 30 628 645
+type(
+  typ
+)
+ident(
+  def typ "generator0.ml" 30 628 648 "generator0.ml" 32 678 679
+)
+"generator0.ml" 31 650 661 "generator0.ml" 31 650 665
+type(
+  Linexpr0.t
+)
+ident(
+  int_ref expr "generator0.ml" 30 628 637 "generator0.ml" 30 628 641
+)
+"generator0.ml" 31 650 673 "generator0.ml" 31 650 676
+type(
+  typ
+)
+ident(
+  int_ref typ "generator0.ml" 30 628 642 "generator0.ml" 30 628 645
+)
+"generator0.ml" 30 628 648 "generator0.ml" 32 678 679
+type(
+  t
+)
+"generator0.ml" 33 680 684 "generator0.ml" 33 680 688
+type(
+  t -> t
+)
+ident(
+  def copy "generator0.ml" 35 751 752 "generator0.ml" 1 0 -1
+)
+"generator0.ml" 33 680 689 "generator0.ml" 33 680 692
+type(
+  t
+)
+ident(
+  def gen "generator0.ml" 33 680 695 "generator0.ml" 35 751 752
+)
+"generator0.ml" 34 697 708 "generator0.ml" 34 697 721
+type(
+  Linexpr0.t -> Linexpr0.t
+)
+ident(
+  ext_ref Linexpr0.copy
+)
+"generator0.ml" 34 697 722 "generator0.ml" 34 697 725
+type(
+  t
+)
+ident(
+  int_ref gen "generator0.ml" 33 680 689 "generator0.ml" 33 680 692
+)
+"generator0.ml" 34 697 722 "generator0.ml" 34 697 734
+type(
+  Linexpr0.t
+)
+"generator0.ml" 34 697 708 "generator0.ml" 34 697 734
+type(
+  Linexpr0.t
+)
+"generator0.ml" 34 697 742 "generator0.ml" 34 697 745
+type(
+  t
+)
+ident(
+  int_ref gen "generator0.ml" 33 680 689 "generator0.ml" 33 680 692
+)
+"generator0.ml" 34 697 742 "generator0.ml" 34 697 749
+type(
+  typ
+)
+"generator0.ml" 33 680 695 "generator0.ml" 35 751 752
+type(
+  t
+)

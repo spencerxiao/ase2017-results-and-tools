@@ -1,0 +1,15 @@
+var i:int, j:int, k:int, n:int;
+begin
+	k = 1;
+	i = 1;
+	j = 0;
+	while (i < n) do
+		j = 0;
+		while (j < i) do
+			k = i -_i j +_i k;
+			j = j +_i 1;
+		done;
+		i = i +_i 1;
+	done;
+	assume(k >= n);
+end

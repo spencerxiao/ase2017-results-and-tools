@@ -1,0 +1,8 @@
+Loading grammar file /home/spencerxiao/Experiments/tacas17/FiB_Tool/IMP_Program.cgt succesfully
+verifying assertion: (y >= 1)
+find an inductive invaraint  based on abstractions
+invariant size: 13
+interp: (let ((.def_550 (<= y 0))) (let ((.def_558 (<= (+ x y) 0))) (not (and (or .def_550 .def_558) (or .def_550 (and (<= 1 y) .def_558))))))
+The assertion is satisfied!
+forward [1] times
+backward [1] times, backtracks [0] times

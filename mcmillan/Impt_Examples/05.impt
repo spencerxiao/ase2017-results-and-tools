@@ -1,0 +1,39 @@
+MODULE main
+	int x;
+	int y;
+	int j;
+	int i;
+
+	int finish;
+
+	assume(x == 0);
+	assume(y == 0);
+	assume(i == 0);
+	assume(j == 0);
+	
+	assume(finish == 0);
+
+	while(*) {
+		x = x + 1;
+		y = y + 1;
+		i = i + x;
+		j = j + y;
+
+		if(*){
+			j = j + 1;
+		}
+		else{
+			skip;
+		}
+	
+	} 
+	
+	finish = 1;
+	exit;
+END MODULE
+
+
+system := main;
+
+REACHABILITY
+	 finish == 1 && j < i;

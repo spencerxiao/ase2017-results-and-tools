@@ -1,0 +1,7 @@
+main::n	4
+main::m	4
+main::__CPAchecker_TMP_1	4
+main::__CPAchecker_TMP_0	4
+main::y	4
+main::x	4
+__VERIFIER_assume::i	4

@@ -1,0 +1,7 @@
+main::n	0
+main::__CPAchecker_TMP_1	4
+main::__CPAchecker_TMP_0	4
+main::k	0
+main::j	4
+main::i	4
+main::b	7

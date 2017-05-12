@@ -1,0 +1,1998 @@
+"fixpointGuided.ml" 45 1125 1129 "fixpointGuided.ml" 45 1125 1146
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('hedge, unit) PHashhe.t -> bool
+)
+ident(
+  def add_active_hedges "fixpointGuided.ml" 90 2442 2442 "fixpointGuided.ml" 1 0 -1
+)
+"fixpointGuided.ml" 46 1147 1152 "fixpointGuided.ml" 46 1147 1159
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointGuided.ml" 47 1201 1205 "fixpointGuided.ml" 88 2432 2440
+)
+"fixpointGuided.ml" 47 1201 1206 "fixpointGuided.ml" 47 1201 1211
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  def graph "fixpointGuided.ml" 48 1251 1255 "fixpointGuided.ml" 88 2432 2440
+)
+"fixpointGuided.ml" 48 1251 1256 "fixpointGuided.ml" 48 1251 1267
+type(
+  ('hedge, unit) PHashhe.t
+)
+ident(
+  def activehedge "fixpointGuided.ml" 49 1293 1297 "fixpointGuided.ml" 88 2432 2440
+)
+"fixpointGuided.ml" 52 1314 1320 "fixpointGuided.ml" 52 1314 1324
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  def info "fixpointGuided.ml" 53 1350 1352 "fixpointGuided.ml" 88 2432 2440
+)
+"fixpointGuided.ml" 52 1314 1327 "fixpointGuided.ml" 52 1314 1340
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  ext_ref PSHGraph.info
+)
+"fixpointGuided.ml" 52 1314 1341 "fixpointGuided.ml" 52 1314 1346
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 47 1201 1206 "fixpointGuided.ml" 47 1201 1211
+)
+"fixpointGuided.ml" 52 1314 1327 "fixpointGuided.ml" 52 1314 1346
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+"fixpointGuided.ml" 53 1350 1356 "fixpointGuided.ml" 53 1350 1362
+type(
+  bool
+)
+ident(
+  def change "fixpointGuided.ml" 88 2432 2434 "fixpointGuided.ml" 88 2432 2440
+)
+"fixpointGuided.ml" 54 1365 1369 "fixpointGuided.ml" 54 1365 1388
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('hedge ->
+   'arc FixpointType.arc ->
+   pred:'vertex array -> succ:'vertex array -> bool -> bool) ->
+  bool -> bool
+)
+ident(
+  ext_ref PSHGraph.fold_hedge
+)
+"fixpointGuided.ml" 54 1365 1389 "fixpointGuided.ml" 54 1365 1394
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 47 1201 1206 "fixpointGuided.ml" 47 1201 1211
+)
+"fixpointGuided.ml" 55 1395 1410 "fixpointGuided.ml" 55 1395 1415
+type(
+  'hedge
+)
+ident(
+  def hedge "fixpointGuided.ml" 55 1395 1416 "fixpointGuided.ml" 84 2400 2407
+)
+"fixpointGuided.ml" 55 1395 1416 "fixpointGuided.ml" 55 1395 1425
+type(
+  'arc FixpointType.arc
+)
+ident(
+  def attrhedge "fixpointGuided.ml" 55 1395 1426 "fixpointGuided.ml" 84 2400 2407
+)
+"fixpointGuided.ml" 55 1395 1427 "fixpointGuided.ml" 55 1395 1431
+type(
+  'vertex array
+)
+ident(
+  def pred "fixpointGuided.ml" 55 1395 1432 "fixpointGuided.ml" 84 2400 2407
+)
+"fixpointGuided.ml" 55 1395 1433 "fixpointGuided.ml" 55 1395 1437
+type(
+  'vertex array
+)
+ident(
+  def succ "fixpointGuided.ml" 55 1395 1438 "fixpointGuided.ml" 84 2400 2407
+)
+"fixpointGuided.ml" 55 1395 1438 "fixpointGuided.ml" 55 1395 1444
+type(
+  bool
+)
+ident(
+  def change "fixpointGuided.ml" 56 1448 1454 "fixpointGuided.ml" 84 2400 2407
+)
+"fixpointGuided.ml" 56 1448 1457 "fixpointGuided.ml" 56 1448 1460
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"fixpointGuided.ml" 56 1448 1462 "fixpointGuided.ml" 56 1448 1473
+type(
+  ('hedge, unit) PHashhe.t -> 'hedge -> bool
+)
+ident(
+  ext_ref PHashhe.mem
+)
+"fixpointGuided.ml" 56 1448 1474 "fixpointGuided.ml" 56 1448 1485
+type(
+  ('hedge, unit) PHashhe.t
+)
+ident(
+  int_ref activehedge "fixpointGuided.ml" 48 1251 1256 "fixpointGuided.ml" 48 1251 1267
+)
+"fixpointGuided.ml" 56 1448 1486 "fixpointGuided.ml" 56 1448 1491
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointGuided.ml" 55 1395 1410 "fixpointGuided.ml" 55 1395 1415
+)
+"fixpointGuided.ml" 56 1448 1461 "fixpointGuided.ml" 56 1448 1492
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointGuided.ml" 56 1448 1457 "fixpointGuided.ml" 56 1448 1492
+type(
+  bool
+)
+"fixpointGuided.ml" 57 1504 1509 "fixpointGuided.ml" 57 1504 1515
+type(
+  bool
+)
+ident(
+  def active "fixpointGuided.ml" 74 2069 2070 "fixpointGuided.ml" 81 2361 2378
+)
+"fixpointGuided.ml" 58 1518 1524 "fixpointGuided.ml" 58 1518 1533
+type(
+  'arc FixpointType.arc
+)
+ident(
+  int_ref attrhedge "fixpointGuided.ml" 55 1395 1416 "fixpointGuided.ml" 55 1395 1425
+)
+"fixpointGuided.ml" 58 1518 1524 "fixpointGuided.ml" 58 1518 1540
+type(
+  bool
+)
+"fixpointGuided.ml" 59 1552 1561 "fixpointGuided.ml" 59 1552 1572
+type(
+  'vertex array
+)
+ident(
+  def tpredvertex "fixpointGuided.ml" 60 1610 1615 "fixpointGuided.ml" 69 2027 2039
+)
+"fixpointGuided.ml" 59 1552 1575 "fixpointGuided.ml" 59 1552 1594
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.predvertex
+)
+"fixpointGuided.ml" 59 1552 1595 "fixpointGuided.ml" 59 1552 1600
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 47 1201 1206 "fixpointGuided.ml" 47 1201 1211
+)
+"fixpointGuided.ml" 59 1552 1601 "fixpointGuided.ml" 59 1552 1606
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointGuided.ml" 55 1395 1410 "fixpointGuided.ml" 55 1395 1415
+)
+"fixpointGuided.ml" 59 1552 1575 "fixpointGuided.ml" 59 1552 1606
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointGuided.ml" 60 1610 1618 "fixpointGuided.ml" 60 1610 1640
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'vertex array -> bool
+)
+ident(
+  ext_ref FixpointStd.is_tvertex
+)
+"fixpointGuided.ml" 60 1610 1641 "fixpointGuided.ml" 60 1610 1646
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 47 1201 1206 "fixpointGuided.ml" 47 1201 1211
+)
+"fixpointGuided.ml" 60 1610 1647 "fixpointGuided.ml" 60 1610 1658
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointGuided.ml" 59 1552 1561 "fixpointGuided.ml" 59 1552 1572
+)
+"fixpointGuided.ml" 60 1610 1618 "fixpointGuided.ml" 60 1610 1658
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointGuided.ml" 61 1670 1681 "fixpointGuided.ml" 61 1670 1687
+type(
+  'abstract array
+)
+ident(
+  def treach "fixpointGuided.ml" 62 1756 1763 "fixpointGuided.ml" 66 1980 2007
+)
+"fixpointGuided.ml" 61 1670 1690 "fixpointGuided.ml" 61 1670 1719
+type(
+  descend:bool ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'vertex array -> 'abstract array
+)
+ident(
+  ext_ref FixpointStd.treach_of_tvertex
+)
+"fixpointGuided.ml" 61 1670 1729 "fixpointGuided.ml" 61 1670 1734
+type(
+  bool
+)
+"fixpointGuided.ml" 61 1670 1735 "fixpointGuided.ml" 61 1670 1740
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 47 1201 1206 "fixpointGuided.ml" 47 1201 1211
+)
+"fixpointGuided.ml" 61 1670 1741 "fixpointGuided.ml" 61 1670 1752
+type(
+  'vertex array
+)
+ident(
+  int_ref tpredvertex "fixpointGuided.ml" 59 1552 1561 "fixpointGuided.ml" 59 1552 1572
+)
+"fixpointGuided.ml" 61 1670 1690 "fixpointGuided.ml" 61 1670 1752
+call(
+  stack
+)
+type(
+  'abstract array
+)
+"fixpointGuided.ml" 62 1756 1768 "fixpointGuided.ml" 62 1756 1771
+type(
+  'arc
+)
+ident(
+  def arc "fixpointGuided.ml" 63 1810 1817 "fixpointGuided.ml" 66 1980 2007
+)
+"fixpointGuided.ml" 62 1756 1772 "fixpointGuided.ml" 62 1756 1776
+type(
+  'abstract
+)
+ident(
+  def post "fixpointGuided.ml" 63 1810 1817 "fixpointGuided.ml" 66 1980 2007
+)
+"fixpointGuided.ml" 62 1756 1767 "fixpointGuided.ml" 62 1756 1777
+type(
+  'arc * 'abstract
+)
+"fixpointGuided.ml" 62 1756 1780 "fixpointGuided.ml" 62 1756 1787
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 46 1147 1152 "fixpointGuided.ml" 46 1147 1159
+)
+"fixpointGuided.ml" 62 1756 1780 "fixpointGuided.ml" 62 1756 1793
+type(
+  'hedge -> 'abstract array -> 'arc * 'abstract
+)
+"fixpointGuided.ml" 62 1756 1794 "fixpointGuided.ml" 62 1756 1799
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointGuided.ml" 55 1395 1410 "fixpointGuided.ml" 55 1395 1415
+)
+"fixpointGuided.ml" 62 1756 1800 "fixpointGuided.ml" 62 1756 1806
+type(
+  'abstract array
+)
+ident(
+  int_ref treach "fixpointGuided.ml" 61 1670 1681 "fixpointGuided.ml" 61 1670 1687
+)
+"fixpointGuided.ml" 62 1756 1780 "fixpointGuided.ml" 62 1756 1806
+call(
+  stack
+)
+type(
+  'arc * 'abstract
+)
+"fixpointGuided.ml" 63 1810 1821 "fixpointGuided.ml" 63 1810 1831
+type(
+  'vertex array
+)
+ident(
+  def succvertex "fixpointGuided.ml" 64 1869 1876 "fixpointGuided.ml" 66 1980 2007
+)
+"fixpointGuided.ml" 63 1810 1834 "fixpointGuided.ml" 63 1810 1853
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.succvertex
+)
+"fixpointGuided.ml" 63 1810 1854 "fixpointGuided.ml" 63 1810 1859
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 47 1201 1206 "fixpointGuided.ml" 47 1201 1211
+)
+"fixpointGuided.ml" 63 1810 1860 "fixpointGuided.ml" 63 1810 1865
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointGuided.ml" 55 1395 1410 "fixpointGuided.ml" 55 1395 1415
+)
+"fixpointGuided.ml" 63 1810 1834 "fixpointGuided.ml" 63 1810 1865
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointGuided.ml" 64 1869 1885 "fixpointGuided.ml" 64 1869 1897
+type(
+  'vertex array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"fixpointGuided.ml" 64 1869 1898 "fixpointGuided.ml" 64 1869 1908
+type(
+  'vertex array
+)
+ident(
+  int_ref succvertex "fixpointGuided.ml" 63 1810 1821 "fixpointGuided.ml" 63 1810 1831
+)
+"fixpointGuided.ml" 64 1869 1884 "fixpointGuided.ml" 64 1869 1909
+type(
+  int
+)
+"fixpointGuided.ml" 64 1869 1909 "fixpointGuided.ml" 64 1869 1910
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"fixpointGuided.ml" 64 1869 1910 "fixpointGuided.ml" 64 1869 1911
+type(
+  int
+)
+"fixpointGuided.ml" 64 1869 1883 "fixpointGuided.ml" 64 1869 1912
+type(
+  bool
+)
+"fixpointGuided.ml" 64 1869 1876 "fixpointGuided.ml" 64 1869 1912
+type(
+  unit
+)
+"fixpointGuided.ml" 65 1914 1921 "fixpointGuided.ml" 65 1914 1930
+type(
+  'arc FixpointType.arc
+)
+ident(
+  int_ref attrhedge "fixpointGuided.ml" 55 1395 1416 "fixpointGuided.ml" 55 1395 1425
+)
+"fixpointGuided.ml" 65 1914 1941 "fixpointGuided.ml" 65 1914 1948
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 46 1147 1152 "fixpointGuided.ml" 46 1147 1159
+)
+"fixpointGuided.ml" 65 1914 1941 "fixpointGuided.ml" 65 1914 1958
+type(
+  'vertex -> 'abstract -> bool
+)
+"fixpointGuided.ml" 65 1914 1959 "fixpointGuided.ml" 65 1914 1969
+type(
+  'vertex array
+)
+ident(
+  int_ref succvertex "fixpointGuided.ml" 63 1810 1821 "fixpointGuided.ml" 63 1810 1831
+)
+"fixpointGuided.ml" 65 1914 1971 "fixpointGuided.ml" 65 1914 1972
+type(
+  int
+)
+"fixpointGuided.ml" 65 1914 1959 "fixpointGuided.ml" 65 1914 1973
+type(
+  'vertex
+)
+"fixpointGuided.ml" 65 1914 1974 "fixpointGuided.ml" 65 1914 1978
+type(
+  'abstract
+)
+ident(
+  int_ref post "fixpointGuided.ml" 62 1756 1772 "fixpointGuided.ml" 62 1756 1776
+)
+"fixpointGuided.ml" 65 1914 1941 "fixpointGuided.ml" 65 1914 1978
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointGuided.ml" 65 1914 1921 "fixpointGuided.ml" 65 1914 1978
+type(
+  unit
+)
+"fixpointGuided.ml" 66 1980 1987 "fixpointGuided.ml" 66 1980 1990
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"fixpointGuided.ml" 66 1980 1991 "fixpointGuided.ml" 66 1980 2000
+type(
+  'arc FixpointType.arc
+)
+ident(
+  int_ref attrhedge "fixpointGuided.ml" 55 1395 1416 "fixpointGuided.ml" 55 1395 1425
+)
+"fixpointGuided.ml" 66 1980 1991 "fixpointGuided.ml" 66 1980 2007
+type(
+  bool
+)
+"fixpointGuided.ml" 66 1980 1987 "fixpointGuided.ml" 66 1980 2007
+type(
+  bool
+)
+"fixpointGuided.ml" 65 1914 1921 "fixpointGuided.ml" 66 1980 2007
+type(
+  bool
+)
+"fixpointGuided.ml" 64 1869 1876 "fixpointGuided.ml" 66 1980 2007
+type(
+  bool
+)
+"fixpointGuided.ml" 63 1810 1817 "fixpointGuided.ml" 66 1980 2007
+type(
+  bool
+)
+"fixpointGuided.ml" 62 1756 1763 "fixpointGuided.ml" 66 1980 2007
+type(
+  bool
+)
+"fixpointGuided.ml" 60 1610 1664 "fixpointGuided.ml" 67 2008 2016
+type(
+  bool
+)
+"fixpointGuided.ml" 69 2027 2034 "fixpointGuided.ml" 69 2027 2039
+type(
+  bool
+)
+"fixpointGuided.ml" 60 1610 1615 "fixpointGuided.ml" 69 2027 2039
+type(
+  bool
+)
+"fixpointGuided.ml" 58 1518 1546 "fixpointGuided.ml" 70 2040 2046
+type(
+  bool
+)
+"fixpointGuided.ml" 72 2055 2060 "fixpointGuided.ml" 72 2055 2064
+type(
+  bool
+)
+"fixpointGuided.ml" 58 1518 1521 "fixpointGuided.ml" 72 2055 2064
+type(
+  bool
+)
+"fixpointGuided.ml" 74 2069 2073 "fixpointGuided.ml" 74 2069 2079
+type(
+  bool
+)
+ident(
+  int_ref active "fixpointGuided.ml" 57 1504 1509 "fixpointGuided.ml" 57 1504 1515
+)
+"fixpointGuided.ml" 75 2091 2094 "fixpointGuided.ml" 75 2091 2109
+type(
+  ('hedge, unit) PHashhe.t -> 'hedge -> unit -> unit
+)
+ident(
+  ext_ref PHashhe.replace
+)
+"fixpointGuided.ml" 75 2091 2110 "fixpointGuided.ml" 75 2091 2121
+type(
+  ('hedge, unit) PHashhe.t
+)
+ident(
+  int_ref activehedge "fixpointGuided.ml" 48 1251 1256 "fixpointGuided.ml" 48 1251 1267
+)
+"fixpointGuided.ml" 75 2091 2122 "fixpointGuided.ml" 75 2091 2127
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointGuided.ml" 55 1395 1410 "fixpointGuided.ml" 55 1395 1415
+)
+"fixpointGuided.ml" 75 2091 2128 "fixpointGuided.ml" 75 2091 2130
+type(
+  unit
+)
+"fixpointGuided.ml" 75 2091 2094 "fixpointGuided.ml" 75 2091 2130
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 76 2132 2138 "fixpointGuided.ml" 76 2132 2145
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 46 1147 1152 "fixpointGuided.ml" 46 1147 1159
+)
+"fixpointGuided.ml" 76 2132 2138 "fixpointGuided.ml" 76 2132 2156
+type(
+  bool
+)
+"fixpointGuided.ml" 76 2132 2162 "fixpointGuided.ml" 76 2132 2177
+type(
+  ('hedge, unit) PHashhe.t -> 'hedge -> unit -> unit
+)
+ident(
+  ext_ref PHashhe.replace
+)
+"fixpointGuided.ml" 76 2132 2178 "fixpointGuided.ml" 76 2132 2182
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointGuided.ml" 52 1314 1320 "fixpointGuided.ml" 52 1314 1324
+)
+"fixpointGuided.ml" 76 2132 2178 "fixpointGuided.ml" 76 2132 2193
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointGuided.ml" 76 2132 2194 "fixpointGuided.ml" 76 2132 2199
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointGuided.ml" 55 1395 1410 "fixpointGuided.ml" 55 1395 1415
+)
+"fixpointGuided.ml" 76 2132 2200 "fixpointGuided.ml" 76 2132 2202
+type(
+  unit
+)
+"fixpointGuided.ml" 76 2132 2162 "fixpointGuided.ml" 76 2132 2202
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 76 2132 2135 "fixpointGuided.ml" 76 2132 2202
+type(
+  unit
+)
+"fixpointGuided.ml" 77 2204 2211 "fixpointGuided.ml" 77 2204 2221
+type(
+  'vertex array
+)
+ident(
+  def succvertex "fixpointGuided.ml" 78 2259 2262 "fixpointGuided.ml" 79 2300 2354
+)
+"fixpointGuided.ml" 77 2204 2224 "fixpointGuided.ml" 77 2204 2243
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  'hedge -> 'vertex array
+)
+ident(
+  ext_ref PSHGraph.succvertex
+)
+"fixpointGuided.ml" 77 2204 2244 "fixpointGuided.ml" 77 2204 2249
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 47 1201 1206 "fixpointGuided.ml" 47 1201 1211
+)
+"fixpointGuided.ml" 77 2204 2250 "fixpointGuided.ml" 77 2204 2255
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointGuided.ml" 55 1395 1410 "fixpointGuided.ml" 55 1395 1415
+)
+"fixpointGuided.ml" 77 2204 2224 "fixpointGuided.ml" 77 2204 2255
+call(
+  stack
+)
+type(
+  'vertex array
+)
+"fixpointGuided.ml" 78 2259 2271 "fixpointGuided.ml" 78 2259 2283
+type(
+  'vertex array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"fixpointGuided.ml" 78 2259 2284 "fixpointGuided.ml" 78 2259 2294
+type(
+  'vertex array
+)
+ident(
+  int_ref succvertex "fixpointGuided.ml" 77 2204 2211 "fixpointGuided.ml" 77 2204 2221
+)
+"fixpointGuided.ml" 78 2259 2270 "fixpointGuided.ml" 78 2259 2295
+type(
+  int
+)
+"fixpointGuided.ml" 78 2259 2295 "fixpointGuided.ml" 78 2259 2296
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"fixpointGuided.ml" 78 2259 2296 "fixpointGuided.ml" 78 2259 2297
+type(
+  int
+)
+"fixpointGuided.ml" 78 2259 2269 "fixpointGuided.ml" 78 2259 2298
+type(
+  bool
+)
+"fixpointGuided.ml" 78 2259 2262 "fixpointGuided.ml" 78 2259 2298
+type(
+  unit
+)
+"fixpointGuided.ml" 79 2300 2303 "fixpointGuided.ml" 79 2300 2318
+type(
+  ('vertex, unit) PHashhe.t -> 'vertex -> unit -> unit
+)
+ident(
+  ext_ref PHashhe.replace
+)
+"fixpointGuided.ml" 79 2300 2319 "fixpointGuided.ml" 79 2300 2323
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointGuided.ml" 52 1314 1320 "fixpointGuided.ml" 52 1314 1324
+)
+"fixpointGuided.ml" 79 2300 2319 "fixpointGuided.ml" 79 2300 2335
+type(
+  ('vertex, unit) PHashhe.t
+)
+"fixpointGuided.ml" 79 2300 2336 "fixpointGuided.ml" 79 2300 2346
+type(
+  'vertex array
+)
+ident(
+  int_ref succvertex "fixpointGuided.ml" 77 2204 2211 "fixpointGuided.ml" 77 2204 2221
+)
+"fixpointGuided.ml" 79 2300 2348 "fixpointGuided.ml" 79 2300 2349
+type(
+  int
+)
+"fixpointGuided.ml" 79 2300 2336 "fixpointGuided.ml" 79 2300 2350
+type(
+  'vertex
+)
+"fixpointGuided.ml" 79 2300 2351 "fixpointGuided.ml" 79 2300 2353
+type(
+  unit
+)
+"fixpointGuided.ml" 79 2300 2303 "fixpointGuided.ml" 79 2300 2354
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 78 2259 2262 "fixpointGuided.ml" 79 2300 2354
+type(
+  unit
+)
+"fixpointGuided.ml" 77 2204 2207 "fixpointGuided.ml" 79 2300 2354
+type(
+  unit
+)
+"fixpointGuided.ml" 76 2132 2135 "fixpointGuided.ml" 79 2300 2354
+type(
+  unit
+)
+"fixpointGuided.ml" 74 2069 2085 "fixpointGuided.ml" 80 2355 2359
+type(
+  unit
+)
+"fixpointGuided.ml" 74 2069 2070 "fixpointGuided.ml" 80 2355 2359
+type(
+  unit
+)
+"fixpointGuided.ml" 81 2361 2362 "fixpointGuided.ml" 81 2361 2368
+type(
+  bool
+)
+ident(
+  int_ref change "fixpointGuided.ml" 55 1395 1438 "fixpointGuided.ml" 55 1395 1444
+)
+"fixpointGuided.ml" 81 2361 2369 "fixpointGuided.ml" 81 2361 2371
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"fixpointGuided.ml" 81 2361 2372 "fixpointGuided.ml" 81 2361 2378
+type(
+  bool
+)
+ident(
+  int_ref active "fixpointGuided.ml" 57 1504 1509 "fixpointGuided.ml" 57 1504 1515
+)
+"fixpointGuided.ml" 81 2361 2362 "fixpointGuided.ml" 81 2361 2378
+type(
+  bool
+)
+"fixpointGuided.ml" 74 2069 2070 "fixpointGuided.ml" 81 2361 2378
+type(
+  bool
+)
+"fixpointGuided.ml" 56 1448 1498 "fixpointGuided.ml" 82 2379 2388
+type(
+  bool
+)
+"fixpointGuided.ml" 84 2400 2401 "fixpointGuided.ml" 84 2400 2407
+type(
+  bool
+)
+ident(
+  int_ref change "fixpointGuided.ml" 55 1395 1438 "fixpointGuided.ml" 55 1395 1444
+)
+"fixpointGuided.ml" 56 1448 1454 "fixpointGuided.ml" 84 2400 2407
+type(
+  bool
+)
+"fixpointGuided.ml" 55 1395 1399 "fixpointGuided.ml" 85 2408 2416
+type(
+  'hedge ->
+  'arc FixpointType.arc ->
+  pred:'vertex array -> succ:'vertex array -> bool -> bool
+)
+"fixpointGuided.ml" 86 2417 2421 "fixpointGuided.ml" 86 2417 2426
+type(
+  bool
+)
+"fixpointGuided.ml" 54 1365 1369 "fixpointGuided.ml" 86 2417 2426
+call(
+  tail
+)
+type(
+  bool
+)
+"fixpointGuided.ml" 88 2432 2434 "fixpointGuided.ml" 88 2432 2440
+type(
+  bool
+)
+ident(
+  int_ref change "fixpointGuided.ml" 53 1350 1356 "fixpointGuided.ml" 53 1350 1362
+)
+"fixpointGuided.ml" 53 1350 1352 "fixpointGuided.ml" 88 2432 2440
+type(
+  bool
+)
+"fixpointGuided.ml" 52 1314 1316 "fixpointGuided.ml" 88 2432 2440
+type(
+  bool
+)
+type(
+  bool
+)
+"fixpointGuided.ml" 90 2442 2446 "fixpointGuided.ml" 90 2442 2454
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'e, 'f, 'g) PSHGraph.t ->
+  'vertex PSette.t ->
+  (('hedge -> bool) -> ('vertex, 'hedge) FixpointType.strategy) ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+ident(
+  def analysis "fixpointGuided.ml" 156 4397 4431 "fixpointGuided.ml" 1 0 -1
+)
+"fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  def manager "fixpointGuided.ml" 92 2509 2513 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 92 2509 2514 "fixpointGuided.ml" 92 2509 2519
+type(
+  ('vertex, 'hedge, 'e, 'f, 'g) PSHGraph.t
+)
+ident(
+  def input "fixpointGuided.ml" 93 2558 2562 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 93 2558 2563 "fixpointGuided.ml" 93 2558 2568
+type(
+  'vertex PSette.t
+)
+ident(
+  def sinit "fixpointGuided.ml" 94 2587 2591 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 94 2587 2592 "fixpointGuided.ml" 94 2587 2605
+type(
+  ('hedge -> bool) -> ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  def make_strategy "fixpointGuided.ml" 95 2654 2658 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 98 2709 2714 "fixpointGuided.ml" 98 2709 2721
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 98 2709 2714 "fixpointGuided.ml" 98 2709 2736
+type(
+  bool
+)
+"fixpointGuided.ml" 99 2748 2752 "fixpointGuided.ml" 99 2748 2759
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointGuided.ml" 99 2748 2760 "fixpointGuided.ml" 99 2748 2767
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 99 2748 2760 "fixpointGuided.ml" 99 2748 2777
+type(
+  Format.formatter
+)
+"fixpointGuided.ml" 99 2748 2778 "fixpointGuided.ml" 99 2748 2797
+type(
+  (unit, Format.formatter, unit) format
+)
+"fixpointGuided.ml" 98 2709 2742 "fixpointGuided.ml" 100 2798 2803
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 98 2709 2711 "fixpointGuided.ml" 100 2798 2803
+type(
+  unit
+)
+"fixpointGuided.ml" 102 2838 2844 "fixpointGuided.ml" 102 2838 2857
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+ident(
+  def strategy_flat "fixpointGuided.ml" 103 2909 2911 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 102 2838 2860 "fixpointGuided.ml" 102 2838 2873
+type(
+  ?depth:int ->
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t ->
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+ident(
+  ext_ref Ilist.flatten
+)
+"fixpointGuided.ml" 102 2838 2875 "fixpointGuided.ml" 102 2838 2888
+type(
+  ('hedge -> bool) -> ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  int_ref make_strategy "fixpointGuided.ml" 94 2587 2592 "fixpointGuided.ml" 94 2587 2605
+)
+"fixpointGuided.ml" 102 2838 2894 "fixpointGuided.ml" 102 2838 2895
+type(
+  'hedge
+)
+"fixpointGuided.ml" 102 2838 2899 "fixpointGuided.ml" 102 2838 2903
+type(
+  bool
+)
+"fixpointGuided.ml" 102 2838 2889 "fixpointGuided.ml" 102 2838 2904
+type(
+  'hedge -> bool
+)
+"fixpointGuided.ml" 102 2838 2874 "fixpointGuided.ml" 102 2838 2905
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+"fixpointGuided.ml" 102 2838 2860 "fixpointGuided.ml" 102 2838 2905
+call(
+  stack
+)
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+"fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  def graph "fixpointGuided.ml" 104 2963 2965 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 103 2909 2923 "fixpointGuided.ml" 103 2909 2939
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'e, 'f, 'g) PSHGraph.t ->
+  'vertex PSette.t -> ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  ext_ref FixpointStd.init
+)
+"fixpointGuided.ml" 103 2909 2940 "fixpointGuided.ml" 103 2909 2947
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 103 2909 2948 "fixpointGuided.ml" 103 2909 2953
+type(
+  ('vertex, 'hedge, 'e, 'f, 'g) PSHGraph.t
+)
+ident(
+  int_ref input "fixpointGuided.ml" 92 2509 2514 "fixpointGuided.ml" 92 2509 2519
+)
+"fixpointGuided.ml" 103 2909 2954 "fixpointGuided.ml" 103 2909 2959
+type(
+  'vertex PSette.t
+)
+ident(
+  int_ref sinit "fixpointGuided.ml" 93 2558 2563 "fixpointGuided.ml" 93 2558 2568
+)
+"fixpointGuided.ml" 103 2909 2923 "fixpointGuided.ml" 103 2909 2959
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+"fixpointGuided.ml" 104 2963 2969 "fixpointGuided.ml" 104 2963 2973
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  def info "fixpointGuided.ml" 105 2999 3001 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 104 2963 2976 "fixpointGuided.ml" 104 2963 2989
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  ext_ref PSHGraph.info
+)
+"fixpointGuided.ml" 104 2963 2990 "fixpointGuided.ml" 104 2963 2995
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+)
+"fixpointGuided.ml" 104 2963 2976 "fixpointGuided.ml" 104 2963 2995
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+"fixpointGuided.ml" 105 2999 3005 "fixpointGuided.ml" 105 2999 3009
+type(
+  bool ref
+)
+ident(
+  def loop "fixpointGuided.ml" 106 3024 3026 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 105 2999 3012 "fixpointGuided.ml" 105 2999 3015
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"fixpointGuided.ml" 105 2999 3016 "fixpointGuided.ml" 105 2999 3020
+type(
+  bool
+)
+"fixpointGuided.ml" 105 2999 3012 "fixpointGuided.ml" 105 2999 3020
+type(
+  bool ref
+)
+"fixpointGuided.ml" 106 3024 3030 "fixpointGuided.ml" 106 3024 3035
+type(
+  bool ref
+)
+ident(
+  def first "fixpointGuided.ml" 107 3050 3052 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 106 3024 3038 "fixpointGuided.ml" 106 3024 3041
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"fixpointGuided.ml" 106 3024 3042 "fixpointGuided.ml" 106 3024 3046
+type(
+  bool
+)
+"fixpointGuided.ml" 106 3024 3038 "fixpointGuided.ml" 106 3024 3046
+type(
+  bool ref
+)
+"fixpointGuided.ml" 107 3050 3056 "fixpointGuided.ml" 107 3050 3067
+type(
+  ('hedge, unit) PHashhe.t
+)
+ident(
+  def activehedge "fixpointGuided.ml" 108 3136 3138 "fixpointGuided.ml" 156 4397 4431
+)
+"fixpointGuided.ml" 107 3050 3070 "fixpointGuided.ml" 107 3050 3092
+type(
+  'hedge Hashhe.compare -> int -> ('hedge, unit) PHashhe.t
+)
+ident(
+  ext_ref PHashhe.create_compare
+)
+"fixpointGuided.ml" 107 3050 3093 "fixpointGuided.ml" 107 3050 3098
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+)
+"fixpointGuided.ml" 107 3050 3093 "fixpointGuided.ml" 107 3050 3115
+type(
+  ('vertex, 'hedge) PSHGraph.compare
+)
+"fixpointGuided.ml" 107 3050 3093 "fixpointGuided.ml" 107 3050 3130
+type(
+  'hedge Hashhe.compare
+)
+"fixpointGuided.ml" 107 3050 3131 "fixpointGuided.ml" 107 3050 3132
+type(
+  int
+)
+"fixpointGuided.ml" 107 3050 3070 "fixpointGuided.ml" 107 3050 3132
+call(
+  stack
+)
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointGuided.ml" 108 3136 3138 "fixpointGuided.ml" 108 3136 3160
+type(
+  float ref -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Time.wrap_duration_add
+)
+"fixpointGuided.ml" 108 3136 3161 "fixpointGuided.ml" 108 3136 3165
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointGuided.ml" 104 2963 2969 "fixpointGuided.ml" 104 2963 2973
+)
+"fixpointGuided.ml" 108 3136 3161 "fixpointGuided.ml" 108 3136 3171
+type(
+  float ref
+)
+"fixpointGuided.ml" 108 3136 3183 "fixpointGuided.ml" 108 3136 3185
+type(
+  unit
+)
+"fixpointGuided.ml" 110 3249 3253 "fixpointGuided.ml" 110 3249 3257
+type(
+  bool ref
+)
+ident(
+  int_ref loop "fixpointGuided.ml" 105 2999 3005 "fixpointGuided.ml" 105 2999 3009
+)
+"fixpointGuided.ml" 110 3249 3258 "fixpointGuided.ml" 110 3249 3260
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointGuided.ml" 110 3249 3261 "fixpointGuided.ml" 110 3249 3265
+type(
+  bool
+)
+"fixpointGuided.ml" 110 3249 3253 "fixpointGuided.ml" 110 3249 3265
+type(
+  unit
+)
+"fixpointGuided.ml" 112 3286 3296 "fixpointGuided.ml" 112 3286 3297
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointGuided.ml" 112 3286 3297 "fixpointGuided.ml" 112 3286 3301
+type(
+  bool ref
+)
+ident(
+  int_ref loop "fixpointGuided.ml" 105 2999 3005 "fixpointGuided.ml" 105 2999 3009
+)
+"fixpointGuided.ml" 112 3286 3296 "fixpointGuided.ml" 112 3286 3301
+type(
+  bool
+)
+"fixpointGuided.ml" 113 3305 3314 "fixpointGuided.ml" 113 3305 3321
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 113 3305 3314 "fixpointGuided.ml" 113 3305 3336
+type(
+  bool
+)
+"fixpointGuided.ml" 114 3348 3349 "fixpointGuided.ml" 114 3348 3356
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointGuided.ml" 114 3348 3357 "fixpointGuided.ml" 114 3348 3364
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 114 3348 3357 "fixpointGuided.ml" 114 3348 3374
+type(
+  Format.formatter
+)
+"fixpointGuided.ml" 114 3348 3375 "fixpointGuided.ml" 114 3348 3397
+type(
+  (unit, Format.formatter, unit) format
+)
+"fixpointGuided.ml" 113 3305 3342 "fixpointGuided.ml" 115 3398 3407
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 113 3305 3311 "fixpointGuided.ml" 115 3398 3407
+type(
+  unit
+)
+"fixpointGuided.ml" 116 3409 3415 "fixpointGuided.ml" 116 3409 3421
+type(
+  bool * bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"fixpointGuided.ml" 116 3409 3423 "fixpointGuided.ml" 116 3409 3460
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy -> bool * bool
+)
+ident(
+  ext_ref FixpointStd.process_toplevel_strategy
+)
+"fixpointGuided.ml" 116 3409 3461 "fixpointGuided.ml" 116 3409 3468
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 116 3409 3469 "fixpointGuided.ml" 116 3409 3474
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+)
+"fixpointGuided.ml" 116 3409 3475 "fixpointGuided.ml" 116 3409 3488
+type(
+  (FixpointType.strategy_iteration,
+   ('vertex, 'hedge) FixpointType.strategy_vertex)
+  Ilist.t
+)
+ident(
+  int_ref strategy_flat "fixpointGuided.ml" 102 2838 2844 "fixpointGuided.ml" 102 2838 2857
+)
+"fixpointGuided.ml" 116 3409 3422 "fixpointGuided.ml" 116 3409 3489
+call(
+  stack
+)
+type(
+  bool * bool
+)
+"fixpointGuided.ml" 116 3409 3415 "fixpointGuided.ml" 116 3409 3489
+type(
+  unit
+)
+"fixpointGuided.ml" 117 3491 3500 "fixpointGuided.ml" 117 3491 3501
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"fixpointGuided.ml" 117 3491 3501 "fixpointGuided.ml" 117 3491 3506
+type(
+  bool ref
+)
+ident(
+  int_ref first "fixpointGuided.ml" 106 3024 3030 "fixpointGuided.ml" 106 3024 3035
+)
+"fixpointGuided.ml" 117 3491 3500 "fixpointGuided.ml" 117 3491 3506
+type(
+  bool
+)
+"fixpointGuided.ml" 118 3518 3519 "fixpointGuided.ml" 118 3518 3524
+type(
+  bool ref
+)
+ident(
+  int_ref first "fixpointGuided.ml" 106 3024 3030 "fixpointGuided.ml" 106 3024 3035
+)
+"fixpointGuided.ml" 118 3518 3525 "fixpointGuided.ml" 118 3518 3527
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointGuided.ml" 118 3518 3528 "fixpointGuided.ml" 118 3518 3533
+type(
+  bool
+)
+"fixpointGuided.ml" 118 3518 3519 "fixpointGuided.ml" 118 3518 3533
+type(
+  unit
+)
+"fixpointGuided.ml" 119 3535 3536 "fixpointGuided.ml" 119 3535 3555
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('hedge ->
+   'arc FixpointType.arc -> pred:'vertex array -> succ:'vertex array -> unit) ->
+  unit
+)
+ident(
+  ext_ref PSHGraph.iter_hedge
+)
+"fixpointGuided.ml" 119 3535 3556 "fixpointGuided.ml" 119 3535 3561
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+)
+"fixpointGuided.ml" 120 3562 3576 "fixpointGuided.ml" 120 3562 3581
+type(
+  'hedge
+)
+ident(
+  def hedge "fixpointGuided.ml" 120 3562 3582 "fixpointGuided.ml" 122 3641 3680
+)
+"fixpointGuided.ml" 120 3562 3582 "fixpointGuided.ml" 120 3562 3591
+type(
+  'arc FixpointType.arc
+)
+ident(
+  def attrhedge "fixpointGuided.ml" 120 3562 3592 "fixpointGuided.ml" 122 3641 3680
+)
+"fixpointGuided.ml" 120 3562 3593 "fixpointGuided.ml" 120 3562 3597
+type(
+  'vertex array
+)
+ident(
+  def pred "fixpointGuided.ml" 120 3562 3598 "fixpointGuided.ml" 122 3641 3680
+)
+"fixpointGuided.ml" 120 3562 3599 "fixpointGuided.ml" 120 3562 3603
+type(
+  'vertex array
+)
+ident(
+  def succ "fixpointGuided.ml" 121 3607 3612 "fixpointGuided.ml" 122 3641 3680
+)
+"fixpointGuided.ml" 121 3607 3615 "fixpointGuided.ml" 121 3607 3618
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"fixpointGuided.ml" 121 3607 3619 "fixpointGuided.ml" 121 3607 3628
+type(
+  'arc FixpointType.arc
+)
+ident(
+  int_ref attrhedge "fixpointGuided.ml" 120 3562 3582 "fixpointGuided.ml" 120 3562 3591
+)
+"fixpointGuided.ml" 121 3607 3619 "fixpointGuided.ml" 121 3607 3635
+type(
+  bool
+)
+"fixpointGuided.ml" 121 3607 3615 "fixpointGuided.ml" 121 3607 3635
+type(
+  bool
+)
+"fixpointGuided.ml" 122 3641 3648 "fixpointGuided.ml" 122 3641 3659
+type(
+  ('hedge, unit) PHashhe.t -> 'hedge -> unit -> unit
+)
+ident(
+  ext_ref PHashhe.add
+)
+"fixpointGuided.ml" 122 3641 3660 "fixpointGuided.ml" 122 3641 3671
+type(
+  ('hedge, unit) PHashhe.t
+)
+ident(
+  int_ref activehedge "fixpointGuided.ml" 107 3050 3056 "fixpointGuided.ml" 107 3050 3067
+)
+"fixpointGuided.ml" 122 3641 3672 "fixpointGuided.ml" 122 3641 3677
+type(
+  'hedge
+)
+ident(
+  int_ref hedge "fixpointGuided.ml" 120 3562 3576 "fixpointGuided.ml" 120 3562 3581
+)
+"fixpointGuided.ml" 122 3641 3678 "fixpointGuided.ml" 122 3641 3680
+type(
+  unit
+)
+"fixpointGuided.ml" 122 3641 3648 "fixpointGuided.ml" 122 3641 3680
+call(
+  tail
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 121 3607 3612 "fixpointGuided.ml" 122 3641 3680
+type(
+  unit
+)
+"fixpointGuided.ml" 120 3562 3565 "fixpointGuided.ml" 123 3681 3688
+type(
+  'hedge ->
+  'arc FixpointType.arc -> pred:'vertex array -> succ:'vertex array -> unit
+)
+"fixpointGuided.ml" 119 3535 3536 "fixpointGuided.ml" 123 3681 3688
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 117 3491 3512 "fixpointGuided.ml" 124 3689 3698
+type(
+  unit
+)
+"fixpointGuided.ml" 117 3491 3497 "fixpointGuided.ml" 124 3689 3698
+type(
+  unit
+)
+"fixpointGuided.ml" 125 3700 3710 "fixpointGuided.ml" 125 3700 3716
+type(
+  bool
+)
+ident(
+  def change "fixpointGuided.ml" 132 3860 3866 "fixpointGuided.ml" 147 4237 4251
+)
+"fixpointGuided.ml" 126 3719 3724 "fixpointGuided.ml" 126 3719 3731
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 126 3719 3724 "fixpointGuided.ml" 126 3719 3742
+type(
+  bool
+)
+"fixpointGuided.ml" 127 3748 3752 "fixpointGuided.ml" 127 3748 3766
+type(
+  ('hedge, unit) PHashhe.t -> int
+)
+ident(
+  ext_ref PHashhe.length
+)
+"fixpointGuided.ml" 127 3748 3767 "fixpointGuided.ml" 127 3748 3771
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointGuided.ml" 104 2963 2969 "fixpointGuided.ml" 104 2963 2973
+)
+"fixpointGuided.ml" 127 3748 3767 "fixpointGuided.ml" 127 3748 3782
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointGuided.ml" 127 3748 3751 "fixpointGuided.ml" 127 3748 3783
+call(
+  stack
+)
+type(
+  int
+)
+"fixpointGuided.ml" 127 3748 3784 "fixpointGuided.ml" 127 3748 3785
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"fixpointGuided.ml" 127 3748 3786 "fixpointGuided.ml" 127 3748 3787
+type(
+  int
+)
+"fixpointGuided.ml" 127 3748 3751 "fixpointGuided.ml" 127 3748 3787
+type(
+  bool
+)
+"fixpointGuided.ml" 129 3794 3797 "fixpointGuided.ml" 129 3794 3801
+type(
+  bool
+)
+"fixpointGuided.ml" 126 3719 3720 "fixpointGuided.ml" 129 3794 3802
+type(
+  bool
+)
+"fixpointGuided.ml" 130 3803 3804 "fixpointGuided.ml" 130 3803 3806
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"fixpointGuided.ml" 130 3803 3807 "fixpointGuided.ml" 130 3803 3824
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('hedge, unit) PHashhe.t -> bool
+)
+ident(
+  int_ref add_active_hedges "fixpointGuided.ml" 45 1125 1129 "fixpointGuided.ml" 45 1125 1146
+)
+"fixpointGuided.ml" 130 3803 3825 "fixpointGuided.ml" 130 3803 3832
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 130 3803 3833 "fixpointGuided.ml" 130 3803 3838
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+)
+"fixpointGuided.ml" 130 3803 3839 "fixpointGuided.ml" 130 3803 3850
+type(
+  ('hedge, unit) PHashhe.t
+)
+ident(
+  int_ref activehedge "fixpointGuided.ml" 107 3050 3056 "fixpointGuided.ml" 107 3050 3067
+)
+"fixpointGuided.ml" 130 3803 3807 "fixpointGuided.ml" 130 3803 3850
+call(
+  stack
+)
+type(
+  bool
+)
+"fixpointGuided.ml" 126 3719 3720 "fixpointGuided.ml" 130 3803 3850
+type(
+  bool
+)
+"fixpointGuided.ml" 132 3860 3869 "fixpointGuided.ml" 132 3860 3875
+type(
+  bool
+)
+ident(
+  int_ref change "fixpointGuided.ml" 125 3700 3710 "fixpointGuided.ml" 125 3700 3716
+)
+"fixpointGuided.ml" 133 3887 3892 "fixpointGuided.ml" 133 3887 3900
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  def strategy "fixpointGuided.ml" 134 3946 3947 "fixpointGuided.ml" 144 4213 4215
+)
+"fixpointGuided.ml" 133 3887 3903 "fixpointGuided.ml" 133 3887 3916
+type(
+  ('hedge -> bool) -> ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  int_ref make_strategy "fixpointGuided.ml" 94 2587 2592 "fixpointGuided.ml" 94 2587 2605
+)
+"fixpointGuided.ml" 133 3887 3918 "fixpointGuided.ml" 133 3887 3929
+type(
+  ('hedge, unit) PHashhe.t -> 'hedge -> bool
+)
+ident(
+  ext_ref PHashhe.mem
+)
+"fixpointGuided.ml" 133 3887 3930 "fixpointGuided.ml" 133 3887 3941
+type(
+  ('hedge, unit) PHashhe.t
+)
+ident(
+  int_ref activehedge "fixpointGuided.ml" 107 3050 3056 "fixpointGuided.ml" 107 3050 3067
+)
+"fixpointGuided.ml" 133 3887 3917 "fixpointGuided.ml" 133 3887 3942
+call(
+  stack
+)
+type(
+  'hedge -> bool
+)
+"fixpointGuided.ml" 133 3887 3903 "fixpointGuided.ml" 133 3887 3942
+call(
+  stack
+)
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+"fixpointGuided.ml" 134 3946 3950 "fixpointGuided.ml" 134 3946 3957
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 134 3946 3950 "fixpointGuided.ml" 134 3946 3972
+type(
+  bool
+)
+"fixpointGuided.ml" 135 3984 3987 "fixpointGuided.ml" 135 3984 3994
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"fixpointGuided.ml" 135 3984 3995 "fixpointGuided.ml" 135 3984 4002
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 135 3984 3995 "fixpointGuided.ml" 135 3984 4012
+type(
+  Format.formatter
+)
+"fixpointGuided.ml" 135 3984 4013 "fixpointGuided.ml" 135 3984 4032
+type(
+  (unit, Format.formatter, unit) format
+)
+"fixpointGuided.ml" 134 3946 3978 "fixpointGuided.ml" 136 4033 4037
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 134 3946 3947 "fixpointGuided.ml" 136 4033 4037
+type(
+  unit
+)
+"fixpointGuided.ml" 137 4039 4040 "fixpointGuided.ml" 137 4039 4046
+type(
+  bool * bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"fixpointGuided.ml" 138 4047 4051 "fixpointGuided.ml" 138 4047 4088
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge) FixpointType.strategy -> bool * bool
+)
+ident(
+  ext_ref FixpointStd.process_toplevel_strategy
+)
+"fixpointGuided.ml" 138 4047 4089 "fixpointGuided.ml" 138 4047 4096
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 138 4047 4097 "fixpointGuided.ml" 138 4047 4102
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+)
+"fixpointGuided.ml" 138 4047 4103 "fixpointGuided.ml" 138 4047 4111
+type(
+  ('vertex, 'hedge) FixpointType.strategy
+)
+ident(
+  int_ref strategy "fixpointGuided.ml" 133 3887 3892 "fixpointGuided.ml" 133 3887 3900
+)
+"fixpointGuided.ml" 138 4047 4050 "fixpointGuided.ml" 138 4047 4112
+call(
+  stack
+)
+type(
+  bool * bool
+)
+"fixpointGuided.ml" 137 4039 4040 "fixpointGuided.ml" 138 4047 4112
+type(
+  unit
+)
+"fixpointGuided.ml" 139 4114 4115 "fixpointGuided.ml" 139 4114 4119
+type(
+  bool ref
+)
+ident(
+  int_ref loop "fixpointGuided.ml" 105 2999 3005 "fixpointGuided.ml" 105 2999 3009
+)
+"fixpointGuided.ml" 139 4114 4120 "fixpointGuided.ml" 139 4114 4122
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointGuided.ml" 140 4123 4129 "fixpointGuided.ml" 140 4123 4136
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 140 4123 4129 "fixpointGuided.ml" 140 4123 4147
+type(
+  bool
+)
+"fixpointGuided.ml" 141 4153 4159 "fixpointGuided.ml" 141 4153 4173
+type(
+  ('hedge, unit) PHashhe.t -> int
+)
+ident(
+  ext_ref PHashhe.length
+)
+"fixpointGuided.ml" 141 4153 4174 "fixpointGuided.ml" 141 4153 4178
+type(
+  ('vertex, 'hedge) FixpointType.info
+)
+ident(
+  int_ref info "fixpointGuided.ml" 104 2963 2969 "fixpointGuided.ml" 104 2963 2973
+)
+"fixpointGuided.ml" 141 4153 4174 "fixpointGuided.ml" 141 4153 4189
+type(
+  ('hedge, unit) PHashhe.t
+)
+"fixpointGuided.ml" 141 4153 4158 "fixpointGuided.ml" 141 4153 4190
+call(
+  stack
+)
+type(
+  int
+)
+"fixpointGuided.ml" 141 4153 4191 "fixpointGuided.ml" 141 4153 4192
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"fixpointGuided.ml" 141 4153 4193 "fixpointGuided.ml" 141 4153 4194
+type(
+  int
+)
+"fixpointGuided.ml" 141 4153 4158 "fixpointGuided.ml" 141 4153 4194
+type(
+  bool
+)
+"fixpointGuided.ml" 143 4203 4208 "fixpointGuided.ml" 143 4203 4212
+type(
+  bool
+)
+"fixpointGuided.ml" 140 4123 4126 "fixpointGuided.ml" 143 4203 4212
+type(
+  bool
+)
+"fixpointGuided.ml" 139 4114 4115 "fixpointGuided.ml" 144 4213 4215
+type(
+  unit
+)
+"fixpointGuided.ml" 137 4039 4040 "fixpointGuided.ml" 144 4213 4215
+type(
+  unit
+)
+"fixpointGuided.ml" 134 3946 3947 "fixpointGuided.ml" 144 4213 4215
+type(
+  unit
+)
+"fixpointGuided.ml" 132 3860 3881 "fixpointGuided.ml" 145 4216 4225
+type(
+  unit
+)
+"fixpointGuided.ml" 147 4237 4238 "fixpointGuided.ml" 147 4237 4242
+type(
+  bool ref
+)
+ident(
+  int_ref loop "fixpointGuided.ml" 105 2999 3005 "fixpointGuided.ml" 105 2999 3009
+)
+"fixpointGuided.ml" 147 4237 4243 "fixpointGuided.ml" 147 4237 4245
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"fixpointGuided.ml" 147 4237 4246 "fixpointGuided.ml" 147 4237 4251
+type(
+  bool
+)
+"fixpointGuided.ml" 147 4237 4238 "fixpointGuided.ml" 147 4237 4251
+type(
+  unit
+)
+"fixpointGuided.ml" 132 3860 3866 "fixpointGuided.ml" 147 4237 4251
+type(
+  unit
+)
+"fixpointGuided.ml" 125 3700 3706 "fixpointGuided.ml" 147 4237 4251
+type(
+  unit
+)
+"fixpointGuided.ml" 117 3491 3497 "fixpointGuided.ml" 147 4237 4251
+type(
+  unit
+)
+"fixpointGuided.ml" 116 3409 3415 "fixpointGuided.ml" 147 4237 4251
+type(
+  unit
+)
+"fixpointGuided.ml" 113 3305 3311 "fixpointGuided.ml" 147 4237 4251
+type(
+  unit
+)
+"fixpointGuided.ml" 112 3286 3290 "fixpointGuided.ml" 148 4252 4261
+type(
+  unit
+)
+"fixpointGuided.ml" 110 3249 3253 "fixpointGuided.ml" 148 4252 4261
+type(
+  unit
+)
+"fixpointGuided.ml" 108 3136 3172 "fixpointGuided.ml" 149 4262 4268
+type(
+  unit -> unit
+)
+"fixpointGuided.ml" 108 3136 3138 "fixpointGuided.ml" 149 4262 4268
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 151 4273 4278 "fixpointGuided.ml" 151 4273 4285
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 151 4273 4278 "fixpointGuided.ml" 151 4273 4300
+type(
+  bool
+)
+"fixpointGuided.ml" 151 4273 4301 "fixpointGuided.ml" 151 4273 4303
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"fixpointGuided.ml" 151 4273 4304 "fixpointGuided.ml" 151 4273 4311
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 151 4273 4304 "fixpointGuided.ml" 151 4273 4319
+type(
+  Format.formatter option
+)
+"fixpointGuided.ml" 151 4273 4319 "fixpointGuided.ml" 151 4273 4321
+type(
+  Format.formatter option -> Format.formatter option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"fixpointGuided.ml" 151 4273 4321 "fixpointGuided.ml" 151 4273 4325
+type(
+  Format.formatter option
+)
+"fixpointGuided.ml" 151 4273 4304 "fixpointGuided.ml" 151 4273 4325
+type(
+  bool
+)
+"fixpointGuided.ml" 151 4273 4278 "fixpointGuided.ml" 151 4273 4325
+type(
+  bool
+)
+"fixpointGuided.ml" 152 4337 4341 "fixpointGuided.ml" 152 4337 4350
+type(
+  ?style:string ->
+  ?titlestyle:string ->
+  ?vertexstyle:string ->
+  ?hedgestyle:string ->
+  ?strategy:('vertex, 'hedge) FixpointType.strategy ->
+  ?vertex:'vertex ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  title:string -> unit
+)
+ident(
+  ext_ref FixpointType.dot_graph
+)
+"fixpointGuided.ml" 152 4337 4351 "fixpointGuided.ml" 152 4337 4358
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.manager
+)
+ident(
+  int_ref manager "fixpointGuided.ml" 91 2455 2460 "fixpointGuided.ml" 91 2455 2467
+)
+"fixpointGuided.ml" 152 4337 4359 "fixpointGuided.ml" 152 4337 4364
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+)
+"fixpointGuided.ml" 153 4365 4378 "fixpointGuided.ml" 153 4365 4386
+type(
+  string
+)
+"fixpointGuided.ml" 151 4273 4331 "fixpointGuided.ml" 154 4387 4392
+call(
+  stack
+)
+type(
+  unit
+)
+"fixpointGuided.ml" 151 4273 4275 "fixpointGuided.ml" 154 4387 4392
+type(
+  unit
+)
+"fixpointGuided.ml" 156 4397 4398 "fixpointGuided.ml" 156 4397 4425
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph ->
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+ident(
+  ext_ref FixpointStd.output_of_graph
+)
+"fixpointGuided.ml" 156 4397 4426 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.graph
+)
+ident(
+  int_ref graph "fixpointGuided.ml" 103 2909 2915 "fixpointGuided.ml" 103 2909 2920
+)
+"fixpointGuided.ml" 156 4397 4398 "fixpointGuided.ml" 156 4397 4431
+call(
+  tail
+)
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 151 4273 4275 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 108 3136 3138 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 107 3050 3052 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 106 3024 3026 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 105 2999 3001 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 104 2963 2965 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 103 2909 2911 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 102 2838 2840 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+"fixpointGuided.ml" 98 2709 2711 "fixpointGuided.ml" 156 4397 4431
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)
+type(
+  ('vertex, 'hedge, 'abstract, 'arc) FixpointType.output
+)

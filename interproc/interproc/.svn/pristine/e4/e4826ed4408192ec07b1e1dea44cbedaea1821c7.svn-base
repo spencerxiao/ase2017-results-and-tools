@@ -1,0 +1,69 @@
+\documentclass[twoside,10pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ae}
+\usepackage{fullpage}
+\usepackage{url}
+\usepackage{ocamldoc}
+\usepackage{makeidx}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.9pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{2.8ex}
+\setlength{\footskip}{5ex}
+\renewcommand{\chaptermark}[1]{ %
+  \markboth{\MakeUppercase{\chaptername}\ \thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{}
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{4}
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+
+\usepackage[ps2pdf]{hyperref}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5ex}
+
+%\usepackage{listings}
+%\lstloadlanguages{Caml}
+
+\makeindex
+
+\title{Interproc: interprocedural analyzer}
+\begin{document}
+\maketitle
+
+
+\vspace*{0.9\textheight}
+
+All files distributed in the \textsc{Interproc} interface are
+distributed under GPL license.
+
+Copyright (C) Mathias Argoud, Gaël Lalire, and Bertrand Jeannet 2007
+
+\newpage
+
+\section*{Introduction}
+
+\subsection*{Requirements}
+
+\begin{itemize}
+\item GMP library (tested with version 4.0 and up)
+\item MPFR library (optional, tested with version 2.2.x)
+\item OCaml 3.0 or up (tested with 3.09 and 3.10)
+\item Camlidl (tested with 1.05)
+\end{itemize}
+
+\subsection*{Installation}
+
+\newpage
+
+\tableofcontents
+
+\input{ocamldoc.tex}
+
+\appendix
+\printindex
+\end{document}

@@ -1,0 +1,165 @@
+running abductor for 01.c
+0:00.21 real
+0.04 user
+0.00 sys
+running abductor for 02.c
+0:00.34 real
+0.32 user
+0.01 sys
+running abductor for 04.c
+0:00.05 real
+0.04 user
+0.00 sys
+running abductor for 05.c
+0:00.05 real
+0.04 user
+0.00 sys
+running abductor for 06.c
+0:00.20 real
+0.20 user
+0.00 sys
+running abductor for 07.c
+0:00.81 real
+0.79 user
+0.00 sys
+running abductor for 08.c
+0:00.48 real
+0.44 user
+0.04 sys
+running abductor for 09.c
+0:00.08 real
+0.08 user
+0.00 sys
+running abductor for 10.c
+0:00.19 real
+0.18 user
+0.00 sys
+running abductor for 11.c
+0:00.19 real
+0.19 user
+0.00 sys
+running abductor for 12.c
+0:03.13 real
+3.06 user
+0.07 sys
+running abductor for 13.c
+0:00.25 real
+0.24 user
+0.01 sys
+running abductor for 14.c
+0:01.10 real
+1.04 user
+0.05 sys
+running abductor for 15.c
+0:11.89 real
+11.62 user
+0.27 sys
+running abductor for 16.c
+0:00.12 real
+0.11 user
+0.00 sys
+running abductor for 17.c
+0:00.09 real
+0.09 user
+0.00 sys
+running abductor for 18.c
+0:02.79 real
+2.70 user
+0.08 sys
+running abductor for 19.c
+0:14.49 real
+14.18 user
+0.30 sys
+running abductor for 20.c
+0:02.35 real
+2.26 user
+0.08 sys
+running abductor for 21.c
+0:00.92 real
+0.89 user
+0.02 sys
+running abductor for 22.c
+0:00.27 real
+0.26 user
+0.01 sys
+running abductor for 23.c
+0:00.03 real
+0.02 user
+0.00 sys
+running abductor for 25.c
+0:00.04 real
+0.03 user
+0.00 sys
+running abductor for 26.c
+0:00.31 real
+0.30 user
+0.01 sys
+running abductor for 28.c
+0:00.04 real
+0.04 user
+0.00 sys
+running abductor for 29.c
+0:00.31 real
+0.30 user
+0.00 sys
+running abductor for 30.c
+0:00.03 real
+0.02 user
+0.00 sys
+running abductor for 32.c
+0:00.44 real
+0.42 user
+0.01 sys
+running abductor for 33.c
+0:00.09 real
+0.09 user
+0.00 sys
+running abductor for 34.c
+Command exited with non-zero status 124
+3:20.12 real
+197.64 user
+2.47 sys
+running abductor for 35.c
+0:00.12 real
+0.10 user
+0.00 sys
+running abductor for 36.c
+0:00.89 real
+0.88 user
+0.00 sys
+running abductor for 37.c
+0:00.45 real
+0.42 user
+0.03 sys
+running abductor for 38.c
+0:00.32 real
+0.31 user
+0.00 sys
+running abductor for 40.c
+0:00.80 real
+0.77 user
+0.02 sys
+running abductor for 41.c
+0:00.41 real
+0.38 user
+0.03 sys
+running abductor for 42.c
+0:00.26 real
+0.25 user
+0.00 sys
+running abductor for 43.c
+0:00.08 real
+0.06 user
+0.00 sys
+running abductor for 44.c
+0:01.17 real
+1.14 user
+0.02 sys
+running abductor for 45.c
+0:00.60 real
+0.58 user
+0.00 sys
+running abductor for 46.c
+0:00.20 real
+0.19 user
+0.00 sys
